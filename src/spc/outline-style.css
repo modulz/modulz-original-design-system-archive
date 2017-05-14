@@ -1,0 +1,59 @@
+/* Outline Style */
+
+.os-none    { outline-style: none; }
+.os-dotted  { outline-style: dotted; }
+.os-dashed  { outline-style: dashed; }
+.os-solid   { outline-style: solid; }
+.os-double  { outline-style: double; }
+.os-groove  { outline-style: groove; }
+.os-ridge   { outline-style: ridge; }
+.os-inset   { outline-style: inset; }
+.os-outset  { outline-style: outset; }
+
+@media (--breakpoint-s) {
+  .bps-os-none    { outline-style: none; }
+  .bps-os-dotted  { outline-style: dotted; }
+  .bps-os-dashed  { outline-style: dashed; }
+  .bps-os-solid   { outline-style: solid; }
+  .bps-os-double  { outline-style: double; }
+  .bps-os-groove  { outline-style: groove; }
+  .bps-os-ridge   { outline-style: ridge; }
+  .bps-os-inset   { outline-style: inset; }
+  .bps-os-outset  { outline-style: outset; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-os-none    { outline-style: none; }
+  .bpm-os-dotted  { outline-style: dotted; }
+  .bpm-os-dashed  { outline-style: dashed; }
+  .bpm-os-solid   { outline-style: solid; }
+  .bpm-os-double  { outline-style: double; }
+  .bpm-os-groove  { outline-style: groove; }
+  .bpm-os-ridge   { outline-style: ridge; }
+  .bpm-os-inset   { outline-style: inset; }
+  .bpm-os-outset  { outline-style: outset; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-os-none    { outline-style: none; }
+  .bpl-os-dotted  { outline-style: dotted; }
+  .bpl-os-dashed  { outline-style: dashed; }
+  .bpl-os-solid   { outline-style: solid; }
+  .bpl-os-double  { outline-style: double; }
+  .bpl-os-groove  { outline-style: groove; }
+  .bpl-os-ridge   { outline-style: ridge; }
+  .bpl-os-inset   { outline-style: inset; }
+  .bpl-os-outset  { outline-style: outset; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-os-none    { outline-style: none; }
+  .bpxl-os-dotted  { outline-style: dotted; }
+  .bpxl-os-dashed  { outline-style: dashed; }
+  .bpxl-os-solid   { outline-style: solid; }
+  .bpxl-os-double  { outline-style: double; }
+  .bpxl-os-groove  { outline-style: groove; }
+  .bpxl-os-ridge   { outline-style: ridge; }
+  .bpxl-os-inset   { outline-style: inset; }
+  .bpxl-os-outset  { outline-style: outset; }
+}

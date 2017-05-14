@@ -1,0 +1,39 @@
+/* Text decoration skip */
+
+.tds-edges      { text-decoration-skip: edges; }
+.tds-ink        { text-decoration-skip: ink; }
+.tds-none       { text-decoration-skip: none; }
+.tds-objects    { text-decoration-skip: objects; }
+.tds-spaces     { text-decoration-skip: spaces; }
+
+@media (--breakpoint-s) {
+    .bps-tds-edges      { text-decoration-skip: edges; }
+    .bps-tds-ink        { text-decoration-skip: ink; }
+    .bps-tds-none       { text-decoration-skip: none; }
+    .bps-tds-objects    { text-decoration-skip: objects; }
+    .bps-tds-spaces     { text-decoration-skip: spaces; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-tds-edges      { text-decoration-skip: edges; }
+    .bpm-tds-ink        { text-decoration-skip: ink; }
+    .bpm-tds-none       { text-decoration-skip: none; }
+    .bpm-tds-objects    { text-decoration-skip: objects; }
+    .bpm-tds-spaces     { text-decoration-skip: spaces; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-tds-edges      { text-decoration-skip: edges; }
+    .bpl-tds-ink        { text-decoration-skip: ink; }
+    .bpl-tds-none       { text-decoration-skip: none; }
+    .bpl-tds-objects    { text-decoration-skip: objects; }
+    .bpl-tds-spaces     { text-decoration-skip: spaces; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-tds-edges      { text-decoration-skip: edges; }
+    .bpxl-tds-ink        { text-decoration-skip: ink; }
+    .bpxl-tds-none       { text-decoration-skip: none; }
+    .bpxl-tds-objects    { text-decoration-skip: objects; }
+    .bpxl-tds-spaces     { text-decoration-skip: spaces; }
+}

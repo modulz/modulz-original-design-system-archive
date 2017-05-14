@@ -1,0 +1,84 @@
+/* Opacity */
+
+.opacity-0    { opacity: 0; }
+.opacity-10   { opacity: .1; }
+.opacity-20   { opacity: .2; }
+.opacity-30   { opacity: .3; }
+.opacity-40   { opacity: .4; }
+.opacity-50   { opacity: .5; }
+.opacity-60   { opacity: .6; }
+.opacity-70   { opacity: .7; }
+.opacity-80   { opacity: .8; }
+.opacity-90   { opacity: .9; }
+.opacity-100  { opacity: 1; }
+
+@media (--breakpoint-s) {
+  .bps-opacity-0    { opacity: 0; }
+  .bps-opacity-10   { opacity: .1; }
+  .bps-opacity-20   { opacity: .2; }
+  .bps-opacity-30   { opacity: .3; }
+  .bps-opacity-40   { opacity: .4; }
+  .bps-opacity-50   { opacity: .5; }
+  .bps-opacity-60   { opacity: .6; }
+  .bps-opacity-70   { opacity: .7; }
+  .bps-opacity-80   { opacity: .8; }
+  .bps-opacity-90   { opacity: .9; }
+  .bps-opacity-100  { opacity: 1; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-opacity-0    { opacity: 0; }
+  .bpm-opacity-10   { opacity: .1; }
+  .bpm-opacity-20   { opacity: .2; }
+  .bpm-opacity-30   { opacity: .3; }
+  .bpm-opacity-40   { opacity: .4; }
+  .bpm-opacity-50   { opacity: .5; }
+  .bpm-opacity-60   { opacity: .6; }
+  .bpm-opacity-70   { opacity: .7; }
+  .bpm-opacity-80   { opacity: .8; }
+  .bpm-opacity-90   { opacity: .9; }
+  .bpm-opacity-100  { opacity: 1; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-opacity-0    { opacity: 0; }
+  .bpl-opacity-10   { opacity: .1; }
+  .bpl-opacity-20   { opacity: .2; }
+  .bpl-opacity-30   { opacity: .3; }
+  .bpl-opacity-40   { opacity: .4; }
+  .bpl-opacity-50   { opacity: .5; }
+  .bpl-opacity-60   { opacity: .6; }
+  .bpl-opacity-70   { opacity: .7; }
+  .bpl-opacity-80   { opacity: .8; }
+  .bpl-opacity-90   { opacity: .9; }
+  .bpl-opacity-100  { opacity: 1; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-opacity-0    { opacity: 0; }
+  .bpxl-opacity-10   { opacity: .1; }
+  .bpxl-opacity-20   { opacity: .2; }
+  .bpxl-opacity-30   { opacity: .3; }
+  .bpxl-opacity-40   { opacity: .4; }
+  .bpxl-opacity-50   { opacity: .5; }
+  .bpxl-opacity-60   { opacity: .6; }
+  .bpxl-opacity-70   { opacity: .7; }
+  .bpxl-opacity-80   { opacity: .8; }
+  .bpxl-opacity-90   { opacity: .9; }
+  .bpxl-opacity-100  { opacity: 1; }
+}
+
+/* Hover states */
+@media (hover) {
+    .opacity-0--hover:hover     { opacity: 0; }
+    .opacity-10--hover:hover    { opacity: .1; }
+    .opacity-20--hover:hover    { opacity: .2; }
+    .opacity-30--hover:hover    { opacity: .3; }
+    .opacity-40--hover:hover    { opacity: .4; }
+    .opacity-50--hover:hover    { opacity: .5; }
+    .opacity-60--hover:hover    { opacity: .6; }
+    .opacity-70--hover:hover    { opacity: .7; }
+    .opacity-80--hover:hover    { opacity: .8; }
+    .opacity-90--hover:hover    { opacity: .9; }
+    .opacity-100--hover:hover   { opacity: 1; }
+}

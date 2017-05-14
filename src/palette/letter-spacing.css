@@ -1,0 +1,59 @@
+/* Letter spacing */
+
+.ls-xxxl    { letter-spacing: 4px; }
+.ls-xxl     { letter-spacing: 2px; }
+.ls-xl      { letter-spacing: 1px; }
+.ls-l       { letter-spacing: .5px; }
+.ls-normal  { letter-spacing: normal; }
+.ls-s       { letter-spacing: -.5px; }
+.ls-xs      { letter-spacing: -1px; }
+.ls-xxs     { letter-spacing: -2px; }
+.ls-xxxs    { letter-spacing: -4px; }
+
+@media (--breakpoint-s) {
+    .bps-ls-xxxl    { letter-spacing: 4px; }
+    .bps-ls-xxl     { letter-spacing: 2px; }
+    .bps-ls-xl      { letter-spacing: 1px; }
+    .bps-ls-l       { letter-spacing: .5px; }
+    .bps-ls-normal  { letter-spacing: normal; }
+    .bps-ls-s       { letter-spacing: -.5px; }
+    .bps-ls-xs      { letter-spacing: -1px; }
+    .bps-ls-xxs     { letter-spacing: -2px; }
+    .bps-ls-xxxs    { letter-spacing: -4px; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-ls-xxxl    { letter-spacing: 4px; }
+    .bpm-ls-xxl     { letter-spacing: 2px; }
+    .bpm-ls-xl      { letter-spacing: 1px; }
+    .bpm-ls-l       { letter-spacing: .5px; }
+    .bpm-ls-normal  { letter-spacing: normal; }
+    .bpm-ls-s       { letter-spacing: -.5px; }
+    .bpm-ls-xs      { letter-spacing: -1px; }
+    .bpm-ls-xxs     { letter-spacing: -2px; }
+    .bpm-ls-xxxs    { letter-spacing: -4px; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-ls-xxxl    { letter-spacing: 4px; }
+    .bpl-ls-xxl     { letter-spacing: 2px; }
+    .bpl-ls-xl      { letter-spacing: 1px; }
+    .bpl-ls-l       { letter-spacing: .5px; }
+    .bpl-ls-normal  { letter-spacing: normal; }
+    .bpl-ls-s       { letter-spacing: -.5px; }
+    .bpl-ls-xs      { letter-spacing: -1px; }
+    .bpl-ls-xxs     { letter-spacing: -2px; }
+    .bpl-ls-xxxs    { letter-spacing: -4px; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-ls-xxxl    { letter-spacing: 4px; }
+    .bpxl-ls-xxl     { letter-spacing: 2px; }
+    .bpxl-ls-xl      { letter-spacing: 1px; }
+    .bpxl-ls-l       { letter-spacing: .5px; }
+    .bpxl-ls-normal  { letter-spacing: normal; }
+    .bpxl-ls-s       { letter-spacing: -.5px; }
+    .bpxl-ls-xs      { letter-spacing: -1px; }
+    .bpxl-ls-xxs     { letter-spacing: -2px; }
+    .bpxl-ls-xxxs    { letter-spacing: -4px; }
+}

@@ -1,0 +1,39 @@
+/* Background Repeat */
+
+.br-repeat      { background-repeat: repeat; }
+.br-repeatX     { background-repeat: repeat-x; }
+.br-repeatY     { background-repeat: repeat-y; }
+.br-noRepeat    { background-repeat: no-repeat; }
+.br-repeat      { background-repeat: repeat; }
+
+@media (--breakpoint-s) {
+    .bps-br-repeat      { background-repeat: repeat; }
+    .bps-br-repeatX     { background-repeat: repeat-x; }
+    .bps-br-repeatY     { background-repeat: repeat-y; }
+    .bps-br-noRepeat    { background-repeat: no-repeat; }
+    .bps-br-repeat      { background-repeat: repeat; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-br-repeat      { background-repeat: repeat; }
+    .bpm-br-repeatX     { background-repeat: repeat-x; }
+    .bpm-br-repeatY     { background-repeat: repeat-y; }
+    .bpm-br-noRepeat    { background-repeat: no-repeat; }
+    .bpm-br-repeat      { background-repeat: repeat; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-br-repeat      { background-repeat: repeat; }
+    .bpl-br-repeatX     { background-repeat: repeat-x; }
+    .bpl-br-repeatY     { background-repeat: repeat-y; }
+    .bpl-br-noRepeat    { background-repeat: no-repeat; }
+    .bpl-br-repeat      { background-repeat: repeat; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-br-repeat     { background-repeat: repeat; }
+    .bpxl-br-repeatX    { background-repeat: repeat-x; }
+    .bpxl-br-repeatY    { background-repeat: repeat-y; }
+    .bpxl-br-noRepeat   { background-repeat: no-repeat; }
+    .bpxl-br-repeat     { background-repeat: repeat; }
+}

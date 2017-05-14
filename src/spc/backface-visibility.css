@@ -1,0 +1,24 @@
+/* Backface Visibility */
+
+.bv-hidden          { backface-visibility: hidden; }
+.bv-visible         { backface-visibility: visible; }
+
+@media (--breakpoint-s) {
+  .bps-bv-hidden    { backface-visibility: hidden; }
+  .bps-bv-visible   { backface-visibility: visible; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-bv-hidden    { backface-visibility: hidden; }
+  .bpm-bv-visible   { backface-visibility: visible; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-bv-hidden    { backface-visibility: hidden; }
+  .bpl-bv-visible   { backface-visibility: visible; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-bv-hidden   { backface-visibility: hidden; }
+  .bpxl-bv-visible  { backface-visibility: visible; }
+}

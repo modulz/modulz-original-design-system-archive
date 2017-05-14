@@ -1,0 +1,29 @@
+/* Visibility */
+
+.visibility-hidden    { visibility: hidden; }
+.visibility-visible   { visibility: visible; }
+.visibility-collapse  { visibility: collapse; }
+
+@media (--breakpoint-s) {
+  .bps-visibility-hidden    { visibility: hidden; }
+  .bps-visibility-visible   { visibility: visible; }
+  .bps-visibility-collapse  { visibility: collapse; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-visibility-hidden    { visibility: hidden; }
+  .bpm-visibility-visible   { visibility: visible; }
+  .bpm-visibility-collapse  { visibility: collapse; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-visibility-hidden    { visibility: hidden; }
+  .bpl-visibility-visible   { visibility: visible; }
+  .bpl-visibility-collapse  { visibility: collapse; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-visibility-hidden    { visibility: hidden; }
+  .bpxl-visibility-visible   { visibility: visible; }
+  .bpxl-visibility-collapse  { visibility: collapse; }
+}

@@ -1,0 +1,24 @@
+/* Outline Width */
+
+.ow-1 { outline-width: 1px; }
+.ow-2 { outline-width: 2px; }
+
+@media (--breakpoint-s) {
+  .bps-ow-1 { outline-width: 1px; }
+  .bps-ow-2 { outline-width: 2px; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-ow-1 { outline-width: 1px; }
+  .bpm-ow-2 { outline-width: 2px; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-ow-1 { outline-width: 1px; }
+  .bpl-ow-2 { outline-width: 2px; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-ow-1 { outline-width: 1px; }
+  .bpxl-ow-2 { outline-width: 2px; }
+}

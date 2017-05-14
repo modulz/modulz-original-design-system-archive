@@ -1,0 +1,7 @@
+/* Vertically center */
+
+.verticallyCenter {
+  position: relative;
+  top: 50%;
+  transform : translateY(-50%);
+}

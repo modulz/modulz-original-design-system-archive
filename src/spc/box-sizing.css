@@ -1,0 +1,24 @@
+/* Box Sizing */
+
+.bs-contentBox          { box-sizing: content-box; }
+.bs-borderBox           { box-sizing: border-box; }
+
+@media (--breakpoint-s) {
+    .bps-bs-contentBox  { box-sizing: content-box; }
+    .bps-bs-borderBox   { box-sizing: border-box; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-bs-contentBox  { box-sizing: content-box; }
+    .bpm-bs-borderBox   { box-sizing: border-box; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-bs-contentBox  { box-sizing: content-box; }
+    .bpl-bs-borderBox   { box-sizing: border-box; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-bs-contentBox { box-sizing: content-box; }
+    .bpxl-bs-borderBox  { box-sizing: border-box; }
+}

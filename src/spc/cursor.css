@@ -1,0 +1,194 @@
+/* Cursor */
+
+.cursor-alias           { cursor: alias; }
+.cursor-allScroll       { cursor: all-scroll; }
+.cursor-auto            { cursor: auto; }
+.cursor-cell            { cursor: cell; }
+.cursor-contextMenu     { cursor: context-menu; }
+.cursor-colResize       { cursor: col-resize; }
+.cursor-copy            { cursor: copy; }
+.cursor-crosshair       { cursor: crosshair; }
+.cursor-default         { cursor: default; }
+.cursor-eResize         { cursor: e-resize; }
+.cursor-ewResize        { cursor: ew-resize; }
+.cursor-grab            { cursor: grab; }
+.cursor-grabbing        { cursor: grabbing; }
+.cursor-help            { cursor: help; }
+.cursor-move            { cursor: move; }
+.cursor-nResize         { cursor: n-resize; }
+.cursor-neResize        { cursor: ne-resize; }
+.cursor-neswResize      { cursor: nesw-resize; }
+.cursor-nsResize        { cursor: ns-resize; }
+.cursor-nwResize        { cursor: nw-resize; }
+.cursor-nwseResize      { cursor: nwse-resize; }
+.cursor-noDrop          { cursor: no-drop; }
+.cursor-none            { cursor: none; }
+.cursor-notAllowed      { cursor: not-allowed; }
+.cursor-pointer         { cursor: pointer; }
+.cursor-progress        { cursor: progress; }
+.cursor-rowResize       { cursor: row-resize; }
+.cursor-sResize         { cursor: s-resize; }
+.cursor-seResize        { cursor: se-resize; }
+.cursor-swResize        { cursor: sw-resize; }
+.cursor-text            { cursor: text; }
+.cursor-verticalText    { cursor: vertical-text; }
+.cursor-wResize         { cursor: w-resize; }
+.cursor-wait            { cursor: wait; }
+.cursor-zoomIn          { cursor: zoom-in; }
+.cursor-zoomOut         { cursor: zoom-out; }
+
+@media (--breakpoint-s) {
+  .bps-cursor-alias           { cursor: alias; }
+  .bps-cursor-allScroll       { cursor: all-scroll; }
+  .bps-cursor-auto            { cursor: auto; }
+  .bps-cursor-cell            { cursor: cell; }
+  .bps-cursor-contextMenu     { cursor: context-menu; }
+  .bps-cursor-colResize       { cursor: col-resize; }
+  .bps-cursor-copy            { cursor: copy; }
+  .bps-cursor-crosshair       { cursor: crosshair; }
+  .bps-cursor-default         { cursor: default; }
+  .bps-cursor-eResize         { cursor: e-resize; }
+  .bps-cursor-ewResize        { cursor: ew-resize; }
+  .bps-cursor-grab            { cursor: grab; }
+  .bps-cursor-grabbing        { cursor: grabbing; }
+  .bps-cursor-help            { cursor: help; }
+  .bps-cursor-move            { cursor: move; }
+  .bps-cursor-nResize         { cursor: n-resize; }
+  .bps-cursor-neResize        { cursor: ne-resize; }
+  .bps-cursor-neswResize      { cursor: nesw-resize; }
+  .bps-cursor-nsResize        { cursor: ns-resize; }
+  .bps-cursor-nwResize        { cursor: nw-resize; }
+  .bps-cursor-nwseResize      { cursor: nwse-resize; }
+  .bps-cursor-noDrop          { cursor: no-drop; }
+  .bps-cursor-none            { cursor: none; }
+  .bps-cursor-notAllowed      { cursor: not-allowed; }
+  .bps-cursor-pointer         { cursor: pointer; }
+  .bps-cursor-progress        { cursor: progress; }
+  .bps-cursor-rowResize       { cursor: row-resize; }
+  .bps-cursor-sResize         { cursor: s-resize; }
+  .bps-cursor-seResize        { cursor: se-resize; }
+  .bps-cursor-swResize        { cursor: sw-resize; }
+  .bps-cursor-text            { cursor: text; }
+  .bps-cursor-verticalText    { cursor: vertical-text; }
+  .bps-cursor-wResize         { cursor: w-resize; }
+  .bps-cursor-wait            { cursor: wait; }
+  .bps-cursor-zoomIn          { cursor: zoom-in; }
+  .bps-cursor-zoomOut         { cursor: zoom-out; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-cursor-alias           { cursor: alias; }
+  .bpm-cursor-allScroll       { cursor: all-scroll; }
+  .bpm-cursor-auto            { cursor: auto; }
+  .bpm-cursor-cell            { cursor: cell; }
+  .bpm-cursor-contextMenu     { cursor: context-menu; }
+  .bpm-cursor-colResize       { cursor: col-resize; }
+  .bpm-cursor-copy            { cursor: copy; }
+  .bpm-cursor-crosshair       { cursor: crosshair; }
+  .bpm-cursor-default         { cursor: default; }
+  .bpm-cursor-eResize         { cursor: e-resize; }
+  .bpm-cursor-ewResize        { cursor: ew-resize; }
+  .bpm-cursor-grab            { cursor: grab; }
+  .bpm-cursor-grabbing        { cursor: grabbing; }
+  .bpm-cursor-help            { cursor: help; }
+  .bpm-cursor-move            { cursor: move; }
+  .bpm-cursor-nResize         { cursor: n-resize; }
+  .bpm-cursor-neResize        { cursor: ne-resize; }
+  .bpm-cursor-neswResize      { cursor: nesw-resize; }
+  .bpm-cursor-nsResize        { cursor: ns-resize; }
+  .bpm-cursor-nwResize        { cursor: nw-resize; }
+  .bpm-cursor-nwseResize      { cursor: nwse-resize; }
+  .bpm-cursor-noDrop          { cursor: no-drop; }
+  .bpm-cursor-none            { cursor: none; }
+  .bpm-cursor-notAllowed      { cursor: not-allowed; }
+  .bpm-cursor-pointer         { cursor: pointer; }
+  .bpm-cursor-progress        { cursor: progress; }
+  .bpm-cursor-rowResize       { cursor: row-resize; }
+  .bpm-cursor-sResize         { cursor: s-resize; }
+  .bpm-cursor-seResize        { cursor: se-resize; }
+  .bpm-cursor-swResize        { cursor: sw-resize; }
+  .bpm-cursor-text            { cursor: text; }
+  .bpm-cursor-verticalText    { cursor: vertical-text; }
+  .bpm-cursor-wResize         { cursor: w-resize; }
+  .bpm-cursor-wait            { cursor: wait; }
+  .bpm-cursor-zoomIn          { cursor: zoom-in; }
+  .bpm-cursor-zoomOut         { cursor: zoom-out; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-cursor-alias           { cursor: alias; }
+  .bpl-cursor-allScroll       { cursor: all-scroll; }
+  .bpl-cursor-auto            { cursor: auto; }
+  .bpl-cursor-cell            { cursor: cell; }
+  .bpl-cursor-contextMenu     { cursor: context-menu; }
+  .bpl-cursor-colResize       { cursor: col-resize; }
+  .bpl-cursor-copy            { cursor: copy; }
+  .bpl-cursor-crosshair       { cursor: crosshair; }
+  .bpl-cursor-default         { cursor: default; }
+  .bpl-cursor-eResize         { cursor: e-resize; }
+  .bpl-cursor-ewResize        { cursor: ew-resize; }
+  .bpl-cursor-grab            { cursor: grab; }
+  .bpl-cursor-grabbing        { cursor: grabbing; }
+  .bpl-cursor-help            { cursor: help; }
+  .bpl-cursor-move            { cursor: move; }
+  .bpl-cursor-nResize         { cursor: n-resize; }
+  .bpl-cursor-neResize        { cursor: ne-resize; }
+  .bpl-cursor-neswResize      { cursor: nesw-resize; }
+  .bpl-cursor-nsResize        { cursor: ns-resize; }
+  .bpl-cursor-nwResize        { cursor: nw-resize; }
+  .bpl-cursor-nwseResize      { cursor: nwse-resize; }
+  .bpl-cursor-noDrop          { cursor: no-drop; }
+  .bpl-cursor-none            { cursor: none; }
+  .bpl-cursor-notAllowed      { cursor: not-allowed; }
+  .bpl-cursor-pointer         { cursor: pointer; }
+  .bpl-cursor-progress        { cursor: progress; }
+  .bpl-cursor-rowResize       { cursor: row-resize; }
+  .bpl-cursor-sResize         { cursor: s-resize; }
+  .bpl-cursor-seResize        { cursor: se-resize; }
+  .bpl-cursor-swResize        { cursor: sw-resize; }
+  .bpl-cursor-text            { cursor: text; }
+  .bpl-cursor-verticalText    { cursor: vertical-text; }
+  .bpl-cursor-wResize         { cursor: w-resize; }
+  .bpl-cursor-wait            { cursor: wait; }
+  .bpl-cursor-zoomIn          { cursor: zoom-in; }
+  .bpl-cursor-zoomOut         { cursor: zoom-out; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-cursor-alias           { cursor: alias; }
+  .bpxl-cursor-allScroll       { cursor: all-scroll; }
+  .bpxl-cursor-auto            { cursor: auto; }
+  .bpxl-cursor-cell            { cursor: cell; }
+  .bpxl-cursor-contextMenu     { cursor: context-menu; }
+  .bpxl-cursor-colResize       { cursor: col-resize; }
+  .bpxl-cursor-copy            { cursor: copy; }
+  .bpxl-cursor-crosshair       { cursor: crosshair; }
+  .bpxl-cursor-default         { cursor: default; }
+  .bpxl-cursor-eResize         { cursor: e-resize; }
+  .bpxl-cursor-ewResize        { cursor: ew-resize; }
+  .bpxl-cursor-grab            { cursor: grab; }
+  .bpxl-cursor-grabbing        { cursor: grabbing; }
+  .bpxl-cursor-help            { cursor: help; }
+  .bpxl-cursor-move            { cursor: move; }
+  .bpxl-cursor-nResize         { cursor: n-resize; }
+  .bpxl-cursor-neResize        { cursor: ne-resize; }
+  .bpxl-cursor-neswResize      { cursor: nesw-resize; }
+  .bpxl-cursor-nsResize        { cursor: ns-resize; }
+  .bpxl-cursor-nwResize        { cursor: nw-resize; }
+  .bpxl-cursor-nwseResize      { cursor: nwse-resize; }
+  .bpxl-cursor-noDrop          { cursor: no-drop; }
+  .bpxl-cursor-none            { cursor: none; }
+  .bpxl-cursor-notAllowed      { cursor: not-allowed; }
+  .bpxl-cursor-pointer         { cursor: pointer; }
+  .bpxl-cursor-progress        { cursor: progress; }
+  .bpxl-cursor-rowResize       { cursor: row-resize; }
+  .bpxl-cursor-sResize         { cursor: s-resize; }
+  .bpxl-cursor-seResize        { cursor: se-resize; }
+  .bpxl-cursor-swResize        { cursor: sw-resize; }
+  .bpxl-cursor-text            { cursor: text; }
+  .bpxl-cursor-verticalText    { cursor: vertical-text; }
+  .bpxl-cursor-wResize         { cursor: w-resize; }
+  .bpxl-cursor-wait            { cursor: wait; }
+  .bpxl-cursor-zoomIn          { cursor: zoom-in; }
+  .bpxl-cursor-zoomOut         { cursor: zoom-out; }
+}

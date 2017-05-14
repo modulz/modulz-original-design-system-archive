@@ -1,0 +1,128 @@
+/* Variables */
+
+:root {
+
+    /* Media queries */
+
+    @custom-media --breakpoint-s (min-width: 38em);
+    @custom-media --breakpoint-m (min-width: 62em);
+    @custom-media --breakpoint-l (min-width: 68em);
+    @custom-media --breakpoint-xl (min-width: 110em);
+
+    /* Color scheme */
+
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --transparent: transparent;
+
+    --opaque: .98;
+    --translucent: .8;
+    --transparent: .5;
+    --pellucid: .15;
+    --limpid: .05;
+
+    --red: hsl(0, 92%, 61%);
+    --pink: hsl(332, 94%, 55%);
+    --purple: hsl(288, 64%, 42%);
+    --indigo: hsl(226, 56%, 48%);
+    --blue: hsl(204, 95%, 50%);
+    --teal: hsl(172, 100%, 35%);
+    --green: hsl(132, 52%, 53%);
+    --lime: hsl(68, 74%, 50%);
+    --yellow: hsl(54, 98%, 50%);
+    --amber: hsl(46, 100%, 57%);
+    --orange: hsl(36, 100%, 50%);
+    --crimson: hsl(18, 100%, 60%);
+    --lavender: hsl(255, 74%, 60%);
+    --violet: hsl(264, 52%, 45%);
+
+    --redTint: hsl(0, 92%, 97%);
+    --pinkTint: hsl(332, 94%, 97%);
+    --purpleTint: hsl(288, 64%, 96%);
+    --indigoTint: hsl(226, 56%, 48%);
+    --blueTint: hsl(200, 100%, 97%);
+    --tealTint:hsl(172, 100%, 35%);
+    --greenTint: hsl(132, 80%, 97%);
+    --limeTint: hsl(68, 74%, 50%);
+    --yellowTint: hsl(54, 98%, 50%);
+    --amberTint: hsl(46, 100%, 96%);
+    --orangeTint: hsl(36, 100%, 50%);
+    --crimsonTint: hsl(18, 100%, 60%);
+    --lavenderTint: hsl(255, 74%, 60%);
+    --violetTint: hsl(264, 52%, 45%);
+
+    --redShade: hsl(0, 92%, 46%);
+    --blueShade: hsl(200, 95%, 35%);
+    --greenShade: hsl(132, 52%, 38%);
+
+    --pearl: hsl(204, 43%, 99%);
+    --snow: hsl(204, 26%, 96%);
+    --smoke: hsl(204, 29%, 92%);
+    --silver: hsl(204, 22%, 80%);
+    --steel: hsl(204, 18%, 51%);
+    --charcoal: hsl(204, 34%, 15%);
+    --lead: hsl(204, 43%, 11%);
+
+    /* Discontinued colors */
+    --violet: #673AB7;
+    --lightBlue: #03A9F4;
+    --cyan: #00BCD4;
+    --lightGreen: #8BC34A;
+    --crimson: #FF5722;
+    --brown: #795548;
+    --gray: hsl(0, 0%, 62%);
+    --redBright: hsl(348, 100%, 55%);
+    --purpleBright: hsl(291, 100%, 49%);
+    --blueBright: hsl(218, 100%, 58%);
+    --tealBright: hsl(165, 82%, 51%);
+
+    /* Font sizes  */
+
+    --fs-1: 1.2rem;
+    --fs-2: 1.4rem;
+    --fs-3: 1.6rem;
+    --fs-4: 1.8rem;
+    --fs-5: 2rem;
+    --fs-6: 2.2rem;
+    --fs-7: 2.4rem;
+    --fs-8: 3.2rem;
+    --fs-9: 4rem;
+    --fs-10: 4.6rem;
+    --fs-11: 6.8rem;
+
+    /* Spacing  */
+
+    --spacing-none: 0;
+    --spacing-xxxs: .4rem;
+    --spacing-xxs: .8rem;
+    --spacing-xs: 1.6rem;
+    --spacing-s: 2.4rem;
+    --spacing-m: 3.2rem;
+    --spacing-l: 4rem;
+    --spacing-xl: 4.8rem;
+    --spacing-xxl: 6.4rem;
+    --spacing-xxxl: 8rem;
+
+    /* Durations  */
+
+    --duration-none: 0;
+    --duration-xl: 1000ms;
+    --duration-l: 400ms;
+    --duration-m: 200ms;
+    --duration-s: 100ms;
+    --duration-xs: 50ms;
+
+    /* Border radius  */
+
+    --br-s: 2px;
+    --br-m: 4px;
+    --br-l: 8px;
+
+    /* Letter spacing  */
+
+    --ls-xxs: -2px;
+    --ls-xs: -1px;
+    --ls-s: -.5px;
+    --ls-l: 1px;
+    --ls-xl: 2px;
+}

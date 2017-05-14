@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html class="oy-scroll" lang="en" style="font-size: 62.5%;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Input - Bantam</title>
+        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css" />
+        <link rel="stylesheet" href="../../css/bantam.min.css">
+
+        <link rel="stylesheet" href="../vendor/highlight.css">
+    </head>
+    <body class="ff-whitney color-charcoal tr-optimizeLegibility">
+        <nav class="position-fixed padding-m">
+            <div class="mb-s">
+                <a class="color-steel fs-l td-none cursor-pointer" href="container.html">Container</a>
+            </div>
+            <div class="mb-s">
+                <a class="color-blue fs-l td-none cursor-pointer" href="grid.html">Grid</a>
+            </div>
+            <div class="mb-s">
+                <a class="color-blue fs-l td-none cursor-pointer" href="button.html">Button</a>
+            </div>
+            <div class="mb-s">
+                <a class="color-blue fs-l td-none cursor-pointer" href="input.html">Input</a>
+            </div>
+            <div class="mb-s">
+                <a class="color-steel fs-l td-none cursor-pointer" href="section.html">Section</a>
+            </div>
+            <div class="mb-s">
+                <a class="color-steel fs-l td-none cursor-pointer" href="link.html">Link</a>
+            </div>
+            <div class="mb-s">
+                <a class="color-blue fs-l td-none cursor-pointer" href="avatar.html">Avatar</a>
+            </div>
+        </nav>
+
+        <div class="Container">
+            <div class="pt-xxxl pb-xxxl">
+                <section>
+                    <div class="mb-xxs">
+                      <h2 class="Heading large" style="line-height: 40px;">Input</h2>
+                    </div>
+                    <div class="mb-m">
+                        <p class="Heading thin gray" style="line-height: 36px;">Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re toggled by clicking.</p>
+                    </div>
+                </section>
+
+                <section class="pt-s pb-s">
+                    <div class="mb-xxxs">
+                      <h2 class=Heading small style="line-height: 30px;">Default input</h2>
+                    </div>
+                    <div class="mb-s">
+                        <p class="Text large" style="line-height: 30px;">Neutral buttons should be used to signify necessary or mandatory actions. There are two color options, specified with an additional class <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--s</code> or <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--l</code> respectively.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s">
+                        <div class="display-flex jc-center">
+                            <div style="width: 260px;">
+                                <input class="input" type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;input class="input" type="text" placeholder="Full name"&gt;</code></pre>
+                        </figure>
+                    </div>
+
+                    <div class="mt-m mb-m">
+                        <p class="Text large" style="line-height: 30px;">If the input is on a dark background, apply <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.has-darkBg</code>.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s bc-lead">
+                        <div class="display-flex jc-center">
+                            <div style="width: 260px;">
+                                <input class="input has-darkBg" type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;input class="input has-darkBg" type="text" placeholder="Full name"&gt;</code></pre>
+                        </figure>
+                    </div>
+
+                    <div class="mt-m mb-m">
+                        <p class="Text large" style="line-height: 30px;">If the input is on a light background, apply <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.has-lightBg</code>.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s bc-pinkTint">
+                        <div class="display-flex jc-center">
+                            <div style="width: 260px;">
+                                <input class="input has-lightBg" type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;input class="input has-lightBg" type="text" placeholder="Full name"&gt;</code></pre>
+                        </figure>
+                    </div>
+                </section>
+
+                <section class="pt-s pb-s">
+                    <div class="mb-xxxs">
+                      <h2 class=Heading small style="line-height: 30px;">Sizes</h2>
+                    </div>
+                    <div class="mb-s">
+                        <p class="Text large" style="line-height: 30px;">Neutral buttons should be used to signify necessary or mandatory actions. There are two color options, specified with an additional class <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--s</code> or <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--l</code> respectively.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s">
+                        <div class="display-flex ai-center jc-center ml-fc">
+                            <div class="ml-m" style="width: 260px;">
+                                <input class="input input--s" type="text" placeholder="Small input">
+                            </div>
+                            <div class="ml-m" style="width: 260px;">
+                                <input class="input input--l" type="text" placeholder="Large input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;button class="button button--neutral"&gt;&lt;/button&gt;</code></pre>
+                        </figure>
+                    </div>
+                </section>
+
+                <section class="pt-s pb-s">
+                    <div class="mb-xxxs">
+                      <h2 class=Heading small style="line-height: 30px;">Disabled input</h2>
+                    </div>
+                    <div class="mb-s">
+                        <p class="Text large" style="line-height: 30px;">Neutral buttons should be used to signify necessary or mandatory actions. There are two color options, specified with an additional class <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--s</code> or <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--l</code> respectively.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s">
+                        <div class="display-flex ai-center jc-center">
+                            <div>
+                                <input class="input" type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;button class="button button--neutral"&gt;&lt;/button&gt;</code></pre>
+                        </figure>
+                    </div>
+                </section>
+
+                <section class="pt-s pb-s">
+                    <div class="mb-xxxs">
+                      <h2 class=Heading small style="line-height: 30px;">Input with data</h2>
+                    </div>
+                    <div class="mb-s">
+                        <p class="Text large" style="line-height: 30px;">Neutral buttons should be used to signify necessary or mandatory actions. There are two color options, specified with an additional class <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--s</code> or <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--l</code> respectively.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s">
+                        <div class="display-flex ai-center jc-center">
+                            <div>
+                                <input class="input" type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;button class="button button--neutral"&gt;&lt;/button&gt;</code></pre>
+                        </figure>
+                    </div>
+                </section>
+
+                <section class="pt-s pb-s">
+                    <div class="mb-xxxs">
+                      <h2 class=Heading small style="line-height: 30px;">Input with icon</h2>
+                    </div>
+                    <div class="mb-s">
+                        <p class="Text large" style="line-height: 30px;">Neutral buttons should be used to signify necessary or mandatory actions. There are two color options, specified with an additional class <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--s</code> or <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--l</code> respectively.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s">
+                        <div class="display-flex ai-center jc-center">
+                            <div class="position-relative">
+                                <input class="input input--m pl-m" type="text" placeholder="Search">
+                                <div class="position-absolute pinAll display-flex ai-center pe-none">
+                                    <button class="button button-m button-neutral">
+                                        <div class="display-inlineBlock">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentcolor" stroke-width="2"><path d="M0 8 L16 8"></path><path d="M8 0 L8 16"></path></svg>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;button class="button button--neutral"&gt;&lt;/button&gt;</code></pre>
+                        </figure>
+                    </div>
+
+                    <div class="mb-s">
+                        <p class="Text large" style="line-height: 30px;">Neutral buttons should be used to signify necessary or mandatory actions. There are two color options, specified with an additional class <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--s</code> or <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--l</code> respectively.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s">
+                        <div class="display-flex ai-center jc-center">
+                            <div class="position-relative">
+                                <input class="input input--m pl-m" type="text" placeholder="Search">
+                                <div class="position-absolute pinAll display-flex ai-center jc-flexEnd pe-none">
+                                    <button class="button button-m button-neutral">
+                                        <div class="display-inlineBlock">
+                                            <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 24 24" width="24">
+                                                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                                                <path d="M0 0h24v24H0z" fill="none"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;button class="button button--neutral"&gt;&lt;/button&gt;</code></pre>
+                        </figure>
+                    </div>
+                </section>
+
+                <section class="pt-s pb-s">
+                    <div class="mb-xxxs">
+                      <h2 class=Heading small style="line-height: 30px;">Types</h2>
+                    </div>
+                    <div class="mb-s">
+                        <p class="Text large" style="line-height: 30px;">Neutral buttons should be used to signify necessary or mandatory actions. There are two color options, specified with an additional class <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--s</code> or <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--l</code> respectively.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s">
+                        <div class="display-flex ai-center jc-center">
+                            <div>
+                                <input class="input" type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;button class="button button--neutral"&gt;&lt;/button&gt;</code></pre>
+                        </figure>
+                    </div>
+                </section>
+
+                <section class="pt-s pb-s">
+                    <div class="mb-xxxs">
+                      <h2 class=Heading small style="line-height: 30px;">Input with button</h2>
+                    </div>
+                    <div class="mb-s">
+                        <p class="Text large" style="line-height: 30px;">Neutral buttons should be used to signify necessary or mandatory actions. There are two color options, specified with an additional class <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--s</code> or <code class="ff-monospace fs-s ws-nowrap bc-pearl bs-smoke color-pink br-m padding-xxxs ml-xxxs mr-xxxs" style="font-family: 'Operator SSm A', 'Operator SSm B';">.button--l</code> respectively.</p>
+                    </div>
+                    <div class="bw-1 bs-solid borderColor-smoke padding-s">
+                        <div class="display-flex ai-center jc-center">
+                            <div>
+                                <input class="input" type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                            <pre class="height-100 padding-s"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fs-s height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;button class="button button--neutral"&gt;&lt;/button&gt;</code></pre>
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="../vendor/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </body>
+</html>

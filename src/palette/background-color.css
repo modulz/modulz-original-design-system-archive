@@ -1,0 +1,168 @@
+/* Background color */
+
+.bc-none                { background-color: transparent; }
+
+.bc-white               { background-color: var(--white); }
+.bc-black               { background-color: var(--black); }
+
+.bc-white--opaque       { background-color: rgba(255,255,255, var(--opaque)); }
+.bc-white--translucent  { background-color: rgba(255,255,255, var(--translucent)); }
+.bc-white--transparent  { background-color: rgba(255,255,255, var(--transparent)); }
+.bc-white--pellucid     { background-color: rgba(255,255,255, var(--pellucid)); }
+.bc-white--limpid       { background-color: rgba(255,255,255, var(--limpid)); }
+
+.bc-black--opaque       { background-color: rgba(0,0,0, var(--opaque)); }
+.bc-black--translucent  { background-color: rgba(0,0,0, var(--translucent)); }
+.bc-black--transparent  { background-color: rgba(0,0,0, var(--transparent)); }
+.bc-black--pellucid     { background-color: rgba(0,0,0, var(--pellucid)); }
+.bc-black--limpid       { background-color: rgba(0,0,0, var(--limpid)); }
+
+.bc-red                 { background-color: var(--red); }
+.bc-pink                { background-color: var(--pink); }
+.bc-purple              { background-color: var(--purple); }
+.bc-violet              { background-color: var(--violet); }
+.bc-indigo              { background-color: var(--indigo); }
+.bc-blue                { background-color: var(--blue); }
+.bc-lavender            { background-color: var(--lavender); }
+.bc-teal                { background-color: var(--teal); }
+.bc-green               { background-color: var(--green); }
+.bc-lime                { background-color: var(--lime); }
+.bc-yellow              { background-color: var(--yellow); }
+.bc-amber               { background-color: var(--amber); }
+.bc-orange              { background-color: var(--orange); }
+.bc-crimson             { background-color: var(--crimson); }
+
+.bc-redTint             { background-color: var(--redTint); }
+.bc-pinkTint            { background-color: var(--pinkTint); }
+.bc-purpleTint          { background-color: var(--purpleTint); }
+.bc-violetTint          { background-color: var(--violetTint); }
+.bc-indigoTint          { background-color: var(--indigoTint); }
+.bc-blueTint            { background-color: var(--blueTint); }
+.bc-lavenderTint        { background-color: var(--lavenderTint); }
+.bc-tealTint            { background-color: var(--tealTint); }
+.bc-greenTint           { background-color: var(--greenTint); }
+.bc-limeTint            { background-color: var(--limeTint); }
+.bc-yellowTint          { background-color: var(--yellowTint); }
+.bc-amberTint           { background-color: var(--amberTint); }
+.bc-orangeTint          { background-color: var(--orangeTint); }
+.bc-crimsonTint         { background-color: var(--crimsonTint); }
+
+.bc-pearl               { background-color: var(--pearl); }
+.bc-snow                { background-color: var(--snow); }
+.bc-smoke               { background-color: var(--smoke); }
+.bc-silver              { background-color: var(--silver); }
+.bc-steel               { background-color: var(--steel); }
+.bc-lead                { background-color: var(--lead); }
+.bc-charcoal            { background-color: var(--charcoal); }
+
+/* Hover states */
+@media (hover) {
+    .bc-none--hover:hover                { background-color: var(--transparent); }
+
+    .bc-white--hover:hover               { background-color: var(--white); }
+    .bc-black--hover:hover               { background-color: var(--black); }
+
+    .bc-white--opaque--hover:hover       { background-color: rgba(255,255,255, var(--opaque)); }
+    .bc-white--translucent--hover:hover  { background-color: rgba(255,255,255, var(--translucent)); }
+    .bc-white--transparent--hover:hover  { background-color: rgba(255,255,255, var(--transparent)); }
+    .bc-white--pellucid--hover:hover     { background-color: rgba(255,255,255, var(--pellucid)); }
+    .bc-white--limpid--hover:hover       { background-color: rgba(255,255,255, var(--limpid)); }
+
+    .bc-black--opaque--hover:hover       { background-color: rgba(0,0,0, var(--opaque)); }
+    .bc-black--translucent--hover:hover  { background-color: rgba(0,0,0, var(--translucent)); }
+    .bc-black--transparent--hover:hover  { background-color: rgba(0,0,0, var(--transparent)); }
+    .bc-black--pellucid--hover:hover     { background-color: rgba(0,0,0, var(--pellucid)); }
+    .bc-black--limpid--hover:hover       { background-color: rgba(0,0,0, var(--limpid)); }
+
+    .bc-red--hover:hover                 { background-color: var(--red); }
+    .bc-pink--hover:hover                { background-color: var(--pink); }
+    .bc-purple--hover:hover              { background-color: var(--purple); }
+    .bc-deepPurple--hover:hover          { background-color: var(--violet); }
+    .bc-indigo--hover:hover              { background-color: var(--indigo); }
+    .bc-blue--hover:hover                { background-color: var(--blue); }
+    .bc-lightBlue--hover:hover           { background-color: var(--lightBlue); }
+    .bc-cyan--hover:hover                { background-color: var(--cyan); }
+    .bc-teal--hover:hover                { background-color: var(--teal); }
+    .bc-green--hover:hover               { background-color: var(--green); }
+    .bc-lightGreen--hover:hover          { background-color: var(--lightGreen); }
+    .bc-lime--hover:hover                { background-color: var(--lime); }
+    .bc-yellow--hover:hover              { background-color: var(--yellow); }
+    .bc-amber--hover:hover               { background-color: var(--amber); }
+    .bc-orange--hover:hover              { background-color: var(--orange); }
+    .bc-deepOrange--hover:hover          { background-color: var(--crimson); }
+    .bc-brown--hover:hover               { background-color: var(--brown); }
+    .bc-gray--hover:hover                { background-color: var(--gray); }
+
+    .bc-pinkTint--hover:hover            { background-color: var(--pinkTint); }
+    .bc-blueTint--hover:hover            { background-color: var(--blueTint); }
+    .bc-tealTint--hover:hover            { background-color: var(--tealTint); }
+    .bc-amberTint--hover:hover           { background-color: var(--amberTint); }
+
+    .bc-redBright--hover:hover           { background-color: var(--redBright); }
+    .bc-purpleBright--hover:hover        { background-color: var(--purpleBright); }
+    .bc-blueBright--hover:hover          { background-color: var(--blueBright); }
+    .bc-tealBright--hover:hover          { background-color: var(--tealBright); }
+
+    .bc-pearl--hover:hover               { background-color: var(--pearl); }
+    .bc-snow--hover:hover                { background-color: var(--snow); }
+    .bc-smoke--hover:hover               { background-color: var(--smoke); }
+    .bc-silver--hover:hover              { background-color: var(--silver); }
+    .bc-steel--hover:hover               { background-color: var(--steel); }
+    .bc-lead--hover:hover                { background-color: var(--lead); }
+    .bc-charcoal--hover:hover            { background-color: var(--charcoal); }
+}
+
+/* Focus states */
+.bc-none--focus:focus                { background-color: var(--transparent); }
+
+.bc-white--focus:focus               { background-color: var(--white); }
+.bc-black--focus:focus               { background-color: var(--black); }
+
+.bc-white--opaque--focus:focus       { background-color: rgba(255,255,255, var(--opaque)); }
+.bc-white--translucent--focus:focus  { background-color: rgba(255,255,255, var(--translucent)); }
+.bc-white--transparent--focus:focus  { background-color: rgba(255,255,255, var(--transparent)); }
+.bc-white--pellucid--focus:focus     { background-color: rgba(255,255,255, var(--pellucid)); }
+.bc-white--limpid--focus:focus       { background-color: rgba(255,255,255, var(--limpid)); }
+
+.bc-black--opaque--focus:focus       { background-color: rgba(0,0,0, var(--opaque)); }
+.bc-black--translucent--focus:focus  { background-color: rgba(0,0,0, var(--translucent)); }
+.bc-black--transparent--focus:focus  { background-color: rgba(0,0,0, var(--transparent)); }
+.bc-black--pellucid--focus:focus     { background-color: rgba(0,0,0, var(--pellucid)); }
+.bc-black--limpid--focus:focus       { background-color: rgba(0,0,0, var(--limpid)); }
+
+.bc-red--focus:focus                 { background-color: var(--red); }
+.bc-pink--focus:focus                { background-color: var(--pink); }
+.bc-purple--focus:focus              { background-color: var(--purple); }
+.bc-deepPurple--focus:focus          { background-color: var(--violet); }
+.bc-indigo--focus:focus              { background-color: var(--indigo); }
+.bc-blue--focus:focus                { background-color: var(--blue); }
+.bc-lightBlue--focus:focus           { background-color: var(--lightBlue); }
+.bc-cyan--focus:focus                { background-color: var(--cyan); }
+.bc-teal--focus:focus                { background-color: var(--teal); }
+.bc-green--focus:focus               { background-color: var(--green); }
+.bc-lightGreen--focus:focus          { background-color: var(--lightGreen); }
+.bc-lime--focus:focus                { background-color: var(--lime); }
+.bc-yellow--focus:focus              { background-color: var(--yellow); }
+.bc-amber--focus:focus               { background-color: var(--amber); }
+.bc-orange--focus:focus              { background-color: var(--orange); }
+.bc-deepOrange--focus:focus          { background-color: var(--crimson); }
+.bc-brown--focus:focus               { background-color: var(--brown); }
+.bc-gray--focus:focus                { background-color: var(--gray); }
+
+.bc-pinkTint--focus:focus            { background-color: var(--pinkTint); }
+.bc-blueTint--focus:focus            { background-color: var(--blueTint); }
+.bc-tealTint--focus:focus            { background-color: var(--tealTint); }
+.bc-amberTint--focus:focus           { background-color: var(--amberTint); }
+
+.bc-redBright--focus:focus           { background-color: var(--redBright); }
+.bc-purpleBright--focus:focus        { background-color: var(--purpleBright); }
+.bc-blueBright--focus:focus          { background-color: var(--blueBright); }
+.bc-tealBright--focus:focus          { background-color: var(--tealBright); }
+
+.bc-pearl--focus:focus               { background-color: var(--pearl); }
+.bc-snow--focus:focus                { background-color: var(--snow); }
+.bc-smoke--focus:focus               { background-color: var(--smoke); }
+.bc-silver--focus:focus              { background-color: var(--silver); }
+.bc-steel--focus:focus               { background-color: var(--steel); }
+.bc-lead--focus:focus                { background-color: var(--lead); }
+.bc-charcoal--focus:focus            { background-color: var(--charcoal); }

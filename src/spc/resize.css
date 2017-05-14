@@ -1,0 +1,34 @@
+/* Resize */
+
+.resize-none        { resize: none; }
+.resize-both        { resize: both; }
+.resize-horizontal  { resize: horizontal; }
+.resize-vertical    { resize: vertical; }
+
+@media (--breakpoint-s) {
+    .bps-resize-none        { resize: none; }
+    .bps-resize-both        { resize: both; }
+    .bps-resize-horizontal  { resize: horizontal; }
+    .bps-resize-vertical    { resize: vertical; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-resize-none        { resize: none; }
+    .bpm-resize-both        { resize: both; }
+    .bpm-resize-horizontal  { resize: horizontal; }
+    .bpm-resize-vertical    { resize: vertical; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-resize-none        { resize: none; }
+    .bpl-resize-both        { resize: both; }
+    .bpl-resize-horizontal  { resize: horizontal; }
+    .bpl-resize-vertical    { resize: vertical; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-resize-none        { resize: none; }
+    .bpxl-resize-both        { resize: both; }
+    .bpxl-resize-horizontal  { resize: horizontal; }
+    .bpxl-resize-vertical    { resize: vertical; }
+}

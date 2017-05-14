@@ -1,0 +1,29 @@
+/* Text Overflow */
+
+.to-clip      { text-overflow: clip; }
+.to-ellipsis  { text-overflow: ellipsis; }
+.to-string    { text-overflow: string; }
+
+@media (--breakpoint-s) {
+  .bps-to-clip      { text-overflow: clip; }
+  .bps-to-ellipsis  { text-overflow: ellipsis; }
+  .bps-to-string    { text-overflow: string; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-to-clip      { text-overflow: clip; }
+  .bpm-to-ellipsis  { text-overflow: ellipsis; }
+  .bpm-to-string    { text-overflow: string; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-to-clip      { text-overflow: clip; }
+  .bpl-to-ellipsis  { text-overflow: ellipsis; }
+  .bpl-to-string    { text-overflow: string; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-to-clip      { text-overflow: clip; }
+  .bpxl-to-ellipsis  { text-overflow: ellipsis; }
+  .bpxl-to-string    { text-overflow: string; }
+}

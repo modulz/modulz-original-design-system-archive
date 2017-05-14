@@ -1,0 +1,16 @@
+.scrollbar {
+    overflow: auto;
+}
+
+.scrollbar::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--silver);
+}

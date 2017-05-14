@@ -1,0 +1,78 @@
+/* Color */
+
+.color-white                { color: var(--white); }
+.color-black                { color: var(--black); }
+.color-transparent          { color: var(--transparent); }
+
+.color-white--opaque        { color: rgba(255,255,255, var(--opaque)); }
+.color-white--translucent   { color: rgba(255,255,255, var(--translucent)); }
+.color-white--transparent   { color: rgba(255,255,255, var(--transparent)); }
+.color-white--pellucid      { color: rgba(255,255,255, var(--pellucid)); }
+.color-white--limpid        { color: rgba(255,255,255, var(--limpid)); }
+
+.color-black--opaque        { color: rgba(0,0,0, var(--opaque)); }
+.color-black--translucent   { color: rgba(0,0,0, var(--translucent)); }
+.color-black--transparent   { color: rgba(0,0,0, var(--transparent)); }
+.color-black--pellucid      { color: rgba(0,0,0, var(--pellucid)); }
+.color-black--limpid        { color: rgba(0,0,0, var(--limpid)); }
+
+.color-red                  { color: var(--red); }
+.color-pink                 { color: var(--pink); }
+.color-purple               { color: var(--purple); }
+.color-violet               { color: var(--violet); }
+.color-indigo               { color: var(--indigo); }
+.color-blue                 { color: var(--blue); }
+.color-teal                 { color: var(--teal); }
+.color-green                { color: var(--green); }
+.color-lime                 { color: var(--lime); }
+.color-yellow               { color: var(--yellow); }
+.color-amber                { color: var(--amber); }
+.color-orange               { color: var(--orange); }
+.color-lavender             { color: var(--lavender); }
+.color-crimson              { color: var(--crimson); }
+
+.color-blueShade            { color: var(--blueShade); }
+.color-redShade             { color: var(--redShade); }
+.color-greenShade           { color: var(--greenShade); }
+
+.color-pearl                { color: var(--pearl); }
+.color-snow                 { color: var(--snow); }
+.color-smoke                { color: var(--smoke); }
+.color-silver               { color: var(--silver); }
+.color-steel                { color: var(--steel); }
+.color-lead                 { color: var(--lead); }
+.color-charcoal             { color: var(--charcoal); }
+
+/* Hover states */
+@media (hover) {
+    .color-white--hover:hover               { color: var(--white); }
+    .color-black--hover:hover               { color: var(--black); }
+    .color-transparent--hover:hover         { color: var(--transparent); }
+
+    .color-red--hover:hover                 { color: var(--red); }
+    .color-pink--hover:hover                { color: var(--pink); }
+    .color-purple--hover:hover              { color: var(--purple); }
+    .color-deepPurple--hover:hover          { color: var(--violet); }
+    .color-indigo--hover:hover              { color: var(--indigo); }
+    .color-blue--hover:hover                { color: var(--blue); }
+    .color-lightBlue--hover:hover           { color: var(--lightBlue); }
+    .color-cyan--hover:hover                { color: var(--cyan); }
+    .color-teal--hover:hover                { color: var(--teal); }
+    .color-green--hover:hover               { color: var(--green); }
+    .color-lightGreen--hover:hover          { color: var(--lightGreen); }
+    .color-lime--hover:hover                { color: var(--lime); }
+    .color-yellow--hover:hover              { color: var(--yellow); }
+    .color-amber--hover:hover               { color: var(--amber); }
+    .color-orange--hover:hover              { color: var(--orange); }
+    .color-deepOrange--hover:hover          { color: var(--crimson); }
+    .color-brown--hover:hover               { color: var(--brown); }
+    .color-gray--hover:hover                { color: var(--gray); }
+
+    .color-pearl--hover:hover               { color: var(--pearl); }
+    .color-snow--hover:hover                { color: var(--snow); }
+    .color-smoke--hover:hover               { color: var(--smoke); }
+    .color-silver--hover:hover              { color: var(--silver); }
+    .color-steel--hover:hover               { color: var(--steel); }
+    .color-lead--hover:hover                { color: var(--lead); }
+    .color-charcoal--hover:hover            { color: var(--charcoal); }
+}

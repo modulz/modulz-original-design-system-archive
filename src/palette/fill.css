@@ -1,0 +1,37 @@
+/* Fill */
+
+.fill-white                { fill: var(--white); }
+.fill-black                { fill: var(--black); }
+.fill-transparent          { fill: var(--transparent); }
+
+.fill-white--translucent   { fill: rgba(255,255,255, var(--translucent)); }
+.fill-white--transparent   { fill: rgba(255,255,255, var(--transparent)); }
+.fill-white--pellucid      { fill: rgba(255,255,255, var(--pellucid)); }
+.fill-white--limpid        { fill: rgba(255,255,255, var(--limpid)); }
+
+.fill-black--translucent   { fill: rgba(0,0,0, var(--translucent)); }
+.fill-black--transparent   { fill: rgba(0,0,0, var(--transparent)); }
+.fill-black--pellucid      { fill: rgba(0,0,0, var(--pellucid)); }
+.fill-black--limpid        { fill: rgba(0,0,0, var(--limpid)); }
+
+.fill-red                  { fill: var(--red); }
+.fill-pink                 { fill: var(--pink); }
+.fill-purple               { fill: var(--purple); }
+.fill-indigo               { fill: var(--indigo); }
+.fill-blue                 { fill: var(--blue); }
+.fill-cyan                 { fill: var(--cyan); }
+.fill-teal                 { fill: var(--teal); }
+.fill-green                { fill: var(--green); }
+.fill-lime                 { fill: var(--lime); }
+.fill-yellow               { fill: var(--yellow); }
+.fill-amber                { fill: var(--amber); }
+.fill-orange               { fill: var(--orange); }
+.fill-brown                { fill: var(--brown); }
+.fill-gray                 { fill: var(--gray); }
+
+.fill-pearl                { fill: var(--pearl); }
+.fill-snow                 { fill: var(--snow); }
+.fill-smoke                { fill: var(--smoke); }
+.fill-steel                { fill: var(--steel); }
+.fill-lead                 { fill: var(--lead); }
+.fill-charcoal             { fill: var(--charcoal); }

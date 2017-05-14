@@ -1,0 +1,34 @@
+/* Text Rendering */
+
+.tr-auto                { text-rendering: auto; }
+.tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+.tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+.tr-geometricPrecision  { text-rendering: geometricPrecision; }
+
+@media (--breakpoint-s) {
+  .bps-tr-auto                { text-rendering: auto; }
+  .bps-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bps-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bps-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-tr-auto                { text-rendering: auto; }
+  .bpm-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bpm-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bpm-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-tr-auto                { text-rendering: auto; }
+  .bpl-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bpl-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bpl-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-tr-auto                { text-rendering: auto; }
+  .bpxl-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bpxl-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bpxl-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+}

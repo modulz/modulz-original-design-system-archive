@@ -1,0 +1,24 @@
+/* Table layout */
+
+.tl-auto    { table-layout: auto; }
+.tl-fixed   { table-layout: fixed; }
+
+@media (--breakpoint-s) {
+    .bps-tl-auto    { table-layout: auto; }
+    .bps-tl-fixed   { table-layout: fixed; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-tl-auto    { table-layout: auto; }
+    .bpm-tl-fixed   { table-layout: fixed; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-tl-auto    { table-layout: auto; }
+    .bpl-tl-fixed   { table-layout: fixed; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-tl-auto    { table-layout: auto; }
+    .bpxl-tl-fixed   { table-layout: fixed; }
+}

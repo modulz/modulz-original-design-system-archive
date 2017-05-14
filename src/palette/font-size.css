@@ -1,0 +1,54 @@
+/* Font size */
+
+.fs-xxxxl   { font-size: var(--fs-xxxxl); }
+.fs-xxxl    { font-size: var(--fs-xxxl); }
+.fs-xxl     { font-size: var(--fs-xxl); }
+.fs-xl      { font-size: var(--fs-xl); }
+.fs-l       { font-size: var(--fs-l); }
+.fs-m       { font-size: var(--fs-m); }
+.fs-s       { font-size: var(--fs-s); }
+.fs-xs      { font-size: var(--fs-xs); }
+
+@media (--breakpoint-s) {
+    .bps-fs-xxxxl   { font-size: var(--fs-xxxxl); }
+    .bps-fs-xxxl    { font-size: var(--fs-xxxl); }
+    .bps-fs-xxl     { font-size: var(--fs-xxl); }
+    .bps-fs-xl      { font-size: var(--fs-xl); }
+    .bps-fs-l       { font-size: var(--fs-l); }
+    .bps-fs-m       { font-size: var(--fs-m); }
+    .bps-fs-s       { font-size: var(--fs-s); }
+    .bps-fs-xs      { font-size: var(--fs-xs); }
+}
+
+@media (--breakpoint-m) {
+    .bpm-fs-xxxxl   { font-size: var(--fs-xxxxl); }
+    .bpm-fs-xxxl    { font-size: var(--fs-xxxl); }
+    .bpm-fs-xxl     { font-size: var(--fs-xxl); }
+    .bpm-fs-xl      { font-size: var(--fs-xl); }
+    .bpm-fs-l       { font-size: var(--fs-l); }
+    .bpm-fs-m       { font-size: var(--fs-m); }
+    .bpm-fs-s       { font-size: var(--fs-s); }
+    .bpm-fs-xs      { font-size: var(--fs-xs); }
+}
+
+@media (--breakpoint-l) {
+    .bpl-fs-xxxxl   { font-size: var(--fs-xxxxl); }
+    .bpl-fs-xxxl    { font-size: var(--fs-xxxl); }
+    .bpl-fs-xxl     { font-size: var(--fs-xxl); }
+    .bpl-fs-xl      { font-size: var(--fs-xl); }
+    .bpl-fs-l       { font-size: var(--fs-l); }
+    .bpl-fs-m       { font-size: var(--fs-m); }
+    .bpl-fs-s       { font-size: var(--fs-s); }
+    .bpl-fs-xs      { font-size: var(--fs-xs); }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-fs-xxxxl   { font-size: var(--fs-xxxxl); }
+    .bpxl-fs-xxxl    { font-size: var(--fs-xxxl); }
+    .bpxl-fs-xxl     { font-size: var(--fs-xxl); }
+    .bpxl-fs-xl      { font-size: var(--fs-xl); }
+    .bpxl-fs-l       { font-size: var(--fs-l); }
+    .bpxl-fs-m       { font-size: var(--fs-m); }
+    .bpxl-fs-s       { font-size: var(--fs-s); }
+    .bpxl-fs-xs      { font-size: var(--fs-xs); }
+}

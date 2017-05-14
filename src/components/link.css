@@ -1,0 +1,81 @@
+.Link,
+.PrimaryLink,
+.LightLink {
+    color: inherit;
+    font-size: var(--fs-3);
+    text-decoration: none;
+    cursor: pointer;
+    background-repeat: repeat-x;
+    background-size: 100% 1px;
+    background-position: 0 100%;
+    transition: all 100ms linear;
+    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+}
+/*.Link:hover {
+    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+}*/
+
+.Link.small,
+.LightLink.small {
+    font-size: var(--fs-2);
+    line-height: 1.5;
+}
+
+.PrimaryLink {
+    color: var(--blue);
+}
+
+.LightLink {
+    color: var(--steel);
+    background-image: none;
+}
+.LightLink:hover {
+    color: var(--lead);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Link.has-darkBg {
+    color: var(--white);
+}
+
+.Link--inherit {
+    color: inherit;
+    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+}
+
+.Link--light {
+    color: var(--steel);
+}
+.Link--light:hover {
+    color: var(--blue);
+}
+
+.Link--light.has-darkBg {
+    color: rgba(255,255,255,.5);
+}
+.Link--light:hover {
+    color: var(--white);
+}
+
+.Link--dark {
+    color: var(--lead);
+}
+.Link--dark:hover {
+    color: var(--blue);
+}

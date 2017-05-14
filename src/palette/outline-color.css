@@ -1,0 +1,39 @@
+/* Outline color */
+
+.oc-white                   { outline-color: var(--white); }
+.oc-black                   { outline-color: var(--black); }
+
+.oc-white--translucent      { outline-color: rgba(255,255,255, var(--translucent)); }
+.oc-white--transparent      { outline-color: rgba(255,255,255, var(--transparent)); }
+.oc-white--pellucid         { outline-color: rgba(255,255,255, var(--pellucid)); }
+.oc-white--limpid           { outline-color: rgba(255,255,255, var(--limpid)); }
+
+.oc-black--translucent      { outline-color: rgba(0,0,0, var(--translucent)); }
+.oc-black--transparent      { outline-color: rgba(0,0,0, var(--transparent)); }
+.oc-black--pellucid         { outline-color: rgba(0,0,0, var(--pellucid)); }
+.oc-black--limpid           { outline-color: rgba(0,0,0, var(--limpid)); }
+
+.oc-red                     { outline-color: var(--red); }
+.oc-pink                    { outline-color: var(--pink); }
+.oc-purple                  { outline-color: var(--purple); }
+.oc-deepPurple              { outline-color: var(--violet); }
+.oc-indigo                  { outline-color: var(--indigo); }
+.oc-blue                    { outline-color: var(--blue); }
+.oc-lightBlue               { outline-color: var(--lightBlue); }
+.oc-cyan                    { outline-color: var(--cyan); }
+.oc-teal                    { outline-color: var(--teal); }
+.oc-green                   { outline-color: var(--green); }
+.oc-lightGreen              { outline-color: var(--lightGreen); }
+.oc-lime                    { outline-color: var(--lime); }
+.oc-yellow                  { outline-color: var(--yellow); }
+.oc-amber                   { outline-color: var(--amber); }
+.oc-orange                  { outline-color: var(--orange); }
+.oc-deepOrange              { outline-color: var(--crimson); }
+.oc-brown                   { outline-color: var(--brown); }
+.oc-gray                    { outline-color: var(--gray); }
+
+.oc-snow                    { outline-color: var(--snow); }
+.oc-smoke                   { outline-color: var(--smoke); }
+.oc-steel                   { outline-color: var(--steel); }
+.oc-lead                    { outline-color: var(--lead); }
+.oc-charcoal                { outline-color: var(--charcoal); }

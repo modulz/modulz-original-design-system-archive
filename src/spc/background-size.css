@@ -1,0 +1,39 @@
+/* Background Size */
+
+.bs-cover           { background-size: cover; }
+.bs-contain         { background-size: contain; }
+.bs-auto            { background-size: auto; }
+.bs-50              { background-size: 50%; }
+.bs-100             { background-size: 100%; }
+
+@media (--breakpoint-s) {
+  .bps-bs-cover     { background-size: cover; }
+  .bps-bs-contain   { background-size: contain; }
+  .bps-bs-auto      { background-size: auto; }
+  .bps-bs-50        { background-size: 50%; }
+  .bps-bs-100       { background-size: 100%; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-bs-cover     { background-size: cover; }
+  .bpm-bs-contain   { background-size: contain; }
+  .bpm-bs-auto      { background-size: auto; }
+  .bpm-bs-50        { background-size: 50%; }
+  .bpm-bs-100       { background-size: 100%; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-bs-cover     { background-size: cover; }
+  .bpl-bs-contain   { background-size: contain; }
+  .bpl-bs-auto      { background-size: auto; }
+  .bpl-bs-50        { background-size: 50%; }
+  .bpl-bs-100       { background-size: 100%; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-bs-cover    { background-size: cover; }
+  .bpxl-bs-contain  { background-size: contain; }
+  .bpxl-bs-auto     { background-size: auto; }
+  .bpxl-bs-50       { background-size: 50%; }
+  .bpxl-bs-100      { background-size: 100%; }
+}

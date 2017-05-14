@@ -1,0 +1,11 @@
+/* Font family */
+
+.ff-sansSerif   { font-family: -apple-system,BlinkMacSystemFont,roboto,helvetica neue,helvetica,ubuntu,noto,segoe ui,arial,sans-serif; }
+.ff-serif       { font-family: georgia,times,serif; }
+.ff-cursive     { font-family: 'Brush Script MT',cursive; }
+.ff-monospace   { font-family: "Source Code Pro","Input Mono",Consolas,"Liberation Mono",Menlo,Courier,monospace; }
+
+.ff-avenir      { font-family: avenir next,avenir,sans-serif; }
+.ff-helvetica   { font-family: helvetica neue,helvetica,sans-serif; }
+.ff-whitney     { font-family: 'Whitney SSm A','Whitney SSm B',roboto,open sans,helvetica neue,helvetica,sans-serif; }
+.ff-roboto      { font-family: roboto,sans-serif; }

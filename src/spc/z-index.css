@@ -1,0 +1,74 @@
+/* Z Index */
+
+.zi-1 { z-index: 100; }
+.zi-2 { z-index: 200; }
+.zi-3 { z-index: 300; }
+.zi-4 { z-index: 400; }
+.zi-5 { z-index: 500; }
+.zi-6 { z-index: 600; }
+.zi-7 { z-index: 700; }
+.zi-8 { z-index: 800; }
+.zi-9 { z-index: 900; }
+
+.zi-negative    { z-index: -1; }
+.zi-max         { z-index: 999999; }
+
+@media (--breakpoint-s) {
+    .bps-zi-1 { z-index: 100; }
+    .bps-zi-2 { z-index: 200; }
+    .bps-zi-3 { z-index: 300; }
+    .bps-zi-4 { z-index: 400; }
+    .bps-zi-5 { z-index: 500; }
+    .bps-zi-6 { z-index: 600; }
+    .bps-zi-7 { z-index: 700; }
+    .bps-zi-8 { z-index: 800; }
+    .bps-zi-9 { z-index: 900; }
+
+    .bps-zi-negative    { z-index: -1; }
+    .bps-zi-max         { z-index: 999999; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-zi-1 { z-index: 100; }
+    .bpm-zi-2 { z-index: 200; }
+    .bpm-zi-3 { z-index: 300; }
+    .bpm-zi-4 { z-index: 400; }
+    .bpm-zi-5 { z-index: 500; }
+    .bpm-zi-6 { z-index: 600; }
+    .bpm-zi-7 { z-index: 700; }
+    .bpm-zi-8 { z-index: 800; }
+    .bpm-zi-9 { z-index: 900; }
+
+    .bpm-zi-negative    { z-index: -1; }
+    .bpm-zi-max         { z-index: 999999; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-zi-1 { z-index: 100; }
+    .bpl-zi-2 { z-index: 200; }
+    .bpl-zi-3 { z-index: 300; }
+    .bpl-zi-4 { z-index: 400; }
+    .bpl-zi-5 { z-index: 500; }
+    .bpl-zi-6 { z-index: 600; }
+    .bpl-zi-7 { z-index: 700; }
+    .bpl-zi-8 { z-index: 800; }
+    .bpl-zi-9 { z-index: 900; }
+
+    .bpl-zi-negative    { z-index: -1; }
+    .bpl-zi-max         { z-index: 999999; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-zi-1 { z-index: 100; }
+    .bpxl-zi-2 { z-index: 200; }
+    .bpxl-zi-3 { z-index: 300; }
+    .bpxl-zi-4 { z-index: 400; }
+    .bpxl-zi-5 { z-index: 500; }
+    .bpxl-zi-6 { z-index: 600; }
+    .bpxl-zi-7 { z-index: 700; }
+    .bpxl-zi-8 { z-index: 800; }
+    .bpxl-zi-9 { z-index: 900; }
+
+    .bpxl-zi-negative    { z-index: -1; }
+    .bpxl-zi-max         { z-index: 999999; }
+}

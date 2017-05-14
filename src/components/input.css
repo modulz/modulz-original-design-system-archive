@@ -1,0 +1,93 @@
+.input {
+    height: var(--spacing-l);
+    padding-left: var(--spacing-xxs);
+    font-size: var(--fs-3);
+    border-radius: var(--br-m);
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
+    width: 100%;
+    transition: all .15s ease;
+}
+.input::-webkit-input-placeholder {
+   color: var(--silver);
+   opacity:  1;
+}
+.input::-moz-placeholder {
+   color: var(--silver);
+   opacity:  1;
+}
+.input:-ms-input-placeholder {
+   color: var(--silver);
+   opacity:  1;
+}
+.input:hover {
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--steel);
+}
+.input:focus {
+    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px var(--blue);
+}
+
+
+/* Sizes */
+
+.input--l {
+    height: var(--spacing-xl);
+    padding-left: var(--spacing-xs);
+}
+
+.input--s {
+    height: var(--spacing-m);
+    padding-left: var(--spacing-xxs);
+    font-size: var(--fs-2);
+}
+
+
+/* Background color variations */
+
+.input.has-darkBg {
+    box-shadow: none;
+    background: rgba(255,255,255,.15);
+    color: var(--white);
+}
+.input.has-darkBg::-webkit-input-placeholder {
+   color: rgba(255,255,255,.5);
+   opacity:  1;
+}
+.input.has-darkBg::-moz-placeholder {
+   color: rgba(255,255,255,.5);
+   opacity:  1;
+}
+.input.has-darkBg:-ms-input-placeholder {
+   color: rgba(255,255,255,.5);
+   opacity:  1;
+}
+.input.has-darkBg:hover,
+.input.has-darkBg:focus {
+    box-shadow: none;
+    background: rgba(255,255,255,.2);
+}
+
+
+
+.input.has-lightBg {
+    box-shadow: none;
+    background: rgba(0,0,0,.05);
+}
+.input.has-lightBg::-webkit-input-placeholder {
+   color: rgba(0,0,0,.25);
+   opacity:  1;
+}
+.input.has-lightBg::-moz-placeholder {
+   color: rgba(0,0,0,.25);
+   opacity:  1;
+}
+.input.has-lightBg:-ms-input-placeholder {
+   color: rgba(0,0,0,.25);
+   opacity:  1;
+}
+.input.has-lightBg:hover,
+.input.has-lightBg:focus {
+    box-shadow: none;
+    background: rgba(0,0,0,.06);
+}

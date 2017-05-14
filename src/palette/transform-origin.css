@@ -1,0 +1,54 @@
+/* Transform origin */
+
+.to-top         { transform-origin: center top; }
+.to-right       { transform-origin: center right; }
+.to-bottom      { transform-origin: center bottom; }
+.to-left        { transform-origin: center left; }
+.to-topLeft     { transform-origin: top left; }
+.to-topRight    { transform-origin: top right; }
+.to-BottomRight { transform-origin: bottom right; }
+.to-BottomLeft  { transform-origin: bottom left; }
+
+@media (--breakpoint-s) {
+  .bps-to-top           { transform-origin: center top; }
+  .bps-to-right         { transform-origin: center right; }
+  .bps-to-bottom        { transform-origin: center bottom; }
+  .bps-to-left          { transform-origin: center left; }
+  .bps-to-topLeft       { transform-origin: top left; }
+  .bps-to-topRight      { transform-origin: top right; }
+  .bps-to-BottomRight   { transform-origin: bottom right; }
+  .bps-to-BottomLeft    { transform-origin: bottom left; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-to-top           { transform-origin: center top; }
+  .bpm-to-right         { transform-origin: center right; }
+  .bpm-to-bottom        { transform-origin: center bottom; }
+  .bpm-to-left          { transform-origin: center left; }
+  .bpm-to-topLeft       { transform-origin: top left; }
+  .bpm-to-topRight      { transform-origin: top right; }
+  .bpm-to-BottomRight   { transform-origin: bottom right; }
+  .bpm-to-BottomLeft    { transform-origin: bottom left; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-to-top           { transform-origin: center top; }
+  .bpl-to-right         { transform-origin: center right; }
+  .bpl-to-bottom        { transform-origin: center bottom; }
+  .bpl-to-left          { transform-origin: center left; }
+  .bpl-to-topLeft       { transform-origin: top left; }
+  .bpl-to-topRight      { transform-origin: top right; }
+  .bpl-to-BottomRight   { transform-origin: bottom right; }
+  .bpl-to-BottomLeft    { transform-origin: bottom left; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-to-top           { transform-origin: center top; }
+  .bpxl-to-right         { transform-origin: center right; }
+  .bpxl-to-bottom        { transform-origin: center bottom; }
+  .bpxl-to-left          { transform-origin: center left; }
+  .bpxl-to-topLeft       { transform-origin: top left; }
+  .bpxl-to-topRight      { transform-origin: top right; }
+  .bpxl-to-BottomRight   { transform-origin: bottom right; }
+  .bpxl-to-BottomLeft    { transform-origin: bottom left; }
+}

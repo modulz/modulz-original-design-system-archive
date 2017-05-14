@@ -1,0 +1,59 @@
+/* Font Weight */
+
+.fw-1 { font-weight: 100; }
+.fw-2 { font-weight: 200; }
+.fw-3 { font-weight: 300; }
+.fw-4 { font-weight: 400; }
+.fw-5 { font-weight: 500; }
+.fw-6 { font-weight: 600; }
+.fw-7 { font-weight: 700; }
+.fw-8 { font-weight: 800; }
+.fw-9 { font-weight: 900; }
+
+@media (--breakpoint-s) {
+    .bps-fw-1 { font-weight: 100; }
+    .bps-fw-2 { font-weight: 200; }
+    .bps-fw-3 { font-weight: 300; }
+    .bps-fw-4 { font-weight: 400; }
+    .bps-fw-5 { font-weight: 500; }
+    .bps-fw-6 { font-weight: 600; }
+    .bps-fw-7 { font-weight: 700; }
+    .bps-fw-8 { font-weight: 800; }
+    .bps-fw-9 { font-weight: 900; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-fw-1 { font-weight: 100; }
+    .bpm-fw-2 { font-weight: 200; }
+    .bpm-fw-3 { font-weight: 300; }
+    .bpm-fw-4 { font-weight: 400; }
+    .bpm-fw-5 { font-weight: 500; }
+    .bpm-fw-6 { font-weight: 600; }
+    .bpm-fw-7 { font-weight: 700; }
+    .bpm-fw-8 { font-weight: 800; }
+    .bpm-fw-9 { font-weight: 900; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-fw-1 { font-weight: 100; }
+    .bpl-fw-2 { font-weight: 200; }
+    .bpl-fw-3 { font-weight: 300; }
+    .bpl-fw-4 { font-weight: 400; }
+    .bpl-fw-5 { font-weight: 500; }
+    .bpl-fw-6 { font-weight: 600; }
+    .bpl-fw-7 { font-weight: 700; }
+    .bpl-fw-8 { font-weight: 800; }
+    .bpl-fw-9 { font-weight: 900; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-fw-1 { font-weight: 100; }
+    .bpxl-fw-2 { font-weight: 200; }
+    .bpxl-fw-3 { font-weight: 300; }
+    .bpxl-fw-4 { font-weight: 400; }
+    .bpxl-fw-5 { font-weight: 500; }
+    .bpxl-fw-6 { font-weight: 600; }
+    .bpxl-fw-7 { font-weight: 700; }
+    .bpxl-fw-8 { font-weight: 800; }
+    .bpxl-fw-9 { font-weight: 900; }
+}

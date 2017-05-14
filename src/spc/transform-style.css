@@ -1,0 +1,24 @@
+/* Transform Style */
+
+.ts-flat        { transform-style: flat; }
+.ts-preserve3d  { transform-style: preserve-3d; }
+
+@media (--breakpoint-s) {
+  .bps-ts-flat        { transform-style: flat; }
+  .bps-ts-preserve3d  { transform-style: preserve-3d; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-ts-flat        { transform-style: flat; }
+  .bpm-ts-preserve3d  { transform-style: preserve-3d; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-ts-flat        { transform-style: flat; }
+  .bpl-ts-preserve3d  { transform-style: preserve-3d; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-ts-flat        { transform-style: flat; }
+  .bpxl-ts-preserve3d  { transform-style: preserve-3d; }
+}

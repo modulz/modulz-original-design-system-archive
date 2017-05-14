@@ -1,0 +1,72 @@
+.Heading {
+    font-size: var(--fs-6);
+    font-weight: 600;
+    letter-spacing: -.038em;
+    margin-left: -1.5px;
+    line-height: 1.45;
+}
+
+.Heading.small {
+    font-size: var(--fs-4);
+    letter-spacing: -.02em;
+    /*line-height: 1.35;*/
+    margin-left: -.5px;
+}
+
+.Heading.large {
+    font-size: var(--fs-8);
+    font-weight: 600;
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
+    line-height: 1.05;
+}
+
+.Heading.title {
+    font-size: var(--fs-10);
+    font-weight: 800;
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
+    line-height: 1.05;
+}
+
+@media (--breakpoint-m) {
+    .Heading {
+        font-size: var(--fs-7);
+    }
+
+    .Heading.small {
+        font-size: var(--fs-5);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.large {
+        font-size: var(--fs-9);
+        margin-left: -3.2px;
+    }
+
+    .Heading.title {
+        font-size: var(--fs-11);
+    }
+}
+
+.Heading.thin { font-weight: 300; }
+
+.Heading.white { color: var(--white); }
+.Heading.black { color: var(--black); }
+.Heading.gray { color: var(--steel); }
+
+.Heading.red { color: var(--red); }
+.Heading.pink { color: var(--pink); }
+.Heading.purple { color: var(--purple); }
+.Heading.violet { color: var(--violet); }
+.Heading.indigo { color: var(--indigo); }
+.Heading.blue { color: var(--blue); }
+.Heading.lavender { color: var(--lavender); }
+.Heading.teal { color: var(--teal); }
+.Heading.green { color: var(--green); }
+.Heading.lime { color: var(--lime); }
+.Heading.yellow { color: var(--yellow); }
+.Heading.amber { color: var(--amber); }
+.Heading.orange { color: var(--orange); }
+.Heading.crimson { color: var(--crimson); }

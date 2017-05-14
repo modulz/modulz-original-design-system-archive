@@ -1,0 +1,34 @@
+/* Clear */
+
+.clear-none             { clear: none; }
+.clear-left             { clear: left; }
+.clear-right            { clear: right; }
+.clear-both             { clear: both; }
+
+@media (--breakpoint-s) {
+  .bps-clear-none       { clear: none; }
+  .bps-clear-left       { clear: left; }
+  .bps-clear-right      { clear: right; }
+  .bps-clear-both       { clear: both; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-clear-none       { clear: none; }
+  .bpm-clear-left       { clear: left; }
+  .bpm-clear-right      { clear: right; }
+  .bpm-clear-both       { clear: both; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-clear-none       { clear: none; }
+  .bpl-clear-left       { clear: left; }
+  .bpl-clear-right      { clear: right; }
+  .bpl-clear-both       { clear: both; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-clear-none      { clear: none; }
+  .bpxl-clear-left      { clear: left; }
+  .bpxl-clear-right     { clear: right; }
+  .bpxl-clear-both      { clear: both; }
+}

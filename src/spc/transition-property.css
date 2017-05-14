@@ -1,0 +1,84 @@
+/* Transition Property */
+
+.tp-none        { transition-property: none; }
+.tp-all         { transition-property: all; }
+.tp-boxShadow   { transition-property: box-shadow; }
+.tp-color       { transition-property: color; }
+.tp-background  { transition-property: background; }
+.tp-width       { transition-property: width; }
+.tp-height      { transition-property: height; }
+.tp-top         { transition-property: top; }
+.tp-right       { transition-property: right; }
+.tp-bottom      { transition-property: bottom; }
+.tp-left        { transition-property: left; }
+.tp-scale       { transition-property: scale; }
+.tp-transform   { transition-property: transform; }
+.tp-opacity     { transition-property: opacity; }
+
+@media (--breakpoint-s) {
+  .bps-tp-none        { transition-property: none; }
+  .bps-tp-all         { transition-property: all; }
+  .bps-tp-boxShadow   { transition-property: box-shadow; }
+  .bps-tp-color       { transition-property: color; }
+  .bps-tp-background  { transition-property: background; }
+  .bps-tp-width       { transition-property: width; }
+  .bps-tp-height      { transition-property: height; }
+  .bps-tp-top         { transition-property: top; }
+  .bps-tp-right       { transition-property: right; }
+  .bps-tp-bottom      { transition-property: bottom; }
+  .bps-tp-left        { transition-property: left; }
+  .bps-tp-scale       { transition-property: scale; }
+  .bps-tp-transform   { transition-property: transform; }
+  .bps-tp-opacity     { transition-property: opacity; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-tp-none        { transition-property: none; }
+  .bpm-tp-all         { transition-property: all; }
+  .bpm-tp-boxShadow   { transition-property: box-shadow; }
+  .bpm-tp-color       { transition-property: color; }
+  .bpm-tp-background  { transition-property: background; }
+  .bpm-tp-width       { transition-property: width; }
+  .bpm-tp-height      { transition-property: height; }
+  .bpm-tp-top         { transition-property: top; }
+  .bpm-tp-right       { transition-property: right; }
+  .bpm-tp-bottom      { transition-property: bottom; }
+  .bpm-tp-left        { transition-property: left; }
+  .bpm-tp-scale       { transition-property: scale; }
+  .bpm-tp-transform   { transition-property: transform; }
+  .bpm-tp-opacity     { transition-property: opacity; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-tp-none        { transition-property: none; }
+  .bpl-tp-all         { transition-property: all; }
+  .bpl-tp-boxShadow   { transition-property: box-shadow; }
+  .bpl-tp-color       { transition-property: color; }
+  .bpl-tp-background  { transition-property: background; }
+  .bpl-tp-width       { transition-property: width; }
+  .bpl-tp-height      { transition-property: height; }
+  .bpl-tp-top         { transition-property: top; }
+  .bpl-tp-right       { transition-property: right; }
+  .bpl-tp-bottom      { transition-property: bottom; }
+  .bpl-tp-left        { transition-property: left; }
+  .bpl-tp-scale       { transition-property: scale; }
+  .bpl-tp-transform   { transition-property: transform; }
+  .bpl-tp-opacity     { transition-property: opacity; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-tp-none        { transition-property: none; }
+  .bpxl-tp-all         { transition-property: all; }
+  .bpxl-tp-boxShadow   { transition-property: box-shadow; }
+  .bpxl-tp-color       { transition-property: color; }
+  .bpxl-tp-background  { transition-property: background; }
+  .bpxl-tp-width       { transition-property: width; }
+  .bpxl-tp-height      { transition-property: height; }
+  .bpxl-tp-top         { transition-property: top; }
+  .bpxl-tp-right       { transition-property: right; }
+  .bpxl-tp-bottom      { transition-property: bottom; }
+  .bpxl-tp-left        { transition-property: left; }
+  .bpxl-tp-scale       { transition-property: scale; }
+  .bpxl-tp-transform   { transition-property: transform; }
+  .bpxl-tp-opacity     { transition-property: opacity; }
+}

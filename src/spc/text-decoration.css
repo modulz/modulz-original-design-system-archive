@@ -1,0 +1,41 @@
+/* Text Decoration */
+
+.td-none        { text-decoration: none; }
+.td-underline   { text-decoration: underline; }
+.td-overline    { text-decoration: overline; }
+.td-lineThrough { text-decoration: line-through; }
+
+@media (--breakpoint-s) {
+    .bps-td-none        { text-decoration: none; }
+    .bps-td-underline   { text-decoration: underline; }
+    .bps-td-overline    { text-decoration: overline; }
+    .bps-td-lineThrough { text-decoration: line-through; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-td-none        { text-decoration: none; }
+    .bpm-td-underline   { text-decoration: underline; }
+    .bpm-td-overline    { text-decoration: overline; }
+    .bpm-td-lineThrough { text-decoration: line-through; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-td-none        { text-decoration: none; }
+    .bpl-td-underline   { text-decoration: underline; }
+    .bpl-td-overline    { text-decoration: overline; }
+    .bpl-td-lineThrough { text-decoration: line-through; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-td-none        { text-decoration: none; }
+    .bpxl-td-underline   { text-decoration: underline; }
+    .bpxl-td-overline    { text-decoration: overline; }
+    .bpxl-td-lineThrough { text-decoration: line-through; }
+}
+
+@media (hover) {
+    .td-none--hover:hover        { text-decoration: none; }
+    .td-underline--hover:hover   { text-decoration: underline; }
+    .td-overline--hover:hover    { text-decoration: overline; }
+    .td-lineThrough--hover:hover { text-decoration: line-through; }
+}

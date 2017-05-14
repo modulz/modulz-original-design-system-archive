@@ -1,0 +1,59 @@
+/* Display */
+
+.display-none         { display: none; }
+.display-block        { display: block; }
+.display-inline       { display: inline; }
+.display-inlineBlock  { display: inline-block; }
+.display-inlineTable  { display: inline-table; }
+.display-table        { display: table; }
+.display-tableCell    { display: table-cell; }
+.display-tableColumn  { display: table-column; }
+.display-tableRow     { display: table-row; }
+
+@media (--breakpoint-s) {
+  .bps-display-none         { display: none; }
+  .bps-display-block        { display: block; }
+  .bps-display-inline       { display: inline; }
+  .bps-display-inlineBlock  { display: inline-block; }
+  .bps-display-inlineTable  { display: inline-table; }
+  .bps-display-table        { display: table; }
+  .bps-display-tableCell    { display: table-cell; }
+  .bps-display-tableColumn  { display: table-column; }
+  .bps-display-tableRow     { display: table-row; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-display-none         { display: none; }
+  .bpm-display-block        { display: block; }
+  .bpm-display-inline       { display: inline; }
+  .bpm-display-inlineBlock  { display: inline-block; }
+  .bpm-display-inlineTable  { display: inline-table; }
+  .bpm-display-table        { display: table; }
+  .bpm-display-tableCell    { display: table-cell; }
+  .bpm-display-tableColumn  { display: table-column; }
+  .bpm-display-tableRow     { display: table-row; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-display-none         { display: none; }
+  .bpl-display-block        { display: block; }
+  .bpl-display-inline       { display: inline; }
+  .bpl-display-inlineBlock  { display: inline-block; }
+  .bpl-display-inlineTable  { display: inline-table; }
+  .bpl-display-table        { display: table; }
+  .bpl-display-tableCell    { display: table-cell; }
+  .bpl-display-tableColumn  { display: table-column; }
+  .bpl-display-tableRow     { display: table-row; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-display-none         { display: none; }
+  .bpxl-display-block        { display: block; }
+  .bpxl-display-inline       { display: inline; }
+  .bpxl-display-inlineBlock  { display: inline-block; }
+  .bpxl-display-inlineTable  { display: inline-table; }
+  .bpxl-display-table        { display: table; }
+  .bpxl-display-tableCell    { display: table-cell; }
+  .bpxl-display-tableColumn  { display: table-column; }
+  .bpxl-display-tableRow     { display: table-row; }
+}

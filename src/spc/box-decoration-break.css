@@ -1,0 +1,5 @@
+/* Box decoration break */
+
+.bdb-clone      { box-decoration-break: clone; }
+.bdb-initial    { box-decoration-break: initial; }
+.bdb-slice      { box-decoration-break: slice; }

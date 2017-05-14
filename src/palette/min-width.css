@@ -1,0 +1,11 @@
+/* Min Width */
+
+.mw-UIxxxs      { min-width: var(--spacing-xxxs); }
+.mw-UIxxs       { min-width: var(--spacing-xxs); }
+.mw-UIxs        { min-width: var(--spacing-xs); }
+.mw-UIs         { min-width: var(--spacing-s); }
+.mw-UIm         { min-width: var(--spacing-m); }
+.mw-UIl         { min-width: var(--spacing-l); }
+.mw-UIxl        { min-width: var(--spacing-xl); }
+.mw-UIxxl       { min-width: var(--spacing-xxl); }
+.mw-UIxxxl      { min-width: var(--spacing-xxxl); }

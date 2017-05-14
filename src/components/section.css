@@ -1,0 +1,35 @@
+.Section {
+    background-color: var(--white);
+    padding-top: var(--spacing-m);
+    padding-bottom: var(--spacing-m);
+}
+
+.Section.small {
+    padding-top: var(--spacing-s);
+    padding-bottom: var(--spacing-s);
+}
+
+.Section.large {
+    padding-top: var(--spacing-xxxl);
+    padding-bottom: var(--spacing-xxxl);
+}
+
+.Section.pearl { background-color: var(--pearl); }
+.Section.snow { background-color: var(--snow); }
+.Section.red { background-color: var(--red); }
+.Section.pink { background-color: var(--pink); }
+.Section.purple { background-color: var(--purple); }
+.Section.violet { background-color: var(--violet); }
+.Section.indigo { background-color: var(--indigo); }
+.Section.blue { background-color: var(--blue); }
+.Section.lavender { background-color: var(--lavender); }
+.Section.teal { background-color: var(--teal); }
+.Section.green { background-color: var(--green); }
+.Section.lime { background-color: var(--lime); }
+.Section.yellow { background-color: var(--yellow); }
+.Section.amber { background-color: var(--amber); }
+.Section.orange { background-color: var(--orange); }
+.Section.crimson { background-color: var(--crimson); }
+
+.Section.pt0 { padding-top: 0; }
+.Section.pb0 { padding-bottom: 0; }

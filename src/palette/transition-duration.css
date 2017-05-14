@@ -1,0 +1,8 @@
+/* Transition duration */
+
+.td-0       { transition-duration: var(--duration-none); }
+.td-xl      { transition-duration: var(--duration-xl); }
+.td-l       { transition-duration: var(--duration-l); }
+.td-m       { transition-duration: var(--duration-m); }
+.td-s       { transition-duration: var(--duration-s); }
+.td-xs      { transition-duration: var(--duration-xs); }

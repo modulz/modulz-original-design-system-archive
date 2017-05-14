@@ -1,0 +1,24 @@
+/* Position */
+
+.direction-ltr      { direction: ltr; }
+.direction-rtl      { direction: rtl; }
+
+@media (--breakpoint-s) {
+  .bps-direction-ltr      { direction: ltr; }
+  .bps-direction-rtl      { direction: rtl; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-direction-ltr      { direction: ltr; }
+  .bpm-direction-rtl      { direction: rtl; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-direction-ltr      { direction: ltr; }
+  .bpl-direction-rtl      { direction: rtl; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-direction-ltr      { direction: ltr; }
+  .bpxl-direction-rtl      { direction: rtl; }
+}

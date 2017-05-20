@@ -1,10 +1,10 @@
 {
-  "name": "bantam",
-  "version": "0.4.0",
+  "name": "modulz",
+  "version": "0.5.0",
   "description": "Scalable, performant, responsive, CSS framework with zero styles.",
   "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
-  "style": "css/bantam.css",
-  "main": "css/bantam.css",
+  "style": "css/modulz.css",
+  "main": "css/modulz.min.css",
   "files": [
     "css",
     "src",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colmtuite/bantam.git"
+    "url": "git+https://github.com/modulz/modulz.git"
   },
   "keywords": [
     "css",
@@ -40,8 +40,8 @@
   ],
   "scripts": {
     "start": "npm run build:css && npm run build:minify",
-    "build:css": "node ./scripts/postcss src/bantam.css css/bantam.css",
-    "build:minify": "node ./scripts/postcss -m src/bantam.css css/bantam.min.css",
+    "build:css": "node ./scripts/postcss src/modulz.css css/modulz.css",
+    "build:minify": "node ./scripts/postcss -m src/modulz.css css/modulz.min.css",
     "build:watch": "watch 'npm start' ./src/"
   }
 }

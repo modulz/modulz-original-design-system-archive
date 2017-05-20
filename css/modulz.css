@@ -8031,132 +8031,106 @@ a {
     font-family: roboto,sans-serif
 }
 /* Font size */
-.fs-xxxxl {
-    font-size: var(--fs-xxxxl)
+.fs-8 {
+    font-size: 3.2rem
 }
-.fs-xxxl {
-    font-size: var(--fs-xxxl)
+.fs-7 {
+    font-size: 2.4rem
 }
-.fs-xxl {
-    font-size: var(--fs-xxl)
+.fs-6 {
+    font-size: 2.2rem
 }
-.fs-xl {
-    font-size: var(--fs-xl)
+.fs-5 {
+    font-size: 2rem
 }
-.fs-l {
-    font-size: var(--fs-l)
+.fs-4 {
+    font-size: 1.8rem
 }
-.fs-m {
-    font-size: var(--fs-m)
+.fs-3 {
+    font-size: 1.6rem
 }
-.fs-s {
-    font-size: var(--fs-s)
+.fs-2 {
+    font-size: 1.4rem
 }
-.fs-xs {
-    font-size: var(--fs-xs)
+.fs-1 {
+    font-size: 1.2rem
 }
 @media (min-width: 38em) {
-    .bps-fs-xxxxl {
-        font-size: var(--fs-xxxxl)
+    .bps-fs-8 {
+        font-size: 3.2rem
     }
-    .bps-fs-xxxl {
-        font-size: var(--fs-xxxl)
+    .bps-fs-7 {
+        font-size: 2.4rem
     }
-    .bps-fs-xxl {
-        font-size: var(--fs-xxl)
+    .bps-fs-6 {
+        font-size: 2.2rem
     }
-    .bps-fs-xl {
-        font-size: var(--fs-xl)
+    .bps-fs-5 {
+        font-size: 2rem
     }
-    .bps-fs-l {
-        font-size: var(--fs-l)
+    .bps-fs-4 {
+        font-size: 1.8rem
     }
-    .bps-fs-m {
-        font-size: var(--fs-m)
+    .bps-fs-3 {
+        font-size: 1.6rem
     }
-    .bps-fs-s {
-        font-size: var(--fs-s)
+    .bps-fs-2 {
+        font-size: 1.4rem
     }
-    .bps-fs-xs {
-        font-size: var(--fs-xs)
-    }
-}
-@media (min-width: 62em) {
-    .bpm-fs-xxxxl {
-        font-size: var(--fs-xxxxl)
-    }
-    .bpm-fs-xxxl {
-        font-size: var(--fs-xxxl)
-    }
-    .bpm-fs-xxl {
-        font-size: var(--fs-xxl)
-    }
-    .bpm-fs-xl {
-        font-size: var(--fs-xl)
-    }
-    .bpm-fs-l {
-        font-size: var(--fs-l)
-    }
-    .bpm-fs-m {
-        font-size: var(--fs-m)
-    }
-    .bpm-fs-s {
-        font-size: var(--fs-s)
-    }
-    .bpm-fs-xs {
-        font-size: var(--fs-xs)
+    .bps-fs-1 {
+        font-size: 1.2rem
     }
 }
 @media (min-width: 68em) {
-    .bpl-fs-xxxxl {
-        font-size: var(--fs-xxxxl)
+    .bpl-fs-8 {
+        font-size: 3.2rem
     }
-    .bpl-fs-xxxl {
-        font-size: var(--fs-xxxl)
+    .bpl-fs-7 {
+        font-size: 2.4rem
     }
-    .bpl-fs-xxl {
-        font-size: var(--fs-xxl)
+    .bpl-fs-6 {
+        font-size: 2.2rem
     }
-    .bpl-fs-xl {
-        font-size: var(--fs-xl)
+    .bpl-fs-5 {
+        font-size: 2rem
     }
-    .bpl-fs-l {
-        font-size: var(--fs-l)
+    .bpl-fs-4 {
+        font-size: 1.8rem
     }
-    .bpl-fs-m {
-        font-size: var(--fs-m)
+    .bpl-fs-3 {
+        font-size: 1.6rem
     }
     .bpl-fs-s {
         font-size: var(--fs-s)
     }
-    .bpl-fs-xs {
-        font-size: var(--fs-xs)
+    .bpl-fs-1 {
+        font-size: 1.2rem
     }
 }
 @media (min-width: 110em) {
-    .bpxl-fs-xxxxl {
-        font-size: var(--fs-xxxxl)
+    .bpxl-fs-8 {
+        font-size: 3.2rem
     }
-    .bpxl-fs-xxxl {
-        font-size: var(--fs-xxxl)
+    .bpxl-fs-7 {
+        font-size: 2.4rem
     }
-    .bpxl-fs-xxl {
-        font-size: var(--fs-xxl)
+    .bpxl-fs-6 {
+        font-size: 2.2rem
     }
-    .bpxl-fs-xl {
-        font-size: var(--fs-xl)
+    .bpxl-fs-5 {
+        font-size: 2rem
     }
-    .bpxl-fs-l {
-        font-size: var(--fs-l)
+    .bpxl-fs-4 {
+        font-size: 1.8rem
     }
-    .bpxl-fs-m {
-        font-size: var(--fs-m)
+    .bpxl-fs-3 {
+        font-size: 1.6rem
     }
     .bpxl-fs-s {
         font-size: var(--fs-s)
     }
-    .bpxl-fs-xs {
-        font-size: var(--fs-xs)
+    .bpxl-fs-1 {
+        font-size: 1.2rem
     }
 }
 /* Heights */
@@ -11885,6 +11859,62 @@ a {
 }
 
 /* Components */
+.control {
+    position: relative;
+    cursor: pointer;
+    display: inline-block
+}
+.control input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1/* Put the input behind the label so it doesn't overlay text */
+}
+.control-indicator {
+    width: 1.6rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background-color: hsl(0, 0%, 100%);
+    background-size: 50% 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    box-shadow: 0 0 0 1px black;
+    border-radius: 2px
+}
+/* Hover state */
+.control:hover .control-indicator {
+    background-color: #ccc
+}
+/* Focus */
+/*.control input:focus ~ .control-indicator {
+    box-shadow: 0 0 0 .075rem yellow, 0 0 0 .2rem pink;
+}*/
+/* Checked state */
+.control input:checked ~ .control-indicator {
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 0 1px purple;
+    background-color: purple
+}
+.checkbox input:checked ~ .control-indicator {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNCwxTDUuNywxLjdMMi45LDQuNUwyLjEsMy43TDEuNCwzTDAsNC40bDAuNywwLjdsMS41LDEuNWwwLjcsMC43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=)
+}
+/* Radio modifiers */
+.radio .control-indicator {
+    border-radius: 50%
+}
+.radio input:checked ~ .control-indicator {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTQsMUMyLjMsMSwxLDIuMywxLDRzMS4zLDMsMywzczMtMS4zLDMtM1M1LjcsMSw0LDF6Ii8+DQo8L3N2Zz4NCg==)
+}
+/* Alternately, use another character */
+.control-x input:checked ~ .control-indicator {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iOHB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDggOCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgOCA4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xLjQsMEwwLDEuNGwwLjcsMC43bDEuOCwxLjhMMC43LDUuN0wwLDYuNGwxLjQsMS40bDAuNy0wLjdsMS44LTEuOGwxLjgsMS44bDAuNywwLjdsMS40LTEuNEw3LjEsNS43DQoJTDUuMywzLjlsMS44LTEuOGwwLjctMC43TDYuNCwwTDUuNywwLjdMMy45LDIuNUwyLjEsMC43QzIuMSwwLjcsMS40LDAsMS40LDB6Ii8+DQo8L3N2Zz4NCg==)
+}
+.control-dash input:checked ~ .control-indicator {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iOHB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDggOCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgOCA4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wLDN2Mmg4VjNIMHoiLz4NCjwvc3ZnPg0K)
+}
 /* Grid */
 .Grid {
     display: -webkit-box;

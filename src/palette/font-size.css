@@ -1,54 +1,54 @@
 /* Font size */
 
-.fs-xxxxl   { font-size: var(--fs-xxxxl); }
-.fs-xxxl    { font-size: var(--fs-xxxl); }
-.fs-xxl     { font-size: var(--fs-xxl); }
-.fs-xl      { font-size: var(--fs-xl); }
-.fs-l       { font-size: var(--fs-l); }
-.fs-m       { font-size: var(--fs-m); }
-.fs-s       { font-size: var(--fs-s); }
-.fs-xs      { font-size: var(--fs-xs); }
+.fs-8   { font-size: var(--fs-8); }
+.fs-7    { font-size: var(--fs-7); }
+.fs-6     { font-size: var(--fs-6); }
+.fs-5      { font-size: var(--fs-5); }
+.fs-4       { font-size: var(--fs-4); }
+.fs-3       { font-size: var(--fs-3); }
+.fs-2       { font-size: var(--fs-2); }
+.fs-1      { font-size: var(--fs-1); }
 
 @media (--breakpoint-s) {
-    .bps-fs-xxxxl   { font-size: var(--fs-xxxxl); }
-    .bps-fs-xxxl    { font-size: var(--fs-xxxl); }
-    .bps-fs-xxl     { font-size: var(--fs-xxl); }
-    .bps-fs-xl      { font-size: var(--fs-xl); }
-    .bps-fs-l       { font-size: var(--fs-l); }
-    .bps-fs-m       { font-size: var(--fs-m); }
-    .bps-fs-s       { font-size: var(--fs-s); }
-    .bps-fs-xs      { font-size: var(--fs-xs); }
+    .bps-fs-8   { font-size: var(--fs-8); }
+    .bps-fs-7    { font-size: var(--fs-7); }
+    .bps-fs-6     { font-size: var(--fs-6); }
+    .bps-fs-5      { font-size: var(--fs-5); }
+    .bps-fs-4       { font-size: var(--fs-4); }
+    .bps-fs-3       { font-size: var(--fs-3); }
+    .bps-fs-2       { font-size: var(--fs-2); }
+    .bps-fs-1      { font-size: var(--fs-1); }
 }
 
-@media (--breakpoint-m) {
-    .bpm-fs-xxxxl   { font-size: var(--fs-xxxxl); }
-    .bpm-fs-xxxl    { font-size: var(--fs-xxxl); }
-    .bpm-fs-xxl     { font-size: var(--fs-xxl); }
-    .bpm-fs-xl      { font-size: var(--fs-xl); }
-    .bpm-fs-l       { font-size: var(--fs-l); }
-    .bpm-fs-m       { font-size: var(--fs-m); }
-    .bpm-fs-s       { font-size: var(--fs-s); }
-    .bpm-fs-xs      { font-size: var(--fs-xs); }
+@media (--breakpoint-3) {
+    .bpm-fs-8   { font-size: var(--fs-8); }
+    .bpm-fs-7    { font-size: var(--fs-7); }
+    .bpm-fs-6     { font-size: var(--fs-6); }
+    .bpm-fs-5      { font-size: var(--fs-5); }
+    .bpm-fs-4       { font-size: var(--fs-4); }
+    .bpm-fs-3       { font-size: var(--fs-3); }
+    .bpm-fs-2       { font-size: var(--fs-2); }
+    .bpm-fs-1      { font-size: var(--fs-1); }
 }
 
 @media (--breakpoint-l) {
-    .bpl-fs-xxxxl   { font-size: var(--fs-xxxxl); }
-    .bpl-fs-xxxl    { font-size: var(--fs-xxxl); }
-    .bpl-fs-xxl     { font-size: var(--fs-xxl); }
-    .bpl-fs-xl      { font-size: var(--fs-xl); }
-    .bpl-fs-l       { font-size: var(--fs-l); }
-    .bpl-fs-m       { font-size: var(--fs-m); }
+    .bpl-fs-8   { font-size: var(--fs-8); }
+    .bpl-fs-7    { font-size: var(--fs-7); }
+    .bpl-fs-6     { font-size: var(--fs-6); }
+    .bpl-fs-5      { font-size: var(--fs-5); }
+    .bpl-fs-4       { font-size: var(--fs-4); }
+    .bpl-fs-3       { font-size: var(--fs-3); }
     .bpl-fs-s       { font-size: var(--fs-s); }
-    .bpl-fs-xs      { font-size: var(--fs-xs); }
+    .bpl-fs-1      { font-size: var(--fs-1); }
 }
 
 @media (--breakpoint-xl) {
-    .bpxl-fs-xxxxl   { font-size: var(--fs-xxxxl); }
-    .bpxl-fs-xxxl    { font-size: var(--fs-xxxl); }
-    .bpxl-fs-xxl     { font-size: var(--fs-xxl); }
-    .bpxl-fs-xl      { font-size: var(--fs-xl); }
-    .bpxl-fs-l       { font-size: var(--fs-l); }
-    .bpxl-fs-m       { font-size: var(--fs-m); }
+    .bpxl-fs-8   { font-size: var(--fs-8); }
+    .bpxl-fs-7    { font-size: var(--fs-7); }
+    .bpxl-fs-6     { font-size: var(--fs-6); }
+    .bpxl-fs-5      { font-size: var(--fs-5); }
+    .bpxl-fs-4       { font-size: var(--fs-4); }
+    .bpxl-fs-3       { font-size: var(--fs-3); }
     .bpxl-fs-s       { font-size: var(--fs-s); }
-    .bpxl-fs-xs      { font-size: var(--fs-xs); }
+    .bpxl-fs-1      { font-size: var(--fs-1); }
 }

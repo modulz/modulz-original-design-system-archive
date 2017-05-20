@@ -1,4 +1,4 @@
-.input {
+.Input {
     height: var(--spacing-l);
     padding-left: var(--spacing-xxs);
     font-size: var(--fs-3);
@@ -9,34 +9,34 @@
     width: 100%;
     transition: all .15s ease;
 }
-.input::-webkit-input-placeholder {
+.Input::-webkit-input-placeholder {
    color: var(--silver);
    opacity:  1;
 }
-.input::-moz-placeholder {
+.Input::-moz-placeholder {
    color: var(--silver);
    opacity:  1;
 }
-.input:-ms-input-placeholder {
+.Input:-ms-input-placeholder {
    color: var(--silver);
    opacity:  1;
 }
-.input:hover {
+.Input:hover {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--steel);
 }
-.input:focus {
+.Input:focus {
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px var(--blue);
 }
 
 
 /* Sizes */
 
-.input--l {
+.Input--l {
     height: var(--spacing-xl);
     padding-left: var(--spacing-xs);
 }
 
-.input--s {
+.Input--s {
     height: var(--spacing-m);
     padding-left: var(--spacing-xxs);
     font-size: var(--fs-2);
@@ -45,49 +45,49 @@
 
 /* Background color variations */
 
-.input.has-darkBg {
+.Input.has-darkBg {
     box-shadow: none;
     background: rgba(255,255,255,.15);
     color: var(--white);
 }
-.input.has-darkBg::-webkit-input-placeholder {
+.Input.has-darkBg::-webkit-input-placeholder {
    color: rgba(255,255,255,.5);
    opacity:  1;
 }
-.input.has-darkBg::-moz-placeholder {
+.Input.has-darkBg::-moz-placeholder {
    color: rgba(255,255,255,.5);
    opacity:  1;
 }
-.input.has-darkBg:-ms-input-placeholder {
+.Input.has-darkBg:-ms-input-placeholder {
    color: rgba(255,255,255,.5);
    opacity:  1;
 }
-.input.has-darkBg:hover,
-.input.has-darkBg:focus {
+.Input.has-darkBg:hover,
+.Input.has-darkBg:focus {
     box-shadow: none;
     background: rgba(255,255,255,.2);
 }
 
 
 
-.input.has-lightBg {
+.Input.has-lightBg {
     box-shadow: none;
     background: rgba(0,0,0,.05);
 }
-.input.has-lightBg::-webkit-input-placeholder {
+.Input.has-lightBg::-webkit-input-placeholder {
    color: rgba(0,0,0,.25);
    opacity:  1;
 }
-.input.has-lightBg::-moz-placeholder {
+.Input.has-lightBg::-moz-placeholder {
    color: rgba(0,0,0,.25);
    opacity:  1;
 }
-.input.has-lightBg:-ms-input-placeholder {
+.Input.has-lightBg:-ms-input-placeholder {
    color: rgba(0,0,0,.25);
    opacity:  1;
 }
-.input.has-lightBg:hover,
-.input.has-lightBg:focus {
+.Input.has-lightBg:hover,
+.Input.has-lightBg:focus {
     box-shadow: none;
     background: rgba(0,0,0,.06);
 }

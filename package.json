@@ -30,7 +30,8 @@
     "postcss-custom-media": "^5.0.1",
     "autoprefixer": "^6.3.6",
     "precss": "^1.4.0",
-    "yargs": "^4.7.1"
+    "yargs": "^4.7.1",
+    "watch": "^1.0.2"
   },
   "contributors": [
     {
@@ -39,9 +40,10 @@
     }
   ],
   "scripts": {
-    "start": "npm run build:css && npm run build:minify",
+    "start": "npm run build:watch",
+    "build": "npm run build:css && npm run build:minify",
     "build:css": "node ./scripts/postcss src/modulz.css css/modulz.css",
     "build:minify": "node ./scripts/postcss -m src/modulz.css css/modulz.min.css",
-    "build:watch": "watch 'npm start' ./src/"
+    "build:watch": "watch \"npm run build\" ./src/"
   }
 }

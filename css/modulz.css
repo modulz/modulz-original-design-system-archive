@@ -694,8 +694,11 @@ a {
 .br-noRepeat {
     background-repeat: no-repeat
 }
-.br-repeat {
-    background-repeat: repeat
+.br-space {
+    background-repeat: space
+}
+.br-round {
+    background-repeat: round
 }
 @media (min-width: 38em) {
     .bps-br-repeat {
@@ -710,8 +713,11 @@ a {
     .bps-br-noRepeat {
         background-repeat: no-repeat
     }
-    .bps-br-repeat {
-        background-repeat: repeat
+    .bps-br-space {
+        background-repeat: space
+    }
+    .bps-br-round {
+        background-repeat: round
     }
 }
 @media (min-width: 62em) {
@@ -727,8 +733,11 @@ a {
     .bpm-br-noRepeat {
         background-repeat: no-repeat
     }
-    .bpm-br-repeat {
-        background-repeat: repeat
+    .bpm-br-space {
+        background-repeat: space
+    }
+    .bpm-br-round {
+        background-repeat: round
     }
 }
 @media (min-width: 68em) {
@@ -744,8 +753,11 @@ a {
     .bpl-br-noRepeat {
         background-repeat: no-repeat
     }
-    .bpl-br-repeat {
-        background-repeat: repeat
+    .bpl-br-space {
+        background-repeat: space
+    }
+    .bpl-br-round {
+        background-repeat: round
     }
 }
 @media (min-width: 110em) {
@@ -761,8 +773,11 @@ a {
     .bpxl-br-noRepeat {
         background-repeat: no-repeat
     }
-    .bpxl-br-repeat {
-        background-repeat: repeat
+    .bpxl-br-space {
+        background-repeat: space
+    }
+    .bpxl-br-round {
+        background-repeat: round
     }
 }
 /* Background Size */

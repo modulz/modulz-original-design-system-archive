@@ -4,14 +4,16 @@
 .br-repeatX     { background-repeat: repeat-x; }
 .br-repeatY     { background-repeat: repeat-y; }
 .br-noRepeat    { background-repeat: no-repeat; }
-.br-repeat      { background-repeat: repeat; }
+.br-space    { background-repeat: space; }
+.br-round    { background-repeat: round; }
 
 @media (--breakpoint-s) {
     .bps-br-repeat      { background-repeat: repeat; }
     .bps-br-repeatX     { background-repeat: repeat-x; }
     .bps-br-repeatY     { background-repeat: repeat-y; }
     .bps-br-noRepeat    { background-repeat: no-repeat; }
-    .bps-br-repeat      { background-repeat: repeat; }
+    .bps-br-space    { background-repeat: space; }
+    .bps-br-round    { background-repeat: round; }
 }
 
 @media (--breakpoint-m) {
@@ -19,7 +21,8 @@
     .bpm-br-repeatX     { background-repeat: repeat-x; }
     .bpm-br-repeatY     { background-repeat: repeat-y; }
     .bpm-br-noRepeat    { background-repeat: no-repeat; }
-    .bpm-br-repeat      { background-repeat: repeat; }
+    .bpm-br-space    { background-repeat: space; }
+    .bpm-br-round    { background-repeat: round; }
 }
 
 @media (--breakpoint-l) {
@@ -27,7 +30,8 @@
     .bpl-br-repeatX     { background-repeat: repeat-x; }
     .bpl-br-repeatY     { background-repeat: repeat-y; }
     .bpl-br-noRepeat    { background-repeat: no-repeat; }
-    .bpl-br-repeat      { background-repeat: repeat; }
+    .bpl-br-space    { background-repeat: space; }
+    .bpl-br-round    { background-repeat: round; }
 }
 
 @media (--breakpoint-xl) {
@@ -35,5 +39,6 @@
     .bpxl-br-repeatX    { background-repeat: repeat-x; }
     .bpxl-br-repeatY    { background-repeat: repeat-y; }
     .bpxl-br-noRepeat   { background-repeat: no-repeat; }
-    .bpxl-br-repeat     { background-repeat: repeat; }
+    .bpxl-br-space    { background-repeat: space; }
+    .bpxl-br-round    { background-repeat: round; }
 }

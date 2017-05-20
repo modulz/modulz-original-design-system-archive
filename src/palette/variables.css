@@ -78,17 +78,15 @@
 
     /* Font sizes  */
 
-    --fs-1: 1.2rem;
-    --fs-2: 1.4rem;
-    --fs-3: 1.6rem;
-    --fs-4: 1.8rem;
+    --fs-1: 1.0rem;
+    --fs-2: 1.2rem;
+    --fs-3: 1.4rem;
+    --fs-4: 1.6rem;
     --fs-5: 2rem;
-    --fs-6: 2.2rem;
-    --fs-7: 2.4rem;
-    --fs-8: 3.2rem;
-    --fs-9: 4rem;
-    --fs-10: 4.6rem;
-    --fs-11: 6.8rem;
+    --fs-6: 2.4rem;
+    --fs-7: 3.2rem;
+    --fs-8: 4rem;
+    --fs-9: 7.2rem;
 
     /* Spacing  */
 

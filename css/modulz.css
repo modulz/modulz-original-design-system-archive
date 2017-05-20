@@ -7845,6 +7845,9 @@ a {
     }
 }
 /* Color */
+.color-inherit {
+    color: inherit
+}
 .color-white {
     color: hsl(0, 0%, 100%)
 }
@@ -8164,105 +8167,105 @@ a {
 }
 /* Font size */
 .fs-8 {
-    font-size: 3.2rem
+    font-size: 4rem
 }
 .fs-7 {
-    font-size: 2.4rem
+    font-size: 3.2rem
 }
 .fs-6 {
-    font-size: 2.2rem
+    font-size: 2.4rem
 }
 .fs-5 {
     font-size: 2rem
 }
 .fs-4 {
-    font-size: 1.8rem
-}
-.fs-3 {
     font-size: 1.6rem
 }
-.fs-2 {
+.fs-3 {
     font-size: 1.4rem
 }
-.fs-1 {
+.fs-2 {
     font-size: 1.2rem
+}
+.fs-1 {
+    font-size: 1.0rem
 }
 @media (min-width: 38em) {
     .bps-fs-8 {
-        font-size: 3.2rem
+        font-size: 4rem
     }
     .bps-fs-7 {
-        font-size: 2.4rem
+        font-size: 3.2rem
     }
     .bps-fs-6 {
-        font-size: 2.2rem
+        font-size: 2.4rem
     }
     .bps-fs-5 {
         font-size: 2rem
     }
     .bps-fs-4 {
-        font-size: 1.8rem
-    }
-    .bps-fs-3 {
         font-size: 1.6rem
     }
-    .bps-fs-2 {
+    .bps-fs-3 {
         font-size: 1.4rem
     }
-    .bps-fs-1 {
+    .bps-fs-2 {
         font-size: 1.2rem
+    }
+    .bps-fs-1 {
+        font-size: 1.0rem
     }
 }
 @media (min-width: 68em) {
     .bpl-fs-8 {
-        font-size: 3.2rem
+        font-size: 4rem
     }
     .bpl-fs-7 {
-        font-size: 2.4rem
+        font-size: 3.2rem
     }
     .bpl-fs-6 {
-        font-size: 2.2rem
+        font-size: 2.4rem
     }
     .bpl-fs-5 {
         font-size: 2rem
     }
     .bpl-fs-4 {
-        font-size: 1.8rem
+        font-size: 1.6rem
     }
     .bpl-fs-3 {
-        font-size: 1.6rem
+        font-size: 1.4rem
     }
     .bpl-fs-s {
         font-size: var(--fs-s)
     }
     .bpl-fs-1 {
-        font-size: 1.2rem
+        font-size: 1.0rem
     }
 }
 @media (min-width: 110em) {
     .bpxl-fs-8 {
-        font-size: 3.2rem
+        font-size: 4rem
     }
     .bpxl-fs-7 {
-        font-size: 2.4rem
+        font-size: 3.2rem
     }
     .bpxl-fs-6 {
-        font-size: 2.2rem
+        font-size: 2.4rem
     }
     .bpxl-fs-5 {
         font-size: 2rem
     }
     .bpxl-fs-4 {
-        font-size: 1.8rem
+        font-size: 1.6rem
     }
     .bpxl-fs-3 {
-        font-size: 1.6rem
+        font-size: 1.4rem
     }
     .bpxl-fs-s {
         font-size: var(--fs-s)
     }
     .bpxl-fs-1 {
-        font-size: 1.2rem
+        font-size: 1.0rem
     }
 }
 /* Heights */
@@ -11914,7 +11917,7 @@ a {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 600;
     height: 3.2rem;
     -webkit-box-pack: center;
@@ -11998,7 +12001,7 @@ a {
     color: hsl(0, 0%, 100%);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-radius: 9999px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     height: 4rem;
     line-height: 4rem;
     min-width: 4rem;
@@ -12012,7 +12015,7 @@ a {
     box-shadow: none
 }
 .PillButton.large {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     height: 4.8rem;
     line-height: 4.8rem;
     min-width: 4.8rem
@@ -12153,26 +12156,26 @@ a {
     box-shadow: 0 11px 20px rgba(50,50,93,.1), 0 6px 11px rgba(0,0,0,.08)
 }
 .Heading {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: 600;
     letter-spacing: -.038em;
     margin-left: -1.5px;
     line-height: 1.45
 }
 .Heading.small {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     letter-spacing: -.02em;/*line-height: 1.35;*/
     margin-left: -.5px
 }
 .Heading.large {
-    font-size: 3.2rem;
+    font-size: 4rem;
     font-weight: 600;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
     line-height: 1.05
 }
 .Heading.title {
-    font-size: 4.6rem;
+    font-size: var(--fs-10);
     font-weight: 800;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
@@ -12180,7 +12183,7 @@ a {
 }
 @media (min-width: 62em) {
     .Heading {
-        font-size: 2.4rem
+        font-size: 3.2rem
     }
     .Heading.small {
         font-size: 2rem;
@@ -12188,11 +12191,11 @@ a {
         margin-left: -1.5px
     }
     .Heading.large {
-        font-size: 4rem;
+        font-size: 7.2rem;
         margin-left: -3.2px
     }
     .Heading.title {
-        font-size: 6.8rem
+        font-size: var(--fs-11)
     }
 }
 .Heading.thin {
@@ -12250,11 +12253,11 @@ a {
     color: #FF5722
 }
 .Text {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.65
 }
 .Text.small {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.5
 }
 /*.Text.small:container(width > 200px) {
@@ -12265,7 +12268,7 @@ a {
     line-height: 1.65;
 }*/
 .Text.large {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     letter-spacing: -.02em;
     margin-left: -.5px
 }
@@ -12330,7 +12333,7 @@ a {
 .Input {
     height: 3.2rem;
     padding-left: .8rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     border-radius: 4px;
     border: none;
     outline: none;
@@ -12365,7 +12368,7 @@ a {
 .Input--s {
     height: var(--spacing-m);
     padding-left: .8rem;
-    font-size: 1.4rem
+    font-size: 1.2rem
 }
 /* Background color variations */
 .Input.has-darkBg {
@@ -12411,7 +12414,7 @@ a {
 }
 .Link, .PrimaryLink, .LightLink {
     color: inherit;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-decoration: none;
     cursor: pointer;
     background-repeat: repeat-x;
@@ -12426,7 +12429,7 @@ a {
     background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
 }*/
 .Link.small, .LightLink.small {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.5
 }
 .PrimaryLink {

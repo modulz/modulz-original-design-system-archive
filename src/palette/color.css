@@ -1,5 +1,7 @@
 /* Color */
 
+.color-inherit                { color: inherit; }
+
 .color-white                { color: var(--white); }
 .color-black                { color: var(--black); }
 .color-transparent          { color: var(--transparent); }

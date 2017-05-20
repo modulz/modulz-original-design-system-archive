@@ -2,8 +2,10 @@
 
 .display-none         { display: none; }
 .display-block        { display: block; }
+.display-flex           { display: flex; }
 .display-inline       { display: inline; }
 .display-inlineBlock  { display: inline-block; }
+.display-inlineFlex     { display: inline-flex; }
 .display-inlineTable  { display: inline-table; }
 .display-table        { display: table; }
 .display-tableCell    { display: table-cell; }
@@ -13,8 +15,10 @@
 @media (--breakpoint-s) {
   .bps-display-none         { display: none; }
   .bps-display-block        { display: block; }
+  .bps-display-flex           { display: flex; }
   .bps-display-inline       { display: inline; }
   .bps-display-inlineBlock  { display: inline-block; }
+  .bps-display-inlineFlex     { display: inline-flex; }
   .bps-display-inlineTable  { display: inline-table; }
   .bps-display-table        { display: table; }
   .bps-display-tableCell    { display: table-cell; }
@@ -25,8 +29,10 @@
 @media (--breakpoint-m) {
   .bpm-display-none         { display: none; }
   .bpm-display-block        { display: block; }
+  .bpm-display-flex           { display: flex; }
   .bpm-display-inline       { display: inline; }
   .bpm-display-inlineBlock  { display: inline-block; }
+  .bpm-display-inlineFlex     { display: inline-flex; }
   .bpm-display-inlineTable  { display: inline-table; }
   .bpm-display-table        { display: table; }
   .bpm-display-tableCell    { display: table-cell; }
@@ -37,8 +43,10 @@
 @media (--breakpoint-l) {
   .bpl-display-none         { display: none; }
   .bpl-display-block        { display: block; }
+  .bpl-display-flex           { display: flex; }
   .bpl-display-inline       { display: inline; }
   .bpl-display-inlineBlock  { display: inline-block; }
+  .bpl-display-inlineFlex     { display: inline-flex; }
   .bpl-display-inlineTable  { display: inline-table; }
   .bpl-display-table        { display: table; }
   .bpl-display-tableCell    { display: table-cell; }
@@ -49,8 +57,10 @@
 @media (--breakpoint-xl) {
   .bpxl-display-none         { display: none; }
   .bpxl-display-block        { display: block; }
+  .bpxl-display-flex           { display: flex; }
   .bpxl-display-inline       { display: inline; }
   .bpxl-display-inlineBlock  { display: inline-block; }
+  .bpxl-display-inlineFlex     { display: inline-flex; }
   .bpxl-display-inlineTable  { display: inline-table; }
   .bpxl-display-table        { display: table; }
   .bpxl-display-tableCell    { display: table-cell; }

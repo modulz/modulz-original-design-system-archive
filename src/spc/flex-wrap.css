@@ -1,0 +1,27 @@
+.fw-nowrap              { flex-wrap: nowrap; }
+.fw-wrap                { flex-wrap: wrap; }
+.fw-wrapReverse         { flex-wrap: wrap-reverse; }
+
+@media (--breakpoint-s) {
+    .bps-fw-nowrap              { flex-wrap: nowrap; }
+    .bps-fw-wrap                { flex-wrap: wrap; }
+    .bps-fw-wrapReverse         { flex-wrap: wrap-reverse; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-fw-nowrap              { flex-wrap: nowrap; }
+    .bpm-fw-wrap                { flex-wrap: wrap; }
+    .bpm-fw-wrapReverse         { flex-wrap: wrap-reverse; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-fw-nowrap              { flex-wrap: nowrap; }
+    .bpl-fw-wrap                { flex-wrap: wrap; }
+    .bpl-fw-wrapReverse         { flex-wrap: wrap-reverse; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-fw-nowrap              { flex-wrap: nowrap; }
+    .bpxl-fw-wrap                { flex-wrap: wrap; }
+    .bpxl-fw-wrapReverse         { flex-wrap: wrap-reverse; }
+}

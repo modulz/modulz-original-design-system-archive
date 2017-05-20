@@ -5,6 +5,10 @@
 @import "vendor/reset.css";
 
 /* Functional properties */
+@import "spc/align-content.css";
+@import "spc/align-items.css";
+@import "spc/align-self.css";
+@import "spc/clear.css";
 @import "spc/appearance.css";
 @import "spc/backface-visibility.css";
 @import "spc/background-position.css";
@@ -18,10 +22,13 @@
 @import "spc/cursor.css";
 @import "spc/direction.css";
 @import "spc/display.css";
+@import "spc/flex-direction.css";
+@import "spc/flex-wrap.css";
 @import "spc/flexbox.css";
 @import "spc/float.css";
 @import "spc/font-style.css";
 @import "spc/font-weight.css";
+@import "spc/justify-content.css";
 @import "spc/list-style-type.css";
 @import "spc/opacity.css";
 @import "spc/outline-style.css";

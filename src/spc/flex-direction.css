@@ -1,0 +1,32 @@
+.fd-column              { flex-direction: column; }
+.fd-columnReverse       { flex-direction: column-reverse; }
+.fd-row                 { flex-direction: row; }
+.fd-rowReverse          { flex-direction: row-reverse; }
+
+@media (--breakpoint-s) {
+    .bps-fd-column              { flex-direction: column; }
+    .bps-fd-columnReverse       { flex-direction: column-reverse; }
+    .bps-fd-row                 { flex-direction: row; }
+    .bps-fd-rowReverse          { flex-direction: row-reverse; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-fd-column              { flex-direction: column; }
+    .bpm-fd-columnReverse       { flex-direction: column-reverse; }
+    .bpm-fd-row                 { flex-direction: row; }
+    .bpm-fd-rowReverse          { flex-direction: row-reverse; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-fd-column              { flex-direction: column; }
+    .bpl-fd-columnReverse       { flex-direction: column-reverse; }
+    .bpl-fd-row                 { flex-direction: row; }
+    .bpl-fd-rowReverse          { flex-direction: row-reverse; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-fd-column              { flex-direction: column; }
+    .bpxl-fd-columnReverse       { flex-direction: column-reverse; }
+    .bpxl-fd-row                 { flex-direction: row; }
+    .bpxl-fd-rowReverse          { flex-direction: row-reverse; }
+}

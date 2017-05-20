@@ -23,14 +23,14 @@
 .jc-flexStart           { justify-content: flex-start; }
 .jc-flexEnd             { justify-content: flex-end; }
 .jc-center              { justify-content: center; }
-.jc-between             { justify-content: space-between; }
-.jc-around              { justify-content: space-around; }
+.jc-spaceBetween  { justify-content: space-between; }
+.jc-spaceAround              { justify-content: space-around; }
 
 .ac-flexStart           { align-content: flex-start; }
 .ac-flexEnd             { align-content: flex-end; }
 .ac-center              { align-content: center; }
-.ac-between             { align-content: space-between; }
-.ac-around              { align-content: space-around; }
+.ac-spaceBetween             { align-content: space-between; }
+.ac-spaceAround              { align-content: space-around; }
 .ac-stretch             { align-content: stretch; }
 
 .as-flexStart           { align-self: flex-start; }

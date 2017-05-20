@@ -1,7 +1,7 @@
 /* Min Width */
 
 .mw-UIxxxs      { min-width: var(--spacing-xxxs); }
-.mw-UIxxs       { min-width: var(--spacing-xxs); }
+.mw-UIxxs       { min-width: var(--spacing-1); }
 .mw-UIxs        { min-width: var(--spacing-xs); }
 .mw-UIs         { min-width: var(--spacing-s); }
 .mw-UIm         { min-width: var(--spacing-m); }

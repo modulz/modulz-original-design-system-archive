@@ -16,7 +16,7 @@
 .height-100 { height: 100%; }
 
 .height-UIxxxs   { height: var(--spacing-xxxs); }
-.height-UIxxs    { height: var(--spacing-xxs); }
+.height-UIxxs    { height: var(--spacing-1); }
 .height-UIxs     { height: var(--spacing-xs); }
 .height-UIs      { height: var(--spacing-s); }
 .height-UIm      { height: var(--spacing-m); }
@@ -42,7 +42,7 @@
   .bps-height-100 { height: 100%; }
 
   .bps-height-UIxxxs   { height: var(--spacing-xxxs); }
-  .bps-height-UIxxs    { height: var(--spacing-xxs); }
+  .bps-height-UIxxs    { height: var(--spacing-1); }
   .bps-height-UIxs     { height: var(--spacing-xs); }
   .bps-height-UIs      { height: var(--spacing-s); }
   .bps-height-UIm      { height: var(--spacing-m); }
@@ -69,7 +69,7 @@
   .bpm-height-100 { height: 100%; }
 
   .bpm-height-UIxxxs   { height: var(--spacing-xxxs); }
-  .bpm-height-UIxxs    { height: var(--spacing-xxs); }
+  .bpm-height-UIxxs    { height: var(--spacing-1); }
   .bpm-height-UIxs     { height: var(--spacing-xs); }
   .bpm-height-UIs      { height: var(--spacing-s); }
   .bpm-height-UIm      { height: var(--spacing-m); }
@@ -96,7 +96,7 @@
   .bpl-height-100 { height: 100%; }
 
   .bpl-height-UIxxxs   { height: var(--spacing-xxxs); }
-  .bpl-height-UIxxs    { height: var(--spacing-xxs); }
+  .bpl-height-UIxxs    { height: var(--spacing-1); }
   .bpl-height-UIxs     { height: var(--spacing-xs); }
   .bpl-height-UIs      { height: var(--spacing-s); }
   .bpl-height-UIm      { height: var(--spacing-m); }
@@ -123,7 +123,7 @@
   .bpxl-height-100 { height: 100%; }
 
   .bpxl-height-UIxxxs   { height: var(--spacing-xxxs); }
-  .bpxl-height-UIxxs    { height: var(--spacing-xxs); }
+  .bpxl-height-UIxxs    { height: var(--spacing-1); }
   .bpxl-height-UIxs     { height: var(--spacing-xs); }
   .bpxl-height-UIs      { height: var(--spacing-s); }
   .bpxl-height-UIm      { height: var(--spacing-m); }

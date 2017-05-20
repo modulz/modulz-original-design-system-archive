@@ -1,6 +1,6 @@
 .Input {
-    height: var(--spacing-l);
-    padding-left: var(--spacing-xxs);
+    height: var(--spacing-4);
+    padding-left: var(--spacing-1);
     font-size: var(--fs-3);
     border-radius: var(--br-m);
     border: none;
@@ -32,13 +32,13 @@
 /* Sizes */
 
 .Input--l {
-    height: var(--spacing-xl);
-    padding-left: var(--spacing-xs);
+    height: var(--spacing-6);
+    padding-left: var(--spacing-2);
 }
 
 .Input--s {
     height: var(--spacing-m);
-    padding-left: var(--spacing-xxs);
+    padding-left: var(--spacing-1);
     font-size: var(--fs-2);
 }
 

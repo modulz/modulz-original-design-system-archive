@@ -13,13 +13,13 @@
     display: inline-flex;
     font-size: var(--fs-1);
     font-weight: 600;
-    height: var(--spacing-m);
+    height: var(--spacing-4);
     justify-content: center;
-    line-height: var(--spacing-m);
-    min-width: var(--spacing-m);
+    line-height: var(--spacing-4);
+    min-width: var(--spacing-4);
     outline: none;
-    padding-left: var(--spacing-xs);
-    padding-right: var(--spacing-xs);
+    padding-left: var(--spacing-2);
+    padding-right: var(--spacing-2);
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -108,11 +108,11 @@
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-radius: 9999px;
     font-size: var(--fs-2);
-    height: var(--spacing-l);
-    line-height: var(--spacing-l);
-    min-width: var(--spacing-l);
-    padding-left: var(--spacing-s);
-    padding-right: var(--spacing-s);
+    height: var(--spacing-5);
+    line-height: var(--spacing-5);
+    min-width: var(--spacing-5);
+    padding-left: var(--spacing-3);
+    padding-right: var(--spacing-3);
 }
 .PillButton:hover {
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05);
@@ -123,9 +123,9 @@
 
 .PillButton.large {
     font-size: var(--fs-3);
-    height: var(--spacing-xl);
-    line-height: var(--spacing-xl);
-    min-width: var(--spacing-xl);
+    height: var(--spacing-6);
+    line-height: var(--spacing-6);
+    min-width: var(--spacing-6);
 }
 
 .PillButton.white { background-color: var(--white); color: var(--lead); }

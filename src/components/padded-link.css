@@ -1,0 +1,19 @@
+.PaddedLink {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.PaddedLink:hover {
+  background-color: hsl(200, 100%, 96%);
+}
+
+.PaddedLink.fixed {
+  min-height: 32px;
+  flex-wrap: nowrap;
+  align-items: center;
+  white-space: nowrap;
+}

@@ -82,8 +82,8 @@
 /* Sizes */
 
 .Grid.small {
-    margin-top: -var(--spacing-xxs);
-    margin-left: -var(--spacing-xxs);
+    margin-top: -var(--spacing-1);
+    margin-left: -var(--spacing-1);
 }
 .Grid.small > .GridColumn,
 .Grid.small > [class*="GridColumn--"],
@@ -91,8 +91,8 @@
 .Grid.small > [class*="bpm-GridColumn--"],
 .Grid.small > [class*="bpl-GridColumn--"],
 .Grid.small > [class*="bpxl-GridColumn--"] {
-    padding-top: var(--spacing-xxs);
-    padding-left: var(--spacing-xxs);
+    padding-top: var(--spacing-1);
+    padding-left: var(--spacing-1);
 }
 
 .Grid.zero {

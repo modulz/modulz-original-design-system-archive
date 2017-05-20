@@ -94,14 +94,14 @@
 
     --spacing-none: 0;
     --spacing-xxxs: .4rem;
-    --spacing-xxs: .8rem;
-    --spacing-xs: 1.6rem;
-    --spacing-s: 2.4rem;
-    --spacing-m: 3.2rem;
-    --spacing-l: 4rem;
-    --spacing-xl: 4.8rem;
-    --spacing-xxl: 6.4rem;
-    --spacing-xxxl: 8rem;
+    --spacing-1: .8rem;
+    --spacing-2: 1.6rem;
+    --spacing-3: 2.4rem;
+    --spacing-4: 3.2rem;
+    --spacing-5: 4rem;
+    --spacing-6: 4.8rem;
+    --spacing-7: 6.4rem;
+    --spacing-8: 8rem;
 
     /* Durations  */
 

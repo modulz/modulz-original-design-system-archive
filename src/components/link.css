@@ -2,7 +2,7 @@
 .PrimaryLink,
 .LightLink {
     color: inherit;
-    font-size: var(--fs-3);
+    font-size: var(--fs-2);
     text-decoration: none;
     cursor: pointer;
     background-repeat: repeat-x;

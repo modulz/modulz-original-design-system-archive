@@ -11,7 +11,7 @@
     border-radius: var(--br-m);
     cursor: pointer;
     display: inline-flex;
-    font-size: var(--fs-1);
+    font-size: var(--fs-2);
     font-weight: 600;
     height: var(--spacing-4);
     justify-content: center;

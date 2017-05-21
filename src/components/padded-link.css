@@ -8,7 +8,7 @@
 }
 
 .PaddedLink:hover {
-  background-color: hsl(200, 100%, 96%);
+  background-color: var(--blueTint);
 }
 
 .PaddedLink.fixed {

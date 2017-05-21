@@ -37,7 +37,7 @@
 }
 
 .Input--s {
-    height: var(--spacing-m);
+    height: var(--spacing-4);
     padding-left: var(--spacing-1);
     font-size: var(--fs-2);
 }

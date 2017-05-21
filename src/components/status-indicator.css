@@ -1,6 +1,6 @@
 .StatusIndicator {
   width: 6px;
   height: 6px;
-  background-color: hsl(158, 100%, 40%);
+  background-color: var(--green);
   border-radius: 50%;
 }

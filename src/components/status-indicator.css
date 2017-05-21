@@ -1,6 +1,14 @@
 .StatusIndicator {
   width: 6px;
   height: 6px;
-  background-color: var(--green);
+  background-color: var(--white);
   border-radius: 50%;
+}
+
+.PositiveStatusIndicator {
+  background-color: var(--green);
+}
+
+.NegativeStatusIndicator {
+  background-color: var(--red);
 }

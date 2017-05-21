@@ -2,14 +2,13 @@
 .PrimaryLink,
 .LightLink {
     color: inherit;
-    font-size: var(--fs-2);
     text-decoration: none;
     cursor: pointer;
-    background-repeat: repeat-x;
+    /*background-repeat: repeat-x;
     background-size: 100% 1px;
-    background-position: 0 100%;
+    background-position: 0 100%;*/
     transition: all 100ms linear;
-    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+    /*background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);*/
 }
 /*.Link:hover {
     background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
@@ -23,6 +22,9 @@
 
 .PrimaryLink {
     color: var(--blue);
+}
+.PrimaryLink:hover {
+    color: var(--blueShade);
 }
 
 .LightLink {

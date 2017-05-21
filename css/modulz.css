@@ -6728,32 +6728,32 @@ a {
     }
 }
 /* Margin */
-.margin-xxxl {
-    margin: var(--spacing-xxxl)
+.margin-9 {
+    margin: var(--spacing-9)
 }
-.margin-xxl {
-    margin: var(--spacing-xxl)
+.margin-8 {
+    margin: 8rem
 }
-.margin-xl {
-    margin: var(--spacing-xl)
+.margin-7 {
+    margin: 6.4rem
 }
-.margin-l {
-    margin: var(--spacing-l)
+.margin-6 {
+    margin: 4.8rem
 }
-.margin-m {
-    margin: var(--spacing-m)
+.margin-5 {
+    margin: 4rem
 }
-.margin-s {
-    margin: var(--spacing-s)
+.margin-4 {
+    margin: 3.2rem
 }
-.margin-xs {
-    margin: var(--spacing-xs)
+.margin-3 {
+    margin: 2.4rem
 }
-.margin-xxs {
+.margin-2 {
+    margin: 1.6rem
+}
+.margin-1 {
     margin: .8rem
-}
-.margin-xxxs {
-    margin: .4rem
 }
 .margin-0 {
     margin: 0
@@ -7749,6 +7749,9 @@ a {
 /*@import "palette/negative-margin.css";*/
 /*@import "palette/outline-color.css";*/
 /* Padding */
+.padding-9 {
+    padding: var(--spacing-9)
+}
 .padding-8 {
     padding: 8rem
 }
@@ -7772,9 +7775,6 @@ a {
 }
 .padding-1 {
     padding: .8rem
-}
-.padding-xxxs {
-    padding: .4rem
 }
 .padding-0 {
     padding: 0

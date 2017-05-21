@@ -16,18 +16,18 @@
 
 .PrimaryBadge {
     background-color: var(--blueTint);
-    color: var(--blue);
-    box-shadow: none;
+    color: var(--blueShade);
+    box-shadow: inset 0 0 0 1px var(--blue);
 }
 
 .PositiveBadge {
     background-color: var(--greenTint);
-    color: var(--green);
-    box-shadow: none;
+    color: var(--greenShade);
+    box-shadow: inset 0 0 0 1px var(--green);
 }
 
 .NegativeBadge {
     background-color: var(--redTint);
-    color: var(--red);
-    box-shadow: none;
+    color: var(--redShade);
+    box-shadow: inset 0 0 0 1px var(--red);
 }

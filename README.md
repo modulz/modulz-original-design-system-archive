@@ -6,11 +6,48 @@ A CSS library of components for building responsive websites and applications.
 
 Paste this line of code into the &lt;head&gt; of your html files.
 
-    <link rel="stylesheet" href="https://s3.amazonaws.com/modulz/modulz-css.min.css">
+    <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/modulz/modulz-css.min.css">
 
 or install with npm
 
     npm install modulz-css
+
+## Test page
+
+For now, to get started, you will also need to html starter document. Just create a new
+folder, create an index.html file inside, then paste in the code below and open it in a browser.
+
+    <!DOCTYPE html>
+    <html class="oy-scroll" lang="en" style="font-size: 62.5%;">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <title>Modulz Test</title>
+            <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/modulz/modulz-css.min.css">
+        </head>
+        <body class="ff-sansSerif color-lead tr-optimizeLegibility">
+            <section class="Section large blue">
+                <div class="Container">
+                    <div class="Grid">
+                        <div class="GridColumn">
+                            <div class="ta-center">
+                                <h3 class="fs-7 lh-6 mb-4">This is a heading</h3>
+                                <p class="fs-5 lh-4 mb-4">Less than 20kb when minified and gzipped. Responsive, mobile-first grid powered by flexbox. Simple and easy to remember naming convention.</p>
+                                <button class="PillButton large white">Get started</button>
+                            </div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="ta-center">
+                                <h3 class="fs-7 lh-6 mb-4">This is a heading</h3>
+                                <p class="fs-5 lh-4 mb-4">Less than 20kb when minified and gzipped. Responsive, mobile-first grid powered by flexbox. Simple and easy to remember naming convention.</p>
+                                <button class="PillButton large white">Get started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+    </html>
 
 ## Things to note
 

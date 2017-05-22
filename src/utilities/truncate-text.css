@@ -1,8 +1,0 @@
-/* Truncate Text */
-
-.truncateText {
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}

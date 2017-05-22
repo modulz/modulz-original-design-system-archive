@@ -1,9 +1,0 @@
-/* Inline */
-
-.inline {
-    font-size: 0;
-}
-
-.inline > div {
-  display: inline-block;
-}

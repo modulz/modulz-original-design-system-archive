@@ -1,9 +1,0 @@
-/* Hide child */
-
-.hideChild-child {
-    opacity: 0;
-}
-
-.hideChild:hover .hideChild-child {
-    opacity: 1;
-}

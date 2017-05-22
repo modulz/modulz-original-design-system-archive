@@ -31,12 +31,12 @@
 
 /* Sizes */
 
-.Input--l {
+.Input.large {
     height: var(--spacing-6);
     padding-left: var(--spacing-2);
 }
 
-.Input--s {
+.Input.small {
     height: var(--spacing-4);
     padding-left: var(--spacing-1);
     font-size: var(--fs-2);

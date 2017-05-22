@@ -10085,11 +10085,11 @@ a {
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 95%, 50%)
 }
 /* Sizes */
-.Input--l {
+.Input.large {
     height: 4.8rem;
     padding-left: 1.6rem
 }
-.Input--s {
+.Input.small {
     height: 3.2rem;
     padding-left: .8rem;
     font-size: 1.2rem

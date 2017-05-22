@@ -21,7 +21,7 @@
     --pellucid: .15;
     --limpid: .05;
 
-    --red: hsl(0, 92%, 61%);
+    --red: hsl(0, 92%, 66%);
     --pink: hsl(332, 94%, 55%);
     --purple: hsl(288, 64%, 42%);
     --indigo: hsl(226, 56%, 48%);
@@ -51,6 +51,9 @@
     --lavenderTint: hsl(255, 74%, 60%);
     --violetTint: hsl(264, 52%, 45%);
 
+    --red300: hsl(0, 92%, 92%);
+    --blue300: hsl(200, 95%, 92%);
+
     --redShade: hsl(0, 92%, 46%);
     --blueShade: hsl(200, 95%, 35%);
     --greenShade: hsl(132, 52%, 38%);
@@ -59,7 +62,7 @@
     --snow: hsl(204, 26%, 96%);
     --smoke: hsl(204, 29%, 92%);
     --silver: hsl(204, 22%, 80%);
-    --steel: hsl(204, 18%, 51%);
+    --steel: hsl(204, 14%, 46%);
     --charcoal: hsl(204, 34%, 15%);
     --lead: hsl(204, 43%, 11%);
 

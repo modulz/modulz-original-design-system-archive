@@ -11,7 +11,7 @@
 
         <header class="pt-7 pb-7 bc-white">
             <div class="Container">
-                <div class="mb-2">
+                <div class="mb-3">
                     <div class="display-inlineFlex">
                         <div class="mr-2">
                             <h1 class="fs-8 fw-6 color-indigo" style="letter-spacing: -2px;">Modulz</h1>
@@ -19,10 +19,13 @@
                         <span class="Badge">Beta</span>
                     </div>
                 </div>
-                <div class="mb-4">
-                    <h2 class="fs-6 fw-4 lh-5" style="letter-spacing: -1px;">An open&mdash;source design system of styles, components, patterns, templates, tools and documentation.</h2>
+                <div class="mb-5">
+                    <h2 class="fs-7 fw-4 lh-7" style="letter-spacing: -1.4px;">An open&mdash;source design system of styles, components, patterns, templates, tools and documentation.</h2>
                 </div>
-                <a class="PrimaryLink fs-5" href="#">View docs</a>
+                <div class="display-flex">
+                    <a class="PrimaryLink fs-5 mr-4" href="https://twitter.com/modulz" target="_blank">Twitter</a>
+                    <a class="PrimaryLink fs-5" href="https://github.com/modulz/modulz" target="_blank">Github</a>
+                </div>
             </div>
         </header>
 
@@ -30,20 +33,20 @@
 
         <section class="pt-7 pb-7 bc-white">
             <div class="Container">
+                <div class="mb-6">
+                    <h2 class="fs-7 fw-4 lh-6 color-steel" style="letter-spacing: -1.4px;">Getting started</h2>
+                </div>
+                <p class="fs-5 lh-4 mb-2" style="letter-spacing: -.4px;">Paste this line of code into the &lt;head&gt; of your html files.</p>
+                <div>
+                    <pre class="ws-pre color-lead overflow-hidden br-m"><code class="display-inlineBlock ff-monospace fs-s padding-1 fs-3 bw-1 bs-solid borderColor-smoke bc-pearl"><span class="color-blue">&lt;link</span> rel=<span class="color-teal">"stylesheet"</span> href=<span class="color-teal">"https://s3.com/modulz@0.5.0/css/modulz.min.css"</span> /&gt;</code></pre>
+                </div>
+                <p class="fs-5 lh-4 mt-5 mb-2" style="letter-spacing: -.4px;">or install with npm</p>
                 <div class="mb-5">
-                    <h2 class="fs-6 fw-4 lh-3 color-steel" style="letter-spacing: -1px;">Getting started</h2>
+                    <pre class="ws-pre color-lead overflow-hidden br-m"><code class="display-inlineBlock ff-monospace fs-s padding-1 fs-3 bw-1 bs-solid borderColor-smoke bc-pearl color-steel">npm install modulz</code></pre>
                 </div>
-                <p class="fs-5 lh-xl mb-2" style="letter-spacing: -.4px;">Copy the line of code below and paste it in the &lt;head&gt; of your html files.</p>
-                <div class="">
-                    <pre class="ws-pre color-lead overflow-hidden br-m"><code class="display-inlineBlock ff-monospace fs-s padding-1 fs-3 bw-1 bs-solid borderColor-smoke bc-pearl color-indigo">&lt;link rel="stylesheet" href="https://s3.com/modulz@0.5.0/css/modulz.min.css"/&gt;</code></pre>
-                </div>
-                <p class="fs-5 lh-xl mt-4 mb-2" style="letter-spacing: -.4px;">or install with npm</p>
-                <div class="">
-                    <pre class="ws-pre color-lead overflow-hidden br-m"><code class="display-inlineBlock ff-monospace fs-s padding-1 fs-3 bw-1 bs-solid borderColor-smoke bc-pearl color-indigo">npm install modulz</code></pre>
-                </div>
-                <p class="fs-5 lh-xl mt-4 mb-2" style="letter-spacing: -.4px;">or grab all the source files and build+develop locally</p>
-                <div class="">
-                    <pre class="ws-pre color-lead overflow-hidden br-m"><code class="display-inlineBlock ff-monospace fs-s padding-1 fs-3 bw-1 bs-solid borderColor-smoke bc-pearl color-indigo">&lt;link rel="stylesheet" href="https://s3.com/modulz@0.5.0/css/modulz.min.css"/&gt;</code></pre>
+                <div class="display-flex bps-ai-center">
+                    <span class="NegativeBadge">Warning</span>
+                    <small class="fs-3 lh-2 color-steel pl-1">This library is still under heavy development and not ready for use in production. </small>
                 </div>
             </div>
         </section>
@@ -52,119 +55,70 @@
 
         <section class="pt-7 pb-7 bc-white">
             <div class="Container">
-                <div class="mb-5">
-                    <h2 class="fs-6 fw-4 lh-3 color-steel" style="letter-spacing: -1px;">Choose from 3 flavours</h2>
+                <div class="mb-6">
+                    <h2 class="fs-7 fw-4 lh-6 color-steel" style="letter-spacing: -1.4px;">Meet the family</h2>
                 </div>
-                <div class="display-flex fw-wrap nml-l nmt-4">
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <a class="display-block td-none color-inherit cursor-pointer" href="#">
-                            <div class="Card interactive">
+                <div class="Grid">
+                    <div class="GridColumn--12 bps-GridColumn--4">
+                        <div class="Card interactive height-100">
+                            <a class="display-block td-none color-inherit cursor-pointer" href="https://github.com/modulz/modulz" target="_blank">
+                                <div class="mb-3">
+                                    <span class="PrimaryBadge">Beta</span>
+                                </div>
                                 <div class="mb-2">
-                                    <div class="width-UIm height-UIm bc-snow"></div>
+                                    <h3 class="fs-5 lh-4" style="letter-spacing: -.4px">Modulz</h3>
                                 </div>
-                                <div class="mb-xs">
-                                    <h3 class="fs-5 lh-4">Modulz Atomic</h3>
-                                </div>
-                                <p class="fs-4 lh-m color-steel">A CSS-in-JS version of Modulz built on top of styled-components.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <a class="display-block td-none color-inherit cursor-pointer" href="#">
-                            <div class="Card interactive">
-                                <div class="mb-2">
-                                    <div class="width-UIm height-UIm bc-snow"></div>
-                                </div>
-                                <div class="mb-xs">
-                                    <h3 class="fs-5 lh-4">Modulz CSS</h3>
-                                </div>
-                                <p class="fs-4 lh-m color-steel">A CSS-in-JS version of Modulz built on top of styled-components.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <a class="display-block td-none color-inherit cursor-pointer" href="#">
-                            <div class="Card interactive">
-                                <div class="mb-2">
-                                    <div class="width-UIm height-UIm bc-snow"></div>
-                                </div>
-                                <div class="mb-xs">
-                                    <h3 class="fs-5 lh-4">Modulz JS</h3>
-                                </div>
-                                <div class="mb-xs">
-                                    <p class="fs-4 lh-m color-steel">A CSS-in-JS version of Modulz built on top of styled-components.</p>
-                                </div>
-                                <div class="mb-xs">
-                                    <small class="fs-s lh-s color-steel">A CSS-in-JS version</small>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <a class="display-block td-none color-inherit cursor-pointer" href="#">
-                            <div class="Card interactive">
-                                <div class="mb-2">
-                                    <div class="width-UIm height-UIm bc-snow"></div>
-                                </div>
-                                <div class="mb-xs">
-                                    <h3 class="fs-5 lh-4">Modulz Reset</h3>
-                                </div>
-                                <div class="mb-xs">
-                                    <p class="fs-4 lh-m color-steel">A CSS-in-JS version of Modulz built on top of styled-components.</p>
-                                </div>
-                                <div class="mb-xs">
-                                    <small class="fs-s lh-s color-steel">A CSS-in-JS version</small>
-                                </div>
-                            </div>
-                        </a>
+                                <p class="fs-4 lh-3 color-steel">A CSS library of components for building responsive websites and applications.</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <hr class="Divider">
-
-        <section class="pt-7 pb-7 bc-white">
-            <div class="Container">
-                <div class="mb-5">
-                    <h2 class="fs-6 fw-4 lh-3 color-steel" style="letter-spacing: -1px;">Features</h2>
+                <div class="mt-6 mb-6">
+                    <p class="fs-5 color-steel">and coming soon...</p>
                 </div>
-                <div class="display-flex fw-wrap nml-l nmt-4">
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <div class="mb-2">
-                            <div class="width-UIm height-UIm bc-snow"></div>
+                <div class="Grid">
+                    <div class="GridColumn--12 bps-GridColumn--4">
+                        <div class="Card interactive height-100">
+                            <a class="display-block td-none color-inherit cursor-pointer" href="https://github.com/modulz/modulz-atomic" target="_blank">
+                                <div class="mb-3">
+                                    <span class="NegativeBadge">Coming soon</span>
+                                </div>
+                                <div class="mb-2">
+                                    <h3 class="fs-5 lh-4" style="letter-spacing: -.4px">Modulz Atomic</h3>
+                                </div>
+                                <p class="fs-4 lh-3 color-steel">The Modulz style palette in a set of single&mdash;purpose classes.</p>
+                            </a>
                         </div>
-                        <div class="mb-xs">
-                            <h3 class="fs-5 lh-4" style="letter-spacing: -.4px;">Modulz Atomic</h3>
-                        </div>
-                        <p class="fs-4 lh-4">Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in. Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.</p>
                     </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <div class="mb-2">
-                            <div class="width-UIm height-UIm bc-snow"></div>
+                    <div class="GridColumn--12 bps-GridColumn--4">
+                        <div class="Card interactive height-100">
+                            <a class="display-block td-none color-inherit cursor-pointer" href="https://github.com/modulz/modulz-js" target="_blank">
+                                <div class="mb-3">
+                                    <span class="NegativeBadge">Coming soon</span>
+                                </div>
+                                <div class="mb-2">
+                                    <h3 class="fs-5 lh-4" style="letter-spacing: -.4px">Modulz JS</h3>
+                                </div>
+                                <div class="mb-xs">
+                                    <p class="fs-4 lh-3 color-steel">A CSS-in-JS version of Modulz built on top of styled-components.</p>
+                                </div>
+                            </a>
                         </div>
-                        <div class="mb-xs">
-                            <h3 class="fs-5 lh-4" style="letter-spacing: -.4px;">Modulz Atomic</h3>
-                        </div>
-                        <p class="fs-4 lh-4">Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.</p>
                     </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <div class="mb-2">
-                            <div class="width-UIm height-UIm bc-snow"></div>
+                    <div class="GridColumn--12 bps-GridColumn--4">
+                        <div class="Card interactive height-100">
+                            <a class="display-block td-none color-inherit cursor-pointer" href="https://github.com/modulz/modulz-reset" target="_blank">
+                                <div class="mb-3">
+                                    <span class="NegativeBadge">Coming soon</span>
+                                </div>
+                                <div class="mb-2">
+                                    <h3 class="fs-5 lh-4" style="letter-spacing: -.4px">Modulz Reset</h3>
+                                </div>
+                                <div class="mb-xs">
+                                    <p class="fs-4 lh-3 color-steel">A CSS-in-JS version of Modulz built on top of styled-components.</p>
+                                </div>
+                            </a>
                         </div>
-                        <div class="mb-xs">
-                            <h3 class="fs-5 lh-4" style="letter-spacing: -.4px;">Modulz Atomic</h3>
-                        </div>
-                        <p class="fs-4 lh-4">Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.</p>
-                    </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <div class="mb-2">
-                            <div class="width-UIm height-UIm bc-snow"></div>
-                        </div>
-                        <div class="mb-xs">
-                            <h3 class="fs-5 lh-4" style="letter-spacing: -.4px;">Modulz Atomic</h3>
-                        </div>
-                        <p class="fs-4 lh-4">Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.</p>
                     </div>
                 </div>
             </div>
@@ -174,49 +128,189 @@
 
         <section class="pt-7 pb-7 bc-white">
             <div class="Container">
-                <div class="mb-5">
-                    <h2 class="fs-6 fw-4 lh-3 color-steel" style="letter-spacing: -1px;">FAQ</h2>
+                <div class="mb-6">
+                    <h2 class="fs-7 fw-4 lh-6 color-steel" style="letter-spacing: -1.4px;">Features</h2>
                 </div>
-                <div class="display-flex fw-wrap nml-l nmt-4">
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <div class="mb-2">
-                            <div class="width-UIm height-UIm bc-snow"></div>
+                <div class="Grid">
+                    <div class="GridColumn--12 bps-GridColumn--6">
+                        <div class="display-flex">
+                            <div class="pr-3">
+                                <svg style="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="mb-1">
+                                    <h3 class="fs-5 lh-4 color-indigo" style="letter-spacing: -.4px;">Lightweight &amp; performant</h3>
+                                </div>
+                                <p class="fs-4 lh-4">The whole system weighs in at just 20kb after compression.</p>
+                            </div>
                         </div>
-                        <div class="mb-xs">
-                            <h3 class="fs-5 lh-4">Modulz Atomic</h3>
-                        </div>
-                        <p class="fs-4 lh-4">Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in. Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.</p>
                     </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <div class="mb-2">
-                            <div class="width-UIm height-UIm bc-snow"></div>
+                    <div class="GridColumn--12 bps-GridColumn--6">
+                        <div class="display-flex">
+                            <div class="pr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                  <line x1="3" y1="9" x2="21" y2="9"/>
+                                  <line x1="9" y1="21" x2="9" y2="9"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="mb-1">
+                                    <h3 class="fs-5 lh-4 color-indigo" style="letter-spacing: -.4px;">Responsive grid system</h3>
+                                </div>
+                                <p class="fs-4 lh-4">A 12&mdash;column grid system for handling layout. Responsive, mobile-first and built on flexbox.</p>
+                            </div>
                         </div>
-                        <div class="mb-xs">
-                            <h3 class="fs-5 lh-4">Modulz Atomic</h3>
-                        </div>
-                        <p class="fs-4 lh-4">Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.</p>
                     </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <div class="mb-2">
-                            <div class="width-UIm height-UIm bc-snow"></div>
+                    <div class="GridColumn--12 bps-GridColumn--6">
+                        <div class="display-flex">
+                            <div class="pr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                                  <polyline points="2 17 12 22 22 17"/>
+                                  <polyline points="2 12 12 17 22 12"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="mb-1">
+                                    <h3 class="fs-5 lh-4 color-indigo" style="letter-spacing: -.4px;">Component library</h3>
+                                </div>
+                                <p class="fs-4 lh-4">A growing library of beautiful, reusable UI components for building modules, templates, apps and websites.</p>
+                            </div>
                         </div>
-                        <div class="mb-xs">
-                            <h3 class="fs-5 lh-4">Modulz Atomic</h3>
-                        </div>
-                        <p class="fs-4 lh-4">Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.</p>
                     </div>
-                    <div class="pt-l pl-l" style="flex-basis: 50%; flex-shrink: 0;">
-                        <div class="mb-2">
-                            <div class="width-UIm height-UIm bc-snow"></div>
+                    <div class="GridColumn--12 bps-GridColumn--6">
+                        <div class="display-flex">
+                            <div class="pr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <circle cx="18" cy="5" r="3"/>
+                                  <circle cx="6" cy="12" r="3"/>
+                                  <circle cx="18" cy="19" r="3"/>
+                                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="mb-1">
+                                    <h3 class="fs-5 lh-4 color-indigo" style="letter-spacing: -.4px;">Atomic classes</h3>
+                                </div>
+                                <p class="fs-4 lh-4">A set of single&mdash;purpose utility classes for quickly assembling layouts and isolated modules.</p>
+                            </div>
                         </div>
-                        <div class="mb-xs">
-                            <h3 class="fs-5 lh-4">Modulz Atomic</h3>
+                    </div>
+                    <div class="GridColumn--12 bps-GridColumn--6">
+                        <div class="display-flex">
+                            <div class="pr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M1,12S5,4,12,4s11,8,11,8-4,8-11,8S1,12,1,12Z"/>
+                                  <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="mb-1">
+                                    <h3 class="fs-5 lh-4 color-indigo" style="letter-spacing: -.4px;">A11Y accessibility</h3>
+                                </div>
+                                <p class="fs-4 lh-4">From color contrast to ARIA roles, all styles and components pass accessibility standards set by <a class="Link" href="http://a11yproject.com">A11Y</a>.</p>
+                            </div>
                         </div>
-                        <p class="fs-4 lh-4">Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.</p>
+                    </div>
+                    <div class="GridColumn--12 bps-GridColumn--6">
+                        <div class="display-flex">
+                            <div class="pr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M19.4,15v0a1.65,1.65,0,0,0,.33,1.82l.06.06a2,2,0,0,1,0,2.83h0a2,2,0,0,1-2.83,0l-.06-.06a1.65,1.65,0,0,0-1.82-.33h0a1.65,1.65,0,0,0-1,1.51V21a2,2,0,0,1-2,2h0a2,2,0,0,1-2-2v-.09A1.65,1.65,0,0,0,9,19.4h0a1.65,1.65,0,0,0-1.82.33l-.06.06a2,2,0,0,1-2.83,0h0a2,2,0,0,1,0-2.83l.06-.06a1.65,1.65,0,0,0,.33-1.82v0a1.65,1.65,0,0,0-1.51-1H3a2,2,0,0,1-2-2H1a2,2,0,0,1,2-2h.09A1.65,1.65,0,0,0,4.6,9v0a1.65,1.65,0,0,0-.33-1.82l-.06-.06a2,2,0,0,1,0-2.83h0a2,2,0,0,1,2.83,0l.06.06a1.65,1.65,0,0,0,1.82.33H9a1.65,1.65,0,0,0,1-1.51V3a2,2,0,0,1,2-2h0a2,2,0,0,1,2,2v.09A1.65,1.65,0,0,0,15,4.6h0a1.65,1.65,0,0,0,1.82-.33l.06-.06a2,2,0,0,1,2.83,0h0a2,2,0,0,1,0,2.83l-.06.06a1.65,1.65,0,0,0-.33,1.82V9a1.65,1.65,0,0,0,1.51,1H21a2,2,0,0,1,2,2h0a2,2,0,0,1-2,2h-.09A1.65,1.65,0,0,0,19.4,15Z"/>
+                                  <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="mb-1">
+                                    <h3 class="fs-5 lh-4 color-indigo" style="letter-spacing: -.4px;">Built on PostCSS</h3>
+                                </div>
+                                <p class="fs-4 lh-4">A powerful plugin library for auto-prefixing CSS, removing unused CSS and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="GridColumn--12 bps-GridColumn--6">
+                        <div class="display-flex">
+                            <div class="pr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M20.24,12.24a6,6,0,0,0-8.49-8.49L5,10.5V19h8.5Z"/>
+                                  <line x1="16" y1="8" x2="2" y2="22"/>
+                                  <line x1="17" y1="15" x2="9" y2="15"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="mb-1">
+                                    <h3 class="fs-5 lh-4 color-indigo" style="letter-spacing: -.4px;">Simple naming convention</h3>
+                                </div>
+                                <p class="fs-4 lh-4">All classnames strictly adhere to a simple, easy to remember naming convention.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="GridColumn--12 bps-GridColumn--6">
+                        <div class="display-flex">
+                            <div class="pr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <circle cx="12" cy="8" r="7"/>
+                                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="mb-1">
+                                    <h3 class="fs-5 lh-4 color-indigo" style="letter-spacing: -.4px;">Cohesive design system</h3>
+                                </div>
+                                <p class="fs-4 lh-4">All components are constructed from a set of reusable, global styles based on uniform scales.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <hr class="Divider">
+
+        <section class="pt-7 pb-7 bc-white">
+            <div class="Container">
+                <div class="mb-6">
+                    <h2 class="fs-7 fw-4 lh-6 color-steel" style="letter-spacing: -1.4px;">Showcase</h2>
+                </div>
+                <div class="Card interactive height-100">
+                    <a class="display-block td-none color-inherit cursor-pointer" href="docs/dropdown.html" target="_blank">
+                        <div class="mb-2">
+                            <h3 class="fs-5 lh-4" style="letter-spacing: -.4px">Dropdown Modules</h3>
+                        </div>
+                        <div class="mb-xs">
+                            <p class="fs-4 lh-3 color-steel">A selection of dropdown modules containing various components, content and layouts.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="Divider">
+
+        <section class="pt-7 pb-7 bc-white">
+            <div class="Container">
+                <div class="mb-6">
+                    <h2 class="fs-7 fw-4 lh-6 color-steel" style="letter-spacing: -1.4px;">The plan...</h2>
+                </div>
+                <p class="fs-5 bps-fs-6 fw-4 lh-4 bps-lh-6 mb-3" style="letter-spacing: -.8px;">I'll be working on Modulz a lot over the May&mdash;July period with a view to releasing v1 asap. I'd really love any help/feedback that's on offer.</p>
+                <p class="fs-5 bps-fs-6 fw-4 lh-4 bps-lh-6" style="letter-spacing: -.8px;">If you find any bugs (there are lots to find) or have any questions, please open a Github issue or hit me up on <a class="Link" href="https://twitter.com/colmtuite" target="_blank">Twitter</a>.</p>
+            </div>
+        </section>
+
+        <hr class="Divider">
+
+        <footer class="pt-7 pb-7 bc-white">
+            <div class="Container">
+                <div class="display-flex jc-spaceBetween">
+                    <small class="fs-3 color-silver">&copy; Modulz 2017</small>
+                    <small class="fs-3 color-silver">Made by <a class="LightLink fs-3" href="https://twitter.com/colmtuite" target="_blank">Colm Tuite</a>.</small>
+                </div>
+            </div>
+        </footer>
 
     </body>
 </html>

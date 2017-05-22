@@ -4,7 +4,10 @@
 @import "vendor/normalize.css";
 @import "vendor/reset.css";
 
-/* Utilities*/
+/* Global style variables */
+@import "variables.css";
+
+/* Utilities */
 @import "utilities/align-content.css";
 @import "utilities/align-items.css";
 @import "utilities/align-self.css";
@@ -54,7 +57,6 @@
 /*@import "utilities/word-wrap.css";*/
 @import "utilities/z-index.css";
 
-@import "utilities/variables.css";
 @import "utilities/background-color.css";
 @import "utilities/border-color.css";
 @import "utilities/border-radius.css";

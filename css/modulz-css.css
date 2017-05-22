@@ -9143,8 +9143,8 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-top: -3.2rem;
-    margin-left: -3.2rem
+    margin-top: -4rem;
+    margin-left: -4rem
 }
 .GridColumn {
     -ms-flex-preferred-size: 0;
@@ -9155,8 +9155,8 @@ a {
     max-width: 100%
 }
 .GridColumn, .GridColumn--1, .GridColumn--2, .GridColumn--3, .GridColumn--4, .GridColumn--5, .GridColumn--6, .GridColumn--7, .GridColumn--8, .GridColumn--9, .GridColumn--10, .GridColumn--11, .GridColumn--12, .bps-GridColumn--1, .bps-GridColumn--2, .bps-GridColumn--3, .bps-GridColumn--4, .bps-GridColumn--5, .bps-GridColumn--6, .bps-GridColumn--7, .bps-GridColumn--8, .bps-GridColumn--9, .bps-GridColumn--10, .bps-GridColumn--11, .bps-GridColumn--12, .bpm-GridColumn--1, .bpm-GridColumn--2, .bpm-GridColumn--3, .bpm-GridColumn--4, .bpm-GridColumn--5, .bpm-GridColumn--6, .bpm-GridColumn--7, .bpm-GridColumn--8, .bpm-GridColumn--9, .bpm-GridColumn--10, .bpm-GridColumn--11, .bpm-GridColumn--12, .bpl-GridColumn--1, .bpl-GridColumn--2, .bpl-GridColumn--3, .bpl-GridColumn--4, .bpl-GridColumn--5, .bpl-GridColumn--6, .bpl-GridColumn--7, .bpl-GridColumn--8, .bpl-GridColumn--9, .bpl-GridColumn--10, .bpl-GridColumn--11, .bpl-GridColumn--12, .bpxl-GridColumn--1, .bpxl-GridColumn--2, .bpxl-GridColumn--3, .bpxl-GridColumn--4, .bpxl-GridColumn--5, .bpxl-GridColumn--6, .bpxl-GridColumn--7, .bpxl-GridColumn--8, .bpxl-GridColumn--9, .bpxl-GridColumn--10, .bpxl-GridColumn--11, .bpxl-GridColumn--12 {
-    padding-top: 3.2rem;
-    padding-left: 3.2rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
     width: 100%
 }
 /* Sizes */
@@ -10230,16 +10230,16 @@ a {
 }
 .Section {
     background-color: hsl(0, 0%, 100%);
-    padding-top: var(--spacing-m);
-    padding-bottom: var(--spacing-m)
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem
 }
 .Section.small {
-    padding-top: var(--spacing-s);
-    padding-bottom: var(--spacing-s)
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem
 }
 .Section.large {
-    padding-top: var(--spacing-xxxl);
-    padding-bottom: var(--spacing-xxxl)
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem
 }
 .Section.pearl {
     background-color: hsl(204, 43%, 99%)

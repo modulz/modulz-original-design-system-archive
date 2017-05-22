@@ -4,7 +4,7 @@
 @import "vendor/normalize.css";
 @import "vendor/reset.css";
 
-/* Functional properties */
+/* Utilities*/
 @import "utilities/align-content.css";
 @import "utilities/align-items.css";
 @import "utilities/align-self.css";
@@ -54,30 +54,29 @@
 /*@import "utilities/word-wrap.css";*/
 @import "utilities/z-index.css";
 
-/* Palette */
-@import "palette/variables.css";
-@import "palette/background-color.css";
-@import "palette/border-color.css";
-@import "palette/border-radius.css";
-@import "palette/box-shadow.css";
-@import "palette/color.css";
-@import "palette/fill.css";
-@import "palette/font-family.css";
-@import "palette/font-size.css";
-@import "palette/height.css";
-/*@import "palette/input-placeholder.css";*/
-/*@import "palette/letter-spacing.css";*/
-@import "palette/line-height.css";
-@import "palette/margin.css";
-@import "palette/max-width.css";
-@import "palette/min-width.css";
-/*@import "palette/negative-margin.css";*/
-/*@import "palette/outline-color.css";*/
-@import "palette/padding.css";
-/*@import "palette/text-shadow.css";*/
-@import "palette/transition-duration.css";
-@import "palette/transition-timing-function.css";
-@import "palette/width.css";
+@import "utilities/variables.css";
+@import "utilities/background-color.css";
+@import "utilities/border-color.css";
+@import "utilities/border-radius.css";
+@import "utilities/box-shadow.css";
+@import "utilities/color.css";
+@import "utilities/fill.css";
+@import "utilities/font-family.css";
+@import "utilities/font-size.css";
+@import "utilities/height.css";
+/*@import "utilities/input-placeholder.css";*/
+/*@import "utilities/letter-spacing.css";*/
+@import "utilities/line-height.css";
+@import "utilities/margin.css";
+@import "utilities/max-width.css";
+@import "utilities/min-width.css";
+/*@import "utilities/negative-margin.css";*/
+/*@import "utilities/outline-color.css";*/
+@import "utilities/padding.css";
+/*@import "utilities/text-shadow.css";*/
+@import "utilities/transition-duration.css";
+@import "utilities/transition-timing-function.css";
+@import "utilities/width.css";
 
 /* Components */
 @import "components/checkbox.css";

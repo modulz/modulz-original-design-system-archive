@@ -12,6 +12,7 @@
     box-shadow: inset 0 0 0 1px var(--smoke);
     font-weight: 600;
     border-radius: var(--br-m);
+    letter-spacing: .6px;
 }
 
 .PrimaryBadge {

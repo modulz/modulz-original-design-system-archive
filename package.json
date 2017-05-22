@@ -1,24 +1,21 @@
 {
-  "name": "modulz",
+  "name": "modulz-css",
   "version": "0.5.0",
-  "description": "Scalable, performant, responsive, CSS framework with zero styles.",
+  "description": "A CSS library of components for building responsive websites and applications.",
   "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
-  "style": "css/modulz.css",
-  "main": "css/modulz.min.css",
+  "style": "css/modulz-css.css",
+  "main": "css/modulz-css.min.css",
   "files": [
     "css",
-    "src",
-    "templates"
+    "src"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/modulz/modulz.git"
+    "url": "git+https://github.com/modulz/modulz-css.git"
   },
   "keywords": [
     "css",
-    "sass",
     "oocss",
-    "performance",
     "framework",
     "front-end"
   ],
@@ -42,8 +39,8 @@
   "scripts": {
     "start": "npm run build:watch",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "node ./scripts/postcss src/modulz.css css/modulz.css",
-    "build:minify": "node ./scripts/postcss -m src/modulz.css css/modulz.min.css",
+    "build:css": "node ./scripts/postcss src/modulz-css.css css/modulz-css.css",
+    "build:minify": "node ./scripts/postcss -m src/modulz-css.css css/modulz-css.min.css",
     "build:watch": "watch \"npm run build\" ./src/"
   }
 }

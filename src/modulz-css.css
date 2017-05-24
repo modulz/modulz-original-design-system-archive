@@ -83,6 +83,7 @@
 /* Components */
 @import "components/form-control.css";
 @import "components/range-slider.css";
+@import "components/toggle-switch.css";
 @import "components/grid.css";
 @import "components/dropdown.css";
 @import "components/divider.css";

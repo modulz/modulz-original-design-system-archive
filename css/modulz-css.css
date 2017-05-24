@@ -9254,6 +9254,52 @@ a {
     background: hsl(204, 14%, 46%);
     cursor: pointer
 }
+.ToggleSwitch {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 8px
+}
+.ToggleSwitch input {
+    display: none
+}
+.ToggleSwitch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(204, 29%, 92%);
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    border-radius: 9999px
+}
+.ToggleSwitch .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 0;
+    bottom: -4px;
+    background-color: hsl(204, 14%, 46%);
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05)
+}
+.ToggleSwitch:hover .slider:before {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2)
+}
+.ToggleSwitch input:checked + .slider {
+    background-color: hsl(200, 95%, 92%)
+}
+.ToggleSwitch input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+            transform: translateX(16px);
+    background-color: hsl(204, 95%, 50%)
+}
 /* Grid */
 .Grid {
     display: -webkit-box;

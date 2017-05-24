@@ -81,7 +81,7 @@
 @import "utilities/width.css";
 
 /* Components */
-@import "components/checkbox.css";
+@import "components/form-control.css";
 @import "components/grid.css";
 @import "components/dropdown.css";
 @import "components/divider.css";

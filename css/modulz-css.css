@@ -9150,6 +9150,110 @@ a {
     background: white;
     border-radius: 50%
 }
+.RangeSlider {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    padding: 8px 0;
+    width: 100%;
+    cursor: pointer
+}
+.RangeSlider:focus {
+    outline: none
+}
+.RangeSlider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    box-shadow: none;
+    background: hsl(204, 29%, 92%);
+    border-radius: 9999px;
+    border: none
+}
+/*.RangeSlider:focus::-webkit-slider-runnable-track {
+    background: var(--blue);
+}*/
+.RangeSlider::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    box-shadow: none;
+    background: hsl(204, 29%, 92%);
+    border-radius: 9999px;
+    border: none
+}
+.RangeSlider::-ms-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent
+}
+.RangeSlider::-ms-fill-lower {
+    background: hsl(204, 29%, 92%);
+    border: none;
+    border-radius: 9999px;
+    box-shadow: none
+}
+/*.RangeSlider:focus::-ms-fill-lower {
+    background: var(--blue);
+}*/
+.RangeSlider::-ms-fill-upper {
+    background: hsl(204, 29%, 92%);
+    border: none;
+    border-radius: 9999px;
+    box-shadow: none
+}
+/*.RangeSlider:focus::-ms-fill-upper {
+    background: var(--blue);
+}*/
+.RangeSlider::-webkit-slider-thumb {
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: hsl(204, 14%, 46%);
+    cursor: pointer;
+    -webkit-appearance: none;
+            appearance: none;
+    margin-top: -6px;
+    -webkit-transition: -webkit-transform 100ms ease;
+    transition: -webkit-transform 100ms ease;
+    transition: transform 100ms ease;
+    transition: transform 100ms ease, -webkit-transform 100ms ease
+}
+.RangeSlider:hover::-webkit-slider-thumb {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2)
+}
+.RangeSlider::-moz-range-thumb {
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: hsl(204, 14%, 46%);
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 100ms ease;
+    transition: -webkit-transform 100ms ease;
+    transition: transform 100ms ease;
+    transition: transform 100ms ease, -webkit-transform 100ms ease
+}
+.RangeSlider:hover::-moz-range-thumb {
+    transform: scale(1.2)
+}
+.RangeSlider::-ms-thumb {
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: hsl(204, 14%, 46%);
+    cursor: pointer
+}
 /* Grid */
 .Grid {
     display: -webkit-box;

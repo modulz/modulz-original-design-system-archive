@@ -22,8 +22,8 @@
 }
 
 .Heading.title {
-    font-size: var(--fs-10);
-    font-weight: 800;
+    font-size: var(--fs-9);
+    font-weight: 600;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
     line-height: 1.05;
@@ -31,7 +31,7 @@
 
 @media (--breakpoint-m) {
     .Heading {
-        font-size: var(--fs-7);
+        font-size: var(--fs-6);
     }
 
     .Heading.small {
@@ -46,7 +46,7 @@
     }
 
     .Heading.title {
-        font-size: var(--fs-11);
+        font-size: var(--fs-9);
     }
 }
 

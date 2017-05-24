@@ -6934,34 +6934,34 @@ a {
     margin-bottom: 0
 }
 .ml-9 {
-    margin-top: var(--spacing-9)
+    margin-left: var(--spacing-9)
 }
 .ml-8 {
-    margin-top: 8rem
+    margin-left: 8rem
 }
 .ml-7 {
-    margin-top: 6.4rem
+    margin-left: 6.4rem
 }
 .ml-6 {
-    margin-top: 4.8rem
+    margin-left: 4.8rem
 }
 .ml-5 {
-    margin-top: 4rem
+    margin-left: 4rem
 }
 .ml-4 {
-    margin-top: 3.2rem
+    margin-left: 3.2rem
 }
 .ml-3 {
-    margin-top: 2.4rem
+    margin-left: 2.4rem
 }
 .ml-2 {
-    margin-top: 1.6rem
+    margin-left: 1.6rem
 }
 .ml-1 {
-    margin-top: .8rem
+    margin-left: .8rem
 }
 .ml-0 {
-    margin-top: 0
+    margin-left: 0
 }
 /* Remove margin for from first-child hack */
 .mt-fc > div:first-child, .mt-fc > li:first-child {
@@ -7092,34 +7092,34 @@ a {
         margin-bottom: 0
     }
     .bps-ml-9 {
-        margin-top: var(--spacing-9)
+        margin-left: var(--spacing-9)
     }
     .bps-ml-8 {
-        margin-top: 8rem
+        margin-left: 8rem
     }
     .bps-ml-7 {
-        margin-top: 6.4rem
+        margin-left: 6.4rem
     }
     .bps-ml-6 {
-        margin-top: 4.8rem
+        margin-left: 4.8rem
     }
     .bps-ml-5 {
-        margin-top: 4rem
+        margin-left: 4rem
     }
     .bps-ml-4 {
-        margin-top: 3.2rem
+        margin-left: 3.2rem
     }
     .bps-ml-3 {
-        margin-top: 2.4rem
+        margin-left: 2.4rem
     }
     .bps-ml-2 {
-        margin-top: 1.6rem
+        margin-left: 1.6rem
     }
     .bps-ml-1 {
-        margin-top: .8rem
+        margin-left: .8rem
     }
     .bps-ml-0 {
-        margin-top: 0
+        margin-left: 0
     }
 }
 @media (min-width: 62em) {
@@ -7244,34 +7244,34 @@ a {
         margin-bottom: 0
     }
     .bpm-ml-9 {
-        margin-top: var(--spacing-9)
+        margin-left: var(--spacing-9)
     }
     .bpm-ml-8 {
-        margin-top: 8rem
+        margin-left: 8rem
     }
     .bpm-ml-7 {
-        margin-top: 6.4rem
+        margin-left: 6.4rem
     }
     .bpm-ml-6 {
-        margin-top: 4.8rem
+        margin-left: 4.8rem
     }
     .bpm-ml-5 {
-        margin-top: 4rem
+        margin-left: 4rem
     }
     .bpm-ml-4 {
-        margin-top: 3.2rem
+        margin-left: 3.2rem
     }
     .bpm-ml-3 {
-        margin-top: 2.4rem
+        margin-left: 2.4rem
     }
     .bpm-ml-2 {
-        margin-top: 1.6rem
+        margin-left: 1.6rem
     }
     .bpm-ml-1 {
-        margin-top: .8rem
+        margin-left: .8rem
     }
     .bpm-ml-0 {
-        margin-top: 0
+        margin-left: 0
     }
 }
 @media (min-width: 68em) {
@@ -7396,34 +7396,34 @@ a {
         margin-bottom: 0
     }
     .bpl-ml-9 {
-        margin-top: var(--spacing-9)
+        margin-left: var(--spacing-9)
     }
     .bpl-ml-8 {
-        margin-top: 8rem
+        margin-left: 8rem
     }
     .bpl-ml-7 {
-        margin-top: 6.4rem
+        margin-left: 6.4rem
     }
     .bpl-ml-6 {
-        margin-top: 4.8rem
+        margin-left: 4.8rem
     }
     .bpl-ml-5 {
-        margin-top: 4rem
+        margin-left: 4rem
     }
     .bpl-ml-4 {
-        margin-top: 3.2rem
+        margin-left: 3.2rem
     }
     .bpl-ml-3 {
-        margin-top: 2.4rem
+        margin-left: 2.4rem
     }
     .bpl-ml-2 {
-        margin-top: 1.6rem
+        margin-left: 1.6rem
     }
     .bpl-ml-1 {
-        margin-top: .8rem
+        margin-left: .8rem
     }
     .bpl-ml-0 {
-        margin-top: 0
+        margin-left: 0
     }
 }
 @media (min-width: 110em) {
@@ -7548,34 +7548,34 @@ a {
         margin-bottom: 0
     }
     .bpxl-ml-9 {
-        margin-top: var(--spacing-9)
+        margin-left: var(--spacing-9)
     }
     .bpxl-ml-8 {
-        margin-top: 8rem
+        margin-left: 8rem
     }
     .bpxl-ml-7 {
-        margin-top: 6.4rem
+        margin-left: 6.4rem
     }
     .bpxl-ml-6 {
-        margin-top: 4.8rem
+        margin-left: 4.8rem
     }
     .bpxl-ml-5 {
-        margin-top: 4rem
+        margin-left: 4rem
     }
     .bpxl-ml-4 {
-        margin-top: 3.2rem
+        margin-left: 3.2rem
     }
     .bpxl-ml-3 {
-        margin-top: 2.4rem
+        margin-left: 2.4rem
     }
     .bpxl-ml-2 {
-        margin-top: 1.6rem
+        margin-left: 1.6rem
     }
     .bpxl-ml-1 {
-        margin-top: .8rem
+        margin-left: .8rem
     }
     .bpxl-ml-0 {
-        margin-top: 0
+        margin-left: 0
     }
 }
 /* Max Width */
@@ -9288,10 +9288,6 @@ a {
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05)
 }
-.ToggleSwitch:hover .slider:before {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2)
-}
 .ToggleSwitch input:checked + .slider {
     background-color: hsl(200, 95%, 92%)
 }
@@ -10063,15 +10059,15 @@ a {
     line-height: 1.05
 }
 .Heading.title {
-    font-size: var(--fs-10);
-    font-weight: 800;
+    font-size: 7.2rem;
+    font-weight: 600;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
     line-height: 1.05
 }
 @media (min-width: 62em) {
     .Heading {
-        font-size: 3.2rem
+        font-size: 2.4rem
     }
     .Heading.small {
         font-size: 2rem;
@@ -10083,7 +10079,7 @@ a {
         margin-left: -3.2px
     }
     .Heading.title {
-        font-size: var(--fs-11)
+        font-size: 7.2rem
     }
 }
 .Heading.thin {

@@ -1,6 +1,7 @@
 .Input {
     height: var(--spacing-4);
     padding-left: var(--spacing-1);
+    padding-right: var(--spacing-1);
     font-size: var(--fs-3);
     border-radius: var(--br-m);
     border: none;

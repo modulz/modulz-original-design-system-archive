@@ -15,15 +15,15 @@
 .height-90  { height: 90%; }
 .height-100 { height: 100%; }
 
-.height-UIxxxs   { height: var(--spacing-xxxs); }
-.height-UIxxs    { height: var(--spacing-1); }
-.height-UIxs     { height: var(--spacing-xs); }
-.height-UIs      { height: var(--spacing-s); }
-.height-UIm      { height: var(--spacing-m); }
-.height-UIl      { height: var(--spacing-l); }
-.height-UIxl     { height: var(--spacing-xl); }
-.height-UIxxl    { height: var(--spacing-xxl); }
-.height-UIxxxl   { height: var(--spacing-xxxl); }
+.height-UI1   { height: var(--spacing-1); }
+.height-UI2    { height: var(--spacing-2); }
+.height-UI3     { height: var(--spacing-3); }
+.height-UI4      { height: var(--spacing-4); }
+.height-UI5      { height: var(--spacing-5); }
+.height-UI6      { height: var(--spacing-6); }
+.height-UI7     { height: var(--spacing-7); }
+.height-UI8    { height: var(--spacing-8); }
+.height-UI9   { height: var(--spacing-9); }
 
 @media (--breakpoint-s) {
   .bps-height-10  { height: 10%; }
@@ -41,15 +41,15 @@
   .bps-height-90  { height: 90%; }
   .bps-height-100 { height: 100%; }
 
-  .bps-height-UIxxxs   { height: var(--spacing-xxxs); }
-  .bps-height-UIxxs    { height: var(--spacing-1); }
-  .bps-height-UIxs     { height: var(--spacing-xs); }
-  .bps-height-UIs      { height: var(--spacing-s); }
-  .bps-height-UIm      { height: var(--spacing-m); }
-  .bps-height-UIl      { height: var(--spacing-l); }
-  .bps-height-UIxl     { height: var(--spacing-xl); }
-  .bps-height-UIxxl    { height: var(--spacing-xxl); }
-  .bps-height-UIxxxl   { height: var(--spacing-xxxl); }
+  .bps-height-UI1   { height: var(--spacing-1); }
+  .bps-height-UI2    { height: var(--spacing-2); }
+  .bps-height-UI3     { height: var(--spacing-3); }
+  .bps-height-UI4      { height: var(--spacing-4); }
+  .bps-height-UI5      { height: var(--spacing-5); }
+  .bps-height-UI6      { height: var(--spacing-6); }
+  .bps-height-UI7     { height: var(--spacing-7); }
+  .bps-height-UI8    { height: var(--spacing-8); }
+  .bps-height-UI9   { height: var(--spacing-9); }
 }
 
 @media (--breakpoint-m) {
@@ -68,15 +68,15 @@
   .bpm-height-90  { height: 90%; }
   .bpm-height-100 { height: 100%; }
 
-  .bpm-height-UIxxxs   { height: var(--spacing-xxxs); }
-  .bpm-height-UIxxs    { height: var(--spacing-1); }
-  .bpm-height-UIxs     { height: var(--spacing-xs); }
-  .bpm-height-UIs      { height: var(--spacing-s); }
-  .bpm-height-UIm      { height: var(--spacing-m); }
-  .bpm-height-UIl      { height: var(--spacing-l); }
-  .bpm-height-UIxl     { height: var(--spacing-xl); }
-  .bpm-height-UIxxl    { height: var(--spacing-xxl); }
-  .bpm-height-UIxxxl   { height: var(--spacing-xxxl); }
+  .bpm-height-UI1   { height: var(--spacing-1); }
+  .bpm-height-UI2    { height: var(--spacing-2); }
+  .bpm-height-UI3     { height: var(--spacing-3); }
+  .bpm-height-UI4      { height: var(--spacing-4); }
+  .bpm-height-UI5      { height: var(--spacing-5); }
+  .bpm-height-UI6      { height: var(--spacing-6); }
+  .bpm-height-UI7     { height: var(--spacing-7); }
+  .bpm-height-UI8    { height: var(--spacing-8); }
+  .bpm-height-UI9   { height: var(--spacing-9); }
 }
 
 @media (--breakpoint-l) {
@@ -95,15 +95,15 @@
   .bpl-height-90  { height: 90%; }
   .bpl-height-100 { height: 100%; }
 
-  .bpl-height-UIxxxs   { height: var(--spacing-xxxs); }
-  .bpl-height-UIxxs    { height: var(--spacing-1); }
-  .bpl-height-UIxs     { height: var(--spacing-xs); }
-  .bpl-height-UIs      { height: var(--spacing-s); }
-  .bpl-height-UIm      { height: var(--spacing-m); }
-  .bpl-height-UIl      { height: var(--spacing-l); }
-  .bpl-height-UIxl     { height: var(--spacing-xl); }
-  .bpl-height-UIxxl    { height: var(--spacing-xxl); }
-  .bpl-height-UIxxxl   { height: var(--spacing-xxxl); }
+  .bpl-height-UI1   { height: var(--spacing-1); }
+  .bpl-height-UI2    { height: var(--spacing-2); }
+  .bpl-height-UI3     { height: var(--spacing-3); }
+  .bpl-height-UI4      { height: var(--spacing-4); }
+  .bpl-height-UI5      { height: var(--spacing-5); }
+  .bpl-height-UI6      { height: var(--spacing-6); }
+  .bpl-height-UI7     { height: var(--spacing-7); }
+  .bpl-height-UI8    { height: var(--spacing-8); }
+  .bpl-height-UI9   { height: var(--spacing-9); }
 }
 
 @media (--breakpoint-xl) {
@@ -122,13 +122,13 @@
   .bpxl-height-90  { height: 90%; }
   .bpxl-height-100 { height: 100%; }
 
-  .bpxl-height-UIxxxs   { height: var(--spacing-xxxs); }
-  .bpxl-height-UIxxs    { height: var(--spacing-1); }
-  .bpxl-height-UIxs     { height: var(--spacing-xs); }
-  .bpxl-height-UIs      { height: var(--spacing-s); }
-  .bpxl-height-UIm      { height: var(--spacing-m); }
-  .bpxl-height-UIl      { height: var(--spacing-l); }
-  .bpxl-height-UIxl     { height: var(--spacing-xl); }
-  .bpxl-height-UIxxl    { height: var(--spacing-xxl); }
-  .bpxl-height-UIxxxl   { height: var(--spacing-xxxl); }
+  .bpxl-height-UI1   { height: var(--spacing-1); }
+  .bpxl-height-UI2    { height: var(--spacing-2); }
+  .bpxl-height-UI3     { height: var(--spacing-3); }
+  .bpxl-height-UI4      { height: var(--spacing-4); }
+  .bpxl-height-UI5      { height: var(--spacing-5); }
+  .bpxl-height-UI6      { height: var(--spacing-6); }
+  .bpxl-height-UI7     { height: var(--spacing-7); }
+  .bpxl-height-UI8    { height: var(--spacing-8); }
+  .bpxl-height-UI9   { height: var(--spacing-9); }
 }

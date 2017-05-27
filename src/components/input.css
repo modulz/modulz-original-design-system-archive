@@ -1,11 +1,12 @@
 .Input {
     height: var(--spacing-4);
+    line-height: var(--spacing-4);
     padding-left: var(--spacing-1);
     font-size: var(--fs-3);
     border-radius: var(--br-m);
     border: none;
     outline: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
+    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--silver);
     width: 100%;
     transition: all .15s ease;
 }
@@ -22,7 +23,7 @@
    opacity:  1;
 }
 .Input:hover {
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--steel);
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--silver);
 }
 .Input:focus {
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px var(--blue);

@@ -25,3 +25,8 @@
 .ListItem.highlighted:hover {
     background-color: var(--blue300);
 }
+
+.ListItem.active {
+    background-color: var(--blue);
+    color: var(--white);
+}

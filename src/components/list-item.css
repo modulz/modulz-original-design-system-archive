@@ -11,7 +11,7 @@
     padding-bottom: var(--spacing-1);
     min-height: var(--spacing-4);
     align-items: center;
-    transition: all .15s ease;
+    transition: all 100ms linear;
 }
 
 .ListItem.interactive:hover {

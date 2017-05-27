@@ -325,7 +325,8 @@ mark {
     background: none
 }
 a {
-    text-decoration: none
+    text-decoration: none;
+    color: inherit
 }
 
 /* Global style variables */
@@ -10340,8 +10341,8 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-transition: all .15s ease;
-    transition: all .15s ease
+    -webkit-transition: all 100ms linear;
+    transition: all 100ms linear
 }
 .ListItem.interactive:hover {
     background-color: hsl(200, 100%, 97%)

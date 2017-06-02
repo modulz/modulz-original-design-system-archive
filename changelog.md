@@ -1,4 +1,4 @@
-# Changes to Bantam CSS
+# Changes to Modulz
 
 ### 0.0.7 (17 May, 2016)
 

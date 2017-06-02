@@ -48,7 +48,7 @@
 @import "utilities/text-transform.css";
 @import "utilities/transition-property.css";
 @import "utilities/transform-style.css";
-/*@import "utilities/user-select.css";*/
+@import "utilities/user-select.css";
 /*@import "utilities/vertical-align.css";*/
 @import "utilities/visibility.css";
 @import "utilities/white-space.css";

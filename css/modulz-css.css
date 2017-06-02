@@ -4387,7 +4387,165 @@ a {
                 transform-style: preserve-3d
     }
 }
-/*@import "utilities/user-select.css";*/
+/* User Select */
+.us-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none
+}
+.us-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto
+}
+.us-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text
+}
+.us-contain {
+    -webkit-user-select: contain;
+       -moz-user-select: contain;
+        -ms-user-select: contain;
+            user-select: contain
+}
+.us-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all
+}
+@media (min-width: 38em) {
+    .bps-us-none {
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none
+    }
+    .bps-us-auto {
+        -webkit-user-select: auto;
+           -moz-user-select: auto;
+            -ms-user-select: auto;
+                user-select: auto
+    }
+    .bps-us-text {
+        -webkit-user-select: text;
+           -moz-user-select: text;
+            -ms-user-select: text;
+                user-select: text
+    }
+    .bps-us-contain {
+        -webkit-user-select: contain;
+           -moz-user-select: contain;
+            -ms-user-select: contain;
+                user-select: contain
+    }
+    .bps-us-all {
+        -webkit-user-select: all;
+           -moz-user-select: all;
+            -ms-user-select: all;
+                user-select: all
+    }
+}
+@media (min-width: 62em) {
+    .bpm-us-none {
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none
+    }
+    .bpm-us-auto {
+        -webkit-user-select: auto;
+           -moz-user-select: auto;
+            -ms-user-select: auto;
+                user-select: auto
+    }
+    .bpm-us-text {
+        -webkit-user-select: text;
+           -moz-user-select: text;
+            -ms-user-select: text;
+                user-select: text
+    }
+    .bpm-us-contain {
+        -webkit-user-select: contain;
+           -moz-user-select: contain;
+            -ms-user-select: contain;
+                user-select: contain
+    }
+    .bpm-us-all {
+        -webkit-user-select: all;
+           -moz-user-select: all;
+            -ms-user-select: all;
+                user-select: all
+    }
+}
+@media (min-width: 68em) {
+    .bpl-us-none {
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none
+    }
+    .bpl-us-auto {
+        -webkit-user-select: auto;
+           -moz-user-select: auto;
+            -ms-user-select: auto;
+                user-select: auto
+    }
+    .bpl-us-text {
+        -webkit-user-select: text;
+           -moz-user-select: text;
+            -ms-user-select: text;
+                user-select: text
+    }
+    .bpl-us-contain {
+        -webkit-user-select: contain;
+           -moz-user-select: contain;
+            -ms-user-select: contain;
+                user-select: contain
+    }
+    .bpl-us-all {
+        -webkit-user-select: all;
+           -moz-user-select: all;
+            -ms-user-select: all;
+                user-select: all
+    }
+}
+@media (min-width: 110em) {
+    .bpxl-us-none {
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none
+    }
+    .bpxl-us-auto {
+        -webkit-user-select: auto;
+           -moz-user-select: auto;
+            -ms-user-select: auto;
+                user-select: auto
+    }
+    .bpxl-us-text {
+        -webkit-user-select: text;
+           -moz-user-select: text;
+            -ms-user-select: text;
+                user-select: text
+    }
+    .bpxl-us-contain {
+        -webkit-user-select: contain;
+           -moz-user-select: contain;
+            -ms-user-select: contain;
+                user-select: contain
+    }
+    .bpxl-us-all {
+        -webkit-user-select: all;
+           -moz-user-select: all;
+            -ms-user-select: all;
+                user-select: all
+    }
+}
 /*@import "utilities/vertical-align.css";*/
 /* Visibility */
 .visibility-hidden {
@@ -10343,6 +10501,11 @@ a {
             align-items: center;
     -webkit-transition: all 100ms linear;
     transition: all 100ms linear
+}
+.ListItem.large {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    min-height: 4rem
 }
 .ListItem.interactive:hover {
     background-color: hsl(200, 100%, 97%)

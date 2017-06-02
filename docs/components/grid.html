@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="oy-scroll" lang="en" style="font-size: 62.5%;">
+<html class="overflow-hidden" lang="en" style="font-size: 62.5%;">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -10,80 +10,14 @@
         <link rel="stylesheet" href="../vendor/highlight.css">
     </head>
     <body class="ff-whitney color-charcoal tr-optimizeLegibility">
-        <nav class="position-fixed padding-5">
-            <div class="mb-3">
-                <span class="color-steel fs-2 ls-l fw-6 td-none cursor-pointer tt-uppercase" style="letter-spacing: 1.4px;">Components</span>
-            </div>
-            <div class="mb-3">
-                <a class="color-blue fs-4 td-none cursor-pointer" href="container.html">Container</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-blue fs-4 td-none cursor-pointer" href="Grid.html">Grid</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-blue fs-4 td-none cursor-pointer" href="button.html">Button</a>
-            </div>
-            <div class="pt-1 mb-3">
-                <span class="color-steel fs-2 ls-l fw-6 td-none cursor-pointer tt-uppercase" href="container.html" style="letter-spacing: 1.4px;">Coming soon</span>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="input.html">Input</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="section.html">Section</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="link.html">Link</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="avatar.html">Avatar</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="container.html">Container</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="Grid.html">Grid</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="button.html">Button</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="input.html">Input</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="section.html">Section</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="link.html">Link</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="avatar.html">Avatar</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="container.html">Container</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="Grid.html">Grid</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="button.html">Button</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="input.html">Input</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="section.html">Section</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="link.html">Link</a>
-            </div>
-            <div class="mb-3">
-                <a class="color-silver fs-4 td-none cursor-default" href="avatar.html">Avatar</a>
-            </div>
-        </nav>
 
-        <div class="Container">
-            <div class="pt-8 pb-8">
+        <div class="display-flex height-100">
+            <aside class="width-20">
+                <div class="Scrollbar height-100 btw-0 brw-1 bbw-0 blw-0 bs-solid borderColor-smoke">
+                    <nav id="navigation"></nav>
+                </div>
+            </aside>
+            <main class="width-80 padding-8 Scrollbar">
                 <section>
                     <div class="mb-1">
                       <h2 class="Heading large lh-9" style="">Grid</h2>
@@ -523,22 +457,11 @@
                         </figure>
                     </div>
                 </section>
+            </main>
+        </div>
 
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                $('h1,h2,h3,h4,h5,h6,p,span,time,strong,small').each(function() {
-                    var $target = $(this);
-                    var $width = $target.width();
-                    var $fontSize = parseFloat($target.css('font-size'));
-                    var $leading = $fontSize * 1.618;
-                    roundedLeading = Math.floor($leading) + "px";
-
-                    $target.css('lineHeight', roundedLeading);
-                });
-            });
-        </script> -->
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../../docs/js/scripts.js"> </script>
         <script src="../vendor/highlight.pack.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
     </body>

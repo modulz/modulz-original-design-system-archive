@@ -95,16 +95,16 @@
     padding-left: var(--spacing-1);
 }
 
-.Grid.zero {
+.Grid.noGutters {
     margin-top: 0;
     margin-left: 0;
 }
-.Grid.zero > .GridColumn,
-.Grid.zero > [class*="GridColumn--"],
-.Grid.zero > [class*="bps-GridColumn--"],
-.Grid.zero > [class*="bpm-GridColumn--"],
-.Grid.zero > [class*="bpl-GridColumn--"],
-.Grid.zero > [class*="bpxl-GridColumn--"] {
+.Grid.noGutters > .GridColumn,
+.Grid.noGutters > [class*="GridColumn--"],
+.Grid.noGutters > [class*="bps-GridColumn--"],
+.Grid.noGutters > [class*="bpm-GridColumn--"],
+.Grid.noGutters > [class*="bpl-GridColumn--"],
+.Grid.noGutters > [class*="bpxl-GridColumn--"] {
     padding-top: 0;
     padding-left: 0;
 }

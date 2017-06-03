@@ -25,7 +25,7 @@
     --pink: hsl(332, 94%, 55%);
     --purple: hsl(288, 64%, 42%);
     --indigo: hsl(226, 56%, 48%);
-    --blue: hsl(204, 95%, 50%);
+    --blue: hsl(210, 95%, 50%);
     --teal: hsl(172, 100%, 35%);
     --green: hsl(132, 52%, 53%);
     --lime: hsl(68, 74%, 50%);
@@ -40,7 +40,7 @@
     --pinkTint: hsl(332, 94%, 97%);
     --purpleTint: hsl(288, 64%, 96%);
     --indigoTint: hsl(226, 56%, 48%);
-    --blueTint: hsl(200, 100%, 97%);
+    --blueTint: hsl(210, 100%, 97%);
     --tealTint:hsl(172, 100%, 35%);
     --greenTint: hsl(132, 80%, 97%);
     --limeTint: hsl(68, 74%, 50%);
@@ -55,7 +55,7 @@
     --blue300: hsl(200, 95%, 92%);
 
     --redShade: hsl(0, 92%, 46%);
-    --blueShade: hsl(200, 95%, 35%);
+    --blueShade: hsl(210, 95%, 35%);
     --greenShade: hsl(132, 52%, 38%);
 
     --pearl: hsl(204, 43%, 99%);

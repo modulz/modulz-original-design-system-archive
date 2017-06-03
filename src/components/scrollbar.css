@@ -12,5 +12,5 @@
 }
 
 .Scrollbar::-webkit-scrollbar-thumb {
-    background-color: var(--silver);
+    background-color: var(--gray400);
 }

@@ -14,22 +14,22 @@
     padding-bottom: var(--spacing-7);
 }
 
-.Section.pearl { background-color: var(--pearl); }
-.Section.snow { background-color: var(--snow); }
-.Section.red { background-color: var(--red); }
-.Section.pink { background-color: var(--pink); }
-.Section.purple { background-color: var(--purple); }
-.Section.violet { background-color: var(--violet); }
-.Section.indigo { background-color: var(--indigo); }
-.Section.blue { background-color: var(--blue); }
-.Section.lavender { background-color: var(--lavender); }
-.Section.teal { background-color: var(--teal); }
-.Section.green { background-color: var(--green); }
-.Section.lime { background-color: var(--lime); }
-.Section.yellow { background-color: var(--yellow); }
-.Section.amber { background-color: var(--amber); }
-.Section.orange { background-color: var(--orange); }
-.Section.crimson { background-color: var(--crimson); }
+.Section.pearl { background-color: var(--gray100); }
+.Section.snow { background-color: var(--gray200); }
+.Section.red { background-color: var(--red500); }
+.Section.pink { background-color: var(--pink500); }
+.Section.purple { background-color: var(--purple500); }
+.Section.violet { background-color: var(--violet500); }
+.Section.indigo { background-color: var(--indigo500); }
+.Section.blue { background-color: var(--blue500); }
+.Section.lavender { background-color: var(--lavender500); }
+.Section.teal { background-color: var(--teal500); }
+.Section.green { background-color: var(--green500); }
+.Section.lime { background-color: var(--lime500); }
+.Section.yellow { background-color: var(--yellow500); }
+.Section.amber { background-color: var(--amber500); }
+.Section.orange { background-color: var(--orange500); }
+.Section.crimson { background-color: var(--crimson500); }
 
 .Section.pt0 { padding-top: 0; }
 .Section.pb0 { padding-bottom: 0; }

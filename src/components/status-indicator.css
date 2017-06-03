@@ -6,9 +6,9 @@
 }
 
 .PositiveStatusIndicator {
-  background-color: var(--green);
+  background-color: var(--green500);
 }
 
 .NegativeStatusIndicator {
-  background-color: var(--red);
+  background-color: var(--red500);
 }

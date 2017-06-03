@@ -1,6 +1,6 @@
 .Divider {
     height: 1px;
     border: 0;
-    background-color: var(--smoke);
+    background-color: var(--gray300);
     margin: 0;
 }

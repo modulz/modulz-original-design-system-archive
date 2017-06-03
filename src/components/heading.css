@@ -54,19 +54,19 @@
 
 .Heading.white { color: var(--white); }
 .Heading.black { color: var(--black); }
-.Heading.gray { color: var(--steel); }
+.Heading.gray { color: var(--gray500); }
 
-.Heading.red { color: var(--red); }
-.Heading.pink { color: var(--pink); }
-.Heading.purple { color: var(--purple); }
-.Heading.violet { color: var(--violet); }
-.Heading.indigo { color: var(--indigo); }
-.Heading.blue { color: var(--blue); }
-.Heading.lavender { color: var(--lavender); }
-.Heading.teal { color: var(--teal); }
-.Heading.green { color: var(--green); }
-.Heading.lime { color: var(--lime); }
-.Heading.yellow { color: var(--yellow); }
-.Heading.amber { color: var(--amber); }
-.Heading.orange { color: var(--orange); }
-.Heading.crimson { color: var(--crimson); }
+.Heading.red { color: var(--red500); }
+.Heading.pink { color: var(--pink500); }
+.Heading.purple { color: var(--purple500); }
+.Heading.violet { color: var(--violet500); }
+.Heading.indigo { color: var(--indigo500); }
+.Heading.blue { color: var(--blue500); }
+.Heading.lavender { color: var(--lavender500); }
+.Heading.teal { color: var(--teal500); }
+.Heading.green { color: var(--green500); }
+.Heading.lime { color: var(--lime500); }
+.Heading.yellow { color: var(--yellow500); }
+.Heading.amber { color: var(--amber500); }
+.Heading.orange { color: var(--orange500); }
+.Heading.crimson { color: var(--crimson500); }

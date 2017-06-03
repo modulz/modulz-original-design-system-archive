@@ -23,7 +23,7 @@
     height: var(--spacing-2);
     line-height: var(--spacing-2);
     background-color: var(--white);
-    border: 1px solid var(--silver);
+    border: 1px solid var(--gray400);
     box-shadow: 0 1px 3px rgba(0,0,0,.05);
     border-radius: var(--borderRadius-2);
     transition: all 100ms ease;
@@ -34,15 +34,15 @@
 .Checkbox:hover > input ~ div,
 .Radio:hover > input ~ div {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-    border-color: var(--steel);
+    border-color: var(--gray500);
 }
 
 /* Focus state */
 /*.Checkbox input:focus ~ .control-indicator,
 .Radio input:focus ~ .control-indicator {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-    border-color: var(--steel);
-    outline: 1px dashed var(--blue);
+    border-color: var(--gray500);
+    outline: 1px dashed var(--blue500);
     outline-offset: 1px;
 }*/
 
@@ -50,8 +50,8 @@
 .Checkbox > input:checked ~ div,
 .Radio > input:checked ~ div {
     color: var(--white);
-    background-color: var(--blue);
-    border-color: var(--blue);
+    background-color: var(--blue500);
+    border-color: var(--blue500);
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05);
 }
 

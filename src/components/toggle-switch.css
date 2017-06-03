@@ -16,7 +16,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--smoke);
+    background-color: var(--gray300);
     transition: all 100ms;
     border-radius: 9999px;
 }
@@ -28,7 +28,7 @@
     width: 16px;
     left: 0;
     bottom: -4px;
-    background-color: var(--steel);
+    background-color: var(--gray500);
     transition: all 100ms ease;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
@@ -40,5 +40,5 @@
 
 .ToggleSwitch input:checked + .slider:before {
     transform: translateX(16px);
-    background-color: var(--blue)
+    background-color: var(--blue500)
 }

@@ -16,27 +16,27 @@
 .borderColor-black--pellucid        { border-color: rgba(0,0,0, var(--pellucid)); }
 .borderColor-black--limpid          { border-color: rgba(0,0,0, var(--limpid)); }
 
-.borderColor-red                    { border-color: var(--red); }
-.borderColor-pink                   { border-color: var(--pink); }
-.borderColor-purple                 { border-color: var(--purple); }
-.borderColor-deepPurple             { border-color: var(--violet); }
-.borderColor-indigo                 { border-color: var(--indigo); }
-.borderColor-blue                   { border-color: var(--blue); }
+.borderColor-red                    { border-color: var(--red500); }
+.borderColor-pink                   { border-color: var(--pink500); }
+.borderColor-purple                 { border-color: var(--purple500); }
+.borderColor-deepPurple             { border-color: var(--violet500); }
+.borderColor-indigo                 { border-color: var(--indigo500); }
+.borderColor-blue                   { border-color: var(--blue500); }
 .borderColor-lightBlue              { border-color: var(--lightBlue); }
 .borderColor-cyan                   { border-color: var(--cyan); }
-.borderColor-teal                   { border-color: var(--teal); }
-.borderColor-green                  { border-color: var(--green); }
+.borderColor-teal                   { border-color: var(--teal500); }
+.borderColor-green                  { border-color: var(--green500); }
 .borderColor-lightGreen             { border-color: var(--lightGreen); }
-.borderColor-lime                   { border-color: var(--lime); }
-.borderColor-yellow                 { border-color: var(--yellow); }
-.borderColor-amber                  { border-color: var(--amber); }
-.borderColor-orange                 { border-color: var(--orange); }
-.borderColor-deepOrange             { border-color: var(--crimson); }
+.borderColor-lime                   { border-color: var(--lime500); }
+.borderColor-yellow                 { border-color: var(--yellow500); }
+.borderColor-amber                  { border-color: var(--amber500); }
+.borderColor-orange                 { border-color: var(--orange500); }
+.borderColor-deepOrange             { border-color: var(--crimson500); }
 .borderColor-brown                  { border-color: var(--brown); }
 .borderColor-gray                   { border-color: var(--gray); }
 
 .borderColor-pinkTint               { border-color: var(--pinkTint); }
-.borderColor-blueTint               { border-color: var(--blueTint); }
+.borderColor-blueTint               { border-color: var(--blue100); }
 .borderColor-tealTint               { border-color: var(--tealTint); }
 .borderColor-amberTint              { border-color: var(--amberTint); }
 
@@ -45,13 +45,13 @@
 .borderColor-blueBright             { border-color: var(--blueBright); }
 .borderColor-tealBright             { border-color: var(--tealBright); }
 
-.borderColor-pearl                  { border-color: var(--pearl); }
-.borderColor-snow                   { border-color: var(--snow); }
-.borderColor-smoke                  { border-color: var(--smoke); }
-.borderColor-silver                 { border-color: var(--silver); }
-.borderColor-steel                  { border-color: var(--steel); }
-.borderColor-lead                   { border-color: var(--lead); }
-.borderColor-charcoal               { border-color: var(--charcoal); }
+.borderColor-pearl                  { border-color: var(--gray100); }
+.borderColor-snow                   { border-color: var(--gray200); }
+.borderColor-smoke                  { border-color: var(--gray300); }
+.borderColor-silver                 { border-color: var(--gray400); }
+.borderColor-steel                  { border-color: var(--gray500); }
+.borderColor-lead                   { border-color: var(--gray800); }
+.borderColor-charcoal               { border-color: var(--gray900); }
 
 /* Hover states */
 @media (hover) {
@@ -71,27 +71,27 @@
     .borderColor-black--pellucid--hover:hover       { border-color: rgba(0,0,0, var(--pellucid)); }
     .borderColor-black--limpid--hover:hover         { border-color: rgba(0,0,0, var(--limpid)); }
 
-    .borderColor-red--hover:hover                   { border-color: var(--red); }
-    .borderColor-pink--hover:hover                  { border-color: var(--pink); }
-    .borderColor-purple--hover:hover                { border-color: var(--purple); }
-    .borderColor-deepPurple--hover:hover            { border-color: var(--violet); }
-    .borderColor-indigo--hover:hover                { border-color: var(--indigo); }
-    .borderColor-blue--hover:hover                  { border-color: var(--blue); }
+    .borderColor-red--hover:hover                   { border-color: var(--red500); }
+    .borderColor-pink--hover:hover                  { border-color: var(--pink500); }
+    .borderColor-purple--hover:hover                { border-color: var(--purple500); }
+    .borderColor-deepPurple--hover:hover            { border-color: var(--violet500); }
+    .borderColor-indigo--hover:hover                { border-color: var(--indigo500); }
+    .borderColor-blue--hover:hover                  { border-color: var(--blue500); }
     .borderColor-lightBlue--hover:hover             { border-color: var(--lightBlue); }
     .borderColor-cyan--hover:hover                  { border-color: var(--cyan); }
-    .borderColor-teal--hover:hover                  { border-color: var(--teal); }
-    .borderColor-green--hover:hover                 { border-color: var(--green); }
+    .borderColor-teal--hover:hover                  { border-color: var(--teal500); }
+    .borderColor-green--hover:hover                 { border-color: var(--green500); }
     .borderColor-lightGreen--hover:hover            { border-color: var(--lightGreen); }
-    .borderColor-lime--hover:hover                  { border-color: var(--lime); }
-    .borderColor-yellow--hover:hover                { border-color: var(--yellow); }
-    .borderColor-amber--hover:hover                 { border-color: var(--amber); }
-    .borderColor-orange--hover:hover                { border-color: var(--orange); }
-    .borderColor-deepOrange--hover:hover            { border-color: var(--crimson); }
+    .borderColor-lime--hover:hover                  { border-color: var(--lime500); }
+    .borderColor-yellow--hover:hover                { border-color: var(--yellow500); }
+    .borderColor-amber--hover:hover                 { border-color: var(--amber500); }
+    .borderColor-orange--hover:hover                { border-color: var(--orange500); }
+    .borderColor-deepOrange--hover:hover            { border-color: var(--crimson500); }
     .borderColor-brown--hover:hover                 { border-color: var(--brown); }
     .borderColor-gray--hover:hover                  { border-color: var(--gray); }
 
     .borderColor-pinkTint--hover:hover              { border-color: var(--pinkTint); }
-    .borderColor-blueTint--hover:hover              { border-color: var(--blueTint); }
+    .borderColor-blueTint--hover:hover              { border-color: var(--blue100); }
     .borderColor-tealTint--hover:hover              { border-color: var(--tealTint); }
     .borderColor-amberTint--hover:hover             { border-color: var(--amberTint); }
 
@@ -100,13 +100,13 @@
     .borderColor-blueBright--hover:hover            { border-color: var(--blueBright); }
     .borderColor-tealBright--hover:hover            { border-color: var(--tealBright); }
 
-    .borderColor-pearl--hover:hover                 { border-color: var(--pearl); }
-    .borderColor-snow--hover:hover                  { border-color: var(--snow); }
-    .borderColor-smoke--hover:hover                 { border-color: var(--smoke); }
-    .borderColor-silver--hover:hover                { border-color: var(--silver); }
-    .borderColor-steel--hover:hover                 { border-color: var(--steel); }
-    .borderColor-lead--hover:hover                  { border-color: var(--lead); }
-    .borderColor-charcoal--hover:hover              { border-color: var(--charcoal); }
+    .borderColor-pearl--hover:hover                 { border-color: var(--gray100); }
+    .borderColor-snow--hover:hover                  { border-color: var(--gray200); }
+    .borderColor-smoke--hover:hover                 { border-color: var(--gray300); }
+    .borderColor-silver--hover:hover                { border-color: var(--gray400); }
+    .borderColor-steel--hover:hover                 { border-color: var(--gray500); }
+    .borderColor-lead--hover:hover                  { border-color: var(--gray800); }
+    .borderColor-charcoal--hover:hover              { border-color: var(--gray900); }
 }
 
 /* Focus states */
@@ -126,27 +126,27 @@
 .borderColor-black--pellucid--focus:focus       { border-color: rgba(0,0,0, var(--pellucid)); }
 .borderColor-black--limpid--focus:focus         { border-color: rgba(0,0,0, var(--limpid)); }
 
-.borderColor-red--focus:focus                   { border-color: var(--red); }
-.borderColor-pink--focus:focus                  { border-color: var(--pink); }
-.borderColor-purple--focus:focus                { border-color: var(--purple); }
-.borderColor-deepPurple--focus:focus            { border-color: var(--violet); }
-.borderColor-indigo--focus:focus                { border-color: var(--indigo); }
-.borderColor-blue--focus:focus                  { border-color: var(--blue); }
+.borderColor-red--focus:focus                   { border-color: var(--red500); }
+.borderColor-pink--focus:focus                  { border-color: var(--pink500); }
+.borderColor-purple--focus:focus                { border-color: var(--purple500); }
+.borderColor-deepPurple--focus:focus            { border-color: var(--violet500); }
+.borderColor-indigo--focus:focus                { border-color: var(--indigo500); }
+.borderColor-blue--focus:focus                  { border-color: var(--blue500); }
 .borderColor-lightBlue--focus:focus             { border-color: var(--lightBlue); }
 .borderColor-cyan--focus:focus                  { border-color: var(--cyan); }
-.borderColor-teal--focus:focus                  { border-color: var(--teal); }
-.borderColor-green--focus:focus                 { border-color: var(--green); }
+.borderColor-teal--focus:focus                  { border-color: var(--teal500); }
+.borderColor-green--focus:focus                 { border-color: var(--green500); }
 .borderColor-lightGreen--focus:focus            { border-color: var(--lightGreen); }
-.borderColor-lime--focus:focus                  { border-color: var(--lime); }
-.borderColor-yellow--focus:focus                { border-color: var(--yellow); }
-.borderColor-amber--focus:focus                 { border-color: var(--amber); }
-.borderColor-orange--focus:focus                { border-color: var(--orange); }
-.borderColor-deepOrange--focus:focus            { border-color: var(--crimson); }
+.borderColor-lime--focus:focus                  { border-color: var(--lime500); }
+.borderColor-yellow--focus:focus                { border-color: var(--yellow500); }
+.borderColor-amber--focus:focus                 { border-color: var(--amber500); }
+.borderColor-orange--focus:focus                { border-color: var(--orange500); }
+.borderColor-deepOrange--focus:focus            { border-color: var(--crimson500); }
 .borderColor-brown--focus:focus                 { border-color: var(--brown); }
 .borderColor-gray--focus:focus                  { border-color: var(--gray); }
 
 .borderColor-pinkTint--focus:focus              { border-color: var(--pinkTint); }
-.borderColor-blueTint--focus:focus              { border-color: var(--blueTint); }
+.borderColor-blueTint--focus:focus              { border-color: var(--blue100); }
 .borderColor-tealTint--focus:focus              { border-color: var(--tealTint); }
 .borderColor-amberTint--focus:focus             { border-color: var(--amberTint); }
 
@@ -155,10 +155,10 @@
 .borderColor-blueBright--focus:focus            { border-color: var(--blueBright); }
 .borderColor-tealBright--focus:focus            { border-color: var(--tealBright); }
 
-.borderColor-pearl--focus:focus                 { border-color: var(--pearl); }
-.borderColor-snow--focus:focus                  { border-color: var(--snow); }
-.borderColor-smoke--focus:focus                 { border-color: var(--smoke); }
-.borderColor-silver--focus:focus                { border-color: var(--silver); }
-.borderColor-steel--focus:focus                 { border-color: var(--steel); }
-.borderColor-lead--focus:focus                  { border-color: var(--lead); }
-.borderColor-charcoal--focus:focus              { border-color: var(--charcoal); }
+.borderColor-pearl--focus:focus                 { border-color: var(--gray100); }
+.borderColor-snow--focus:focus                  { border-color: var(--gray200); }
+.borderColor-smoke--focus:focus                 { border-color: var(--gray300); }
+.borderColor-silver--focus:focus                { border-color: var(--gray400); }
+.borderColor-steel--focus:focus                 { border-color: var(--gray500); }
+.borderColor-lead--focus:focus                  { border-color: var(--gray800); }
+.borderColor-charcoal--focus:focus              { border-color: var(--gray900); }

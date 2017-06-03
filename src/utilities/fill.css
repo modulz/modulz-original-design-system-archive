@@ -14,24 +14,24 @@
 .fill-black--pellucid      { fill: rgba(0,0,0, var(--pellucid)); }
 .fill-black--limpid        { fill: rgba(0,0,0, var(--limpid)); }
 
-.fill-red                  { fill: var(--red); }
-.fill-pink                 { fill: var(--pink); }
-.fill-purple               { fill: var(--purple); }
-.fill-indigo               { fill: var(--indigo); }
-.fill-blue                 { fill: var(--blue); }
+.fill-red                  { fill: var(--red500); }
+.fill-pink                 { fill: var(--pink500); }
+.fill-purple               { fill: var(--purple500); }
+.fill-indigo               { fill: var(--indigo500); }
+.fill-blue                 { fill: var(--blue500); }
 .fill-cyan                 { fill: var(--cyan); }
-.fill-teal                 { fill: var(--teal); }
-.fill-green                { fill: var(--green); }
-.fill-lime                 { fill: var(--lime); }
-.fill-yellow               { fill: var(--yellow); }
-.fill-amber                { fill: var(--amber); }
-.fill-orange               { fill: var(--orange); }
+.fill-teal                 { fill: var(--teal500); }
+.fill-green                { fill: var(--green500); }
+.fill-lime                 { fill: var(--lime500); }
+.fill-yellow               { fill: var(--yellow500); }
+.fill-amber                { fill: var(--amber500); }
+.fill-orange               { fill: var(--orange500); }
 .fill-brown                { fill: var(--brown); }
 .fill-gray                 { fill: var(--gray); }
 
-.fill-pearl                { fill: var(--pearl); }
-.fill-snow                 { fill: var(--snow); }
-.fill-smoke                { fill: var(--smoke); }
-.fill-steel                { fill: var(--steel); }
-.fill-lead                 { fill: var(--lead); }
-.fill-charcoal             { fill: var(--charcoal); }
+.fill-pearl                { fill: var(--gray100); }
+.fill-snow                 { fill: var(--gray200); }
+.fill-smoke                { fill: var(--gray300); }
+.fill-steel                { fill: var(--gray500); }
+.fill-lead                 { fill: var(--gray800); }
+.fill-charcoal             { fill: var(--gray900); }

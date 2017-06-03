@@ -21,18 +21,18 @@
 }
 
 .PrimaryLink {
-    color: var(--blue);
+    color: var(--blue500);
 }
 .PrimaryLink:hover {
-    color: var(--blueShade);
+    color: var(--blue700);
 }
 
 .LightLink {
-    color: var(--steel);
+    color: var(--gray500);
     background-image: none;
 }
 .LightLink:hover {
-    color: var(--lead);
+    color: var(--gray800);
 }
 
 
@@ -62,10 +62,10 @@
 }
 
 .Link--light {
-    color: var(--steel);
+    color: var(--gray500);
 }
 .Link--light:hover {
-    color: var(--blue);
+    color: var(--blue500);
 }
 
 .Link--light.has-darkBg {
@@ -76,8 +76,8 @@
 }
 
 .Link--dark {
-    color: var(--lead);
+    color: var(--gray800);
 }
 .Link--dark:hover {
-    color: var(--blue);
+    color: var(--blue500);
 }

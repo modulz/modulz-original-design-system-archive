@@ -1,15 +1,15 @@
 /* Input placeholder */
 
 .ip-smoke::-webkit-input-placeholder {
-   color: var(--smoke);
+   color: var(--gray300);
    opacity:  1;
 }
 .ip-smoke:-moz-placeholder {
-   color: var(--smoke);
+   color: var(--gray300);
    opacity:  1;
 }
 .ip-smoke:-ms-input-placeholder {
-   color: var(--smoke);
+   color: var(--gray300);
    opacity:  1;
 }
 
@@ -44,5 +44,5 @@
 [contentEditable=true]:empty:before {
     content: attr(placeholder);
     opacity:  1;
-    color: var(--smoke);
+    color: var(--gray300);
 }

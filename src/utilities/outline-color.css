@@ -13,27 +13,27 @@
 .oc-black--pellucid         { outline-color: rgba(0,0,0, var(--pellucid)); }
 .oc-black--limpid           { outline-color: rgba(0,0,0, var(--limpid)); }
 
-.oc-red                     { outline-color: var(--red); }
-.oc-pink                    { outline-color: var(--pink); }
-.oc-purple                  { outline-color: var(--purple); }
-.oc-deepPurple              { outline-color: var(--violet); }
-.oc-indigo                  { outline-color: var(--indigo); }
-.oc-blue                    { outline-color: var(--blue); }
+.oc-red                     { outline-color: var(--red500); }
+.oc-pink                    { outline-color: var(--pink500); }
+.oc-purple                  { outline-color: var(--purple500); }
+.oc-deepPurple              { outline-color: var(--violet500); }
+.oc-indigo                  { outline-color: var(--indigo500); }
+.oc-blue                    { outline-color: var(--blue500); }
 .oc-lightBlue               { outline-color: var(--lightBlue); }
 .oc-cyan                    { outline-color: var(--cyan); }
-.oc-teal                    { outline-color: var(--teal); }
-.oc-green                   { outline-color: var(--green); }
+.oc-teal                    { outline-color: var(--teal500); }
+.oc-green                   { outline-color: var(--green500); }
 .oc-lightGreen              { outline-color: var(--lightGreen); }
-.oc-lime                    { outline-color: var(--lime); }
-.oc-yellow                  { outline-color: var(--yellow); }
-.oc-amber                   { outline-color: var(--amber); }
-.oc-orange                  { outline-color: var(--orange); }
-.oc-deepOrange              { outline-color: var(--crimson); }
+.oc-lime                    { outline-color: var(--lime500); }
+.oc-yellow                  { outline-color: var(--yellow500); }
+.oc-amber                   { outline-color: var(--amber500); }
+.oc-orange                  { outline-color: var(--orange500); }
+.oc-deepOrange              { outline-color: var(--crimson500); }
 .oc-brown                   { outline-color: var(--brown); }
 .oc-gray                    { outline-color: var(--gray); }
 
-.oc-snow                    { outline-color: var(--snow); }
-.oc-smoke                   { outline-color: var(--smoke); }
-.oc-steel                   { outline-color: var(--steel); }
-.oc-lead                    { outline-color: var(--lead); }
-.oc-charcoal                { outline-color: var(--charcoal); }
+.oc-snow                    { outline-color: var(--gray200); }
+.oc-smoke                   { outline-color: var(--gray300); }
+.oc-steel                   { outline-color: var(--gray500); }
+.oc-lead                    { outline-color: var(--gray800); }
+.oc-charcoal                { outline-color: var(--gray900); }

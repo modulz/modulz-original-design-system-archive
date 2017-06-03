@@ -49,9 +49,9 @@
 /* Neutral button */
 
 .Button {
-    background-color: var(--pearl);
+    background-color: var(--gray100);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
-    color: var(--charcoal);
+    color: var(--gray900);
 }
 .Button:hover {
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 18%, 51%);
@@ -63,8 +63,8 @@
 /* Primary button */
 
 .PrimaryButton {
-    background-color: var(--blueTint);
-    color: var(--blueShade);
+    background-color: var(--blue100);
+    color: var(--blue700);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(200, 75%, 75%);
 }
 .PrimaryButton:hover {
@@ -77,8 +77,8 @@
 /* Positive button */
 
 .PositiveButton {
-    background-color: var(--greenTint);
-    color: var(--greenShade);
+    background-color: var(--green100);
+    color: var(--green700);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(132, 45%, 70%);
 }
 .PositiveButton:hover {
@@ -91,8 +91,8 @@
 /* Negative button */
 
 .NegativeButton {
-    background-color: var(--redTint);
-    color: var(--redShade);
+    background-color: var(--red100);
+    color: var(--red700);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(0, 75%, 85%);
 }
 .NegativeButton:hover {
@@ -129,44 +129,44 @@
     min-width: var(--spacing-6);
 }
 
-.PillButton.white { background-color: var(--white); color: var(--lead); }
+.PillButton.white { background-color: var(--white); color: var(--gray800); }
 .PillButton.black { background-color: var(--black); }
-.PillButton.red { background-color: var(--red); }
-.PillButton.pink { background-color: var(--pink); }
-.PillButton.purple { background-color: var(--purple); }
-.PillButton.violet { background-color: var(--violet); }
-.PillButton.indigo { background-color: var(--indigo); }
-.PillButton.blue { background-color: var(--blue); }
-.PillButton.lavender { background-color: var(--lavender); }
-.PillButton.teal { background-color: var(--teal); }
-.PillButton.green { background-color: var(--green); }
-.PillButton.lime { background-color: var(--lime); color: var(--lead); }
-.PillButton.yellow { background-color: var(--yellow); color: var(--lead); }
-.PillButton.amber { background-color: var(--amber); color: var(--lead); }
-.PillButton.orange { background-color: var(--orange); }
-.PillButton.crimson { background-color: var(--crimson); }
+.PillButton.red { background-color: var(--red500); }
+.PillButton.pink { background-color: var(--pink500); }
+.PillButton.purple { background-color: var(--purple500); }
+.PillButton.violet { background-color: var(--violet500); }
+.PillButton.indigo { background-color: var(--indigo500); }
+.PillButton.blue { background-color: var(--blue500); }
+.PillButton.lavender { background-color: var(--lavender500); }
+.PillButton.teal { background-color: var(--teal500); }
+.PillButton.green { background-color: var(--green500); }
+.PillButton.lime { background-color: var(--lime500); color: var(--gray800); }
+.PillButton.yellow { background-color: var(--yellow500); color: var(--gray800); }
+.PillButton.amber { background-color: var(--amber500); color: var(--gray800); }
+.PillButton.orange { background-color: var(--orange500); }
+.PillButton.crimson { background-color: var(--crimson500); }
 
 /* Active state */
 
 .button.is-active {
-    background-color: var(--smoke);
-    color: var(--steel);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--silver);
+    background-color: var(--gray300);
+    color: var(--gray500);
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray400);
 }
 .button.is-active:hover {
     transform: translateY(0px);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--steel);
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray500);
 }
 .button.is-active:active {
     transform: translateY(0px);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--steel);
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray500);
 }
 
 /* Disabled state */
 
 .button.is-disabled {
-    background-color: var(--snow);
-    color: var(--silver);
-    box-shadow: inset 0 0 0 1px var(--smoke);
+    background-color: var(--gray200);
+    color: var(--gray400);
+    box-shadow: inset 0 0 0 1px var(--gray300);
     pointer-events: none;
 }

@@ -6,27 +6,27 @@
     border-radius: var(--borderRadius-2);
     border: none;
     outline: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--silver);
+    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--gray400);
     width: 100%;
     transition: all .15s ease;
 }
 .Input::-webkit-input-placeholder {
-   color: var(--silver);
+   color: var(--gray400);
    opacity:  1;
 }
 .Input::-moz-placeholder {
-   color: var(--silver);
+   color: var(--gray400);
    opacity:  1;
 }
 .Input:-ms-input-placeholder {
-   color: var(--silver);
+   color: var(--gray400);
    opacity:  1;
 }
 .Input:hover {
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--silver);
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--gray400);
 }
 .Input:focus {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px var(--blue);
+    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px var(--blue500);
 }
 
 

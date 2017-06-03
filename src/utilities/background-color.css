@@ -16,30 +16,30 @@
 .bc-black300     { background-color: var(--black300); }
 .bc-black100     { background-color: var(--black100); }
 
-.bc-red                 { background-color: var(--red); }
-.bc-pink                { background-color: var(--pink); }
-.bc-purple              { background-color: var(--purple); }
-.bc-violet              { background-color: var(--violet); }
-.bc-indigo              { background-color: var(--indigo); }
-.bc-blue                { background-color: var(--blue); }
-.bc-lavender            { background-color: var(--lavender); }
-.bc-teal                { background-color: var(--teal); }
-.bc-green               { background-color: var(--green); }
-.bc-lime                { background-color: var(--lime); }
-.bc-yellow              { background-color: var(--yellow); }
-.bc-amber               { background-color: var(--amber); }
-.bc-orange              { background-color: var(--orange); }
-.bc-crimson             { background-color: var(--crimson); }
+.bc-red                 { background-color: var(--red500); }
+.bc-pink                { background-color: var(--pink500); }
+.bc-purple              { background-color: var(--purple500); }
+.bc-violet              { background-color: var(--violet500); }
+.bc-indigo              { background-color: var(--indigo500); }
+.bc-blue                { background-color: var(--blue500); }
+.bc-lavender            { background-color: var(--lavender500); }
+.bc-teal                { background-color: var(--teal500); }
+.bc-green               { background-color: var(--green500); }
+.bc-lime                { background-color: var(--lime500); }
+.bc-yellow              { background-color: var(--yellow500); }
+.bc-amber               { background-color: var(--amber500); }
+.bc-orange              { background-color: var(--orange500); }
+.bc-crimson             { background-color: var(--crimson500); }
 
-.bc-redTint             { background-color: var(--redTint); }
+.bc-redTint             { background-color: var(--red100); }
 .bc-pinkTint            { background-color: var(--pinkTint); }
 .bc-purpleTint          { background-color: var(--purpleTint); }
 .bc-violetTint          { background-color: var(--violetTint); }
 .bc-indigoTint          { background-color: var(--indigoTint); }
-.bc-blueTint            { background-color: var(--blueTint); }
+.bc-blueTint            { background-color: var(--blue100); }
 .bc-lavenderTint        { background-color: var(--lavenderTint); }
 .bc-tealTint            { background-color: var(--tealTint); }
-.bc-greenTint           { background-color: var(--greenTint); }
+.bc-greenTint           { background-color: var(--green100); }
 .bc-limeTint            { background-color: var(--limeTint); }
 .bc-yellowTint          { background-color: var(--yellowTint); }
 .bc-amberTint           { background-color: var(--amberTint); }
@@ -70,27 +70,27 @@
     .bc-black--pellucid--hover:hover     { background-color: rgba(0,0,0, var(--pellucid)); }
     .bc-black--limpid--hover:hover       { background-color: rgba(0,0,0, var(--limpid)); }
 
-    .bc-red--hover:hover                 { background-color: var(--red); }
-    .bc-pink--hover:hover                { background-color: var(--pink); }
-    .bc-purple--hover:hover              { background-color: var(--purple); }
-    .bc-deepPurple--hover:hover          { background-color: var(--violet); }
-    .bc-indigo--hover:hover              { background-color: var(--indigo); }
-    .bc-blue--hover:hover                { background-color: var(--blue); }
+    .bc-red--hover:hover                 { background-color: var(--red500); }
+    .bc-pink--hover:hover                { background-color: var(--pink500); }
+    .bc-purple--hover:hover              { background-color: var(--purple500); }
+    .bc-deepPurple--hover:hover          { background-color: var(--violet500); }
+    .bc-indigo--hover:hover              { background-color: var(--indigo500); }
+    .bc-blue--hover:hover                { background-color: var(--blue500); }
     .bc-lightBlue--hover:hover           { background-color: var(--lightBlue); }
     .bc-cyan--hover:hover                { background-color: var(--cyan); }
-    .bc-teal--hover:hover                { background-color: var(--teal); }
-    .bc-green--hover:hover               { background-color: var(--green); }
+    .bc-teal--hover:hover                { background-color: var(--teal500); }
+    .bc-green--hover:hover               { background-color: var(--green500); }
     .bc-lightGreen--hover:hover          { background-color: var(--lightGreen); }
-    .bc-lime--hover:hover                { background-color: var(--lime); }
-    .bc-yellow--hover:hover              { background-color: var(--yellow); }
-    .bc-amber--hover:hover               { background-color: var(--amber); }
-    .bc-orange--hover:hover              { background-color: var(--orange); }
-    .bc-deepOrange--hover:hover          { background-color: var(--crimson); }
+    .bc-lime--hover:hover                { background-color: var(--lime500); }
+    .bc-yellow--hover:hover              { background-color: var(--yellow500); }
+    .bc-amber--hover:hover               { background-color: var(--amber500); }
+    .bc-orange--hover:hover              { background-color: var(--orange500); }
+    .bc-deepOrange--hover:hover          { background-color: var(--crimson500); }
     .bc-brown--hover:hover               { background-color: var(--brown); }
     .bc-gray--hover:hover                { background-color: var(--gray); }
 
     .bc-pinkTint--hover:hover            { background-color: var(--pinkTint); }
-    .bc-blueTint--hover:hover            { background-color: var(--blueTint); }
+    .bc-blueTint--hover:hover            { background-color: var(--blue100); }
     .bc-tealTint--hover:hover            { background-color: var(--tealTint); }
     .bc-amberTint--hover:hover           { background-color: var(--amberTint); }
 
@@ -99,13 +99,13 @@
     .bc-blueBright--hover:hover          { background-color: var(--blueBright); }
     .bc-tealBright--hover:hover          { background-color: var(--tealBright); }
 
-    .bc-pearl--hover:hover               { background-color: var(--pearl); }
-    .bc-snow--hover:hover                { background-color: var(--snow); }
-    .bc-smoke--hover:hover               { background-color: var(--smoke); }
-    .bc-silver--hover:hover              { background-color: var(--silver); }
-    .bc-steel--hover:hover               { background-color: var(--steel); }
-    .bc-lead--hover:hover                { background-color: var(--lead); }
-    .bc-charcoal--hover:hover            { background-color: var(--charcoal); }
+    .bc-pearl--hover:hover               { background-color: var(--gray100); }
+    .bc-snow--hover:hover                { background-color: var(--gray200); }
+    .bc-smoke--hover:hover               { background-color: var(--gray300); }
+    .bc-silver--hover:hover              { background-color: var(--gray400); }
+    .bc-steel--hover:hover               { background-color: var(--gray500); }
+    .bc-lead--hover:hover                { background-color: var(--gray800); }
+    .bc-charcoal--hover:hover            { background-color: var(--gray900); }
 }
 
 /* Focus states */
@@ -126,27 +126,27 @@
 .bc-black--pellucid--focus:focus     { background-color: rgba(0,0,0, var(--pellucid)); }
 .bc-black--limpid--focus:focus       { background-color: rgba(0,0,0, var(--limpid)); }
 
-.bc-red--focus:focus                 { background-color: var(--red); }
-.bc-pink--focus:focus                { background-color: var(--pink); }
-.bc-purple--focus:focus              { background-color: var(--purple); }
-.bc-deepPurple--focus:focus          { background-color: var(--violet); }
-.bc-indigo--focus:focus              { background-color: var(--indigo); }
-.bc-blue--focus:focus                { background-color: var(--blue); }
+.bc-red--focus:focus                 { background-color: var(--red500); }
+.bc-pink--focus:focus                { background-color: var(--pink500); }
+.bc-purple--focus:focus              { background-color: var(--purple500); }
+.bc-deepPurple--focus:focus          { background-color: var(--violet500); }
+.bc-indigo--focus:focus              { background-color: var(--indigo500); }
+.bc-blue--focus:focus                { background-color: var(--blue500); }
 .bc-lightBlue--focus:focus           { background-color: var(--lightBlue); }
 .bc-cyan--focus:focus                { background-color: var(--cyan); }
-.bc-teal--focus:focus                { background-color: var(--teal); }
-.bc-green--focus:focus               { background-color: var(--green); }
+.bc-teal--focus:focus                { background-color: var(--teal500); }
+.bc-green--focus:focus               { background-color: var(--green500); }
 .bc-lightGreen--focus:focus          { background-color: var(--lightGreen); }
-.bc-lime--focus:focus                { background-color: var(--lime); }
-.bc-yellow--focus:focus              { background-color: var(--yellow); }
-.bc-amber--focus:focus               { background-color: var(--amber); }
-.bc-orange--focus:focus              { background-color: var(--orange); }
-.bc-deepOrange--focus:focus          { background-color: var(--crimson); }
+.bc-lime--focus:focus                { background-color: var(--lime500); }
+.bc-yellow--focus:focus              { background-color: var(--yellow500); }
+.bc-amber--focus:focus               { background-color: var(--amber500); }
+.bc-orange--focus:focus              { background-color: var(--orange500); }
+.bc-deepOrange--focus:focus          { background-color: var(--crimson500); }
 .bc-brown--focus:focus               { background-color: var(--brown); }
 .bc-gray--focus:focus                { background-color: var(--gray); }
 
 .bc-pinkTint--focus:focus            { background-color: var(--pinkTint); }
-.bc-blueTint--focus:focus            { background-color: var(--blueTint); }
+.bc-blueTint--focus:focus            { background-color: var(--blue100); }
 .bc-tealTint--focus:focus            { background-color: var(--tealTint); }
 .bc-amberTint--focus:focus           { background-color: var(--amberTint); }
 
@@ -155,10 +155,10 @@
 .bc-blueBright--focus:focus          { background-color: var(--blueBright); }
 .bc-tealBright--focus:focus          { background-color: var(--tealBright); }
 
-.bc-pearl--focus:focus               { background-color: var(--pearl); }
-.bc-snow--focus:focus                { background-color: var(--snow); }
-.bc-smoke--focus:focus               { background-color: var(--smoke); }
-.bc-silver--focus:focus              { background-color: var(--silver); }
-.bc-steel--focus:focus               { background-color: var(--steel); }
-.bc-lead--focus:focus                { background-color: var(--lead); }
-.bc-charcoal--focus:focus            { background-color: var(--charcoal); }
+.bc-pearl--focus:focus               { background-color: var(--gray100); }
+.bc-snow--focus:focus                { background-color: var(--gray200); }
+.bc-smoke--focus:focus               { background-color: var(--gray300); }
+.bc-silver--focus:focus              { background-color: var(--gray400); }
+.bc-steel--focus:focus               { background-color: var(--gray500); }
+.bc-lead--focus:focus                { background-color: var(--gray800); }
+.bc-charcoal--focus:focus            { background-color: var(--gray900); }

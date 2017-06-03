@@ -1,21 +1,20 @@
 /* Background color */
 
-.bc-none                { background-color: transparent; }
+.bc-none            { background-color: transparent; }
 
-.bc-white               { background-color: var(--white); }
-.bc-black               { background-color: var(--black); }
+.bc-white           { background-color: var(--white); }
+.bc-white900     { background-color: var(--white900); }
+.bc-white700     { background-color: var(--white900); }
+.bc-white500     { background-color: var(--white900); }
+.bc-white300     { background-color: var(--white900); }
+.bc-white100     { background-color: var(--white900); }
 
-.bc-white--opaque       { background-color: rgba(255,255,255, var(--opaque)); }
-.bc-white--translucent  { background-color: rgba(255,255,255, var(--translucent)); }
-.bc-white--transparent  { background-color: rgba(255,255,255, var(--transparent)); }
-.bc-white--pellucid     { background-color: rgba(255,255,255, var(--pellucid)); }
-.bc-white--limpid       { background-color: rgba(255,255,255, var(--limpid)); }
-
-.bc-black--opaque       { background-color: rgba(0,0,0, var(--opaque)); }
-.bc-black--translucent  { background-color: rgba(0,0,0, var(--translucent)); }
-.bc-black--transparent  { background-color: rgba(0,0,0, var(--transparent)); }
-.bc-black--pellucid     { background-color: rgba(0,0,0, var(--pellucid)); }
-.bc-black--limpid       { background-color: rgba(0,0,0, var(--limpid)); }
+.bc-black           { background-color: var(--black); }
+.bc-black900     { background-color: var(--black900); }
+.bc-black700     { background-color: var(--black900); }
+.bc-black500     { background-color: var(--black900); }
+.bc-black300     { background-color: var(--black900); }
+.bc-black100     { background-color: var(--black900); }
 
 .bc-red                 { background-color: var(--red); }
 .bc-pink                { background-color: var(--pink); }
@@ -47,13 +46,10 @@
 .bc-orangeTint          { background-color: var(--orangeTint); }
 .bc-crimsonTint         { background-color: var(--crimsonTint); }
 
-.bc-pearl               { background-color: var(--pearl); }
-.bc-snow                { background-color: var(--snow); }
-.bc-smoke               { background-color: var(--smoke); }
-.bc-silver              { background-color: var(--silver); }
-.bc-steel               { background-color: var(--steel); }
-.bc-lead                { background-color: var(--lead); }
-.bc-charcoal            { background-color: var(--charcoal); }
+.bc-pearl          { background-color: var(--gray100); }
+.bc-snow           { background-color: var(--gray200); }
+.bc-lead            { background-color: var(--gray800); }
+.bc-charcoal    { background-color: var(--gray900); }
 
 /* Hover states */
 @media (hover) {

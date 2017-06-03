@@ -331,7 +331,7 @@ a {
 
 /* Global style variables */
 /* Variables */
-:root {/* Media queries *//* Color scheme *//* Discontinued colors *//* Font sizes  *//* Spacing  *//* Durations  *//* Border radius  *//* Letter spacing  */
+:root {/* Media queries *//* Color palette *//* Font sizes  *//* Spacing  *//* Durations  *//* Border radius  *//* Leading  */
 }
 
 /* Utilities */
@@ -5001,48 +5001,48 @@ a {
     background-color: hsl(0, 0%, 100%)
 }
 
+.bc-white900 {
+    background-color: hsla(0, 0%, 100%, .9)
+}
+
+.bc-white700 {
+    background-color: hsla(0, 0%, 100%, .9)
+}
+
+.bc-white500 {
+    background-color: hsla(0, 0%, 100%, .9)
+}
+
+.bc-white300 {
+    background-color: hsla(0, 0%, 100%, .9)
+}
+
+.bc-white100 {
+    background-color: hsla(0, 0%, 100%, .9)
+}
+
 .bc-black {
     background-color: hsl(0, 0%, 0%)
 }
 
-.bc-white--opaque {
-    background-color: rgba(255,255,255, .98)
+.bc-black900 {
+    background-color: hsla(0, 0%, 0%, .9)
 }
 
-.bc-white--translucent {
-    background-color: rgba(255,255,255, .8)
+.bc-black700 {
+    background-color: hsla(0, 0%, 0%, .9)
 }
 
-.bc-white--transparent {
-    background-color: rgba(255,255,255, .5)
+.bc-black500 {
+    background-color: hsla(0, 0%, 0%, .9)
 }
 
-.bc-white--pellucid {
-    background-color: rgba(255,255,255, .15)
+.bc-black300 {
+    background-color: hsla(0, 0%, 0%, .9)
 }
 
-.bc-white--limpid {
-    background-color: rgba(255,255,255, .05)
-}
-
-.bc-black--opaque {
-    background-color: rgba(0,0,0, .98)
-}
-
-.bc-black--translucent {
-    background-color: rgba(0,0,0, .8)
-}
-
-.bc-black--transparent {
-    background-color: rgba(0,0,0, .5)
-}
-
-.bc-black--pellucid {
-    background-color: rgba(0,0,0, .15)
-}
-
-.bc-black--limpid {
-    background-color: rgba(0,0,0, .05)
+.bc-black100 {
+    background-color: hsla(0, 0%, 0%, .9)
 }
 
 .bc-red {
@@ -5058,7 +5058,7 @@ a {
 }
 
 .bc-violet {
-    background-color: #673AB7
+    background-color: hsl(264, 52%, 45%)
 }
 
 .bc-indigo {
@@ -5066,7 +5066,7 @@ a {
 }
 
 .bc-blue {
-    background-color: hsl(210, 95%, 50%)
+    background-color: hsl(205, 95%, 50%)
 }
 
 .bc-lavender {
@@ -5098,7 +5098,7 @@ a {
 }
 
 .bc-crimson {
-    background-color: #FF5722
+    background-color: hsl(18, 100%, 60%)
 }
 
 .bc-redTint {
@@ -5122,7 +5122,7 @@ a {
 }
 
 .bc-blueTint {
-    background-color: hsl(210, 100%, 97%)
+    background-color: hsl(205, 100%, 97%)
 }
 
 .bc-lavenderTint {
@@ -5158,38 +5158,26 @@ a {
 }
 
 .bc-pearl {
-    background-color: hsl(204, 43%, 99%)
+    background-color: hsl(205, 43%, 99%)
 }
 
 .bc-snow {
-    background-color: hsl(204, 26%, 96%)
-}
-
-.bc-smoke {
-    background-color: hsl(204, 29%, 92%)
-}
-
-.bc-silver {
-    background-color: hsl(204, 22%, 80%)
-}
-
-.bc-steel {
-    background-color: hsl(204, 14%, 46%)
+    background-color: hsl(205, 26%, 96%)
 }
 
 .bc-lead {
-    background-color: hsl(204, 43%, 11%)
+    background-color: hsl(205, 43%, 11%)
 }
 
 .bc-charcoal {
-    background-color: hsl(204, 34%, 15%)
+    background-color: hsl(205, 43%, 5%)
 }
 
 /* Hover states */
 
 @media (hover) {
     .bc-none--hover:hover {
-        background-color: .5
+        background-color: var(--transparent)
     }
     .bc-white--hover:hover {
         background-color: hsl(0, 0%, 100%)
@@ -5198,34 +5186,34 @@ a {
         background-color: hsl(0, 0%, 0%)
     }
     .bc-white--opaque--hover:hover {
-        background-color: rgba(255,255,255, .98)
+        background-color: rgba(255,255,255, var(--opaque))
     }
     .bc-white--translucent--hover:hover {
-        background-color: rgba(255,255,255, .8)
+        background-color: rgba(255,255,255, var(--translucent))
     }
     .bc-white--transparent--hover:hover {
-        background-color: rgba(255,255,255, .5)
+        background-color: rgba(255,255,255, var(--transparent))
     }
     .bc-white--pellucid--hover:hover {
-        background-color: rgba(255,255,255, .15)
+        background-color: rgba(255,255,255, var(--pellucid))
     }
     .bc-white--limpid--hover:hover {
-        background-color: rgba(255,255,255, .05)
+        background-color: rgba(255,255,255, var(--limpid))
     }
     .bc-black--opaque--hover:hover {
-        background-color: rgba(0,0,0, .98)
+        background-color: rgba(0,0,0, var(--opaque))
     }
     .bc-black--translucent--hover:hover {
-        background-color: rgba(0,0,0, .8)
+        background-color: rgba(0,0,0, var(--translucent))
     }
     .bc-black--transparent--hover:hover {
-        background-color: rgba(0,0,0, .5)
+        background-color: rgba(0,0,0, var(--transparent))
     }
     .bc-black--pellucid--hover:hover {
-        background-color: rgba(0,0,0, .15)
+        background-color: rgba(0,0,0, var(--pellucid))
     }
     .bc-black--limpid--hover:hover {
-        background-color: rgba(0,0,0, .05)
+        background-color: rgba(0,0,0, var(--limpid))
     }
     .bc-red--hover:hover {
         background-color: hsl(0, 92%, 66%)
@@ -5237,13 +5225,13 @@ a {
         background-color: hsl(288, 64%, 42%)
     }
     .bc-deepPurple--hover:hover {
-        background-color: #673AB7
+        background-color: hsl(264, 52%, 45%)
     }
     .bc-indigo--hover:hover {
         background-color: hsl(226, 56%, 48%)
     }
     .bc-blue--hover:hover {
-        background-color: hsl(210, 95%, 50%)
+        background-color: hsl(205, 95%, 50%)
     }
     .bc-lightBlue--hover:hover {
         background-color: #03A9F4
@@ -5258,7 +5246,7 @@ a {
         background-color: hsl(132, 52%, 53%)
     }
     .bc-lightGreen--hover:hover {
-        background-color: #8BC34A
+        background-color: var(--lightGreen)
     }
     .bc-lime--hover:hover {
         background-color: hsl(68, 74%, 50%)
@@ -5273,19 +5261,19 @@ a {
         background-color: hsl(36, 100%, 50%)
     }
     .bc-deepOrange--hover:hover {
-        background-color: #FF5722
+        background-color: hsl(18, 100%, 60%)
     }
     .bc-brown--hover:hover {
         background-color: #795548
     }
     .bc-gray--hover:hover {
-        background-color: hsl(0, 0%, 62%)
+        background-color: var(--gray)
     }
     .bc-pinkTint--hover:hover {
         background-color: hsl(332, 94%, 97%)
     }
     .bc-blueTint--hover:hover {
-        background-color: hsl(210, 100%, 97%)
+        background-color: hsl(205, 100%, 97%)
     }
     .bc-tealTint--hover:hover {
         background-color: hsl(172, 100%, 35%)
@@ -5294,44 +5282,44 @@ a {
         background-color: hsl(46, 100%, 96%)
     }
     .bc-redBright--hover:hover {
-        background-color: hsl(348, 100%, 55%)
+        background-color: var(--redBright)
     }
     .bc-purpleBright--hover:hover {
-        background-color: hsl(291, 100%, 49%)
+        background-color: var(--purpleBright)
     }
     .bc-blueBright--hover:hover {
-        background-color: hsl(218, 100%, 58%)
+        background-color: var(--blueBright)
     }
     .bc-tealBright--hover:hover {
-        background-color: hsl(165, 82%, 51%)
+        background-color: var(--tealBright)
     }
     .bc-pearl--hover:hover {
-        background-color: hsl(204, 43%, 99%)
+        background-color: var(--pearl)
     }
     .bc-snow--hover:hover {
-        background-color: hsl(204, 26%, 96%)
+        background-color: var(--snow)
     }
     .bc-smoke--hover:hover {
-        background-color: hsl(204, 29%, 92%)
+        background-color: var(--smoke)
     }
     .bc-silver--hover:hover {
-        background-color: hsl(204, 22%, 80%)
+        background-color: var(--silver)
     }
     .bc-steel--hover:hover {
-        background-color: hsl(204, 14%, 46%)
+        background-color: var(--steel)
     }
     .bc-lead--hover:hover {
-        background-color: hsl(204, 43%, 11%)
+        background-color: var(--lead)
     }
     .bc-charcoal--hover:hover {
-        background-color: hsl(204, 34%, 15%)
+        background-color: var(--charcoal)
     }
 }
 
 /* Focus states */
 
 .bc-none--focus:focus {
-    background-color: .5
+    background-color: var(--transparent)
 }
 
 .bc-white--focus:focus {
@@ -5343,43 +5331,43 @@ a {
 }
 
 .bc-white--opaque--focus:focus {
-    background-color: rgba(255,255,255, .98)
+    background-color: rgba(255,255,255, var(--opaque))
 }
 
 .bc-white--translucent--focus:focus {
-    background-color: rgba(255,255,255, .8)
+    background-color: rgba(255,255,255, var(--translucent))
 }
 
 .bc-white--transparent--focus:focus {
-    background-color: rgba(255,255,255, .5)
+    background-color: rgba(255,255,255, var(--transparent))
 }
 
 .bc-white--pellucid--focus:focus {
-    background-color: rgba(255,255,255, .15)
+    background-color: rgba(255,255,255, var(--pellucid))
 }
 
 .bc-white--limpid--focus:focus {
-    background-color: rgba(255,255,255, .05)
+    background-color: rgba(255,255,255, var(--limpid))
 }
 
 .bc-black--opaque--focus:focus {
-    background-color: rgba(0,0,0, .98)
+    background-color: rgba(0,0,0, var(--opaque))
 }
 
 .bc-black--translucent--focus:focus {
-    background-color: rgba(0,0,0, .8)
+    background-color: rgba(0,0,0, var(--translucent))
 }
 
 .bc-black--transparent--focus:focus {
-    background-color: rgba(0,0,0, .5)
+    background-color: rgba(0,0,0, var(--transparent))
 }
 
 .bc-black--pellucid--focus:focus {
-    background-color: rgba(0,0,0, .15)
+    background-color: rgba(0,0,0, var(--pellucid))
 }
 
 .bc-black--limpid--focus:focus {
-    background-color: rgba(0,0,0, .05)
+    background-color: rgba(0,0,0, var(--limpid))
 }
 
 .bc-red--focus:focus {
@@ -5395,7 +5383,7 @@ a {
 }
 
 .bc-deepPurple--focus:focus {
-    background-color: #673AB7
+    background-color: hsl(264, 52%, 45%)
 }
 
 .bc-indigo--focus:focus {
@@ -5403,7 +5391,7 @@ a {
 }
 
 .bc-blue--focus:focus {
-    background-color: hsl(210, 95%, 50%)
+    background-color: hsl(205, 95%, 50%)
 }
 
 .bc-lightBlue--focus:focus {
@@ -5423,7 +5411,7 @@ a {
 }
 
 .bc-lightGreen--focus:focus {
-    background-color: #8BC34A
+    background-color: var(--lightGreen)
 }
 
 .bc-lime--focus:focus {
@@ -5443,7 +5431,7 @@ a {
 }
 
 .bc-deepOrange--focus:focus {
-    background-color: #FF5722
+    background-color: hsl(18, 100%, 60%)
 }
 
 .bc-brown--focus:focus {
@@ -5451,7 +5439,7 @@ a {
 }
 
 .bc-gray--focus:focus {
-    background-color: hsl(0, 0%, 62%)
+    background-color: var(--gray)
 }
 
 .bc-pinkTint--focus:focus {
@@ -5459,7 +5447,7 @@ a {
 }
 
 .bc-blueTint--focus:focus {
-    background-color: hsl(210, 100%, 97%)
+    background-color: hsl(205, 100%, 97%)
 }
 
 .bc-tealTint--focus:focus {
@@ -5471,47 +5459,47 @@ a {
 }
 
 .bc-redBright--focus:focus {
-    background-color: hsl(348, 100%, 55%)
+    background-color: var(--redBright)
 }
 
 .bc-purpleBright--focus:focus {
-    background-color: hsl(291, 100%, 49%)
+    background-color: var(--purpleBright)
 }
 
 .bc-blueBright--focus:focus {
-    background-color: hsl(218, 100%, 58%)
+    background-color: var(--blueBright)
 }
 
 .bc-tealBright--focus:focus {
-    background-color: hsl(165, 82%, 51%)
+    background-color: var(--tealBright)
 }
 
 .bc-pearl--focus:focus {
-    background-color: hsl(204, 43%, 99%)
+    background-color: var(--pearl)
 }
 
 .bc-snow--focus:focus {
-    background-color: hsl(204, 26%, 96%)
+    background-color: var(--snow)
 }
 
 .bc-smoke--focus:focus {
-    background-color: hsl(204, 29%, 92%)
+    background-color: var(--smoke)
 }
 
 .bc-silver--focus:focus {
-    background-color: hsl(204, 22%, 80%)
+    background-color: var(--silver)
 }
 
 .bc-steel--focus:focus {
-    background-color: hsl(204, 14%, 46%)
+    background-color: var(--steel)
 }
 
 .bc-lead--focus:focus {
-    background-color: hsl(204, 43%, 11%)
+    background-color: var(--lead)
 }
 
 .bc-charcoal--focus:focus {
-    background-color: hsl(204, 34%, 15%)
+    background-color: var(--charcoal)
 }
 /* Border color */
 .borderColor-white {
@@ -5524,34 +5512,34 @@ a {
     border-color: transparent
 }
 .borderColor-white--opaque {
-    border-color: rgba(255,255,255, .98)
+    border-color: rgba(255,255,255, var(--opaque))
 }
 .borderColor-white--translucent {
-    border-color: rgba(255,255,255, .8)
+    border-color: rgba(255,255,255, var(--translucent))
 }
 .borderColor-white--transparent {
-    border-color: rgba(255,255,255, .5)
+    border-color: rgba(255,255,255, var(--transparent))
 }
 .borderColor-white--pellucid {
-    border-color: rgba(255,255,255, .15)
+    border-color: rgba(255,255,255, var(--pellucid))
 }
 .borderColor-white--limpid {
-    border-color: rgba(255,255,255, .05)
+    border-color: rgba(255,255,255, var(--limpid))
 }
 .borderColor-black--opaque {
-    border-color: rgba(0,0,0, .98)
+    border-color: rgba(0,0,0, var(--opaque))
 }
 .borderColor-black--translucent {
-    border-color: rgba(0,0,0, .8)
+    border-color: rgba(0,0,0, var(--translucent))
 }
 .borderColor-black--transparent {
-    border-color: rgba(0,0,0, .5)
+    border-color: rgba(0,0,0, var(--transparent))
 }
 .borderColor-black--pellucid {
-    border-color: rgba(0,0,0, .15)
+    border-color: rgba(0,0,0, var(--pellucid))
 }
 .borderColor-black--limpid {
-    border-color: rgba(0,0,0, .05)
+    border-color: rgba(0,0,0, var(--limpid))
 }
 .borderColor-red {
     border-color: hsl(0, 92%, 66%)
@@ -5563,13 +5551,13 @@ a {
     border-color: hsl(288, 64%, 42%)
 }
 .borderColor-deepPurple {
-    border-color: #673AB7
+    border-color: hsl(264, 52%, 45%)
 }
 .borderColor-indigo {
     border-color: hsl(226, 56%, 48%)
 }
 .borderColor-blue {
-    border-color: hsl(210, 95%, 50%)
+    border-color: hsl(205, 95%, 50%)
 }
 .borderColor-lightBlue {
     border-color: #03A9F4
@@ -5584,7 +5572,7 @@ a {
     border-color: hsl(132, 52%, 53%)
 }
 .borderColor-lightGreen {
-    border-color: #8BC34A
+    border-color: var(--lightGreen)
 }
 .borderColor-lime {
     border-color: hsl(68, 74%, 50%)
@@ -5599,19 +5587,19 @@ a {
     border-color: hsl(36, 100%, 50%)
 }
 .borderColor-deepOrange {
-    border-color: #FF5722
+    border-color: hsl(18, 100%, 60%)
 }
 .borderColor-brown {
     border-color: #795548
 }
 .borderColor-gray {
-    border-color: hsl(0, 0%, 62%)
+    border-color: var(--gray)
 }
 .borderColor-pinkTint {
     border-color: hsl(332, 94%, 97%)
 }
 .borderColor-blueTint {
-    border-color: hsl(210, 100%, 97%)
+    border-color: hsl(205, 100%, 97%)
 }
 .borderColor-tealTint {
     border-color: hsl(172, 100%, 35%)
@@ -5620,37 +5608,37 @@ a {
     border-color: hsl(46, 100%, 96%)
 }
 .borderColor-redBright {
-    border-color: hsl(348, 100%, 55%)
+    border-color: var(--redBright)
 }
 .borderColor-purpleBright {
-    border-color: hsl(291, 100%, 49%)
+    border-color: var(--purpleBright)
 }
 .borderColor-blueBright {
-    border-color: hsl(218, 100%, 58%)
+    border-color: var(--blueBright)
 }
 .borderColor-tealBright {
-    border-color: hsl(165, 82%, 51%)
+    border-color: var(--tealBright)
 }
 .borderColor-pearl {
-    border-color: hsl(204, 43%, 99%)
+    border-color: var(--pearl)
 }
 .borderColor-snow {
-    border-color: hsl(204, 26%, 96%)
+    border-color: var(--snow)
 }
 .borderColor-smoke {
-    border-color: hsl(204, 29%, 92%)
+    border-color: var(--smoke)
 }
 .borderColor-silver {
-    border-color: hsl(204, 22%, 80%)
+    border-color: var(--silver)
 }
 .borderColor-steel {
-    border-color: hsl(204, 14%, 46%)
+    border-color: var(--steel)
 }
 .borderColor-lead {
-    border-color: hsl(204, 43%, 11%)
+    border-color: var(--lead)
 }
 .borderColor-charcoal {
-    border-color: hsl(204, 34%, 15%)
+    border-color: var(--charcoal)
 }
 /* Hover states */
 @media (hover) {
@@ -5664,34 +5652,34 @@ a {
         border-color: transparent
     }
     .borderColor-white--opaque--hover:hover {
-        border-color: rgba(255,255,255, .98)
+        border-color: rgba(255,255,255, var(--opaque))
     }
     .borderColor-white--translucent--hover:hover {
-        border-color: rgba(255,255,255, .8)
+        border-color: rgba(255,255,255, var(--translucent))
     }
     .borderColor-white--transparent--hover:hover {
-        border-color: rgba(255,255,255, .5)
+        border-color: rgba(255,255,255, var(--transparent))
     }
     .borderColor-white--pellucid--hover:hover {
-        border-color: rgba(255,255,255, .15)
+        border-color: rgba(255,255,255, var(--pellucid))
     }
     .borderColor-white--limpid--hover:hover {
-        border-color: rgba(255,255,255, .05)
+        border-color: rgba(255,255,255, var(--limpid))
     }
     .borderColor-black--opaque--hover:hover {
-        border-color: rgba(0,0,0, .98)
+        border-color: rgba(0,0,0, var(--opaque))
     }
     .borderColor-black--translucent--hover:hover {
-        border-color: rgba(0,0,0, .8)
+        border-color: rgba(0,0,0, var(--translucent))
     }
     .borderColor-black--transparent--hover:hover {
-        border-color: rgba(0,0,0, .5)
+        border-color: rgba(0,0,0, var(--transparent))
     }
     .borderColor-black--pellucid--hover:hover {
-        border-color: rgba(0,0,0, .15)
+        border-color: rgba(0,0,0, var(--pellucid))
     }
     .borderColor-black--limpid--hover:hover {
-        border-color: rgba(0,0,0, .05)
+        border-color: rgba(0,0,0, var(--limpid))
     }
     .borderColor-red--hover:hover {
         border-color: hsl(0, 92%, 66%)
@@ -5703,13 +5691,13 @@ a {
         border-color: hsl(288, 64%, 42%)
     }
     .borderColor-deepPurple--hover:hover {
-        border-color: #673AB7
+        border-color: hsl(264, 52%, 45%)
     }
     .borderColor-indigo--hover:hover {
         border-color: hsl(226, 56%, 48%)
     }
     .borderColor-blue--hover:hover {
-        border-color: hsl(210, 95%, 50%)
+        border-color: hsl(205, 95%, 50%)
     }
     .borderColor-lightBlue--hover:hover {
         border-color: #03A9F4
@@ -5724,7 +5712,7 @@ a {
         border-color: hsl(132, 52%, 53%)
     }
     .borderColor-lightGreen--hover:hover {
-        border-color: #8BC34A
+        border-color: var(--lightGreen)
     }
     .borderColor-lime--hover:hover {
         border-color: hsl(68, 74%, 50%)
@@ -5739,19 +5727,19 @@ a {
         border-color: hsl(36, 100%, 50%)
     }
     .borderColor-deepOrange--hover:hover {
-        border-color: #FF5722
+        border-color: hsl(18, 100%, 60%)
     }
     .borderColor-brown--hover:hover {
         border-color: #795548
     }
     .borderColor-gray--hover:hover {
-        border-color: hsl(0, 0%, 62%)
+        border-color: var(--gray)
     }
     .borderColor-pinkTint--hover:hover {
         border-color: hsl(332, 94%, 97%)
     }
     .borderColor-blueTint--hover:hover {
-        border-color: hsl(210, 100%, 97%)
+        border-color: hsl(205, 100%, 97%)
     }
     .borderColor-tealTint--hover:hover {
         border-color: hsl(172, 100%, 35%)
@@ -5760,37 +5748,37 @@ a {
         border-color: hsl(46, 100%, 96%)
     }
     .borderColor-redBright--hover:hover {
-        border-color: hsl(348, 100%, 55%)
+        border-color: var(--redBright)
     }
     .borderColor-purpleBright--hover:hover {
-        border-color: hsl(291, 100%, 49%)
+        border-color: var(--purpleBright)
     }
     .borderColor-blueBright--hover:hover {
-        border-color: hsl(218, 100%, 58%)
+        border-color: var(--blueBright)
     }
     .borderColor-tealBright--hover:hover {
-        border-color: hsl(165, 82%, 51%)
+        border-color: var(--tealBright)
     }
     .borderColor-pearl--hover:hover {
-        border-color: hsl(204, 43%, 99%)
+        border-color: var(--pearl)
     }
     .borderColor-snow--hover:hover {
-        border-color: hsl(204, 26%, 96%)
+        border-color: var(--snow)
     }
     .borderColor-smoke--hover:hover {
-        border-color: hsl(204, 29%, 92%)
+        border-color: var(--smoke)
     }
     .borderColor-silver--hover:hover {
-        border-color: hsl(204, 22%, 80%)
+        border-color: var(--silver)
     }
     .borderColor-steel--hover:hover {
-        border-color: hsl(204, 14%, 46%)
+        border-color: var(--steel)
     }
     .borderColor-lead--hover:hover {
-        border-color: hsl(204, 43%, 11%)
+        border-color: var(--lead)
     }
     .borderColor-charcoal--hover:hover {
-        border-color: hsl(204, 34%, 15%)
+        border-color: var(--charcoal)
     }
 }
 /* Focus states */
@@ -5804,34 +5792,34 @@ a {
     border-color: transparent
 }
 .borderColor-white--opaque--focus:focus {
-    border-color: rgba(255,255,255, .98)
+    border-color: rgba(255,255,255, var(--opaque))
 }
 .borderColor-white--translucent--focus:focus {
-    border-color: rgba(255,255,255, .8)
+    border-color: rgba(255,255,255, var(--translucent))
 }
 .borderColor-white--transparent--focus:focus {
-    border-color: rgba(255,255,255, .5)
+    border-color: rgba(255,255,255, var(--transparent))
 }
 .borderColor-white--pellucid--focus:focus {
-    border-color: rgba(255,255,255, .15)
+    border-color: rgba(255,255,255, var(--pellucid))
 }
 .borderColor-white--limpid--focus:focus {
-    border-color: rgba(255,255,255, .05)
+    border-color: rgba(255,255,255, var(--limpid))
 }
 .borderColor-black--opaque--focus:focus {
-    border-color: rgba(0,0,0, .98)
+    border-color: rgba(0,0,0, var(--opaque))
 }
 .borderColor-black--translucent--focus:focus {
-    border-color: rgba(0,0,0, .8)
+    border-color: rgba(0,0,0, var(--translucent))
 }
 .borderColor-black--transparent--focus:focus {
-    border-color: rgba(0,0,0, .5)
+    border-color: rgba(0,0,0, var(--transparent))
 }
 .borderColor-black--pellucid--focus:focus {
-    border-color: rgba(0,0,0, .15)
+    border-color: rgba(0,0,0, var(--pellucid))
 }
 .borderColor-black--limpid--focus:focus {
-    border-color: rgba(0,0,0, .05)
+    border-color: rgba(0,0,0, var(--limpid))
 }
 .borderColor-red--focus:focus {
     border-color: hsl(0, 92%, 66%)
@@ -5843,13 +5831,13 @@ a {
     border-color: hsl(288, 64%, 42%)
 }
 .borderColor-deepPurple--focus:focus {
-    border-color: #673AB7
+    border-color: hsl(264, 52%, 45%)
 }
 .borderColor-indigo--focus:focus {
     border-color: hsl(226, 56%, 48%)
 }
 .borderColor-blue--focus:focus {
-    border-color: hsl(210, 95%, 50%)
+    border-color: hsl(205, 95%, 50%)
 }
 .borderColor-lightBlue--focus:focus {
     border-color: #03A9F4
@@ -5864,7 +5852,7 @@ a {
     border-color: hsl(132, 52%, 53%)
 }
 .borderColor-lightGreen--focus:focus {
-    border-color: #8BC34A
+    border-color: var(--lightGreen)
 }
 .borderColor-lime--focus:focus {
     border-color: hsl(68, 74%, 50%)
@@ -5879,19 +5867,19 @@ a {
     border-color: hsl(36, 100%, 50%)
 }
 .borderColor-deepOrange--focus:focus {
-    border-color: #FF5722
+    border-color: hsl(18, 100%, 60%)
 }
 .borderColor-brown--focus:focus {
     border-color: #795548
 }
 .borderColor-gray--focus:focus {
-    border-color: hsl(0, 0%, 62%)
+    border-color: var(--gray)
 }
 .borderColor-pinkTint--focus:focus {
     border-color: hsl(332, 94%, 97%)
 }
 .borderColor-blueTint--focus:focus {
-    border-color: hsl(210, 100%, 97%)
+    border-color: hsl(205, 100%, 97%)
 }
 .borderColor-tealTint--focus:focus {
     border-color: hsl(172, 100%, 35%)
@@ -5900,37 +5888,37 @@ a {
     border-color: hsl(46, 100%, 96%)
 }
 .borderColor-redBright--focus:focus {
-    border-color: hsl(348, 100%, 55%)
+    border-color: var(--redBright)
 }
 .borderColor-purpleBright--focus:focus {
-    border-color: hsl(291, 100%, 49%)
+    border-color: var(--purpleBright)
 }
 .borderColor-blueBright--focus:focus {
-    border-color: hsl(218, 100%, 58%)
+    border-color: var(--blueBright)
 }
 .borderColor-tealBright--focus:focus {
-    border-color: hsl(165, 82%, 51%)
+    border-color: var(--tealBright)
 }
 .borderColor-pearl--focus:focus {
-    border-color: hsl(204, 43%, 99%)
+    border-color: var(--pearl)
 }
 .borderColor-snow--focus:focus {
-    border-color: hsl(204, 26%, 96%)
+    border-color: var(--snow)
 }
 .borderColor-smoke--focus:focus {
-    border-color: hsl(204, 29%, 92%)
+    border-color: var(--smoke)
 }
 .borderColor-silver--focus:focus {
-    border-color: hsl(204, 22%, 80%)
+    border-color: var(--silver)
 }
 .borderColor-steel--focus:focus {
-    border-color: hsl(204, 14%, 46%)
+    border-color: var(--steel)
 }
 .borderColor-lead--focus:focus {
-    border-color: hsl(204, 43%, 11%)
+    border-color: var(--lead)
 }
 .borderColor-charcoal--focus:focus {
-    border-color: hsl(204, 34%, 15%)
+    border-color: var(--charcoal)
 }
 /* Border radius */
 .br-0 {
@@ -6267,7 +6255,7 @@ a {
     box-shadow: 0 6px 20px 1px hsla(208, 20%, 10%, .15), 0 3px 10px 0px hsla(208, 20%, 10%, .08)
 }
 .bs-bevel {
-    box-shadow: inset 0 1px 0 0 hsl(204, 29%, 92%), inset 1px 0 0 0 hsl(204, 29%, 92%), inset -1px 0 0 0 hsl(204, 29%, 92%), inset 0 -1px 0 0 hsl(204, 22%, 80%)
+    box-shadow: inset 0 1px 0 0 var(--smoke), inset 1px 0 0 0 var(--smoke), inset -1px 0 0 0 var(--smoke), inset 0 -1px 0 0 var(--silver)
 }
 /* Hover states */
 @media (hover) {
@@ -6284,7 +6272,7 @@ a {
         box-shadow: 0 6px 20px 1px hsla(208, 20%, 10%, .15), 0 3px 10px 0px hsla(208, 20%, 10%, .08)
     }
     .bs-bevel--hover:hover {
-        box-shadow: inset 0 1px 0 0 hsl(204, 29%, 92%), inset 1px 0 0 0 hsl(204, 29%, 92%), inset -1px 0 0 0 hsl(204, 29%, 92%), inset 0 -1px 0 0 hsl(204, 22%, 80%)
+        box-shadow: inset 0 1px 0 0 var(--smoke), inset 1px 0 0 0 var(--smoke), inset -1px 0 0 0 var(--smoke), inset 0 -1px 0 0 var(--silver)
     }
 }
 /* Inset border hack */
@@ -6295,34 +6283,34 @@ a {
     box-shadow: inset 0 0 0 1px hsl(0, 0%, 0%)
 }
 .bs-white--opaque {
-    box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--opaque))
 }
 .bs-white--translucent {
-    box-shadow: inset 0 0 0 1px rgba(255,255,255, .8)
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--translucent))
 }
 .bs-white--transparent {
-    box-shadow: inset 0 0 0 1px rgba(255,255,255, .5)
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--transparent))
 }
 .bs-white--pellucid {
-    box-shadow: inset 0 0 0 1px rgba(255,255,255, .15)
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--pellucid))
 }
 .bs-white--limpid {
-    box-shadow: inset 0 0 0 1px rgba(255,255,255, .05)
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--limpid))
 }
 .bs-black--opaque {
-    box-shadow: inset 0 0 0 1px rgba(0,0,0, .98)
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--opaque))
 }
 .bs-black--translucent {
-    box-shadow: inset 0 0 0 1px rgba(0,0,0, .8)
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--translucent))
 }
 .bs-black--transparent {
-    box-shadow: inset 0 0 0 1px rgba(0,0,0, .5)
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--transparent))
 }
 .bs-black--pellucid {
-    box-shadow: inset 0 0 0 1px rgba(0,0,0, .15)
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--pellucid))
 }
 .bs-black--limpid {
-    box-shadow: inset 0 0 0 1px rgba(0,0,0, .05)
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--limpid))
 }
 .bs-red {
     box-shadow: inset 0 0 0 1px hsl(0, 92%, 66%)
@@ -6334,13 +6322,13 @@ a {
     box-shadow: inset 0 0 0 1px hsl(288, 64%, 42%)
 }
 .bs-deepPurple {
-    box-shadow: inset 0 0 0 1px #673AB7
+    box-shadow: inset 0 0 0 1px hsl(264, 52%, 45%)
 }
 .bs-indigo {
     box-shadow: inset 0 0 0 1px hsl(226, 56%, 48%)
 }
 .bs-blue {
-    box-shadow: inset 0 0 0 1px hsl(210, 95%, 50%)
+    box-shadow: inset 0 0 0 1px hsl(205, 95%, 50%)
 }
 .bs-lightBlue {
     box-shadow: inset 0 0 0 1px #03A9F4
@@ -6355,7 +6343,7 @@ a {
     box-shadow: inset 0 0 0 1px hsl(132, 52%, 53%)
 }
 .bs-lightGreen {
-    box-shadow: inset 0 0 0 1px #8BC34A
+    box-shadow: inset 0 0 0 1px var(--lightGreen)
 }
 .bs-lime {
     box-shadow: inset 0 0 0 1px hsl(68, 74%, 50%)
@@ -6370,19 +6358,19 @@ a {
     box-shadow: inset 0 0 0 1px hsl(36, 100%, 50%)
 }
 .bs-deepOrange {
-    box-shadow: inset 0 0 0 1px #FF5722
+    box-shadow: inset 0 0 0 1px hsl(18, 100%, 60%)
 }
 .bs-brown {
     box-shadow: inset 0 0 0 1px #795548
 }
 .bs-gray {
-    box-shadow: inset 0 0 0 1px hsl(0, 0%, 62%)
+    box-shadow: inset 0 0 0 1px var(--gray)
 }
 .bs-pinkTint {
     box-shadow: inset 0 0 0 1px hsl(332, 94%, 97%)
 }
 .bs-blueTint {
-    box-shadow: inset 0 0 0 1px hsl(210, 100%, 97%)
+    box-shadow: inset 0 0 0 1px hsl(205, 100%, 97%)
 }
 .bs-tealTint {
     box-shadow: inset 0 0 0 1px hsl(172, 100%, 35%)
@@ -6391,37 +6379,37 @@ a {
     box-shadow: inset 0 0 0 1px hsl(46, 100%, 96%)
 }
 .bs-redBright {
-    box-shadow: inset 0 0 0 1px hsl(348, 100%, 55%)
+    box-shadow: inset 0 0 0 1px var(--redBright)
 }
 .bs-purpleBright {
-    box-shadow: inset 0 0 0 1px hsl(291, 100%, 49%)
+    box-shadow: inset 0 0 0 1px var(--purpleBright)
 }
 .bs-blueBright {
-    box-shadow: inset 0 0 0 1px hsl(218, 100%, 58%)
+    box-shadow: inset 0 0 0 1px var(--blueBright)
 }
 .bs-tealBright {
-    box-shadow: inset 0 0 0 1px hsl(165, 82%, 51%)
+    box-shadow: inset 0 0 0 1px var(--tealBright)
 }
 .bs-pearl {
-    box-shadow: inset 0 0 0 1px hsl(204, 43%, 99%)
+    box-shadow: inset 0 0 0 1px var(--pearl)
 }
 .bs-snow {
-    box-shadow: inset 0 0 0 1px hsl(204, 26%, 96%)
+    box-shadow: inset 0 0 0 1px var(--snow)
 }
 .bs-smoke {
-    box-shadow: inset 0 0 0 1px hsl(204, 29%, 92%)
+    box-shadow: inset 0 0 0 1px var(--smoke)
 }
 .bs-silver {
-    box-shadow: inset 0 0 0 1px hsl(204, 22%, 80%)
+    box-shadow: inset 0 0 0 1px var(--silver)
 }
 .bs-steel {
-    box-shadow: inset 0 0 0 1px hsl(204, 14%, 46%)
+    box-shadow: inset 0 0 0 1px var(--steel)
 }
 .bs-lead {
-    box-shadow: inset 0 0 0 1px hsl(204, 43%, 11%)
+    box-shadow: inset 0 0 0 1px var(--lead)
 }
 .bs-charcoal {
-    box-shadow: inset 0 0 0 1px hsl(204, 34%, 15%)
+    box-shadow: inset 0 0 0 1px var(--charcoal)
 }
 /* Inset border hack hover states */
 @media (hover) {
@@ -6432,34 +6420,34 @@ a {
         box-shadow: inset 0 0 0 1px hsl(0, 0%, 0%)
     }
     .bs-white--opaque--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--opaque))
     }
     .bs-white--translucent--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(255,255,255, .8)
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--translucent))
     }
     .bs-white--transparent--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(255,255,255, .5)
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--transparent))
     }
     .bs-white--pellucid--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(255,255,255, .15)
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--pellucid))
     }
     .bs-white--limpid--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(255,255,255, .05)
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--limpid))
     }
     .bs-black--opaque--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(0,0,0, .98)
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--opaque))
     }
     .bs-black--translucent--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(0,0,0, .8)
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--translucent))
     }
     .bs-black--transparent--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(0,0,0, .5)
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--transparent))
     }
     .bs-black--pellucid--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(0,0,0, .15)
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--pellucid))
     }
     .bs-black--limpid--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(0,0,0, .05)
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--limpid))
     }
     .bs-red--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(0, 92%, 66%)
@@ -6471,13 +6459,13 @@ a {
         box-shadow: inset 0 0 0 1px hsl(288, 64%, 42%)
     }
     .bs-deepPurple--hover:hover {
-        box-shadow: inset 0 0 0 1px #673AB7
+        box-shadow: inset 0 0 0 1px hsl(264, 52%, 45%)
     }
     .bs-indigo--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(226, 56%, 48%)
     }
     .bs-blue--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(210, 95%, 50%)
+        box-shadow: inset 0 0 0 1px hsl(205, 95%, 50%)
     }
     .bs-lightBlue--hover:hover {
         box-shadow: inset 0 0 0 1px #03A9F4
@@ -6492,7 +6480,7 @@ a {
         box-shadow: inset 0 0 0 1px hsl(132, 52%, 53%)
     }
     .bs-lightGreen--hover:hover {
-        box-shadow: inset 0 0 0 1px #8BC34A
+        box-shadow: inset 0 0 0 1px var(--lightGreen)
     }
     .bs-lime--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(68, 74%, 50%)
@@ -6507,19 +6495,19 @@ a {
         box-shadow: inset 0 0 0 1px hsl(36, 100%, 50%)
     }
     .bs-deepOrange--hover:hover {
-        box-shadow: inset 0 0 0 1px #FF5722
+        box-shadow: inset 0 0 0 1px hsl(18, 100%, 60%)
     }
     .bs-brown--hover:hover {
         box-shadow: inset 0 0 0 1px #795548
     }
     .bs-gray--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(0, 0%, 62%)
+        box-shadow: inset 0 0 0 1px var(--gray)
     }
     .bs-pinkTint--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(332, 94%, 97%)
     }
     .bs-blueTint--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(210, 100%, 97%)
+        box-shadow: inset 0 0 0 1px hsl(205, 100%, 97%)
     }
     .bs-tealTint--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(172, 100%, 35%)
@@ -6528,37 +6516,37 @@ a {
         box-shadow: inset 0 0 0 1px hsl(46, 100%, 96%)
     }
     .bs-redBright--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(348, 100%, 55%)
+        box-shadow: inset 0 0 0 1px var(--redBright)
     }
     .bs-purpleBright--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(291, 100%, 49%)
+        box-shadow: inset 0 0 0 1px var(--purpleBright)
     }
     .bs-blueBright--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(218, 100%, 58%)
+        box-shadow: inset 0 0 0 1px var(--blueBright)
     }
     .bs-tealBright--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(165, 82%, 51%)
+        box-shadow: inset 0 0 0 1px var(--tealBright)
     }
     .bs-pearl--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(204, 43%, 99%)
+        box-shadow: inset 0 0 0 1px var(--pearl)
     }
     .bs-snow--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(204, 26%, 96%)
+        box-shadow: inset 0 0 0 1px var(--snow)
     }
     .bs-smoke--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(204, 29%, 92%)
+        box-shadow: inset 0 0 0 1px var(--smoke)
     }
     .bs-silver--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(204, 22%, 80%)
+        box-shadow: inset 0 0 0 1px var(--silver)
     }
     .bs-steel--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(204, 14%, 46%)
+        box-shadow: inset 0 0 0 1px var(--steel)
     }
     .bs-lead--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(204, 43%, 11%)
+        box-shadow: inset 0 0 0 1px var(--lead)
     }
     .bs-charcoal--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(204, 34%, 15%)
+        box-shadow: inset 0 0 0 1px var(--charcoal)
     }
 }
 /* Color */
@@ -6568,41 +6556,38 @@ a {
 .color-white {
     color: hsl(0, 0%, 100%)
 }
+.color-white900 {
+    color: hsla(0, 0%, 100%, .9)
+}
+.color-white700 {
+    color: hsla(0, 0%, 100%, .9)
+}
+.color-white500 {
+    color: hsla(0, 0%, 100%, .9)
+}
+.color-white300 {
+    color: hsla(0, 0%, 100%, .9)
+}
+.color-white100 {
+    color: hsla(0, 0%, 100%, .9)
+}
 .color-black {
     color: hsl(0, 0%, 0%)
 }
-.color-transparent {
-    color: .5
+.color-black900 {
+    color: hsla(0, 0%, 0%, .9)
 }
-.color-white--opaque {
-    color: rgba(255,255,255, .98)
+.color-black700 {
+    color: hsla(0, 0%, 0%, .9)
 }
-.color-white--translucent {
-    color: rgba(255,255,255, .8)
+.color-black500 {
+    color: hsla(0, 0%, 0%, .9)
 }
-.color-white--transparent {
-    color: rgba(255,255,255, .5)
+.color-black300 {
+    color: hsla(0, 0%, 0%, .9)
 }
-.color-white--pellucid {
-    color: rgba(255,255,255, .15)
-}
-.color-white--limpid {
-    color: rgba(255,255,255, .05)
-}
-.color-black--opaque {
-    color: rgba(0,0,0, .98)
-}
-.color-black--translucent {
-    color: rgba(0,0,0, .8)
-}
-.color-black--transparent {
-    color: rgba(0,0,0, .5)
-}
-.color-black--pellucid {
-    color: rgba(0,0,0, .15)
-}
-.color-black--limpid {
-    color: rgba(0,0,0, .05)
+.color-black100 {
+    color: hsla(0, 0%, 0%, .9)
 }
 .color-red {
     color: hsl(0, 92%, 66%)
@@ -6614,13 +6599,13 @@ a {
     color: hsl(288, 64%, 42%)
 }
 .color-violet {
-    color: #673AB7
+    color: hsl(264, 52%, 45%)
 }
 .color-indigo {
     color: hsl(226, 56%, 48%)
 }
 .color-blue {
-    color: hsl(210, 95%, 50%)
+    color: hsl(205, 95%, 50%)
 }
 .color-teal {
     color: hsl(172, 100%, 35%)
@@ -6644,10 +6629,10 @@ a {
     color: hsl(255, 74%, 60%)
 }
 .color-crimson {
-    color: #FF5722
+    color: hsl(18, 100%, 60%)
 }
 .color-blueShade {
-    color: hsl(210, 95%, 35%)
+    color: hsl(205, 95%, 35%)
 }
 .color-redShade {
     color: hsl(0, 92%, 46%)
@@ -6655,26 +6640,17 @@ a {
 .color-greenShade {
     color: hsl(132, 52%, 38%)
 }
-.color-pearl {
-    color: hsl(204, 43%, 99%)
-}
-.color-snow {
-    color: hsl(204, 26%, 96%)
-}
-.color-smoke {
-    color: hsl(204, 29%, 92%)
-}
 .color-silver {
-    color: hsl(204, 22%, 80%)
+    color: hsl(205, 22%, 80%)
 }
 .color-steel {
-    color: hsl(204, 14%, 46%)
-}
-.color-lead {
-    color: hsl(204, 43%, 11%)
+    color: hsl(205, 14%, 46%)
 }
 .color-charcoal {
-    color: hsl(204, 34%, 15%)
+    color: hsl(205, 43%, 11%)
+}
+.color-lead {
+    color: hsl(205, 43%, 5%)
 }
 /* Hover states */
 @media (hover) {
@@ -6685,7 +6661,7 @@ a {
         color: hsl(0, 0%, 0%)
     }
     .color-transparent--hover:hover {
-        color: .5
+        color: var(--transparent)
     }
     .color-red--hover:hover {
         color: hsl(0, 92%, 66%)
@@ -6697,13 +6673,13 @@ a {
         color: hsl(288, 64%, 42%)
     }
     .color-deepPurple--hover:hover {
-        color: #673AB7
+        color: hsl(264, 52%, 45%)
     }
     .color-indigo--hover:hover {
         color: hsl(226, 56%, 48%)
     }
     .color-blue--hover:hover {
-        color: hsl(210, 95%, 50%)
+        color: hsl(205, 95%, 50%)
     }
     .color-lightBlue--hover:hover {
         color: #03A9F4
@@ -6718,7 +6694,7 @@ a {
         color: hsl(132, 52%, 53%)
     }
     .color-lightGreen--hover:hover {
-        color: #8BC34A
+        color: var(--lightGreen)
     }
     .color-lime--hover:hover {
         color: hsl(68, 74%, 50%)
@@ -6733,34 +6709,25 @@ a {
         color: hsl(36, 100%, 50%)
     }
     .color-deepOrange--hover:hover {
-        color: #FF5722
+        color: hsl(18, 100%, 60%)
     }
     .color-brown--hover:hover {
         color: #795548
     }
     .color-gray--hover:hover {
-        color: hsl(0, 0%, 62%)
-    }
-    .color-pearl--hover:hover {
-        color: hsl(204, 43%, 99%)
-    }
-    .color-snow--hover:hover {
-        color: hsl(204, 26%, 96%)
-    }
-    .color-smoke--hover:hover {
-        color: hsl(204, 29%, 92%)
+        color: var(--gray)
     }
     .color-silver--hover:hover {
-        color: hsl(204, 22%, 80%)
+        color: hsl(205, 22%, 80%)
     }
     .color-steel--hover:hover {
-        color: hsl(204, 14%, 46%)
-    }
-    .color-lead--hover:hover {
-        color: hsl(204, 43%, 11%)
+        color: hsl(205, 14%, 46%)
     }
     .color-charcoal--hover:hover {
-        color: hsl(204, 34%, 15%)
+        color: hsl(205, 43%, 11%)
+    }
+    .color-lead--hover:hover {
+        color: hsl(205, 43%, 5%)
     }
 }
 /* Fill */
@@ -6771,31 +6738,31 @@ a {
     fill: hsl(0, 0%, 0%)
 }
 .fill-transparent {
-    fill: .5
+    fill: var(--transparent)
 }
 .fill-white--translucent {
-    fill: rgba(255,255,255, .8)
+    fill: rgba(255,255,255, var(--translucent))
 }
 .fill-white--transparent {
-    fill: rgba(255,255,255, .5)
+    fill: rgba(255,255,255, var(--transparent))
 }
 .fill-white--pellucid {
-    fill: rgba(255,255,255, .15)
+    fill: rgba(255,255,255, var(--pellucid))
 }
 .fill-white--limpid {
-    fill: rgba(255,255,255, .05)
+    fill: rgba(255,255,255, var(--limpid))
 }
 .fill-black--translucent {
-    fill: rgba(0,0,0, .8)
+    fill: rgba(0,0,0, var(--translucent))
 }
 .fill-black--transparent {
-    fill: rgba(0,0,0, .5)
+    fill: rgba(0,0,0, var(--transparent))
 }
 .fill-black--pellucid {
-    fill: rgba(0,0,0, .15)
+    fill: rgba(0,0,0, var(--pellucid))
 }
 .fill-black--limpid {
-    fill: rgba(0,0,0, .05)
+    fill: rgba(0,0,0, var(--limpid))
 }
 .fill-red {
     fill: hsl(0, 92%, 66%)
@@ -6810,7 +6777,7 @@ a {
     fill: hsl(226, 56%, 48%)
 }
 .fill-blue {
-    fill: hsl(210, 95%, 50%)
+    fill: hsl(205, 95%, 50%)
 }
 .fill-cyan {
     fill: #00BCD4
@@ -6837,25 +6804,25 @@ a {
     fill: #795548
 }
 .fill-gray {
-    fill: hsl(0, 0%, 62%)
+    fill: var(--gray)
 }
 .fill-pearl {
-    fill: hsl(204, 43%, 99%)
+    fill: var(--pearl)
 }
 .fill-snow {
-    fill: hsl(204, 26%, 96%)
+    fill: var(--snow)
 }
 .fill-smoke {
-    fill: hsl(204, 29%, 92%)
+    fill: var(--smoke)
 }
 .fill-steel {
-    fill: hsl(204, 14%, 46%)
+    fill: var(--steel)
 }
 .fill-lead {
-    fill: hsl(204, 43%, 11%)
+    fill: var(--lead)
 }
 .fill-charcoal {
-    fill: hsl(204, 34%, 15%)
+    fill: var(--charcoal)
 }
 /* Font family */
 .ff-sansSerif {
@@ -6884,146 +6851,146 @@ a {
 }
 /* Font size */
 .fs-9 {
-    font-size: 7.2rem
+    font-size: 2.6rem
 }
 .fs-8 {
-    font-size: 4rem
+    font-size: 2.2rem
 }
 .fs-7 {
-    font-size: 3.2rem
-}
-.fs-6 {
-    font-size: 2.4rem
-}
-.fs-5 {
     font-size: 2rem
 }
-.fs-4 {
+.fs-6 {
+    font-size: 1.8rem
+}
+.fs-5 {
     font-size: 1.6rem
 }
-.fs-3 {
+.fs-4 {
     font-size: 1.4rem
 }
-.fs-2 {
+.fs-3 {
     font-size: 1.2rem
 }
+.fs-2 {
+    font-size: 1rem
+}
 .fs-1 {
-    font-size: 1.0rem
+    font-size: .8rem
 }
 @media (min-width: 38em) {
     .bps-fs-9 {
-        font-size: 7.2rem
+        font-size: 2.6rem
     }
     .bps-fs-8 {
-        font-size: 4rem
+        font-size: 2.2rem
     }
     .bps-fs-7 {
-        font-size: 3.2rem
-    }
-    .bps-fs-6 {
-        font-size: 2.4rem
-    }
-    .bps-fs-5 {
         font-size: 2rem
     }
-    .bps-fs-4 {
+    .bps-fs-6 {
+        font-size: 1.8rem
+    }
+    .bps-fs-5 {
         font-size: 1.6rem
     }
-    .bps-fs-3 {
+    .bps-fs-4 {
         font-size: 1.4rem
     }
-    .bps-fs-2 {
+    .bps-fs-3 {
         font-size: 1.2rem
     }
+    .bps-fs-2 {
+        font-size: 1rem
+    }
     .bps-fs-1 {
-        font-size: 1.0rem
+        font-size: .8rem
     }
 }
 @media (min-width: 62em) {
     .bpm-fs-9 {
-        font-size: 7.2rem
+        font-size: 2.6rem
     }
     .bpm-fs-8 {
-        font-size: 4rem
+        font-size: 2.2rem
     }
     .bpm-fs-7 {
-        font-size: 3.2rem
-    }
-    .bpm-fs-6 {
-        font-size: 2.4rem
-    }
-    .bpm-fs-5 {
         font-size: 2rem
     }
-    .bpm-fs-4 {
+    .bpm-fs-6 {
+        font-size: 1.8rem
+    }
+    .bpm-fs-5 {
         font-size: 1.6rem
     }
-    .bpm-fs-3 {
+    .bpm-fs-4 {
         font-size: 1.4rem
     }
-    .bpm-fs-2 {
+    .bpm-fs-3 {
         font-size: 1.2rem
     }
+    .bpm-fs-2 {
+        font-size: 1rem
+    }
     .bpm-fs-1 {
-        font-size: 1.0rem
+        font-size: .8rem
     }
 }
 @media (min-width: 68em) {
     .bpl-fs-9 {
-        font-size: 7.2rem
+        font-size: 2.6rem
     }
     .bpl-fs-8 {
-        font-size: 4rem
+        font-size: 2.2rem
     }
     .bpl-fs-7 {
-        font-size: 3.2rem
-    }
-    .bpl-fs-6 {
-        font-size: 2.4rem
-    }
-    .bpl-fs-5 {
         font-size: 2rem
     }
-    .bpl-fs-4 {
+    .bpl-fs-6 {
+        font-size: 1.8rem
+    }
+    .bpl-fs-5 {
         font-size: 1.6rem
     }
-    .bpl-fs-3 {
+    .bpl-fs-4 {
         font-size: 1.4rem
+    }
+    .bpl-fs-3 {
+        font-size: 1.2rem
     }
     .bpl-fs-s {
         font-size: var(--fs-s)
     }
     .bpl-fs-1 {
-        font-size: 1.0rem
+        font-size: .8rem
     }
 }
 @media (min-width: 110em) {
     .bpxl-fs-9 {
-        font-size: 7.2rem
+        font-size: 2.6rem
     }
     .bpxl-fs-8 {
-        font-size: 4rem
+        font-size: 2.2rem
     }
     .bpxl-fs-7 {
-        font-size: 3.2rem
-    }
-    .bpxl-fs-6 {
-        font-size: 2.4rem
-    }
-    .bpxl-fs-5 {
         font-size: 2rem
     }
-    .bpxl-fs-4 {
+    .bpxl-fs-6 {
+        font-size: 1.8rem
+    }
+    .bpxl-fs-5 {
         font-size: 1.6rem
     }
-    .bpxl-fs-3 {
+    .bpxl-fs-4 {
         font-size: 1.4rem
+    }
+    .bpxl-fs-3 {
+        font-size: 1.2rem
     }
     .bpxl-fs-s {
         font-size: var(--fs-s)
     }
     .bpxl-fs-1 {
-        font-size: 1.0rem
+        font-size: .8rem
     }
 }
 /* Heights */
@@ -7094,7 +7061,7 @@ a {
     height: 8rem
 }
 .height-UI9 {
-    height: var(--spacing-9)
+    height: 9.6rem
 }
 @media (min-width: 38em) {
     .bps-height-10 {
@@ -7164,7 +7131,7 @@ a {
         height: 8rem
     }
     .bps-height-UI9 {
-        height: var(--spacing-9)
+        height: 9.6rem
     }
 }
 @media (min-width: 62em) {
@@ -7235,7 +7202,7 @@ a {
         height: 8rem
     }
     .bpm-height-UI9 {
-        height: var(--spacing-9)
+        height: 9.6rem
     }
 }
 @media (min-width: 68em) {
@@ -7306,7 +7273,7 @@ a {
         height: 8rem
     }
     .bpl-height-UI9 {
-        height: var(--spacing-9)
+        height: 9.6rem
     }
 }
 @media (min-width: 110em) {
@@ -7377,7 +7344,7 @@ a {
         height: 8rem
     }
     .bpxl-height-UI9 {
-        height: var(--spacing-9)
+        height: 9.6rem
     }
 }
 /*@import "utilities/input-placeholder.css";*/
@@ -7528,7 +7495,7 @@ a {
 }
 /* Margin */
 .margin-9 {
-    margin: var(--spacing-9)
+    margin: 9.6rem
 }
 .margin-8 {
     margin: 8rem
@@ -7558,7 +7525,7 @@ a {
     margin: 0
 }
 .mt-9 {
-    margin-top: var(--spacing-9)
+    margin-top: 9.6rem
 }
 .mt-8 {
     margin-top: 8rem
@@ -7588,7 +7555,7 @@ a {
     margin-top: 0
 }
 .mr-9 {
-    margin-right: var(--spacing-9)
+    margin-right: 9.6rem
 }
 .mr-8 {
     margin-right: 8rem
@@ -7618,7 +7585,7 @@ a {
     margin-right: 0
 }
 .mb-9 {
-    margin-bottom: var(--spacing-9)
+    margin-bottom: 9.6rem
 }
 .mb-8 {
     margin-bottom: 8rem
@@ -7648,7 +7615,7 @@ a {
     margin-bottom: 0
 }
 .ml-9 {
-    margin-left: var(--spacing-9)
+    margin-left: 9.6rem
 }
 .ml-8 {
     margin-left: 8rem
@@ -7686,7 +7653,7 @@ a {
 }
 @media (min-width: 38em) {
     .bps-margin-9 {
-        margin: var(--spacing-9)
+        margin: 9.6rem
     }
     .bps-margin-8 {
         margin: 8rem
@@ -7716,7 +7683,7 @@ a {
         margin: 0
     }
     .bps-mt-9 {
-        margin-top: var(--spacing-9)
+        margin-top: 9.6rem
     }
     .bps-mt-8 {
         margin-top: 8rem
@@ -7746,7 +7713,7 @@ a {
         margin-top: 0
     }
     .bps-mr-9 {
-        margin-right: var(--spacing-9)
+        margin-right: 9.6rem
     }
     .bps-mr-8 {
         margin-right: 8rem
@@ -7776,7 +7743,7 @@ a {
         margin-right: 0
     }
     .bps-mb-9 {
-        margin-bottom: var(--spacing-9)
+        margin-bottom: 9.6rem
     }
     .bps-mb-8 {
         margin-bottom: 8rem
@@ -7806,7 +7773,7 @@ a {
         margin-bottom: 0
     }
     .bps-ml-9 {
-        margin-left: var(--spacing-9)
+        margin-left: 9.6rem
     }
     .bps-ml-8 {
         margin-left: 8rem
@@ -7838,7 +7805,7 @@ a {
 }
 @media (min-width: 62em) {
     .bpm-margin-9 {
-        margin: var(--spacing-9)
+        margin: 9.6rem
     }
     .bpm-margin-8 {
         margin: 8rem
@@ -7868,7 +7835,7 @@ a {
         margin: 0
     }
     .bpm-mt-9 {
-        margin-top: var(--spacing-9)
+        margin-top: 9.6rem
     }
     .bpm-mt-8 {
         margin-top: 8rem
@@ -7898,7 +7865,7 @@ a {
         margin-top: 0
     }
     .bpm-mr-9 {
-        margin-right: var(--spacing-9)
+        margin-right: 9.6rem
     }
     .bpm-mr-8 {
         margin-right: 8rem
@@ -7928,7 +7895,7 @@ a {
         margin-right: 0
     }
     .bpm-mb-9 {
-        margin-bottom: var(--spacing-9)
+        margin-bottom: 9.6rem
     }
     .bpm-mb-8 {
         margin-bottom: 8rem
@@ -7958,7 +7925,7 @@ a {
         margin-bottom: 0
     }
     .bpm-ml-9 {
-        margin-left: var(--spacing-9)
+        margin-left: 9.6rem
     }
     .bpm-ml-8 {
         margin-left: 8rem
@@ -7990,7 +7957,7 @@ a {
 }
 @media (min-width: 68em) {
     .bpl-margin-9 {
-        margin: var(--spacing-9)
+        margin: 9.6rem
     }
     .bpl-margin-8 {
         margin: 8rem
@@ -8020,7 +7987,7 @@ a {
         margin: 0
     }
     .bpl-mt-9 {
-        margin-top: var(--spacing-9)
+        margin-top: 9.6rem
     }
     .bpl-mt-8 {
         margin-top: 8rem
@@ -8050,7 +8017,7 @@ a {
         margin-top: 0
     }
     .bpl-mr-9 {
-        margin-right: var(--spacing-9)
+        margin-right: 9.6rem
     }
     .bpl-mr-8 {
         margin-right: 8rem
@@ -8080,7 +8047,7 @@ a {
         margin-right: 0
     }
     .bpl-mb-9 {
-        margin-bottom: var(--spacing-9)
+        margin-bottom: 9.6rem
     }
     .bpl-mb-8 {
         margin-bottom: 8rem
@@ -8110,7 +8077,7 @@ a {
         margin-bottom: 0
     }
     .bpl-ml-9 {
-        margin-left: var(--spacing-9)
+        margin-left: 9.6rem
     }
     .bpl-ml-8 {
         margin-left: 8rem
@@ -8142,7 +8109,7 @@ a {
 }
 @media (min-width: 110em) {
     .bpxl-margin-9 {
-        margin: var(--spacing-9)
+        margin: 9.6rem
     }
     .bpxl-margin-8 {
         margin: 8rem
@@ -8172,7 +8139,7 @@ a {
         margin: 0
     }
     .bpxl-mt-9 {
-        margin-top: var(--spacing-9)
+        margin-top: 9.6rem
     }
     .bpxl-mt-8 {
         margin-top: 8rem
@@ -8202,7 +8169,7 @@ a {
         margin-top: 0
     }
     .bpxl-mr-9 {
-        margin-right: var(--spacing-9)
+        margin-right: 9.6rem
     }
     .bpxl-mr-8 {
         margin-right: 8rem
@@ -8232,7 +8199,7 @@ a {
         margin-right: 0
     }
     .bpxl-mb-9 {
-        margin-bottom: var(--spacing-9)
+        margin-bottom: 9.6rem
     }
     .bpxl-mb-8 {
         margin-bottom: 8rem
@@ -8262,7 +8229,7 @@ a {
         margin-bottom: 0
     }
     .bpxl-ml-9 {
-        margin-left: var(--spacing-9)
+        margin-left: 9.6rem
     }
     .bpxl-ml-8 {
         margin-left: 8rem
@@ -8513,7 +8480,7 @@ a {
 }
 /* Min Width */
 .mw-UIxxxs {
-    min-width: .4rem
+    min-width: var(--spacing-xxxs)
 }
 .mw-UIxxs {
     min-width: .8rem
@@ -8543,7 +8510,7 @@ a {
 /*@import "utilities/outline-color.css";*/
 /* Padding */
 .padding-9 {
-    padding: var(--spacing-9)
+    padding: 9.6rem
 }
 .padding-8 {
     padding: 8rem
@@ -8572,6 +8539,9 @@ a {
 .padding-0 {
     padding: 0
 }
+.pt-9 {
+    padding-top: 9.6rem
+}
 .pt-8 {
     padding-top: 8rem
 }
@@ -8596,11 +8566,11 @@ a {
 .pt-1 {
     padding-top: .8rem
 }
-.pt-xxxs {
-    padding-top: .4rem
-}
 .pt-0 {
     padding-top: 0
+}
+.pr-9 {
+    padding-right: 9.6rem
 }
 .pr-8 {
     padding-right: 8rem
@@ -8626,11 +8596,11 @@ a {
 .pr-1 {
     padding-right: .8rem
 }
-.pr-xxxs {
-    padding-right: .4rem
-}
 .pr-0 {
     padding-right: 0
+}
+.pb-9 {
+    padding-bottom: 9.6rem
 }
 .pb-8 {
     padding-bottom: 8rem
@@ -8656,11 +8626,11 @@ a {
 .pb-1 {
     padding-bottom: .8rem
 }
-.pb-xxxs {
-    padding-bottom: .4rem
-}
 .pb-0 {
     padding-bottom: 0
+}
+.pl-9 {
+    padding-left: 9.6rem
 }
 .pl-8 {
     padding-left: 8rem
@@ -8686,9 +8656,6 @@ a {
 .pl-1 {
     padding-left: .8rem
 }
-.pl-xxxs {
-    padding-left: .4rem
-}
 .pl-0 {
     padding-left: 0
 }
@@ -8700,6 +8667,9 @@ a {
     padding-left: 0
 }
 @media (min-width: 38em) {
+    .bps-padding-9 {
+        padding: 9.6rem
+    }
     .bps-padding-8 {
         padding: 8rem
     }
@@ -8724,11 +8694,11 @@ a {
     .bps-padding-1 {
         padding: .8rem
     }
-    .bps-padding-xxxs {
-        padding: .4rem
-    }
     .bps-padding-0 {
         padding: 0
+    }
+    .bps-pt-9 {
+        padding-top: 9.6rem
     }
     .bps-pt-8 {
         padding-top: 8rem
@@ -8754,11 +8724,11 @@ a {
     .bps-pt-1 {
         padding-top: .8rem
     }
-    .bps-pt-xxxs {
-        padding-top: .4rem
-    }
     .bps-pt-0 {
         padding-top: 0
+    }
+    .bps-pr-9 {
+        padding-right: 9.6rem
     }
     .bps-pr-8 {
         padding-right: 8rem
@@ -8784,11 +8754,11 @@ a {
     .bps-pr-1 {
         padding-right: .8rem
     }
-    .bps-pr-xxxs {
-        padding-right: .4rem
-    }
     .bps-pr-0 {
         padding-right: 0
+    }
+    .bps-pb-9 {
+        padding-bottom: 9.6rem
     }
     .bps-pb-8 {
         padding-bottom: 8rem
@@ -8814,11 +8784,11 @@ a {
     .bps-pb-1 {
         padding-bottom: .8rem
     }
-    .bps-pb-xxxs {
-        padding-bottom: .4rem
-    }
     .bps-pb-0 {
         padding-bottom: 0
+    }
+    .bps-pl-9 {
+        padding-left: 9.6rem
     }
     .bps-pl-8 {
         padding-left: 8rem
@@ -8844,14 +8814,14 @@ a {
     .bps-pl-1 {
         padding-left: .8rem
     }
-    .bps-pl-xxxs {
-        padding-left: .4rem
-    }
     .bps-pl-0 {
         padding-left: 0
     }
 }
 @media (min-width: 62em) {
+    .bpm-padding-9 {
+        padding: 9.6rem
+    }
     .bpm-padding-8 {
         padding: 8rem
     }
@@ -8876,11 +8846,11 @@ a {
     .bpm-padding-1 {
         padding: .8rem
     }
-    .bpm-padding-xxxs {
-        padding: .4rem
-    }
     .bpm-padding-0 {
         padding: 0
+    }
+    .bpm-pt-9 {
+        padding-top: 9.6rem
     }
     .bpm-pt-8 {
         padding-top: 8rem
@@ -8906,11 +8876,11 @@ a {
     .bpm-pt-1 {
         padding-top: .8rem
     }
-    .bpm-pt-xxxs {
-        padding-top: .4rem
-    }
     .bpm-pt-0 {
         padding-top: 0
+    }
+    .bpm-pr-9 {
+        padding-right: 9.6rem
     }
     .bpm-pr-8 {
         padding-right: 8rem
@@ -8936,11 +8906,11 @@ a {
     .bpm-pr-1 {
         padding-right: .8rem
     }
-    .bpm-pr-xxxs {
-        padding-right: .4rem
-    }
     .bpm-pr-0 {
         padding-right: 0
+    }
+    .bpm-pb-9 {
+        padding-bottom: 9.6rem
     }
     .bpm-pb-8 {
         padding-bottom: 8rem
@@ -8966,11 +8936,11 @@ a {
     .bpm-pb-1 {
         padding-bottom: .8rem
     }
-    .bpm-pb-xxxs {
-        padding-bottom: .4rem
-    }
     .bpm-pb-0 {
         padding-bottom: 0
+    }
+    .bpm-pl-9 {
+        padding-left: 9.6rem
     }
     .bpm-pl-8 {
         padding-left: 8rem
@@ -8996,14 +8966,14 @@ a {
     .bpm-pl-1 {
         padding-left: .8rem
     }
-    .bpm-pl-xxxs {
-        padding-left: .4rem
-    }
     .bpm-pl-0 {
         padding-left: 0
     }
 }
 @media (min-width: 68em) {
+    .bpl-padding-9 {
+        padding: 9.6rem
+    }
     .bpl-padding-8 {
         padding: 8rem
     }
@@ -9028,11 +8998,11 @@ a {
     .bpl-padding-1 {
         padding: .8rem
     }
-    .bpl-padding-xxxs {
-        padding: .4rem
-    }
     .bpl-padding-0 {
         padding: 0
+    }
+    .bpl-pt-9 {
+        padding-top: 9.6rem
     }
     .bpl-pt-8 {
         padding-top: 8rem
@@ -9058,11 +9028,11 @@ a {
     .bpl-pt-1 {
         padding-top: .8rem
     }
-    .bpl-pt-xxxs {
-        padding-top: .4rem
-    }
     .bpl-pt-0 {
         padding-top: 0
+    }
+    .bpl-pr-9 {
+        padding-right: 9.6rem
     }
     .bpl-pr-8 {
         padding-right: 8rem
@@ -9088,11 +9058,11 @@ a {
     .bpl-pr-1 {
         padding-right: .8rem
     }
-    .bpl-pr-xxxs {
-        padding-right: .4rem
-    }
     .bpl-pr-0 {
         padding-right: 0
+    }
+    .bpl-pb-9 {
+        padding-bottom: 9.6rem
     }
     .bpl-pb-8 {
         padding-bottom: 8rem
@@ -9118,11 +9088,11 @@ a {
     .bpl-pb-1 {
         padding-bottom: .8rem
     }
-    .bpl-pb-xxxs {
-        padding-bottom: .4rem
-    }
     .bpl-pb-0 {
         padding-bottom: 0
+    }
+    .bpl-pl-9 {
+        padding-left: 9.6rem
     }
     .bpl-pl-8 {
         padding-left: 8rem
@@ -9148,14 +9118,14 @@ a {
     .bpl-pl-1 {
         padding-left: .8rem
     }
-    .bpl-pl-xxxs {
-        padding-left: .4rem
-    }
     .bpl-pl-0 {
         padding-left: 0
     }
 }
 @media (min-width: 110em) {
+    .bpxl-padding-9 {
+        padding: 9.6rem
+    }
     .bpxl-padding-8 {
         padding: 8rem
     }
@@ -9180,11 +9150,11 @@ a {
     .bpxl-padding-1 {
         padding: .8rem
     }
-    .bpxl-padding-xxxs {
-        padding: .4rem
-    }
     .bpxl-padding-0 {
         padding: 0
+    }
+    .bpxl-pt-9 {
+        padding-top: 9.6rem
     }
     .bpxl-pt-8 {
         padding-top: 8rem
@@ -9210,11 +9180,11 @@ a {
     .bpxl-pt-1 {
         padding-top: .8rem
     }
-    .bpxl-pt-xxxs {
-        padding-top: .4rem
-    }
     .bpxl-pt-0 {
         padding-top: 0
+    }
+    .bpxl-pr-9 {
+        padding-right: 9.6rem
     }
     .bpxl-pr-8 {
         padding-right: 8rem
@@ -9240,11 +9210,11 @@ a {
     .bpxl-pr-1 {
         padding-right: .8rem
     }
-    .bpxl-pr-xxxs {
-        padding-right: .4rem
-    }
     .bpxl-pr-0 {
         padding-right: 0
+    }
+    .bpxl-pb-9 {
+        padding-bottom: 9.6rem
     }
     .bpxl-pb-8 {
         padding-bottom: 8rem
@@ -9270,11 +9240,11 @@ a {
     .bpxl-pb-1 {
         padding-bottom: .8rem
     }
-    .bpxl-pb-xxxs {
-        padding-bottom: .4rem
-    }
     .bpxl-pb-0 {
         padding-bottom: 0
+    }
+    .bpxl-pl-9 {
+        padding-left: 9.6rem
     }
     .bpxl-pl-8 {
         padding-left: 8rem
@@ -9299,9 +9269,6 @@ a {
     }
     .bpxl-pl-1 {
         padding-left: .8rem
-    }
-    .bpxl-pl-xxxs {
-        padding-left: .4rem
     }
     .bpxl-pl-0 {
         padding-left: 0
@@ -9482,7 +9449,7 @@ a {
     width: 100%
 }
 .width-UIxxxs {
-    width: .4rem
+    width: var(--spacing-xxxs)
 }
 .width-UIxxs {
     width: .8rem
@@ -9552,7 +9519,7 @@ a {
         width: 100%
     }
     .bps-width-UIxxxs {
-        width: .4rem
+        width: var(--spacing-xxxs)
     }
     .bps-width-UIxxs {
         width: .8rem
@@ -9623,7 +9590,7 @@ a {
         width: 100%
     }
     .bpm-width-UIxxxs {
-        width: .4rem
+        width: var(--spacing-xxxs)
     }
     .bpm-width-UIxxs {
         width: .8rem
@@ -9694,7 +9661,7 @@ a {
         width: 100%
     }
     .bpl-width-UIxxxs {
-        width: .4rem
+        width: var(--spacing-xxxs)
     }
     .bpl-width-UIxxs {
         width: .8rem
@@ -9765,7 +9732,7 @@ a {
         width: 100%
     }
     .bpxl-width-UIxxxs {
-        width: .4rem
+        width: var(--spacing-xxxs)
     }
     .bpxl-width-UIxxs {
         width: .8rem
@@ -9827,7 +9794,7 @@ a {
     height: 1.6rem;
     line-height: 1.6rem;
     background-color: hsl(0, 0%, 100%);
-    border: 1px solid hsl(204, 22%, 80%);
+    border: 1px solid var(--silver);
     box-shadow: 0 1px 3px rgba(0,0,0,.05);
     border-radius: 4px;
     -webkit-transition: all 100ms ease;
@@ -9837,7 +9804,7 @@ a {
 /* Hover state*/
 .Checkbox:hover > input ~ div, .Radio:hover > input ~ div {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-    border-color: hsl(204, 14%, 46%)
+    border-color: var(--steel)
 }
 /* Focus state */
 /*.Checkbox input:focus ~ .control-indicator,
@@ -9850,8 +9817,8 @@ a {
 /* Checked state */
 .Checkbox > input:checked ~ div, .Radio > input:checked ~ div {
     color: hsl(0, 0%, 100%);
-    background-color: hsl(210, 95%, 50%);
-    border-color: hsl(210, 95%, 50%);
+    background-color: hsl(205, 95%, 50%);
+    border-color: hsl(205, 95%, 50%);
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05)
 }
 /* Radio modifiers */
@@ -9880,7 +9847,7 @@ a {
     height: 4px;
     cursor: pointer;
     box-shadow: none;
-    background: hsl(204, 29%, 92%);
+    background: var(--smoke);
     border-radius: 9999px;
     border: none
 }
@@ -9892,7 +9859,7 @@ a {
     height: 4px;
     cursor: pointer;
     box-shadow: none;
-    background: hsl(204, 29%, 92%);
+    background: var(--smoke);
     border-radius: 9999px;
     border: none
 }
@@ -9906,7 +9873,7 @@ a {
     color: transparent
 }
 .RangeSlider::-ms-fill-lower {
-    background: hsl(204, 29%, 92%);
+    background: var(--smoke);
     border: none;
     border-radius: 9999px;
     box-shadow: none
@@ -9915,7 +9882,7 @@ a {
     background: var(--blue);
 }*/
 .RangeSlider::-ms-fill-upper {
-    background: hsl(204, 29%, 92%);
+    background: var(--smoke);
     border: none;
     border-radius: 9999px;
     box-shadow: none
@@ -9929,7 +9896,7 @@ a {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    background: hsl(204, 14%, 46%);
+    background: var(--steel);
     cursor: pointer;
     -webkit-appearance: none;
             appearance: none;
@@ -9949,7 +9916,7 @@ a {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    background: hsl(204, 14%, 46%);
+    background: var(--steel);
     cursor: pointer;
     -webkit-transition: -webkit-transform 100ms ease;
     transition: -webkit-transform 100ms ease;
@@ -9965,7 +9932,7 @@ a {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    background: hsl(204, 14%, 46%);
+    background: var(--steel);
     cursor: pointer
 }
 .ToggleSwitch {
@@ -9984,7 +9951,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: hsl(204, 29%, 92%);
+    background-color: var(--smoke);
     -webkit-transition: all 100ms;
     transition: all 100ms;
     border-radius: 9999px
@@ -9996,19 +9963,19 @@ a {
     width: 16px;
     left: 0;
     bottom: -4px;
-    background-color: hsl(204, 14%, 46%);
+    background-color: var(--steel);
     -webkit-transition: all 100ms ease;
     transition: all 100ms ease;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05)
 }
 .ToggleSwitch input:checked + .slider {
-    background-color: hsl(200, 95%, 92%)
+    background-color: hsl(205, 95%, 92%)
 }
 .ToggleSwitch input:checked + .slider:before {
     -webkit-transform: translateX(16px);
             transform: translateX(16px);
-    background-color: hsl(210, 95%, 50%)
+    background-color: hsl(205, 95%, 50%)
 }
 /* Grid */
 .Grid {
@@ -10369,7 +10336,7 @@ a {
 .Divider {
     height: 1px;
     border: 0;
-    background-color: hsl(204, 29%, 92%);
+    background-color: var(--smoke);
     margin: 0
 }
 .TabMenu {
@@ -10398,7 +10365,7 @@ a {
     background-color: white;
     padding: 0 .8rem;
     cursor: pointer;
-    color: hsl(204, 14%, 46%);
+    color: var(--steel);
     text-align: center;
     margin-left: 4px;
     -webkit-transition: all 100ms ease;
@@ -10408,11 +10375,11 @@ a {
     margin-left: 0
 }
 .Tab:hover {
-    box-shadow: inset 0 -2px 0 0 hsl(204, 29%, 92%);
+    box-shadow: inset 0 -2px 0 0 var(--smoke);
     color: inherit
 }
 .Tab.active {
-    box-shadow: inset 0 -2px 0 0 hsl(210, 95%, 50%);
+    box-shadow: inset 0 -2px 0 0 hsl(205, 95%, 50%);
     color: inherit;
     cursor: default
 }
@@ -10460,16 +10427,16 @@ a {
     height: 1.6rem;
     padding: 0 .8rem;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: inset 0 0 0 1px hsl(204, 29%, 92%);
+    box-shadow: inset 0 0 0 1px var(--smoke);
     font-weight: 600;
     border-radius: 9999px;
     letter-spacing: .6px;
     white-space: nowrap
 }
 .PrimaryBadge {
-    background-color: hsl(210, 100%, 97%);
-    color: hsl(210, 95%, 50%);
-    box-shadow: inset 0 0 0 1px hsl(200, 95%, 92%)
+    background-color: hsl(205, 100%, 97%);
+    color: hsl(205, 95%, 50%);
+    box-shadow: inset 0 0 0 1px hsl(205, 95%, 92%)
 }
 .PositiveBadge {
     background-color: hsl(132, 80%, 97%);
@@ -10506,16 +10473,16 @@ a {
     min-height: 4rem
 }
 .ListItem.interactive:hover {
-    background-color: hsl(210, 100%, 97%)
+    background-color: hsl(205, 100%, 97%)
 }
 .ListItem.highlighted {
-    background-color: hsl(210, 100%, 97%)
+    background-color: hsl(205, 100%, 97%)
 }
 .ListItem.highlighted:hover {
-    background-color: hsl(200, 95%, 92%)
+    background-color: hsl(205, 95%, 92%)
 }
 .ListItem.active {
-    background-color: hsl(210, 95%, 50%);
+    background-color: hsl(205, 95%, 50%);
     color: hsl(0, 0%, 100%)
 }
 /* Functional styles */
@@ -10532,7 +10499,7 @@ a {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     height: 3.2rem;
     -webkit-box-pack: center;
@@ -10565,9 +10532,9 @@ a {
 }
 /* Neutral button */
 .Button {
-    background-color: hsl(204, 43%, 99%);
+    background-color: var(--pearl);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
-    color: hsl(204, 34%, 15%)
+    color: var(--charcoal)
 }
 .Button:hover {
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 18%, 51%)
@@ -10577,8 +10544,8 @@ a {
 }
 /* Primary button */
 .PrimaryButton {
-    background-color: hsl(210, 100%, 97%);
-    color: hsl(210, 95%, 35%);
+    background-color: hsl(205, 100%, 97%);
+    color: hsl(205, 95%, 35%);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(200, 75%, 75%)
 }
 .PrimaryButton:hover {
@@ -10616,7 +10583,7 @@ a {
     color: hsl(0, 0%, 100%);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-radius: 9999px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: 4rem;
     line-height: 4rem;
     min-width: 4rem;
@@ -10630,14 +10597,14 @@ a {
     box-shadow: none
 }
 .PillButton.large {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     height: 4.8rem;
     line-height: 4.8rem;
     min-width: 4.8rem
 }
 .PillButton.white {
     background-color: hsl(0, 0%, 100%);
-    color: hsl(204, 43%, 11%)
+    color: var(--lead)
 }
 .PillButton.black {
     background-color: hsl(0, 0%, 0%)
@@ -10652,13 +10619,13 @@ a {
     background-color: hsl(288, 64%, 42%)
 }
 .PillButton.violet {
-    background-color: #673AB7
+    background-color: hsl(264, 52%, 45%)
 }
 .PillButton.indigo {
     background-color: hsl(226, 56%, 48%)
 }
 .PillButton.blue {
-    background-color: hsl(210, 95%, 50%)
+    background-color: hsl(205, 95%, 50%)
 }
 .PillButton.lavender {
     background-color: hsl(255, 74%, 60%)
@@ -10671,21 +10638,21 @@ a {
 }
 .PillButton.lime {
     background-color: hsl(68, 74%, 50%);
-    color: hsl(204, 43%, 11%)
+    color: var(--lead)
 }
 .PillButton.yellow {
     background-color: hsl(54, 98%, 50%);
-    color: hsl(204, 43%, 11%)
+    color: var(--lead)
 }
 .PillButton.amber {
     background-color: hsl(46, 100%, 57%);
-    color: hsl(204, 43%, 11%)
+    color: var(--lead)
 }
 .PillButton.orange {
     background-color: hsl(36, 100%, 50%)
 }
 .PillButton.crimson {
-    background-color: #FF5722
+    background-color: hsl(18, 100%, 60%)
 }
 /*.button--neutral.has-darkBg {
     background-color: hsla(0, 0%, 100%, .1);
@@ -10727,25 +10694,25 @@ a {
 }*/
 /* Active state */
 .button.is-active {
-    background-color: hsl(204, 29%, 92%);
-    color: hsl(204, 14%, 46%);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(204, 22%, 80%)
+    background-color: var(--smoke);
+    color: var(--steel);
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--silver)
 }
 .button.is-active:hover {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(204, 14%, 46%)
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--steel)
 }
 .button.is-active:active {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(204, 14%, 46%)
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--steel)
 }
 /* Disabled state */
 .button.is-disabled {
-    background-color: hsl(204, 26%, 96%);
-    color: hsl(204, 22%, 80%);
-    box-shadow: inset 0 0 0 1px hsl(204, 29%, 92%);
+    background-color: var(--snow);
+    color: var(--silver);
+    box-shadow: inset 0 0 0 1px var(--smoke);
     pointer-events: none
 }
 .Card {
@@ -10771,26 +10738,26 @@ a {
     box-shadow: 0 11px 20px rgba(50,50,93,.1), 0 6px 11px rgba(0,0,0,.08)
 }
 .Heading {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: -.038em;
     margin-left: -1.5px;
     line-height: 1.45
 }
 .Heading.small {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     letter-spacing: -.02em;/*line-height: 1.35;*/
     margin-left: -.5px
 }
 .Heading.large {
-    font-size: 4rem;
+    font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
     line-height: 1.05
 }
 .Heading.title {
-    font-size: 7.2rem;
+    font-size: 2.6rem;
     font-weight: 600;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
@@ -10798,19 +10765,19 @@ a {
 }
 @media (min-width: 62em) {
     .Heading {
-        font-size: 2.4rem
+        font-size: 1.8rem
     }
     .Heading.small {
-        font-size: 2rem;
+        font-size: 1.6rem;
         letter-spacing: -.018em;
         margin-left: -1.5px
     }
     .Heading.large {
-        font-size: 4rem;
+        font-size: 2.2rem;
         margin-left: -3.2px
     }
     .Heading.title {
-        font-size: 7.2rem
+        font-size: 2.6rem
     }
 }
 .Heading.thin {
@@ -10823,7 +10790,7 @@ a {
     color: hsl(0, 0%, 0%)
 }
 .Heading.gray {
-    color: hsl(204, 14%, 46%)
+    color: var(--steel)
 }
 .Heading.red {
     color: hsl(0, 92%, 66%)
@@ -10835,13 +10802,13 @@ a {
     color: hsl(288, 64%, 42%)
 }
 .Heading.violet {
-    color: #673AB7
+    color: hsl(264, 52%, 45%)
 }
 .Heading.indigo {
     color: hsl(226, 56%, 48%)
 }
 .Heading.blue {
-    color: hsl(210, 95%, 50%)
+    color: hsl(205, 95%, 50%)
 }
 .Heading.lavender {
     color: hsl(255, 74%, 60%)
@@ -10865,14 +10832,14 @@ a {
     color: hsl(36, 100%, 50%)
 }
 .Heading.crimson {
-    color: #FF5722
+    color: hsl(18, 100%, 60%)
 }
 .Text {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.65
 }
 .Text.small {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5
 }
 /*.Text.small:container(width > 200px) {
@@ -10883,13 +10850,13 @@ a {
     line-height: 1.65;
 }*/
 .Text.large {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     letter-spacing: -.02em;
     margin-left: -.5px
 }
 @media (min-width: 62em) {
     .Text.large {
-        font-size: 2rem;
+        font-size: 1.6rem;
         letter-spacing: -.018em;
         margin-left: -1.5px
     }
@@ -10901,7 +10868,7 @@ a {
     color: hsl(0, 0%, 0%)
 }
 .Text.gray {
-    color: hsl(204, 14%, 46%)
+    color: var(--steel)
 }
 .Text.red {
     color: hsl(0, 92%, 66%)
@@ -10913,13 +10880,13 @@ a {
     color: hsl(288, 64%, 42%)
 }
 .Text.violet {
-    color: #673AB7
+    color: hsl(264, 52%, 45%)
 }
 .Text.indigo {
     color: hsl(226, 56%, 48%)
 }
 .Text.blue {
-    color: hsl(210, 95%, 50%)
+    color: hsl(205, 95%, 50%)
 }
 .Text.lavender {
     color: hsl(255, 74%, 60%)
@@ -10943,38 +10910,38 @@ a {
     color: hsl(36, 100%, 50%)
 }
 .Text.crimson {
-    color: #FF5722
+    color: hsl(18, 100%, 60%)
 }
 .Input {
     height: 3.2rem;
     line-height: 3.2rem;
     padding-left: .8rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     border-radius: 4px;
     border: none;
     outline: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
+    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--silver);
     width: 100%;
     -webkit-transition: all .15s ease;
     transition: all .15s ease
 }
 .Input::-webkit-input-placeholder {
-    color: hsl(204, 22%, 80%);
+    color: var(--silver);
     opacity: 1
 }
 .Input::-moz-placeholder {
-    color: hsl(204, 22%, 80%);
+    color: var(--silver);
     opacity: 1
 }
 .Input:-ms-input-placeholder {
-    color: hsl(204, 22%, 80%);
+    color: var(--silver);
     opacity: 1
 }
 .Input:hover {
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%)
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--silver)
 }
 .Input:focus {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(210, 95%, 50%)
+    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(205, 95%, 50%)
 }
 /* Sizes */
 .Input.large {
@@ -10984,7 +10951,7 @@ a {
 .Input.small {
     height: 3.2rem;
     padding-left: .8rem;
-    font-size: 1.2rem
+    font-size: 1rem
 }
 /* Background color variations */
 .Input.has-darkBg {
@@ -11041,21 +11008,21 @@ a {
     background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
 }*/
 .Link.small, .LightLink.small {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5
 }
 .PrimaryLink {
-    color: hsl(210, 95%, 50%)
+    color: hsl(205, 95%, 50%)
 }
 .PrimaryLink:hover {
-    color: hsl(210, 95%, 35%)
+    color: hsl(205, 95%, 35%)
 }
 .LightLink {
-    color: hsl(204, 14%, 46%);
+    color: var(--steel);
     background-image: none
 }
 .LightLink:hover {
-    color: hsl(204, 43%, 11%)
+    color: var(--lead)
 }
 .Link.has-darkBg {
     color: hsl(0, 0%, 100%)
@@ -11066,10 +11033,10 @@ a {
     background-image: linear-gradient(to right, currentColor 0%, currentColor 100%)
 }
 .Link--light {
-    color: hsl(204, 14%, 46%)
+    color: var(--steel)
 }
 .Link--light:hover {
-    color: hsl(210, 95%, 50%)
+    color: hsl(205, 95%, 50%)
 }
 .Link--light.has-darkBg {
     color: rgba(255,255,255,.5)
@@ -11078,10 +11045,10 @@ a {
     color: hsl(0, 0%, 100%)
 }
 .Link--dark {
-    color: hsl(204, 43%, 11%)
+    color: var(--lead)
 }
 .Link--dark:hover {
-    color: hsl(210, 95%, 50%)
+    color: hsl(205, 95%, 50%)
 }
 .Container {
     width: 83.3333333333vw;
@@ -11134,10 +11101,10 @@ a {
     padding-bottom: 6.4rem
 }
 .Section.pearl {
-    background-color: hsl(204, 43%, 99%)
+    background-color: var(--pearl)
 }
 .Section.snow {
-    background-color: hsl(204, 26%, 96%)
+    background-color: var(--snow)
 }
 .Section.red {
     background-color: hsl(0, 92%, 66%)
@@ -11149,13 +11116,13 @@ a {
     background-color: hsl(288, 64%, 42%)
 }
 .Section.violet {
-    background-color: #673AB7
+    background-color: hsl(264, 52%, 45%)
 }
 .Section.indigo {
     background-color: hsl(226, 56%, 48%)
 }
 .Section.blue {
-    background-color: hsl(210, 95%, 50%)
+    background-color: hsl(205, 95%, 50%)
 }
 .Section.lavender {
     background-color: hsl(255, 74%, 60%)
@@ -11179,7 +11146,7 @@ a {
     background-color: hsl(36, 100%, 50%)
 }
 .Section.crimson {
-    background-color: #FF5722
+    background-color: hsl(18, 100%, 60%)
 }
 .Section.pt0 {
     padding-top: 0
@@ -11198,5 +11165,5 @@ a {
     background-color: transparent
 }
 .Scrollbar::-webkit-scrollbar-thumb {
-    background-color: hsl(204, 22%, 80%)
+    background-color: var(--silver)
 }

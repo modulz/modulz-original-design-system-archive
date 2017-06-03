@@ -1,22 +1,20 @@
 /* Color */
 
-.color-inherit                { color: inherit; }
+.color-inherit        { color: inherit; }
 
-.color-white                { color: var(--white); }
-.color-black                { color: var(--black); }
-.color-transparent          { color: var(--transparent); }
+.color-white           { color: var(--white); }
+.color-white900     { color: var(--white900); }
+.color-white700     { color: var(--white900); }
+.color-white500     { color: var(--white900); }
+.color-white300     { color: var(--white900); }
+.color-white100     { color: var(--white900); }
 
-.color-white--opaque        { color: rgba(255,255,255, var(--opaque)); }
-.color-white--translucent   { color: rgba(255,255,255, var(--translucent)); }
-.color-white--transparent   { color: rgba(255,255,255, var(--transparent)); }
-.color-white--pellucid      { color: rgba(255,255,255, var(--pellucid)); }
-.color-white--limpid        { color: rgba(255,255,255, var(--limpid)); }
-
-.color-black--opaque        { color: rgba(0,0,0, var(--opaque)); }
-.color-black--translucent   { color: rgba(0,0,0, var(--translucent)); }
-.color-black--transparent   { color: rgba(0,0,0, var(--transparent)); }
-.color-black--pellucid      { color: rgba(0,0,0, var(--pellucid)); }
-.color-black--limpid        { color: rgba(0,0,0, var(--limpid)); }
+.color-black           { color: var(--black); }
+.color-black900     { color: var(--black900); }
+.color-black700     { color: var(--black900); }
+.color-black500     { color: var(--black900); }
+.color-black300     { color: var(--black900); }
+.color-black100     { color: var(--black900); }
 
 .color-red                  { color: var(--red); }
 .color-pink                 { color: var(--pink); }
@@ -37,13 +35,10 @@
 .color-redShade             { color: var(--redShade); }
 .color-greenShade           { color: var(--greenShade); }
 
-.color-pearl                { color: var(--pearl); }
-.color-snow                 { color: var(--snow); }
-.color-smoke                { color: var(--smoke); }
-.color-silver               { color: var(--silver); }
-.color-steel                { color: var(--steel); }
-.color-lead                 { color: var(--lead); }
-.color-charcoal             { color: var(--charcoal); }
+.color-silver               { color: var(--gray400); }
+.color-steel                { color: var(--gray500); }
+.color-charcoal             { color: var(--gray800); }
+.color-lead                 { color: var(--gray900); }
 
 /* Hover states */
 @media (hover) {
@@ -70,11 +65,8 @@
     .color-brown--hover:hover               { color: var(--brown); }
     .color-gray--hover:hover                { color: var(--gray); }
 
-    .color-pearl--hover:hover               { color: var(--pearl); }
-    .color-snow--hover:hover                { color: var(--snow); }
-    .color-smoke--hover:hover               { color: var(--smoke); }
-    .color-silver--hover:hover              { color: var(--silver); }
-    .color-steel--hover:hover               { color: var(--steel); }
-    .color-lead--hover:hover                { color: var(--lead); }
-    .color-charcoal--hover:hover            { color: var(--charcoal); }
+    .color-silver--hover:hover               { color: var(--gray400); }
+    .color-steel--hover:hover                { color: var(--gray500); }
+    .color-charcoal--hover:hover             { color: var(--gray800); }
+    .color-lead--hover:hover                 { color: var(--gray900); }
 }

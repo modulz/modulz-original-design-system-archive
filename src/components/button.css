@@ -13,17 +13,18 @@
     display: inline-flex;
     font-size: var(--fs-3);
     font-weight: 600;
-    height: var(--spacing-5);
+    height: var(--spacing-4);
     justify-content: center;
-    line-height: var(--spacing-5);
-    min-width: var(--spacing-5);
+    min-width: var(--spacing-4);
     outline: none;
     padding-left: var(--spacing-3);
     padding-right: var(--spacing-3);
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all .15s ease;
+    transition-property: all;
+    transition-duration: var(--duration-2);
+    transition-timing-function: ease;
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
@@ -130,7 +131,6 @@
 
 .PillButton.white { background-color: var(--white); color: var(--lead); }
 .PillButton.black { background-color: var(--black); }
-
 .PillButton.red { background-color: var(--red); }
 .PillButton.pink { background-color: var(--pink); }
 .PillButton.purple { background-color: var(--purple); }
@@ -145,47 +145,6 @@
 .PillButton.amber { background-color: var(--amber); color: var(--lead); }
 .PillButton.orange { background-color: var(--orange); }
 .PillButton.crimson { background-color: var(--crimson); }
-
-/*.button--neutral.has-darkBg {
-    background-color: hsla(0, 0%, 100%, .1);
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsla(0,0%,100%,.4);
-}
-.button--neutral.has-darkBg:hover {
-    box-shadow:  0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsla(0,0%,100%,.6);
-}
-
-.button--neutral.has-lightBg {
-    background-color: hsla(0, 0%, 0%, 0.03);
-    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsla(0, 0%, 0%, 0.2);
-    color: hsla(0, 0%, 0%, .8);
-}
-.button--neutral.has-lightBg:hover {
-    box-shadow:  0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsla(0,0%,0%,.4);
-}*/
-
-/* Background variations */
-
-/*.button--primary.has-darkBg,
-.button--primary.has-lightBg,
-.button--positive.has-darkBg,
-.button--positive.has-lightBg,
-.button--negative.has-darkBg,
-.button--negative.has-lightBg {
-    background-color: white;
-}
-
-.button--primary.has-darkBg,
-.button--positive.has-darkBg,
-.button--negative.has-darkBg {
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-}
-
-.button--primary.has-lightBg,
-.button--positive.has-lightBg,
-.button--negative.has-lightBg {
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px rgba(0,0,0,.2);
-}*/
 
 /* Active state */
 

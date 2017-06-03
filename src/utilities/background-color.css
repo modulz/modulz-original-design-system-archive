@@ -4,17 +4,17 @@
 
 .bc-white           { background-color: var(--white); }
 .bc-white900     { background-color: var(--white900); }
-.bc-white700     { background-color: var(--white900); }
-.bc-white500     { background-color: var(--white900); }
-.bc-white300     { background-color: var(--white900); }
-.bc-white100     { background-color: var(--white900); }
+.bc-white700     { background-color: var(--white700); }
+.bc-white500     { background-color: var(--white500); }
+.bc-white300     { background-color: var(--white300); }
+.bc-white100     { background-color: var(--white100); }
 
 .bc-black           { background-color: var(--black); }
 .bc-black900     { background-color: var(--black900); }
-.bc-black700     { background-color: var(--black900); }
-.bc-black500     { background-color: var(--black900); }
-.bc-black300     { background-color: var(--black900); }
-.bc-black100     { background-color: var(--black900); }
+.bc-black700     { background-color: var(--black700); }
+.bc-black500     { background-color: var(--black500); }
+.bc-black300     { background-color: var(--black300); }
+.bc-black100     { background-color: var(--black100); }
 
 .bc-red                 { background-color: var(--red); }
 .bc-pink                { background-color: var(--pink); }

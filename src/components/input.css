@@ -3,7 +3,7 @@
     line-height: var(--spacing-4);
     padding-left: var(--spacing-1);
     font-size: var(--fontSize-3);
-    border-radius: var(--br-m);
+    border-radius: var(--borderRadius-2);
     border: none;
     outline: none;
     box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px var(--silver);

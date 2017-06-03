@@ -126,9 +126,9 @@
 
     /* Border radius  */
 
-    --br-1: 2px;
-    --br-2: 4px;
-    --br-3: 8px;
+    --borderRadius-1: 2px;
+    --borderRadius-2: 4px;
+    --borderRadius-3: 8px;
 
     /* Leading  */
 

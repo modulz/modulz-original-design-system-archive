@@ -25,7 +25,7 @@
     background-color: var(--white);
     border: 1px solid var(--silver);
     box-shadow: 0 1px 3px rgba(0,0,0,.05);
-    border-radius: var(--br-m);
+    border-radius: var(--borderRadius-2);
     transition: all 100ms ease;
     margin-right: var(--spacing-1);
 }

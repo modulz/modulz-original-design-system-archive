@@ -8,7 +8,7 @@
     align-items: center;
     appearance: none;
     border: none;
-    border-radius: var(--br-2);
+    border-radius: var(--borderRadius-2);
     cursor: pointer;
     display: inline-flex;
     font-size: var(--fontSize-3);

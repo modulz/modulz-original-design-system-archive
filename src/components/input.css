@@ -2,7 +2,7 @@
     height: var(--spacing-4);
     line-height: var(--spacing-4);
     padding-left: var(--spacing-1);
-    font-size: var(--fs-3);
+    font-size: var(--fontSize-3);
     border-radius: var(--br-m);
     border: none;
     outline: none;
@@ -40,7 +40,7 @@
 .Input.small {
     height: var(--spacing-4);
     padding-left: var(--spacing-1);
-    font-size: var(--fs-2);
+    font-size: var(--fontSize-2);
 }
 
 

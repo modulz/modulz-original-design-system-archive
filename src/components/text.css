@@ -1,10 +1,10 @@
 .Text {
-    font-size: var(--fs-3);
+    font-size: var(--fontSize-3);
     line-height: 1.65;
 }
 
 .Text.small {
-    font-size: var(--fs-2);
+    font-size: var(--fontSize-2);
     line-height: 1.5;
 }
 
@@ -17,14 +17,14 @@
 }*/
 
 .Text.large {
-    font-size: var(--fs-4);
+    font-size: var(--fontSize-4);
     letter-spacing: -.02em;
     margin-left: -.5px;
 }
 
 @media (--breakpoint-2) {
     .Text.large {
-        font-size: var(--fs-5);
+        font-size: var(--fontSize-5);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }

@@ -25,8 +25,8 @@
     --white300: hsla(0, 0%, 100%, .3);
     --white100: hsla(0, 0%, 100%, .1);
 
-    --red500: hsl(0, 92%, 66%);
     --red100: hsl(0, 92%, 97%);
+    --red500: hsl(0, 92%, 66%);
     --red300: hsl(0, 92%, 92%);
     --red700: hsl(0, 92%, 46%);
 
@@ -90,19 +90,19 @@
 
     /* Font sizes  */
 
-    --fs-1: .8rem;
-    --fs-2: 1rem;
-    --fs-3: 1.2rem;
-    --fs-4: 1.4rem;
-    --fs-5: 1.6rem;
-    --fs-6: 1.8rem;
-    --fs-7: 2rem;
-    --fs-8: 2.2rem;
-    --fs-9: 2.6rem;
-    --fs-10: 3.2rem;
-    --fs-11: 4rem;
-    --fs-12: 4.6rem;
-    --fs-13: 7.2rem;
+    --fontSize-1: .8rem;
+    --fontSize-2: 1rem;
+    --fontSize-3: 1.2rem;
+    --fontSize-4: 1.4rem;
+    --fontSize-5: 1.6rem;
+    --fontSize-6: 1.8rem;
+    --fontSize-7: 2rem;
+    --fontSize-8: 2.2rem;
+    --fontSize-9: 2.6rem;
+    --fontSize-10: 3.2rem;
+    --fontSize-11: 4rem;
+    --fontSize-12: 4.6rem;
+    --fontSize-13: 7.2rem;
 
     /* Spacing  */
 

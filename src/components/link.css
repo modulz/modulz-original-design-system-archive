@@ -16,7 +16,7 @@
 
 .Link.small,
 .LightLink.small {
-    font-size: var(--fs-2);
+    font-size: var(--fontSize-2);
     line-height: 1.5;
 }
 

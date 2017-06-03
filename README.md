@@ -31,15 +31,15 @@ folder, create an index.html file inside, then paste in the code below and open 
                     <div class="Grid">
                         <div class="GridColumn">
                             <div class="ta-center">
-                                <h3 class="fs-7 lh-6 mb-4">This is a heading</h3>
-                                <p class="fs-5 lh-4 mb-4">Less than 20kb when minified and gzipped. Responsive, mobile-first grid powered by flexbox. Simple and easy to remember naming convention.</p>
+                                <h3 class="fontSize-7 lh-6 mb-4">This is a heading</h3>
+                                <p class="fontSize-5 lh-4 mb-4">Less than 20kb when minified and gzipped. Responsive, mobile-first grid powered by flexbox. Simple and easy to remember naming convention.</p>
                                 <button class="PillButton large white">Get started</button>
                             </div>
                         </div>
                         <div class="GridColumn">
                             <div class="ta-center">
-                                <h3 class="fs-7 lh-6 mb-4">This is a heading</h3>
-                                <p class="fs-5 lh-4 mb-4">Less than 20kb when minified and gzipped. Responsive, mobile-first grid powered by flexbox. Simple and easy to remember naming convention.</p>
+                                <h3 class="fontSize-7 lh-6 mb-4">This is a heading</h3>
+                                <p class="fontSize-5 lh-4 mb-4">Less than 20kb when minified and gzipped. Responsive, mobile-first grid powered by flexbox. Simple and easy to remember naming convention.</p>
                                 <button class="PillButton large white">Get started</button>
                             </div>
                         </div>

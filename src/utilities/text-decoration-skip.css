@@ -6,34 +6,34 @@
 .tds-objects    { text-decoration-skip: objects; }
 .tds-spaces     { text-decoration-skip: spaces; }
 
-@media (--breakpoint-s) {
-    .bps-tds-edges      { text-decoration-skip: edges; }
-    .bps-tds-ink        { text-decoration-skip: ink; }
-    .bps-tds-none       { text-decoration-skip: none; }
-    .bps-tds-objects    { text-decoration-skip: objects; }
-    .bps-tds-spaces     { text-decoration-skip: spaces; }
+@media (--breakpoint-1) {
+    .bp1-tds-edges      { text-decoration-skip: edges; }
+    .bp1-tds-ink        { text-decoration-skip: ink; }
+    .bp1-tds-none       { text-decoration-skip: none; }
+    .bp1-tds-objects    { text-decoration-skip: objects; }
+    .bp1-tds-spaces     { text-decoration-skip: spaces; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-tds-edges      { text-decoration-skip: edges; }
-    .bpm-tds-ink        { text-decoration-skip: ink; }
-    .bpm-tds-none       { text-decoration-skip: none; }
-    .bpm-tds-objects    { text-decoration-skip: objects; }
-    .bpm-tds-spaces     { text-decoration-skip: spaces; }
+@media (--breakpoint-2) {
+    .bp2-tds-edges      { text-decoration-skip: edges; }
+    .bp2-tds-ink        { text-decoration-skip: ink; }
+    .bp2-tds-none       { text-decoration-skip: none; }
+    .bp2-tds-objects    { text-decoration-skip: objects; }
+    .bp2-tds-spaces     { text-decoration-skip: spaces; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-tds-edges      { text-decoration-skip: edges; }
-    .bpl-tds-ink        { text-decoration-skip: ink; }
-    .bpl-tds-none       { text-decoration-skip: none; }
-    .bpl-tds-objects    { text-decoration-skip: objects; }
-    .bpl-tds-spaces     { text-decoration-skip: spaces; }
+@media (--breakpoint-3) {
+    .bp3-tds-edges      { text-decoration-skip: edges; }
+    .bp3-tds-ink        { text-decoration-skip: ink; }
+    .bp3-tds-none       { text-decoration-skip: none; }
+    .bp3-tds-objects    { text-decoration-skip: objects; }
+    .bp3-tds-spaces     { text-decoration-skip: spaces; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-tds-edges      { text-decoration-skip: edges; }
-    .bpxl-tds-ink        { text-decoration-skip: ink; }
-    .bpxl-tds-none       { text-decoration-skip: none; }
-    .bpxl-tds-objects    { text-decoration-skip: objects; }
-    .bpxl-tds-spaces     { text-decoration-skip: spaces; }
+@media (--breakpoint-4) {
+    .bp4-tds-edges      { text-decoration-skip: edges; }
+    .bp4-tds-ink        { text-decoration-skip: ink; }
+    .bp4-tds-none       { text-decoration-skip: none; }
+    .bp4-tds-objects    { text-decoration-skip: objects; }
+    .bp4-tds-spaces     { text-decoration-skip: spaces; }
 }

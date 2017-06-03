@@ -3,30 +3,30 @@
 .fd-row                 { flex-direction: row; }
 .fd-rowReverse          { flex-direction: row-reverse; }
 
-@media (--breakpoint-s) {
-    .bps-fd-column              { flex-direction: column; }
-    .bps-fd-columnReverse       { flex-direction: column-reverse; }
-    .bps-fd-row                 { flex-direction: row; }
-    .bps-fd-rowReverse          { flex-direction: row-reverse; }
+@media (--breakpoint-1) {
+    .bp1-fd-column              { flex-direction: column; }
+    .bp1-fd-columnReverse       { flex-direction: column-reverse; }
+    .bp1-fd-row                 { flex-direction: row; }
+    .bp1-fd-rowReverse          { flex-direction: row-reverse; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-fd-column              { flex-direction: column; }
-    .bpm-fd-columnReverse       { flex-direction: column-reverse; }
-    .bpm-fd-row                 { flex-direction: row; }
-    .bpm-fd-rowReverse          { flex-direction: row-reverse; }
+@media (--breakpoint-2) {
+    .bp2-fd-column              { flex-direction: column; }
+    .bp2-fd-columnReverse       { flex-direction: column-reverse; }
+    .bp2-fd-row                 { flex-direction: row; }
+    .bp2-fd-rowReverse          { flex-direction: row-reverse; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-fd-column              { flex-direction: column; }
-    .bpl-fd-columnReverse       { flex-direction: column-reverse; }
-    .bpl-fd-row                 { flex-direction: row; }
-    .bpl-fd-rowReverse          { flex-direction: row-reverse; }
+@media (--breakpoint-3) {
+    .bp3-fd-column              { flex-direction: column; }
+    .bp3-fd-columnReverse       { flex-direction: column-reverse; }
+    .bp3-fd-row                 { flex-direction: row; }
+    .bp3-fd-rowReverse          { flex-direction: row-reverse; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-fd-column              { flex-direction: column; }
-    .bpxl-fd-columnReverse       { flex-direction: column-reverse; }
-    .bpxl-fd-row                 { flex-direction: row; }
-    .bpxl-fd-rowReverse          { flex-direction: row-reverse; }
+@media (--breakpoint-4) {
+    .bp4-fd-column              { flex-direction: column; }
+    .bp4-fd-columnReverse       { flex-direction: column-reverse; }
+    .bp4-fd-row                 { flex-direction: row; }
+    .bp4-fd-rowReverse          { flex-direction: row-reverse; }
 }

@@ -12,58 +12,58 @@
 .display-tableColumn  { display: table-column; }
 .display-tableRow     { display: table-row; }
 
-@media (--breakpoint-s) {
-  .bps-display-none         { display: none; }
-  .bps-display-block        { display: block; }
-  .bps-display-flex           { display: flex; }
-  .bps-display-inline       { display: inline; }
-  .bps-display-inlineBlock  { display: inline-block; }
-  .bps-display-inlineFlex     { display: inline-flex; }
-  .bps-display-inlineTable  { display: inline-table; }
-  .bps-display-table        { display: table; }
-  .bps-display-tableCell    { display: table-cell; }
-  .bps-display-tableColumn  { display: table-column; }
-  .bps-display-tableRow     { display: table-row; }
+@media (--breakpoint-1) {
+  .bp1-display-none         { display: none; }
+  .bp1-display-block        { display: block; }
+  .bp1-display-flex           { display: flex; }
+  .bp1-display-inline       { display: inline; }
+  .bp1-display-inlineBlock  { display: inline-block; }
+  .bp1-display-inlineFlex     { display: inline-flex; }
+  .bp1-display-inlineTable  { display: inline-table; }
+  .bp1-display-table        { display: table; }
+  .bp1-display-tableCell    { display: table-cell; }
+  .bp1-display-tableColumn  { display: table-column; }
+  .bp1-display-tableRow     { display: table-row; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-display-none         { display: none; }
-  .bpm-display-block        { display: block; }
-  .bpm-display-flex           { display: flex; }
-  .bpm-display-inline       { display: inline; }
-  .bpm-display-inlineBlock  { display: inline-block; }
-  .bpm-display-inlineFlex     { display: inline-flex; }
-  .bpm-display-inlineTable  { display: inline-table; }
-  .bpm-display-table        { display: table; }
-  .bpm-display-tableCell    { display: table-cell; }
-  .bpm-display-tableColumn  { display: table-column; }
-  .bpm-display-tableRow     { display: table-row; }
+@media (--breakpoint-2) {
+  .bp2-display-none         { display: none; }
+  .bp2-display-block        { display: block; }
+  .bp2-display-flex           { display: flex; }
+  .bp2-display-inline       { display: inline; }
+  .bp2-display-inlineBlock  { display: inline-block; }
+  .bp2-display-inlineFlex     { display: inline-flex; }
+  .bp2-display-inlineTable  { display: inline-table; }
+  .bp2-display-table        { display: table; }
+  .bp2-display-tableCell    { display: table-cell; }
+  .bp2-display-tableColumn  { display: table-column; }
+  .bp2-display-tableRow     { display: table-row; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-display-none         { display: none; }
-  .bpl-display-block        { display: block; }
-  .bpl-display-flex           { display: flex; }
-  .bpl-display-inline       { display: inline; }
-  .bpl-display-inlineBlock  { display: inline-block; }
-  .bpl-display-inlineFlex     { display: inline-flex; }
-  .bpl-display-inlineTable  { display: inline-table; }
-  .bpl-display-table        { display: table; }
-  .bpl-display-tableCell    { display: table-cell; }
-  .bpl-display-tableColumn  { display: table-column; }
-  .bpl-display-tableRow     { display: table-row; }
+@media (--breakpoint-3) {
+  .bp3-display-none         { display: none; }
+  .bp3-display-block        { display: block; }
+  .bp3-display-flex           { display: flex; }
+  .bp3-display-inline       { display: inline; }
+  .bp3-display-inlineBlock  { display: inline-block; }
+  .bp3-display-inlineFlex     { display: inline-flex; }
+  .bp3-display-inlineTable  { display: inline-table; }
+  .bp3-display-table        { display: table; }
+  .bp3-display-tableCell    { display: table-cell; }
+  .bp3-display-tableColumn  { display: table-column; }
+  .bp3-display-tableRow     { display: table-row; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-display-none         { display: none; }
-  .bpxl-display-block        { display: block; }
-  .bpxl-display-flex           { display: flex; }
-  .bpxl-display-inline       { display: inline; }
-  .bpxl-display-inlineBlock  { display: inline-block; }
-  .bpxl-display-inlineFlex     { display: inline-flex; }
-  .bpxl-display-inlineTable  { display: inline-table; }
-  .bpxl-display-table        { display: table; }
-  .bpxl-display-tableCell    { display: table-cell; }
-  .bpxl-display-tableColumn  { display: table-column; }
-  .bpxl-display-tableRow     { display: table-row; }
+@media (--breakpoint-4) {
+  .bp4-display-none         { display: none; }
+  .bp4-display-block        { display: block; }
+  .bp4-display-flex           { display: flex; }
+  .bp4-display-inline       { display: inline; }
+  .bp4-display-inlineBlock  { display: inline-block; }
+  .bp4-display-inlineFlex     { display: inline-flex; }
+  .bp4-display-inlineTable  { display: inline-table; }
+  .bp4-display-table        { display: table; }
+  .bp4-display-tableCell    { display: table-cell; }
+  .bp4-display-tableColumn  { display: table-column; }
+  .bp4-display-tableRow     { display: table-row; }
 }

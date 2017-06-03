@@ -3,22 +3,22 @@
 .bs-contentBox          { box-sizing: content-box; }
 .bs-borderBox           { box-sizing: border-box; }
 
-@media (--breakpoint-s) {
-    .bps-bs-contentBox  { box-sizing: content-box; }
-    .bps-bs-borderBox   { box-sizing: border-box; }
+@media (--breakpoint-1) {
+    .bp1-bs-contentBox  { box-sizing: content-box; }
+    .bp1-bs-borderBox   { box-sizing: border-box; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-bs-contentBox  { box-sizing: content-box; }
-    .bpm-bs-borderBox   { box-sizing: border-box; }
+@media (--breakpoint-2) {
+    .bp2-bs-contentBox  { box-sizing: content-box; }
+    .bp2-bs-borderBox   { box-sizing: border-box; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-bs-contentBox  { box-sizing: content-box; }
-    .bpl-bs-borderBox   { box-sizing: border-box; }
+@media (--breakpoint-3) {
+    .bp3-bs-contentBox  { box-sizing: content-box; }
+    .bp3-bs-borderBox   { box-sizing: border-box; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-bs-contentBox { box-sizing: content-box; }
-    .bpxl-bs-borderBox  { box-sizing: border-box; }
+@media (--breakpoint-4) {
+    .bp4-bs-contentBox { box-sizing: content-box; }
+    .bp4-bs-borderBox  { box-sizing: border-box; }
 }

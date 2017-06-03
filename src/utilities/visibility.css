@@ -4,26 +4,26 @@
 .visibility-visible   { visibility: visible; }
 .visibility-collapse  { visibility: collapse; }
 
-@media (--breakpoint-s) {
-  .bps-visibility-hidden    { visibility: hidden; }
-  .bps-visibility-visible   { visibility: visible; }
-  .bps-visibility-collapse  { visibility: collapse; }
+@media (--breakpoint-1) {
+  .bp1-visibility-hidden    { visibility: hidden; }
+  .bp1-visibility-visible   { visibility: visible; }
+  .bp1-visibility-collapse  { visibility: collapse; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-visibility-hidden    { visibility: hidden; }
-  .bpm-visibility-visible   { visibility: visible; }
-  .bpm-visibility-collapse  { visibility: collapse; }
+@media (--breakpoint-2) {
+  .bp2-visibility-hidden    { visibility: hidden; }
+  .bp2-visibility-visible   { visibility: visible; }
+  .bp2-visibility-collapse  { visibility: collapse; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-visibility-hidden    { visibility: hidden; }
-  .bpl-visibility-visible   { visibility: visible; }
-  .bpl-visibility-collapse  { visibility: collapse; }
+@media (--breakpoint-3) {
+  .bp3-visibility-hidden    { visibility: hidden; }
+  .bp3-visibility-visible   { visibility: visible; }
+  .bp3-visibility-collapse  { visibility: collapse; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-visibility-hidden    { visibility: hidden; }
-  .bpxl-visibility-visible   { visibility: visible; }
-  .bpxl-visibility-collapse  { visibility: collapse; }
+@media (--breakpoint-4) {
+  .bp4-visibility-hidden    { visibility: hidden; }
+  .bp4-visibility-visible   { visibility: visible; }
+  .bp4-visibility-collapse  { visibility: collapse; }
 }

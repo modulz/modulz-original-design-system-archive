@@ -11,54 +11,54 @@
 .pe-stroke          { pointer-events: stroke; }
 .pe-all             { pointer-events: all; }
 
-@media (--breakpoint-s) {
-  .bps-pe-auto            { pointer-events: auto; }
-  .bps-pe-none            { pointer-events: none; }
-  .bps-pe-visiblePainted  { pointer-events: visiblePainted; }
-  .bps-pe-visibleFill     { pointer-events: visibleFill; }
-  .bps-pe-visibleStroke   { pointer-events: visibleStroke; }
-  .bps-pe-visible         { pointer-events: visible; }
-  .bps-pe-painted         { pointer-events: painted; }
-  .bps-pe-fill            { pointer-events: fill; }
-  .bps-pe-stroke          { pointer-events: stroke; }
-  .bps-pe-all             { pointer-events: all; }
+@media (--breakpoint-1) {
+  .bp1-pe-auto            { pointer-events: auto; }
+  .bp1-pe-none            { pointer-events: none; }
+  .bp1-pe-visiblePainted  { pointer-events: visiblePainted; }
+  .bp1-pe-visibleFill     { pointer-events: visibleFill; }
+  .bp1-pe-visibleStroke   { pointer-events: visibleStroke; }
+  .bp1-pe-visible         { pointer-events: visible; }
+  .bp1-pe-painted         { pointer-events: painted; }
+  .bp1-pe-fill            { pointer-events: fill; }
+  .bp1-pe-stroke          { pointer-events: stroke; }
+  .bp1-pe-all             { pointer-events: all; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-pe-auto            { pointer-events: auto; }
-    .bpm-pe-none            { pointer-events: none; }
-    .bpm-pe-visiblePainted  { pointer-events: visiblePainted; }
-    .bpm-pe-visibleFill     { pointer-events: visibleFill; }
-    .bpm-pe-visibleStroke   { pointer-events: visibleStroke; }
-    .bpm-pe-visible         { pointer-events: visible; }
-    .bpm-pe-painted         { pointer-events: painted; }
-    .bpm-pe-fill            { pointer-events: fill; }
-    .bpm-pe-stroke          { pointer-events: stroke; }
-    .bpm-pe-all             { pointer-events: all; }
+@media (--breakpoint-2) {
+    .bp2-pe-auto            { pointer-events: auto; }
+    .bp2-pe-none            { pointer-events: none; }
+    .bp2-pe-visiblePainted  { pointer-events: visiblePainted; }
+    .bp2-pe-visibleFill     { pointer-events: visibleFill; }
+    .bp2-pe-visibleStroke   { pointer-events: visibleStroke; }
+    .bp2-pe-visible         { pointer-events: visible; }
+    .bp2-pe-painted         { pointer-events: painted; }
+    .bp2-pe-fill            { pointer-events: fill; }
+    .bp2-pe-stroke          { pointer-events: stroke; }
+    .bp2-pe-all             { pointer-events: all; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-pe-auto            { pointer-events: auto; }
-    .bpl-pe-none            { pointer-events: none; }
-    .bpl-pe-visiblePainted  { pointer-events: visiblePainted; }
-    .bpl-pe-visibleFill     { pointer-events: visibleFill; }
-    .bpl-pe-visibleStroke   { pointer-events: visibleStroke; }
-    .bpl-pe-visible         { pointer-events: visible; }
-    .bpl-pe-painted         { pointer-events: painted; }
-    .bpl-pe-fill            { pointer-events: fill; }
-    .bpl-pe-stroke          { pointer-events: stroke; }
-    .bpl-pe-all             { pointer-events: all; }
+@media (--breakpoint-3) {
+    .bp3-pe-auto            { pointer-events: auto; }
+    .bp3-pe-none            { pointer-events: none; }
+    .bp3-pe-visiblePainted  { pointer-events: visiblePainted; }
+    .bp3-pe-visibleFill     { pointer-events: visibleFill; }
+    .bp3-pe-visibleStroke   { pointer-events: visibleStroke; }
+    .bp3-pe-visible         { pointer-events: visible; }
+    .bp3-pe-painted         { pointer-events: painted; }
+    .bp3-pe-fill            { pointer-events: fill; }
+    .bp3-pe-stroke          { pointer-events: stroke; }
+    .bp3-pe-all             { pointer-events: all; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-pe-auto            { pointer-events: auto; }
-    .bpxl-pe-none            { pointer-events: none; }
-    .bpxl-pe-visiblePainted  { pointer-events: visiblePainted; }
-    .bpxl-pe-visibleFill     { pointer-events: visibleFill; }
-    .bpxl-pe-visibleStroke   { pointer-events: visibleStroke; }
-    .bpxl-pe-visible         { pointer-events: visible; }
-    .bpxl-pe-painted         { pointer-events: painted; }
-    .bpxl-pe-fill            { pointer-events: fill; }
-    .bpxl-pe-stroke          { pointer-events: stroke; }
-    .bpxl-pe-all             { pointer-events: all; }
+@media (--breakpoint-4) {
+    .bp4-pe-auto            { pointer-events: auto; }
+    .bp4-pe-none            { pointer-events: none; }
+    .bp4-pe-visiblePainted  { pointer-events: visiblePainted; }
+    .bp4-pe-visibleFill     { pointer-events: visibleFill; }
+    .bp4-pe-visibleStroke   { pointer-events: visibleStroke; }
+    .bp4-pe-visible         { pointer-events: visible; }
+    .bp4-pe-painted         { pointer-events: painted; }
+    .bp4-pe-fill            { pointer-events: fill; }
+    .bp4-pe-stroke          { pointer-events: stroke; }
+    .bp4-pe-all             { pointer-events: all; }
 }

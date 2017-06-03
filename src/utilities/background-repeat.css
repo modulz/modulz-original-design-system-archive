@@ -7,38 +7,38 @@
 .br-space    { background-repeat: space; }
 .br-round    { background-repeat: round; }
 
-@media (--breakpoint-s) {
-    .bps-br-repeat      { background-repeat: repeat; }
-    .bps-br-repeatX     { background-repeat: repeat-x; }
-    .bps-br-repeatY     { background-repeat: repeat-y; }
-    .bps-br-noRepeat    { background-repeat: no-repeat; }
-    .bps-br-space    { background-repeat: space; }
-    .bps-br-round    { background-repeat: round; }
+@media (--breakpoint-1) {
+    .bp1-br-repeat      { background-repeat: repeat; }
+    .bp1-br-repeatX     { background-repeat: repeat-x; }
+    .bp1-br-repeatY     { background-repeat: repeat-y; }
+    .bp1-br-noRepeat    { background-repeat: no-repeat; }
+    .bp1-br-space    { background-repeat: space; }
+    .bp1-br-round    { background-repeat: round; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-br-repeat      { background-repeat: repeat; }
-    .bpm-br-repeatX     { background-repeat: repeat-x; }
-    .bpm-br-repeatY     { background-repeat: repeat-y; }
-    .bpm-br-noRepeat    { background-repeat: no-repeat; }
-    .bpm-br-space    { background-repeat: space; }
-    .bpm-br-round    { background-repeat: round; }
+@media (--breakpoint-2) {
+    .bp2-br-repeat      { background-repeat: repeat; }
+    .bp2-br-repeatX     { background-repeat: repeat-x; }
+    .bp2-br-repeatY     { background-repeat: repeat-y; }
+    .bp2-br-noRepeat    { background-repeat: no-repeat; }
+    .bp2-br-space    { background-repeat: space; }
+    .bp2-br-round    { background-repeat: round; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-br-repeat      { background-repeat: repeat; }
-    .bpl-br-repeatX     { background-repeat: repeat-x; }
-    .bpl-br-repeatY     { background-repeat: repeat-y; }
-    .bpl-br-noRepeat    { background-repeat: no-repeat; }
-    .bpl-br-space    { background-repeat: space; }
-    .bpl-br-round    { background-repeat: round; }
+@media (--breakpoint-3) {
+    .bp3-br-repeat      { background-repeat: repeat; }
+    .bp3-br-repeatX     { background-repeat: repeat-x; }
+    .bp3-br-repeatY     { background-repeat: repeat-y; }
+    .bp3-br-noRepeat    { background-repeat: no-repeat; }
+    .bp3-br-space    { background-repeat: space; }
+    .bp3-br-round    { background-repeat: round; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-br-repeat     { background-repeat: repeat; }
-    .bpxl-br-repeatX    { background-repeat: repeat-x; }
-    .bpxl-br-repeatY    { background-repeat: repeat-y; }
-    .bpxl-br-noRepeat   { background-repeat: no-repeat; }
-    .bpxl-br-space    { background-repeat: space; }
-    .bpxl-br-round    { background-repeat: round; }
+@media (--breakpoint-4) {
+    .bp4-br-repeat     { background-repeat: repeat; }
+    .bp4-br-repeatX    { background-repeat: repeat-x; }
+    .bp4-br-repeatY    { background-repeat: repeat-y; }
+    .bp4-br-noRepeat   { background-repeat: no-repeat; }
+    .bp4-br-space    { background-repeat: space; }
+    .bp4-br-round    { background-repeat: round; }
 }

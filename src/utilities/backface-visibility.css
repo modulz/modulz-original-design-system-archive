@@ -3,22 +3,22 @@
 .bv-hidden          { backface-visibility: hidden; }
 .bv-visible         { backface-visibility: visible; }
 
-@media (--breakpoint-s) {
-  .bps-bv-hidden    { backface-visibility: hidden; }
-  .bps-bv-visible   { backface-visibility: visible; }
+@media (--breakpoint-1) {
+  .bp1-bv-hidden    { backface-visibility: hidden; }
+  .bp1-bv-visible   { backface-visibility: visible; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-bv-hidden    { backface-visibility: hidden; }
-  .bpm-bv-visible   { backface-visibility: visible; }
+@media (--breakpoint-2) {
+  .bp2-bv-hidden    { backface-visibility: hidden; }
+  .bp2-bv-visible   { backface-visibility: visible; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-bv-hidden    { backface-visibility: hidden; }
-  .bpl-bv-visible   { backface-visibility: visible; }
+@media (--breakpoint-3) {
+  .bp3-bv-hidden    { backface-visibility: hidden; }
+  .bp3-bv-visible   { backface-visibility: visible; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-bv-hidden   { backface-visibility: hidden; }
-  .bpxl-bv-visible  { backface-visibility: visible; }
+@media (--breakpoint-4) {
+  .bp4-bv-hidden   { backface-visibility: hidden; }
+  .bp4-bv-visible  { backface-visibility: visible; }
 }

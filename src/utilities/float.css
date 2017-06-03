@@ -4,26 +4,26 @@
 .float-left   { float: left; }
 .float-right  { float: right; }
 
-@media (--breakpoint-s) {
-  .bps-float-none   { float: none; }
-  .bps-float-left   { float: left; }
-  .bps-float-right  { float: right; }
+@media (--breakpoint-1) {
+  .bp1-float-none   { float: none; }
+  .bp1-float-left   { float: left; }
+  .bp1-float-right  { float: right; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-float-none   { float: none; }
-  .bpm-float-left   { float: left; }
-  .bpm-float-right  { float: right; }
+@media (--breakpoint-2) {
+  .bp2-float-none   { float: none; }
+  .bp2-float-left   { float: left; }
+  .bp2-float-right  { float: right; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-float-none   { float: none; }
-  .bpl-float-left   { float: left; }
-  .bpl-float-right  { float: right; }
+@media (--breakpoint-3) {
+  .bp3-float-none   { float: none; }
+  .bp3-float-left   { float: left; }
+  .bp3-float-right  { float: right; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-float-none   { float: none; }
-  .bpxl-float-left   { float: left; }
-  .bpxl-float-right  { float: right; }
+@media (--breakpoint-4) {
+  .bp4-float-none   { float: none; }
+  .bp4-float-left   { float: left; }
+  .bp4-float-right  { float: right; }
 }

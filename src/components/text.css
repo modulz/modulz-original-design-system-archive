@@ -22,7 +22,7 @@
     margin-left: -.5px;
 }
 
-@media (--breakpoint-m) {
+@media (--breakpoint-2) {
     .Text.large {
         font-size: var(--fs-5);
         letter-spacing: -.018em;

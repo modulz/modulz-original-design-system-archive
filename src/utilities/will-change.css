@@ -9,46 +9,46 @@
 .wc-bottom          { will-change: bottom; }
 .wc-right           { will-change: right; }
 
-@media (--breakpoint-s) {
-    .bps-wc-scrollPosition  { will-change: scroll-position; }
-    .bps-wc-contents        { will-change: contents; }
-    .bps-wc-transform       { will-change: transform; }
-    .bps-wc-opacity         { will-change: opacity; }
-    .bps-wc-top             { will-change: top; }
-    .bps-wc-left            { will-change: left; }
-    .bps-wc-bottom          { will-change: bottom; }
-    .bps-wc-right           { will-change: right; }
+@media (--breakpoint-1) {
+    .bp1-wc-scrollPosition  { will-change: scroll-position; }
+    .bp1-wc-contents        { will-change: contents; }
+    .bp1-wc-transform       { will-change: transform; }
+    .bp1-wc-opacity         { will-change: opacity; }
+    .bp1-wc-top             { will-change: top; }
+    .bp1-wc-left            { will-change: left; }
+    .bp1-wc-bottom          { will-change: bottom; }
+    .bp1-wc-right           { will-change: right; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-wc-scrollPosition  { will-change: scroll-position; }
-    .bpm-wc-contents        { will-change: contents; }
-    .bpm-wc-transform       { will-change: transform; }
-    .bpm-wc-opacity         { will-change: opacity; }
-    .bpm-wc-top             { will-change: top; }
-    .bpm-wc-left            { will-change: left; }
-    .bpm-wc-bottom          { will-change: bottom; }
-    .bpm-wc-right           { will-change: right; }
+@media (--breakpoint-2) {
+    .bp2-wc-scrollPosition  { will-change: scroll-position; }
+    .bp2-wc-contents        { will-change: contents; }
+    .bp2-wc-transform       { will-change: transform; }
+    .bp2-wc-opacity         { will-change: opacity; }
+    .bp2-wc-top             { will-change: top; }
+    .bp2-wc-left            { will-change: left; }
+    .bp2-wc-bottom          { will-change: bottom; }
+    .bp2-wc-right           { will-change: right; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-wc-scrollPosition  { will-change: scroll-position; }
-    .bpl-wc-contents        { will-change: contents; }
-    .bpl-wc-transform       { will-change: transform; }
-    .bpl-wc-opacity         { will-change: opacity; }
-    .bpl-wc-top             { will-change: top; }
-    .bpl-wc-left            { will-change: left; }
-    .bpl-wc-bottom          { will-change: bottom; }
-    .bpl-wc-right           { will-change: right; }
+@media (--breakpoint-3) {
+    .bp3-wc-scrollPosition  { will-change: scroll-position; }
+    .bp3-wc-contents        { will-change: contents; }
+    .bp3-wc-transform       { will-change: transform; }
+    .bp3-wc-opacity         { will-change: opacity; }
+    .bp3-wc-top             { will-change: top; }
+    .bp3-wc-left            { will-change: left; }
+    .bp3-wc-bottom          { will-change: bottom; }
+    .bp3-wc-right           { will-change: right; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-wc-scrollPosition  { will-change: scroll-position; }
-    .bpxl-wc-contents        { will-change: contents; }
-    .bpxl-wc-transform       { will-change: transform; }
-    .bpxl-wc-opacity         { will-change: opacity; }
-    .bpxl-wc-top             { will-change: top; }
-    .bpxl-wc-left            { will-change: left; }
-    .bpxl-wc-bottom          { will-change: bottom; }
-    .bpxl-wc-right           { will-change: right; }
+@media (--breakpoint-4) {
+    .bp4-wc-scrollPosition  { will-change: scroll-position; }
+    .bp4-wc-contents        { will-change: contents; }
+    .bp4-wc-transform       { will-change: transform; }
+    .bp4-wc-opacity         { will-change: opacity; }
+    .bp4-wc-top             { will-change: top; }
+    .bp4-wc-left            { will-change: left; }
+    .bp4-wc-bottom          { will-change: bottom; }
+    .bp4-wc-right           { will-change: right; }
 }

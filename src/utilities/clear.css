@@ -5,30 +5,30 @@
 .clear-right            { clear: right; }
 .clear-both             { clear: both; }
 
-@media (--breakpoint-s) {
-  .bps-clear-none       { clear: none; }
-  .bps-clear-left       { clear: left; }
-  .bps-clear-right      { clear: right; }
-  .bps-clear-both       { clear: both; }
+@media (--breakpoint-1) {
+  .bp1-clear-none       { clear: none; }
+  .bp1-clear-left       { clear: left; }
+  .bp1-clear-right      { clear: right; }
+  .bp1-clear-both       { clear: both; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-clear-none       { clear: none; }
-  .bpm-clear-left       { clear: left; }
-  .bpm-clear-right      { clear: right; }
-  .bpm-clear-both       { clear: both; }
+@media (--breakpoint-2) {
+  .bp2-clear-none       { clear: none; }
+  .bp2-clear-left       { clear: left; }
+  .bp2-clear-right      { clear: right; }
+  .bp2-clear-both       { clear: both; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-clear-none       { clear: none; }
-  .bpl-clear-left       { clear: left; }
-  .bpl-clear-right      { clear: right; }
-  .bpl-clear-both       { clear: both; }
+@media (--breakpoint-3) {
+  .bp3-clear-none       { clear: none; }
+  .bp3-clear-left       { clear: left; }
+  .bp3-clear-right      { clear: right; }
+  .bp3-clear-both       { clear: both; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-clear-none      { clear: none; }
-  .bpxl-clear-left      { clear: left; }
-  .bpxl-clear-right     { clear: right; }
-  .bpxl-clear-both      { clear: both; }
+@media (--breakpoint-4) {
+  .bp4-clear-none      { clear: none; }
+  .bp4-clear-left      { clear: left; }
+  .bp4-clear-right     { clear: right; }
+  .bp4-clear-both      { clear: both; }
 }

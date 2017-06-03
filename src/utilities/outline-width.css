@@ -3,22 +3,22 @@
 .ow-1 { outline-width: 1px; }
 .ow-2 { outline-width: 2px; }
 
-@media (--breakpoint-s) {
-  .bps-ow-1 { outline-width: 1px; }
-  .bps-ow-2 { outline-width: 2px; }
+@media (--breakpoint-1) {
+  .bp1-ow-1 { outline-width: 1px; }
+  .bp1-ow-2 { outline-width: 2px; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-ow-1 { outline-width: 1px; }
-  .bpm-ow-2 { outline-width: 2px; }
+@media (--breakpoint-2) {
+  .bp2-ow-1 { outline-width: 1px; }
+  .bp2-ow-2 { outline-width: 2px; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-ow-1 { outline-width: 1px; }
-  .bpl-ow-2 { outline-width: 2px; }
+@media (--breakpoint-3) {
+  .bp3-ow-1 { outline-width: 1px; }
+  .bp3-ow-2 { outline-width: 2px; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-ow-1 { outline-width: 1px; }
-  .bpxl-ow-2 { outline-width: 2px; }
+@media (--breakpoint-4) {
+  .bp4-ow-1 { outline-width: 1px; }
+  .bp4-ow-2 { outline-width: 2px; }
 }

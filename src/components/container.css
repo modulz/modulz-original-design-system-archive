@@ -4,7 +4,7 @@
     margin-right: auto;
 }
 
-@media (--breakpoint-s) {
+@media (--breakpoint-1) {
     .Container {
         width: 91.6666666666vw;
     }
@@ -14,7 +14,7 @@
     }
 }
 
-@media (--breakpoint-m) {
+@media (--breakpoint-2) {
     .Container {
         width: 58.3333333333vw;
     }
@@ -32,13 +32,13 @@
     }
 }
 
-@media (--breakpoint-l) {
+@media (--breakpoint-3) {
     .Container.small {
         width: 33.3333333333vw;
     }
 }
 
-@media (--breakpoint-xl) {
+@media (--breakpoint-4) {
     .Container.small {
         width: 16.6666666666vw;
     }

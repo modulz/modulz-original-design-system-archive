@@ -5,32 +5,32 @@
 .td-overline    { text-decoration: overline; }
 .td-lineThrough { text-decoration: line-through; }
 
-@media (--breakpoint-s) {
-    .bps-td-none        { text-decoration: none; }
-    .bps-td-underline   { text-decoration: underline; }
-    .bps-td-overline    { text-decoration: overline; }
-    .bps-td-lineThrough { text-decoration: line-through; }
+@media (--breakpoint-1) {
+    .bp1-td-none        { text-decoration: none; }
+    .bp1-td-underline   { text-decoration: underline; }
+    .bp1-td-overline    { text-decoration: overline; }
+    .bp1-td-lineThrough { text-decoration: line-through; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-td-none        { text-decoration: none; }
-    .bpm-td-underline   { text-decoration: underline; }
-    .bpm-td-overline    { text-decoration: overline; }
-    .bpm-td-lineThrough { text-decoration: line-through; }
+@media (--breakpoint-2) {
+    .bp2-td-none        { text-decoration: none; }
+    .bp2-td-underline   { text-decoration: underline; }
+    .bp2-td-overline    { text-decoration: overline; }
+    .bp2-td-lineThrough { text-decoration: line-through; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-td-none        { text-decoration: none; }
-    .bpl-td-underline   { text-decoration: underline; }
-    .bpl-td-overline    { text-decoration: overline; }
-    .bpl-td-lineThrough { text-decoration: line-through; }
+@media (--breakpoint-3) {
+    .bp3-td-none        { text-decoration: none; }
+    .bp3-td-underline   { text-decoration: underline; }
+    .bp3-td-overline    { text-decoration: overline; }
+    .bp3-td-lineThrough { text-decoration: line-through; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-td-none        { text-decoration: none; }
-    .bpxl-td-underline   { text-decoration: underline; }
-    .bpxl-td-overline    { text-decoration: overline; }
-    .bpxl-td-lineThrough { text-decoration: line-through; }
+@media (--breakpoint-4) {
+    .bp4-td-none        { text-decoration: none; }
+    .bp4-td-underline   { text-decoration: underline; }
+    .bp4-td-overline    { text-decoration: overline; }
+    .bp4-td-lineThrough { text-decoration: line-through; }
 }
 
 @media (hover) {

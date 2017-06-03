@@ -2,18 +2,18 @@
 
 .flex-none              { flex: none; }
 
-@media (--breakpoint-s) {
-  .bps-flex-none              { flex: none; }
+@media (--breakpoint-1) {
+  .bp1-flex-none              { flex: none; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-flex-none              { flex: none; }
+@media (--breakpoint-2) {
+  .bp2-flex-none              { flex: none; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-flex-none              { flex: none; }
+@media (--breakpoint-3) {
+  .bp3-flex-none              { flex: none; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-flex-none              { flex: none; }
+@media (--breakpoint-4) {
+  .bp4-flex-none              { flex: none; }
 }

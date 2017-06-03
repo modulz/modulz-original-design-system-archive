@@ -7,30 +7,30 @@
 .position-relative  { position: relative; }
 .position-static    { position: static; }
 
-@media (--breakpoint-s) {
-    .bps-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
-    .bps-position-absolute  { position: absolute; }
-    .bps-position-relative  { position: relative; }
-    .bps-position-static    { position: static; }
+@media (--breakpoint-1) {
+    .bp1-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
+    .bp1-position-absolute  { position: absolute; }
+    .bp1-position-relative  { position: relative; }
+    .bp1-position-static    { position: static; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
-    .bpm-position-absolute  { position: absolute; }
-    .bpm-position-relative  { position: relative; }
-    .bpm-position-static    { position: static; }
+@media (--breakpoint-2) {
+    .bp2-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
+    .bp2-position-absolute  { position: absolute; }
+    .bp2-position-relative  { position: relative; }
+    .bp2-position-static    { position: static; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
-    .bpl-position-absolute  { position: absolute; }
-    .bpl-position-relative  { position: relative; }
-    .bpl-position-static    { position: static; }
+@media (--breakpoint-3) {
+    .bp3-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
+    .bp3-position-absolute  { position: absolute; }
+    .bp3-position-relative  { position: relative; }
+    .bp3-position-static    { position: static; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
-    .bpxl-position-absolute  { position: absolute; }
-    .bpxl-position-relative  { position: relative; }
-    .bpxl-position-static    { position: static; }
+@media (--breakpoint-4) {
+    .bp4-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
+    .bp4-position-absolute  { position: absolute; }
+    .bp4-position-relative  { position: relative; }
+    .bp4-position-static    { position: static; }
 }

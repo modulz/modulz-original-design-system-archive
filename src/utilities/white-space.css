@@ -6,34 +6,34 @@
 .ws-preLine { white-space: pre-line; }
 .ws-preWrap { white-space: pre-wrap; }
 
-@media (--breakpoint-s) {
-    .bps-ws-normal  { white-space: normal; }
-    .bps-ws-nowrap  { white-space: nowrap; }
-    .bps-ws-pre     { white-space: pre; }
-    .bps-ws-preLine { white-space: pre-line; }
-    .bps-ws-preWrap { white-space: pre-wrap; }
+@media (--breakpoint-1) {
+    .bp1-ws-normal  { white-space: normal; }
+    .bp1-ws-nowrap  { white-space: nowrap; }
+    .bp1-ws-pre     { white-space: pre; }
+    .bp1-ws-preLine { white-space: pre-line; }
+    .bp1-ws-preWrap { white-space: pre-wrap; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-ws-normal  { white-space: normal; }
-    .bpm-ws-nowrap  { white-space: nowrap; }
-    .bpm-ws-pre     { white-space: pre; }
-    .bpm-ws-preLine { white-space: pre-line; }
-    .bpm-ws-preWrap { white-space: pre-wrap; }
+@media (--breakpoint-2) {
+    .bp2-ws-normal  { white-space: normal; }
+    .bp2-ws-nowrap  { white-space: nowrap; }
+    .bp2-ws-pre     { white-space: pre; }
+    .bp2-ws-preLine { white-space: pre-line; }
+    .bp2-ws-preWrap { white-space: pre-wrap; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-ws-normal  { white-space: normal; }
-    .bpl-ws-nowrap  { white-space: nowrap; }
-    .bpl-ws-pre     { white-space: pre; }
-    .bpl-ws-preLine { white-space: pre-line; }
-    .bpl-ws-preWrap { white-space: pre-wrap; }
+@media (--breakpoint-3) {
+    .bp3-ws-normal  { white-space: normal; }
+    .bp3-ws-nowrap  { white-space: nowrap; }
+    .bp3-ws-pre     { white-space: pre; }
+    .bp3-ws-preLine { white-space: pre-line; }
+    .bp3-ws-preWrap { white-space: pre-wrap; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-ws-normal  { white-space: normal; }
-    .bpxl-ws-nowrap  { white-space: nowrap; }
-    .bpxl-ws-pre     { white-space: pre; }
-    .bpxl-ws-preLine { white-space: pre-line; }
-    .bpxl-ws-preWrap { white-space: pre-wrap; }
+@media (--breakpoint-4) {
+    .bp4-ws-normal  { white-space: normal; }
+    .bp4-ws-nowrap  { white-space: nowrap; }
+    .bp4-ws-pre     { white-space: pre; }
+    .bp4-ws-preLine { white-space: pre-line; }
+    .bp4-ws-preWrap { white-space: pre-wrap; }
 }

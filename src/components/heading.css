@@ -29,7 +29,7 @@
     line-height: 1.05;
 }
 
-@media (--breakpoint-m) {
+@media (--breakpoint-2) {
     .Heading {
         font-size: var(--fs-6);
     }

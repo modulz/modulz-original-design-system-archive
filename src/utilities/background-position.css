@@ -10,50 +10,50 @@
 .bp-CC  { background-position: center center; }
 .bp-CB  { background-position: center bottom; }
 
-@media (--breakpoint-s) {
-    .bps-bp-LT  { background-position: left top; }
-    .bps-bp-LC  { background-position: left center; }
-    .bps-bp-LB  { background-position: left bottom; }
-    .bps-bp-RT  { background-position: right top; }
-    .bps-bp-RC  { background-position: right center; }
-    .bps-bp-RB  { background-position: right bottom; }
-    .bps-bp-CT  { background-position: center top; }
-    .bps-bp-CC  { background-position: center center; }
-    .bps-bp-CB  { background-position: center bottom; }
+@media (--breakpoint-1) {
+    .bp1-bp-LT  { background-position: left top; }
+    .bp1-bp-LC  { background-position: left center; }
+    .bp1-bp-LB  { background-position: left bottom; }
+    .bp1-bp-RT  { background-position: right top; }
+    .bp1-bp-RC  { background-position: right center; }
+    .bp1-bp-RB  { background-position: right bottom; }
+    .bp1-bp-CT  { background-position: center top; }
+    .bp1-bp-CC  { background-position: center center; }
+    .bp1-bp-CB  { background-position: center bottom; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-bp-LT  { background-position: left top; }
-    .bpm-bp-LC  { background-position: left center; }
-    .bpm-bp-LB  { background-position: left bottom; }
-    .bpm-bp-RT  { background-position: right top; }
-    .bpm-bp-RC  { background-position: right center; }
-    .bpm-bp-RB  { background-position: right bottom; }
-    .bpm-bp-CT  { background-position: center top; }
-    .bpm-bp-CC  { background-position: center center; }
-    .bpm-bp-CB  { background-position: center bottom; }
+@media (--breakpoint-2) {
+    .bp2-bp-LT  { background-position: left top; }
+    .bp2-bp-LC  { background-position: left center; }
+    .bp2-bp-LB  { background-position: left bottom; }
+    .bp2-bp-RT  { background-position: right top; }
+    .bp2-bp-RC  { background-position: right center; }
+    .bp2-bp-RB  { background-position: right bottom; }
+    .bp2-bp-CT  { background-position: center top; }
+    .bp2-bp-CC  { background-position: center center; }
+    .bp2-bp-CB  { background-position: center bottom; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-bp-LT  { background-position: left top; }
-    .bpl-bp-LC  { background-position: left center; }
-    .bpl-bp-LB  { background-position: left bottom; }
-    .bpl-bp-RT  { background-position: right top; }
-    .bpl-bp-RC  { background-position: right center; }
-    .bpl-bp-RB  { background-position: right bottom; }
-    .bpl-bp-CT  { background-position: center top; }
-    .bpl-bp-CC  { background-position: center center; }
-    .bpl-bp-CB  { background-position: center bottom; }
+@media (--breakpoint-3) {
+    .bp3-bp-LT  { background-position: left top; }
+    .bp3-bp-LC  { background-position: left center; }
+    .bp3-bp-LB  { background-position: left bottom; }
+    .bp3-bp-RT  { background-position: right top; }
+    .bp3-bp-RC  { background-position: right center; }
+    .bp3-bp-RB  { background-position: right bottom; }
+    .bp3-bp-CT  { background-position: center top; }
+    .bp3-bp-CC  { background-position: center center; }
+    .bp3-bp-CB  { background-position: center bottom; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-bp-LT  { background-position: left top; }
-    .bpxl-bp-LC  { background-position: left center; }
-    .bpxl-bp-LB  { background-position: left bottom; }
-    .bpxl-bp-RT  { background-position: right top; }
-    .bpxl-bp-RC  { background-position: right center; }
-    .bpxl-bp-RB  { background-position: right bottom; }
-    .bpxl-bp-CT  { background-position: center top; }
-    .bpxl-bp-CC  { background-position: center center; }
-    .bpxl-bp-CB  { background-position: center bottom; }
+@media (--breakpoint-4) {
+    .bp4-bp-LT  { background-position: left top; }
+    .bp4-bp-LC  { background-position: left center; }
+    .bp4-bp-LB  { background-position: left bottom; }
+    .bp4-bp-RT  { background-position: right top; }
+    .bp4-bp-RC  { background-position: right center; }
+    .bp4-bp-RB  { background-position: right bottom; }
+    .bp4-bp-CT  { background-position: center top; }
+    .bp4-bp-CC  { background-position: center center; }
+    .bp4-bp-CB  { background-position: center bottom; }
 }

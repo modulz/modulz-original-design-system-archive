@@ -6,34 +6,34 @@
 .us-contain     { user-select: contain; }
 .us-all         { user-select: all; }
 
-@media (--breakpoint-s) {
-    .bps-us-none        { user-select: none; }
-    .bps-us-auto        { user-select: auto; }
-    .bps-us-text        { user-select: text; }
-    .bps-us-contain     { user-select: contain; }
-    .bps-us-all         { user-select: all; }
+@media (--breakpoint-1) {
+    .bp1-us-none        { user-select: none; }
+    .bp1-us-auto        { user-select: auto; }
+    .bp1-us-text        { user-select: text; }
+    .bp1-us-contain     { user-select: contain; }
+    .bp1-us-all         { user-select: all; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-us-none        { user-select: none; }
-    .bpm-us-auto        { user-select: auto; }
-    .bpm-us-text        { user-select: text; }
-    .bpm-us-contain     { user-select: contain; }
-    .bpm-us-all         { user-select: all; }
+@media (--breakpoint-2) {
+    .bp2-us-none        { user-select: none; }
+    .bp2-us-auto        { user-select: auto; }
+    .bp2-us-text        { user-select: text; }
+    .bp2-us-contain     { user-select: contain; }
+    .bp2-us-all         { user-select: all; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-us-none        { user-select: none; }
-    .bpl-us-auto        { user-select: auto; }
-    .bpl-us-text        { user-select: text; }
-    .bpl-us-contain     { user-select: contain; }
-    .bpl-us-all         { user-select: all; }
+@media (--breakpoint-3) {
+    .bp3-us-none        { user-select: none; }
+    .bp3-us-auto        { user-select: auto; }
+    .bp3-us-text        { user-select: text; }
+    .bp3-us-contain     { user-select: contain; }
+    .bp3-us-all         { user-select: all; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-us-none        { user-select: none; }
-    .bpxl-us-auto        { user-select: auto; }
-    .bpxl-us-text        { user-select: text; }
-    .bpxl-us-contain     { user-select: contain; }
-    .bpxl-us-all         { user-select: all; }
+@media (--breakpoint-4) {
+    .bp4-us-none        { user-select: none; }
+    .bp4-us-auto        { user-select: auto; }
+    .bp4-us-text        { user-select: text; }
+    .bp4-us-contain     { user-select: contain; }
+    .bp4-us-all         { user-select: all; }
 }

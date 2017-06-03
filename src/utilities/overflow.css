@@ -15,70 +15,70 @@
 .oy-scroll          { overflow-y: scroll; }
 .oy-auto            { overflow-y: auto; }
 
-@media (--breakpoint-s) {
-    .bps-overflow-visible   { overflow: visible; }
-    .bps-overflow-hidden    { overflow: hidden; }
-    .bps-overflow-scroll    { overflow: scroll; }
-    .bps-overflow-auto      { overflow: auto; }
+@media (--breakpoint-1) {
+    .bp1-overflow-visible   { overflow: visible; }
+    .bp1-overflow-hidden    { overflow: hidden; }
+    .bp1-overflow-scroll    { overflow: scroll; }
+    .bp1-overflow-auto      { overflow: auto; }
 
-    .bps-ox-visible         { overflow-x: visible; }
-    .bps-ox-hidden          { overflow-x: hidden; }
-    .bps-ox-scroll          { overflow-x: scroll; }
-    .bps-ox-auto            { overflow-x: auto; }
+    .bp1-ox-visible         { overflow-x: visible; }
+    .bp1-ox-hidden          { overflow-x: hidden; }
+    .bp1-ox-scroll          { overflow-x: scroll; }
+    .bp1-ox-auto            { overflow-x: auto; }
 
-    .bps-oy-visible         { overflow-y: visible; }
-    .bps-oy-hidden          { overflow-y: hidden; }
-    .bps-oy-scroll          { overflow-y: scroll; }
-    .bps-oy-auto            { overflow-y: auto; }
+    .bp1-oy-visible         { overflow-y: visible; }
+    .bp1-oy-hidden          { overflow-y: hidden; }
+    .bp1-oy-scroll          { overflow-y: scroll; }
+    .bp1-oy-auto            { overflow-y: auto; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-overflow-visible   { overflow: visible; }
-    .bpm-overflow-hidden    { overflow: hidden; }
-    .bpm-overflow-scroll    { overflow: scroll; }
-    .bpm-overflow-auto      { overflow: auto; }
+@media (--breakpoint-2) {
+    .bp2-overflow-visible   { overflow: visible; }
+    .bp2-overflow-hidden    { overflow: hidden; }
+    .bp2-overflow-scroll    { overflow: scroll; }
+    .bp2-overflow-auto      { overflow: auto; }
 
-    .bpm-ox-visible         { overflow-x: visible; }
-    .bpm-ox-hidden          { overflow-x: hidden; }
-    .bpm-ox-scroll          { overflow-x: scroll; }
-    .bpm-ox-auto            { overflow-x: auto; }
+    .bp2-ox-visible         { overflow-x: visible; }
+    .bp2-ox-hidden          { overflow-x: hidden; }
+    .bp2-ox-scroll          { overflow-x: scroll; }
+    .bp2-ox-auto            { overflow-x: auto; }
 
-    .bpm-oy-visible         { overflow-y: visible; }
-    .bpm-oy-hidden          { overflow-y: hidden; }
-    .bpm-oy-scroll          { overflow-y: scroll; }
-    .bpm-oy-auto            { overflow-y: auto; }
+    .bp2-oy-visible         { overflow-y: visible; }
+    .bp2-oy-hidden          { overflow-y: hidden; }
+    .bp2-oy-scroll          { overflow-y: scroll; }
+    .bp2-oy-auto            { overflow-y: auto; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-overflow-visible   { overflow: visible; }
-    .bpl-overflow-hidden    { overflow: hidden; }
-    .bpl-overflow-scroll    { overflow: scroll; }
-    .bpl-overflow-auto      { overflow: auto; }
+@media (--breakpoint-3) {
+    .bp3-overflow-visible   { overflow: visible; }
+    .bp3-overflow-hidden    { overflow: hidden; }
+    .bp3-overflow-scroll    { overflow: scroll; }
+    .bp3-overflow-auto      { overflow: auto; }
 
-    .bpl-ox-visible         { overflow-x: visible; }
-    .bpl-ox-hidden          { overflow-x: hidden; }
-    .bpl-ox-scroll          { overflow-x: scroll; }
-    .bpl-ox-auto            { overflow-x: auto; }
+    .bp3-ox-visible         { overflow-x: visible; }
+    .bp3-ox-hidden          { overflow-x: hidden; }
+    .bp3-ox-scroll          { overflow-x: scroll; }
+    .bp3-ox-auto            { overflow-x: auto; }
 
-    .bpl-oy-visible         { overflow-y: visible; }
-    .bpl-oy-hidden          { overflow-y: hidden; }
-    .bpl-oy-scroll          { overflow-y: scroll; }
-    .bpl-oy-auto            { overflow-y: auto; }
+    .bp3-oy-visible         { overflow-y: visible; }
+    .bp3-oy-hidden          { overflow-y: hidden; }
+    .bp3-oy-scroll          { overflow-y: scroll; }
+    .bp3-oy-auto            { overflow-y: auto; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-overflow-visible   { overflow: visible; }
-    .bpxl-overflow-hidden    { overflow: hidden; }
-    .bpxl-overflow-scroll    { overflow: scroll; }
-    .bpxl-overflow-auto      { overflow: auto; }
+@media (--breakpoint-4) {
+    .bp4-overflow-visible   { overflow: visible; }
+    .bp4-overflow-hidden    { overflow: hidden; }
+    .bp4-overflow-scroll    { overflow: scroll; }
+    .bp4-overflow-auto      { overflow: auto; }
 
-    .bpxl-ox-visible         { overflow-x: visible; }
-    .bpxl-ox-hidden          { overflow-x: hidden; }
-    .bpxl-ox-scroll          { overflow-x: scroll; }
-    .bpxl-ox-auto            { overflow-x: auto; }
+    .bp4-ox-visible         { overflow-x: visible; }
+    .bp4-ox-hidden          { overflow-x: hidden; }
+    .bp4-ox-scroll          { overflow-x: scroll; }
+    .bp4-ox-auto            { overflow-x: auto; }
 
-    .bpxl-oy-visible         { overflow-y: visible; }
-    .bpxl-oy-hidden          { overflow-y: hidden; }
-    .bpxl-oy-scroll          { overflow-y: scroll; }
-    .bpxl-oy-auto            { overflow-y: auto; }
+    .bp4-oy-visible         { overflow-y: visible; }
+    .bp4-oy-hidden          { overflow-y: hidden; }
+    .bp4-oy-scroll          { overflow-y: scroll; }
+    .bp4-oy-auto            { overflow-y: auto; }
 }

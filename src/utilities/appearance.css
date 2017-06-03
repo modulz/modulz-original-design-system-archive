@@ -7,38 +7,38 @@
 .appearance-menu    { appearance: menu; }
 .appearance-field   { appearance: field; }
 
-@media (--breakpoint-s) {
-  .bps-appearance-none    { appearance: none; }
-  .bps-appearance-normal  { appearance: normal; }
-  .bps-appearance-window  { appearance: window; }
-  .bps-appearance-button  { appearance: button; }
-  .bps-appearance-menu    { appearance: menu; }
-  .bps-appearance-field   { appearance: field; }
+@media (--breakpoint-1) {
+  .bp1-appearance-none    { appearance: none; }
+  .bp1-appearance-normal  { appearance: normal; }
+  .bp1-appearance-window  { appearance: window; }
+  .bp1-appearance-button  { appearance: button; }
+  .bp1-appearance-menu    { appearance: menu; }
+  .bp1-appearance-field   { appearance: field; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-appearance-none    { appearance: none; }
-  .bpm-appearance-normal  { appearance: normal; }
-  .bpm-appearance-window  { appearance: window; }
-  .bpm-appearance-button  { appearance: button; }
-  .bpm-appearance-menu    { appearance: menu; }
-  .bpm-appearance-field   { appearance: field; }
+@media (--breakpoint-2) {
+  .bp2-appearance-none    { appearance: none; }
+  .bp2-appearance-normal  { appearance: normal; }
+  .bp2-appearance-window  { appearance: window; }
+  .bp2-appearance-button  { appearance: button; }
+  .bp2-appearance-menu    { appearance: menu; }
+  .bp2-appearance-field   { appearance: field; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-appearance-none    { appearance: none; }
-  .bpl-appearance-normal  { appearance: normal; }
-  .bpl-appearance-window  { appearance: window; }
-  .bpl-appearance-button  { appearance: button; }
-  .bpl-appearance-menu    { appearance: menu; }
-  .bpl-appearance-field   { appearance: field; }
+@media (--breakpoint-3) {
+  .bp3-appearance-none    { appearance: none; }
+  .bp3-appearance-normal  { appearance: normal; }
+  .bp3-appearance-window  { appearance: window; }
+  .bp3-appearance-button  { appearance: button; }
+  .bp3-appearance-menu    { appearance: menu; }
+  .bp3-appearance-field   { appearance: field; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-appearance-none    { appearance: none; }
-  .bpxl-appearance-normal  { appearance: normal; }
-  .bpxl-appearance-window  { appearance: window; }
-  .bpxl-appearance-button  { appearance: button; }
-  .bpxl-appearance-menu    { appearance: menu; }
-  .bpxl-appearance-field   { appearance: field; }
+@media (--breakpoint-4) {
+  .bp4-appearance-none    { appearance: none; }
+  .bp4-appearance-normal  { appearance: normal; }
+  .bp4-appearance-window  { appearance: window; }
+  .bp4-appearance-button  { appearance: button; }
+  .bp4-appearance-menu    { appearance: menu; }
+  .bp4-appearance-field   { appearance: field; }
 }

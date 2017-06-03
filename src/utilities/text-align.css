@@ -4,26 +4,26 @@
 .ta-center  { text-align: center; }
 .ta-right   { text-align: right; }
 
-@media (--breakpoint-s) {
-  .bps-ta-left    { text-align: left; }
-  .bps-ta-center  { text-align: center; }
-  .bps-ta-right   { text-align: right; }
+@media (--breakpoint-1) {
+  .bp1-ta-left    { text-align: left; }
+  .bp1-ta-center  { text-align: center; }
+  .bp1-ta-right   { text-align: right; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-ta-left    { text-align: left; }
-  .bpm-ta-center  { text-align: center; }
-  .bpm-ta-right   { text-align: right; }
+@media (--breakpoint-2) {
+  .bp2-ta-left    { text-align: left; }
+  .bp2-ta-center  { text-align: center; }
+  .bp2-ta-right   { text-align: right; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-ta-left    { text-align: left; }
-  .bpl-ta-center  { text-align: center; }
-  .bpl-ta-right   { text-align: right; }
+@media (--breakpoint-3) {
+  .bp3-ta-left    { text-align: left; }
+  .bp3-ta-center  { text-align: center; }
+  .bp3-ta-right   { text-align: right; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-ta-left    { text-align: left; }
-  .bpxl-ta-center  { text-align: center; }
-  .bpxl-ta-right   { text-align: right; }
+@media (--breakpoint-4) {
+  .bp4-ta-left    { text-align: left; }
+  .bp4-ta-center  { text-align: center; }
+  .bp4-ta-right   { text-align: right; }
 }

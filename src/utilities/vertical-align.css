@@ -9,46 +9,46 @@
 .va-bottom      { vertical-align: bottom; }
 .va-textBottom  { vertical-align: text-bottom; }
 
-@media (--breakpoint-s) {
-    .bps-va-baseline    { vertical-align: baseline; }
-    .bps-va-sub         { vertical-align: sub; }
-    .bps-va-super       { vertical-align: super; }
-    .bps-va-top         { vertical-align: top; }
-    .bps-va-textTop     { vertical-align: text-top; }
-    .bps-va-middle      { vertical-align: middle; }
-    .bps-va-bottom      { vertical-align: bottom; }
-    .bps-va-textBottom  { vertical-align: text-bottom; }
+@media (--breakpoint-1) {
+    .bp1-va-baseline    { vertical-align: baseline; }
+    .bp1-va-sub         { vertical-align: sub; }
+    .bp1-va-super       { vertical-align: super; }
+    .bp1-va-top         { vertical-align: top; }
+    .bp1-va-textTop     { vertical-align: text-top; }
+    .bp1-va-middle      { vertical-align: middle; }
+    .bp1-va-bottom      { vertical-align: bottom; }
+    .bp1-va-textBottom  { vertical-align: text-bottom; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-va-baseline    { vertical-align: baseline; }
-    .bpm-va-sub         { vertical-align: sub; }
-    .bpm-va-super       { vertical-align: super; }
-    .bpm-va-top         { vertical-align: top; }
-    .bpm-va-textTop     { vertical-align: text-top; }
-    .bpm-va-middle      { vertical-align: middle; }
-    .bpm-va-bottom      { vertical-align: bottom; }
-    .bpm-va-textBottom  { vertical-align: text-bottom; }
+@media (--breakpoint-2) {
+    .bp2-va-baseline    { vertical-align: baseline; }
+    .bp2-va-sub         { vertical-align: sub; }
+    .bp2-va-super       { vertical-align: super; }
+    .bp2-va-top         { vertical-align: top; }
+    .bp2-va-textTop     { vertical-align: text-top; }
+    .bp2-va-middle      { vertical-align: middle; }
+    .bp2-va-bottom      { vertical-align: bottom; }
+    .bp2-va-textBottom  { vertical-align: text-bottom; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-va-baseline    { vertical-align: baseline; }
-    .bpl-va-sub         { vertical-align: sub; }
-    .bpl-va-super       { vertical-align: super; }
-    .bpl-va-top         { vertical-align: top; }
-    .bpl-va-textTop     { vertical-align: text-top; }
-    .bpl-va-middle      { vertical-align: middle; }
-    .bpl-va-bottom      { vertical-align: bottom; }
-    .bpl-va-textBottom  { vertical-align: text-bottom; }
+@media (--breakpoint-3) {
+    .bp3-va-baseline    { vertical-align: baseline; }
+    .bp3-va-sub         { vertical-align: sub; }
+    .bp3-va-super       { vertical-align: super; }
+    .bp3-va-top         { vertical-align: top; }
+    .bp3-va-textTop     { vertical-align: text-top; }
+    .bp3-va-middle      { vertical-align: middle; }
+    .bp3-va-bottom      { vertical-align: bottom; }
+    .bp3-va-textBottom  { vertical-align: text-bottom; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-va-baseline    { vertical-align: baseline; }
-    .bpxl-va-sub         { vertical-align: sub; }
-    .bpxl-va-super       { vertical-align: super; }
-    .bpxl-va-top         { vertical-align: top; }
-    .bpxl-va-textTop     { vertical-align: text-top; }
-    .bpxl-va-middle      { vertical-align: middle; }
-    .bpxl-va-bottom      { vertical-align: bottom; }
-    .bpxl-va-textBottom  { vertical-align: text-bottom; }
+@media (--breakpoint-4) {
+    .bp4-va-baseline    { vertical-align: baseline; }
+    .bp4-va-sub         { vertical-align: sub; }
+    .bp4-va-super       { vertical-align: super; }
+    .bp4-va-top         { vertical-align: top; }
+    .bp4-va-textTop     { vertical-align: text-top; }
+    .bp4-va-middle      { vertical-align: middle; }
+    .bp4-va-bottom      { vertical-align: bottom; }
+    .bp4-va-textBottom  { vertical-align: text-bottom; }
 }

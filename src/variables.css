@@ -4,10 +4,10 @@
 
     /* Media queries */
 
-    @custom-media --breakpoint-s (min-width: 38em);
-    @custom-media --breakpoint-m (min-width: 62em);
-    @custom-media --breakpoint-l (min-width: 68em);
-    @custom-media --breakpoint-xl (min-width: 110em);
+    @custom-media --breakpoint-1 (min-width: 38em);
+    @custom-media --breakpoint-2 (min-width: 62em);
+    @custom-media --breakpoint-3 (min-width: 68em);
+    @custom-media --breakpoint-4 (min-width: 110em);
 
     /* Color palette */
 

@@ -2,26 +2,26 @@
 .fw-wrap                { flex-wrap: wrap; }
 .fw-wrapReverse         { flex-wrap: wrap-reverse; }
 
-@media (--breakpoint-s) {
-    .bps-fw-nowrap              { flex-wrap: nowrap; }
-    .bps-fw-wrap                { flex-wrap: wrap; }
-    .bps-fw-wrapReverse         { flex-wrap: wrap-reverse; }
+@media (--breakpoint-1) {
+    .bp1-fw-nowrap              { flex-wrap: nowrap; }
+    .bp1-fw-wrap                { flex-wrap: wrap; }
+    .bp1-fw-wrapReverse         { flex-wrap: wrap-reverse; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-fw-nowrap              { flex-wrap: nowrap; }
-    .bpm-fw-wrap                { flex-wrap: wrap; }
-    .bpm-fw-wrapReverse         { flex-wrap: wrap-reverse; }
+@media (--breakpoint-2) {
+    .bp2-fw-nowrap              { flex-wrap: nowrap; }
+    .bp2-fw-wrap                { flex-wrap: wrap; }
+    .bp2-fw-wrapReverse         { flex-wrap: wrap-reverse; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-fw-nowrap              { flex-wrap: nowrap; }
-    .bpl-fw-wrap                { flex-wrap: wrap; }
-    .bpl-fw-wrapReverse         { flex-wrap: wrap-reverse; }
+@media (--breakpoint-3) {
+    .bp3-fw-nowrap              { flex-wrap: nowrap; }
+    .bp3-fw-wrap                { flex-wrap: wrap; }
+    .bp3-fw-wrapReverse         { flex-wrap: wrap-reverse; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-fw-nowrap              { flex-wrap: nowrap; }
-    .bpxl-fw-wrap                { flex-wrap: wrap; }
-    .bpxl-fw-wrapReverse         { flex-wrap: wrap-reverse; }
+@media (--breakpoint-4) {
+    .bp4-fw-nowrap              { flex-wrap: nowrap; }
+    .bp4-fw-wrap                { flex-wrap: wrap; }
+    .bp4-fw-wrapReverse         { flex-wrap: wrap-reverse; }
 }

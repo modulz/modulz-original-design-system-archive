@@ -4,34 +4,34 @@
 .as-baseline            { align-self: baseline; }
 .as-stretch             { align-self: stretch; }
 
-@media (--breakpoint-s) {
-    .bps-as-flexStart           { align-self: flex-start; }
-    .bps-as-flexEnd             { align-self: flex-end; }
-    .bps-as-center              { align-self: center; }
-    .bps-as-baseline            { align-self: baseline; }
-    .bps-as-stretch             { align-self: stretch; }
+@media (--breakpoint-1) {
+    .bp1-as-flexStart           { align-self: flex-start; }
+    .bp1-as-flexEnd             { align-self: flex-end; }
+    .bp1-as-center              { align-self: center; }
+    .bp1-as-baseline            { align-self: baseline; }
+    .bp1-as-stretch             { align-self: stretch; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-as-flexStart           { align-self: flex-start; }
-    .bpm-as-flexEnd             { align-self: flex-end; }
-    .bpm-as-center              { align-self: center; }
-    .bpm-as-baseline            { align-self: baseline; }
-    .bpm-as-stretch             { align-self: stretch; }
+@media (--breakpoint-2) {
+    .bp2-as-flexStart           { align-self: flex-start; }
+    .bp2-as-flexEnd             { align-self: flex-end; }
+    .bp2-as-center              { align-self: center; }
+    .bp2-as-baseline            { align-self: baseline; }
+    .bp2-as-stretch             { align-self: stretch; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-as-flexStart           { align-self: flex-start; }
-    .bpl-as-flexEnd             { align-self: flex-end; }
-    .bpl-as-center              { align-self: center; }
-    .bpl-as-baseline            { align-self: baseline; }
-    .bpl-as-stretch             { align-self: stretch; }
+@media (--breakpoint-3) {
+    .bp3-as-flexStart           { align-self: flex-start; }
+    .bp3-as-flexEnd             { align-self: flex-end; }
+    .bp3-as-center              { align-self: center; }
+    .bp3-as-baseline            { align-self: baseline; }
+    .bp3-as-stretch             { align-self: stretch; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-as-flexStart           { align-self: flex-start; }
-    .bpxl-as-flexEnd             { align-self: flex-end; }
-    .bpxl-as-center              { align-self: center; }
-    .bpxl-as-baseline            { align-self: baseline; }
-    .bpxl-as-stretch             { align-self: stretch; }
+@media (--breakpoint-4) {
+    .bp4-as-flexStart           { align-self: flex-start; }
+    .bp4-as-flexEnd             { align-self: flex-end; }
+    .bp4-as-center              { align-self: center; }
+    .bp4-as-baseline            { align-self: baseline; }
+    .bp4-as-stretch             { align-self: stretch; }
 }

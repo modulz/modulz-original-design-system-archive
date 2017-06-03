@@ -5,30 +5,30 @@
 .tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
 .tr-geometricPrecision  { text-rendering: geometricPrecision; }
 
-@media (--breakpoint-s) {
-  .bps-tr-auto                { text-rendering: auto; }
-  .bps-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
-  .bps-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
-  .bps-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+@media (--breakpoint-1) {
+  .bp1-tr-auto                { text-rendering: auto; }
+  .bp1-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bp1-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bp1-tr-geometricPrecision  { text-rendering: geometricPrecision; }
 }
 
-@media (--breakpoint-m) {
-  .bpm-tr-auto                { text-rendering: auto; }
-  .bpm-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
-  .bpm-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
-  .bpm-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+@media (--breakpoint-2) {
+  .bp2-tr-auto                { text-rendering: auto; }
+  .bp2-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bp2-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bp2-tr-geometricPrecision  { text-rendering: geometricPrecision; }
 }
 
-@media (--breakpoint-l) {
-  .bpl-tr-auto                { text-rendering: auto; }
-  .bpl-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
-  .bpl-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
-  .bpl-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+@media (--breakpoint-3) {
+  .bp3-tr-auto                { text-rendering: auto; }
+  .bp3-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bp3-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bp3-tr-geometricPrecision  { text-rendering: geometricPrecision; }
 }
 
-@media (--breakpoint-xl) {
-  .bpxl-tr-auto                { text-rendering: auto; }
-  .bpxl-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
-  .bpxl-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
-  .bpxl-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+@media (--breakpoint-4) {
+  .bp4-tr-auto                { text-rendering: auto; }
+  .bp4-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bp4-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bp4-tr-geometricPrecision  { text-rendering: geometricPrecision; }
 }

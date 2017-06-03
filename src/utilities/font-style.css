@@ -4,26 +4,26 @@
 .fs-italic   { font-style: italic; }
 .fs-oblique  { font-style: oblique; }
 
-@media (--breakpoint-s) {
-    .bps-fs-normal   { font-style: normal; }
-    .bps-fs-italic   { font-style: italic; }
-    .bps-fs-oblique  { font-style: oblique; }
+@media (--breakpoint-1) {
+    .bp1-fs-normal   { font-style: normal; }
+    .bp1-fs-italic   { font-style: italic; }
+    .bp1-fs-oblique  { font-style: oblique; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-fs-normal   { font-style: normal; }
-    .bpm-fs-italic   { font-style: italic; }
-    .bpm-fs-oblique  { font-style: oblique; }
+@media (--breakpoint-2) {
+    .bp2-fs-normal   { font-style: normal; }
+    .bp2-fs-italic   { font-style: italic; }
+    .bp2-fs-oblique  { font-style: oblique; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-fs-normal   { font-style: normal; }
-    .bpl-fs-italic   { font-style: italic; }
-    .bpl-fs-oblique  { font-style: oblique; }
+@media (--breakpoint-3) {
+    .bp3-fs-normal   { font-style: normal; }
+    .bp3-fs-italic   { font-style: italic; }
+    .bp3-fs-oblique  { font-style: oblique; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-fs-normal   { font-style: normal; }
-    .bpxl-fs-italic   { font-style: italic; }
-    .bpxl-fs-oblique  { font-style: oblique; }
+@media (--breakpoint-4) {
+    .bp4-fs-normal   { font-style: normal; }
+    .bp4-fs-italic   { font-style: italic; }
+    .bp4-fs-oblique  { font-style: oblique; }
 }

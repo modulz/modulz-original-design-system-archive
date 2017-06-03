@@ -10,50 +10,50 @@
 .fs-2       { font-size: var(--fs-2); }
 .fs-1      { font-size: var(--fs-1); }
 
-@media (--breakpoint-s) {
-    .bps-fs-9   { font-size: var(--fs-9); }
-    .bps-fs-8   { font-size: var(--fs-8); }
-    .bps-fs-7    { font-size: var(--fs-7); }
-    .bps-fs-6     { font-size: var(--fs-6); }
-    .bps-fs-5      { font-size: var(--fs-5); }
-    .bps-fs-4       { font-size: var(--fs-4); }
-    .bps-fs-3       { font-size: var(--fs-3); }
-    .bps-fs-2       { font-size: var(--fs-2); }
-    .bps-fs-1      { font-size: var(--fs-1); }
+@media (--breakpoint-1) {
+    .bp1-fs-9   { font-size: var(--fs-9); }
+    .bp1-fs-8   { font-size: var(--fs-8); }
+    .bp1-fs-7    { font-size: var(--fs-7); }
+    .bp1-fs-6     { font-size: var(--fs-6); }
+    .bp1-fs-5      { font-size: var(--fs-5); }
+    .bp1-fs-4       { font-size: var(--fs-4); }
+    .bp1-fs-3       { font-size: var(--fs-3); }
+    .bp1-fs-2       { font-size: var(--fs-2); }
+    .bp1-fs-1      { font-size: var(--fs-1); }
 }
 
-@media (--breakpoint-m) {
-    .bpm-fs-9   { font-size: var(--fs-9); }
-    .bpm-fs-8   { font-size: var(--fs-8); }
-    .bpm-fs-7    { font-size: var(--fs-7); }
-    .bpm-fs-6     { font-size: var(--fs-6); }
-    .bpm-fs-5      { font-size: var(--fs-5); }
-    .bpm-fs-4       { font-size: var(--fs-4); }
-    .bpm-fs-3       { font-size: var(--fs-3); }
-    .bpm-fs-2       { font-size: var(--fs-2); }
-    .bpm-fs-1      { font-size: var(--fs-1); }
+@media (--breakpoint-2) {
+    .bp2-fs-9   { font-size: var(--fs-9); }
+    .bp2-fs-8   { font-size: var(--fs-8); }
+    .bp2-fs-7    { font-size: var(--fs-7); }
+    .bp2-fs-6     { font-size: var(--fs-6); }
+    .bp2-fs-5      { font-size: var(--fs-5); }
+    .bp2-fs-4       { font-size: var(--fs-4); }
+    .bp2-fs-3       { font-size: var(--fs-3); }
+    .bp2-fs-2       { font-size: var(--fs-2); }
+    .bp2-fs-1      { font-size: var(--fs-1); }
 }
 
-@media (--breakpoint-l) {
-    .bpl-fs-9   { font-size: var(--fs-9); }
-    .bpl-fs-8   { font-size: var(--fs-8); }
-    .bpl-fs-7    { font-size: var(--fs-7); }
-    .bpl-fs-6     { font-size: var(--fs-6); }
-    .bpl-fs-5      { font-size: var(--fs-5); }
-    .bpl-fs-4       { font-size: var(--fs-4); }
-    .bpl-fs-3       { font-size: var(--fs-3); }
-    .bpl-fs-s       { font-size: var(--fs-s); }
-    .bpl-fs-1      { font-size: var(--fs-1); }
+@media (--breakpoint-3) {
+    .bp3-fs-9   { font-size: var(--fs-9); }
+    .bp3-fs-8   { font-size: var(--fs-8); }
+    .bp3-fs-7    { font-size: var(--fs-7); }
+    .bp3-fs-6     { font-size: var(--fs-6); }
+    .bp3-fs-5      { font-size: var(--fs-5); }
+    .bp3-fs-4       { font-size: var(--fs-4); }
+    .bp3-fs-3       { font-size: var(--fs-3); }
+    .bp3-fs-s       { font-size: var(--fs-s); }
+    .bp3-fs-1      { font-size: var(--fs-1); }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-fs-9   { font-size: var(--fs-9); }
-    .bpxl-fs-8   { font-size: var(--fs-8); }
-    .bpxl-fs-7    { font-size: var(--fs-7); }
-    .bpxl-fs-6     { font-size: var(--fs-6); }
-    .bpxl-fs-5      { font-size: var(--fs-5); }
-    .bpxl-fs-4       { font-size: var(--fs-4); }
-    .bpxl-fs-3       { font-size: var(--fs-3); }
-    .bpxl-fs-s       { font-size: var(--fs-s); }
-    .bpxl-fs-1      { font-size: var(--fs-1); }
+@media (--breakpoint-4) {
+    .bp4-fs-9   { font-size: var(--fs-9); }
+    .bp4-fs-8   { font-size: var(--fs-8); }
+    .bp4-fs-7    { font-size: var(--fs-7); }
+    .bp4-fs-6     { font-size: var(--fs-6); }
+    .bp4-fs-5      { font-size: var(--fs-5); }
+    .bp4-fs-4       { font-size: var(--fs-4); }
+    .bp4-fs-3       { font-size: var(--fs-3); }
+    .bp4-fs-s       { font-size: var(--fs-s); }
+    .bp4-fs-1      { font-size: var(--fs-1); }
 }

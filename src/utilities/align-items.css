@@ -4,34 +4,34 @@
 .ai-baseline            { align-items: baseline; }
 .ai-stretch             { align-items: stretch; }
 
-@media (--breakpoint-s) {
-    .bps-ai-flexStart           { align-items: flex-start; }
-    .bps-ai-flexEnd             { align-items: flex-end; }
-    .bps-ai-center              { align-items: center; }
-    .bps-ai-baseline            { align-items: baseline; }
-    .bps-ai-stretch             { align-items: stretch; }
+@media (--breakpoint-1) {
+    .bp1-ai-flexStart           { align-items: flex-start; }
+    .bp1-ai-flexEnd             { align-items: flex-end; }
+    .bp1-ai-center              { align-items: center; }
+    .bp1-ai-baseline            { align-items: baseline; }
+    .bp1-ai-stretch             { align-items: stretch; }
 }
 
-@media (--breakpoint-m) {
-    .bpm-ai-flexStart           { align-items: flex-start; }
-    .bpm-ai-flexEnd             { align-items: flex-end; }
-    .bpm-ai-center              { align-items: center; }
-    .bpm-ai-baseline            { align-items: baseline; }
-    .bpm-ai-stretch             { align-items: stretch; }
+@media (--breakpoint-2) {
+    .bp2-ai-flexStart           { align-items: flex-start; }
+    .bp2-ai-flexEnd             { align-items: flex-end; }
+    .bp2-ai-center              { align-items: center; }
+    .bp2-ai-baseline            { align-items: baseline; }
+    .bp2-ai-stretch             { align-items: stretch; }
 }
 
-@media (--breakpoint-l) {
-    .bpl-ai-flexStart           { align-items: flex-start; }
-    .bpl-ai-flexEnd             { align-items: flex-end; }
-    .bpl-ai-center              { align-items: center; }
-    .bpl-ai-baseline            { align-items: baseline; }
-    .bpl-ai-stretch             { align-items: stretch; }
+@media (--breakpoint-3) {
+    .bp3-ai-flexStart           { align-items: flex-start; }
+    .bp3-ai-flexEnd             { align-items: flex-end; }
+    .bp3-ai-center              { align-items: center; }
+    .bp3-ai-baseline            { align-items: baseline; }
+    .bp3-ai-stretch             { align-items: stretch; }
 }
 
-@media (--breakpoint-xl) {
-    .bpxl-ai-flexStart           { align-items: flex-start; }
-    .bpxl-ai-flexEnd             { align-items: flex-end; }
-    .bpxl-ai-center              { align-items: center; }
-    .bpxl-ai-baseline            { align-items: baseline; }
-    .bpxl-ai-stretch             { align-items: stretch; }
+@media (--breakpoint-4) {
+    .bp4-ai-flexStart           { align-items: flex-start; }
+    .bp4-ai-flexEnd             { align-items: flex-end; }
+    .bp4-ai-center              { align-items: center; }
+    .bp4-ai-baseline            { align-items: baseline; }
+    .bp4-ai-stretch             { align-items: stretch; }
 }

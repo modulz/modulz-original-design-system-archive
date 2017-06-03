@@ -5049,127 +5049,139 @@ a {
     background-color: hsl(0, 92%, 66%)
 }
 
-.bc-pink {
-    background-color: hsl(332, 94%, 55%)
-}
-
-.bc-purple {
-    background-color: hsl(288, 64%, 42%)
-}
-
-.bc-violet {
-    background-color: hsl(264, 52%, 45%)
-}
-
-.bc-indigo {
-    background-color: hsl(226, 56%, 48%)
-}
-
-.bc-blue {
-    background-color: hsl(205, 95%, 50%)
-}
-
-.bc-lavender {
-    background-color: hsl(255, 74%, 60%)
-}
-
-.bc-teal {
-    background-color: hsl(172, 100%, 35%)
-}
-
-.bc-green {
-    background-color: hsl(132, 52%, 53%)
-}
-
-.bc-lime {
-    background-color: hsl(68, 74%, 50%)
-}
-
-.bc-yellow {
-    background-color: hsl(54, 98%, 50%)
-}
-
-.bc-amber {
-    background-color: hsl(46, 100%, 57%)
-}
-
-.bc-orange {
-    background-color: hsl(36, 100%, 50%)
-}
-
-.bc-crimson {
-    background-color: hsl(18, 100%, 60%)
-}
-
 .bc-redTint {
     background-color: hsl(0, 92%, 97%)
+}
+
+.bc-redShade {
+    background-color: var(--red900)
+}
+
+.bc-pink {
+    background-color: hsl(332, 94%, 55%)
 }
 
 .bc-pinkTint {
     background-color: var(--pinkTint)
 }
 
+.bc-purple {
+    background-color: hsl(288, 64%, 42%)
+}
+
 .bc-purpleTint {
     background-color: var(--purpleTint)
+}
+
+.bc-violet {
+    background-color: hsl(264, 52%, 45%)
 }
 
 .bc-violetTint {
     background-color: var(--violetTint)
 }
 
+.bc-indigo {
+    background-color: hsl(226, 56%, 48%)
+}
+
 .bc-indigoTint {
     background-color: var(--indigoTint)
+}
+
+.bc-blue {
+    background-color: hsl(205, 95%, 50%)
 }
 
 .bc-blueTint {
     background-color: hsl(205, 100%, 97%)
 }
 
+.bc-lavender {
+    background-color: hsl(255, 74%, 60%)
+}
+
 .bc-lavenderTint {
     background-color: var(--lavenderTint)
+}
+
+.bc-teal {
+    background-color: hsl(172, 100%, 35%)
 }
 
 .bc-tealTint {
     background-color: var(--tealTint)
 }
 
+.bc-green {
+    background-color: hsl(132, 52%, 53%)
+}
+
 .bc-greenTint {
     background-color: hsl(132, 80%, 97%)
+}
+
+.bc-lime {
+    background-color: hsl(68, 74%, 50%)
 }
 
 .bc-limeTint {
     background-color: var(--limeTint)
 }
 
+.bc-yellow {
+    background-color: hsl(54, 98%, 50%)
+}
+
 .bc-yellowTint {
     background-color: var(--yellowTint)
+}
+
+.bc-amber {
+    background-color: hsl(46, 100%, 57%)
 }
 
 .bc-amberTint {
     background-color: var(--amberTint)
 }
 
+.bc-orange {
+    background-color: hsl(36, 100%, 50%)
+}
+
 .bc-orangeTint {
     background-color: var(--orangeTint)
+}
+
+.bc-crimson {
+    background-color: hsl(18, 100%, 60%)
 }
 
 .bc-crimsonTint {
     background-color: var(--crimsonTint)
 }
 
-.bc-pearl {
+.bc-brown {
+    background-color: #795548
+}
+
+.bc-brownTint {
+    background-color: var(--brownTint)
+}
+
+.bc-gray100 {
     background-color: hsl(205, 43%, 99%)
 }
 
-.bc-snow {
+.bc-gray200 {
     background-color: hsl(205, 26%, 96%)
 }
 
-.bc-lead {
+.bc-gray800 {
     background-color: hsl(205, 43%, 11%)
 }
 
-.bc-charcoal {
+.bc-gray900 {
     background-color: hsl(205, 43%, 5%)
 }
 
@@ -7351,146 +7363,146 @@ a {
 /*@import "utilities/letter-spacing.css";*/
 /* Line height */
 .lh-1 {
-    line-height: 1.6rem
+    line-height: 1.2rem
 }
 .lh-2 {
-    line-height: 2rem
+    line-height: 1.6rem
 }
 .lh-3 {
-    line-height: 2.4rem
+    line-height: 2rem
 }
 .lh-4 {
-    line-height: 2.8rem
+    line-height: 2.4rem
 }
 .lh-5 {
-    line-height: 3.2rem
+    line-height: 2.8rem
 }
 .lh-6 {
-    line-height: 3.6rem
+    line-height: 3.2rem
 }
 .lh-7 {
-    line-height: 4rem
+    line-height: 3.6rem
 }
 .lh-8 {
-    line-height: 6.4rem
+    line-height: 4rem
 }
 .lh-9 {
-    line-height: 7.2rem
+    line-height: 4.4rem
 }
 @media (min-width: 38em) {
     .bp1-lh-1 {
-        line-height: 1.6rem
+        line-height: 1.2rem
     }
     .bp1-lh-2 {
-        line-height: 2rem
+        line-height: 1.6rem
     }
     .bp1-lh-3 {
-        line-height: 2.4rem
+        line-height: 2rem
     }
     .bp1-lh-4 {
-        line-height: 2.8rem
+        line-height: 2.4rem
     }
     .bp1-lh-5 {
-        line-height: 3.2rem
+        line-height: 2.8rem
     }
     .bp1-lh-6 {
-        line-height: 3.6rem
+        line-height: 3.2rem
     }
     .bp1-lh-7 {
-        line-height: 4rem
+        line-height: 3.6rem
     }
     .bp1-lh-8 {
-        line-height: 6.4rem
+        line-height: 4rem
     }
     .bp1-lh-9 {
-        line-height: 7.2rem
+        line-height: 4.4rem
     }
 }
 @media (min-width: 62em) {
     .bp2-lh-1 {
-        line-height: 1.6rem
+        line-height: 1.2rem
     }
     .bp2-lh-2 {
-        line-height: 2rem
+        line-height: 1.6rem
     }
     .bp2-lh-3 {
-        line-height: 2.4rem
+        line-height: 2rem
     }
     .bp2-lh-4 {
-        line-height: 2.8rem
+        line-height: 2.4rem
     }
     .bp2-lh-5 {
-        line-height: 3.2rem
+        line-height: 2.8rem
     }
     .bp2-lh-6 {
-        line-height: 3.6rem
+        line-height: 3.2rem
     }
     .bp2-lh-7 {
-        line-height: 4rem
+        line-height: 3.6rem
     }
     .bp2-lh-8 {
-        line-height: 6.4rem
+        line-height: 4rem
     }
     .bp2-lh-9 {
-        line-height: 7.2rem
+        line-height: 4.4rem
     }
 }
 @media (min-width: 68em) {
     .bp3-lh-1 {
-        line-height: 1.6rem
+        line-height: 1.2rem
     }
     .bp3-lh-2 {
-        line-height: 2rem
+        line-height: 1.6rem
     }
     .bp3-lh-3 {
-        line-height: 2.4rem
+        line-height: 2rem
     }
     .bp3-lh-4 {
-        line-height: 2.8rem
+        line-height: 2.4rem
     }
     .bp3-lh-5 {
-        line-height: 3.2rem
+        line-height: 2.8rem
     }
     .bp3-lh-6 {
-        line-height: 3.6rem
+        line-height: 3.2rem
     }
     .bp3-lh-7 {
-        line-height: 4rem
+        line-height: 3.6rem
     }
     .bp3-lh-8 {
-        line-height: 6.4rem
+        line-height: 4rem
     }
     .bp3-lh-9 {
-        line-height: 7.2rem
+        line-height: 4.4rem
     }
 }
 @media (min-width: 110em) {
     .bp4-lh-1 {
-        line-height: 1.6rem
+        line-height: 1.2rem
     }
     .bp4-lh-2 {
-        line-height: 2rem
+        line-height: 1.6rem
     }
     .bp4-lh-3 {
-        line-height: 2.4rem
+        line-height: 2rem
     }
     .bp4-lh-4 {
-        line-height: 2.8rem
+        line-height: 2.4rem
     }
     .bp4-lh-5 {
-        line-height: 3.2rem
+        line-height: 2.8rem
     }
     .bp4-lh-6 {
-        line-height: 3.6rem
+        line-height: 3.2rem
     }
     .bp4-lh-7 {
-        line-height: 4rem
+        line-height: 3.6rem
     }
     .bp4-lh-8 {
-        line-height: 6.4rem
+        line-height: 4rem
     }
     .bp4-lh-9 {
-        line-height: 7.2rem
+        line-height: 4.4rem
     }
 }
 /* Margin */
@@ -9281,24 +9293,24 @@ a {
             transition-duration: 0
 }
 .td-1 {
-    -webkit-transition-duration: var(--transitionDuration-1);
-            transition-duration: var(--transitionDuration-1)
+    -webkit-transition-duration: 50ms;
+            transition-duration: 50ms
 }
 .td-2 {
-    -webkit-transition-duration: var(--transitionDuration-2);
-            transition-duration: var(--transitionDuration-2)
+    -webkit-transition-duration: 100ms;
+            transition-duration: 100ms
 }
 .td-3 {
-    -webkit-transition-duration: var(--transitionDuration-3);
-            transition-duration: var(--transitionDuration-3)
+    -webkit-transition-duration: 200ms;
+            transition-duration: 200ms
 }
 .td-4 {
-    -webkit-transition-duration: var(--transitionDuration-4);
-            transition-duration: var(--transitionDuration-4)
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms
 }
 .td-5 {
-    -webkit-transition-duration: var(--transitionDuration-5);
-            transition-duration: var(--transitionDuration-5)
+    -webkit-transition-duration: 1000ms;
+            transition-duration: 1000ms
 }
 /* Transition Timing Function */
 .ttf-ease {
@@ -10507,15 +10519,15 @@ a {
             justify-content: center;
     min-width: 3.2rem;
     outline: none;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     -webkit-transition-property: all;
     transition-property: all;
-    -webkit-transition-duration: var(--transitionDuration-2);
-            transition-duration: var(--transitionDuration-2);
+    -webkit-transition-duration: 100ms;
+            transition-duration: 100ms;
     -webkit-transition-timing-function: ease;
             transition-timing-function: ease;
     -webkit-user-select: none;

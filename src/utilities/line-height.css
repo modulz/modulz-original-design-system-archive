@@ -1,59 +1,59 @@
 /* Line height */
 
-.lh-1   { line-height: 1.6rem; }
-.lh-2   { line-height: 2rem; }
-.lh-3   { line-height: 2.4rem; }
-.lh-4   { line-height: 2.8rem; }
-.lh-5   { line-height: 3.2rem; }
-.lh-6   { line-height: 3.6rem; }
-.lh-7   { line-height: 4rem; }
-.lh-8   { line-height: 6.4rem; }
-.lh-9   { line-height: 7.2rem; }
+.lh-1   { line-height: var(--leading-1); }
+.lh-2   { line-height: var(--leading-2); }
+.lh-3   { line-height: var(--leading-3); }
+.lh-4   { line-height: var(--leading-4); }
+.lh-5   { line-height: var(--leading-5); }
+.lh-6   { line-height: var(--leading-6); }
+.lh-7   { line-height: var(--leading-7); }
+.lh-8   { line-height: var(--leading-8); }
+.lh-9   { line-height: var(--leading-9); }
 
 @media (--breakpoint-1) {
-    .bp1-lh-1   { line-height: 1.6rem; }
-    .bp1-lh-2   { line-height: 2rem; }
-    .bp1-lh-3   { line-height: 2.4rem; }
-    .bp1-lh-4   { line-height: 2.8rem; }
-    .bp1-lh-5   { line-height: 3.2rem; }
-    .bp1-lh-6   { line-height: 3.6rem; }
-    .bp1-lh-7   { line-height: 4rem; }
-    .bp1-lh-8   { line-height: 6.4rem; }
-    .bp1-lh-9   { line-height: 7.2rem; }
+    .bp1-lh-1   { line-height: var(--leading-1); }
+    .bp1-lh-2   { line-height: var(--leading-2); }
+    .bp1-lh-3   { line-height: var(--leading-3); }
+    .bp1-lh-4   { line-height: var(--leading-4); }
+    .bp1-lh-5   { line-height: var(--leading-5); }
+    .bp1-lh-6   { line-height: var(--leading-6); }
+    .bp1-lh-7   { line-height: var(--leading-7); }
+    .bp1-lh-8   { line-height: var(--leading-8); }
+    .bp1-lh-9   { line-height: var(--leading-9); }
 }
 
 @media (--breakpoint-2) {
-    .bp2-lh-1   { line-height: 1.6rem; }
-    .bp2-lh-2   { line-height: 2rem; }
-    .bp2-lh-3   { line-height: 2.4rem; }
-    .bp2-lh-4   { line-height: 2.8rem; }
-    .bp2-lh-5   { line-height: 3.2rem; }
-    .bp2-lh-6   { line-height: 3.6rem; }
-    .bp2-lh-7   { line-height: 4rem; }
-    .bp2-lh-8   { line-height: 6.4rem; }
-    .bp2-lh-9   { line-height: 7.2rem; }
+    .bp2-lh-1   { line-height: var(--leading-1); }
+    .bp2-lh-2   { line-height: var(--leading-2); }
+    .bp2-lh-3   { line-height: var(--leading-3); }
+    .bp2-lh-4   { line-height: var(--leading-4); }
+    .bp2-lh-5   { line-height: var(--leading-5); }
+    .bp2-lh-6   { line-height: var(--leading-6); }
+    .bp2-lh-7   { line-height: var(--leading-7); }
+    .bp2-lh-8   { line-height: var(--leading-8); }
+    .bp2-lh-9   { line-height: var(--leading-9); }
 }
 
 @media (--breakpoint-3) {
-    .bp3-lh-1   { line-height: 1.6rem; }
-    .bp3-lh-2   { line-height: 2rem; }
-    .bp3-lh-3   { line-height: 2.4rem; }
-    .bp3-lh-4   { line-height: 2.8rem; }
-    .bp3-lh-5   { line-height: 3.2rem; }
-    .bp3-lh-6   { line-height: 3.6rem; }
-    .bp3-lh-7   { line-height: 4rem; }
-    .bp3-lh-8   { line-height: 6.4rem; }
-    .bp3-lh-9   { line-height: 7.2rem; }
+    .bp3-lh-1   { line-height: var(--leading-1); }
+    .bp3-lh-2   { line-height: var(--leading-2); }
+    .bp3-lh-3   { line-height: var(--leading-3); }
+    .bp3-lh-4   { line-height: var(--leading-4); }
+    .bp3-lh-5   { line-height: var(--leading-5); }
+    .bp3-lh-6   { line-height: var(--leading-6); }
+    .bp3-lh-7   { line-height: var(--leading-7); }
+    .bp3-lh-8   { line-height: var(--leading-8); }
+    .bp3-lh-9   { line-height: var(--leading-9); }
 }
 
 @media (--breakpoint-4) {
-    .bp4-lh-1   { line-height: 1.6rem; }
-    .bp4-lh-2   { line-height: 2rem; }
-    .bp4-lh-3   { line-height: 2.4rem; }
-    .bp4-lh-4   { line-height: 2.8rem; }
-    .bp4-lh-5   { line-height: 3.2rem; }
-    .bp4-lh-6   { line-height: 3.6rem; }
-    .bp4-lh-7   { line-height: 4rem; }
-    .bp4-lh-8   { line-height: 6.4rem; }
-    .bp4-lh-9   { line-height: 7.2rem; }
+    .bp4-lh-1   { line-height: var(--leading-1); }
+    .bp4-lh-2   { line-height: var(--leading-2); }
+    .bp4-lh-3   { line-height: var(--leading-3); }
+    .bp4-lh-4   { line-height: var(--leading-4); }
+    .bp4-lh-5   { line-height: var(--leading-5); }
+    .bp4-lh-6   { line-height: var(--leading-6); }
+    .bp4-lh-7   { line-height: var(--leading-7); }
+    .bp4-lh-8   { line-height: var(--leading-8); }
+    .bp4-lh-9   { line-height: var(--leading-9); }
 }

@@ -118,11 +118,11 @@
 
     /* Transition durations  */
 
-    --transitiontransitionDuration-1: 50ms;
-    --transitiontransitionDuration-2: 100ms;
-    --transitiontransitionDuration-3: 200ms;
-    --transitiontransitionDuration-4: 400ms;
-    --transitiontransitionDuration-5: 1000ms;
+    --transitionDuration-1: 50ms;
+    --transitionDuration-2: 100ms;
+    --transitionDuration-3: 200ms;
+    --transitionDuration-4: 400ms;
+    --transitionDuration-5: 1000ms;
 
     /* Border radius  */
 

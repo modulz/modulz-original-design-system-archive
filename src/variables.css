@@ -116,13 +116,13 @@
     --spacing-8: 8rem;
     --spacing-9: 9.6rem;
 
-    /* Durations  */
+    /* Transition durations  */
 
-    --duration-1: 50ms;
-    --duration-2: 100ms;
-    --duration-3: 200ms;
-    --duration-4: 400ms;
-    --duration-5: 1000ms;
+    --transitiontransitionDuration-1: 50ms;
+    --transitiontransitionDuration-2: 100ms;
+    --transitiontransitionDuration-3: 200ms;
+    --transitiontransitionDuration-4: 400ms;
+    --transitiontransitionDuration-5: 1000ms;
 
     /* Border radius  */
 

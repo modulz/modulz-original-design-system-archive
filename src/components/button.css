@@ -23,7 +23,7 @@
     text-decoration: none;
     text-transform: uppercase;
     transition-property: all;
-    transition-duration: var(--duration-2);
+    transition-duration: var(--transitionDuration-2);
     transition-timing-function: ease;
     user-select: none;
     vertical-align: middle;

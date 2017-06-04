@@ -6652,16 +6652,16 @@ a {
 .color-greenShade {
     color: hsl(132, 52%, 38%)
 }
-.color-silver {
+.color-gray400 {
     color: hsl(205, 22%, 80%)
 }
-.color-steel {
+.color-gray500 {
     color: hsl(205, 14%, 46%)
 }
-.color-charcoal {
+.color-gray800 {
     color: hsl(205, 43%, 11%)
 }
-.color-lead {
+.color-gray900 {
     color: hsl(205, 43%, 5%)
 }
 /* Hover states */
@@ -10549,7 +10549,9 @@ a {
 .Button {
     background-color: hsl(205, 43%, 99%);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
-    color: hsl(205, 43%, 5%)
+    color: hsl(205, 43%, 5%);
+    fill: hsl(205, 43%, 5%);
+    stroke: hsl(205, 43%, 5%)
 }
 .Button:hover {
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 18%, 51%)
@@ -10561,6 +10563,8 @@ a {
 .PrimaryButton {
     background-color: hsl(205, 100%, 97%);
     color: hsl(205, 95%, 35%);
+    fill: hsl(205, 95%, 35%);
+    stroke: hsl(205, 95%, 35%);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(200, 75%, 75%)
 }
 .PrimaryButton:hover {
@@ -10573,6 +10577,8 @@ a {
 .PositiveButton {
     background-color: hsl(132, 80%, 97%);
     color: hsl(132, 52%, 38%);
+    fill: hsl(132, 52%, 38%);
+    stroke: hsl(132, 52%, 38%);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(132, 45%, 70%)
 }
 .PositiveButton:hover {
@@ -10585,6 +10591,8 @@ a {
 .NegativeButton {
     background-color: hsl(0, 92%, 97%);
     color: hsl(0, 92%, 46%);
+    fill: hsl(0, 92%, 46%);
+    stroke: hsl(0, 92%, 46%);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(0, 75%, 85%)
 }
 .NegativeButton:hover {
@@ -10598,7 +10606,7 @@ a {
     color: hsl(0, 0%, 100%);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-radius: 9999px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     height: 4rem;
     line-height: 4rem;
     min-width: 4rem;
@@ -10612,7 +10620,7 @@ a {
     box-shadow: none
 }
 .PillButton.large {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     height: 4.8rem;
     line-height: 4.8rem;
     min-width: 4.8rem
@@ -10715,46 +10723,43 @@ a {
     box-shadow: 0 11px 20px rgba(50,50,93,.1), 0 6px 11px rgba(0,0,0,.08)
 }
 .Heading {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: -.038em;
-    margin-left: -1.5px;
-    line-height: 1.45
+    margin-left: -1.5px
 }
 .Heading.small {
-    font-size: 1.4rem;
+    font-size: 2rem;
     letter-spacing: -.02em;/*line-height: 1.35;*/
     margin-left: -.5px
 }
 .Heading.large {
-    font-size: 2.2rem;
-    font-weight: 600;
-    letter-spacing: -0.058em;
-    margin-left: -2.5px;
-    line-height: 1.05
-}
-.Heading.title {
     font-size: 2.6rem;
     font-weight: 600;
     letter-spacing: -0.058em;
-    margin-left: -2.5px;
-    line-height: 1.05
+    margin-left: -2.5px
+}
+.Heading.title {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.058em;
+    margin-left: -2.5px
 }
 @media (min-width: 62em) {
     .Heading {
-        font-size: 1.8rem
+        font-size: 2.6rem
     }
     .Heading.small {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
         letter-spacing: -.018em;
         margin-left: -1.5px
     }
     .Heading.large {
-        font-size: 2.2rem;
+        font-size: 4rem;
         margin-left: -3.2px
     }
     .Heading.title {
-        font-size: 2.6rem
+        font-size: 7.2rem
     }
 }
 .Heading.thin {
@@ -10812,28 +10817,19 @@ a {
     color: hsl(18, 100%, 60%)
 }
 .Text {
-    font-size: 1.2rem;
-    line-height: 1.65
+    font-size: 1.2rem
 }
 .Text.small {
-    font-size: 1rem;
-    line-height: 1.5
+    font-size: 1rem
 }
-/*.Text.small:container(width > 200px) {
-    line-height: 1.55;
-}
-
-.Text.small:container(width > 400px) {
-    line-height: 1.65;
-}*/
 .Text.large {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     letter-spacing: -.02em;
     margin-left: -.5px
 }
 @media (min-width: 62em) {
     .Text.large {
-        font-size: 1.6rem;
+        font-size: 2rem;
         letter-spacing: -.018em;
         margin-left: -1.5px
     }

@@ -1,52 +1,49 @@
 .Heading {
-    font-size: var(--fontSize-6);
+    font-size: var(--fontSize-8);
     font-weight: 600;
     letter-spacing: -.038em;
     margin-left: -1.5px;
-    line-height: 1.45;
 }
 
 .Heading.small {
-    font-size: var(--fontSize-4);
+    font-size: var(--fontSize-7);
     letter-spacing: -.02em;
     /*line-height: 1.35;*/
     margin-left: -.5px;
 }
 
 .Heading.large {
-    font-size: var(--fontSize-8);
-    font-weight: 600;
-    letter-spacing: -0.058em;
-    margin-left: -2.5px;
-    line-height: 1.05;
-}
-
-.Heading.title {
     font-size: var(--fontSize-9);
     font-weight: 600;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
-    line-height: 1.05;
+}
+
+.Heading.title {
+    font-size: var(--fontSize-11);
+    font-weight: 600;
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
 }
 
 @media (--breakpoint-2) {
     .Heading {
-        font-size: var(--fontSize-6);
+        font-size: var(--fontSize-9);
     }
 
     .Heading.small {
-        font-size: var(--fontSize-5);
+        font-size: var(--fontSize-8);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Heading.large {
-        font-size: var(--fontSize-8);
+        font-size: var(--fontSize-11);
         margin-left: -3.2px;
     }
 
     .Heading.title {
-        font-size: var(--fontSize-9);
+        font-size: var(--fontSize-13);
     }
 }
 

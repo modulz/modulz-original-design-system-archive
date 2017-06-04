@@ -52,6 +52,8 @@
     background-color: var(--gray100);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
     color: var(--gray900);
+    fill: var(--gray900);
+    stroke: var(--gray900);
 }
 .Button:hover {
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 18%, 51%);
@@ -65,6 +67,8 @@
 .PrimaryButton {
     background-color: var(--blue100);
     color: var(--blue700);
+    fill: var(--blue700);
+    stroke: var(--blue700);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(200, 75%, 75%);
 }
 .PrimaryButton:hover {
@@ -79,6 +83,8 @@
 .PositiveButton {
     background-color: var(--green100);
     color: var(--green700);
+    fill: var(--green700);
+    stroke: var(--green700);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(132, 45%, 70%);
 }
 .PositiveButton:hover {
@@ -93,6 +99,8 @@
 .NegativeButton {
     background-color: var(--red100);
     color: var(--red700);
+    fill: var(--red700);
+    stroke: var(--red700);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(0, 75%, 85%);
 }
 .NegativeButton:hover {
@@ -108,7 +116,7 @@
     color: var(--white);
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-radius: 9999px;
-    font-size: var(--fontSize-2);
+    font-size: var(--fontSize-3);
     height: var(--spacing-5);
     line-height: var(--spacing-5);
     min-width: var(--spacing-5);
@@ -123,7 +131,7 @@
 }
 
 .PillButton.large {
-    font-size: var(--fontSize-3);
+    font-size: var(--fontSize-4);
     height: var(--spacing-6);
     line-height: var(--spacing-6);
     min-width: var(--spacing-6);

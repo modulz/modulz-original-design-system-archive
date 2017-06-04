@@ -35,10 +35,10 @@
 .color-red700             { color: var(--red700); }
 .color-greenShade           { color: var(--green700); }
 
-.color-silver               { color: var(--gray400); }
-.color-steel                { color: var(--gray500); }
-.color-charcoal             { color: var(--gray800); }
-.color-lead                 { color: var(--gray900); }
+.color-gray400               { color: var(--gray400); }
+.color-gray500                { color: var(--gray500); }
+.color-gray800             { color: var(--gray800); }
+.color-gray900                 { color: var(--gray900); }
 
 /* Hover states */
 @media (hover) {

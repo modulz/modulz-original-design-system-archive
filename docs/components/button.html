@@ -15,12 +15,12 @@
     </head>
     <body class="ff-whitney color-gray900 tr-optimizeLegibility">
 
-        <aside class="position-fixed zi-7 height-100 display-none">
-            <div class="bc-white bs-distant height-100">
-                <nav class="Scrollbar height-100 js-Navigation" role="navigation"></nav>
+        <button class="Button js-SideDrawerTrigger" style="position: fixed; top: 24px; left: 24px;">Menu</button>
+        <aside class="SideDrawer js-SideDrawer">
+            <div class="Scrollbar oy-auto height-100">
+                <nav class="js-Navigation" role="navigation"></nav>
             </div>
         </aside>
-        <div class="position-fixed zi-5 width-100 height-100 bc-black300 opacity-0 pe-none"></div>
 
         <main class="Container pt-4 pb-4">
             <header class="Section">
@@ -385,6 +385,8 @@
                 </div>
             </section>
         </main>
+
+        <div class="Overlay js-Overlay"></div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="../../docs/js/scripts.js"> </script>

@@ -81,6 +81,7 @@
 @import "utilities/width.css";
 
 /* Components */
+@import "components/Avatar.css";
 @import "components/form-control.css";
 @import "components/range-slider.css";
 @import "components/toggle-switch.css";
@@ -93,6 +94,7 @@
 @import "components/badge.css";
 @import "components/list-item.css";
 @import "components/button.css";
+@import "components/Overlay.css";
 @import "components/card.css";
 @import "components/heading.css";
 @import "components/text.css";
@@ -101,3 +103,4 @@
 @import "components/container.css";
 @import "components/section.css";
 @import "components/scrollbar.css";
+@import "components/SideDrawer.css";

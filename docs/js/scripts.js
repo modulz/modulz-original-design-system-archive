@@ -1,7 +1,7 @@
 $(function() {
 
     // Render navigation content into SideDrawer
-    
+
     $.get("../partials/navigation.html", function(data){
         $('.js-Navigation').html(data);
     });
@@ -30,6 +30,13 @@ $(function() {
     $('.js-Overlay').click(function() {
         toggleSideDrawer();
         console.log('Fuck off');
+    });
+
+    // Dropdown
+
+    $('.js-DropdownContainer').click(function() {
+        $(this).toggleClass('is-active');
+        $(this).children('.Button').toggleClass('is-active');
     });
 
     // Prevent scroll bubbling

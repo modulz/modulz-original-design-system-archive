@@ -1,13 +1,14 @@
-/* Element to act as dropdown hook */
+/* Element to act as Context hook */
 
-.DropdownContainer {
+.ContextContainer {
+    display: inline-block;
     position: relative;
 }
 
 /* Caret */
 
-.DropdownContainer::before,
-.DropdownContainer::after {
+.ContextContainer::before,
+.ContextContainer::after {
     border-bottom: var(--spacing-1) solid var(--white);
     border-left: var(--spacing-1) solid transparent;
     border-right: var(--spacing-1) solid transparent;
@@ -20,13 +21,13 @@
     width: 0;
 }
 
-.DropdownContainer::before {
+.ContextContainer::before {
     filter: drop-shadow(0 2px 4px rgba(0,0,0,.12));
 }
 
-/* Dropdown panel */
+/* Context panel */
 
-.Dropdown {
+.Context {
     background-color: var(--white);
     box-shadow: 0 5px 15px rgba(0, 0, 0, .12), 0 15px 30px hsla(200, 50%, 10%, .08);
     border-radius: var(--borderRadius-2);
@@ -43,9 +44,9 @@
 
 /* Active state */
 
-.DropdownContainer::before,
-.DropdownContainer::after,
-.DropdownContainer .Dropdown {
+.ContextContainer::before,
+.ContextContainer::after,
+.ContextContainer .Context {
     opacity: 0;
     pointer-events: none;
     transition-property: opacity, transform;
@@ -53,9 +54,9 @@
     transition-timing-function: ease-in-out;
 }
 
-.DropdownContainer.is-active::before,
-.DropdownContainer.is-active::after,
-.DropdownContainer.is-active .Dropdown {
+.ContextContainer.is-active::before,
+.ContextContainer.is-active::after,
+.ContextContainer.is-active .Context {
     transform: translateY(3px);
     opacity: 1;
     pointer-events: auto;

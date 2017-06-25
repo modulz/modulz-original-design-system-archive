@@ -29,12 +29,12 @@ $(function() {
 
     $('.js-Overlay').click(function() {
         toggleSideDrawer();
-        console.log('Fuck off');
     });
 
-    // Dropdown
+    // Context
 
-    $('.js-DropdownContainer').click(function() {
+    $('.ContextContainer').click(function() {
+        $('.ContextContainer').removeClass('is-active');
         $(this).toggleClass('is-active');
         $(this).children('.Button').toggleClass('is-active');
     });

@@ -11,7 +11,7 @@
     </head>
     <body class="ff-whitney color-charcoal tr-optimizeLegibility">
 
-        <button class="Button js-SideDrawerTrigger" style="position: fixed; top: 24px; left: 24px;">Menu</button>
+        <button class="Button js-SideDrawerTrigger" style="position: fixed; top: 32px; left: 32px;">Menu</button>
         <aside class="SideDrawer js-SideDrawer js-Navigation"></aside>
 
         <main class="Container pt-4 pb-4">
@@ -20,7 +20,7 @@
                   <h1 class="Heading large lh-9">Context</h1>
                 </div>
                 <div>
-                    <p class="Heading thin gray lh-5 bp1-lh-6">A contextual panel, overlaying
+                    <p class="Heading thin gray lh-6 bp1-lh-7">A contextual panel, overlaying
                         the main content, which can house a variety of actionable components.</p>
                 </div>
             </header>
@@ -42,7 +42,14 @@
                     <div class="display-flex ai-center jc-center">
 
                         <div class="ContextContainer is-active">
-                            <button class="Button is-active" type="button">Toggle</button>
+                            <button class="Button is-active" type="button">
+                                <span>Toggle</span>
+                                <div class="pl-1 display-inlineFlex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
                             <div class="Context"></div>
                         </div>
 
@@ -70,13 +77,27 @@
 
                         <div class="pr-4">
                             <div class="ContextContainer">
-                                <button class="Button" type="button">Toggle</button>
+                                <button class="Button" type="button">
+                                    <span>Toggle</span>
+                                    <div class="pl-1 display-inlineFlex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </div>
+                                </button>
                                 <div class="Context"></div>
                             </div>
                         </div>
                         <div class="pl-4">
                             <div class="ContextContainer">
-                                <a class="PrimaryLink" style="font-size: 14px;">Toggle</a>
+                                <a class="PrimaryLink" style="font-size: 14px;">
+                                    <span>Toggle</span>
+                                    <div class="pl-1 display-inlineFlex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </div>
+                                </a>
                                 <div class="Context"></div>
                             </div>
                         </div>
@@ -113,7 +134,14 @@
                     <div class="display-flex ai-center jc-center">
 
                         <div class="ContextContainer is-active">
-                            <button class="Button is-active" type="button">Toggle</button>
+                            <button class="Button is-active" type="button">
+                                <span>Toggle</span>
+                                <div class="pl-1 display-inlineFlex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
                             <div class="Context">
                                 <div class="ListItemGroup">
                                     <a class="ListItem interactive">
@@ -153,50 +181,14 @@
                     <div class="display-flex ai-center jc-center">
 
                         <div class="ContextContainer is-active">
-                            <button class="Button is-active" type="button">Toggle</button>
-                            <div class="Context">
-                                <div class="ListItemGroup">
-                                    <a class="ListItem interactive">
-                                        <span class="Text">First link</span>
-                                    </a>
-                                    <a class="ListItem interactive">
-                                        <span class="Text">Second link</span>
-                                    </a>
-                                    <a class="ListItem interactive">
-                                        <span class="Text">Third link</span>
-                                    </a>
-                                    <div class="ListItemGroup">
-                                        <div class="Divider"></div>
-                                    </div>
-                                    <a class="ListItem interactive">
-                                        <span class="Text">Fourth link</span>
-                                    </a>
+                            <button class="Button is-active" type="button">
+                                <span>Toggle</span>
+                                <div class="pl-1 display-inlineFlex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
                                 </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="ContextContainer is-active"&gt;
-    &lt;button class="Button is-active" type="button"&gt;Toggle&lt;/button&gt;
-    &lt;div class="Context"&gt;
-        // Context content goes here
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-                    </figure>
-                </div>
-
-                <div class="mt-3 mb-3">
-                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">You can add a Divider to
-                        separate groups of ListItem components.</p>
-                </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                    <div class="display-flex ai-center jc-center">
-
-                        <div class="ContextContainer is-active">
-                            <button class="Button is-active" type="button">Toggle</button>
+                            </button>
                             <div class="Context">
                                 <div class="ListItemGroup">
                                     <a class="ListItem interactive">
@@ -239,7 +231,64 @@
                     <div class="display-flex ai-center jc-center">
 
                         <div class="ContextContainer is-active">
-                            <button class="Button is-active" type="button">Toggle</button>
+                            <button class="Button is-active" type="button">
+                                <span>Toggle</span>
+                                <div class="pl-1 display-inlineFlex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="Context">
+                                <div class="ListItemGroup">
+                                    <a class="ListItem interactive">
+                                        <span class="Text">First link</span>
+                                    </a>
+                                    <a class="ListItem interactive">
+                                        <span class="Text">Second link</span>
+                                    </a>
+                                    <a class="ListItem interactive">
+                                        <span class="Text">Third link</span>
+                                    </a>
+                                    <div class="ListItemGroup">
+                                        <div class="Divider"></div>
+                                    </div>
+                                    <a class="ListItem interactive">
+                                        <span class="Text">Fourth link</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="ContextContainer is-active"&gt;
+    &lt;button class="Button is-active" type="button"&gt;Toggle&lt;/button&gt;
+    &lt;div class="Context"&gt;
+        // Context content goes here
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </figure>
+                </div>
+
+                <div class="mt-3 mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">You can add a Divider to
+                        separate groups of ListItem components.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="display-flex ai-center jc-center">
+
+                        <div class="ContextContainer is-active">
+                            <button class="Button is-active" type="button">
+                                <span>Toggle</span>
+                                <div class="pl-1 display-inlineFlex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
                             <div class="Context">
                                 <div class="ListItemGroup">
                                     <a class="ListItem interactive">
@@ -292,7 +341,14 @@
                     <div class="display-flex ai-center jc-center">
 
                         <div class="ContextContainer is-active">
-                            <button class="Button is-active" type="button">Toggle</button>
+                            <button class="Button is-active" type="button">
+                                <span>Toggle</span>
+                                <div class="pl-1 display-inlineFlex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
                             <div class="Context"></div>
                         </div>
 
@@ -327,7 +383,14 @@
                     <div class="display-flex ai-center jc-center">
 
                         <div class="ContextContainer is-active">
-                            <button class="Button is-active" type="button">Toggle</button>
+                            <button class="Button is-active" type="button">
+                                <span>Toggle</span>
+                                <div class="pl-1 display-inlineFlex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
                             <div class="Context"></div>
                         </div>
 

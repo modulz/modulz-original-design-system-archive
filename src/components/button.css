@@ -1,9 +1,6 @@
 /* Functional styles */
 
 .Button,
-.PrimaryButton,
-.PositiveButton,
-.NegativeButton,
 .PillButton {
     align-items: center;
     appearance: none;
@@ -31,17 +28,11 @@
 }
 
 .Button:hover,
-.PrimaryButton:hover,
-.PositiveButton:hover,
-.NegativeButton:hover,
 .PillButton:hover {
     transform: translateY(-1px);
 }
 
 .Button:active,
-.PrimaryButton:active,
-.PositiveButton:active,
-.NegativeButton:active,
 .PillButton:active {
     transform: translateY(0px);
 }
@@ -50,13 +41,13 @@
 
 .Button {
     background-color: var(--gray100);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
+    box-shadow: var(--Shadow-1), inset 0 0 0 1px var(--gray400);
     color: var(--gray900);
     fill: var(--gray900);
     stroke: var(--gray900);
 }
 .Button:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 18%, 51%);
+    box-shadow: var(--Shadow-2), inset 0 0 0 1px var(--gray500);
 }
 .Button:active {
     box-shadow: inset 0 0 0 1px hsl(204, 18%, 51%);
@@ -64,95 +55,51 @@
 
 /* Primary button */
 
-.PrimaryButton {
+.Button.primary {
     background-color: var(--blue100);
     color: var(--blue700);
     fill: var(--blue700);
     stroke: var(--blue700);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(200, 75%, 75%);
+    box-shadow: var(--Shadow-1), inset 0 0 0 1px hsl(200, 75%, 75%);
 }
-.PrimaryButton:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(200, 80%, 50%);
+.Button.primary:hover {
+    box-shadow: var(--Shadow-2), inset 0 0 0 1px hsl(200, 80%, 50%);
 }
-.PrimaryButton:active {
+.Button.primary:active {
     box-shadow: inset 0 0 0 1px hsl(200, 80%, 50%);
 }
 
 /* Positive button */
 
-.PositiveButton {
+.Button.positive {
     background-color: var(--green100);
     color: var(--green700);
     fill: var(--green700);
     stroke: var(--green700);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(132, 45%, 70%);
+    box-shadow: var(--Shadow-1), inset 0 0 0 1px hsl(132, 45%, 70%);
 }
-.PositiveButton:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(132, 52%, 43%);
+.Button.positive:hover {
+    box-shadow: var(--Shadow-2), inset 0 0 0 1px hsl(132, 52%, 43%);
 }
-.PositiveButton:active {
+.Button.positive:active {
     box-shadow: inset 0 0 0 1px hsl(132, 52%, 43%);
 }
 
 /* Negative button */
 
-.NegativeButton {
+.Button.negative {
     background-color: var(--red100);
     color: var(--red700);
     fill: var(--red700);
     stroke: var(--red700);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(0, 75%, 85%);
+    box-shadow: var(--Shadow-1), inset 0 0 0 1px hsl(0, 75%, 85%);
 }
-.NegativeButton:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(0, 92%, 61%);
+.Button.negative:hover {
+    box-shadow: var(--Shadow-2), inset 0 0 0 1px hsl(0, 92%, 61%);
 }
-.NegativeButton:active {
+.Button.negative:active {
     box-shadow: inset 0 0 0 1px hsl(0, 92%, 61%);
 }
-
-/* Pill button */
-
-.PillButton {
-    color: var(--white);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-    border-radius: 9999px;
-    font-size: var(--fontSize-3);
-    height: var(--spacing-5);
-    line-height: var(--spacing-5);
-    min-width: var(--spacing-5);
-    padding-left: var(--spacing-3);
-    padding-right: var(--spacing-3);
-}
-.PillButton:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05);
-}
-.PillButton:active {
-    box-shadow: none;
-}
-
-.PillButton.large {
-    font-size: var(--fontSize-4);
-    height: var(--spacing-6);
-    line-height: var(--spacing-6);
-    min-width: var(--spacing-6);
-}
-
-.PillButton.white { background-color: var(--white); color: var(--gray800); }
-.PillButton.black { background-color: var(--black); }
-.PillButton.red { background-color: var(--red500); }
-.PillButton.pink { background-color: var(--pink500); }
-.PillButton.purple { background-color: var(--purple500); }
-.PillButton.violet { background-color: var(--violet500); }
-.PillButton.indigo { background-color: var(--indigo500); }
-.PillButton.blue { background-color: var(--blue500); }
-.PillButton.lavender { background-color: var(--lavender500); }
-.PillButton.teal { background-color: var(--teal500); }
-.PillButton.green { background-color: var(--green500); }
-.PillButton.lime { background-color: var(--lime500); color: var(--gray800); }
-.PillButton.yellow { background-color: var(--yellow500); color: var(--gray800); }
-.PillButton.amber { background-color: var(--amber500); color: var(--gray800); }
-.PillButton.orange { background-color: var(--orange500); }
-.PillButton.crimson { background-color: var(--crimson500); }
 
 /* Active state */
 

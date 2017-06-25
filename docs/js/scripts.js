@@ -39,6 +39,12 @@ $(function() {
         $(this).children('.Button').toggleClass('is-active');
     });
 
+    // Toast
+
+    $('.js-ToastTrigger').click(function() {
+        $('.Toast').toggleClass('is-active');
+    });
+
     // Prevent scroll bubbling
 
     $(document).on('DOMMouseScroll mousewheel', '.Scrollbar', function(ev) {

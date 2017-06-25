@@ -1,0 +1,50 @@
+/* Base component */
+
+.PillButton {
+    
+    /* Must extend button class here */
+
+    background-color: var(--gray300);
+    box-shadow: var(--Shadow-1);
+    border-radius: 9999px;
+    font-size: var(--fontSize-3);
+    height: var(--spacing-5);
+    line-height: var(--spacing-5);
+    min-width: var(--spacing-5);
+    padding-left: var(--spacing-3);
+    padding-right: var(--spacing-3);
+}
+.PillButton:hover {
+    box-shadow: var(--Shadow-2);
+}
+.PillButton:active {
+    box-shadow: none;
+}
+
+/* Color modifiers */
+
+.PillButton.white { background-color: var(--white); }
+.PillButton.black { background-color: var(--black); color: var(--white); }
+.PillButton.red { background-color: var(--red500); color: var(--white); }
+.PillButton.pink { background-color: var(--pink500); color: var(--white); }
+.PillButton.purple { background-color: var(--purple500); color: var(--white); }
+.PillButton.violet { background-color: var(--violet500); color: var(--white); }
+.PillButton.indigo { background-color: var(--indigo500); color: var(--white); }
+.PillButton.blue { background-color: var(--blue500); color: var(--white); }
+.PillButton.lavender { background-color: var(--lavender500); color: var(--white); }
+.PillButton.teal { background-color: var(--teal500); color: var(--white); }
+.PillButton.green { background-color: var(--green500); }
+.PillButton.lime { background-color: var(--lime500); }
+.PillButton.yellow { background-color: var(--yellow500); }
+.PillButton.amber { background-color: var(--amber500); }
+.PillButton.orange { background-color: var(--orange500); color: var(--white); }
+.PillButton.crimson { background-color: var(--crimson500); color: var(--white); }
+
+/* Size modifiers */
+
+.PillButton.large {
+    font-size: var(--fontSize-4);
+    height: var(--spacing-6);
+    line-height: var(--spacing-6);
+    min-width: var(--spacing-6);
+}

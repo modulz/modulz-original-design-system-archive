@@ -1,7 +1,4 @@
-.Badge,
-.PrimaryBadge,
-.PositiveBadge,
-.NegativeBadge {
+.Badge {
     display: inline-flex;
     align-items: center;
     font-size: var(--fontSize-1);
@@ -16,20 +13,26 @@
     white-space: nowrap;
 }
 
-.PrimaryBadge {
+.Badge.primary {
     background-color: var(--blue100);
     color: var(--blue500);
-    box-shadow: inset 0 0 0 1px var(--blue300);
+    box-shadow: none;
 }
 
-.PositiveBadge {
+.Badge.positive {
     background-color: var(--green100);
     color: var(--green700);
-    box-shadow: inset 0 0 0 1px var(--green500);
+    box-shadow: none;
 }
 
-.NegativeBadge {
+.Badge.warning {
+    background-color: var(--orange100);
+    color: var(--amber700);
+    box-shadow: none;
+}
+
+.Badge.negative {
     background-color: var(--red100);
     color: var(--red500);
-    box-shadow: inset 0 0 0 1px var(--red300);
+    box-shadow: none;
 }

@@ -331,7 +331,7 @@ a {
 
 /* Global style variables */
 /* Variables */
-:root {/* Media queries *//* Color palette *//* Font sizes  *//* Spacing  *//* Transition durations  *//* Border radius  *//* Leading  */
+:root {/* Media queries *//* Color palette *//* Font sizes  *//* Spacing  *//* Transition durations  *//* Border radius  *//* Leading  *//* Shadow */
 }
 
 /* Utilities */
@@ -10560,7 +10560,7 @@ a {
 .StatusIndicator.negative {
     background-color: hsl(0, 92%, 66%)
 }
-.Badge, .PrimaryBadge, .PositiveBadge, .NegativeBadge {
+.Badge {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -10578,20 +10578,25 @@ a {
     letter-spacing: .6px;
     white-space: nowrap
 }
-.PrimaryBadge {
+.Badge.primary {
     background-color: hsl(205, 100%, 97%);
     color: hsl(205, 95%, 50%);
-    box-shadow: inset 0 0 0 1px hsl(205, 95%, 92%)
+    box-shadow: none
 }
-.PositiveBadge {
+.Badge.positive {
     background-color: hsl(132, 80%, 97%);
     color: hsl(132, 52%, 38%);
-    box-shadow: inset 0 0 0 1px hsl(132, 52%, 53%)
+    box-shadow: none
 }
-.NegativeBadge {
+.Badge.warning {
+    background-color: hsl(36, 100%, 50%);
+    color: var(--amber700);
+    box-shadow: none
+}
+.Badge.negative {
     background-color: hsl(0, 92%, 97%);
     color: hsl(0, 92%, 66%);
-    box-shadow: inset 0 0 0 1px hsl(0, 92%, 92%)
+    box-shadow: none
 }
 .ListItemGroup {
     padding-top: .8rem;
@@ -10631,7 +10636,7 @@ a {
     color: hsl(0, 0%, 100%)
 }
 /* Functional styles */
-.Button, .PrimaryButton, .PositiveButton, .NegativeButton, .PillButton {
+.Button, .PillButton {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -10670,145 +10675,69 @@ a {
     vertical-align: middle;
     white-space: nowrap
 }
-.Button:hover, .PrimaryButton:hover, .PositiveButton:hover, .NegativeButton:hover, .PillButton:hover {
+.Button:hover, .PillButton:hover {
     -webkit-transform: translateY(-1px);
             transform: translateY(-1px)
 }
-.Button:active, .PrimaryButton:active, .PositiveButton:active, .NegativeButton:active, .PillButton:active {
+.Button:active, .PillButton:active {
     -webkit-transform: translateY(0px);
             transform: translateY(0px)
 }
 /* Neutral button */
 .Button {
     background-color: hsl(205, 43%, 99%);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 22%, 80%);
+    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05), inset 0 0 0 1px hsl(205, 22%, 80%);
     color: hsl(205, 43%, 5%);
     fill: hsl(205, 43%, 5%);
     stroke: hsl(205, 43%, 5%)
 }
 .Button:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(204, 18%, 51%)
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(205, 14%, 46%)
 }
 .Button:active {
     box-shadow: inset 0 0 0 1px hsl(204, 18%, 51%)
 }
 /* Primary button */
-.PrimaryButton {
+.Button.primary {
     background-color: hsl(205, 100%, 97%);
     color: hsl(205, 95%, 35%);
     fill: hsl(205, 95%, 35%);
     stroke: hsl(205, 95%, 35%);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(200, 75%, 75%)
+    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05), inset 0 0 0 1px hsl(200, 75%, 75%)
 }
-.PrimaryButton:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(200, 80%, 50%)
+.Button.primary:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(200, 80%, 50%)
 }
-.PrimaryButton:active {
+.Button.primary:active {
     box-shadow: inset 0 0 0 1px hsl(200, 80%, 50%)
 }
 /* Positive button */
-.PositiveButton {
+.Button.positive {
     background-color: hsl(132, 80%, 97%);
     color: hsl(132, 52%, 38%);
     fill: hsl(132, 52%, 38%);
     stroke: hsl(132, 52%, 38%);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(132, 45%, 70%)
+    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05), inset 0 0 0 1px hsl(132, 45%, 70%)
 }
-.PositiveButton:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(132, 52%, 43%)
+.Button.positive:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(132, 52%, 43%)
 }
-.PositiveButton:active {
+.Button.positive:active {
     box-shadow: inset 0 0 0 1px hsl(132, 52%, 43%)
 }
 /* Negative button */
-.NegativeButton {
+.Button.negative {
     background-color: hsl(0, 92%, 97%);
     color: hsl(0, 92%, 46%);
     fill: hsl(0, 92%, 46%);
     stroke: hsl(0, 92%, 46%);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(0, 75%, 85%)
+    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05), inset 0 0 0 1px hsl(0, 75%, 85%)
 }
-.NegativeButton:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(0, 92%, 61%)
+.Button.negative:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(0, 92%, 61%)
 }
-.NegativeButton:active {
+.Button.negative:active {
     box-shadow: inset 0 0 0 1px hsl(0, 92%, 61%)
-}
-/* Pill button */
-.PillButton {
-    color: hsl(0, 0%, 100%);
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-    border-radius: 9999px;
-    font-size: 1.2rem;
-    height: 4rem;
-    line-height: 4rem;
-    min-width: 4rem;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem
-}
-.PillButton:hover {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05)
-}
-.PillButton:active {
-    box-shadow: none
-}
-.PillButton.large {
-    font-size: 1.4rem;
-    height: 4.8rem;
-    line-height: 4.8rem;
-    min-width: 4.8rem
-}
-.PillButton.white {
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(205, 43%, 11%)
-}
-.PillButton.black {
-    background-color: hsl(0, 0%, 0%)
-}
-.PillButton.red {
-    background-color: hsl(0, 92%, 66%)
-}
-.PillButton.pink {
-    background-color: hsl(332, 94%, 55%)
-}
-.PillButton.purple {
-    background-color: hsl(288, 64%, 42%)
-}
-.PillButton.violet {
-    background-color: hsl(264, 52%, 45%)
-}
-.PillButton.indigo {
-    background-color: hsl(226, 56%, 48%)
-}
-.PillButton.blue {
-    background-color: hsl(205, 95%, 50%)
-}
-.PillButton.lavender {
-    background-color: hsl(255, 74%, 60%)
-}
-.PillButton.teal {
-    background-color: hsl(172, 100%, 35%)
-}
-.PillButton.green {
-    background-color: hsl(132, 52%, 53%)
-}
-.PillButton.lime {
-    background-color: hsl(68, 74%, 50%);
-    color: hsl(205, 43%, 11%)
-}
-.PillButton.yellow {
-    background-color: hsl(54, 98%, 50%);
-    color: hsl(205, 43%, 11%)
-}
-.PillButton.amber {
-    background-color: hsl(46, 100%, 57%);
-    color: hsl(205, 43%, 11%)
-}
-.PillButton.orange {
-    background-color: hsl(36, 100%, 50%)
-}
-.PillButton.crimson {
-    background-color: hsl(18, 100%, 60%)
 }
 /* Active state */
 .Button.is-active {
@@ -10833,6 +10762,143 @@ a {
     box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%);
     pointer-events: none
 }
+/* Base component */
+.PillButton {/* Must extend button class here */
+    background-color: hsl(205, 29%, 92%);
+    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05);
+    border-radius: 9999px;
+    font-size: 1.2rem;
+    height: 4rem;
+    line-height: 4rem;
+    min-width: 4rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem
+}
+.PillButton:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05)
+}
+.PillButton:active {
+    box-shadow: none
+}
+/* Color modifiers */
+.PillButton.white {
+    background-color: hsl(0, 0%, 100%)
+}
+.PillButton.black {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.red {
+    background-color: hsl(0, 92%, 66%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.pink {
+    background-color: hsl(332, 94%, 55%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.purple {
+    background-color: hsl(288, 64%, 42%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.violet {
+    background-color: hsl(264, 52%, 45%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.indigo {
+    background-color: hsl(226, 56%, 48%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.blue {
+    background-color: hsl(205, 95%, 50%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.lavender {
+    background-color: hsl(255, 74%, 60%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.teal {
+    background-color: hsl(172, 100%, 35%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.green {
+    background-color: hsl(132, 52%, 53%)
+}
+.PillButton.lime {
+    background-color: hsl(68, 74%, 50%)
+}
+.PillButton.yellow {
+    background-color: hsl(54, 98%, 50%)
+}
+.PillButton.amber {
+    background-color: hsl(46, 100%, 57%)
+}
+.PillButton.orange {
+    background-color: hsl(36, 100%, 50%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.crimson {
+    background-color: hsl(18, 100%, 60%);
+    color: hsl(0, 0%, 100%)
+}
+/* Size modifiers */
+.PillButton.large {
+    font-size: 1.4rem;
+    height: 4.8rem;
+    line-height: 4.8rem;
+    min-width: 4.8rem
+}
+.Toast {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1.6rem;
+    background-color: hsl(205, 34%, 15%);
+    width: 100vw;
+    color: hsl(0, 0%, 100%);
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    transition-property: opacity, transform, -webkit-transform;
+    -webkit-transition-duration: 300ms;
+            transition-duration: 300ms;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    z-index: 7
+}
+.Toast.is-active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0)
+}
+@media (min-width: 38em) {
+    .Toast {
+        left: 50vw;
+        width: 70vw;
+        margin-left: -35vw
+    }
+}
+@media (min-width: 62em) {
+    .Toast {
+        bottom: 24px;
+        left: 24px;
+        box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05);
+        margin-left: 0;
+        width: 400px;
+        border-radius: 4px
+    }
+}
 .Overlay {
     background-color: rgba(0,0,0,.3);
     position: fixed;
@@ -10856,7 +10922,6 @@ a {
 }
 .Card {
     background-color: hsl(0, 0%, 100%);
-    padding: 2.4rem;
     border-radius: 4px;
     box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
     -webkit-transition-property: color,background-color,box-shadow,-webkit-transform;

@@ -10542,6 +10542,50 @@ a {
         -ms-flex-pack: center;
             justify-content: center
 }
+.Loader, .Loader:before, .Loader:after {
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;/*animation-fill-mode: both;*/
+    -webkit-animation: Loader 1s infinite ease-in-out;
+            animation: Loader 1s infinite ease-in-out
+}
+.Loader {
+    color: hsl(205, 22%, 80%);
+    position: relative;
+    top: -.8rem;
+    left: 1.6rem;/*transform: translateZ(0);*/
+    -webkit-animation-delay: -0.20s;
+            animation-delay: -0.20s
+}
+.Loader:before, .Loader:after {
+    content: '';
+    position: absolute;
+    top: 0
+}
+.Loader:before {
+    left: -16px;
+    -webkit-animation-delay: -0.40s;
+            animation-delay: -0.40s
+}
+.Loader:after {
+    left: 16px
+}
+@-webkit-keyframes Loader {
+    0%, 80%, 100% {
+        box-shadow: 0 .8rem 0 -.8rem
+    }
+    40% {
+        box-shadow: 0 .8rem 0 0
+    }
+}
+@keyframes Loader {
+    0%, 80%, 100% {
+        box-shadow: 0 .8rem 0 -.8rem
+    }
+    40% {
+        box-shadow: 0 .8rem 0 0
+    }
+}
 .StatusIndicator {
     width: 8px;
     height: 8px;

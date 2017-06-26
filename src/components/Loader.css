@@ -1,0 +1,41 @@
+.Loader,
+.Loader:before,
+.Loader:after {
+    border-radius: 50%;
+    width: var(--spacing-1);
+    height: var(--spacing-1);
+    /*animation-fill-mode: both;*/
+    animation: Loader 1s infinite ease-in-out;
+}
+.Loader {
+    color: var(--gray400);
+    position: relative;
+    top: -var(--spacing-1);
+    left: var(--spacing-2);
+    /*transform: translateZ(0);*/
+    animation-delay: -0.20s;
+}
+.Loader:before,
+.Loader:after {
+    content: '';
+    position: absolute;
+    top: 0;
+}
+.Loader:before {
+    left: -16px;
+    animation-delay: -0.40s;
+}
+.Loader:after {
+    left: 16px;
+}
+
+@keyframes Loader {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 var(--spacing-1) 0 -var(--spacing-1);
+    }
+    40% {
+        box-shadow: 0 var(--spacing-1) 0 0;
+    }
+}

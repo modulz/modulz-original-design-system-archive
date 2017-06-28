@@ -5315,7 +5315,7 @@ a {
         background-color: hsl(205, 29%, 92%)
     }
     .bc-silver--hover:hover {
-        background-color: hsl(205, 22%, 80%)
+        background-color: hsl(205, 22%, 70%)
     }
     .bc-steel--hover:hover {
         background-color: hsl(205, 14%, 46%)
@@ -5499,7 +5499,7 @@ a {
 }
 
 .bc-silver--focus:focus {
-    background-color: hsl(205, 22%, 80%)
+    background-color: hsl(205, 22%, 70%)
 }
 
 .bc-steel--focus:focus {
@@ -5641,7 +5641,7 @@ a {
     border-color: hsl(205, 29%, 92%)
 }
 .borderColor-silver {
-    border-color: hsl(205, 22%, 80%)
+    border-color: hsl(205, 22%, 70%)
 }
 .borderColor-steel {
     border-color: hsl(205, 14%, 46%)
@@ -5781,7 +5781,7 @@ a {
         border-color: hsl(205, 29%, 92%)
     }
     .borderColor-silver--hover:hover {
-        border-color: hsl(205, 22%, 80%)
+        border-color: hsl(205, 22%, 70%)
     }
     .borderColor-steel--hover:hover {
         border-color: hsl(205, 14%, 46%)
@@ -5921,7 +5921,7 @@ a {
     border-color: hsl(205, 29%, 92%)
 }
 .borderColor-silver--focus:focus {
-    border-color: hsl(205, 22%, 80%)
+    border-color: hsl(205, 22%, 70%)
 }
 .borderColor-steel--focus:focus {
     border-color: hsl(205, 14%, 46%)
@@ -6267,7 +6267,7 @@ a {
     box-shadow: 0 6px 20px 1px hsla(208, 20%, 10%, .15), 0 3px 10px 0px hsla(208, 20%, 10%, .08)
 }
 .bs-bevel {
-    box-shadow: inset 0 1px 0 0 hsl(205, 29%, 92%), inset 1px 0 0 0 hsl(205, 29%, 92%), inset -1px 0 0 0 hsl(205, 29%, 92%), inset 0 -1px 0 0 hsl(205, 22%, 80%)
+    box-shadow: inset 0 1px 0 0 hsl(205, 29%, 92%), inset 1px 0 0 0 hsl(205, 29%, 92%), inset -1px 0 0 0 hsl(205, 29%, 92%), inset 0 -1px 0 0 hsl(205, 22%, 70%)
 }
 /* Hover states */
 @media (hover) {
@@ -6284,7 +6284,7 @@ a {
         box-shadow: 0 6px 20px 1px hsla(208, 20%, 10%, .15), 0 3px 10px 0px hsla(208, 20%, 10%, .08)
     }
     .bs-bevel--hover:hover {
-        box-shadow: inset 0 1px 0 0 hsl(205, 29%, 92%), inset 1px 0 0 0 hsl(205, 29%, 92%), inset -1px 0 0 0 hsl(205, 29%, 92%), inset 0 -1px 0 0 hsl(205, 22%, 80%)
+        box-shadow: inset 0 1px 0 0 hsl(205, 29%, 92%), inset 1px 0 0 0 hsl(205, 29%, 92%), inset -1px 0 0 0 hsl(205, 29%, 92%), inset 0 -1px 0 0 hsl(205, 22%, 70%)
     }
 }
 /* Inset border hack */
@@ -6412,7 +6412,7 @@ a {
     box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%)
 }
 .bs-silver {
-    box-shadow: inset 0 0 0 1px hsl(205, 22%, 80%)
+    box-shadow: inset 0 0 0 1px hsl(205, 22%, 70%)
 }
 .bs-steel {
     box-shadow: inset 0 0 0 1px hsl(205, 14%, 46%)
@@ -6549,7 +6549,7 @@ a {
         box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%)
     }
     .bs-silver--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 22%, 80%)
+        box-shadow: inset 0 0 0 1px hsl(205, 22%, 70%)
     }
     .bs-steel--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(205, 14%, 46%)
@@ -6653,7 +6653,7 @@ a {
     color: hsl(132, 52%, 38%)
 }
 .color-gray400 {
-    color: hsl(205, 22%, 80%)
+    color: hsl(205, 22%, 70%)
 }
 .color-gray500 {
     color: hsl(205, 14%, 46%)
@@ -6730,7 +6730,7 @@ a {
         color: var(--gray)
     }
     .color-silver--hover:hover {
-        color: hsl(205, 22%, 80%)
+        color: hsl(205, 22%, 70%)
     }
     .color-steel--hover:hover {
         color: hsl(205, 14%, 46%)
@@ -9873,7 +9873,7 @@ a {
     height: 1.6rem;
     line-height: 1.6rem;
     background-color: hsl(0, 0%, 100%);
-    border: 1px solid hsl(205, 22%, 80%);
+    border: 1px solid hsl(205, 22%, 70%);
     box-shadow: 0 1px 3px rgba(0,0,0,.05);
     border-radius: 4px;
     -webkit-transition: all 100ms ease;
@@ -10550,7 +10550,7 @@ a {
             animation: Loader 1s infinite ease-in-out
 }
 .Loader {
-    color: hsl(205, 22%, 80%);
+    color: hsl(205, 22%, 70%);
     position: relative;
     top: -.8rem;
     left: 1.6rem;/*transform: translateZ(0);*/
@@ -10703,6 +10703,7 @@ a {
     outline: none;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
+    pointer-events: auto;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -10730,7 +10731,7 @@ a {
 /* Neutral button */
 .Button {
     background-color: hsl(205, 43%, 99%);
-    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05), inset 0 0 0 1px hsl(205, 22%, 80%);
+    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05), inset 0 0 0 1px hsl(205, 22%, 70%);
     color: hsl(205, 43%, 5%);
     fill: hsl(205, 43%, 5%);
     stroke: hsl(205, 43%, 5%)
@@ -10783,11 +10784,25 @@ a {
 .Button.negative:active {
     box-shadow: inset 0 0 0 1px hsl(0, 92%, 61%)
 }
+/* Hollow button */
+.Button.hollow {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0
+}
+.Button.hollow:hover {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px)/*box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray500);*/
+}
+.Button.hollow:active {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px)/*box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray500);*/
+}
 /* Active state */
 .Button.is-active {
     background-color: hsl(205, 29%, 92%);
     color: hsl(205, 14%, 46%);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(205, 22%, 80%)
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(205, 22%, 70%)
 }
 .Button.is-active:hover {
     -webkit-transform: translateY(0px);
@@ -10802,7 +10817,7 @@ a {
 /* Disabled state */
 .Button.is-disabled {
     background-color: hsl(205, 26%, 96%);
-    color: hsl(205, 22%, 80%);
+    color: hsl(205, 22%, 70%);
     box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%);
     pointer-events: none
 }
@@ -10910,7 +10925,7 @@ a {
 .Table thead th {
     font-weight: normal;
     border-top: none;
-    border-bottom: 1px solid hsl(205, 22%, 80%)
+    border-bottom: 1px solid hsl(205, 22%, 70%)
 }
 .Table.zebra tbody tr:nth-of-type(odd) {
     background-color: hsl(205, 43%, 99%)
@@ -11179,84 +11194,81 @@ a {
     height: 3.2rem;
     line-height: 3.2rem;
     padding-left: .8rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border-radius: 4px;
     border: none;
     outline: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(205, 22%, 80%);
+    box-shadow: inset 0 0 0 1px hsl(205, 22%, 70%), 0 0 0 1px rgba(0,0,0,0);
     width: 100%;
-    -webkit-transition: all .15s ease;
-    transition: all .15s ease
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    -webkit-transition-duration: 150ms;
+            transition-duration: 150ms;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear
 }
 .Input::-webkit-input-placeholder {
-    color: hsl(205, 22%, 80%);
+    color: hsl(205, 22%, 70%);
     opacity: 1
 }
 .Input::-moz-placeholder {
-    color: hsl(205, 22%, 80%);
+    color: hsl(205, 22%, 70%);
     opacity: 1
 }
 .Input:-ms-input-placeholder {
-    color: hsl(205, 22%, 80%);
+    color: hsl(205, 22%, 70%);
     opacity: 1
 }
 .Input:hover {
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05), inset 0 0 0 1px hsl(205, 22%, 80%)
+    box-shadow: inset 0 0 0 1px hsl(205, 14%, 46%), 0 0 0 1px rgba(0,0,0,0)
 }
 .Input:focus {
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05), inset 0 0 0 1px hsl(205, 95%, 50%)
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(205, 95%, 50%)
+}
+.Input:focus ~ .FormGroup-label {
+    color: hsl(205, 95%, 50%)
 }
 /* Sizes */
 .Input.large {
     height: 4.8rem;
     padding-left: 1.6rem
 }
-.Input.small {
-    height: 3.2rem;
-    padding-left: .8rem;
-    font-size: 1rem
+/* Input group */
+.FormGroup {
+    position: relative
 }
-/* Background color variations */
-.Input.has-darkBg {
-    box-shadow: none;
-    background: rgba(255,255,255,.15);
-    color: hsl(0, 0%, 100%)
+.FormGroup-label {
+    font-size: 1.2rem;
+    display: block;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 150ms;
+            transition-duration: 150ms;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear
 }
-.Input.has-darkBg::-webkit-input-placeholder {
-    color: rgba(255,255,255,.5);
-    opacity: 1
+.FormGroup-hint {
+    font-size: 1.2rem;
+    color: hsl(205, 14%, 46%);
+    display: block;
+    margin-top: .8rem
 }
-.Input.has-darkBg::-moz-placeholder {
-    color: rgba(255,255,255,.5);
-    opacity: 1
+/* Valid */
+.FormGroup.valid .FormGroup-label {
+    color: hsl(132, 52%, 38%)
 }
-.Input.has-darkBg:-ms-input-placeholder {
-    color: rgba(255,255,255,.5);
-    opacity: 1
+.FormGroup.valid .Input {
+    box-shadow: inset 0 0 0 1px hsl(132, 52%, 38%)
 }
-.Input.has-darkBg:hover, .Input.has-darkBg:focus {
-    box-shadow: none;
-    background: rgba(255,255,255,.2)
+/* Invalid */
+.FormGroup.invalid .FormGroup-label {
+    color: hsl(0, 92%, 46%)
 }
-.Input.has-lightBg {
-    box-shadow: none;
-    background: rgba(0,0,0,.05)
+.FormGroup.invalid .Input {
+    box-shadow: inset 0 0 0 1px hsl(0, 92%, 46%)
 }
-.Input.has-lightBg::-webkit-input-placeholder {
-    color: rgba(0,0,0,.25);
-    opacity: 1
-}
-.Input.has-lightBg::-moz-placeholder {
-    color: rgba(0,0,0,.25);
-    opacity: 1
-}
-.Input.has-lightBg:-ms-input-placeholder {
-    color: rgba(0,0,0,.25);
-    opacity: 1
-}
-.Input.has-lightBg:hover, .Input.has-lightBg:focus {
-    box-shadow: none;
-    background: rgba(0,0,0,.06)
+.FormGroup.invalid .FormGroup-hint {
+    color: hsl(0, 92%, 46%)
 }
 .Link, .PrimaryLink, .LightLink {
     color: inherit;
@@ -11428,7 +11440,7 @@ a {
     background-color: transparent
 }
 .Scrollbar::-webkit-scrollbar-thumb {
-    background-color: hsl(205, 22%, 80%)
+    background-color: hsl(205, 22%, 70%)
 }
 .SideDrawer {
     background-color: white;

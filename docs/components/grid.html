@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="overflow-hidden" lang="en" style="font-size: 62.5%;">
+<html lang="en" style="font-size: 62.5%;">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -14,448 +14,508 @@
         <button class="Button js-SideDrawerTrigger" style="position: fixed; top: 32px; left: 32px;">Menu</button>
         <aside class="SideDrawer js-SideDrawer js-Navigation"></aside>
 
-            <main class="width-80 padding-8 Scrollbar">
-                <section>
-                    <div class="mb-1">
-                      <h2 class="Heading large lh-9" style="">Grid</h2>
-                    </div>
-                    <div class="mb-5">
-                        <p class="Heading thin gray" style="line-height: 36px;">A 12&mdash;column grid system for handling layout. The grid is responsive, mobile-first and built on flexbox.</p>
-                    </div>
-                </section>
+        <main class="Container pt-4 pb-4">
+            <header class="Section">
+                <div class="mb-1">
+                  <h1 class="Heading large lh-9">Grid</h1>
+                </div>
+                <div>
+                    <p class="Heading thin gray lh-6 bp1-lh-7">A 12&mdash;column grid
+                        system for handling layout. The grid is responsive, mobile-first and
+                        built on flexbox.</p>
+                </div>
+            </header>
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Basic grid structure</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large">Grids are composed of a Grid container and any number of GridColumn children whose widths total to 12 columns.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">6</span></div>
-                            </div>
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">6</span></div>
-                            </div>
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Basic grid structure</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">A grid consists of up to
+                        12 <code class="Code">.GridColumn</code> elements wrapped in a
+                        <code class="Code">.Grid</code> element.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">6</span></div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">6</span></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
+                    </figure>
+                </div>
+            </section>
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Equal-width columns</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large">By default, grid columns have equal widths. Add any number of grid columns to a grid component and they will each assume an equal width.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">3</span></div>
-                            </div>
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">3</span></div>
-                            </div>
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">3</span></div>
-                            </div>
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">3</span></div>
-                            </div>
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Equal-width columns</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">By default, grid columns
+                      have equal widths. Add any number of grid columns to a grid component
+                      and they will each assume an equal width.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">3</span></div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">3</span></div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">3</span></div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">3</span></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
+                    </figure>
+                </div>
+            </section>
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Explicit-width columns</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large" style="line-height: 30px;">You can define an explicit width for each column by appending the desired width to the GridColumn class. The combined column widths must total to 12.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
-                            <div class="GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">4</span></div>
-                            </div>
-                            <div class="GridColumn--8">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">8</span></div>
-                            </div>
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Explicit-width columns</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">You can define an
+                      explicit width for each column by appending the desired column width to
+                      the GridColumn class. The combined column widths must total to 12.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                        </div>
+                        <div class="GridColumn--8">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">8</span></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--8"&gt;...&lt;/div&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--8"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
+                    </figure>
+                </div>
+            </section>
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Setting one column width</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large" style="line-height: 30px;">If you define an explicit width for just one column, the other columns will automatically divide the remaining space between themselves.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Auto</span></div>
-                            </div>
-                            <div class="GridColumn--8">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">8</span></div>
-                            </div>
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Auto</span></div>
-                            </div>
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Setting one column width</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">If you define an explicit
+                      width for just one column, the excess space will be automatically
+                      distributed between the other columns.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Auto</span></div>
+                        </div>
+                        <div class="GridColumn--8">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">8</span></div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Auto</span></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--8"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--8"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
+                    </figure>
+                </div>
+            </section>
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Multiple rows</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large" style="line-height: 30px;">Grid columns will automatically flow onto multiple rows. Just make sure the total column width per row adds up to 12.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
-                            <div class="GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">4</span></div>
-                            </div>
-                            <div class="GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">4</span></div>
-                            </div>
-                            <div class="GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">4</span></div>
-                            </div>
-                            <div class="GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">4</span></div>
-                            </div>
-                            <div class="GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">4</span></div>
-                            </div>
-                            <div class="GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">4</span></div>
-                            </div>
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Multiple rows</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">Grid columns
+                      automatically wrap onto multiple rows.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                        </div>
+                        <div class="GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                        </div>
+                        <div class="GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                        </div>
+                        <div class="GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                        </div>
+                        <div class="GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                        </div>
+                        <div class="GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
+                    </figure>
+                </div>
+            </section>
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Responsive column widths</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large" style="line-height: 30px;">You can define a different
-                            column width for each responsive breakpoint by using the 4 responsive
-                            class prefixes. Begin by defining the desired column width for mobile,
-                            then add classes for larger breakpoints as necessary.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
-                            <div class="GridColumn--12 bps-GridColumn--4 bpm-GridColumn--6">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Responsive</span></div>
-                            </div>
-                            <div class="GridColumn--12 bps-GridColumn--8 bpm-GridColumn--6">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Responsive</span></div>
-                            </div>
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Responsive column widths</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">You can define a different
+                        column width for each responsive breakpoint by using the 4 responsive
+                        class prefixes. Begin by defining the desired column width for mobile,
+                        then add classes for larger breakpoints as necessary.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn--12 bp1-GridColumn--4 bp2-GridColumn--6">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Responsive</span></div>
+                        </div>
+                        <div class="GridColumn--12 bp1-GridColumn--8 bp2-GridColumn--6">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Responsive</span></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;!-- Resize your browser to see these grid columns adapt. --&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;!-- Resize your browser to see these grid columns adapt. --&gt;
 &lt;div class="Grid"&gt;
-    &lt;div class="GridColumn--12 bps-GridColumn--4 bpm-GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--12 bps-GridColumn--8 bpm-GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--12 bp1-GridColumn--4 bp2-GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--12 bp1-GridColumn--8 bp2-GridColumn"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
+                    </figure>
+                </div>
 
-                    <div class="mt-3 mb-3">
-                        <p class="Text large" style="line-height: 30px;">You can set columns to
-                            be stacked initially, then span multiple rows at larger breakpoints.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
-                            <div class="GridColumn--12 bps-GridColumn--6 bpm-GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Responsive</span></div>
-                            </div>
-                            <div class="GridColumn--12 bps-GridColumn--6 bpm-GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Responsive</span></div>
-                            </div>
-                            <div class="GridColumn--12 bps-GridColumn--6 bpm-GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Responsive</span></div>
-                            </div>
-                            <div class="GridColumn--12 bps-GridColumn--6 bpm-GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Responsive</span></div>
-                            </div>
-                            <div class="GridColumn--12 bps-GridColumn--6 bpm-GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Responsive</span></div>
-                            </div>
-                            <div class="GridColumn--12 bps-GridColumn--6 bpm-GridColumn--4">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Responsive</span></div>
-                            </div>
+                <div class="mt-3 mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">You can set columns to
+                        be stacked initially, then span multiple rows at larger breakpoints.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn--12 bp1-GridColumn--6 bp2-GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Responsive</span></div>
+                        </div>
+                        <div class="GridColumn--12 bp1-GridColumn--6 bp2-GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Responsive</span></div>
+                        </div>
+                        <div class="GridColumn--12 bp1-GridColumn--6 bp2-GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Responsive</span></div>
+                        </div>
+                        <div class="GridColumn--12 bp1-GridColumn--6 bp2-GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Responsive</span></div>
+                        </div>
+                        <div class="GridColumn--12 bp1-GridColumn--6 bp2-GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Responsive</span></div>
+                        </div>
+                        <div class="GridColumn--12 bp1-GridColumn--6 bp2-GridColumn--4">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Responsive</span></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;!-- Resize your browser to see these grid columns adapt. --&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;!-- Resize your browser to see these grid columns adapt. --&gt;
 &lt;div class="Grid"&gt;
-    &lt;div class="GridColumn--12 bps-GridColumn--6 bpm-GridColumn--4"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn--12 bps-GridColumn--6 bpm-GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--12 bp1-GridColumn--6 bp2-GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--12 bp1-GridColumn--6 bp2-GridColumn--4"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
+                    </figure>
+                </div>
+            </section>
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Vertical alignment</h2>
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Vertical alignment</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">Use flexbox layout
+                      utilities to vertically grid align columns.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 padding-2 br-1"><span class="fontSize-2 fw-6 color-gray500">Columns will stretch to fill the container</span></div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"></div>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <p class="Text large" style="line-height: 30px;">Neutral buttons are the default and should account for almost all actions.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
+                    <div class="mt-3">
+                        <div class="Grid ai-flexStart">
                             <div class="GridColumn">
-                                <div class="display-flex bc-smoke padding-2 br-s"><span class="fontSize-4 lh-3">This will aligned at the top</span></div>
+                                <div class="display-flex bc-gray200 padding-2 br-1"><span class="fontSize-2 fw-6 color-gray500">Columns will be aligned at the start</span></div>
                             </div>
                             <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 ai-center br-s jc-center"></div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="Grid ai-flexStart">
-                                <div class="GridColumn">
-                                    <div class="display-flex bc-smoke padding-2 br-s"><span class="fontSize-4 lh-3">This will aligned at the top</span></div>
-                                </div>
-                                <div class="GridColumn">
-                                    <div class="display-flex bc-smoke height-UI3 ai-center br-s jc-center"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="Grid ai-center">
-                                <div class="GridColumn">
-                                    <div class="display-flex bc-smoke padding-2 br-s"><span class="fontSize-4 lh-3">This will aligned at the top</span></div>
-                                </div>
-                                <div class="GridColumn">
-                                    <div class="display-flex bc-smoke height-UI3 ai-center br-s jc-center"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="Grid ai-flexEnd">
-                                <div class="GridColumn">
-                                    <div class="display-flex bc-smoke padding-2 br-s"><span class="fontSize-4 lh-3">This will aligned at the top</span></div>
-                                </div>
-                                <div class="GridColumn">
-                                    <div class="display-flex bc-smoke height-UI3 ai-center br-s jc-center"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="Grid ai-baseline">
-                                <div class="GridColumn">
-                                    <div class="display-flex bc-smoke padding-2 br-s"><span class="fontSize-4 lh-3">This will aligned at the top</span></div>
-                                </div>
-                                <div class="GridColumn">
-                                    <div class="display-flex bc-smoke height-UI3 ai-center br-s jc-center"></div>
-                                </div>
+                                <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-                        </figure>
+                    <div class="mt-3">
+                        <div class="Grid ai-center">
+                            <div class="GridColumn">
+                                <div class="display-flex bc-gray200 padding-2 br-1"><span class="fontSize-2 fw-6 color-gray500">Columns will be center aligned</span></div>
+                            </div>
+                            <div class="GridColumn">
+                                <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"></div>
+                            </div>
+                        </div>
                     </div>
-                </section>
+                    <div class="mt-3">
+                        <div class="Grid ai-flexEnd">
+                            <div class="GridColumn">
+                                <div class="display-flex bc-gray200 padding-2 br-1"><span class="fontSize-2 fw-6 color-gray500">Columns will be aligned at the end</span></div>
+                            </div>
+                            <div class="GridColumn">
+                                <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <div class="Grid ai-baseline">
+                            <div class="GridColumn">
+                                <div class="display-flex bc-gray200 padding-2 br-1"><span class="fontSize-2 fw-6 color-gray500">Columns will be aligned on the baseline</span></div>
+                            </div>
+                            <div class="GridColumn">
+                                <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+&lt;/div&gt;
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Horizontal alignment</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large" style="line-height: 30px;">Neutral buttons are the default and should account for almost all actions.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid jc-flexStart">
-                            <div class="GridColumn--4">
-                                <div class="bc-silver height-UIs br-m"></div>
-                            </div>
-                            <div class="GridColumn--4">
-                                <div class="bc-silver height-UIs br-m"></div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="Grid jc-center">
-                                <div class="GridColumn--4">
-                                    <div class="bc-silver height-UIs br-m"></div>
-                                </div>
-                                <div class="GridColumn--4">
-                                    <div class="bc-silver height-UIs br-m"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="Grid jc-flexEnd">
-                                <div class="GridColumn--4">
-                                    <div class="bc-silver height-UIs br-m"></div>
-                                </div>
-                                <div class="GridColumn--4">
-                                    <div class="bc-silver height-UIs br-m"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="Grid jc-around">
-                                <div class="GridColumn--4">
-                                    <div class="bc-silver height-UIs br-m"></div>
-                                </div>
-                                <div class="GridColumn--4">
-                                    <div class="bc-silver height-UIs br-m"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="Grid jc-between">
-                                <div class="GridColumn--4">
-                                    <div class="bc-silver height-UIs br-m"></div>
-                                </div>
-                                <div class="GridColumn--4">
-                                    <div class="bc-silver height-UIs br-m"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
+&lt;div class="Grid ai-flexStart"&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+&lt;/div&gt;
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Nesting</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large" style="line-height: 30px;">Neutral buttons are the default and should account for almost all actions.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid">
-                            <div class="GridColumn">
-                                <div class="Grid">
-                                    <div class="GridColumn">
-                                        <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Auto</span></div>
-                                    </div>
-                                    <div class="GridColumn">
-                                        <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Auto</span></div>
-                                    </div>
+&lt;div class="Grid ai-center"&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="Grid ai-flexEnd"&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="Grid ai-baseline"&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Horizontal alignment</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">Use flexbox layout
+                      utilities to horizontally grid align columns.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                  <div>
+                      <div class="Grid jc-flexStart">
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="mt-3">
+                      <div class="Grid jc-center">
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="mt-3">
+                      <div class="Grid jc-flexEnd">
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="mt-3">
+                      <div class="Grid jc-spaceAround">
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="mt-3">
+                      <div class="Grid jc-spaceBetween">
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                          <div class="GridColumn--4">
+                              <div class="display-flex bc-gray200 height-UI3 ai-center br-1 jc-center"><span class="fontSize-2 fw-6 color-gray500">4</span></div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid jc-flexStart"&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="Grid jc-center"&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="Grid jc-flexEnd"&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="Grid jc-spaceAround"&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="Grid jc-spaceBetween"&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+  &lt;div class="GridColumn--4"&gt;...&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Nesting</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">Grids can be infinitely
+                      nested inside each other.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid">
+                        <div class="GridColumn">
+                            <div class="Grid">
+                                <div class="GridColumn">
+                                    <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Auto</span></div>
+                                </div>
+                                <div class="GridColumn">
+                                    <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Auto</span></div>
                                 </div>
                             </div>
-                            <div class="GridColumn">
-                                <div class="display-flex bc-smoke height-UI3 br-s ai-center jc-center"><span class="fontSize-2 fw-6 color-steel">Auto</span></div>
-                            </div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="display-flex bc-gray200 height-UI3 br-1 ai-center jc-center"><span class="fontSize-2 fw-6 color-gray500">Auto</span></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
+  &lt;div class="GridColumn"&gt;
+    &lt;div class="Grid"&gt;
+      &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+      &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="GridColumn"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
+                    </figure>
+                </div>
+            </section>
 
-                <section class="pt-3 pb-3">
-                    <div class="mb-1">
-                        <h2 class=Heading small style="line-height: 30px;">Sizes</h2>
-                    </div>
-                    <div class="mb-3">
-                        <p class="Text large" style="line-height: 30px;">Neutral buttons are the default and should account for almost all actions.</p>
-                    </div>
-                    <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                        <div class="Grid Grid--s">
-                            <div class="GridColumn">
-                                <div class="bc-silver height-UIs br-m"></div>
-                            </div>
-                            <div class="GridColumn">
-                                <div class="bc-silver height-UIs br-m"></div>
-                            </div>
-                            <div class="GridColumn">
-                                <div class="bc-silver height-UIs br-m"></div>
-                            </div>
+            <!-- <section class="pt-3 pb-3">
+                <div class="mb-1">
+                    <h2 class="Heading small lh-5">Sizes</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">Neutral buttons are the default and should account for almost all actions.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="Grid Grid--s">
+                        <div class="GridColumn">
+                            <div class="bc-silver height-UIs br-m"></div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="bc-silver height-UIs br-m"></div>
+                        </div>
+                        <div class="GridColumn">
+                            <div class="bc-silver height-UIs br-m"></div>
                         </div>
                     </div>
-                    <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                        <figure class="bc-pearl btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                            <pre class="padding-2"  style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';"><code class="ff-monospace fontSize-3 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
-    &lt;div class="GridColumn"&gt;...&lt;/div&gt;
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fontSize-4 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Grid"&gt;
+&lt;div class="GridColumn"&gt;...&lt;/div&gt;
+&lt;div class="GridColumn"&gt;...&lt;/div&gt;
+&lt;div class="GridColumn"&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-                        </figure>
-                    </div>
-                </section>
-            </main>
-        </div>
+                    </figure>
+                </div>
+            </section> -->
+        </main>
+
+        <div class="Overlay js-Overlay"></div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="../../docs/js/scripts.js"> </script>

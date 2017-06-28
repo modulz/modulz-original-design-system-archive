@@ -10662,6 +10662,8 @@ a {
     transition: all 100ms linear
 }
 .ListItem.large {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
     min-height: 4rem
 }
 .ListItem.interactive:hover {

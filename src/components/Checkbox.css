@@ -1,0 +1,51 @@
+.Checkbox {
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.Checkbox > input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.Checkbox > input ~ div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  var(--spacing-2);
+    height: var(--spacing-2);
+    line-height: var(--spacing-2);
+    background-color: var(--white);
+    border: 1px solid var(--gray400);
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    border-radius: var(--borderRadius-1);
+    transition: all 100ms ease;
+    margin-right: var(--spacing-1);
+}
+
+/* Hover state*/
+.Checkbox:hover > input ~ div {
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+    border-color: var(--gray500);
+}
+
+/* Focus state */
+/*.Checkbox input:focus ~ .control-indicator,
+.Radio input:focus ~ .control-indicator {
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+    border-color: var(--gray500);
+    outline: 1px dashed var(--blue500);
+    outline-offset: 1px;
+}*/
+
+/* Checked state */
+.Checkbox > input:checked ~ div {
+    color: var(--white);
+    background-color: var(--blue500);
+    border-color: var(--blue500);
+    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05);
+}

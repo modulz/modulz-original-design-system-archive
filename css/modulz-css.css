@@ -9840,7 +9840,7 @@ a {
     right: 0;
     box-shadow: inset 0 0 0 1px rgba(0,0,0,.05), 0 0 0 1px white
 }
-.Checkbox, .Radio {
+.Radio {
     position: relative;
     cursor: pointer;
     display: -webkit-inline-box;
@@ -9852,14 +9852,15 @@ a {
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none
+            user-select: none;
+    font-size: 1.2rem
 }
-.Checkbox > input, .Radio > input {
+.Radio > input {
     position: absolute;
     opacity: 0;
     z-index: -1
 }
-.Checkbox > input ~ div, .Radio > input ~ div {
+.Radio > input ~ div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9881,7 +9882,7 @@ a {
     margin-right: .8rem
 }
 /* Hover state*/
-.Checkbox:hover > input ~ div, .Radio:hover > input ~ div {
+.Radio:hover > input ~ div {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-color: hsl(205, 14%, 46%)
 }
@@ -9894,7 +9895,7 @@ a {
     outline-offset: 1px;
 }*/
 /* Checked state */
-.Checkbox > input:checked ~ div, .Radio > input:checked ~ div {
+.Radio > input:checked ~ div {
     color: hsl(0, 0%, 100%);
     background-color: hsl(205, 95%, 50%);
     border-color: hsl(205, 95%, 50%);
@@ -9909,6 +9910,66 @@ a {
     height: 6px;
     background: white;
     border-radius: 50%
+}
+.Checkbox {
+    position: relative;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none
+}
+.Checkbox > input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1
+}
+.Checkbox > input ~ div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(205, 22%, 70%);
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    border-radius: 2px;
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+    margin-right: .8rem
+}
+/* Hover state*/
+.Checkbox:hover > input ~ div {
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+    border-color: hsl(205, 14%, 46%)
+}
+/* Focus state */
+/*.Checkbox input:focus ~ .control-indicator,
+.Radio input:focus ~ .control-indicator {
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+    border-color: var(--gray500);
+    outline: 1px dashed var(--blue500);
+    outline-offset: 1px;
+}*/
+/* Checked state */
+.Checkbox > input:checked ~ div {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(205, 95%, 50%);
+    border-color: hsl(205, 95%, 50%);
+    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05)
 }
 .RangeSlider {
     -webkit-appearance: none;

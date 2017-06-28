@@ -82,7 +82,8 @@
 
 /* Components */
 @import "components/Avatar.css";
-@import "components/form-control.css";
+@import "components/Radio.css";
+@import "components/Checkbox.css";
 @import "components/range-slider.css";
 @import "components/Switch.css";
 @import "components/grid.css";

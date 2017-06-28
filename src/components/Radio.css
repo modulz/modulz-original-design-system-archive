@@ -1,20 +1,18 @@
-.Checkbox,
 .Radio {
     position: relative;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     user-select: none;
+    font-size: var(--fontSize-3);
 }
 
-.Checkbox > input,
 .Radio > input {
     position: absolute;
     opacity: 0;
     z-index: -1;
 }
 
-.Checkbox > input ~ div,
 .Radio > input ~ div {
     display: flex;
     align-items: center;
@@ -31,7 +29,6 @@
 }
 
 /* Hover state*/
-.Checkbox:hover > input ~ div,
 .Radio:hover > input ~ div {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-color: var(--gray500);
@@ -47,7 +44,7 @@
 }*/
 
 /* Checked state */
-.Checkbox > input:checked ~ div,
+
 .Radio > input:checked ~ div {
     color: var(--white);
     background-color: var(--blue500);
@@ -56,6 +53,7 @@
 }
 
 /* Radio modifiers */
+
 .Radio input ~ div {
     border-radius: 50%;
 }

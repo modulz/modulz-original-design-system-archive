@@ -1,31 +1,31 @@
-.ToggleSwitch {
+.Switch {
     position: relative;
     display: inline-block;
-    width: 32px;
-    height: 8px;
+    width: var(--spacing-5);
+    height: var(--spacing-2);
 }
 
-.ToggleSwitch input {
+.Switch input {
     display: none;
 }
 
-.ToggleSwitch .slider {
+.Switch div {
     position: absolute;
     cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--gray300);
+    background-color: var(--gray400);
     transition: all 100ms;
     border-radius: 9999px;
 }
 
-.ToggleSwitch .slider:before {
+.Switch div:before {
     position: absolute;
     content: "";
-    height: 16px;
-    width: 16px;
+    height: var(--spacing-3);
+    width: var(--spacing-3);
     left: 0;
     bottom: -4px;
     background-color: var(--gray500);
@@ -34,11 +34,11 @@
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
 }
 
-.ToggleSwitch input:checked + .slider {
-    background-color: var(--blue300);
+.Switch input:checked + div {
+    background-color: var(--teal300);
 }
 
-.ToggleSwitch input:checked + .slider:before {
-    transform: translateX(16px);
-    background-color: var(--blue500)
+.Switch input:checked + div:before {
+    transform: translateX(var(--spacing-2));
+    background-color: var(--teal500);
 }

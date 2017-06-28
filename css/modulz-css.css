@@ -10014,32 +10014,32 @@ a {
     background: hsl(205, 14%, 46%);
     cursor: pointer
 }
-.ToggleSwitch {
+.Switch {
     position: relative;
     display: inline-block;
-    width: 32px;
-    height: 8px
+    width: 4rem;
+    height: 1.6rem
 }
-.ToggleSwitch input {
+.Switch input {
     display: none
 }
-.ToggleSwitch .slider {
+.Switch div {
     position: absolute;
     cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: hsl(205, 29%, 92%);
+    background-color: hsl(205, 22%, 70%);
     -webkit-transition: all 100ms;
     transition: all 100ms;
     border-radius: 9999px
 }
-.ToggleSwitch .slider:before {
+.Switch div:before {
     position: absolute;
     content: "";
-    height: 16px;
-    width: 16px;
+    height: 2.4rem;
+    width: 2.4rem;
     left: 0;
     bottom: -4px;
     background-color: hsl(205, 14%, 46%);
@@ -10048,13 +10048,13 @@ a {
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05)
 }
-.ToggleSwitch input:checked + .slider {
-    background-color: hsl(205, 95%, 92%)
+.Switch input:checked + div {
+    background-color: hsl(172, 95%, 92%)
 }
-.ToggleSwitch input:checked + .slider:before {
-    -webkit-transform: translateX(16px);
-            transform: translateX(16px);
-    background-color: hsl(205, 95%, 50%)
+.Switch input:checked + div:before {
+    -webkit-transform: translateX(1.6rem);
+            transform: translateX(1.6rem);
+    background-color: hsl(172, 100%, 35%)
 }
 /* Grid */
 .Grid {

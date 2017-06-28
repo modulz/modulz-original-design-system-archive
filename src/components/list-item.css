@@ -15,8 +15,6 @@
 }
 
 .ListItem.large {
-    padding-left: var(--spacing-4);
-    padding-right: var(--spacing-4);
     min-height: var(--spacing-5);
 }
 

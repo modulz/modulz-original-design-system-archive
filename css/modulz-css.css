@@ -10662,8 +10662,6 @@ a {
     transition: all 100ms linear
 }
 .ListItem.large {
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
     min-height: 4rem
 }
 .ListItem.interactive:hover {
@@ -10890,6 +10888,33 @@ a {
     height: 4.8rem;
     line-height: 4.8rem;
     min-width: 4.8rem
+}
+.Table {
+    border-collapse: collapse;
+    background-color: transparent;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    text-align: left
+}
+.Table th, .Table td {
+    padding: 16px;
+    border-top: 1px solid hsl(205, 29%, 92%)
+}
+.Table th {
+    font-weight: normal;
+    color: hsl(205, 14%, 46%)
+}
+.Table thead th {
+    font-weight: normal;
+    border-top: none;
+    border-bottom: 1px solid hsl(205, 22%, 80%)
+}
+.Table.zebra tbody tr:nth-of-type(odd) {
+    background-color: hsl(205, 43%, 99%)
+}
+.Table.interactive tbody tr:hover {
+    background-color: hsl(205, 100%, 97%)
 }
 .Toast {
     position: fixed;

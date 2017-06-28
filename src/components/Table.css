@@ -1,0 +1,33 @@
+.Table {
+    border-collapse: collapse;
+    background-color: transparent;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    text-align: left;
+}
+
+.Table th,
+.Table td {
+    padding: 16px;
+    border-top: 1px solid var(--gray300);
+}
+
+.Table th {
+    font-weight: normal;
+    color: var(--gray500);
+}
+
+.Table thead th {
+    font-weight: normal;
+    border-top: none;
+    border-bottom: 1px solid var(--gray400);
+}
+
+.Table.zebra tbody tr:nth-of-type(odd) {
+    background-color: var(--gray100);
+}
+
+.Table.interactive tbody tr:hover {
+    background-color: var(--blue100);
+}

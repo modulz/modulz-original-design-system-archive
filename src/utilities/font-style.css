@@ -1,29 +1,29 @@
 /* Font Style */
 
-.fontSize-normal   { font-style: normal; }
-.fontSize-italic   { font-style: italic; }
-.fontSize-oblique  { font-style: oblique; }
+.fontStyle-normal   { font-style: normal; }
+.fontStyle-italic   { font-style: italic; }
+.fontStyle-oblique  { font-style: oblique; }
 
 @media (--breakpoint-1) {
-    .bp1-fontSize-normal   { font-style: normal; }
-    .bp1-fontSize-italic   { font-style: italic; }
-    .bp1-fontSize-oblique  { font-style: oblique; }
+    .bp1-fontStyle-normal   { font-style: normal; }
+    .bp1-fontStyle-italic   { font-style: italic; }
+    .bp1-fontStyle-oblique  { font-style: oblique; }
 }
 
 @media (--breakpoint-2) {
-    .bp2-fontSize-normal   { font-style: normal; }
-    .bp2-fontSize-italic   { font-style: italic; }
-    .bp2-fontSize-oblique  { font-style: oblique; }
+    .bp2-fontStyle-normal   { font-style: normal; }
+    .bp2-fontStyle-italic   { font-style: italic; }
+    .bp2-fontStyle-oblique  { font-style: oblique; }
 }
 
 @media (--breakpoint-3) {
-    .bp3-fontSize-normal   { font-style: normal; }
-    .bp3-fontSize-italic   { font-style: italic; }
-    .bp3-fontSize-oblique  { font-style: oblique; }
+    .bp3-fontStyle-normal   { font-style: normal; }
+    .bp3-fontStyle-italic   { font-style: italic; }
+    .bp3-fontStyle-oblique  { font-style: oblique; }
 }
 
 @media (--breakpoint-4) {
-    .bp4-fontSize-normal   { font-style: normal; }
-    .bp4-fontSize-italic   { font-style: italic; }
-    .bp4-fontSize-oblique  { font-style: oblique; }
+    .bp4-fontStyle-normal   { font-style: normal; }
+    .bp4-fontStyle-italic   { font-style: italic; }
+    .bp4-fontStyle-oblique  { font-style: oblique; }
 }

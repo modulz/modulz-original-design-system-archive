@@ -2538,56 +2538,56 @@ a {
 }
 /*@import "utilities/float.css";*/
 /* Font Style */
-.fontSize-normal {
+.fontStyle-normal {
     font-style: normal
 }
-.fontSize-italic {
+.fontStyle-italic {
     font-style: italic
 }
-.fontSize-oblique {
+.fontStyle-oblique {
     font-style: oblique
 }
 @media (min-width: 38em) {
-    .bp1-fontSize-normal {
+    .bp1-fontStyle-normal {
         font-style: normal
     }
-    .bp1-fontSize-italic {
+    .bp1-fontStyle-italic {
         font-style: italic
     }
-    .bp1-fontSize-oblique {
+    .bp1-fontStyle-oblique {
         font-style: oblique
     }
 }
 @media (min-width: 62em) {
-    .bp2-fontSize-normal {
+    .bp2-fontStyle-normal {
         font-style: normal
     }
-    .bp2-fontSize-italic {
+    .bp2-fontStyle-italic {
         font-style: italic
     }
-    .bp2-fontSize-oblique {
+    .bp2-fontStyle-oblique {
         font-style: oblique
     }
 }
 @media (min-width: 68em) {
-    .bp3-fontSize-normal {
+    .bp3-fontStyle-normal {
         font-style: normal
     }
-    .bp3-fontSize-italic {
+    .bp3-fontStyle-italic {
         font-style: italic
     }
-    .bp3-fontSize-oblique {
+    .bp3-fontStyle-oblique {
         font-style: oblique
     }
 }
 @media (min-width: 110em) {
-    .bp4-fontSize-normal {
+    .bp4-fontStyle-normal {
         font-style: normal
     }
-    .bp4-fontSize-italic {
+    .bp4-fontStyle-italic {
         font-style: italic
     }
-    .bp4-fontSize-oblique {
+    .bp4-fontStyle-oblique {
         font-style: oblique
     }
 }
@@ -6862,146 +6862,146 @@ a {
     font-family: roboto,sans-serif
 }
 /* Font size */
-.fontSize-9 {
+.fs-9 {
     font-size: 2.6rem
 }
-.fontSize-8 {
+.fs-8 {
     font-size: 2.2rem
 }
-.fontSize-7 {
+.fs-7 {
     font-size: 2rem
 }
-.fontSize-6 {
+.fs-6 {
     font-size: 1.8rem
 }
-.fontSize-5 {
+.fs-5 {
     font-size: 1.6rem
 }
-.fontSize-4 {
+.fs-4 {
     font-size: 1.4rem
 }
-.fontSize-3 {
+.fs-3 {
     font-size: 1.2rem
 }
-.fontSize-2 {
+.fs-2 {
     font-size: 1rem
 }
-.fontSize-1 {
+.fs-1 {
     font-size: .8rem
 }
 @media (min-width: 38em) {
-    .bp1-fontSize-9 {
+    .bp1-fs-9 {
         font-size: 2.6rem
     }
-    .bp1-fontSize-8 {
+    .bp1-fs-8 {
         font-size: 2.2rem
     }
-    .bp1-fontSize-7 {
+    .bp1-fs-7 {
         font-size: 2rem
     }
-    .bp1-fontSize-6 {
+    .bp1-fs-6 {
         font-size: 1.8rem
     }
-    .bp1-fontSize-5 {
+    .bp1-fs-5 {
         font-size: 1.6rem
     }
-    .bp1-fontSize-4 {
+    .bp1-fs-4 {
         font-size: 1.4rem
     }
-    .bp1-fontSize-3 {
+    .bp1-fs-3 {
         font-size: 1.2rem
     }
-    .bp1-fontSize-2 {
+    .bp1-fs-2 {
         font-size: 1rem
     }
-    .bp1-fontSize-1 {
+    .bp1-fs-1 {
         font-size: .8rem
     }
 }
 @media (min-width: 62em) {
-    .bp2-fontSize-9 {
+    .bp2-fs-9 {
         font-size: 2.6rem
     }
-    .bp2-fontSize-8 {
+    .bp2-fs-8 {
         font-size: 2.2rem
     }
-    .bp2-fontSize-7 {
+    .bp2-fs-7 {
         font-size: 2rem
     }
-    .bp2-fontSize-6 {
+    .bp2-fs-6 {
         font-size: 1.8rem
     }
-    .bp2-fontSize-5 {
+    .bp2-fs-5 {
         font-size: 1.6rem
     }
-    .bp2-fontSize-4 {
+    .bp2-fs-4 {
         font-size: 1.4rem
     }
-    .bp2-fontSize-3 {
+    .bp2-fs-3 {
         font-size: 1.2rem
     }
-    .bp2-fontSize-2 {
+    .bp2-fs-2 {
         font-size: 1rem
     }
-    .bp2-fontSize-1 {
+    .bp2-fs-1 {
         font-size: .8rem
     }
 }
 @media (min-width: 68em) {
-    .bp3-fontSize-9 {
+    .bp3-fs-9 {
         font-size: 2.6rem
     }
-    .bp3-fontSize-8 {
+    .bp3-fs-8 {
         font-size: 2.2rem
     }
-    .bp3-fontSize-7 {
+    .bp3-fs-7 {
         font-size: 2rem
     }
-    .bp3-fontSize-6 {
+    .bp3-fs-6 {
         font-size: 1.8rem
     }
-    .bp3-fontSize-5 {
+    .bp3-fs-5 {
         font-size: 1.6rem
     }
-    .bp3-fontSize-4 {
+    .bp3-fs-4 {
         font-size: 1.4rem
     }
-    .bp3-fontSize-3 {
+    .bp3-fs-3 {
         font-size: 1.2rem
     }
-    .bp3-fontSize-s {
+    .bp3-fs-s {
         font-size: var(--fontSize-s)
     }
-    .bp3-fontSize-1 {
+    .bp3-fs-1 {
         font-size: .8rem
     }
 }
 @media (min-width: 110em) {
-    .bp4-fontSize-9 {
+    .bp4-fs-9 {
         font-size: 2.6rem
     }
-    .bp4-fontSize-8 {
+    .bp4-fs-8 {
         font-size: 2.2rem
     }
-    .bp4-fontSize-7 {
+    .bp4-fs-7 {
         font-size: 2rem
     }
-    .bp4-fontSize-6 {
+    .bp4-fs-6 {
         font-size: 1.8rem
     }
-    .bp4-fontSize-5 {
+    .bp4-fs-5 {
         font-size: 1.6rem
     }
-    .bp4-fontSize-4 {
+    .bp4-fs-4 {
         font-size: 1.4rem
     }
-    .bp4-fontSize-3 {
+    .bp4-fs-3 {
         font-size: 1.2rem
     }
-    .bp4-fontSize-s {
+    .bp4-fs-s {
         font-size: var(--fontSize-s)
     }
-    .bp4-fontSize-1 {
+    .bp4-fs-1 {
         font-size: .8rem
     }
 }

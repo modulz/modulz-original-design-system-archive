@@ -84,7 +84,7 @@
 @import "components/Avatar.css";
 @import "components/Radio.css";
 @import "components/Checkbox.css";
-@import "components/range-slider.css";
+@import "components/Slider.css";
 @import "components/Switch.css";
 @import "components/grid.css";
 @import "components/Code.css";
@@ -102,7 +102,7 @@
 @import "components/Toast.css";
 @import "components/Overlay.css";
 @import "components/Card.css";
-@import "components/heading.css";
+@import "components/Heading.css";
 @import "components/text.css";
 @import "components/input.css";
 @import "components/link.css";

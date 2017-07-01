@@ -9971,7 +9971,7 @@ a {
     border-color: hsl(205, 95%, 50%);
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05)
 }
-.RangeSlider {
+.Slider {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
@@ -9979,10 +9979,10 @@ a {
     width: 100%;
     cursor: pointer
 }
-.RangeSlider:focus {
+.Slider:focus {
     outline: none
 }
-.RangeSlider::-webkit-slider-runnable-track {
+.Slider::-webkit-slider-runnable-track {
     width: 100%;
     height: 4px;
     cursor: pointer;
@@ -9991,10 +9991,10 @@ a {
     border-radius: 9999px;
     border: none
 }
-/*.RangeSlider:focus::-webkit-slider-runnable-track {
+/*.Slider:focus::-webkit-slider-runnable-track {
     background: var(--blue500);
 }*/
-.RangeSlider::-moz-range-track {
+.Slider::-moz-range-track {
     width: 100%;
     height: 4px;
     cursor: pointer;
@@ -10003,7 +10003,7 @@ a {
     border-radius: 9999px;
     border: none
 }
-.RangeSlider::-ms-track {
+.Slider::-ms-track {
     width: 100%;
     height: 4px;
     cursor: pointer;
@@ -10012,25 +10012,25 @@ a {
     border-width: 16px 0;
     color: transparent
 }
-.RangeSlider::-ms-fill-lower {
+.Slider::-ms-fill-lower {
     background: hsl(205, 29%, 92%);
     border: none;
     border-radius: 9999px;
     box-shadow: none
 }
-/*.RangeSlider:focus::-ms-fill-lower {
+/*.Slider:focus::-ms-fill-lower {
     background: var(--blue500);
 }*/
-.RangeSlider::-ms-fill-upper {
+.Slider::-ms-fill-upper {
     background: hsl(205, 29%, 92%);
     border: none;
     border-radius: 9999px;
     box-shadow: none
 }
-/*.RangeSlider:focus::-ms-fill-upper {
+/*.Slider:focus::-ms-fill-upper {
     background: var(--blue500);
 }*/
-.RangeSlider::-webkit-slider-thumb {
+.Slider::-webkit-slider-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
     height: 16px;
@@ -10046,11 +10046,11 @@ a {
     transition: transform 100ms ease;
     transition: transform 100ms ease, -webkit-transform 100ms ease
 }
-.RangeSlider:hover::-webkit-slider-thumb {
+.Slider:hover::-webkit-slider-thumb {
     -webkit-transform: scale(1.2);
             transform: scale(1.2)
 }
-.RangeSlider::-moz-range-thumb {
+.Slider::-moz-range-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
     height: 16px;
@@ -10063,10 +10063,10 @@ a {
     transition: transform 100ms ease;
     transition: transform 100ms ease, -webkit-transform 100ms ease
 }
-.RangeSlider:hover::-moz-range-thumb {
+.Slider:hover::-moz-range-thumb {
     transform: scale(1.2)
 }
-.RangeSlider::-ms-thumb {
+.Slider::-ms-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
     height: 16px;

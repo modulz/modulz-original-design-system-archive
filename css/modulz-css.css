@@ -11094,45 +11094,79 @@ a {
     font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: -.038em;
-    margin-left: -1.5px
+    margin-left: -1.5px;
+    line-height: 3.2rem
 }
-.Heading.small {
-    font-size: 2rem;
-    letter-spacing: -.02em;/*line-height: 1.35;*/
-    margin-left: -.5px
-}
-.Heading.large {
-    font-size: 2.6rem;
-    font-weight: 600;
-    letter-spacing: -0.058em;
-    margin-left: -2.5px
+@media (min-width: 62em) {
+    .Heading {
+        font-size: 2.6rem;
+        line-height: 3.6rem
+    }
 }
 .Heading.title {
     font-size: 4rem;
     font-weight: 600;
     letter-spacing: -0.058em;
-    margin-left: -2.5px
+    margin-left: -2.5px;
+    line-height: 4.4rem
 }
 @media (min-width: 62em) {
-    .Heading {
-        font-size: 2.6rem
+    .Heading.title {
+        font-size: 7.2rem;
+        line-height: 68px
     }
+}
+.Heading.large {
+    font-size: 2.6rem;
+    font-weight: 600;
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
+    line-height: 3.2rem
+}
+@media (min-width: 62em) {
+    .Heading.large {
+        font-size: 4rem;
+        margin-left: -3.2px;
+        line-height: 4.4rem
+    }
+}
+.Heading.sub {
+    font-weight: 300
+}
+.Heading.small {
+    font-size: 2rem;
+    letter-spacing: -.02em;
+    line-height: 2.4rem;
+    margin-left: -.5px
+}
+@media (min-width: 62em) {
     .Heading.small {
         font-size: 2.2rem;
         letter-spacing: -.018em;
-        margin-left: -1.5px
-    }
-    .Heading.large {
-        font-size: 4rem;
-        margin-left: -3.2px
-    }
-    .Heading.title {
-        font-size: 7.2rem
+        margin-left: -1.5px;
+        line-height: 2.8rem
     }
 }
-.Heading.thin {
-    font-weight: 300
+.Heading.small {
+    font-size: 2rem;
+    letter-spacing: -.02em;
+    line-height: 2.4rem;
+    margin-left: -.5px
 }
+@media (min-width: 62em) {
+    .Heading.small {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.8rem
+    }
+}
+.Heading.xsmall {
+    font-size: 1.6rem;
+    letter-spacing: -.02em;
+    line-height: 2rem
+}
+/* Colors */
 .Heading.white {
     color: hsl(0, 0%, 100%)
 }

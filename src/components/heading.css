@@ -3,20 +3,12 @@
     font-weight: 600;
     letter-spacing: -.038em;
     margin-left: -1.5px;
-}
+    line-height: var(--leading-6);
 
-.Heading.small {
-    font-size: var(--fontSize-7);
-    letter-spacing: -.02em;
-    /*line-height: 1.35;*/
-    margin-left: -.5px;
-}
-
-.Heading.large {
-    font-size: var(--fontSize-9);
-    font-weight: 600;
-    letter-spacing: -0.058em;
-    margin-left: -2.5px;
+    @media (--breakpoint-2) {
+        font-size: var(--fontSize-9);
+        line-height: var(--leading-7);
+    }
 }
 
 .Heading.title {
@@ -24,30 +16,67 @@
     font-weight: 600;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
+    line-height: var(--leading-9);
+
+    @media (--breakpoint-2) {
+        font-size: var(--fontSize-13);
+        line-height: 68px;
+    }
 }
 
-@media (--breakpoint-2) {
-    .Heading {
-        font-size: var(--fontSize-9);
-    }
+.Heading.large {
+    font-size: var(--fontSize-9);
+    font-weight: 600;
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
+    line-height: var(--leading-6);
 
-    .Heading.small {
+    @media (--breakpoint-2) {
+        font-size: var(--fontSize-11);
+        margin-left: -3.2px;
+        line-height: var(--leading-9);
+    }
+}
+
+.Heading.sub {
+    font-weight: 300;
+}
+
+.Heading.small {
+    font-size: var(--fontSize-7);
+    letter-spacing: -.02em;
+    line-height: var(--leading-4);
+    margin-left: -.5px;
+
+    @media (--breakpoint-2) {
         font-size: var(--fontSize-8);
         letter-spacing: -.018em;
         margin-left: -1.5px;
-    }
-
-    .Heading.large {
-        font-size: var(--fontSize-11);
-        margin-left: -3.2px;
-    }
-
-    .Heading.title {
-        font-size: var(--fontSize-13);
+        line-height: var(--leading-5);
     }
 }
 
-.Heading.thin { font-weight: 300; }
+.Heading.small {
+    font-size: var(--fontSize-7);
+    letter-spacing: -.02em;
+    line-height: var(--leading-4);
+    margin-left: -.5px;
+
+    @media (--breakpoint-2) {
+        font-size: var(--fontSize-8);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: var(--leading-5);
+    }
+}
+
+.Heading.xsmall {
+    font-size: var(--fontSize-5);
+    letter-spacing: -.02em;
+    line-height: var(--leading-3);
+}
+
+/* Colors */
 
 .Heading.white { color: var(--white); }
 .Heading.black { color: var(--black); }

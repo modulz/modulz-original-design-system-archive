@@ -1,6 +1,8 @@
 .ListItemGroup {
+    list-style: none;
     padding-top: var(--spacing-1);
     padding-bottom: var(--spacing-1);
+    width: 100%;
 }
 
 .ListItem {

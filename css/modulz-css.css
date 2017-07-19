@@ -331,7 +331,7 @@ a {
 
 /* Global style variables */
 /* Variables */
-:root {/* Media queries *//* Color palette *//* Font sizes  *//* Spacing  *//* Transition durations  *//* Border radius  *//* Leading  *//* Shadow */
+:root {/* Media queries *//* Color palette *//* Background *//* Background *//* Stroke *//* Stroke *//* Text *//* Background *//* Background & text *//* Font sizes  *//* Spacing  *//* Transition durations  *//* Border radius  *//* Leading  *//* Shadow */
 }
 
 /* Utilities */
@@ -5046,7 +5046,7 @@ a {
 }
 
 .bc-red {
-    background-color: hsl(0, 92%, 66%)
+    background-color: hsl(0, 100%, 65%)
 }
 
 .bc-redTint {
@@ -5058,7 +5058,7 @@ a {
 }
 
 .bc-pink {
-    background-color: hsl(332, 94%, 55%)
+    background-color: hsl(338, 100%, 57%)
 }
 
 .bc-pinkTint {
@@ -5066,7 +5066,7 @@ a {
 }
 
 .bc-purple {
-    background-color: hsl(288, 64%, 42%)
+    background-color: hsl(268, 60%, 47%)
 }
 
 .bc-purpleTint {
@@ -5074,7 +5074,7 @@ a {
 }
 
 .bc-violet {
-    background-color: hsl(264, 52%, 45%)
+    background-color: hsl(246, 60%, 52%)
 }
 
 .bc-violetTint {
@@ -5082,7 +5082,7 @@ a {
 }
 
 .bc-indigo {
-    background-color: hsl(226, 56%, 48%)
+    background-color: hsl(226, 60%, 54%)
 }
 
 .bc-indigoTint {
@@ -5090,7 +5090,7 @@ a {
 }
 
 .bc-blue {
-    background-color: hsl(205, 95%, 50%)
+    background-color: hsl(209, 100%, 50%)
 }
 
 .bc-blueTint {
@@ -5106,7 +5106,7 @@ a {
 }
 
 .bc-teal {
-    background-color: hsl(172, 100%, 35%)
+    background-color: hsl(180, 100%, 36%)
 }
 
 .bc-tealTint {
@@ -5114,7 +5114,7 @@ a {
 }
 
 .bc-green {
-    background-color: hsl(132, 52%, 53%)
+    background-color: hsl(150, 60%, 56%)
 }
 
 .bc-greenTint {
@@ -5122,7 +5122,7 @@ a {
 }
 
 .bc-lime {
-    background-color: hsl(68, 74%, 50%)
+    background-color: hsl(68, 82%, 50%)
 }
 
 .bc-limeTint {
@@ -5130,7 +5130,7 @@ a {
 }
 
 .bc-yellow {
-    background-color: hsl(54, 98%, 50%)
+    background-color: hsl(52, 100%, 50%)
 }
 
 .bc-yellowTint {
@@ -5138,7 +5138,7 @@ a {
 }
 
 .bc-amber {
-    background-color: hsl(46, 100%, 57%)
+    background-color: hsl(40, 100%, 50%)
 }
 
 .bc-amberTint {
@@ -5146,7 +5146,7 @@ a {
 }
 
 .bc-orange {
-    background-color: hsl(36, 100%, 50%)
+    background-color: hsl(30, 100%, 50%)
 }
 
 .bc-orangeTint {
@@ -5170,19 +5170,19 @@ a {
 }
 
 .bc-gray100 {
-    background-color: hsl(205, 43%, 99%)
+    background-color: hsl(210, 50%, 99%)
 }
 
 .bc-gray200 {
-    background-color: hsl(205, 26%, 96%)
+    background-color: hsl(210, 35%, 96%)
 }
 
 .bc-gray800 {
-    background-color: hsl(205, 43%, 11%)
+    background-color: hsl(210, 30%, 12%)
 }
 
 .bc-gray900 {
-    background-color: hsl(205, 43%, 5%)
+    background-color: hsl(210, 30%, 7%)
 }
 
 /* Hover states */
@@ -5228,22 +5228,22 @@ a {
         background-color: rgba(0,0,0, var(--limpid))
     }
     .bc-red--hover:hover {
-        background-color: hsl(0, 92%, 66%)
+        background-color: hsl(0, 100%, 65%)
     }
     .bc-pink--hover:hover {
-        background-color: hsl(332, 94%, 55%)
+        background-color: hsl(338, 100%, 57%)
     }
     .bc-purple--hover:hover {
-        background-color: hsl(288, 64%, 42%)
+        background-color: hsl(268, 60%, 47%)
     }
     .bc-deepPurple--hover:hover {
-        background-color: hsl(264, 52%, 45%)
+        background-color: hsl(246, 60%, 52%)
     }
     .bc-indigo--hover:hover {
-        background-color: hsl(226, 56%, 48%)
+        background-color: hsl(226, 60%, 54%)
     }
     .bc-blue--hover:hover {
-        background-color: hsl(205, 95%, 50%)
+        background-color: hsl(209, 100%, 50%)
     }
     .bc-lightBlue--hover:hover {
         background-color: #03A9F4
@@ -5252,25 +5252,25 @@ a {
         background-color: var(--cyan)
     }
     .bc-teal--hover:hover {
-        background-color: hsl(172, 100%, 35%)
+        background-color: hsl(180, 100%, 36%)
     }
     .bc-green--hover:hover {
-        background-color: hsl(132, 52%, 53%)
+        background-color: hsl(150, 60%, 56%)
     }
     .bc-lightGreen--hover:hover {
         background-color: var(--lightGreen)
     }
     .bc-lime--hover:hover {
-        background-color: hsl(68, 74%, 50%)
+        background-color: hsl(68, 82%, 50%)
     }
     .bc-yellow--hover:hover {
-        background-color: hsl(54, 98%, 50%)
+        background-color: hsl(52, 100%, 50%)
     }
     .bc-amber--hover:hover {
-        background-color: hsl(46, 100%, 57%)
+        background-color: hsl(40, 100%, 50%)
     }
     .bc-orange--hover:hover {
-        background-color: hsl(36, 100%, 50%)
+        background-color: hsl(30, 100%, 50%)
     }
     .bc-deepOrange--hover:hover {
         background-color: hsl(18, 100%, 60%)
@@ -5306,25 +5306,25 @@ a {
         background-color: var(--tealBright)
     }
     .bc-pearl--hover:hover {
-        background-color: hsl(205, 43%, 99%)
+        background-color: hsl(210, 50%, 99%)
     }
     .bc-snow--hover:hover {
-        background-color: hsl(205, 26%, 96%)
+        background-color: hsl(210, 35%, 96%)
     }
     .bc-smoke--hover:hover {
-        background-color: hsl(205, 29%, 92%)
+        background-color: hsl(210, 29%, 92%)
     }
     .bc-silver--hover:hover {
-        background-color: hsl(205, 22%, 70%)
+        background-color: hsl(210, 22%, 70%)
     }
     .bc-steel--hover:hover {
-        background-color: hsl(205, 14%, 46%)
+        background-color: hsl(210, 14%, 46%)
     }
     .bc-lead--hover:hover {
-        background-color: hsl(205, 43%, 11%)
+        background-color: hsl(210, 30%, 12%)
     }
     .bc-charcoal--hover:hover {
-        background-color: hsl(205, 43%, 5%)
+        background-color: hsl(210, 30%, 7%)
     }
 }
 
@@ -5383,27 +5383,27 @@ a {
 }
 
 .bc-red--focus:focus {
-    background-color: hsl(0, 92%, 66%)
+    background-color: hsl(0, 100%, 65%)
 }
 
 .bc-pink--focus:focus {
-    background-color: hsl(332, 94%, 55%)
+    background-color: hsl(338, 100%, 57%)
 }
 
 .bc-purple--focus:focus {
-    background-color: hsl(288, 64%, 42%)
+    background-color: hsl(268, 60%, 47%)
 }
 
 .bc-deepPurple--focus:focus {
-    background-color: hsl(264, 52%, 45%)
+    background-color: hsl(246, 60%, 52%)
 }
 
 .bc-indigo--focus:focus {
-    background-color: hsl(226, 56%, 48%)
+    background-color: hsl(226, 60%, 54%)
 }
 
 .bc-blue--focus:focus {
-    background-color: hsl(205, 95%, 50%)
+    background-color: hsl(209, 100%, 50%)
 }
 
 .bc-lightBlue--focus:focus {
@@ -5415,11 +5415,11 @@ a {
 }
 
 .bc-teal--focus:focus {
-    background-color: hsl(172, 100%, 35%)
+    background-color: hsl(180, 100%, 36%)
 }
 
 .bc-green--focus:focus {
-    background-color: hsl(132, 52%, 53%)
+    background-color: hsl(150, 60%, 56%)
 }
 
 .bc-lightGreen--focus:focus {
@@ -5427,19 +5427,19 @@ a {
 }
 
 .bc-lime--focus:focus {
-    background-color: hsl(68, 74%, 50%)
+    background-color: hsl(68, 82%, 50%)
 }
 
 .bc-yellow--focus:focus {
-    background-color: hsl(54, 98%, 50%)
+    background-color: hsl(52, 100%, 50%)
 }
 
 .bc-amber--focus:focus {
-    background-color: hsl(46, 100%, 57%)
+    background-color: hsl(40, 100%, 50%)
 }
 
 .bc-orange--focus:focus {
-    background-color: hsl(36, 100%, 50%)
+    background-color: hsl(30, 100%, 50%)
 }
 
 .bc-deepOrange--focus:focus {
@@ -5487,31 +5487,31 @@ a {
 }
 
 .bc-pearl--focus:focus {
-    background-color: hsl(205, 43%, 99%)
+    background-color: hsl(210, 50%, 99%)
 }
 
 .bc-snow--focus:focus {
-    background-color: hsl(205, 26%, 96%)
+    background-color: hsl(210, 35%, 96%)
 }
 
 .bc-smoke--focus:focus {
-    background-color: hsl(205, 29%, 92%)
+    background-color: hsl(210, 29%, 92%)
 }
 
 .bc-silver--focus:focus {
-    background-color: hsl(205, 22%, 70%)
+    background-color: hsl(210, 22%, 70%)
 }
 
 .bc-steel--focus:focus {
-    background-color: hsl(205, 14%, 46%)
+    background-color: hsl(210, 14%, 46%)
 }
 
 .bc-lead--focus:focus {
-    background-color: hsl(205, 43%, 11%)
+    background-color: hsl(210, 30%, 12%)
 }
 
 .bc-charcoal--focus:focus {
-    background-color: hsl(205, 43%, 5%)
+    background-color: hsl(210, 30%, 7%)
 }
 /* Border color */
 .borderColor-white {
@@ -5554,22 +5554,22 @@ a {
     border-color: rgba(0,0,0, var(--limpid))
 }
 .borderColor-red {
-    border-color: hsl(0, 92%, 66%)
+    border-color: hsl(0, 100%, 65%)
 }
 .borderColor-pink {
-    border-color: hsl(332, 94%, 55%)
+    border-color: hsl(338, 100%, 57%)
 }
 .borderColor-purple {
-    border-color: hsl(288, 64%, 42%)
+    border-color: hsl(268, 60%, 47%)
 }
 .borderColor-deepPurple {
-    border-color: hsl(264, 52%, 45%)
+    border-color: hsl(246, 60%, 52%)
 }
 .borderColor-indigo {
-    border-color: hsl(226, 56%, 48%)
+    border-color: hsl(226, 60%, 54%)
 }
 .borderColor-blue {
-    border-color: hsl(205, 95%, 50%)
+    border-color: hsl(209, 100%, 50%)
 }
 .borderColor-lightBlue {
     border-color: #03A9F4
@@ -5578,25 +5578,25 @@ a {
     border-color: var(--cyan)
 }
 .borderColor-teal {
-    border-color: hsl(172, 100%, 35%)
+    border-color: hsl(180, 100%, 36%)
 }
 .borderColor-green {
-    border-color: hsl(132, 52%, 53%)
+    border-color: hsl(150, 60%, 56%)
 }
 .borderColor-lightGreen {
     border-color: var(--lightGreen)
 }
 .borderColor-lime {
-    border-color: hsl(68, 74%, 50%)
+    border-color: hsl(68, 82%, 50%)
 }
 .borderColor-yellow {
-    border-color: hsl(54, 98%, 50%)
+    border-color: hsl(52, 100%, 50%)
 }
 .borderColor-amber {
-    border-color: hsl(46, 100%, 57%)
+    border-color: hsl(40, 100%, 50%)
 }
 .borderColor-orange {
-    border-color: hsl(36, 100%, 50%)
+    border-color: hsl(30, 100%, 50%)
 }
 .borderColor-deepOrange {
     border-color: hsl(18, 100%, 60%)
@@ -5632,25 +5632,25 @@ a {
     border-color: var(--tealBright)
 }
 .borderColor-pearl {
-    border-color: hsl(205, 43%, 99%)
+    border-color: hsl(210, 50%, 99%)
 }
 .borderColor-snow {
-    border-color: hsl(205, 26%, 96%)
+    border-color: hsl(210, 35%, 96%)
 }
 .borderColor-smoke {
-    border-color: hsl(205, 29%, 92%)
+    border-color: hsl(210, 29%, 92%)
 }
 .borderColor-silver {
-    border-color: hsl(205, 22%, 70%)
+    border-color: hsl(210, 22%, 70%)
 }
 .borderColor-steel {
-    border-color: hsl(205, 14%, 46%)
+    border-color: hsl(210, 14%, 46%)
 }
 .borderColor-lead {
-    border-color: hsl(205, 43%, 11%)
+    border-color: hsl(210, 30%, 12%)
 }
 .borderColor-charcoal {
-    border-color: hsl(205, 43%, 5%)
+    border-color: hsl(210, 30%, 7%)
 }
 /* Hover states */
 @media (hover) {
@@ -5694,22 +5694,22 @@ a {
         border-color: rgba(0,0,0, var(--limpid))
     }
     .borderColor-red--hover:hover {
-        border-color: hsl(0, 92%, 66%)
+        border-color: hsl(0, 100%, 65%)
     }
     .borderColor-pink--hover:hover {
-        border-color: hsl(332, 94%, 55%)
+        border-color: hsl(338, 100%, 57%)
     }
     .borderColor-purple--hover:hover {
-        border-color: hsl(288, 64%, 42%)
+        border-color: hsl(268, 60%, 47%)
     }
     .borderColor-deepPurple--hover:hover {
-        border-color: hsl(264, 52%, 45%)
+        border-color: hsl(246, 60%, 52%)
     }
     .borderColor-indigo--hover:hover {
-        border-color: hsl(226, 56%, 48%)
+        border-color: hsl(226, 60%, 54%)
     }
     .borderColor-blue--hover:hover {
-        border-color: hsl(205, 95%, 50%)
+        border-color: hsl(209, 100%, 50%)
     }
     .borderColor-lightBlue--hover:hover {
         border-color: #03A9F4
@@ -5718,25 +5718,25 @@ a {
         border-color: var(--cyan)
     }
     .borderColor-teal--hover:hover {
-        border-color: hsl(172, 100%, 35%)
+        border-color: hsl(180, 100%, 36%)
     }
     .borderColor-green--hover:hover {
-        border-color: hsl(132, 52%, 53%)
+        border-color: hsl(150, 60%, 56%)
     }
     .borderColor-lightGreen--hover:hover {
         border-color: var(--lightGreen)
     }
     .borderColor-lime--hover:hover {
-        border-color: hsl(68, 74%, 50%)
+        border-color: hsl(68, 82%, 50%)
     }
     .borderColor-yellow--hover:hover {
-        border-color: hsl(54, 98%, 50%)
+        border-color: hsl(52, 100%, 50%)
     }
     .borderColor-amber--hover:hover {
-        border-color: hsl(46, 100%, 57%)
+        border-color: hsl(40, 100%, 50%)
     }
     .borderColor-orange--hover:hover {
-        border-color: hsl(36, 100%, 50%)
+        border-color: hsl(30, 100%, 50%)
     }
     .borderColor-deepOrange--hover:hover {
         border-color: hsl(18, 100%, 60%)
@@ -5772,25 +5772,25 @@ a {
         border-color: var(--tealBright)
     }
     .borderColor-pearl--hover:hover {
-        border-color: hsl(205, 43%, 99%)
+        border-color: hsl(210, 50%, 99%)
     }
     .borderColor-snow--hover:hover {
-        border-color: hsl(205, 26%, 96%)
+        border-color: hsl(210, 35%, 96%)
     }
     .borderColor-smoke--hover:hover {
-        border-color: hsl(205, 29%, 92%)
+        border-color: hsl(210, 29%, 92%)
     }
     .borderColor-silver--hover:hover {
-        border-color: hsl(205, 22%, 70%)
+        border-color: hsl(210, 22%, 70%)
     }
     .borderColor-steel--hover:hover {
-        border-color: hsl(205, 14%, 46%)
+        border-color: hsl(210, 14%, 46%)
     }
     .borderColor-lead--hover:hover {
-        border-color: hsl(205, 43%, 11%)
+        border-color: hsl(210, 30%, 12%)
     }
     .borderColor-charcoal--hover:hover {
-        border-color: hsl(205, 43%, 5%)
+        border-color: hsl(210, 30%, 7%)
     }
 }
 /* Focus states */
@@ -5834,22 +5834,22 @@ a {
     border-color: rgba(0,0,0, var(--limpid))
 }
 .borderColor-red--focus:focus {
-    border-color: hsl(0, 92%, 66%)
+    border-color: hsl(0, 100%, 65%)
 }
 .borderColor-pink--focus:focus {
-    border-color: hsl(332, 94%, 55%)
+    border-color: hsl(338, 100%, 57%)
 }
 .borderColor-purple--focus:focus {
-    border-color: hsl(288, 64%, 42%)
+    border-color: hsl(268, 60%, 47%)
 }
 .borderColor-deepPurple--focus:focus {
-    border-color: hsl(264, 52%, 45%)
+    border-color: hsl(246, 60%, 52%)
 }
 .borderColor-indigo--focus:focus {
-    border-color: hsl(226, 56%, 48%)
+    border-color: hsl(226, 60%, 54%)
 }
 .borderColor-blue--focus:focus {
-    border-color: hsl(205, 95%, 50%)
+    border-color: hsl(209, 100%, 50%)
 }
 .borderColor-lightBlue--focus:focus {
     border-color: #03A9F4
@@ -5858,25 +5858,25 @@ a {
     border-color: var(--cyan)
 }
 .borderColor-teal--focus:focus {
-    border-color: hsl(172, 100%, 35%)
+    border-color: hsl(180, 100%, 36%)
 }
 .borderColor-green--focus:focus {
-    border-color: hsl(132, 52%, 53%)
+    border-color: hsl(150, 60%, 56%)
 }
 .borderColor-lightGreen--focus:focus {
     border-color: var(--lightGreen)
 }
 .borderColor-lime--focus:focus {
-    border-color: hsl(68, 74%, 50%)
+    border-color: hsl(68, 82%, 50%)
 }
 .borderColor-yellow--focus:focus {
-    border-color: hsl(54, 98%, 50%)
+    border-color: hsl(52, 100%, 50%)
 }
 .borderColor-amber--focus:focus {
-    border-color: hsl(46, 100%, 57%)
+    border-color: hsl(40, 100%, 50%)
 }
 .borderColor-orange--focus:focus {
-    border-color: hsl(36, 100%, 50%)
+    border-color: hsl(30, 100%, 50%)
 }
 .borderColor-deepOrange--focus:focus {
     border-color: hsl(18, 100%, 60%)
@@ -5912,25 +5912,25 @@ a {
     border-color: var(--tealBright)
 }
 .borderColor-pearl--focus:focus {
-    border-color: hsl(205, 43%, 99%)
+    border-color: hsl(210, 50%, 99%)
 }
 .borderColor-snow--focus:focus {
-    border-color: hsl(205, 26%, 96%)
+    border-color: hsl(210, 35%, 96%)
 }
 .borderColor-smoke--focus:focus {
-    border-color: hsl(205, 29%, 92%)
+    border-color: hsl(210, 29%, 92%)
 }
 .borderColor-silver--focus:focus {
-    border-color: hsl(205, 22%, 70%)
+    border-color: hsl(210, 22%, 70%)
 }
 .borderColor-steel--focus:focus {
-    border-color: hsl(205, 14%, 46%)
+    border-color: hsl(210, 14%, 46%)
 }
 .borderColor-lead--focus:focus {
-    border-color: hsl(205, 43%, 11%)
+    border-color: hsl(210, 30%, 12%)
 }
 .borderColor-charcoal--focus:focus {
-    border-color: hsl(205, 43%, 5%)
+    border-color: hsl(210, 30%, 7%)
 }
 /* Border radius */
 .br-0 {
@@ -6267,7 +6267,7 @@ a {
     box-shadow: 0 6px 20px 1px hsla(208, 20%, 10%, .15), 0 3px 10px 0px hsla(208, 20%, 10%, .08)
 }
 .bs-bevel {
-    box-shadow: inset 0 1px 0 0 hsl(205, 29%, 92%), inset 1px 0 0 0 hsl(205, 29%, 92%), inset -1px 0 0 0 hsl(205, 29%, 92%), inset 0 -1px 0 0 hsl(205, 22%, 70%)
+    box-shadow: inset 0 1px 0 0 hsl(210, 29%, 92%), inset 1px 0 0 0 hsl(210, 29%, 92%), inset -1px 0 0 0 hsl(210, 29%, 92%), inset 0 -1px 0 0 hsl(210, 22%, 70%)
 }
 /* Hover states */
 @media (hover) {
@@ -6284,7 +6284,7 @@ a {
         box-shadow: 0 6px 20px 1px hsla(208, 20%, 10%, .15), 0 3px 10px 0px hsla(208, 20%, 10%, .08)
     }
     .bs-bevel--hover:hover {
-        box-shadow: inset 0 1px 0 0 hsl(205, 29%, 92%), inset 1px 0 0 0 hsl(205, 29%, 92%), inset -1px 0 0 0 hsl(205, 29%, 92%), inset 0 -1px 0 0 hsl(205, 22%, 70%)
+        box-shadow: inset 0 1px 0 0 hsl(210, 29%, 92%), inset 1px 0 0 0 hsl(210, 29%, 92%), inset -1px 0 0 0 hsl(210, 29%, 92%), inset 0 -1px 0 0 hsl(210, 22%, 70%)
     }
 }
 /* Inset border hack */
@@ -6325,22 +6325,22 @@ a {
     box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--limpid))
 }
 .bs-red {
-    box-shadow: inset 0 0 0 1px hsl(0, 92%, 66%)
+    box-shadow: inset 0 0 0 1px hsl(0, 100%, 65%)
 }
 .bs-pink {
-    box-shadow: inset 0 0 0 1px hsl(332, 94%, 55%)
+    box-shadow: inset 0 0 0 1px hsl(338, 100%, 57%)
 }
 .bs-purple {
-    box-shadow: inset 0 0 0 1px hsl(288, 64%, 42%)
+    box-shadow: inset 0 0 0 1px hsl(268, 60%, 47%)
 }
 .bs-deepPurple {
-    box-shadow: inset 0 0 0 1px hsl(264, 52%, 45%)
+    box-shadow: inset 0 0 0 1px hsl(246, 60%, 52%)
 }
 .bs-indigo {
-    box-shadow: inset 0 0 0 1px hsl(226, 56%, 48%)
+    box-shadow: inset 0 0 0 1px hsl(226, 60%, 54%)
 }
 .bs-blue {
-    box-shadow: inset 0 0 0 1px hsl(205, 95%, 50%)
+    box-shadow: inset 0 0 0 1px hsl(209, 100%, 50%)
 }
 .bs-lightBlue {
     box-shadow: inset 0 0 0 1px #03A9F4
@@ -6349,25 +6349,25 @@ a {
     box-shadow: inset 0 0 0 1px var(--cyan)
 }
 .bs-teal {
-    box-shadow: inset 0 0 0 1px hsl(172, 100%, 35%)
+    box-shadow: inset 0 0 0 1px hsl(180, 100%, 36%)
 }
 .bs-green {
-    box-shadow: inset 0 0 0 1px hsl(132, 52%, 53%)
+    box-shadow: inset 0 0 0 1px hsl(150, 60%, 56%)
 }
 .bs-lightGreen {
     box-shadow: inset 0 0 0 1px var(--lightGreen)
 }
 .bs-lime {
-    box-shadow: inset 0 0 0 1px hsl(68, 74%, 50%)
+    box-shadow: inset 0 0 0 1px hsl(68, 82%, 50%)
 }
 .bs-yellow {
-    box-shadow: inset 0 0 0 1px hsl(54, 98%, 50%)
+    box-shadow: inset 0 0 0 1px hsl(52, 100%, 50%)
 }
 .bs-amber {
-    box-shadow: inset 0 0 0 1px hsl(46, 100%, 57%)
+    box-shadow: inset 0 0 0 1px hsl(40, 100%, 50%)
 }
 .bs-orange {
-    box-shadow: inset 0 0 0 1px hsl(36, 100%, 50%)
+    box-shadow: inset 0 0 0 1px hsl(30, 100%, 50%)
 }
 .bs-deepOrange {
     box-shadow: inset 0 0 0 1px hsl(18, 100%, 60%)
@@ -6403,25 +6403,25 @@ a {
     box-shadow: inset 0 0 0 1px var(--tealBright)
 }
 .bs-pearl {
-    box-shadow: inset 0 0 0 1px hsl(205, 43%, 99%)
+    box-shadow: inset 0 0 0 1px hsl(210, 50%, 99%)
 }
 .bs-snow {
-    box-shadow: inset 0 0 0 1px hsl(205, 26%, 96%)
+    box-shadow: inset 0 0 0 1px hsl(210, 35%, 96%)
 }
 .bs-smoke {
-    box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%)
+    box-shadow: inset 0 0 0 1px hsl(210, 29%, 92%)
 }
 .bs-silver {
-    box-shadow: inset 0 0 0 1px hsl(205, 22%, 70%)
+    box-shadow: inset 0 0 0 1px hsl(210, 22%, 70%)
 }
 .bs-steel {
-    box-shadow: inset 0 0 0 1px hsl(205, 14%, 46%)
+    box-shadow: inset 0 0 0 1px hsl(210, 14%, 46%)
 }
 .bs-lead {
-    box-shadow: inset 0 0 0 1px hsl(205, 43%, 11%)
+    box-shadow: inset 0 0 0 1px hsl(210, 30%, 12%)
 }
 .bs-charcoal {
-    box-shadow: inset 0 0 0 1px hsl(205, 43%, 5%)
+    box-shadow: inset 0 0 0 1px hsl(210, 30%, 7%)
 }
 /* Inset border hack hover states */
 @media (hover) {
@@ -6462,22 +6462,22 @@ a {
         box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--limpid))
     }
     .bs-red--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(0, 92%, 66%)
+        box-shadow: inset 0 0 0 1px hsl(0, 100%, 65%)
     }
     .bs-pink--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(332, 94%, 55%)
+        box-shadow: inset 0 0 0 1px hsl(338, 100%, 57%)
     }
     .bs-purple--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(288, 64%, 42%)
+        box-shadow: inset 0 0 0 1px hsl(268, 60%, 47%)
     }
     .bs-deepPurple--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(264, 52%, 45%)
+        box-shadow: inset 0 0 0 1px hsl(246, 60%, 52%)
     }
     .bs-indigo--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(226, 56%, 48%)
+        box-shadow: inset 0 0 0 1px hsl(226, 60%, 54%)
     }
     .bs-blue--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 95%, 50%)
+        box-shadow: inset 0 0 0 1px hsl(209, 100%, 50%)
     }
     .bs-lightBlue--hover:hover {
         box-shadow: inset 0 0 0 1px #03A9F4
@@ -6486,25 +6486,25 @@ a {
         box-shadow: inset 0 0 0 1px var(--cyan)
     }
     .bs-teal--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(172, 100%, 35%)
+        box-shadow: inset 0 0 0 1px hsl(180, 100%, 36%)
     }
     .bs-green--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(132, 52%, 53%)
+        box-shadow: inset 0 0 0 1px hsl(150, 60%, 56%)
     }
     .bs-lightGreen--hover:hover {
         box-shadow: inset 0 0 0 1px var(--lightGreen)
     }
     .bs-lime--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(68, 74%, 50%)
+        box-shadow: inset 0 0 0 1px hsl(68, 82%, 50%)
     }
     .bs-yellow--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(54, 98%, 50%)
+        box-shadow: inset 0 0 0 1px hsl(52, 100%, 50%)
     }
     .bs-amber--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(46, 100%, 57%)
+        box-shadow: inset 0 0 0 1px hsl(40, 100%, 50%)
     }
     .bs-orange--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(36, 100%, 50%)
+        box-shadow: inset 0 0 0 1px hsl(30, 100%, 50%)
     }
     .bs-deepOrange--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(18, 100%, 60%)
@@ -6540,25 +6540,25 @@ a {
         box-shadow: inset 0 0 0 1px var(--tealBright)
     }
     .bs-pearl--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 43%, 99%)
+        box-shadow: inset 0 0 0 1px hsl(210, 50%, 99%)
     }
     .bs-snow--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 26%, 96%)
+        box-shadow: inset 0 0 0 1px hsl(210, 35%, 96%)
     }
     .bs-smoke--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%)
+        box-shadow: inset 0 0 0 1px hsl(210, 29%, 92%)
     }
     .bs-silver--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 22%, 70%)
+        box-shadow: inset 0 0 0 1px hsl(210, 22%, 70%)
     }
     .bs-steel--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 14%, 46%)
+        box-shadow: inset 0 0 0 1px hsl(210, 14%, 46%)
     }
     .bs-lead--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 43%, 11%)
+        box-shadow: inset 0 0 0 1px hsl(210, 30%, 12%)
     }
     .bs-charcoal--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(205, 43%, 5%)
+        box-shadow: inset 0 0 0 1px hsl(210, 30%, 7%)
     }
 }
 /* Color */
@@ -6602,40 +6602,40 @@ a {
     color: hsla(0, 0%, 0%, .9)
 }
 .color-red {
-    color: hsl(0, 92%, 66%)
+    color: hsl(0, 100%, 65%)
 }
 .color-pink {
-    color: hsl(332, 94%, 55%)
+    color: hsl(338, 100%, 57%)
 }
 .color-purple {
-    color: hsl(288, 64%, 42%)
+    color: hsl(268, 60%, 47%)
 }
 .color-violet {
-    color: hsl(264, 52%, 45%)
+    color: hsl(246, 60%, 52%)
 }
 .color-indigo {
-    color: hsl(226, 56%, 48%)
+    color: hsl(226, 60%, 54%)
 }
 .color-blue {
-    color: hsl(205, 95%, 50%)
+    color: hsl(209, 100%, 50%)
 }
 .color-teal {
-    color: hsl(172, 100%, 35%)
+    color: hsl(180, 100%, 36%)
 }
 .color-green {
-    color: hsl(132, 52%, 53%)
+    color: hsl(150, 60%, 56%)
 }
 .color-lime {
-    color: hsl(68, 74%, 50%)
+    color: hsl(68, 82%, 50%)
 }
 .color-yellow {
-    color: hsl(54, 98%, 50%)
+    color: hsl(52, 100%, 50%)
 }
 .color-amber {
-    color: hsl(46, 100%, 57%)
+    color: hsl(40, 100%, 50%)
 }
 .color-orange {
-    color: hsl(36, 100%, 50%)
+    color: hsl(30, 100%, 50%)
 }
 .color-lavender {
     color: hsl(255, 74%, 60%)
@@ -6653,16 +6653,16 @@ a {
     color: hsl(132, 52%, 38%)
 }
 .color-gray400 {
-    color: hsl(205, 22%, 70%)
+    color: hsl(210, 22%, 70%)
 }
 .color-gray500 {
-    color: hsl(205, 14%, 46%)
+    color: hsl(210, 14%, 46%)
 }
 .color-gray800 {
-    color: hsl(205, 43%, 11%)
+    color: hsl(210, 30%, 12%)
 }
 .color-gray900 {
-    color: hsl(205, 43%, 5%)
+    color: hsl(210, 30%, 7%)
 }
 /* Hover states */
 @media (hover) {
@@ -6676,22 +6676,22 @@ a {
         color: var(--transparent)
     }
     .color-red--hover:hover {
-        color: hsl(0, 92%, 66%)
+        color: hsl(0, 100%, 65%)
     }
     .color-pink--hover:hover {
-        color: hsl(332, 94%, 55%)
+        color: hsl(338, 100%, 57%)
     }
     .color-purple--hover:hover {
-        color: hsl(288, 64%, 42%)
+        color: hsl(268, 60%, 47%)
     }
     .color-deepPurple--hover:hover {
-        color: hsl(264, 52%, 45%)
+        color: hsl(246, 60%, 52%)
     }
     .color-indigo--hover:hover {
-        color: hsl(226, 56%, 48%)
+        color: hsl(226, 60%, 54%)
     }
     .color-blue--hover:hover {
-        color: hsl(205, 95%, 50%)
+        color: hsl(209, 100%, 50%)
     }
     .color-lightBlue--hover:hover {
         color: #03A9F4
@@ -6700,25 +6700,25 @@ a {
         color: var(--cyan)
     }
     .color-teal--hover:hover {
-        color: hsl(172, 100%, 35%)
+        color: hsl(180, 100%, 36%)
     }
     .color-green--hover:hover {
-        color: hsl(132, 52%, 53%)
+        color: hsl(150, 60%, 56%)
     }
     .color-lightGreen--hover:hover {
         color: var(--lightGreen)
     }
     .color-lime--hover:hover {
-        color: hsl(68, 74%, 50%)
+        color: hsl(68, 82%, 50%)
     }
     .color-yellow--hover:hover {
-        color: hsl(54, 98%, 50%)
+        color: hsl(52, 100%, 50%)
     }
     .color-amber--hover:hover {
-        color: hsl(46, 100%, 57%)
+        color: hsl(40, 100%, 50%)
     }
     .color-orange--hover:hover {
-        color: hsl(36, 100%, 50%)
+        color: hsl(30, 100%, 50%)
     }
     .color-deepOrange--hover:hover {
         color: hsl(18, 100%, 60%)
@@ -6730,16 +6730,16 @@ a {
         color: var(--gray)
     }
     .color-silver--hover:hover {
-        color: hsl(205, 22%, 70%)
+        color: hsl(210, 22%, 70%)
     }
     .color-steel--hover:hover {
-        color: hsl(205, 14%, 46%)
+        color: hsl(210, 14%, 46%)
     }
     .color-charcoal--hover:hover {
-        color: hsl(205, 43%, 11%)
+        color: hsl(210, 30%, 12%)
     }
     .color-lead--hover:hover {
-        color: hsl(205, 43%, 5%)
+        color: hsl(210, 30%, 7%)
     }
 }
 /* Fill */
@@ -6777,40 +6777,40 @@ a {
     fill: rgba(0,0,0, var(--limpid))
 }
 .fill-red {
-    fill: hsl(0, 92%, 66%)
+    fill: hsl(0, 100%, 65%)
 }
 .fill-pink {
-    fill: hsl(332, 94%, 55%)
+    fill: hsl(338, 100%, 57%)
 }
 .fill-purple {
-    fill: hsl(288, 64%, 42%)
+    fill: hsl(268, 60%, 47%)
 }
 .fill-indigo {
-    fill: hsl(226, 56%, 48%)
+    fill: hsl(226, 60%, 54%)
 }
 .fill-blue {
-    fill: hsl(205, 95%, 50%)
+    fill: hsl(209, 100%, 50%)
 }
 .fill-cyan {
     fill: var(--cyan)
 }
 .fill-teal {
-    fill: hsl(172, 100%, 35%)
+    fill: hsl(180, 100%, 36%)
 }
 .fill-green {
-    fill: hsl(132, 52%, 53%)
+    fill: hsl(150, 60%, 56%)
 }
 .fill-lime {
-    fill: hsl(68, 74%, 50%)
+    fill: hsl(68, 82%, 50%)
 }
 .fill-yellow {
-    fill: hsl(54, 98%, 50%)
+    fill: hsl(52, 100%, 50%)
 }
 .fill-amber {
-    fill: hsl(46, 100%, 57%)
+    fill: hsl(40, 100%, 50%)
 }
 .fill-orange {
-    fill: hsl(36, 100%, 50%)
+    fill: hsl(30, 100%, 50%)
 }
 .fill-brown {
     fill: var(--brown)
@@ -6819,22 +6819,22 @@ a {
     fill: var(--gray)
 }
 .fill-pearl {
-    fill: hsl(205, 43%, 99%)
+    fill: hsl(210, 50%, 99%)
 }
 .fill-snow {
-    fill: hsl(205, 26%, 96%)
+    fill: hsl(210, 35%, 96%)
 }
 .fill-smoke {
-    fill: hsl(205, 29%, 92%)
+    fill: hsl(210, 29%, 92%)
 }
 .fill-steel {
-    fill: hsl(205, 14%, 46%)
+    fill: hsl(210, 14%, 46%)
 }
 .fill-lead {
-    fill: hsl(205, 43%, 11%)
+    fill: hsl(210, 30%, 12%)
 }
 .fill-charcoal {
-    fill: hsl(205, 43%, 5%)
+    fill: hsl(210, 30%, 7%)
 }
 /* Font family */
 .ff-sansSerif {
@@ -9778,7 +9778,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: hsl(205, 29%, 92%);
+    background-color: hsl(210, 29%, 92%);
     box-shadow: inset 0 0 0 1px rgba(0,0,0,.05);
     border-radius: 50%;
     display: -webkit-box;
@@ -9874,7 +9874,7 @@ a {
     height: 1.6rem;
     line-height: 1.6rem;
     background-color: hsl(0, 0%, 100%);
-    border: 1px solid hsl(205, 22%, 70%);
+    border: 1px solid hsl(210, 22%, 70%);
     box-shadow: 0 1px 3px rgba(0,0,0,.05);
     border-radius: 4px;
     -webkit-transition: all 100ms ease;
@@ -9884,7 +9884,7 @@ a {
 /* Hover state*/
 .Radio:hover > input ~ div {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-    border-color: hsl(205, 14%, 46%)
+    border-color: hsl(210, 14%, 46%)
 }
 /* Focus state */
 /*.Checkbox input:focus ~ .control-indicator,
@@ -9897,8 +9897,8 @@ a {
 /* Checked state */
 .Radio > input:checked ~ div {
     color: hsl(0, 0%, 100%);
-    background-color: hsl(205, 95%, 50%);
-    border-color: hsl(205, 95%, 50%);
+    background-color: hsl(209, 100%, 50%);
+    border-color: hsl(209, 100%, 50%);
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05)
 }
 /* Radio modifiers */
@@ -9944,7 +9944,7 @@ a {
     height: 1.6rem;
     line-height: 1.6rem;
     background-color: hsl(0, 0%, 100%);
-    border: 1px solid hsl(205, 22%, 70%);
+    border: 1px solid hsl(210, 22%, 70%);
     box-shadow: 0 1px 3px rgba(0,0,0,.05);
     border-radius: 2px;
     -webkit-transition: all 100ms ease;
@@ -9954,7 +9954,7 @@ a {
 /* Hover state*/
 .Checkbox:hover > input ~ div {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-    border-color: hsl(205, 14%, 46%)
+    border-color: hsl(210, 14%, 46%)
 }
 /* Focus state */
 /*.Checkbox input:focus ~ .control-indicator,
@@ -9967,8 +9967,8 @@ a {
 /* Checked state */
 .Checkbox > input:checked ~ div {
     color: hsl(0, 0%, 100%);
-    background-color: hsl(205, 95%, 50%);
-    border-color: hsl(205, 95%, 50%);
+    background-color: hsl(209, 100%, 50%);
+    border-color: hsl(209, 100%, 50%);
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05)
 }
 .Slider {
@@ -9987,7 +9987,7 @@ a {
     height: 4px;
     cursor: pointer;
     box-shadow: none;
-    background: hsl(205, 29%, 92%);
+    background: hsl(210, 29%, 92%);
     border-radius: 9999px;
     border: none
 }
@@ -9999,7 +9999,7 @@ a {
     height: 4px;
     cursor: pointer;
     box-shadow: none;
-    background: hsl(205, 29%, 92%);
+    background: hsl(210, 29%, 92%);
     border-radius: 9999px;
     border: none
 }
@@ -10013,7 +10013,7 @@ a {
     color: transparent
 }
 .Slider::-ms-fill-lower {
-    background: hsl(205, 29%, 92%);
+    background: hsl(210, 29%, 92%);
     border: none;
     border-radius: 9999px;
     box-shadow: none
@@ -10022,7 +10022,7 @@ a {
     background: var(--blue500);
 }*/
 .Slider::-ms-fill-upper {
-    background: hsl(205, 29%, 92%);
+    background: hsl(210, 29%, 92%);
     border: none;
     border-radius: 9999px;
     box-shadow: none
@@ -10036,7 +10036,7 @@ a {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    background: hsl(205, 14%, 46%);
+    background: hsl(210, 14%, 46%);
     cursor: pointer;
     -webkit-appearance: none;
             appearance: none;
@@ -10056,7 +10056,7 @@ a {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    background: hsl(205, 14%, 46%);
+    background: hsl(210, 14%, 46%);
     cursor: pointer;
     -webkit-transition: -webkit-transform 100ms ease;
     transition: -webkit-transform 100ms ease;
@@ -10072,7 +10072,7 @@ a {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    background: hsl(205, 14%, 46%);
+    background: hsl(210, 14%, 46%);
     cursor: pointer
 }
 .Switch {
@@ -10091,7 +10091,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: hsl(205, 22%, 70%);
+    background-color: hsl(210, 22%, 70%);
     -webkit-transition: all 100ms;
     transition: all 100ms;
     border-radius: 9999px
@@ -10103,7 +10103,7 @@ a {
     width: 2.4rem;
     left: 0;
     bottom: -4px;
-    background-color: hsl(205, 14%, 46%);
+    background-color: hsl(210, 14%, 46%);
     -webkit-transition: all 100ms ease;
     transition: all 100ms ease;
     border-radius: 50%;
@@ -10115,7 +10115,7 @@ a {
 .Switch input:checked + div:before {
     -webkit-transform: translateX(1.6rem);
             transform: translateX(1.6rem);
-    background-color: hsl(172, 100%, 35%)
+    background-color: hsl(180, 100%, 36%)
 }
 /* Grid */
 .Grid {
@@ -10471,10 +10471,10 @@ a {
     padding: 4px;
     font-size: 14px;
     letter-spacing: 0;
-    color: hsl(205, 95%, 50%);
+    color: hsl(209, 100%, 50%);
     border-radius: 4px;
-    background-color: hsl(205, 43%, 99%);
-    box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%);
+    background-color: hsl(210, 50%, 99%);
+    box-shadow: inset 0 0 0 1px hsl(210, 29%, 92%);
     white-space: nowrap
 }
 /* Element to act as Context hook */
@@ -10536,7 +10536,7 @@ a {
 .Divider {
     height: 1px;
     border: 0;
-    background-color: hsl(205, 29%, 92%);
+    background-color: hsl(210, 29%, 92%);
     margin: 0
 }
 .TabMenu {
@@ -10565,7 +10565,7 @@ a {
     background-color: white;
     padding: 0 .8rem;
     cursor: pointer;
-    color: hsl(205, 14%, 46%);
+    color: hsl(210, 14%, 46%);
     text-align: center;
     margin-left: 4px;
     -webkit-transition: all 100ms ease;
@@ -10575,11 +10575,11 @@ a {
     margin-left: 0
 }
 .Tab:hover {
-    box-shadow: inset 0 -2px 0 0 hsl(205, 29%, 92%);
+    box-shadow: inset 0 -2px 0 0 hsl(210, 29%, 92%);
     color: inherit
 }
 .Tab.active {
-    box-shadow: inset 0 -2px 0 0 hsl(205, 95%, 50%);
+    box-shadow: inset 0 -2px 0 0 hsl(209, 100%, 50%);
     color: inherit;
     cursor: default
 }
@@ -10611,7 +10611,7 @@ a {
             animation: Loader 1s infinite ease-in-out
 }
 .Loader {
-    color: hsl(205, 22%, 70%);
+    color: hsl(210, 22%, 70%);
     position: relative;
     top: -.8rem;
     left: 1.6rem;/*transform: translateZ(0);*/
@@ -10650,20 +10650,20 @@ a {
 .StatusIndicator {
     width: 8px;
     height: 8px;
-    background-color: hsl(205, 29%, 92%);
+    background-color: hsl(210, 29%, 92%);
     border-radius: 50%
 }
 .StatusIndicator.primary {
-    background-color: hsl(205, 95%, 50%)
+    background-color: hsl(209, 100%, 50%)
 }
 .StatusIndicator.positive {
-    background-color: hsl(132, 52%, 53%)
+    background-color: hsl(150, 60%, 56%)
 }
 .StatusIndicator.intermediary {
-    background-color: hsl(46, 100%, 57%)
+    background-color: hsl(40, 100%, 50%)
 }
 .StatusIndicator.negative {
-    background-color: hsl(0, 92%, 66%)
+    background-color: hsl(0, 100%, 65%)
 }
 .Badge {
     display: -webkit-inline-box;
@@ -10677,7 +10677,7 @@ a {
     height: 1.6rem;
     padding: 0 .8rem;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%);
+    box-shadow: inset 0 0 0 1px hsl(210, 29%, 92%);
     font-weight: 600;
     border-radius: 9999px;
     letter-spacing: .6px;
@@ -10685,7 +10685,7 @@ a {
 }
 .Badge.primary {
     background-color: hsl(205, 100%, 97%);
-    color: hsl(205, 95%, 50%);
+    color: hsl(209, 100%, 50%);
     box-shadow: none
 }
 .Badge.positive {
@@ -10700,7 +10700,7 @@ a {
 }
 .Badge.negative {
     background-color: hsl(0, 92%, 97%);
-    color: hsl(0, 92%, 66%);
+    color: hsl(0, 100%, 65%);
     box-shadow: none
 }
 .ListItemGroup {
@@ -10739,7 +10739,7 @@ a {
     background-color: hsl(205, 95%, 92%)
 }
 .ListItem.active {
-    background-color: hsl(205, 95%, 50%);
+    background-color: hsl(209, 100%, 50%);
     color: hsl(0, 0%, 100%)
 }
 /* Functional styles */
@@ -10793,14 +10793,14 @@ a {
 }
 /* Neutral button */
 .Button {
-    background-color: hsl(205, 43%, 99%);
-    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05), inset 0 0 0 1px hsl(205, 22%, 70%);
-    color: hsl(205, 43%, 5%);
-    fill: hsl(205, 43%, 5%);
-    stroke: hsl(205, 43%, 5%)
+    background-color: hsl(210, 50%, 99%);
+    box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05), inset 0 0 0 1px hsl(210, 22%, 70%);
+    color: hsl(210, 30%, 7%);
+    fill: hsl(210, 30%, 7%);
+    stroke: hsl(210, 30%, 7%)
 }
 .Button:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(205, 14%, 46%)
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(210, 14%, 46%)
 }
 .Button:active {
     box-shadow: inset 0 0 0 1px hsl(204, 18%, 51%)
@@ -10863,30 +10863,30 @@ a {
 }
 /* Active state */
 .Button.is-active {
-    background-color: hsl(205, 29%, 92%);
-    color: hsl(205, 14%, 46%);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(205, 22%, 70%)
+    background-color: hsl(210, 29%, 92%);
+    color: hsl(210, 14%, 46%);
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(210, 22%, 70%)
 }
 .Button.is-active:hover {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(205, 14%, 46%)
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(210, 14%, 46%)
 }
 .Button.is-active:active {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(205, 14%, 46%)
+    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px hsl(210, 14%, 46%)
 }
 /* Disabled state */
 .Button.is-disabled {
-    background-color: hsl(205, 26%, 96%);
-    color: hsl(205, 22%, 70%);
-    box-shadow: inset 0 0 0 1px hsl(205, 29%, 92%);
+    background-color: hsl(210, 35%, 96%);
+    color: hsl(210, 22%, 70%);
+    box-shadow: inset 0 0 0 1px hsl(210, 29%, 92%);
     pointer-events: none
 }
 /* Base component */
 .PillButton {/* Must extend button class here */
-    background-color: hsl(205, 29%, 92%);
+    background-color: hsl(210, 29%, 92%);
     box-shadow: 0 2px 5px rgba(32, 52, 61, 0.04), 0 1px 2px rgba(0, 0, 0, .05);
     border-radius: 9999px;
     font-size: 1.2rem;
@@ -10911,27 +10911,27 @@ a {
     color: hsl(0, 0%, 100%)
 }
 .PillButton.red {
-    background-color: hsl(0, 92%, 66%);
+    background-color: hsl(0, 100%, 65%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.pink {
-    background-color: hsl(332, 94%, 55%);
+    background-color: hsl(338, 100%, 57%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.purple {
-    background-color: hsl(288, 64%, 42%);
+    background-color: hsl(268, 60%, 47%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.violet {
-    background-color: hsl(264, 52%, 45%);
+    background-color: hsl(246, 60%, 52%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.indigo {
-    background-color: hsl(226, 56%, 48%);
+    background-color: hsl(226, 60%, 54%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.blue {
-    background-color: hsl(205, 95%, 50%);
+    background-color: hsl(209, 100%, 50%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.lavender {
@@ -10939,23 +10939,23 @@ a {
     color: hsl(0, 0%, 100%)
 }
 .PillButton.teal {
-    background-color: hsl(172, 100%, 35%);
+    background-color: hsl(180, 100%, 36%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.green {
-    background-color: hsl(132, 52%, 53%)
+    background-color: hsl(150, 60%, 56%)
 }
 .PillButton.lime {
-    background-color: hsl(68, 74%, 50%)
+    background-color: hsl(68, 82%, 50%)
 }
 .PillButton.yellow {
-    background-color: hsl(54, 98%, 50%)
+    background-color: hsl(52, 100%, 50%)
 }
 .PillButton.amber {
-    background-color: hsl(46, 100%, 57%)
+    background-color: hsl(40, 100%, 50%)
 }
 .PillButton.orange {
-    background-color: hsl(36, 100%, 50%);
+    background-color: hsl(30, 100%, 50%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.crimson {
@@ -10979,19 +10979,19 @@ a {
 }
 .Table th, .Table td {
     padding: 16px;
-    border-top: 1px solid hsl(205, 29%, 92%)
+    border-top: 1px solid hsl(210, 29%, 92%)
 }
 .Table th {
     font-weight: normal;
-    color: hsl(205, 14%, 46%)
+    color: hsl(210, 14%, 46%)
 }
 .Table thead th {
     font-weight: normal;
     border-top: none;
-    border-bottom: 1px solid hsl(205, 22%, 70%)
+    border-bottom: 1px solid hsl(210, 22%, 70%)
 }
 .Table.zebra tbody tr:nth-of-type(odd) {
-    background-color: hsl(205, 43%, 99%)
+    background-color: hsl(210, 50%, 99%)
 }
 .Table.interactive tbody tr:hover {
     background-color: hsl(205, 100%, 97%)
@@ -11010,7 +11010,7 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 1.6rem;
-    background-color: hsl(205, 34%, 15%);
+    background-color: hsl(210, 25%, 33%);
     width: 100vw;
     color: hsl(0, 0%, 100%);
     -webkit-transition-property: opacity, -webkit-transform;
@@ -11174,46 +11174,46 @@ a {
     color: hsl(0, 0%, 0%)
 }
 .Heading.gray {
-    color: hsl(205, 14%, 46%)
+    color: hsl(210, 14%, 46%)
 }
 .Heading.red {
-    color: hsl(0, 92%, 66%)
+    color: hsl(0, 100%, 65%)
 }
 .Heading.pink {
-    color: hsl(332, 94%, 55%)
+    color: hsl(338, 100%, 57%)
 }
 .Heading.purple {
-    color: hsl(288, 64%, 42%)
+    color: hsl(268, 60%, 47%)
 }
 .Heading.violet {
-    color: hsl(264, 52%, 45%)
+    color: hsl(246, 60%, 52%)
 }
 .Heading.indigo {
-    color: hsl(226, 56%, 48%)
+    color: hsl(226, 60%, 54%)
 }
 .Heading.blue {
-    color: hsl(205, 95%, 50%)
+    color: hsl(209, 100%, 50%)
 }
 .Heading.lavender {
     color: hsl(255, 74%, 60%)
 }
 .Heading.teal {
-    color: hsl(172, 100%, 35%)
+    color: hsl(180, 100%, 36%)
 }
 .Heading.green {
-    color: hsl(132, 52%, 53%)
+    color: hsl(150, 60%, 56%)
 }
 .Heading.lime {
-    color: hsl(68, 74%, 50%)
+    color: hsl(68, 82%, 50%)
 }
 .Heading.yellow {
-    color: hsl(54, 98%, 50%)
+    color: hsl(52, 100%, 50%)
 }
 .Heading.amber {
-    color: hsl(46, 100%, 57%)
+    color: hsl(40, 100%, 50%)
 }
 .Heading.orange {
-    color: hsl(36, 100%, 50%)
+    color: hsl(30, 100%, 50%)
 }
 .Heading.crimson {
     color: hsl(18, 100%, 60%)
@@ -11243,49 +11243,49 @@ a {
     color: hsl(0, 0%, 0%)
 }
 .Text.gray {
-    color: hsl(205, 14%, 46%)
+    color: hsl(210, 25%, 33%)
 }
 .Text.red {
-    color: hsl(0, 92%, 66%)
+    color: hsl(0, 92%, 46%)
 }
 .Text.pink {
-    color: hsl(332, 94%, 55%)
+    color: var(--pink700)
 }
 .Text.purple {
-    color: hsl(288, 64%, 42%)
+    color: var(--purple700)
 }
 .Text.violet {
-    color: hsl(264, 52%, 45%)
+    color: var(--violet700)
 }
 .Text.indigo {
-    color: hsl(226, 56%, 48%)
+    color: var(--indigo700)
 }
 .Text.blue {
-    color: hsl(205, 95%, 50%)
+    color: hsl(205, 95%, 35%)
 }
 .Text.lavender {
-    color: hsl(255, 74%, 60%)
+    color: var(--lavender700)
 }
 .Text.teal {
-    color: hsl(172, 100%, 35%)
+    color: hsl(172, 52%, 38%)
 }
 .Text.green {
-    color: hsl(132, 52%, 53%)
+    color: hsl(132, 52%, 38%)
 }
 .Text.lime {
-    color: hsl(68, 74%, 50%)
+    color: var(--lime700)
 }
 .Text.yellow {
-    color: hsl(54, 98%, 50%)
+    color: var(--yellow700)
 }
 .Text.amber {
-    color: hsl(46, 100%, 57%)
+    color: var(--amber700)
 }
 .Text.orange {
-    color: hsl(36, 100%, 50%)
+    color: var(--orange700)
 }
 .Text.crimson {
-    color: hsl(18, 100%, 60%)
+    color: var(--crimson700)
 }
 .Input {
     height: 3.2rem;
@@ -11295,7 +11295,7 @@ a {
     border-radius: 4px;
     border: none;
     outline: none;
-    box-shadow: inset 0 0 0 1px hsl(205, 22%, 70%), 0 0 0 1px rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 1px hsl(210, 22%, 70%), 0 0 0 1px rgba(0,0,0,0);
     width: 100%;
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
@@ -11305,25 +11305,25 @@ a {
             transition-timing-function: linear
 }
 .Input::-webkit-input-placeholder {
-    color: hsl(205, 22%, 70%);
+    color: hsl(210, 22%, 70%);
     opacity: 1
 }
 .Input::-moz-placeholder {
-    color: hsl(205, 22%, 70%);
+    color: hsl(210, 22%, 70%);
     opacity: 1
 }
 .Input:-ms-input-placeholder {
-    color: hsl(205, 22%, 70%);
+    color: hsl(210, 22%, 70%);
     opacity: 1
 }
 .Input:hover {
-    box-shadow: inset 0 0 0 1px hsl(205, 14%, 46%), 0 0 0 1px rgba(0,0,0,0)
+    box-shadow: inset 0 0 0 1px hsl(210, 14%, 46%), 0 0 0 1px rgba(0,0,0,0)
 }
 .Input:focus {
-    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(205, 95%, 50%)
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05), inset 0 0 0 1px hsl(209, 100%, 50%)
 }
 .Input:focus ~ .FormGroup-label {
-    color: hsl(205, 95%, 50%)
+    color: hsl(209, 100%, 50%)
 }
 /* Sizes */
 .Input.large {
@@ -11346,7 +11346,7 @@ a {
 }
 .FormGroup-hint {
     font-size: 1.2rem;
-    color: hsl(205, 14%, 46%);
+    color: hsl(210, 14%, 46%);
     display: block;
     margin-top: .8rem
 }
@@ -11384,17 +11384,17 @@ a {
     line-height: 1.5
 }
 .PrimaryLink {
-    color: hsl(205, 95%, 50%)
+    color: hsl(209, 100%, 50%)
 }
 .PrimaryLink:hover {
     color: hsl(205, 95%, 35%)
 }
 .LightLink {
-    color: hsl(205, 14%, 46%);
+    color: hsl(210, 14%, 46%);
     background-image: none
 }
 .LightLink:hover {
-    color: hsl(205, 43%, 11%)
+    color: hsl(210, 30%, 12%)
 }
 .Link.has-darkBg {
     color: hsl(0, 0%, 100%)
@@ -11405,10 +11405,10 @@ a {
     background-image: linear-gradient(to right, currentColor 0%, currentColor 100%)
 }
 .Link--light {
-    color: hsl(205, 14%, 46%)
+    color: hsl(210, 14%, 46%)
 }
 .Link--light:hover {
-    color: hsl(205, 95%, 50%)
+    color: hsl(209, 100%, 50%)
 }
 .Link--light.has-darkBg {
     color: rgba(255,255,255,.5)
@@ -11417,10 +11417,10 @@ a {
     color: hsl(0, 0%, 100%)
 }
 .Link--dark {
-    color: hsl(205, 43%, 11%)
+    color: hsl(210, 30%, 12%)
 }
 .Link--dark:hover {
-    color: hsl(205, 95%, 50%)
+    color: hsl(209, 100%, 50%)
 }
 .Container {
     width: 83.3333333333vw;
@@ -11473,49 +11473,49 @@ a {
     padding-bottom: 6.4rem
 }
 .Section.pearl {
-    background-color: hsl(205, 43%, 99%)
+    background-color: hsl(210, 50%, 99%)
 }
 .Section.snow {
-    background-color: hsl(205, 26%, 96%)
+    background-color: hsl(210, 35%, 96%)
 }
 .Section.red {
-    background-color: hsl(0, 92%, 66%)
+    background-color: hsl(0, 100%, 65%)
 }
 .Section.pink {
-    background-color: hsl(332, 94%, 55%)
+    background-color: hsl(338, 100%, 57%)
 }
 .Section.purple {
-    background-color: hsl(288, 64%, 42%)
+    background-color: hsl(268, 60%, 47%)
 }
 .Section.violet {
-    background-color: hsl(264, 52%, 45%)
+    background-color: hsl(246, 60%, 52%)
 }
 .Section.indigo {
-    background-color: hsl(226, 56%, 48%)
+    background-color: hsl(226, 60%, 54%)
 }
 .Section.blue {
-    background-color: hsl(205, 95%, 50%)
+    background-color: hsl(209, 100%, 50%)
 }
 .Section.lavender {
     background-color: hsl(255, 74%, 60%)
 }
 .Section.teal {
-    background-color: hsl(172, 100%, 35%)
+    background-color: hsl(180, 100%, 36%)
 }
 .Section.green {
-    background-color: hsl(132, 52%, 53%)
+    background-color: hsl(150, 60%, 56%)
 }
 .Section.lime {
-    background-color: hsl(68, 74%, 50%)
+    background-color: hsl(68, 82%, 50%)
 }
 .Section.yellow {
-    background-color: hsl(54, 98%, 50%)
+    background-color: hsl(52, 100%, 50%)
 }
 .Section.amber {
-    background-color: hsl(46, 100%, 57%)
+    background-color: hsl(40, 100%, 50%)
 }
 .Section.orange {
-    background-color: hsl(36, 100%, 50%)
+    background-color: hsl(30, 100%, 50%)
 }
 .Section.crimson {
     background-color: hsl(18, 100%, 60%)
@@ -11537,7 +11537,7 @@ a {
     background-color: transparent
 }
 .Scrollbar::-webkit-scrollbar-thumb {
-    background-color: hsl(205, 22%, 70%)
+    background-color: hsl(210, 22%, 70%)
 }
 .SideDrawer {
     background-color: white;

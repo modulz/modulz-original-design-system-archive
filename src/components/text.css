@@ -22,19 +22,19 @@
 
 .Text.white { color: var(--white); }
 .Text.black { color: var(--black); }
-.Text.gray { color: var(--gray500); }
+.Text.gray { color: var(--gray700); }
 
-.Text.red { color: var(--red500); }
-.Text.pink { color: var(--pink500); }
-.Text.purple { color: var(--purple500); }
-.Text.violet { color: var(--violet500); }
-.Text.indigo { color: var(--indigo500); }
-.Text.blue { color: var(--blue500); }
-.Text.lavender { color: var(--lavender500); }
-.Text.teal { color: var(--teal500); }
-.Text.green { color: var(--green500); }
-.Text.lime { color: var(--lime500); }
-.Text.yellow { color: var(--yellow500); }
-.Text.amber { color: var(--amber500); }
-.Text.orange { color: var(--orange500); }
-.Text.crimson { color: var(--crimson500); }
+.Text.red { color: var(--red700); }
+.Text.pink { color: var(--pink700); }
+.Text.purple { color: var(--purple700); }
+.Text.violet { color: var(--violet700); }
+.Text.indigo { color: var(--indigo700); }
+.Text.blue { color: var(--blue700); }
+.Text.lavender { color: var(--lavender700); }
+.Text.teal { color: var(--teal700); }
+.Text.green { color: var(--green700); }
+.Text.lime { color: var(--lime700); }
+.Text.yellow { color: var(--yellow700); }
+.Text.amber { color: var(--amber700); }
+.Text.orange { color: var(--orange700); }
+.Text.crimson { color: var(--crimson700); }

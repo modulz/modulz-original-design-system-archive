@@ -11528,7 +11528,7 @@ a {
     padding-bottom: 0
 }
 .Scrollbar {
-    overflow: auto
+    overflow-x: scroll
 }
 .Scrollbar::-webkit-scrollbar {
     height: 4px;
@@ -11539,6 +11539,14 @@ a {
 }
 .Scrollbar::-webkit-scrollbar-thumb {
     background-color: hsl(210, 22%, 70%)
+}
+/* Hidden scrollbars */
+.Scrollbar.hidden::-webkit-scrollbar {
+    height: 0;
+    width: 0
+}
+.Scrollbar.hidden::-webkit-scrollbar-track, .Scrollbar.hidden::-webkit-scrollbar-thumb {
+    visibility: hidden
 }
 .SideDrawer {
     background-color: white;

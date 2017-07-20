@@ -1,5 +1,5 @@
 .Scrollbar {
-    overflow: auto;
+    overflow-x: scroll;
 }
 
 .Scrollbar::-webkit-scrollbar {
@@ -13,4 +13,16 @@
 
 .Scrollbar::-webkit-scrollbar-thumb {
     background-color: var(--gray400);
+}
+
+/* Hidden scrollbars */
+
+.Scrollbar.hidden::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.Scrollbar.hidden::-webkit-scrollbar-track ,
+.Scrollbar.hidden::-webkit-scrollbar-thumb {
+    visibility: hidden;
 }

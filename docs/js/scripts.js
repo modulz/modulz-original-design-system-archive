@@ -47,7 +47,7 @@ $(function() {
 
     // Prevent scroll bubbling
 
-    $(document).on('DOMMouseScroll mousewheel', '.Scrollbar', function(ev) {
+    $(document).on('DOMMouseScroll mousewheel', '.js-preventScrollBubbling', function(ev) {
         var $this = $(this),
             scrollTop = this.scrollTop,
             scrollHeight = this.scrollHeight,

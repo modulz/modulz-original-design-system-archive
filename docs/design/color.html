@@ -14,95 +14,41 @@
         <link rel="stylesheet" href="../vendor/highlight.css">
 
         <style media="screen">
-            .ColorWheel {
-                content: "";
+            .ColorWheelHero {
                 position: relative;
-                border-radius: 50%;
-                width: 30rem;
-                height: 30rem;
-                margin-left: auto;
-                margin-right: auto;
             }
 
-            .ColorWheel-segment {
+            .ColorWheelHero:before {
+                display: block;
+                position: absolute;
                 content: "";
-                clip: rect(0px, 31rem, 30rem, 15rem);
-                border-radius: 50%;
-                position: absolute;
-                width: 30rem;
-                height: 30rem;
-            }
-
-            .ColorWheel-segment:after {
-                content: "";
-                position: absolute;
-                border-radius: 50%;
-                width: 30rem;
-                height: 30rem;
-                clip: rect(0px, 15rem, 30rem, 0px);
-            }
-
-            .ColorWheel-segment:nth-child(1):after { background-color: hsl(68, 82%, 50%); z-index: 12; transform: rotate(30deg); }
-            .ColorWheel-segment:nth-child(2):after { background-color: hsl(150, 60%, 56%); z-index: 11; transform: rotate(60deg); }
-            .ColorWheel-segment:nth-child(3):after { background-color: hsl(180, 100%, 36%); z-index: 10; transform: rotate(90deg); }
-            .ColorWheel-segment:nth-child(4):after { background-color: hsl(209, 100%, 50%); z-index: 9; transform: rotate(120deg); }
-            .ColorWheel-segment:nth-child(5):after { background-color: hsl(226, 60%, 54%); z-index: 8; transform: rotate(150deg); }
-            .ColorWheel-segment:nth-child(6):after { background-color: hsl(246, 60%, 52%); z-index: 7; transform: rotate(180deg); }
-            .ColorWheel-segment:nth-child(7):after { background-color: hsl(268, 60%, 47%); z-index: 6; transform: rotate(180deg); }
-            .ColorWheel-segment:nth-child(8):after { background-color: hsl(338, 100%, 57%); z-index: 5; transform: rotate(210deg); }
-            .ColorWheel-segment:nth-child(9):after { background-color: hsl(0, 100%, 65%); z-index: 4; transform: rotate(240deg); }
-            .ColorWheel-segment:nth-child(10):after { background-color: hsl(30, 100%, 50%); z-index: 3; transform: rotate(270deg); }
-            .ColorWheel-segment:nth-child(11):after { background-color: hsl(40, 100%, 50%); z-index: 2; transform: rotate(300deg); }
-            .ColorWheel-segment:nth-child(12):after { background-color: hsl(52, 100%, 50%); z-index: 1; transform: rotate(330deg); }
-
-            .ColorWheel-segment:nth-child(n+7) { transform: rotate(180deg); }
-            .ColorWheel-segment:nth-child(7):after { clip: rect(0px, 15rem, 30rem, 0px); }
-
-            .ColorWheel-segment.grayscale:after {
-                filter: grayscale(1);
-            }
-
-            /* Dividers */
-            .ColorWheel-divider {
-                position: absolute;
-                top: 50%;
-                left: 0%;
+                transform: rotate(45deg);
+                background: linear-gradient(hsla(210,100%, 20%,.08), transparent);
                 width: 100%;
-                height: 1px;
-                z-index: 20;
-                border-top: 2px solid white;
-                border-radius: 9999px;
+                height: 100%;
+                top: 50%;
+                left: 0;
+                transform-origin: top center;
             }
 
-            .ColorWheel-ring {
-                position: absolute;
-                z-index: 20;
-                border-radius: 50%;
-                border: 2px solid white;
+            .Swatch {
+                cursor: pointer;
             }
 
-            @media (min-width: 38em) {
-                .ColorWheel {
-                    width: 40rem;
-                    height: 40rem;
-                }
-
-                .ColorWheel-segment {
-                    content: "";
-                    clip: rect(0px, 41rem, 40rem, 20rem);
-                    width: 40rem;
-                    height: 40rem;
-                }
-
-                .ColorWheel-segment:after {
-                    width: 40rem;
-                    height: 40rem;
-                    clip: rect(0px, 20rem, 40rem, 0px);
-                }
-
-                .ColorWheel-segment:nth-child(7):after { clip: rect(0px, 21rem, 40rem, 0px); }
+            .Swatch.is-active {
+                border: 4px solid white;
+                box-shadow: 0 0 0 2px black;
             }
-            /* Rings */
+
+            .Swatch:hover {
+                transition: transform 80ms ease;
+                transform: scale(1.2);
+            }
+
+            .Swatch.is-active:hover {
+                transform: unset;
+                cursor: default;
+            }
         </style>
     </head>
     <body class="ff-whitney color-charcoal tr-optimizeLegibility">
@@ -111,203 +57,379 @@
         <aside class="SideDrawer js-SideDrawer js-Navigation"></aside>
 
         <main>
-            <header class="Section large">
-                <div class="Container ta-center" style="padding-bottom: 80px;">
+            <header class="Section large" style="padding-bottom: 270px;">
+                <div class="Container ta-center">
                     <div class="mb-3">
-                      <h1 class="Heading large lh-9" style="font-size: 6.4rem; font-weight: 300; letter-spacing: -6px;">Color system</h1>
+                      <h1 class="Heading large lh-9 fw-6" style="font-size: 6.4rem; letter-spacing: -5px;">Color system</h1>
                     </div>
-                    <div style="margin-bottom: 10rem;">
-                        <p class="Heading sub gray">A gorgeous, balanced, 12-point color system.</p>
+                    <div>
+                        <p class="Heading sub gray">A gorgeous, balanced, 12&ndash;point color system.</p>
                     </div>
                 </div>
             </header>
 
             <section class="Section large snow">
                 <div class="Container large">
-                    <!-- <div class="ColorWheel" style="margin-top: -265px; margin-left: auto; margin-right: auto; margin-bottom: 40px;">
-                        <div class="ColorWheel-ring" style="top: 5%; left: 5%; width: 90%; height: 90%; z-index: 20; box-shadow: 0 0 0 20px rgba(0,0,0,0); border-radius: 50%; border: 2px solid white;"></div>
-                        <div class="ColorWheel-ring" style="top: 10%; left: 10%; width: 80%; height: 80%; box-shadow: 0 0 0 18px rgba(0,0,0,0);"></div>
-                        <div class="ColorWheel-ring" style="top: 15%; left: 15%; width: 70%; height: 70%; box-shadow: 0 0 0 18px rgba(255,255,255,.2);"></div>
-                        <div class="ColorWheel-ring" style="top: 20%; left: 20%; width: 60%; height: 60%; box-shadow: 0 0 0 18px rgba(255,255,255,.4);"></div>
-                        <div class="ColorWheel-ring" style="top: 25%; left: 25%; width: 50%; height: 50%; box-shadow: 0 0 0 18px rgba(255,255,255,.5);"></div>
-                        <div class="ColorWheel-ring" style="top: 30%; left: 30%; width: 40%; height: 40%; box-shadow: 0 0 0 18px rgba(255,255,255,.6);"></div>
-                        <div class="ColorWheel-ring" style="top: 35%; left: 35%; width: 30%; height: 30%; box-shadow: 0 0 0 18px rgba(255,255,255,.7);"></div>
-                        <div class="ColorWheel-ring" style="top: 40%; left: 40%; width: 20%; height: 20%; box-shadow: 0 0 0 18px rgba(255,255,255,.8);"></div>
-                        <div class="ColorWheel-ring" style="top: 45%; left: 45%; width: 10%; height: 10%; background: rgba(255,255,255,1); box-shadow: 0 0 0 18px rgba(255,255,255,.85);"></div>
-
-                        <div class="ColorWheel-divider" style="transform: rotate(.2deg);"></div>
-                        <div class="ColorWheel-divider" style="transform: rotate(30deg);"></div>
-                        <div class="ColorWheel-divider" style="transform: rotate(60deg);"></div>
-                        <div class="ColorWheel-divider" style="transform: rotate(90deg);"></div>
-                        <div class="ColorWheel-divider" style="transform: rotate(120deg);"></div>
-                        <div class="ColorWheel-divider" style="transform: rotate(150deg);"></div>
-
-                        <div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
-                            <div class="ColorWheel-segment"></div>
+                    <div class="display-flex width-100 jc-center mb-7" style="margin-top: -310px;">
+                        <div class="ColorWheelHero">
+                            <svg class="width-100 position-relative zi-1" width="460" height="460" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M70 18.7C90.6 6.7 114.5 0 140 0v140L70 18.7z" fill="#FD0"/>
+                                    <path d="M70 18.7C49.2 30.7 31.3 48 18.6 70L140 140 70 18.7z" fill="#FA0"/>
+                                    <path d="M18.7 70C6.7 90.6 0 114.5 0 140h140L18.7 70z" fill="#FF8000"/>
+                                    <path d="M18.7 210C6.7 189.4 0 165.5 0 140h140L18.7 210z" fill="#FF4D4D"/>
+                                    <path d="M70 261.3c-20.7-12-38.6-29.2-51.3-51.3L140 140 70 261.3z" fill="#FF2474"/>
+                                    <path d="M70 261.3c20.6 12 44.5 18.7 70 18.7V140L70 261.3z" fill="#7330C0"/>
+                                    <path d="M210 261.3c-20.6 12-44.5 18.7-70 18.7V140l70 121.3z" fill="#4A3BCE"/>
+                                    <path d="M210 261.3c20.6-12 38.5-29.2 51.2-51.3L140 140l70 121.3z" fill="#4364D0"/>
+                                    <path d="M261.3 210c12-20.6 18.7-44.5 18.7-70H140l121.3 70z" fill="#0084FF"/>
+                                    <path d="M261.3 70c12 20.6 18.7 44.5 18.7 70H140l121.3-70z" fill="#00B8B8"/>
+                                    <path d="M261.2 70L140 140l70-121.3c20.6 12 38.5 29.2 51.2 51.3z" fill="#4BD28F"/>
+                                    <path d="M210 18.7C189.4 6.7 165.5 0 140 0v140l70-121.3z" fill="#CCE817"/>
+                                    <g fill="#FFF">
+                                        <path d="M71 18.3l140 242.4-2 1L69 19.3z"/>
+                                        <path d="M19.3 69l242.4 140-1 2L18.3 71z"/>
+                                        <path d="M0 139h280v2H0z"/>
+                                        <path d="M260.7 69l1 2L19.3 211l-1-2z"/>
+                                        <path d="M209 18.3l2 1L71 261.7l-2-1z"/>
+                                        <path d="M139 0h2v280h-2z"/>
+                                    </g>
+                                    <g transform="translate(12 12)">
+                                        <circle fill="rgba(255,255,255,0)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="127"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="115"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="103"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="91"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="79"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="67"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="55"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="43"/>
+                                        <circle fill="#FFF" cx="128" cy="128" r="32"/>
+                                    </g>
+                                </g>
+                            </svg>
                         </div>
-                    </div> -->
-                    <div class="Grid">
-                        <div class="GridColumn--12 bp2-GridColumn--4">
-                            <p class="lh-5 mb-2" style="font-size: 16px;">
-                                <span class="fw-6">Crimson</span>
-                                is a colour between violet and green. Common associations
-                                include business, confidence and cold.
-                            </p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">HSL: hsl(348, 100%, 50%)</p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">RGB: rgb(0, 0, 255)</p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">Hex: #0000FF</p>
+                    </div>
+                    <div class="Grid position-relative zi-1">
+                        <div class="GridColumn--12 bp2-GridColumn--6">
+                            <div class="display-flex">
+                                <div class="mr-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="">
+                                    <div class="display-flex  ai-center mb-1" style="height: 48px;">
+                                        <h3 class="fs-6 fw-6">Accessibility</h3>
+                                    </div>
+                                    <p class="lh-5" style="font-size: 16px;">
+                                        What these tools do once you provide colors for testing is check
+                                        them against a contrast ratio. A contrast ratio of 3:1 is the
+                                        minimum standard for text and vision. For those with visual
+                                        impairments however, the contrast ratio standard is 4.5:1.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="GridColumn--12 bp2-GridColumn--4">
-                            <p class="lh-5 mb-2" style="font-size: 16px;">
-                                <span class="fw-6">Crimson</span>
-                                is a colour between violet and green. Common associations
-                                include business, confidence and cold.
-                            </p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">HSL: hsl(348, 100%, 50%)</p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">RGB: rgb(0, 0, 255)</p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">Hex: #0000FF</p>
-                        </div>
-                        <div class="GridColumn--12 bp2-GridColumn--4">
-                            <p class="lh-5 mb-2" style="font-size: 16px;">
-                                <span class="fw-6">Crimson</span>
-                                is a colour between violet and green. Common associations
-                                include business, confidence and cold.
-                            </p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">HSL: hsl(348, 100%, 50%)</p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">RGB: rgb(0, 0, 255)</p>
-                            <p class="lh-4 mb-1 color-gray500" style="font-size: 14px;">Hex: #0000FF</p>
+                        <div class="GridColumn--12 bp2-GridColumn--6">
+                            <div class="display-flex">
+                                <div class="mr-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="">
+                                    <div class="display-flex  ai-center mb-1" style="height: 48px;">
+                                        <h3 class="fs-6 fw-6">Accessibility</h3>
+                                    </div>
+                                    <p class="lh-5" style="font-size: 16px;">
+                                        What these tools do once you provide colors for testing is check
+                                        them against a contrast ratio. A contrast ratio of 3:1 is the
+                                        minimum standard for text and vision. For those with visual
+                                        impairments however, the contrast ratio standard is 4.5:1.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section class="Section large">
-                <div class="Container large">
-                    <div class="mb-1">
-                        <h2 class="Heading small">Color palette</h2>
-                    </div>
+                <div class="Container ta-center">
                     <div class="mb-3">
-                        <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6">There are 12 hues in
-                            total. Each hue has 5 lightness values ranging from light tints to dark
-                            shades.</p>
+                        <h2 class="Heading small" style="font-size: 44px; font-weight: 300; letter-spacing: -3px;">The palette</h2>
+                    </div>
+                    <div class="mb-6">
+                        <p class="Text large lh-5 bp1-lh-6 lh-5 bp1-lh-6 color-gray500">There
+                            are twelve different hues in total. Each hue has nine lightness values ranging
+                            from light tints to dark shades.</p>
+                    </div>
+                </div>
+                <div class="Container">
+                    <div class="mb-3">
+                        <div class="TabMenu jc-center" style="border-bottom: 1px solid #e6e9ec;">
+                            <div class="Tab active" style="font-size: 12px; letter-spacing: 2px;">
+                                Pure
+                            </div>
+                            <div class="Tab" style="font-size: 12px; letter-spacing: 2px;">
+                                Tones
+                            </div>
+                            <div class="Tab" style="font-size: 12px; letter-spacing: 2px;">
+                                Grayscale
+                            </div>
+                            <div class="Tab" style="font-size: 12px; letter-spacing: 2px;">
+                                Social
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Scrollbar hidden">
+                        <div class="pt-3 pl-1 pb-6 pr-5">
+                            <div class="display-flex">
+                                <div class="pr-4">
+                                    <div class="Swatch is-active bc-violet" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-purple" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-pink" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-red" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-orange" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-amber" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-yellow" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-lime" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-green" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-teal" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-blue" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-indigo" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                                <div class="pr-4">
+                                    <div class="Swatch bc-lime" style="width: 40px; height: 40px; border-radius: 50%;"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="Grid">
                         <div class="GridColumn--12 bp1-GridColumn--4">
-                            <div class="Scrollbar hidden" style="margin-left: -24px; margin-right: -24px;">
-                                <div class="pl-2 pt-1 pb-1 pr-5">
-                                    <div class="display-flex">
-                                        <div class="padding-1">
-                                            <div class="bc-violet" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-purple" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-pink" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-red" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-orange" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-amber" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-yellow" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-lime" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-green" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-teal" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-blue" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                        <div class="padding-1">
-                                            <div class="bc-indigo" style="width: 40px; height: 40px; border-radius: 50%;"></div>
-                                        </div>
-                                    </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3 fw-6 bc-violet color-white" style="margin-bottom: 2px; height: 80px;">
+                                <div class="">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3" style="background-color: hsl(205, 43%, 99%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3" style="background-color: hsl(205, 26%, 96%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3" style="background-color: hsl(205, 29%, 92%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3" style="background-color: hsl(205, 22%, 70%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3 color-white" style="background-color: hsl(205, 14%, 46%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3 color-white" style="background-color: hsl(205, 34%, 25%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3 color-white" style="background-color: hsl(205, 34%, 15%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3 color-white" style="background-color: hsl(205, 43%, 11%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
+                                </div>
+                            </div>
+                            <div class="display-flex ai-center jc-spaceBetween width-100 pl-2 pr-2 fs-3 color-white" style="background-color: hsl(205, 43%, 5%); height: 32px;">
+                                <div class="fw-6">
+                                    500
+                                </div>
+                                <div class="">
+                                    hsl(210, 100%, 50%)
                                 </div>
                             </div>
                         </div>
                         <div class="GridColumn--12 bp1-GridColumn--8">
-                            <div class="Grid">
-                                <div class="GridColumn--12 bp1-GridColumn">
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6 bc-violet color-white" style="margin-bottom: 2px; height: 80px;">500</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6" style="background-color: hsl(205, 43%, 99%); height: 32px;">100</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6" style="background-color: hsl(205, 26%, 96%); height: 32px;">200</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6" style="background-color: hsl(205, 29%, 92%); height: 32px;">300</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6" style="background-color: hsl(205, 22%, 70%); height: 32px;">400</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6 color-white" style="background-color: hsl(205, 14%, 46%); height: 32px;">500</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6 color-white" style="background-color: hsl(205, 34%, 25%); height: 32px;">600</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6 color-white" style="background-color: hsl(205, 34%, 15%); height: 32px;">700</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6 color-white" style="background-color: hsl(205, 43%, 11%); height: 32px;">800</div>
-                                    <div class="display-flex ai-center width-100 pl-2 pr-2 fs-3 fw-6 color-white" style="background-color: hsl(205, 43%, 5%); height: 32px;">900</div>
-                                </div>
-                                <div class="GridColumn--12 bp1-GridColumn">
-                                    <span class="fs-5">efw</span>
-                                    <span class="fs-5">efw</span>
-                                </div>
+                            <div class="mb-2">
+                                <h4 class="fs-9 lh-7 color-gray500" style="letter-spacing: -1px;">Violet</h4>
                             </div>
+                            <p class="fs-6 lh-5">There
+                                are twelve different hues in total. Each hue has nine lightness values ranging
+                                from light tints to dark shades. There
+                                    are twelve different hues in total. Each hue has nine lightness values ranging
+                                    from light tints to dark shades.</p>
+                            <!-- <table class="Table zebra">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 25%;">Shade</th>
+                                        <th style="width: 25%;">HSL</th>
+                                        <th style="width: 25%;">RGB</th>
+                                        <th style="width: 25%;">HEX</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="fs-3">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-3">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-3">#18c4df</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="fs-3">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-3">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-3">#18c4df</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="fs-3">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-3">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-3">#18c4df</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 0;"><div class="display-flex ai-center width-100 pl-2 pr-7 fs-3 fw-6 bc-violet color-white" style="background-color: hsl(205, 22%, 70%); height: 32px;">500</div></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">#18c4df</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 0;"><div class="display-flex ai-center width-100 pl-2 pr-7 fs-3 fw-6 bc-violet color-white" style="background-color: hsl(205, 14%, 46%); height: 32px;">500</div></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">#18c4df</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 0;"><div class="display-flex ai-center width-100 pl-2 pr-7 fs-3 fw-6 bc-violet color-white" style="background-color: hsl(205, 34%, 25%); height: 32px;">500</div></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">#18c4df</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 0;"><div class="display-flex ai-center width-100 pl-2 pr-7 fs-3 fw-6 bc-violet color-white" style="background-color: hsl(205, 34%, 15%); height: 32px;">500</div></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">#18c4df</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 0;"><div class="display-flex ai-center width-100 pl-2 pr-7 fs-3 fw-6 bc-violet color-white" style="background-color: hsl(205, 43%, 11%); height: 32px;">500</div></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">#18c4df</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 0;"><div class="display-flex ai-center width-100 pl-2 pr-7 fs-3 fw-6 bc-violet color-white" style="background-color: hsl(205, 43%, 5%); height: 32px;">500</div></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">(210, 100%, 50%)</span></td>
+                                        <td><span class="fs-4">#18c4df</span></td>
+                                    </tr>
+                                </tbody>
+                            </table> -->
                         </div>
+                    </div>
+                    <div class="">
                     </div>
                 </div>
             </section>
 
-            <!-- <section class="Section large">
+            <section class="Section large">
                 <div class="Container large">
                     <div class="Grid ai-center">
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <div class="ColorWheel">
-                                <div class="ColorWheel-ring" style="top: 5%; left: 5%; width: 90%; height: 90%; z-index: 20; box-shadow: 0 0 0 20px rgba(0,0,0,0); border-radius: 50%; border: 2px solid white;"></div>
-                                <div class="ColorWheel-ring" style="top: 10%; left: 10%; width: 80%; height: 80%; box-shadow: 0 0 0 18px rgba(0,0,0,0);"></div>
-                                <div class="ColorWheel-ring" style="top: 15%; left: 15%; width: 70%; height: 70%; box-shadow: 0 0 0 18px rgba(255,255,255,.2);"></div>
-                                <div class="ColorWheel-ring" style="top: 20%; left: 20%; width: 60%; height: 60%; box-shadow: 0 0 0 18px rgba(255,255,255,.4);"></div>
-                                <div class="ColorWheel-ring" style="top: 25%; left: 25%; width: 50%; height: 50%; box-shadow: 0 0 0 18px rgba(255,255,255,.5);"></div>
-                                <div class="ColorWheel-ring" style="top: 30%; left: 30%; width: 40%; height: 40%; box-shadow: 0 0 0 18px rgba(255,255,255,.6);"></div>
-                                <div class="ColorWheel-ring" style="top: 35%; left: 35%; width: 30%; height: 30%; box-shadow: 0 0 0 18px rgba(255,255,255,.7);"></div>
-                                <div class="ColorWheel-ring" style="top: 40%; left: 40%; width: 20%; height: 20%; box-shadow: 0 0 0 18px rgba(255,255,255,.8);"></div>
-                                <div class="ColorWheel-ring" style="top: 45%; left: 45%; width: 10%; height: 10%; background: rgba(255,255,255,1); box-shadow: 0 0 0 18px rgba(255,255,255,.85);"></div>
-
-                                <div class="ColorWheel-divider" style="transform: rotate(.2deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(30deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(60deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(90deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(120deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(150deg); left: -5%; width: 110%; border-top: 2px solid black; box-shadow: 0 0 0 2px white;"></div>
-
-                                <div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment" style="opacity: .025;"></div>
-                                    <div class="ColorWheel-segment" style="opacity: .025;"></div>
-                                    <div class="ColorWheel-segment" style="opacity: .025;"></div>
-                                    <div class="ColorWheel-segment" style="opacity: .025;"></div>
-                                    <div class="ColorWheel-segment" style="opacity: .025;"></div>
-                                    <div class="ColorWheel-segment" style="opacity: .025;"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                </div>
-                            </div>
+                            <svg class="width-100 position-relative zi-1" width="460" height="460" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M70 18.7C90.6 6.7 114.5 0 140 0v140L70 18.7z" fill="#FD0"/>
+                                    <path d="M70 18.7C49.2 30.7 31.3 48 18.6 70L140 140 70 18.7z" fill="#FA0"/>
+                                    <path d="M18.7 70C6.7 90.6 0 114.5 0 140h140L18.7 70z" fill="#FF8000"/>
+                                    <path d="M18.7 210C6.7 189.4 0 165.5 0 140h140L18.7 210z" fill="#FF4D4D"/>
+                                    <path d="M70 261.3c-20.7-12-38.6-29.2-51.3-51.3L140 140 70 261.3z" fill="#FF2474"/>
+                                    <path d="M70 261.3c20.6 12 44.5 18.7 70 18.7V140L70 261.3z" fill="#7330C0"/>
+                                    <path d="M210 261.3c-20.6 12-44.5 18.7-70 18.7V140l70 121.3z" fill="#4A3BCE"/>
+                                    <path d="M210 261.3c20.6-12 38.5-29.2 51.2-51.3L140 140l70 121.3z" fill="#4364D0"/>
+                                    <path d="M261.3 210c12-20.6 18.7-44.5 18.7-70H140l121.3 70z" fill="#0084FF"/>
+                                    <path d="M261.3 70c12 20.6 18.7 44.5 18.7 70H140l121.3-70z" fill="#00B8B8"/>
+                                    <path d="M261.2 70L140 140l70-121.3c20.6 12 38.5 29.2 51.2 51.3z" fill="#4BD28F"/>
+                                    <path d="M210 18.7C189.4 6.7 165.5 0 140 0v140l70-121.3z" fill="#CCE817"/>
+                                    <g fill="#FFF">
+                                        <path d="M71 18.3l140 242.4-2 1L69 19.3z"/>
+                                        <path d="M19.3 69l242.4 140-1 2L18.3 71z"/>
+                                        <path d="M0 139h280v2H0z"/>
+                                        <path d="M260.7 69l1 2L19.3 211l-1-2z"/>
+                                        <path d="M209 18.3l2 1L71 261.7l-2-1z"/>
+                                        <path d="M139 0h2v280h-2z"/>
+                                    </g>
+                                    <g transform="translate(12 12)">
+                                        <circle fill="rgba(255,255,255,0)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="127"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="115"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="103"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="91"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="79"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="67"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="55"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="43"/>
+                                        <circle fill="#FFF" cx="128" cy="128" r="32"/>
+                                    </g>
+                                </g>
+                            </svg>
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--6">
                             <div class="mb-3">
@@ -328,39 +450,41 @@
                 <div class="Container large">
                     <div class="Grid ai-center fd-rowReverse">
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <div class="ColorWheel">
-                                <div class="ColorWheel-ring" style="top: 5%; left: 5%; width: 90%; height: 90%; z-index: 20; box-shadow: 0 0 0 20px rgba(0,0,0,0); border-radius: 50%; border: 2px solid white;"></div>
-                                <div class="ColorWheel-ring" style="top: 10%; left: 10%; width: 80%; height: 80%; box-shadow: 0 0 0 18px rgba(0,0,0,0);"></div>
-                                <div class="ColorWheel-ring" style="top: 15%; left: 15%; width: 70%; height: 70%; box-shadow: 0 0 0 18px rgba(255,255,255,.2);"></div>
-                                <div class="ColorWheel-ring" style="top: 20%; left: 20%; width: 60%; height: 60%; box-shadow: 0 0 0 18px rgba(255,255,255,.4);"></div>
-                                <div class="ColorWheel-ring" style="top: 25%; left: 25%; width: 50%; height: 50%; box-shadow: 0 0 0 18px rgba(255,255,255,.5);"></div>
-                                <div class="ColorWheel-ring" style="top: 30%; left: 30%; width: 40%; height: 40%; box-shadow: 0 0 0 18px rgba(255,255,255,.6);"></div>
-                                <div class="ColorWheel-ring" style="top: 35%; left: 35%; width: 30%; height: 30%; box-shadow: 0 0 0 18px rgba(255,255,255,.7);"></div>
-                                <div class="ColorWheel-ring" style="top: 40%; left: 40%; width: 20%; height: 20%; box-shadow: 0 0 0 18px rgba(255,255,255,.8);"></div>
-                                <div class="ColorWheel-ring" style="top: 45%; left: 45%; width: 10%; height: 10%; background: rgba(255,255,255,1); box-shadow: 0 0 0 18px rgba(255,255,255,.85);"></div>
-
-                                <div class="ColorWheel-divider" style="transform: rotate(.2deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(30deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(60deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(90deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(120deg);"></div>
-                                <div class="ColorWheel-divider" style="transform: rotate(150deg);"></div>
-
-                                <div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment grayscale"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment grayscale"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                    <div class="ColorWheel-segment"></div>
-                                </div>
-                            </div>
+                            <svg class="width-100 position-relative zi-1" width="460" height="460" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M70 18.7C90.6 6.7 114.5 0 140 0v140L70 18.7z" fill="#FD0"/>
+                                    <path d="M70 18.7C49.2 30.7 31.3 48 18.6 70L140 140 70 18.7z" fill="#FA0"/>
+                                    <path d="M18.7 70C6.7 90.6 0 114.5 0 140h140L18.7 70z" fill="#FF8000"/>
+                                    <path d="M18.7 210C6.7 189.4 0 165.5 0 140h140L18.7 210z" fill="#FF4D4D"/>
+                                    <path d="M70 261.3c-20.7-12-38.6-29.2-51.3-51.3L140 140 70 261.3z" fill="#FF2474"/>
+                                    <path d="M70 261.3c20.6 12 44.5 18.7 70 18.7V140L70 261.3z" fill="#7330C0"/>
+                                    <path d="M210 261.3c-20.6 12-44.5 18.7-70 18.7V140l70 121.3z" fill="#4A3BCE"/>
+                                    <path d="M210 261.3c20.6-12 38.5-29.2 51.2-51.3L140 140l70 121.3z" fill="#4364D0"/>
+                                    <path d="M261.3 210c12-20.6 18.7-44.5 18.7-70H140l121.3 70z" fill="#0084FF"/>
+                                    <path d="M261.3 70c12 20.6 18.7 44.5 18.7 70H140l121.3-70z" fill="#00B8B8"/>
+                                    <path d="M261.2 70L140 140l70-121.3c20.6 12 38.5 29.2 51.2 51.3z" fill="#4BD28F"/>
+                                    <path d="M210 18.7C189.4 6.7 165.5 0 140 0v140l70-121.3z" fill="#CCE817"/>
+                                    <g fill="#FFF">
+                                        <path d="M71 18.3l140 242.4-2 1L69 19.3z"/>
+                                        <path d="M19.3 69l242.4 140-1 2L18.3 71z"/>
+                                        <path d="M0 139h280v2H0z"/>
+                                        <path d="M260.7 69l1 2L19.3 211l-1-2z"/>
+                                        <path d="M209 18.3l2 1L71 261.7l-2-1z"/>
+                                        <path d="M139 0h2v280h-2z"/>
+                                    </g>
+                                    <g transform="translate(12 12)">
+                                        <circle fill="rgba(255,255,255,0)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="127"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="115"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="103"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="91"/>
+                                        <circle fill="rgba(255,255,255,.1)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="79"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="67"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="55"/>
+                                        <circle fill="rgba(255,255,255,.2)" stroke="#FFF" stroke-width="2" cx="128" cy="128" r="43"/>
+                                        <circle fill="#FFF" cx="128" cy="128" r="32"/>
+                                    </g>
+                                </g>
+                            </svg>
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--6">
                             <div class="mb-3">
@@ -375,7 +499,7 @@
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section>
 
             <section class="Section large" style="background-color: hsla(210, 30%, 10%, 1);">
                 <div class="Container ta-center">

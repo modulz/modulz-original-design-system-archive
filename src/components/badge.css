@@ -13,9 +13,19 @@
     white-space: nowrap;
 }
 
+/* Sizes */
+
+.Badge.size2 {
+    font-size: var(--fontSize-2);
+    height: var(--spacing-3);
+    padding: 0 var(--spacing-2);
+}
+
+/* Styles */
+
 .Badge.primary {
     background-color: var(--blue100);
-    color: var(--blue500);
+    color: var(--blue700);
     box-shadow: none;
 }
 
@@ -26,13 +36,13 @@
 }
 
 .Badge.warning {
-    background-color: var(--orange100);
+    background-color: var(--amber100);
     color: var(--amber700);
     box-shadow: none;
 }
 
 .Badge.negative {
     background-color: var(--red100);
-    color: var(--red500);
+    color: var(--red700);
     box-shadow: none;
 }

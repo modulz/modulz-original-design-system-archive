@@ -10648,8 +10648,8 @@ a {
     }
 }
 .StatusIndicator {
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
     background-color: hsl(210, 29%, 92%);
     border-radius: 50%
 }
@@ -10683,9 +10683,16 @@ a {
     letter-spacing: .6px;
     white-space: nowrap
 }
+/* Sizes */
+.Badge.size2 {
+    font-size: 1rem;
+    height: 2.4rem;
+    padding: 0 1.6rem
+}
+/* Styles */
 .Badge.primary {
     background-color: hsl(205, 100%, 97%);
-    color: hsl(209, 100%, 50%);
+    color: hsl(205, 95%, 35%);
     box-shadow: none
 }
 .Badge.positive {
@@ -10694,13 +10701,13 @@ a {
     box-shadow: none
 }
 .Badge.warning {
-    background-color: hsl(36, 100%, 50%);
-    color: var(--amber700);
+    background-color: hsl(40, 100%, 96%);
+    color: hsl(40, 100%, 38%);
     box-shadow: none
 }
 .Badge.negative {
     background-color: hsl(0, 92%, 97%);
-    color: hsl(0, 100%, 65%);
+    color: hsl(0, 92%, 46%);
     box-shadow: none
 }
 .ListItemGroup {
@@ -11279,7 +11286,7 @@ a {
     color: var(--yellow700)
 }
 .Text.amber {
-    color: var(--amber700)
+    color: hsl(40, 100%, 38%)
 }
 .Text.orange {
     color: var(--orange700)

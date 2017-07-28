@@ -13,26 +13,44 @@
     white-space: nowrap;
 }
 
+.Badge.size2 {
+    font-size: var(--fontSize-2);
+    height: var(--spacing-3);
+    padding: 0 var(--spacing-2);
+}
+
 .Badge.primary {
-    background-color: var(--blue100);
-    color: var(--blue500);
+    background-color: var(--blue200);
+    color: var(--blue700);
     box-shadow: none;
 }
 
 .Badge.positive {
-    background-color: var(--green100);
+    background-color: var(--green200);
     color: var(--green700);
     box-shadow: none;
 }
 
 .Badge.warning {
-    background-color: var(--orange100);
+    background-color: var(--orange200);
     color: var(--amber700);
     box-shadow: none;
 }
 
 .Badge.negative {
-    background-color: var(--red100);
-    color: var(--red500);
+    background-color: var(--red200);
+    color: var(--red700);
+    box-shadow: none;
+}
+
+.Badge.bronze {
+    background-color: var(--bronze200);
+    color: var(--bronze700);
+    box-shadow: none;
+}
+
+.Badge.gold {
+    background-color: var(--gold200);
+    color: var(--gold700);
     box-shadow: none;
 }

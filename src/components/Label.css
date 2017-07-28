@@ -1,0 +1,65 @@
+.Label {
+    align-items: center;
+    display: inline-flex;
+    color: rgba(0,0,0,.8);
+    font-size: var(--fontSize-3);
+    height: var(--spacing-3);
+    padding: 0 var(--spacing-2);
+    background-color: var(--gray300);
+    font-weight: 600;
+    border-radius: 9999px;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.Label.yellow {
+    background-color: var(--yellow500);
+}
+
+.Label.lime {
+    background-color: var(--lime500);
+}
+
+.Label.green {
+    background-color: var(--green500);
+}
+
+.Label.teal {
+    background-color: var(--teal500);
+}
+
+.Label.blue {
+    background-color: var(--blue500);
+    color: white;
+}
+
+.Label.indigo {
+    background-color: var(--indigo500);
+    color: white;
+}
+
+.Label.violet {
+    background-color: var(--violet500);
+    color: white;
+}
+
+.Label.purple {
+    background-color: var(--purple500);
+    color: white;
+}
+
+.Label.pink {
+    background-color: var(--pink500);
+    color: white;
+}
+
+.Label.red {
+    background-color: var(--red500);
+}
+
+.Label.orange {
+    background-color: var(--orange500);
+}
+.Label.amber {
+    background-color: var(--amber500);
+}

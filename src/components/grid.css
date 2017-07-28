@@ -3,8 +3,8 @@
 .Grid {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -var(--spacing-5);
-    margin-left: -var(--spacing-5);
+    margin-top: -var(--spacing-6);
+    margin-left: -var(--spacing-6);
 }
 
 .GridColumn {
@@ -74,8 +74,8 @@
 .bp4-GridColumn--10,
 .bp4-GridColumn--11,
 .bp4-GridColumn--12 {
-    padding-top: var(--spacing-5);
-    padding-left: var(--spacing-5);
+    padding-top: var(--spacing-6);
+    padding-left: var(--spacing-6);
     width: 100%;
 }
 

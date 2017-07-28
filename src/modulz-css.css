@@ -93,6 +93,7 @@
 @import "components/tab-menu.css";
 @import "components/asset.css";
 @import "components/Loader.css";
+@import "components/Label.css";
 @import "components/status-indicator.css";
 @import "components/badge.css";
 @import "components/list-item.css";
@@ -102,6 +103,7 @@
 @import "components/Toast.css";
 @import "components/Overlay.css";
 @import "components/Card.css";
+@import "components/Progress.css";
 @import "components/Heading.css";
 @import "components/text.css";
 @import "components/input.css";

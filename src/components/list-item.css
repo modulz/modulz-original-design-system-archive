@@ -23,11 +23,11 @@
 }
 
 .ListItem.interactive:hover {
-    background-color: var(--blue100);
+    background-color: var(--blue200);
 }
 
 .ListItem.highlighted {
-    background-color: var(--blue100);
+    background-color: var(--blue200);
 }
 
 .ListItem.highlighted:hover {

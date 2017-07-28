@@ -1,22 +1,23 @@
 .StatusIndicator {
-  width: 8px;
-  height: 8px;
-  background-color: var(--gray300);
-  border-radius: 50%;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--gray300);
+    border-radius: 50%;
 }
 
 .StatusIndicator.primary {
-  background-color: var(--blue500);
+    background-color: var(--blue500);
 }
 
 .StatusIndicator.positive {
-  background-color: var(--green500);
+    background-color: var(--green500);
 }
 
 .StatusIndicator.intermediary {
-  background-color: var(--amber500);
+    background-color: var(--amber500);
 }
 
 .StatusIndicator.negative {
-  background-color: var(--red500);
+    background-color: var(--red500);
 }

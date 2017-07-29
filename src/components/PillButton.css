@@ -8,7 +8,7 @@
     box-shadow: var(--Shadow-1);
     border-radius: 9999px;
     color: rgba(0,0,0,.8);
-    font-size: var(--fontSize-3);
+    font-size: var(--fontSize-4);
     height: var(--spacing-5);
     line-height: var(--spacing-5);
     min-width: var(--spacing-5);
@@ -20,6 +20,15 @@
 }
 .PillButton:active {
     box-shadow: none;
+}
+
+/* Size modifiers */
+
+.PillButton.size2 {
+    font-size: var(--fontSize-5);
+    height: var(--spacing-6);
+    line-height: var(--spacing-6);
+    min-width: var(--spacing-6);
 }
 
 /* Color modifiers */
@@ -39,12 +48,3 @@
 .PillButton.yellow { background-color: var(--yellow500); }
 .PillButton.amber { background-color: var(--amber500); color: var(--white); }
 .PillButton.orange { background-color: var(--orange500); color: var(--white); }
-
-/* Size modifiers */
-
-.PillButton.large {
-    font-size: var(--fontSize-4);
-    height: var(--spacing-6);
-    line-height: var(--spacing-6);
-    min-width: var(--spacing-6);
-}

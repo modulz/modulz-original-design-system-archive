@@ -11051,64 +11051,109 @@ a {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: rgba(0,0,0,.8);
+    color: rgba(0,0,0,.5);
     font-size: 1.2rem;
     height: 2.4rem;
-    padding: 0 1.6rem;
+    padding: 0 .8rem;
     background-color: hsl(205, 29%, 88%);
     font-weight: 600;
     border-radius: 9999px;
     white-space: nowrap;
-    cursor: default
+    cursor: default;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none
 }
+.Label.interactive {
+    -webkit-transition-property: background-color, color;
+    transition-property: background-color, color;
+    -webkit-transition-duration: 60ms;
+            transition-duration: 60ms;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    cursor: pointer
+}
+.Label.interactive:hover {
+    background-color: hsl(205, 22%, 78%);
+    color: rgba(0,0,0,.8)
+}
+/* Colors */
 .Label.yellow {
-    background-color: hsl(52, 100%, 50%)
+    background-color: hsl(52, 100%, 50%);
+    color: rgba(255,255,255,.8)
 }
 .Label.lime {
-    background-color: hsl(68, 82%, 50%)
+    background-color: hsl(68, 82%, 50%);
+    color: rgba(255,255,255,.8)
 }
 .Label.green {
-    background-color: hsl(150, 60%, 56%)
+    background-color: hsl(150, 60%, 56%);
+    color: rgba(255,255,255,.8)
 }
 .Label.teal {
-    background-color: hsl(180, 100%, 36%)
+    background-color: hsl(180, 100%, 36%);
+    color: rgba(255,255,255,.8)
 }
 .Label.blue {
     background-color: hsl(205, 100%, 50%);
-    color: white
+    color: rgba(255,255,255,.8)
 }
 .Label.indigo {
     background-color: hsl(226, 60%, 54%);
-    color: white
+    color: rgba(255,255,255,.8)
 }
 .Label.violet {
     background-color: hsl(246, 60%, 52%);
-    color: white
+    color: rgba(255,255,255,.8)
 }
 .Label.purple {
     background-color: hsl(268, 60%, 47%);
-    color: white
+    color: rgba(255,255,255,.8)
 }
 .Label.pink {
     background-color: hsl(338, 100%, 57%);
-    color: white
+    color: rgba(255,255,255,.8)
 }
 .Label.red {
-    background-color: hsl(0, 100%, 65%)
+    background-color: hsl(0, 100%, 65%);
+    color: rgba(255,255,255,.8)
 }
 .Label.orange {
-    background-color: hsl(30, 100%, 50%)
+    background-color: hsl(30, 100%, 50%);
+    color: rgba(255,255,255,.8)
 }
 .Label.amber {
-    background-color: hsl(40, 100%, 50%)
+    background-color: hsl(40, 100%, 50%);
+    color: rgba(255,255,255,.8)
+}
+/* Label group */
+.LabelGroup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: -4px;
+    margin-left: -4px
+}
+.LabelGroup .Label {
+    margin-left: 4px;
+    margin-top: 4px
 }
 .StatusIndicator {
     display: block;
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     background-color: hsl(205, 29%, 88%);
     border-radius: 50%
 }
+/* Sizes */
+.StatusIndicator.size1 {
+    width: 6px;
+    height: 6px
+}
+/* Colors */
 .StatusIndicator.primary {
     background-color: hsl(205, 100%, 50%)
 }
@@ -11136,11 +11181,16 @@ a {
     box-shadow: inset 0 0 0 1px hsl(205, 29%, 88%);
     font-weight: 600;
     border-radius: 9999px;
-    letter-spacing: .6px;
-    white-space: nowrap
+    letter-spacing: .8px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: default
 }
 .Badge.size2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     height: 2.4rem;
     padding: 0 1.6rem
 }
@@ -11387,7 +11437,7 @@ a {
     box-shadow: 0 2px 4px rgba(32, 52, 61, 0.03), 0 1px 2px rgba(0, 0, 0, .06);
     border-radius: 9999px;
     color: rgba(0,0,0,.8);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     height: 4rem;
     line-height: 4rem;
     min-width: 4rem;
@@ -11399,6 +11449,13 @@ a {
 }
 .PillButton:active {
     box-shadow: none
+}
+/* Size modifiers */
+.PillButton.size2 {
+    font-size: 1.6rem;
+    height: 4.8rem;
+    line-height: 4.8rem;
+    min-width: 4.8rem
 }
 /* Color modifiers */
 .PillButton.white {
@@ -11457,13 +11514,6 @@ a {
 .PillButton.orange {
     background-color: hsl(30, 100%, 50%);
     color: hsl(0, 0%, 100%)
-}
-/* Size modifiers */
-.PillButton.large {
-    font-size: 1.4rem;
-    height: 4.8rem;
-    line-height: 4.8rem;
-    min-width: 4.8rem
 }
 .Table {
     border-collapse: collapse;
@@ -11692,77 +11742,40 @@ a {
     }
 }
 .Heading {
-    font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: -.038em;
     margin-left: -1.5px;
-    line-height: 3.2rem
+    font-size: 2.6rem;
+    line-height: 3.6rem
 }
-@media (min-width: 62em) {
-    .Heading {
-        font-size: 2.6rem;
-        line-height: 3.6rem
-    }
-}
-.Heading.title {
-    font-size: 4rem;
+.Heading.size6 {
     font-weight: 600;
     letter-spacing: -0.058em;
     margin-left: -2.5px;
+    font-size: 7.2rem;
+    line-height: 68px
+}
+.Heading.size5 {
+    font-weight: 600;
+    letter-spacing: -0.058em;
+    font-size: 4rem;
+    margin-left: -3.2px;
     line-height: 4.4rem
 }
-@media (min-width: 62em) {
-    .Heading.title {
-        font-size: 7.2rem;
-        line-height: 68px
-    }
-}
-.Heading.large {
-    font-size: 2.6rem;
-    font-weight: 600;
-    letter-spacing: -0.058em;
-    margin-left: -2.5px;
-    line-height: 3.2rem
-}
-@media (min-width: 62em) {
-    .Heading.large {
-        font-size: 4rem;
-        margin-left: -3.2px;
-        line-height: 4.4rem
-    }
-}
-.Heading.sub {
-    font-weight: 300
-}
-.Heading.small {
-    font-size: 2rem;
+.Heading.size3 {
     letter-spacing: -.02em;
-    line-height: 2.4rem;
-    margin-left: -.5px
+    font-size: 2.2rem;
+    letter-spacing: -.018em;
+    margin-left: -1.5px;
+    line-height: 2.8rem
 }
-@media (min-width: 62em) {
-    .Heading.small {
-        font-size: 2.2rem;
-        letter-spacing: -.018em;
-        margin-left: -1.5px;
-        line-height: 2.8rem
-    }
+.Heading.size2 {
+    font-size: 2.2rem;
+    letter-spacing: -.018em;
+    margin-left: -1.5px;
+    line-height: 2.8rem
 }
-.Heading.small {
-    font-size: 2rem;
-    letter-spacing: -.02em;
-    line-height: 2.4rem;
-    margin-left: -.5px
-}
-@media (min-width: 62em) {
-    .Heading.small {
-        font-size: 2.2rem;
-        letter-spacing: -.018em;
-        margin-left: -1.5px;
-        line-height: 2.8rem
-    }
-}
-.Heading.xsmall {
+.Heading.size1 {
     font-size: 1.6rem;
     letter-spacing: -.02em;
     line-height: 2rem
@@ -11795,9 +11808,6 @@ a {
 .Heading.blue {
     color: hsl(205, 100%, 50%)
 }
-.Heading.lavender {
-    color: hsl(255, 74%, 60%)
-}
 .Heading.teal {
     color: hsl(180, 100%, 36%)
 }
@@ -11816,27 +11826,63 @@ a {
 .Heading.orange {
     color: hsl(30, 100%, 50%)
 }
-.Heading.crimson {
-    color: hsl(18, 100%, 60%)
+/* Weights */
+.Heading.weight1 {
+    font-weight: 100
+}
+.Heading.weight2 {
+    font-weight: 200
+}
+.Heading.weight3 {
+    font-weight: 300
+}
+.Heading.weight4 {
+    font-weight: 400
+}
+.Heading.weight5 {
+    font-weight: 500
+}
+.Heading.weight6 {
+    font-weight: 600
+}
+.Heading.weight7 {
+    font-weight: 700
+}
+.Heading.weight8 {
+    font-weight: 800
+}
+.Heading.weight9 {
+    font-weight: 900
 }
 .Text {
     font-size: 1.2rem
 }
-.Text.small {
+.Text.size1 {
+    font-size: .8rem
+}
+.Text.size2 {
     font-size: 1rem
 }
-.Text.large {
+.Text.size3 {
+    font-size: 1.2rem
+}
+.Text.size4 {
+    font-size: 1.4rem
+}
+.Text.size5 {
+    font-size: 1.6rem
+}
+.Text.size6 {
     font-size: 1.8rem;
     letter-spacing: -.02em;
     margin-left: -.5px
 }
-@media (min-width: 62em) {
-    .Text.large {
-        font-size: 2rem;
-        letter-spacing: -.018em;
-        margin-left: -1.5px
-    }
+.Text.size7 {
+    font-size: 2rem;
+    letter-spacing: -.018em;
+    margin-left: -1.5px
 }
+/* Colors */
 .Text.white {
     color: hsl(0, 0%, 100%)
 }
@@ -11864,9 +11910,6 @@ a {
 .Text.blue {
     color: hsl(205, 100%, 35%)
 }
-.Text.lavender {
-    color: var(--lavender700)
-}
 .Text.teal {
     color: hsl(172, 52%, 38%)
 }
@@ -11885,8 +11928,33 @@ a {
 .Text.orange {
     color: var(--orange700)
 }
-.Text.crimson {
-    color: var(--crimson700)
+/* Weights */
+.Text.weight1 {
+    font-weight: 100
+}
+.Text.weight2 {
+    font-weight: 200
+}
+.Text.weight3 {
+    font-weight: 300
+}
+.Text.weight4 {
+    font-weight: 400
+}
+.Text.weight5 {
+    font-weight: 500
+}
+.Text.weight6 {
+    font-weight: 600
+}
+.Text.weight7 {
+    font-weight: 700
+}
+.Text.weight8 {
+    font-weight: 800
+}
+.Text.weight9 {
+    font-weight: 900
 }
 .Input {
     height: 3.2rem;

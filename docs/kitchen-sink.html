@@ -9,7 +9,6 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css" />
         <link rel="stylesheet" href="../../css/modulz-css.min.css">
     </head>
     <body class="ff-whitney color-charcoal tr-optimizeLegibility">
@@ -24,7 +23,7 @@
                       <h1 class="Heading large lh-9 fw-6" style="font-size: 6.4rem; letter-spacing: -5px;">The Kitchen Sink</h1>
                     </div>
                     <div>
-                        <p class="Heading sub gray">A showcase of Modulz open&ndash;source design system.</p>
+                        <p class="Heading size4 gray weight3">A showcase of Modulz open&ndash;source design system.</p>
                     </div>
                 </div>
             </header>
@@ -33,7 +32,19 @@
                 <div class="Container large">
                     <div class="Grid">
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <h3 class="Heading sub gray mb-5">Pill Buttons</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Pill Buttons</h3>
+                            <div class="display-flex fw-wrap ai-center mb-3">
+                                <div class="pr-3 pb-3">
+                                    <button class="PillButton blue" type="button">
+                                        Button
+                                    </button>
+                                </div>
+                                <div class="pr-3 pb-3">
+                                    <button class="PillButton size2 blue" type="button">
+                                        Button
+                                    </button>
+                                </div>
+                            </div>
                             <div class="display-flex fw-wrap ai-center mb-7">
                                 <div class="pr-3 pb-3">
                                     <button class="PillButton" type="button">
@@ -103,7 +114,7 @@
                             </div>
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <h3 class="Heading sub gray mb-5">Buttons</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Buttons</h3>
                             <div class="display-flex fw-wrap ai-center mb-7">
                                 <div class="pr-3 pb-3">
                                     <button class="Button" type="button">
@@ -131,7 +142,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <h3 class="Heading sub gray mb-5">Pagination</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Pagination</h3>
                             <div class="ButtonGroup">
                                 <button class="Button" type="button">
                                     Prev
@@ -161,6 +172,7 @@
                 <div class="Container large">
                     <div class="Grid">
                         <div class="GridColumn--6">
+                            <h3 class="Heading size4 gray weight3 mb-5">Avatar</h3>
                             <div class="display-flex ai-center">
                                 <div class="pr-3">
                                     <div class="Avatar size1">
@@ -227,21 +239,30 @@
                             </div>
                         </div>
                         <div class="GridColumn--6">
-                            <div class="display-flex">
-                                <div class="">
-                                    <span class="StatusIndicator"></span>
+                            <h3 class="Heading size4 gray weight3 mb-5">Status indicator</h3>
+                            <div class="display-flex ai-center mb-3">
+                                <div class="pr-3">
+                                    <span class="StatusIndicator size1 primary"></span>
                                 </div>
-                                <div class="">
+                                <div class="pr-3">
                                     <span class="StatusIndicator primary"></span>
                                 </div>
-                                <div class="">
+                            </div>
+                            <div class="display-flex ai-center">
+                                <div class="pr-3">
+                                    <span class="StatusIndicator"></span>
+                                </div>
+                                <div class="pr-3">
+                                    <span class="StatusIndicator primary"></span>
+                                </div>
+                                <div class="pr-3">
                                     <span class="StatusIndicator positive"></span>
                                 </div>
-                                <div class="">
-                                    <span class="StatusIndicator negative"></span>
+                                <div class="pr-3">
+                                    <span class="StatusIndicator intermediary"></span>
                                 </div>
-                                <div class="">
-                                    <span class="StatusIndicator"></span>
+                                <div class="pr-3">
+                                    <span class="StatusIndicator negative"></span>
                                 </div>
                             </div>
                         </div>
@@ -253,20 +274,13 @@
                 <div class="Container large">
                     <div class="Grid">
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <h3 class="Heading sub gray mb-5">Labels</h3>
-                            <div class="display-flex fw-wrap ai-center">
-                                <div class="pr-3 pb-3">
-                                    <div class="Label">
-                                        Default
-                                    </div>
+                            <h3 class="Heading size4 gray weight3 mb-5">Labels</h3>
+                            <div class="display-flex fw-wrap ai-center mb-3">
+                                <div class="pr-3">
+                                    <span class="Label">Default</span>
                                 </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label size2">
-                                        Default
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label">
+                                <div class="pr-3">
+                                    <span class="Label">
                                         Default
                                         <div class="pl-1">
                                             <button class="Button hollow" type="button">
@@ -276,89 +290,43 @@
                                                 </svg>
                                             </button>
                                         </div>
-                                    </div>
+                                    </span>
                                 </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label size2">
-                                        Default
-                                        <div class="pl-1">
-                                            <button class="Button hollow" type="button">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                                                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label yellow">
-                                        Yellow
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label lime">
-                                        Lime
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label green">
-                                        Green
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label teal">
-                                        Teal
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label blue">
-                                        Blue
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label indigo">
-                                        Indigo
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label violet">
-                                        Violet
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label purple">
-                                        Purple
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label pink">
-                                        Pink
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label red">
-                                        Red
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label orange">
-                                        Orange
-                                    </div>
-                                </div>
-                                <div class="pr-3 pb-3">
-                                    <div class="Label amber">
-                                        Amber
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="LabelGroup mb-3">
+                                <span class="Label yellow">Yellow</span>
+                                <span class="Label lime">Lime</span>
+                                <span class="Label green">Green</span>
+                                <span class="Label teal">Teal</span>
+                                <span class="Label blue">Blue</span>
+                                <span class="Label indigo">Indigo</span>
+                                <span class="Label violet">Violet</span>
+                                <span class="Label purple">Purple</span>
+                                <span class="Label pink">Pink</span>
+                                <span class="Label red">Red</span>
+                                <span class="Label orange">Orange</span>
+                                <span class="Label amber">Amber</span>
+                            </div>
+                            <div class="LabelGroup">
+                                <span class="Label interactive">Design</span>
+                                <span class="Label interactive">Programming</span>
+                                <span class="Label interactive">Design tools</span>
+                                <span class="Label interactive">HTML5</span>
+                                <span class="Label interactive">CSS3</span>
+                                <span class="Label interactive">JavaScript</span>
                             </div>
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <h3 class="Heading sub gray mb-5">Badges</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Badges</h3>
                             <div class="display-flex fw-wrap ai-center">
                                 <div class="pr-3 pb-3">
                                     <span class="Badge">
                                         Neutral
+                                    </span>
+                                </div>
+                                <div class="pr-3 pb-3">
+                                    <span class="Badge">
+                                        648
                                     </span>
                                 </div>
                                 <div class="pr-3 pb-3">
@@ -369,28 +337,48 @@
                             </div>
                             <div class="display-flex fw-wrap ai-center">
                                 <div class="pr-3 pb-3">
-                                    <span class="Badge primary">
+                                    <span class="Badge size2 primary">
                                         Primary
                                     </span>
                                 </div>
                                 <div class="pr-3 pb-3">
-                                    <span class="Badge positive">
+                                    <span class="Badge size2 positive">
                                         Positive
                                     </span>
                                 </div>
                                 <div class="pr-3 pb-3">
-                                    <span class="Badge negative">
+                                    <span class="Badge size2 negative">
                                         Negative
                                     </span>
                                 </div>
                                 <div class="pr-3 pb-3">
-                                    <span class="Badge bronze">
+                                    <span class="Badge size2 bronze">
                                         Bronze
                                     </span>
                                 </div>
                                 <div class="pr-3 pb-3">
-                                    <span class="Badge gold">
+                                    <span class="Badge size2 gold">
                                         Gold
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="display-flex fw-wrap ai-center">
+                                <div class="pr-3 pb-3">
+                                    <span class="Badge size2 primary">
+                                        Primary
+                                    </span>
+                                </div>
+                                <div class="pr-3 pb-3">
+                                    <span class="Badge size2 positive">
+                                        Positive
+                                    </span>
+                                </div>
+                                <div class="pr-3 pb-3">
+                                    <span class="Badge size2 negative">
+                                        <div class="pr-1">
+                                            <span class="StatusIndicator size1 negative"></span>
+                                        </div>
+                                        Live
                                     </span>
                                 </div>
                             </div>
@@ -403,11 +391,11 @@
                 <div class="Container large">
                     <div class="Grid">
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <h3 class="Heading sub gray mb-5">Input</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Input</h3>
                             <input class="Input" type="text" />
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <h3 class="Heading sub gray mb-5">Form controls</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Form controls</h3>
                             <input type="checkbox" />
                             <input type="checkbox" />
                             <input type="radio" />
@@ -421,7 +409,7 @@
                 <div class="Container large">
                     <div class="Grid">
                         <div class="GridColumn--12 bp2-GridColumn--9">
-                            <h3 class="Heading sub gray mb-5">Dropdown</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Dropdown</h3>
                             <div class="Grid">
                                 <div class="GridColumn--12 bp2-GridColumn--4">
                                     <div class="ContextContainer is-active">
@@ -618,7 +606,7 @@
                             </div>
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--3">
-                            <h3 class="Heading sub gray mb-5">Tooltip</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Tooltip</h3>
                             <div class="mb-4">
                                 <input class="Slider" type="range">
                             </div>
@@ -637,7 +625,7 @@
                 <div class="Container large">
                     <div class="Grid">
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <h3 class="Heading sub gray mb-5">Tabs</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Tabs</h3>
                             <div class="mb-3">
                                 <div class="TabMenu">
                                     <div class="Tab is-active">
@@ -734,7 +722,7 @@
                             </div>
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--6">
-                            <h3 class="Heading sub gray mb-5">Pills</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Pills</h3>
                             <div class="mb-4">
                                 <input class="Slider" type="range">
                             </div>
@@ -753,7 +741,7 @@
                 <div class="Container large">
                     <div class="Grid">
                         <div class="GridColumn--12 bp2-GridColumn--4">
-                            <h3 class="Heading sub gray mb-5">Slider</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Slider</h3>
                             <div class="mb-3">
                                 <input class="Slider" type="range" value="5" min="0" max="10">
                             </div>
@@ -788,7 +776,7 @@
                             </div>
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--4">
-                            <h3 class="Heading sub gray mb-5">Progress Bar</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Progress Bar</h3>
                             <div class="mb-3">
                                 <div class="Progress size1">
                                     <div role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -833,7 +821,7 @@
                             </div>
                         </div>
                         <div class="GridColumn--12 bp2-GridColumn--4">
-                            <h3 class="Heading sub gray mb-5">Meter</h3>
+                            <h3 class="Heading size4 gray weight3 mb-5">Meter</h3>
                             <div class="mb-4">
                                 <button class="Button" type="button">1</button>
                             </div>
@@ -850,7 +838,7 @@
 
             <section class="Section">
                 <div class="Container large">
-                    <h3 class="Heading sub gray mb-5">Tables</h3>
+                    <h3 class="Heading size4 gray weight3 mb-5">Tables</h3>
                     <div class="Grid">
                         <div class="GridColumn--12 bp2-GridColumn--6">
                             <table class="Table">
@@ -922,7 +910,7 @@
 
             <section class="Section">
                 <div class="Container large">
-                    <h3 class="Heading sub gray mb-5">Cards</h3>
+                    <h3 class="Heading size4 gray weight3 mb-5">Cards</h3>
                     <div class="Grid">
                         <div class="GridColumn--12 bp2-GridColumn--4">
                             <div class="Card">
@@ -1034,5 +1022,7 @@
 
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
         <!-- <script type="text/javascript" src="../../docs/js/scripts.js"> </script> -->
+
+        <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css" />
     </body>
 </html>

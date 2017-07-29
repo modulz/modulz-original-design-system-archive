@@ -9,12 +9,14 @@
     box-shadow: inset 0 0 0 1px var(--gray300);
     font-weight: 600;
     border-radius: 9999px;
-    letter-spacing: .6px;
+    letter-spacing: .8px;
     white-space: nowrap;
+    user-select: none;
+    cursor: default;
 }
 
 .Badge.size2 {
-    font-size: var(--fontSize-2);
+    font-size: var(--fontSize-3);
     height: var(--spacing-3);
     padding: 0 var(--spacing-2);
 }

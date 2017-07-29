@@ -27,6 +27,12 @@
     box-shadow: none;
 }
 
+.Badge.intermediary {
+    background-color: var(--amber200);
+    color: var(--amber700);
+    box-shadow: none;
+}
+
 .Badge.positive {
     background-color: var(--green200);
     color: var(--green700);

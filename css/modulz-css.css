@@ -11199,6 +11199,11 @@ a {
     color: hsl(205, 100%, 35%);
     box-shadow: none
 }
+.Badge.intermediary {
+    background-color: hsl(40, 100%, 97%);
+    color: hsl(40, 100%, 35%);
+    box-shadow: none
+}
 .Badge.positive {
     background-color: hsl(150, 60%, 97%);
     color: hsl(150, 60%, 38%);
@@ -11206,7 +11211,7 @@ a {
 }
 .Badge.warning {
     background-color: var(--orange200);
-    color: var(--amber700);
+    color: hsl(40, 100%, 35%);
     box-shadow: none
 }
 .Badge.negative {
@@ -11923,7 +11928,7 @@ a {
     color: var(--yellow700)
 }
 .Text.amber {
-    color: var(--amber700)
+    color: hsl(40, 100%, 35%)
 }
 .Text.orange {
     color: var(--orange700)

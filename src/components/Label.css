@@ -29,62 +29,62 @@
 
 .Label.yellow {
     background-color: var(--yellow500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.lime {
     background-color: var(--lime500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.green {
     background-color: var(--green500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.teal {
     background-color: var(--teal500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.blue {
     background-color: var(--blue500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.indigo {
     background-color: var(--indigo500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.violet {
     background-color: var(--violet500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.purple {
     background-color: var(--purple500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.pink {
     background-color: var(--pink500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.red {
     background-color: var(--red500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.orange {
     background-color: var(--orange500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 .Label.amber {
     background-color: var(--amber500);
-    color: rgba(255,255,255,.8);
+    color: white;
 }
 
 /* Label group */

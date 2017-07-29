@@ -1,35 +1,31 @@
 .Text {
-    font-size: var(--fontSize-3);
-}
-
-.Text.size1 {
-    font-size: var(--fontSize-1);
-}
-
-.Text.size2 {
-    font-size: var(--fontSize-2);
-}
-
-.Text.size3 {
-    font-size: var(--fontSize-3);
-}
-
-.Text.size4 {
-    font-size: var(--fontSize-4);
-}
-
-.Text.size5 {
     font-size: var(--fontSize-5);
 }
 
-.Text.size6 {
+.Text.size1 {
+    font-size: var(--fontSize-3);
+}
+
+.Text.size2 {
+    font-size: var(--fontSize-4);
+}
+
+.Text.size4 {
     font-size: var(--fontSize-6);
+}
+
+.Text.size5 {
+    font-size: var(--fontSize-7);
+}
+
+.Text.size6 {
+    font-size: var(--fontSize-8);
     letter-spacing: -.02em;
     margin-left: -.5px;
 }
 
 .Text.size7 {
-    font-size: var(--fontSize-7);
+    font-size: var(--fontSize-8);
     letter-spacing: -.018em;
     margin-left: -1.5px;
 }

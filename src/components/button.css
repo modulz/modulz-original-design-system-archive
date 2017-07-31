@@ -1,14 +1,13 @@
 /* Functional styles */
 
-.Button,
-.PillButton {
+.Button {
     align-items: center;
     appearance: none;
     border: none;
     border-radius: var(--borderRadius-2);
     cursor: pointer;
     display: inline-flex;
-    font-size: var(--fontSize-3);
+    font-size: var(--fontSize-2);
     font-weight: 600;
     height: var(--spacing-4);
     justify-content: center;
@@ -29,14 +28,21 @@
     white-space: nowrap;
 }
 
-.Button:hover,
-.PillButton:hover {
+.Button:hover {
     transform: translateY(-1px);
 }
 
-.Button:active,
-.PillButton:active {
+.Button:active {
     transform: translateY(0px);
+}
+
+/* Sizes */
+
+.Button.size1 {
+    height: var(--spacing-3);
+    min-width: var(--spacing-3);
+    padding-left: var(--spacing-1);
+    padding-right: var(--spacing-1);
 }
 
 /* Neutral button */

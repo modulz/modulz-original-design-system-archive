@@ -3,12 +3,31 @@
 .PillButton {
 
     /* Must extend button class here */
+    align-items: center;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: .6px;
+    outline: none;
+    pointer-events: auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: var(--transitionDuration-2);
+    transition-timing-function: ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
 
     background-color: var(--gray200);
     box-shadow: var(--Shadow-1);
     border-radius: 9999px;
     color: rgba(0,0,0,.8);
-    font-size: var(--fontSize-4);
+    font-size: var(--fontSize-3);
     height: var(--spacing-5);
     line-height: var(--spacing-5);
     min-width: var(--spacing-5);
@@ -17,15 +36,17 @@
 }
 .PillButton:hover {
     box-shadow: var(--Shadow-2);
+    transform: translateY(-1px);
 }
 .PillButton:active {
     box-shadow: none;
+    transform: translateY(0px);
 }
 
 /* Size modifiers */
 
 .PillButton.size2 {
-    font-size: var(--fontSize-5);
+    font-size: var(--fontSize-4);
     height: var(--spacing-6);
     line-height: var(--spacing-6);
     min-width: var(--spacing-6);
@@ -35,13 +56,16 @@
 
 .PillButton.white { background-color: var(--white); }
 .PillButton.black { background-color: var(--black); color: var(--white); }
+
+.PillButton.bronze { background-color: var(--bronze500); color: var(--white); }
+.PillButton.gold { background-color: var(--gold500); color: var(--white); }
+
 .PillButton.red { background-color: var(--red500); color: var(--white); }
 .PillButton.pink { background-color: var(--pink500); color: var(--white); }
 .PillButton.purple { background-color: var(--purple500); color: var(--white); }
 .PillButton.violet { background-color: var(--violet500); color: var(--white); }
 .PillButton.indigo { background-color: var(--indigo500); color: var(--white); }
 .PillButton.blue { background-color: var(--blue500); color: var(--white); }
-.PillButton.lavender { background-color: var(--lavender500); color: var(--white); }
 .PillButton.teal { background-color: var(--teal500); color: var(--white); }
 .PillButton.green { background-color: var(--green500); color: var(--white); }
 .PillButton.lime { background-color: var(--lime500); }

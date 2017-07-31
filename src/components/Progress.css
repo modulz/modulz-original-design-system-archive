@@ -46,7 +46,7 @@
            transparent 66%
         );
     background-size: var(--spacing-2) var(--spacing-1);
-    animation: stripes 1s linear infinite;
+    /*animation: stripes 1s linear infinite;*/
 }
 
 .Progress.striped.colored > div {

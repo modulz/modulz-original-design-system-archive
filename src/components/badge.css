@@ -16,7 +16,7 @@
 }
 
 .Badge.size2 {
-    font-size: var(--fontSize-3);
+    font-size: var(--fontSize-2);
     height: var(--spacing-3);
     padding: 0 var(--spacing-2);
 }

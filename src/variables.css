@@ -91,7 +91,7 @@
     --bronze200: hsl(12, 90%, 95%);
     --bronze300: hsl(12, 80%, 88%);
     --bronze400: hsl(12, 80%, 78%);
-    --bronze500: hsl(12, 60%, 56%);
+    --bronze500: hsl(12, 36%, 70%);
     --bronze600: hsl(12, 60%, 50%);
     --bronze700: hsl(12, 60%, 40%);
     --bronze800: hsl(12, 50%, 12%);
@@ -148,18 +148,17 @@
     /* Font sizes  */
 
     --fontSize-1: .8rem;
-    --fontSize-2: 1rem;
-    --fontSize-3: 1.2rem;
-    --fontSize-4: 1.4rem;
-    --fontSize-5: 1.6rem;
-    --fontSize-6: 1.8rem;
-    --fontSize-7: 2rem;
-    --fontSize-8: 2.2rem;
-    --fontSize-9: 2.6rem;
-    --fontSize-10: 3.2rem;
-    --fontSize-11: 4rem;
-    --fontSize-12: 4.6rem;
-    --fontSize-13: 7.2rem;
+    --fontSize-2: 1.2rem;
+    --fontSize-3: 1.4rem;
+    --fontSize-4: 1.6rem;
+    --fontSize-5: 1.8rem;
+    --fontSize-6: 2rem;
+    --fontSize-7: 2.2rem;
+    --fontSize-8: 2.6rem;
+    --fontSize-9: 3.2rem;
+    --fontSize-10: 4rem;
+    --fontSize-11: 4.6rem;
+    --fontSize-12: 7.2rem;
 
     /* Spacing  */
 
@@ -196,8 +195,8 @@
     --leading-5: 2.8rem;
     --leading-6: 3.2rem;
     --leading-7: 3.6rem;
-    --leading-8: 4rem;
-    --leading-9: 4.4rem;
+    --leading-8: 4.4rem;
+    --leading-9: 6.8rem;
 
     /* Shadow */
 

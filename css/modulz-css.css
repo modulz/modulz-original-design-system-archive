@@ -7224,56 +7224,56 @@ a {
 }
 /* Font size */
 .fs-9 {
-    font-size: 2.6rem
+    font-size: 3.2rem
 }
 .fs-8 {
-    font-size: 2.2rem
+    font-size: 2.6rem
 }
 .fs-7 {
-    font-size: 2rem
+    font-size: 2.2rem
 }
 .fs-6 {
-    font-size: 1.8rem
+    font-size: 2rem
 }
 .fs-5 {
-    font-size: 1.6rem
+    font-size: 1.8rem
 }
 .fs-4 {
-    font-size: 1.4rem
+    font-size: 1.6rem
 }
 .fs-3 {
-    font-size: 1.2rem
+    font-size: 1.4rem
 }
 .fs-2 {
-    font-size: 1rem
+    font-size: 1.2rem
 }
 .fs-1 {
     font-size: .8rem
 }
 @media (min-width: 38em) {
     .bp1-fs-9 {
-        font-size: 2.6rem
+        font-size: 3.2rem
     }
     .bp1-fs-8 {
-        font-size: 2.2rem
+        font-size: 2.6rem
     }
     .bp1-fs-7 {
-        font-size: 2rem
+        font-size: 2.2rem
     }
     .bp1-fs-6 {
-        font-size: 1.8rem
+        font-size: 2rem
     }
     .bp1-fs-5 {
-        font-size: 1.6rem
+        font-size: 1.8rem
     }
     .bp1-fs-4 {
-        font-size: 1.4rem
+        font-size: 1.6rem
     }
     .bp1-fs-3 {
-        font-size: 1.2rem
+        font-size: 1.4rem
     }
     .bp1-fs-2 {
-        font-size: 1rem
+        font-size: 1.2rem
     }
     .bp1-fs-1 {
         font-size: .8rem
@@ -7281,28 +7281,28 @@ a {
 }
 @media (min-width: 62em) {
     .bp2-fs-9 {
-        font-size: 2.6rem
+        font-size: 3.2rem
     }
     .bp2-fs-8 {
-        font-size: 2.2rem
+        font-size: 2.6rem
     }
     .bp2-fs-7 {
-        font-size: 2rem
+        font-size: 2.2rem
     }
     .bp2-fs-6 {
-        font-size: 1.8rem
+        font-size: 2rem
     }
     .bp2-fs-5 {
-        font-size: 1.6rem
+        font-size: 1.8rem
     }
     .bp2-fs-4 {
-        font-size: 1.4rem
+        font-size: 1.6rem
     }
     .bp2-fs-3 {
-        font-size: 1.2rem
+        font-size: 1.4rem
     }
     .bp2-fs-2 {
-        font-size: 1rem
+        font-size: 1.2rem
     }
     .bp2-fs-1 {
         font-size: .8rem
@@ -7310,25 +7310,25 @@ a {
 }
 @media (min-width: 68em) {
     .bp3-fs-9 {
-        font-size: 2.6rem
+        font-size: 3.2rem
     }
     .bp3-fs-8 {
-        font-size: 2.2rem
+        font-size: 2.6rem
     }
     .bp3-fs-7 {
-        font-size: 2rem
+        font-size: 2.2rem
     }
     .bp3-fs-6 {
-        font-size: 1.8rem
+        font-size: 2rem
     }
     .bp3-fs-5 {
-        font-size: 1.6rem
+        font-size: 1.8rem
     }
     .bp3-fs-4 {
-        font-size: 1.4rem
+        font-size: 1.6rem
     }
     .bp3-fs-3 {
-        font-size: 1.2rem
+        font-size: 1.4rem
     }
     .bp3-fs-s {
         font-size: var(--fontSize-s)
@@ -7339,25 +7339,25 @@ a {
 }
 @media (min-width: 110em) {
     .bp4-fs-9 {
-        font-size: 2.6rem
+        font-size: 3.2rem
     }
     .bp4-fs-8 {
-        font-size: 2.2rem
+        font-size: 2.6rem
     }
     .bp4-fs-7 {
-        font-size: 2rem
+        font-size: 2.2rem
     }
     .bp4-fs-6 {
-        font-size: 1.8rem
+        font-size: 2rem
     }
     .bp4-fs-5 {
-        font-size: 1.6rem
+        font-size: 1.8rem
     }
     .bp4-fs-4 {
-        font-size: 1.4rem
+        font-size: 1.6rem
     }
     .bp4-fs-3 {
-        font-size: 1.2rem
+        font-size: 1.4rem
     }
     .bp4-fs-s {
         font-size: var(--fontSize-s)
@@ -7745,10 +7745,10 @@ a {
     line-height: 3.6rem
 }
 .lh-8 {
-    line-height: 4rem
+    line-height: 4.4rem
 }
 .lh-9 {
-    line-height: 4.4rem
+    line-height: 6.8rem
 }
 @media (min-width: 38em) {
     .bp1-lh-1 {
@@ -7773,10 +7773,10 @@ a {
         line-height: 3.6rem
     }
     .bp1-lh-8 {
-        line-height: 4rem
+        line-height: 4.4rem
     }
     .bp1-lh-9 {
-        line-height: 4.4rem
+        line-height: 6.8rem
     }
 }
 @media (min-width: 62em) {
@@ -7802,10 +7802,10 @@ a {
         line-height: 3.6rem
     }
     .bp2-lh-8 {
-        line-height: 4rem
+        line-height: 4.4rem
     }
     .bp2-lh-9 {
-        line-height: 4.4rem
+        line-height: 6.8rem
     }
 }
 @media (min-width: 68em) {
@@ -7831,10 +7831,10 @@ a {
         line-height: 3.6rem
     }
     .bp3-lh-8 {
-        line-height: 4rem
+        line-height: 4.4rem
     }
     .bp3-lh-9 {
-        line-height: 4.4rem
+        line-height: 6.8rem
     }
 }
 @media (min-width: 110em) {
@@ -7860,10 +7860,10 @@ a {
         line-height: 3.6rem
     }
     .bp4-lh-8 {
-        line-height: 4rem
+        line-height: 4.4rem
     }
     .bp4-lh-9 {
-        line-height: 4.4rem
+        line-height: 6.8rem
     }
 }
 /* Margin */
@@ -10216,7 +10216,7 @@ a {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    font-size: 1.2rem
+    font-size: 1.4rem
 }
 .Radio > input {
     position: absolute;
@@ -11051,7 +11051,7 @@ a {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: rgba(0,0,0,.5);
+    color: hsl(205, 14%, 46%);
     font-size: 1.2rem;
     height: 2.4rem;
     padding: 0 .8rem;
@@ -11076,7 +11076,7 @@ a {
 }
 .Label.interactive:hover {
     background-color: hsl(205, 22%, 78%);
-    color: rgba(0,0,0,.8)
+    color: hsl(205, 30%, 7%)
 }
 /* Colors */
 .Label.yellow {
@@ -11269,7 +11269,7 @@ a {
     color: hsl(0, 0%, 100%)
 }
 /* Functional styles */
-.Button, .PillButton {
+.Button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -11310,13 +11310,20 @@ a {
     vertical-align: middle;
     white-space: nowrap
 }
-.Button:hover, .PillButton:hover {
+.Button:hover {
     -webkit-transform: translateY(-1px);
             transform: translateY(-1px)
 }
-.Button:active, .PillButton:active {
+.Button:active {
     -webkit-transform: translateY(0px);
             transform: translateY(0px)
+}
+/* Sizes */
+.Button.size1 {
+    height: 2.4rem;
+    min-width: 2.4rem;
+    padding-left: .8rem;
+    padding-right: .8rem
 }
 /* Neutral button */
 .Button {
@@ -11438,6 +11445,39 @@ a {
 }
 /* Base component */
 .PillButton {/* Must extend button class here */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-weight: 600;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    letter-spacing: .6px;
+    outline: none;
+    pointer-events: auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 100ms;
+            transition-duration: 100ms;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
     background-color: hsl(205, 35%, 97%);
     box-shadow: 0 2px 4px rgba(32, 52, 61, 0.03), 0 1px 2px rgba(0, 0, 0, .06);
     border-radius: 9999px;
@@ -11450,10 +11490,14 @@ a {
     padding-right: 2.4rem
 }
 .PillButton:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05)
+    box-shadow: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05);
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px)
 }
 .PillButton:active {
-    box-shadow: none
+    box-shadow: none;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px)
 }
 /* Size modifiers */
 .PillButton.size2 {
@@ -11468,6 +11512,14 @@ a {
 }
 .PillButton.black {
     background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.bronze {
+    background-color: hsl(12, 36%, 70%);
+    color: hsl(0, 0%, 100%)
+}
+.PillButton.gold {
+    background-color: hsl(31, 45%, 78%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.red {
@@ -11492,10 +11544,6 @@ a {
 }
 .PillButton.blue {
     background-color: hsl(205, 100%, 50%);
-    color: hsl(0, 0%, 100%)
-}
-.PillButton.lavender {
-    background-color: hsl(255, 74%, 60%);
     color: hsl(0, 0%, 100%)
 }
 .PillButton.teal {
@@ -11698,9 +11746,7 @@ a {
            rgba(0,0, 0, .08) 66%,
            transparent 66%
         );
-    background-size: 1.6rem .8rem;
-    -webkit-animation: stripes 1s linear infinite;
-            animation: stripes 1s linear infinite
+    background-size: 1.6rem .8rem/*animation: stripes 1s linear infinite;*/
 }
 .Progress.striped.colored > div {
     background-image: -webkit-linear-gradient(
@@ -11746,33 +11792,35 @@ a {
         background-position: 0 0, 0% 0%
     }
 }
-.Heading {
-    font-weight: 600;
-    letter-spacing: -.038em;
-    margin-left: -1.5px;
-    font-size: 2.6rem;
-    line-height: 3.6rem
-}
-.Heading.size6 {
-    font-weight: 600;
+.Heading.size7 {
     letter-spacing: -0.058em;
     margin-left: -2.5px;
     font-size: 7.2rem;
-    line-height: 68px
+    line-height: 6.8rem
 }
-.Heading.size5 {
-    font-weight: 600;
+.Heading.size6 {
     letter-spacing: -0.058em;
-    font-size: 4rem;
-    margin-left: -3.2px;
+    margin-left: -2.5px;
+    font-size: 4.6rem;
     line-height: 4.4rem
 }
+.Heading.size5 {
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
+    font-size: 4rem;
+    line-height: 4.4rem
+}
+.Heading.size4 {
+    letter-spacing: -0.058em;
+    font-size: 3.2rem;
+    margin-left: -3.2px;
+    line-height: 3.6rem
+}
 .Heading.size3 {
-    letter-spacing: -.02em;
-    font-size: 2.2rem;
-    letter-spacing: -.018em;
+    letter-spacing: -.038em;
     margin-left: -1.5px;
-    line-height: 2.8rem
+    font-size: 2.6rem;
+    line-height: 3.2rem
 }
 .Heading.size2 {
     font-size: 2.2rem;
@@ -11781,182 +11829,324 @@ a {
     line-height: 2.8rem
 }
 .Heading.size1 {
-    font-size: 1.6rem;
-    letter-spacing: -.02em;
-    line-height: 2rem
+    font-size: 2rem;
+    letter-spacing: -.018em;
+    margin-left: -1.5px;
+    line-height: 2.4rem
 }
-/* Colors */
-.Heading.white {
-    color: hsl(0, 0%, 100%)
+@media (min-width: 38em) {
+    .Heading.bp1-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 7.2rem;
+        line-height: 6.8rem
+    }
+    .Heading.bp1-size6 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 4.6rem;
+        line-height: 4.4rem
+    }
+    .Heading.bp1-size5 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 4rem;
+        line-height: 4.4rem
+    }
+    .Heading.bp1-size4 {
+        letter-spacing: -0.058em;
+        font-size: 3.2rem;
+        margin-left: -3.2px;
+        line-height: 3.6rem
+    }
+    .Heading.bp1-size3 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: 2.6rem;
+        line-height: 3.2rem
+    }
+    .Heading.bp1-size2 {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.8rem
+    }
+    .Heading.bp1-size1 {
+        font-size: 2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.4rem
+    }
 }
-.Heading.black {
-    color: hsl(0, 0%, 0%)
+@media (min-width: 62em) {
+    .Heading.bp2-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 7.2rem;
+        line-height: 6.8rem
+    }
+    .Heading.bp2-size6 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 4.6rem;
+        line-height: 4.4rem
+    }
+    .Heading.bp2-size5 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 4rem;
+        line-height: 4.4rem
+    }
+    .Heading.bp2-size4 {
+        letter-spacing: -0.058em;
+        font-size: 3.2rem;
+        margin-left: -3.2px;
+        line-height: 3.6rem
+    }
+    .Heading.bp2-size3 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: 2.6rem;
+        line-height: 3.2rem
+    }
+    .Heading.bp2-size2 {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.8rem
+    }
+    .Heading.bp2-size1 {
+        font-size: 2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.4rem
+    }
 }
-.Heading.gray {
-    color: hsl(205, 14%, 46%)
+@media (min-width: 68em) {
+    .Heading.bp3-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 7.2rem;
+        line-height: 6.8rem
+    }
+    .Heading.bp3-size6 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 4.6rem;
+        line-height: 4.4rem
+    }
+    .Heading.bp3-size5 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 4rem;
+        line-height: 4.4rem
+    }
+    .Heading.bp3-size4 {
+        letter-spacing: -0.058em;
+        font-size: 3.2rem;
+        margin-left: -3.2px;
+        line-height: 3.6rem
+    }
+    .Heading.bp3-size3 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: 2.6rem;
+        line-height: 3.2rem
+    }
+    .Heading.bp3-size2 {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.8rem
+    }
+    .Heading.bp3-size1 {
+        font-size: 2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.4rem
+    }
 }
-.Heading.red {
-    color: hsl(0, 100%, 65%)
+@media (min-width: 110em) {
+    .Heading.bp4-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 7.2rem;
+        line-height: 6.8rem
+    }
+    .Heading.bp4-size6 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 4.6rem;
+        line-height: 4.4rem
+    }
+    .Heading.bp4-size5 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: 4rem;
+        line-height: 4.4rem
+    }
+    .Heading.bp4-size4 {
+        letter-spacing: -0.058em;
+        font-size: 3.2rem;
+        margin-left: -3.2px;
+        line-height: 3.6rem
+    }
+    .Heading.bp4-size3 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: 2.6rem;
+        line-height: 3.2rem
+    }
+    .Heading.bp4-size2 {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.8rem
+    }
+    .Heading.bp4-size1 {
+        font-size: 2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: 2.4rem
+    }
 }
-.Heading.pink {
-    color: hsl(338, 100%, 57%)
+.Text.size7 {
+    font-size: 3.2rem;
+    letter-spacing: -.018em;
+    margin-left: -1.5px
 }
-.Heading.purple {
-    color: hsl(268, 60%, 47%)
+.Text.size6 {
+    font-size: 2.6rem;
+    letter-spacing: -.018em;
+    margin-left: -1.5px
 }
-.Heading.violet {
-    color: hsl(246, 60%, 52%)
-}
-.Heading.indigo {
-    color: hsl(226, 60%, 54%)
-}
-.Heading.blue {
-    color: hsl(205, 100%, 50%)
-}
-.Heading.teal {
-    color: hsl(180, 100%, 36%)
-}
-.Heading.green {
-    color: hsl(150, 60%, 56%)
-}
-.Heading.lime {
-    color: hsl(68, 82%, 50%)
-}
-.Heading.yellow {
-    color: hsl(52, 100%, 50%)
-}
-.Heading.amber {
-    color: hsl(40, 100%, 50%)
-}
-.Heading.orange {
-    color: hsl(30, 100%, 50%)
-}
-/* Weights */
-.Heading.weight1 {
-    font-weight: 100
-}
-.Heading.weight2 {
-    font-weight: 200
-}
-.Heading.weight3 {
-    font-weight: 300
-}
-.Heading.weight4 {
-    font-weight: 400
-}
-.Heading.weight5 {
-    font-weight: 500
-}
-.Heading.weight6 {
-    font-weight: 600
-}
-.Heading.weight7 {
-    font-weight: 700
-}
-.Heading.weight8 {
-    font-weight: 800
-}
-.Heading.weight9 {
-    font-weight: 900
-}
-.Text {
-    font-size: 1.6rem
-}
-.Text.size1 {
-    font-size: 1.2rem
-}
-.Text.size2 {
-    font-size: 1.4rem
+.Text.size5 {
+    font-size: 2rem;
+    letter-spacing: -.02em
 }
 .Text.size4 {
     font-size: 1.8rem
 }
-.Text.size5 {
-    font-size: 2rem
+.Text.size3 {
+    font-size: 1.6rem
 }
-.Text.size6 {
-    font-size: 2.2rem;
-    letter-spacing: -.02em;
-    margin-left: -.5px
+.Text.size2 {
+    font-size: 1.4rem
 }
-.Text.size7 {
-    font-size: 2.2rem;
-    letter-spacing: -.018em;
-    margin-left: -1.5px
+.Text.size1 {
+    font-size: 1.2rem
 }
-/* Colors */
-.Text.white {
-    color: hsl(0, 0%, 100%)
+@media (min-width: 38em) {
+    .Text.bp1-size7 {
+        font-size: 2.6rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px
+    }
+    .Text.bp1-size6 {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px
+    }
+    .Text.bp1-size5 {
+        font-size: 2rem;
+        letter-spacing: -.02em
+    }
+    .Text.bp1-size4 {
+        font-size: 1.8rem
+    }
+    .Text.bp1-size3 {
+        font-size: 1.6rem
+    }
+    .Text.bp1-size2 {
+        font-size: 1.4rem
+    }
+    .Text.bp1-size1 {
+        font-size: 1.2rem
+    }
 }
-.Text.black {
-    color: hsl(0, 0%, 0%)
+@media (min-width: 62em) {
+    .Text.bp2-size7 {
+        font-size: 2.6rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px
+    }
+    .Text.bp2-size6 {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px
+    }
+    .Text.bp2-size5 {
+        font-size: 2rem;
+        letter-spacing: -.02em
+    }
+    .Text.bp2-size4 {
+        font-size: 1.8rem
+    }
+    .Text.bp2-size3 {
+        font-size: 1.6rem
+    }
+    .Text.bp2-size2 {
+        font-size: 1.4rem
+    }
+    .Text.bp2-size1 {
+        font-size: 1.2rem
+    }
 }
-.Text.gray {
-    color: hsl(205, 25%, 33%)
+@media (min-width: 68em) {
+    .Text.bp3-size7 {
+        font-size: 2.6rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px
+    }
+    .Text.bp3-size6 {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px
+    }
+    .Text.bp3-size5 {
+        font-size: 2rem;
+        letter-spacing: -.02em
+    }
+    .Text.bp3-size4 {
+        font-size: 1.8rem
+    }
+    .Text.bp3-size3 {
+        font-size: 1.6rem
+    }
+    .Text.bp3-size2 {
+        font-size: 1.4rem
+    }
+    .Text.bp3-size1 {
+        font-size: 1.2rem
+    }
 }
-.Text.red {
-    color: hsl(0, 100%, 40%)
-}
-.Text.pink {
-    color: var(--pink700)
-}
-.Text.purple {
-    color: var(--purple700)
-}
-.Text.violet {
-    color: var(--violet700)
-}
-.Text.indigo {
-    color: var(--indigo700)
-}
-.Text.blue {
-    color: hsl(205, 100%, 35%)
-}
-.Text.teal {
-    color: hsl(172, 52%, 38%)
-}
-.Text.green {
-    color: hsl(150, 60%, 38%)
-}
-.Text.lime {
-    color: var(--lime700)
-}
-.Text.yellow {
-    color: var(--yellow700)
-}
-.Text.amber {
-    color: hsl(40, 100%, 35%)
-}
-.Text.orange {
-    color: var(--orange700)
-}
-/* Weights */
-.Text.weight1 {
-    font-weight: 100
-}
-.Text.weight2 {
-    font-weight: 200
-}
-.Text.weight3 {
-    font-weight: 300
-}
-.Text.weight4 {
-    font-weight: 400
-}
-.Text.weight5 {
-    font-weight: 500
-}
-.Text.weight6 {
-    font-weight: 600
-}
-.Text.weight7 {
-    font-weight: 700
-}
-.Text.weight8 {
-    font-weight: 800
-}
-.Text.weight9 {
-    font-weight: 900
+@media (min-width: 110em) {
+    .Text.bp4-size7 {
+        font-size: 2.6rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px
+    }
+    .Text.bp4-size6 {
+        font-size: 2.2rem;
+        letter-spacing: -.018em;
+        margin-left: -1.5px
+    }
+    .Text.bp4-size5 {
+        font-size: 2rem;
+        letter-spacing: -.02em
+    }
+    .Text.bp4-size4 {
+        font-size: 1.8rem
+    }
+    .Text.bp4-size3 {
+        font-size: 1.6rem
+    }
+    .Text.bp4-size2 {
+        font-size: 1.4rem
+    }
+    .Text.bp4-size1 {
+        font-size: 1.2rem
+    }
 }
 .Input {
     height: 3.2rem;
@@ -12007,7 +12197,7 @@ a {
     position: relative
 }
 .FormGroup-label {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: block;
     -webkit-transition-property: color;
     transition-property: color;
@@ -12017,7 +12207,7 @@ a {
             transition-timing-function: linear
 }
 .FormGroup-hint {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: hsl(205, 14%, 46%);
     display: block;
     margin-top: .8rem
@@ -12053,13 +12243,13 @@ a {
 }*/
 /* Sizes */
 .Link.size1 {
-    font-size: 1rem
-}
-.Link.size2 {
     font-size: 1.2rem
 }
-.Link.size3 {
+.Link.size2 {
     font-size: 1.4rem
+}
+.Link.size3 {
+    font-size: 1.6rem
 }
 /* Styles */
 .Link.primary {

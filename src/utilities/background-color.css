@@ -62,10 +62,10 @@
 .bc-brown             { background-color: var(--brown500); }
 .bc-brownTint         { background-color: var(--brownTint); }
 
-.bc-gray100          { background-color: var(--gray100); }
+/*.bc-gray100          { background-color: var(--gray100); }
 .bc-gray200           { background-color: var(--gray200); }
 .bc-gray800            { background-color: var(--gray800); }
-.bc-gray900    { background-color: var(--gray900); }
+.bc-gray900    { background-color: var(--gray900); }*/
 
 /* Hover states */
 @media (hover) {

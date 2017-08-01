@@ -1,98 +1,253 @@
-.Heading {
-    font-size: var(--fontSize-8);
-    font-weight: 600;
+.Heading.size7 {
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
+    font-size: var(--fontSize-12);
+    line-height: var(--leading-9);
+}
+
+.Heading.size6 {
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
+    font-size: var(--fontSize-11);
+    line-height: var(--leading-8);
+}
+
+.Heading.size5 {
+    letter-spacing: -0.058em;
+    margin-left: -2.5px;
+    font-size: var(--fontSize-10);
+    line-height: var(--leading-8);
+}
+
+.Heading.size4 {
+    letter-spacing: -0.058em;
+    font-size: var(--fontSize-9);
+    margin-left: -3.2px;
+    line-height: var(--leading-7);
+}
+
+.Heading.size3 {
     letter-spacing: -.038em;
     margin-left: -1.5px;
+    font-size: var(--fontSize-8);
     line-height: var(--leading-6);
-
-    @media (--breakpoint-2) {
-        font-size: var(--fontSize-9);
-        line-height: var(--leading-7);
-    }
 }
 
-.Heading.title {
-    font-size: var(--fontSize-11);
-    font-weight: 600;
-    letter-spacing: -0.058em;
-    margin-left: -2.5px;
-    line-height: var(--leading-9);
-
-    @media (--breakpoint-2) {
-        font-size: var(--fontSize-13);
-        line-height: 68px;
-    }
+.Heading.size2 {
+    font-size: var(--fontSize-7);
+    letter-spacing: -.018em;
+    margin-left: -1.5px;
+    line-height: var(--leading-5);
 }
 
-.Heading.large {
-    font-size: var(--fontSize-9);
-    font-weight: 600;
-    letter-spacing: -0.058em;
-    margin-left: -2.5px;
-    line-height: var(--leading-6);
+.Heading.size1 {
+    font-size: var(--fontSize-6);
+    letter-spacing: -.018em;
+    margin-left: -1.5px;
+    line-height: var(--leading-4);
+}
 
-    @media (--breakpoint-2) {
-        font-size: var(--fontSize-11);
-        margin-left: -3.2px;
+
+@media (--breakpoint-1) {
+    .Heading.bp1-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-12);
         line-height: var(--leading-9);
     }
-}
 
-.Heading.sub {
-    font-weight: 300;
-}
+    .Heading.bp1-size6 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-11);
+        line-height: var(--leading-8);
+    }
 
-.Heading.small {
-    font-size: var(--fontSize-7);
-    letter-spacing: -.02em;
-    line-height: var(--leading-4);
-    margin-left: -.5px;
+    .Heading.bp1-size5 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-10);
+        line-height: var(--leading-8);
+    }
 
-    @media (--breakpoint-2) {
+    .Heading.bp1-size4 {
+        letter-spacing: -0.058em;
+        font-size: var(--fontSize-9);
+        margin-left: -3.2px;
+        line-height: var(--leading-7);
+    }
+
+    .Heading.bp1-size3 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
         font-size: var(--fontSize-8);
+        line-height: var(--leading-6);
+    }
+
+    .Heading.bp1-size2 {
+        font-size: var(--fontSize-7);
         letter-spacing: -.018em;
         margin-left: -1.5px;
         line-height: var(--leading-5);
     }
+
+    .Heading.bp1-size1 {
+        font-size: var(--fontSize-6);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: var(--leading-4);
+    }
 }
 
-.Heading.small {
-    font-size: var(--fontSize-7);
-    letter-spacing: -.02em;
-    line-height: var(--leading-4);
-    margin-left: -.5px;
+@media (--breakpoint-2) {
+    .Heading.bp2-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-12);
+        line-height: var(--leading-9);
+    }
 
-    @media (--breakpoint-2) {
+    .Heading.bp2-size6 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-11);
+        line-height: var(--leading-8);
+    }
+
+    .Heading.bp2-size5 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-10);
+        line-height: var(--leading-8);
+    }
+
+    .Heading.bp2-size4 {
+        letter-spacing: -0.058em;
+        font-size: var(--fontSize-9);
+        margin-left: -3.2px;
+        line-height: var(--leading-7);
+    }
+
+    .Heading.bp2-size3 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
         font-size: var(--fontSize-8);
+        line-height: var(--leading-6);
+    }
+
+    .Heading.bp2-size2 {
+        font-size: var(--fontSize-7);
         letter-spacing: -.018em;
         margin-left: -1.5px;
         line-height: var(--leading-5);
     }
+
+    .Heading.bp2-size1 {
+        font-size: var(--fontSize-6);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: var(--leading-4);
+    }
 }
 
-.Heading.xsmall {
-    font-size: var(--fontSize-5);
-    letter-spacing: -.02em;
-    line-height: var(--leading-3);
+@media (--breakpoint-3) {
+    .Heading.bp3-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-12);
+        line-height: var(--leading-9);
+    }
+
+    .Heading.bp3-size6 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-11);
+        line-height: var(--leading-8);
+    }
+
+    .Heading.bp3-size5 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-10);
+        line-height: var(--leading-8);
+    }
+
+    .Heading.bp3-size4 {
+        letter-spacing: -0.058em;
+        font-size: var(--fontSize-9);
+        margin-left: -3.2px;
+        line-height: var(--leading-7);
+    }
+
+    .Heading.bp3-size3 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: var(--fontSize-8);
+        line-height: var(--leading-6);
+    }
+
+    .Heading.bp3-size2 {
+        font-size: var(--fontSize-7);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: var(--leading-5);
+    }
+
+    .Heading.bp3-size1 {
+        font-size: var(--fontSize-6);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: var(--leading-4);
+    }
 }
 
-/* Colors */
+@media (--breakpoint-4) {
+    .Heading.bp4-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-12);
+        line-height: var(--leading-9);
+    }
 
-.Heading.white { color: var(--white); }
-.Heading.black { color: var(--black); }
-.Heading.gray { color: var(--gray500); }
+    .Heading.bp4-size6 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-11);
+        line-height: var(--leading-8);
+    }
 
-.Heading.red { color: var(--red500); }
-.Heading.pink { color: var(--pink500); }
-.Heading.purple { color: var(--purple500); }
-.Heading.violet { color: var(--violet500); }
-.Heading.indigo { color: var(--indigo500); }
-.Heading.blue { color: var(--blue500); }
-.Heading.lavender { color: var(--lavender500); }
-.Heading.teal { color: var(--teal500); }
-.Heading.green { color: var(--green500); }
-.Heading.lime { color: var(--lime500); }
-.Heading.yellow { color: var(--yellow500); }
-.Heading.amber { color: var(--amber500); }
-.Heading.orange { color: var(--orange500); }
-.Heading.crimson { color: var(--crimson500); }
+    .Heading.bp4-size5 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-10);
+        line-height: var(--leading-8);
+    }
+
+    .Heading.bp4-size4 {
+        letter-spacing: -0.058em;
+        font-size: var(--fontSize-9);
+        margin-left: -3.2px;
+        line-height: var(--leading-7);
+    }
+
+    .Heading.bp4-size3 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: var(--fontSize-8);
+        line-height: var(--leading-6);
+    }
+
+    .Heading.bp4-size2 {
+        font-size: var(--fontSize-7);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: var(--leading-5);
+    }
+
+    .Heading.bp4-size1 {
+        font-size: var(--fontSize-6);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+        line-height: var(--leading-4);
+    }
+}

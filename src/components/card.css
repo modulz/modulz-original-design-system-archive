@@ -1,9 +1,15 @@
 .Card {
     background-color: var(--white);
+    border: 1px solid var(--gray300);
     border-radius: var(--borderRadius-2);
-    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
     transition-property: color,background-color,box-shadow,transform;
     transition-duration: 150ms;
+    overflow: hidden;
+}
+
+.Card.interactive {
+    border: none;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 }
 
 .Card.interactive:hover {

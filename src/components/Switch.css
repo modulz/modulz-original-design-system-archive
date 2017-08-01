@@ -35,10 +35,10 @@
 }
 
 .Switch input:checked + div {
-    background-color: var(--teal300);
+    background-color: var(--blue300);
 }
 
 .Switch input:checked + div:before {
     transform: translateX(var(--spacing-2));
-    background-color: var(--teal500);
+    background-color: var(--blue500);
 }

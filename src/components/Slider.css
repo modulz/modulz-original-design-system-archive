@@ -1,8 +1,9 @@
 .Slider {
     appearance: none;
-    padding: 8px 0;
+    padding: var(--spacing-1) 0;
     width: 100%;
     cursor: pointer;
+    vertical-align: middle;
 }
 .Slider:focus {
     outline: none;
@@ -35,7 +36,7 @@
     cursor: pointer;
     background: transparent;
     border-color: transparent;
-    border-width: 16px 0;
+    border-width: var(--spacing-2) 0;
     color: transparent;
 }
 .Slider::-ms-fill-lower {
@@ -60,8 +61,8 @@
 .Slider::-webkit-slider-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
-    height: 16px;
-    width: 16px;
+    height: var(--spacing-2);
+    width: var(--spacing-2);
     border-radius: 50%;
     background: var(--gray500);
     cursor: pointer;
@@ -70,27 +71,63 @@
     transition: transform 100ms ease;
 }
 .Slider:hover::-webkit-slider-thumb {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 .Slider::-moz-range-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
-    height: 16px;
-    width: 16px;
+    height: var(--spacing-2);
+    width: var(--spacing-2);
     border-radius: 50%;
     background: var(--gray500);
     cursor: pointer;
     transition: transform 100ms ease;
 }
 .Slider:hover::-moz-range-thumb {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 .Slider::-ms-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
-    height: 16px;
-    width: 16px;
+    height: var(--spacing-2);
+    width: var(--spacing-2);
     border-radius: 50%;
     background: var(--gray500);
     cursor: pointer;
+}
+
+.Slider.vertical {
+    appearance: slider-vertical;
+}
+
+/* Disabled */
+
+.Slider:disabled {
+    pointer-events: none;
+}
+
+.Slider:disabled::-webkit-slider-runnable-track {
+    background: var(--gray200);
+}
+.Slider:disabled::-moz-range-track {
+    background: var(--gray200);
+}
+.Slider:disabled::-ms-fill-lower {
+    background: var(--gray200);
+}
+.Slider:disabled::-ms-fill-upper {
+    background: var(--gray200);
+}
+
+.Slider:disabled::-webkit-slider-thumb {
+    box-shadow: none;
+    background: var(--gray300);
+}
+.Slider:disabled::-moz-range-thumb {
+    box-shadow: none;
+    background: var(--gray300);
+}
+.Slider:disabled::-ms-thumb {
+    box-shadow: none;
+    background: var(--gray300);
 }

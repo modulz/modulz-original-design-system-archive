@@ -9,8 +9,17 @@
     box-shadow: inset 0 0 0 1px var(--gray300);
     font-weight: 600;
     border-radius: 9999px;
-    letter-spacing: .6px;
+    letter-spacing: .8px;
     white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    cursor: default;
+}
+
+.Badge.size2 {
+    font-size: var(--fontSize-2);
+    height: var(--spacing-3);
+    padding: 0 var(--spacing-2);
 }
 
 /* Sizes */
@@ -24,25 +33,37 @@
 /* Styles */
 
 .Badge.primary {
-    background-color: var(--blue100);
+    background-color: var(--blue200);
     color: var(--blue700);
     box-shadow: none;
 }
 
-.Badge.positive {
-    background-color: var(--green100);
-    color: var(--green700);
-    box-shadow: none;
-}
-
-.Badge.warning {
-    background-color: var(--amber100);
+.Badge.intermediary {
+    background-color: var(--amber200);
     color: var(--amber700);
     box-shadow: none;
 }
 
+.Badge.positive {
+    background-color: var(--green200);
+    color: var(--green700);
+    box-shadow: none;
+}
+
 .Badge.negative {
-    background-color: var(--red100);
+    background-color: var(--red200);
     color: var(--red700);
+    box-shadow: none;
+}
+
+.Badge.bronze {
+    background-color: var(--bronze200);
+    color: var(--bronze700);
+    box-shadow: none;
+}
+
+.Badge.gold {
+    background-color: var(--gold200);
+    color: var(--gold700);
     box-shadow: none;
 }

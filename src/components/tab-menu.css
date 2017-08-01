@@ -7,19 +7,18 @@
     display: inline-flex;
     align-items: center;
     height: var(--spacing-5);
-    min-width: var(--spacing-5);
     justify-content: center;
-    font-size: 10px;
+    font-size: var(--fontSize-2);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .8px;
-    background-color: white;
     padding: 0 var(--spacing-1);
     cursor: pointer;
     color: var(--gray500);
     text-align: center;
     margin-left: 4px;
     transition: all 100ms ease;
+    white-space: nowrap;
 }
 .TabMenu .Tab:first-child {
     margin-left: 0;
@@ -28,7 +27,7 @@
     box-shadow: inset 0 -2px 0 0 var(--gray300);
     color: inherit;
 }
-.Tab.active {
+.Tab.is-active {
     box-shadow: inset 0 -2px 0 0 var(--blue500);
     color: inherit;
     cursor: default;
@@ -37,4 +36,5 @@
 .TabMenu.expanded .Tab {
     flex-grow: 1;
     flex-basis: 0;
+    max-width: 100%;
 }

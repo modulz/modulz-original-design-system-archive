@@ -1,0 +1,102 @@
+.Label {
+    align-items: center;
+    display: inline-flex;
+    color: var(--gray500);
+    font-size: var(--fontSize-2);
+    height: var(--spacing-3);
+    padding: 0 var(--spacing-1);
+    background-color: var(--gray300);
+    font-weight: 600;
+    border-radius: 9999px;
+    white-space: nowrap;
+    cursor: default;
+    user-select: none;
+}
+
+.Label.interactive {
+    transition-property: background-color, color;
+    transition-duration: 60ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+.Label.interactive:hover {
+    background-color: var(--gray400);
+    color: var(--gray900);
+}
+
+/* Colors */
+
+.Label.yellow {
+    background-color: var(--yellow500);
+    color: white;
+}
+
+.Label.lime {
+    background-color: var(--lime500);
+    color: white;
+}
+
+.Label.green {
+    background-color: var(--green500);
+    color: white;
+}
+
+.Label.teal {
+    background-color: var(--teal500);
+    color: white;
+}
+
+.Label.blue {
+    background-color: var(--blue500);
+    color: white;
+}
+
+.Label.indigo {
+    background-color: var(--indigo500);
+    color: white;
+}
+
+.Label.violet {
+    background-color: var(--violet500);
+    color: white;
+}
+
+.Label.purple {
+    background-color: var(--purple500);
+    color: white;
+}
+
+.Label.pink {
+    background-color: var(--pink500);
+    color: white;
+}
+
+.Label.red {
+    background-color: var(--red500);
+    color: white;
+}
+
+.Label.orange {
+    background-color: var(--orange500);
+    color: white;
+}
+
+.Label.amber {
+    background-color: var(--amber500);
+    color: white;
+}
+
+/* Label group */
+
+.LabelGroup {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+.LabelGroup .Label {
+    margin-left: 4px;
+    margin-top: 4px;
+}

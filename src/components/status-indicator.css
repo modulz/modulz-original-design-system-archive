@@ -1,22 +1,32 @@
 .StatusIndicator {
-  width: 16px;
-  height: 16px;
-  background-color: var(--gray300);
-  border-radius: 50%;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--gray300);
+    border-radius: 50%;
 }
 
+/* Sizes */
+
+.StatusIndicator.size1 {
+    width: 6px;
+    height: 6px;
+}
+
+/* Colors */
+
 .StatusIndicator.primary {
-  background-color: var(--blue500);
+    background-color: var(--blue500);
 }
 
 .StatusIndicator.positive {
-  background-color: var(--green500);
+    background-color: var(--green500);
 }
 
 .StatusIndicator.intermediary {
-  background-color: var(--amber500);
+    background-color: var(--amber500);
 }
 
 .StatusIndicator.negative {
-  background-color: var(--red500);
+    background-color: var(--red500);
 }

@@ -10238,7 +10238,6 @@ a {
     line-height: 1.6rem;
     background-color: hsl(0, 0%, 100%);
     border: 1px solid hsl(205, 22%, 78%);
-    box-shadow: 0 1px 3px rgba(0,0,0,.05);
     border-radius: 4px;
     -webkit-transition: all 100ms ease;
     transition: all 100ms ease;
@@ -10246,7 +10245,6 @@ a {
 }
 /* Hover state*/
 .Radio:hover > input ~ div {
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-color: hsl(205, 14%, 46%)
 }
 /* Focus state */
@@ -10262,7 +10260,7 @@ a {
     color: hsl(0, 0%, 100%);
     background-color: hsl(205, 100%, 50%);
     border-color: hsl(205, 100%, 50%);
-    box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05)
+    box-shadow: inset 0 0 0 4px white
 }
 /* Radio modifiers */
 .Radio input ~ div {
@@ -10333,6 +10331,13 @@ a {
     background-color: hsl(205, 100%, 50%);
     border-color: hsl(205, 100%, 50%);
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05)
+}
+/* Toggle check mark */
+.Checkbox svg {
+    display: none
+}
+.Checkbox > input:checked svg {
+    display: block
 }
 .Slider {
     -webkit-appearance: none;
@@ -10507,12 +10512,12 @@ a {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05)
 }
 .Switch input:checked + div {
-    background-color: hsl(172, 95%, 92%)
+    background-color: hsl(205, 85%, 88%)
 }
 .Switch input:checked + div:before {
     -webkit-transform: translateX(1.6rem);
             transform: translateX(1.6rem);
-    background-color: hsl(180, 100%, 36%)
+    background-color: hsl(205, 100%, 50%)
 }
 /* Grid */
 .Grid {

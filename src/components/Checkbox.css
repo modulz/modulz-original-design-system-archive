@@ -28,12 +28,14 @@
 }
 
 /* Hover state*/
+
 .Checkbox:hover > input ~ div {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border-color: var(--gray500);
 }
 
 /* Focus state */
+
 /*.Checkbox input:focus ~ .control-indicator,
 .Radio input:focus ~ .control-indicator {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
@@ -43,9 +45,20 @@
 }*/
 
 /* Checked state */
+
 .Checkbox > input:checked ~ div {
     color: var(--white);
     background-color: var(--blue500);
     border-color: var(--blue500);
     box-shadow: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05);
+}
+
+/* Toggle check mark */
+
+.Checkbox svg {
+    display: none;
+}
+
+.Checkbox > input:checked svg {
+    display: block;
 }

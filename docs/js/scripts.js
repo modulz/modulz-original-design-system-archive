@@ -31,14 +31,6 @@ $(function() {
         toggleSideDrawer();
     });
 
-    // Context
-
-    $('.ContextContainer').click(function() {
-        $('.ContextContainer').removeClass('is-active');
-        $(this).toggleClass('is-active');
-        $(this).children('.Button').toggleClass('is-active');
-    });
-
     // Toast
 
     $('.js-ToastTrigger').click(function() {

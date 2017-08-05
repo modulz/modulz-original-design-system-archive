@@ -1,14 +1,19 @@
 // Remove selected object
 
+window.RemoveObject = function (e) {
+    $('.ui-selected').remove();
+    toggleControls();
+}
+
 $(window).on('keydown', function(e) {
     var keycode = e.keyCode || e.which;
 
     if (keycode == 8) {
-        $('.ui-selected').remove();
+        RemoveObject();
     }
-
-    toggleControls();
-
-    return false;
-
+    else if (keycode == 88) {
+        if (e.metaKey) {
+           RemoveObject();
+        }
+    }
 });

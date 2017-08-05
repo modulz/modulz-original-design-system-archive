@@ -1,4 +1,4 @@
-// Nudge element with cursor keys
+// Nudge selected objects with cursor keys
 
 $(window).on('keydown', function(e) {
     var defaultIncrement = 4;

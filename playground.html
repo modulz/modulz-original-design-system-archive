@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="oy-scroll" lang="en" style="font-size: 62.5%;">
+<html class="overflow-hidden" lang="en" style="font-size: 62.5%;">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -30,7 +30,7 @@
     </head>
     <body class="ff-whitney color-lead tr-optimizeLegibility bc-gray200">
 
-        <div class="display-flex">
+        <div class="display-flex height-100">
             <div class="position-relative zi-1 width-20 bc-gray200"style="border-right: 1px solid lightgray;">
                 <div class="padding-2">
                     <div class="display-flex fw-wrap ai-center">
@@ -49,9 +49,9 @@
                     </div>
                 </div>
             </div>
-            <div class="width-60">
+            <div class="width-60 overflow-scroll Scrollbar js-CanvasContainer">
 
-                <div class="position-relative display-flex ai-center jc-center height-100 js-CanvasArea">
+                <div class="position-relative display-flex ai-center jc-center height-100 js-CanvasArea" style="width: 2000px; height: 2000px;">
                     <main class="position-relative bc-white js-Canvas" id="canvas" style="width: 375px; height: 667px; box-shadow: 0 0 0 1px lightgray;">
 
                         <div class="position-absolute js-Component" style="top: 0; left: 0; z-index: 0;">
@@ -193,5 +193,12 @@
 			});
 
 		</script> -->
+
+        <script type="text/javascript">
+            $(function() {
+                $('.js-CanvasContainer').scrollTop(650);
+                $('.js-CanvasContainer').scrollLeft(600);
+            });
+        </script>
     </body>
 </html>

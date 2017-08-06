@@ -1,12 +1,30 @@
+// Sort object up
+
 window.SortUp = function () {
-    var currentIndex = $('.ui-selected').eq(0).css('z-index');
-    $('.ui-selected').css('z-index', ++currentIndex);
+    var currentIndex = $('.ui-selected').css('z-index');
+    var newIndex = ++currentIndex;
+
+    $(".js-Component").filter(function(index) {
+        return index === newIndex;
+    }).css('z-index', newIndex -= 1);
+
+    $('.ui-selected').css('z-index', +currentIndex);
 }
+
+// Sort object down
 
 window.SortDown = function () {
     var currentIndex = $('.ui-selected').css('z-index');
-    $('.ui-selected').css('z-index', currentIndex -= 1);
+    var newIndex = currentIndex -= 1;
+
+    $(".js-Component").filter(function(index) {
+        return index === newIndex;
+    }).css('z-index', ++newIndex);
+
+    $('.ui-selected').css('z-index', currentIndex);
 }
+
+// Call sort functions by hotkey
 
 $(window).on('keydown', function(e) {
     var keycode = e.keyCode || e.which;

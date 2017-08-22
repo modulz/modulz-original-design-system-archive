@@ -1,0 +1,59 @@
+/* Font size */
+
+.fs-9     { font-size: var(--fontSize-9); }
+.fs-8     { font-size: var(--fontSize-8); }
+.fs-7     { font-size: var(--fontSize-7); }
+.fs-6     { font-size: var(--fontSize-6); }
+.fs-5     { font-size: var(--fontSize-5); }
+.fs-4     { font-size: var(--fontSize-4); }
+.fs-3     { font-size: var(--fontSize-3); }
+.fs-2     { font-size: var(--fontSize-2); }
+.fs-1     { font-size: var(--fontSize-1); }
+
+@media (--breakpoint-1) {
+    .bp1-fs-9     { font-size: var(--fontSize-9); }
+    .bp1-fs-8     { font-size: var(--fontSize-8); }
+    .bp1-fs-7     { font-size: var(--fontSize-7); }
+    .bp1-fs-6     { font-size: var(--fontSize-6); }
+    .bp1-fs-5     { font-size: var(--fontSize-5); }
+    .bp1-fs-4     { font-size: var(--fontSize-4); }
+    .bp1-fs-3     { font-size: var(--fontSize-3); }
+    .bp1-fs-2     { font-size: var(--fontSize-2); }
+    .bp1-fs-1     { font-size: var(--fontSize-1); }
+}
+
+@media (--breakpoint-2) {
+    .bp2-fs-9     { font-size: var(--fontSize-9); }
+    .bp2-fs-8   { font-size: var(--fontSize-8); }
+    .bp2-fs-7    { font-size: var(--fontSize-7); }
+    .bp2-fs-6     { font-size: var(--fontSize-6); }
+    .bp2-fs-5      { font-size: var(--fontSize-5); }
+    .bp2-fs-4       { font-size: var(--fontSize-4); }
+    .bp2-fs-3       { font-size: var(--fontSize-3); }
+    .bp2-fs-2       { font-size: var(--fontSize-2); }
+    .bp2-fs-1      { font-size: var(--fontSize-1); }
+}
+
+@media (--breakpoint-3) {
+    .bp3-fs-9     { font-size: var(--fontSize-9); }
+    .bp3-fs-8   { font-size: var(--fontSize-8); }
+    .bp3-fs-7    { font-size: var(--fontSize-7); }
+    .bp3-fs-6     { font-size: var(--fontSize-6); }
+    .bp3-fs-5      { font-size: var(--fontSize-5); }
+    .bp3-fs-4       { font-size: var(--fontSize-4); }
+    .bp3-fs-3       { font-size: var(--fontSize-3); }
+    .bp3-fs-2       { font-size: var(--fontSize-2); }
+    .bp3-fs-1      { font-size: var(--fontSize-1); }
+}
+
+@media (--breakpoint-4) {
+    .bp4-fs-9     { font-size: var(--fontSize-9); }
+    .bp4-fs-8   { font-size: var(--fontSize-8); }
+    .bp4-fs-7    { font-size: var(--fontSize-7); }
+    .bp4-fs-6     { font-size: var(--fontSize-6); }
+    .bp4-fs-5      { font-size: var(--fontSize-5); }
+    .bp4-fs-4       { font-size: var(--fontSize-4); }
+    .bp4-fs-3       { font-size: var(--fontSize-3); }
+    .bp4-fs-2       { font-size: var(--fontSize-2); }
+    .bp4-fs-1      { font-size: var(--fontSize-1); }
+}

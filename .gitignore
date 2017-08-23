@@ -6,3 +6,6 @@
 ehthumbs.db
 Thumbs.db
 node_modules
+.vscode
+.idea
+public

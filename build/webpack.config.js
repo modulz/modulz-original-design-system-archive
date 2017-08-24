@@ -65,7 +65,7 @@ const config = {
     },
     devtool: "source-map",
     plugins: [
-        new ExtractTextPlugin('css/modulz-css.min.css')
+        new ExtractTextPlugin('css/modulz.min.css')
     ]
 };
 

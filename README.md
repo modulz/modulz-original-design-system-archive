@@ -1,4 +1,4 @@
-# modulz-css
+# Modulz
 
 A CSS library of components for building responsive websites and applications.
 
@@ -6,12 +6,12 @@ A CSS library of components for building responsive websites and applications.
 
 Paste this line of code into the &lt;head&gt; of your html files.
 ```html
-<link rel="stylesheet" href="https://s3.amazonaws.com/modulz/modulz-css.min.css">
+<link rel="stylesheet" href="https://s3.amazonaws.com/modulz/modulz.min.css">
 ```
 
 or install with npm
 ```shell
-npm install modulz-css
+npm install modulz
 ```
 
 ## Test page
@@ -25,7 +25,7 @@ folder, create an index.html file inside, then paste in the code below and open 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Modulz Test</title>
-        <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/modulz/modulz-css.min.css">
+        <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/modulz/modulz.min.css">
     </head>
     <body class="ff-sansSerif color-lead tr-optimizeLegibility">
         <section class="Section large blue">

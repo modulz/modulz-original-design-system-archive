@@ -1,10 +1,10 @@
 {
-  "name": "modulz-css",
-  "version": "0.5.6",
+  "name": "modulz",
+  "version": "0.5.7",
   "description": "A CSS library of components for building responsive websites and applications.",
   "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
-  "style": "src/css/modulz-css.css",
-  "main": "dist/modulz-css.min.css",
+  "style": "src/css/modulz.css",
+  "main": "dist/modulz.min.css",
   "files": [
     "css",
     "src"
@@ -24,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/modulz/modulz-css.git"
+    "url": "git+https://github.com/modulz/modulz.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/modulz/modulz-vue/issues"
+    "url": "https://github.com/modulz/modulz/issues"
   },
-  "homepage": "https://modulz.com",
+  "homepage": "https://www.modulz.co",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",

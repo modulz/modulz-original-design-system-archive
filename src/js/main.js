@@ -1,5 +1,5 @@
 // import main css file
-import 'src/css/modulz-css.css';
+import 'src/css/modulz.css';
 
 // import js components
 import 'js/components/Context';

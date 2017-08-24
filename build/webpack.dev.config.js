@@ -20,7 +20,7 @@ webpackConfig.devServer = {
 webpackConfig.devtool = "source-map";
 
 webpackConfig.plugins = [
-    new ExtractTextPlugin('css/modulz-css.min.css')
+    new ExtractTextPlugin('css/modulz.min.css')
 ];
 
 const pages = getEntries('./docs/pages/', 'html');

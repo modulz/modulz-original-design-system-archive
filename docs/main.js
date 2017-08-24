@@ -1,6 +1,9 @@
 // import entry point of modulz
 import 'src/js/main';
 
+// Import JS component files
+import 'src/js/components/Navigation';
+
 // import highlight files and initialize
 import highlight from 'highlight.js/lib/highlight.js';
 import highlightCSS from 'highlight.js/lib/languages/css';

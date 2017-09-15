@@ -1,0 +1,79 @@
+/* Track */
+
+.Progress {
+    background-color: var(--gray300);
+    width: 100%;
+    height: var(--spacing-1);
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+/* Sizes */
+
+.Progress.size1 {
+    height: 4px;
+}
+
+/* Progress bar */
+
+.Progress > div {
+    background-color: var(--gray400);
+    transition-property: width;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    height: 100%;
+}
+
+.Progress.colored > div {
+    background-image:
+       linear-gradient(
+           to right,
+           var(--blue500),
+           var(--teal500)
+        );
+    background-size: 100% 100%;
+}
+
+/* Striped progress bar */
+
+.Progress.striped > div {
+    background-image:
+       linear-gradient(
+           -45deg,
+           transparent 33%,
+           rgba(0, 0, 0, .08) 33%,
+           rgba(0,0, 0, .08) 66%,
+           transparent 66%
+        );
+    background-size: var(--spacing-2) var(--spacing-1);
+    /*animation: stripes 1s linear infinite;*/
+}
+
+.Progress.striped.colored > div {
+    background-image:
+       linear-gradient(
+           -45deg,
+           transparent 33%,
+           rgba(0, 0, 0, .08) 33%,
+           rgba(0,0, 0, .08) 66%,
+           transparent 66%
+        ),
+       linear-gradient(
+           to right,
+           var(--blue500),
+           var(--teal500)
+        );
+    background-size: var(--spacing-2) var(--spacing-1), 100% 100%;
+}
+
+/* Animation */
+
+@-webkit-keyframes stripes {
+    0% { background-position: var(--spacing-2) 0, 0% 0%; }
+    100% { background-position: 0 0, 0% 0%; }
+}
+
+@keyframes stripes {
+    0% { background-position: var(--spacing-2) 0, 0% 0%; }
+    100% { background-position: 0 0, 0% 0%; }
+}

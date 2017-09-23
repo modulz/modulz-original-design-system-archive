@@ -1,13 +1,23 @@
 /* Compiler */
 
 /* Reset */
+
 @import "./vendor/normalize.css";
 @import "./vendor/reset.css";
 
-/* Global style variables */
-@import "./variables.css";
+/* Variables */
+
+@import "./variables/BorderRadius.css";
+@import "./variables/BoxShadow.css";
+@import "./variables/Color.css";
+@import "./variables/Leading.css";
+@import "./variables/MediaQueries.css";
+@import "./variables/Spacing.css";
+@import "./variables/TransitionDuration.css";
+@import "./variables/TypeScale.css";
 
 /* Utilities */
+
 @import "./utilities/align-content.css";
 @import "./utilities/align-items.css";
 @import "./utilities/align-self.css";
@@ -81,6 +91,7 @@
 @import "./utilities/width.css";
 
 /* Components */
+
 @import "./components/Avatar.css";
 @import "./components/Radio.css";
 @import "./components/Checkbox.css";

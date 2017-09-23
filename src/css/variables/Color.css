@@ -1,13 +1,4 @@
-/* Variables */
-
 :root {
-
-    /* Media queries */
-
-    @custom-media --breakpoint-1 (min-width: 38em);
-    @custom-media --breakpoint-2 (min-width: 62em);
-    @custom-media --breakpoint-3 (min-width: 68em);
-    @custom-media --breakpoint-4 (min-width: 110em);
 
     /* Color palette */
 
@@ -144,64 +135,4 @@
     --violet500: hsl(246, 60%, 52%);
 
     --brown500: #795548;
-
-    /* Font sizes  */
-
-    --fontSize-1: .8rem;
-    --fontSize-2: 1.2rem;
-    --fontSize-3: 1.4rem;
-    --fontSize-4: 1.6rem;
-    --fontSize-5: 1.8rem;
-    --fontSize-6: 2rem;
-    --fontSize-7: 2.2rem;
-    --fontSize-8: 2.6rem;
-    --fontSize-9: 3.2rem;
-    --fontSize-10: 4rem;
-    --fontSize-11: 4.6rem;
-    --fontSize-12: 7.2rem;
-
-    /* Spacing  */
-
-    --spacing-1: .8rem;
-    --spacing-2: 1.6rem;
-    --spacing-3: 2.4rem;
-    --spacing-4: 3.2rem;
-    --spacing-5: 4rem;
-    --spacing-6: 4.8rem;
-    --spacing-7: 6.4rem;
-    --spacing-8: 8rem;
-    --spacing-9: 9.6rem;
-
-    /* Transition durations  */
-
-    --transitionDuration-1: 50ms;
-    --transitionDuration-2: 100ms;
-    --transitionDuration-3: 200ms;
-    --transitionDuration-4: 400ms;
-    --transitionDuration-5: 1000ms;
-
-    /* Border radius  */
-
-    --borderRadius-1: 2px;
-    --borderRadius-2: 4px;
-    --borderRadius-3: 8px;
-
-    /* Leading  */
-
-    --leading-1: 1.2rem;
-    --leading-2: 1.6rem;
-    --leading-3: 2rem;
-    --leading-4: 2.4rem;
-    --leading-5: 2.8rem;
-    --leading-6: 3.2rem;
-    --leading-7: 3.6rem;
-    --leading-8: 4.4rem;
-    --leading-9: 6.8rem;
-
-    /* Shadow */
-
-    --Shadow-1: 0 2px 4px rgba(32, 52, 61, 0.03), 0 1px 2px rgba(0, 0, 0, .06);
-    --Shadow-2: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05);
-    --Shadow-3: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05);
-    --Shadow-4: 0 1px 3px rgba(0,0,0,.05), 0 4px 6px rgba(32,52,61,.05);
 }

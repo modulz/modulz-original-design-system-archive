@@ -1,0 +1,11 @@
+/* Transition durations  */
+
+:root {
+
+    --transitionDuration-1: 50ms;
+    --transitionDuration-2: 100ms;
+    --transitionDuration-3: 200ms;
+    --transitionDuration-4: 400ms;
+    --transitionDuration-5: 1000ms;
+
+}

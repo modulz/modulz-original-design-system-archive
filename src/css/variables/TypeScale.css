@@ -1,0 +1,18 @@
+/* Font sizes  */
+
+:root {
+
+    --fontSize-1: .8rem;
+    --fontSize-2: 1.2rem;
+    --fontSize-3: 1.4rem;
+    --fontSize-4: 1.6rem;
+    --fontSize-5: 1.8rem;
+    --fontSize-6: 2rem;
+    --fontSize-7: 2.2rem;
+    --fontSize-8: 2.6rem;
+    --fontSize-9: 3.2rem;
+    --fontSize-10: 4rem;
+    --fontSize-11: 4.6rem;
+    --fontSize-12: 7.2rem;
+
+}

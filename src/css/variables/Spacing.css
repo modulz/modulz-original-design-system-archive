@@ -1,0 +1,15 @@
+/* Spacing  */
+
+:root {
+
+    --spacing-1: .8rem;
+    --spacing-2: 1.6rem;
+    --spacing-3: 2.4rem;
+    --spacing-4: 3.2rem;
+    --spacing-5: 4rem;
+    --spacing-6: 4.8rem;
+    --spacing-7: 6.4rem;
+    --spacing-8: 8rem;
+    --spacing-9: 9.6rem;
+
+}

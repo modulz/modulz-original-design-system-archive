@@ -1,0 +1,10 @@
+:root {
+
+    /* Media queries */
+
+    @custom-media --breakpoint-1 (min-width: 38em);
+    @custom-media --breakpoint-2 (min-width: 62em);
+    @custom-media --breakpoint-3 (min-width: 68em);
+    @custom-media --breakpoint-4 (min-width: 110em);
+    
+}

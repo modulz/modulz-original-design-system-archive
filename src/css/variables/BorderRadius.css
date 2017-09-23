@@ -1,0 +1,9 @@
+/* Border radius  */
+
+:root {
+
+    --borderRadius-1: 2px;
+    --borderRadius-2: 4px;
+    --borderRadius-3: 8px;
+
+}

@@ -2,14 +2,14 @@
 
 :root {
 
-    --leading-1: 1.2rem;
-    --leading-2: 1.6rem;
-    --leading-3: 2rem;
-    --leading-4: 2.4rem;
-    --leading-5: 2.8rem;
-    --leading-6: 3.2rem;
-    --leading-7: 3.6rem;
-    --leading-8: 4.4rem;
-    --leading-9: 6.8rem;
+    --leading-100: 1.2rem;
+    --leading-200: 1.6rem;
+    --leading-300: 2rem;
+    --leading-400: 2.4rem;
+    --leading-500: 2.8rem;
+    --leading-600: 3.2rem;
+    --leading-700: 3.6rem;
+    --leading-800: 4.4rem;
+    --leading-900: 6.8rem;
 
 }

@@ -22,7 +22,7 @@
     line-height: var(--spacing-200);
     background-color: var(--white);
     border: 1px solid var(--gray400);
-    border-radius: var(--borderRadius-2);
+    border-radius: var(--borderRadius-200);
     transition: all 100ms ease;
     margin-right: var(--spacing-100);
 }

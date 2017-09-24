@@ -37,6 +37,6 @@
         box-shadow: var(--Shadow-300);
         margin-left: 0;
         width: 400px;
-        border-radius: var(--borderRadius-2);
+        border-radius: var(--borderRadius-200);
     }
 }

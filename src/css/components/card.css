@@ -1,7 +1,7 @@
 .Card {
     background-color: var(--white);
     border: 1px solid var(--gray300);
-    border-radius: var(--borderRadius-2);
+    border-radius: var(--borderRadius-200);
     transition-property: color,background-color,box-shadow,transform;
     transition-duration: 150ms;
     overflow: hidden;

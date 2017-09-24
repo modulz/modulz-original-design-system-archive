@@ -4,7 +4,7 @@
     align-items: center;
     appearance: none;
     border: none;
-    border-radius: var(--borderRadius-2);
+    border-radius: var(--borderRadius-200);
     cursor: pointer;
     display: inline-flex;
     font-size: var(--fontSize-200);
@@ -166,10 +166,10 @@
 }
 
 .ButtonGroup .Button:first-child {
-    border-radius: var(--borderRadius-2) 0 0 var(--borderRadius-2);
+    border-radius: var(--borderRadius-200) 0 0 var(--borderRadius-200);
 }
 
 .ButtonGroup .Button:last-child {
-    border-radius: 0 var(--borderRadius-2) var(--borderRadius-2) 0;
+    border-radius: 0 var(--borderRadius-200) var(--borderRadius-200) 0;
     box-shadow: var(--Shadow-100), inset 0 0 0 1px var(--gray400);
 }

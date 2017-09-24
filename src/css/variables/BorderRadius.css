@@ -2,8 +2,8 @@
 
 :root {
 
-    --borderRadius-1: 2px;
-    --borderRadius-2: 4px;
-    --borderRadius-3: 8px;
+    --borderRadius-100: 2px;
+    --borderRadius-200: 4px;
+    --borderRadius-300: 8px;
 
 }

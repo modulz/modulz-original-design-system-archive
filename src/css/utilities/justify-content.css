@@ -3,6 +3,7 @@
 .jc-center              { justify-content: center; }
 .jc-spaceBetween             { justify-content: space-between; }
 .jc-spaceAround              { justify-content: space-around; }
+.jc-spaceEvenly              { justify-content: space-evenly; }
 
 @media (--breakpoint-1) {
     .bp1-jc-flexStart           { justify-content: flex-start; }
@@ -10,6 +11,7 @@
     .bp1-jc-center              { justify-content: center; }
     .bp1-jc-spaceBetween             { justify-content: space-between; }
     .bp1-jc-spaceAround              { justify-content: space-around; }
+    .bp1-jc-spaceEvenly              { justify-content: space-evenly; }
 }
 
 @media (--breakpoint-2) {
@@ -18,6 +20,7 @@
     .bp2-jc-center              { justify-content: center; }
     .bp2-jc-spaceBetween             { justify-content: space-between; }
     .bp2-jc-spaceAround              { justify-content: space-around; }
+    .bp2-jc-spaceEvenly              { justify-content: space-evenly; }
 }
 
 @media (--breakpoint-3) {
@@ -26,6 +29,7 @@
     .bp3-jc-center              { justify-content: center; }
     .bp3-jc-spaceBetween             { justify-content: space-between; }
     .bp3-jc-spaceAround              { justify-content: space-around; }
+    .bp3-jc-spaceEvenly              { justify-content: space-evenly; }
 }
 
 @media (--breakpoint-4) {
@@ -34,4 +38,5 @@
     .bp4-jc-center              { justify-content: center; }
     .bp4-jc-spaceBetween             { justify-content: space-between; }
     .bp4-jc-spaceAround              { justify-content: space-around; }
+    .bp4-jc-spaceEvenly              { justify-content: space-evenly; }
 }

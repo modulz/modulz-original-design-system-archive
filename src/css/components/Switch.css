@@ -1,8 +1,8 @@
 .Switch {
     position: relative;
     display: inline-block;
-    width: var(--spacing-5);
-    height: var(--spacing-2);
+    width: var(--spacing-500);
+    height: var(--spacing-200);
 }
 
 .Switch input {
@@ -24,8 +24,8 @@
 .Switch div:before {
     position: absolute;
     content: "";
-    height: var(--spacing-3);
-    width: var(--spacing-3);
+    height: var(--spacing-300);
+    width: var(--spacing-300);
     left: 0;
     bottom: -4px;
     background-color: var(--gray500);
@@ -39,6 +39,6 @@
 }
 
 .Switch input:checked + div:before {
-    transform: translateX(var(--spacing-2));
+    transform: translateX(var(--spacing-200));
     background-color: var(--blue500);
 }

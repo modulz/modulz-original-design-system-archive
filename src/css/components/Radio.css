@@ -17,14 +17,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width:  var(--spacing-2);
-    height: var(--spacing-2);
-    line-height: var(--spacing-2);
+    width:  var(--spacing-200);
+    height: var(--spacing-200);
+    line-height: var(--spacing-200);
     background-color: var(--white);
     border: 1px solid var(--gray400);
     border-radius: var(--borderRadius-2);
     transition: all 100ms ease;
-    margin-right: var(--spacing-1);
+    margin-right: var(--spacing-100);
 }
 
 /* Hover state*/

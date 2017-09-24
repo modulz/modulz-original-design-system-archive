@@ -1,6 +1,6 @@
 .Slider {
     appearance: none;
-    padding: var(--spacing-1) 0;
+    padding: var(--spacing-100) 0;
     width: 100%;
     cursor: pointer;
     vertical-align: middle;
@@ -36,7 +36,7 @@
     cursor: pointer;
     background: transparent;
     border-color: transparent;
-    border-width: var(--spacing-2) 0;
+    border-width: var(--spacing-200) 0;
     color: transparent;
 }
 .Slider::-ms-fill-lower {
@@ -61,8 +61,8 @@
 .Slider::-webkit-slider-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
-    height: var(--spacing-2);
-    width: var(--spacing-2);
+    height: var(--spacing-200);
+    width: var(--spacing-200);
     border-radius: 50%;
     background: var(--gray500);
     cursor: pointer;
@@ -76,8 +76,8 @@
 .Slider::-moz-range-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
-    height: var(--spacing-2);
-    width: var(--spacing-2);
+    height: var(--spacing-200);
+    width: var(--spacing-200);
     border-radius: 50%;
     background: var(--gray500);
     cursor: pointer;
@@ -89,8 +89,8 @@
 .Slider::-ms-thumb {
     box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
     border: none;
-    height: var(--spacing-2);
-    width: var(--spacing-2);
+    height: var(--spacing-200);
+    width: var(--spacing-200);
     border-radius: 50%;
     background: var(--gray500);
     cursor: pointer;

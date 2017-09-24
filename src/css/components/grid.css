@@ -3,8 +3,8 @@
 .Grid {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -var(--spacing-6);
-    margin-left: -var(--spacing-6);
+    margin-top: -var(--spacing-600);
+    margin-left: -var(--spacing-600);
 }
 
 .GridColumn {
@@ -74,16 +74,16 @@
 .bp4-GridColumn--10,
 .bp4-GridColumn--11,
 .bp4-GridColumn--12 {
-    padding-top: var(--spacing-6);
-    padding-left: var(--spacing-6);
+    padding-top: var(--spacing-600);
+    padding-left: var(--spacing-600);
     width: 100%;
 }
 
 /* Sizes */
 
 .Grid.small {
-    margin-top: -var(--spacing-1);
-    margin-left: -var(--spacing-1);
+    margin-top: -var(--spacing-100);
+    margin-left: -var(--spacing-100);
 }
 .Grid.small > .GridColumn,
 .Grid.small > [class*="GridColumn--"],
@@ -91,8 +91,8 @@
 .Grid.small > [class*="bpm-GridColumn--"],
 .Grid.small > [class*="bpl-GridColumn--"],
 .Grid.small > [class*="bpxl-GridColumn--"] {
-    padding-top: var(--spacing-1);
-    padding-left: var(--spacing-1);
+    padding-top: var(--spacing-100);
+    padding-left: var(--spacing-100);
 }
 
 .Grid.noGutters {

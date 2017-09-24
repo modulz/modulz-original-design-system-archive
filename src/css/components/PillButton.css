@@ -28,11 +28,11 @@
     border-radius: 9999px;
     color: rgba(0,0,0,.8);
     font-size: var(--fontSize-3);
-    height: var(--spacing-5);
-    line-height: var(--spacing-5);
-    min-width: var(--spacing-5);
-    padding-left: var(--spacing-3);
-    padding-right: var(--spacing-3);
+    height: var(--spacing-500);
+    line-height: var(--spacing-500);
+    min-width: var(--spacing-500);
+    padding-left: var(--spacing-300);
+    padding-right: var(--spacing-300);
 }
 .PillButton:hover {
     box-shadow: var(--Shadow-2);
@@ -47,9 +47,9 @@
 
 .PillButton.size2 {
     font-size: var(--fontSize-4);
-    height: var(--spacing-6);
-    line-height: var(--spacing-6);
-    min-width: var(--spacing-6);
+    height: var(--spacing-600);
+    line-height: var(--spacing-600);
+    min-width: var(--spacing-600);
 }
 
 /* Color modifiers */

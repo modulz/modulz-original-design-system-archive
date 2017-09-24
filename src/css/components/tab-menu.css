@@ -6,13 +6,13 @@
 .Tab {
     display: inline-flex;
     align-items: center;
-    height: var(--spacing-5);
+    height: var(--spacing-500);
     justify-content: center;
     font-size: var(--fontSize-2);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .8px;
-    padding: 0 var(--spacing-1);
+    padding: 0 var(--spacing-100);
     cursor: pointer;
     color: var(--gray500);
     text-align: center;

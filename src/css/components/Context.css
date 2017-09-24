@@ -9,13 +9,13 @@
 
 .ContextContainer::before,
 .ContextContainer::after {
-    border-bottom: var(--spacing-1) solid var(--white);
-    border-left: var(--spacing-1) solid transparent;
-    border-right: var(--spacing-1) solid transparent;
+    border-bottom: var(--spacing-100) solid var(--white);
+    border-left: var(--spacing-100) solid transparent;
+    border-right: var(--spacing-100) solid transparent;
     content: "";
     height: 0;
     left: 50%;
-    margin-left: -var(--spacing-1);
+    margin-left: -var(--spacing-100);
     position: absolute;
     top: 100%;
     width: 0;
@@ -32,9 +32,9 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, .12), 0 15px 30px hsla(200, 50%, 10%, .08);
     border-radius: var(--borderRadius-2);
     left: 0;
-    margin-top: var(--spacing-1);
+    margin-top: var(--spacing-100);
     /*max-height: calc(100vh - 80px);*/
-    min-height: var(--spacing-5);
+    min-height: var(--spacing-500);
     min-width: 160px;
     overflow: hidden;
     position: absolute;

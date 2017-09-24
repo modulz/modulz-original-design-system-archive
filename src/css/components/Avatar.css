@@ -12,42 +12,42 @@
     font-size: 14px;
     text-transform: uppercase;
     overflow: hidden;
-    width: var(--spacing-4);
-    height: var(--spacing-4);
+    width: var(--spacing-400);
+    height: var(--spacing-400);
     cursor: default;
 }
 
 /* Sizes */
 
 .Avatar.size1 {
-    width: var(--spacing-2);
-    height: var(--spacing-2);
+    width: var(--spacing-200);
+    height: var(--spacing-200);
     font-size: 8px;
 }
 
 .Avatar.size2 {
-    width: var(--spacing-3);
-    height: var(--spacing-3);
+    width: var(--spacing-300);
+    height: var(--spacing-300);
     font-size: 12px;
 }
 
 .Avatar.size4 {
-    width: var(--spacing-6);
-    height: var(--spacing-6);
+    width: var(--spacing-600);
+    height: var(--spacing-600);
     font-size: 22px;
     font-weight: 400;
 }
 
 .Avatar.size5 {
-    width: var(--spacing-7);
-    height: var(--spacing-7);
+    width: var(--spacing-700);
+    height: var(--spacing-700);
     font-size: 32px;
     font-weight: 400;
 }
 
 .Avatar.size6 {
-    width: var(--spacing-9);
-    height: var(--spacing-9);
+    width: var(--spacing-900);
+    height: var(--spacing-900);
     font-size: 50px;
     font-weight: 400;
 }

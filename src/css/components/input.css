@@ -1,8 +1,8 @@
 .Input {
-    height: var(--spacing-4);
-    line-height: var(--spacing-4);
-    padding-left: var(--spacing-1);
-    padding-right: var(--spacing-1);
+    height: var(--spacing-400);
+    line-height: var(--spacing-400);
+    padding-left: var(--spacing-100);
+    padding-right: var(--spacing-100);
     font-size: var(--fs-3);
     border-radius: var(--br-m);
     border: none;
@@ -41,8 +41,8 @@
 /* Sizes */
 
 .Input.large {
-    height: var(--spacing-6);
-    padding-left: var(--spacing-2);
+    height: var(--spacing-600);
+    padding-left: var(--spacing-200);
 }
 
 /* Input group */
@@ -63,7 +63,7 @@
    font-size: var(--fontSize-3);
    color: var(--gray500);
    display: block;
-   margin-top: var(--spacing-1);
+   margin-top: var(--spacing-100);
 }
 
 /* Valid */

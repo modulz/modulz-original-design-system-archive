@@ -17,15 +17,15 @@
     align-items: center;
     color: var(--white);
     justify-content: center;
-    width:  var(--spacing-2);
-    height: var(--spacing-2);
-    line-height: var(--spacing-2);
+    width:  var(--spacing-200);
+    height: var(--spacing-200);
+    line-height: var(--spacing-200);
     background-color: var(--white);
     border: 1px solid var(--gray400);
     box-shadow: 0 1px 3px rgba(0,0,0,.05);
     border-radius: var(--borderRadius-1);
     transition: all 100ms ease;
-    margin-right: var(--spacing-1);
+    margin-right: var(--spacing-100);
 }
 
 /* Hover state*/

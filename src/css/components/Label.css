@@ -3,8 +3,8 @@
     display: inline-flex;
     color: var(--gray500);
     font-size: var(--fontSize-2);
-    height: var(--spacing-3);
-    padding: 0 var(--spacing-1);
+    height: var(--spacing-300);
+    padding: 0 var(--spacing-100);
     background-color: var(--gray300);
     font-weight: 600;
     border-radius: 9999px;

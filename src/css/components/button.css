@@ -9,13 +9,13 @@
     display: inline-flex;
     font-size: var(--fontSize-2);
     font-weight: 600;
-    height: var(--spacing-4);
+    height: var(--spacing-400);
     justify-content: center;
     letter-spacing: .6px;
-    min-width: var(--spacing-4);
+    min-width: var(--spacing-400);
     outline: none;
-    padding-left: var(--spacing-2);
-    padding-right: var(--spacing-2);
+    padding-left: var(--spacing-200);
+    padding-right: var(--spacing-200);
     pointer-events: auto;
     text-align: center;
     text-decoration: none;
@@ -39,10 +39,10 @@
 /* Sizes */
 
 .Button.size1 {
-    height: var(--spacing-3);
-    min-width: var(--spacing-3);
-    padding-left: var(--spacing-1);
-    padding-right: var(--spacing-1);
+    height: var(--spacing-300);
+    min-width: var(--spacing-300);
+    padding-left: var(--spacing-100);
+    padding-right: var(--spacing-100);
 }
 
 /* Neutral button */

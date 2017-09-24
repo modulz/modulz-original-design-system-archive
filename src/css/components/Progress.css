@@ -3,7 +3,7 @@
 .Progress {
     background-color: var(--gray300);
     width: 100%;
-    height: var(--spacing-1);
+    height: var(--spacing-100);
     border-radius: 9999px;
     overflow: hidden;
 }
@@ -45,7 +45,7 @@
            rgba(0,0, 0, .08) 66%,
            transparent 66%
         );
-    background-size: var(--spacing-2) var(--spacing-1);
+    background-size: var(--spacing-200) var(--spacing-100);
     /*animation: stripes 1s linear infinite;*/
 }
 
@@ -63,17 +63,17 @@
            var(--blue500),
            var(--teal500)
         );
-    background-size: var(--spacing-2) var(--spacing-1), 100% 100%;
+    background-size: var(--spacing-200) var(--spacing-100), 100% 100%;
 }
 
 /* Animation */
 
 @-webkit-keyframes stripes {
-    0% { background-position: var(--spacing-2) 0, 0% 0%; }
+    0% { background-position: var(--spacing-200) 0, 0% 0%; }
     100% { background-position: 0 0, 0% 0%; }
 }
 
 @keyframes stripes {
-    0% { background-position: var(--spacing-2) 0, 0% 0%; }
+    0% { background-position: var(--spacing-200) 0, 0% 0%; }
     100% { background-position: 0 0, 0% 0%; }
 }

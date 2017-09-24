@@ -1,185 +1,97 @@
 /* Grid */
 
 .Grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -var(--spacing-600);
-    margin-left: -var(--spacing-600);
-}
-
-.GridColumn {
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
-}
-
-.GridColumn,
-.GridColumn--1,
-.GridColumn--2,
-.GridColumn--3,
-.GridColumn--4,
-.GridColumn--5,
-.GridColumn--6,
-.GridColumn--7,
-.GridColumn--8,
-.GridColumn--9,
-.GridColumn--10,
-.GridColumn--11,
-.GridColumn--12,
-.bp1-GridColumn--1,
-.bp1-GridColumn--2,
-.bp1-GridColumn--3,
-.bp1-GridColumn--4,
-.bp1-GridColumn--5,
-.bp1-GridColumn--6,
-.bp1-GridColumn--7,
-.bp1-GridColumn--8,
-.bp1-GridColumn--9,
-.bp1-GridColumn--10,
-.bp1-GridColumn--11,
-.bp1-GridColumn--12,
-.bp2-GridColumn--1,
-.bp2-GridColumn--2,
-.bp2-GridColumn--3,
-.bp2-GridColumn--4,
-.bp2-GridColumn--5,
-.bp2-GridColumn--6,
-.bp2-GridColumn--7,
-.bp2-GridColumn--8,
-.bp2-GridColumn--9,
-.bp2-GridColumn--10,
-.bp2-GridColumn--11,
-.bp2-GridColumn--12,
-.bp3-GridColumn--1,
-.bp3-GridColumn--2,
-.bp3-GridColumn--3,
-.bp3-GridColumn--4,
-.bp3-GridColumn--5,
-.bp3-GridColumn--6,
-.bp3-GridColumn--7,
-.bp3-GridColumn--8,
-.bp3-GridColumn--9,
-.bp3-GridColumn--10,
-.bp3-GridColumn--11,
-.bp3-GridColumn--12,
-.bp4-GridColumn--1,
-.bp4-GridColumn--2,
-.bp4-GridColumn--3,
-.bp4-GridColumn--4,
-.bp4-GridColumn--5,
-.bp4-GridColumn--6,
-.bp4-GridColumn--7,
-.bp4-GridColumn--8,
-.bp4-GridColumn--9,
-.bp4-GridColumn--10,
-.bp4-GridColumn--11,
-.bp4-GridColumn--12 {
-    padding-top: var(--spacing-600);
-    padding-left: var(--spacing-600);
+    display: grid;
     width: 100%;
+    grid-gap: var(--spacing-400);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 /* Sizes */
 
-.Grid.small {
-    margin-top: -var(--spacing-100);
-    margin-left: -var(--spacing-100);
-}
-.Grid.small > .GridColumn,
-.Grid.small > [class*="GridColumn--"],
-.Grid.small > [class*="bps-GridColumn--"],
-.Grid.small > [class*="bpm-GridColumn--"],
-.Grid.small > [class*="bpl-GridColumn--"],
-.Grid.small > [class*="bpxl-GridColumn--"] {
-    padding-top: var(--spacing-100);
-    padding-left: var(--spacing-100);
+.Grid.size1 {
+    grid-gap: var(--spacing-200);
 }
 
-.Grid.noGutters {
-    margin-top: 0;
-    margin-left: 0;
-}
-.Grid.noGutters > .GridColumn,
-.Grid.noGutters > [class*="GridColumn--"],
-.Grid.noGutters > [class*="bps-GridColumn--"],
-.Grid.noGutters > [class*="bpm-GridColumn--"],
-.Grid.noGutters > [class*="bpl-GridColumn--"],
-.Grid.noGutters > [class*="bpxl-GridColumn--"] {
-    padding-top: 0;
-    padding-left: 0;
+.Grid.size2 {
+    grid-gap: var(--spacing-400);
 }
 
-/* Column widths */
+.Grid.size3 {
+    grid-gap: var(--spacing-600);
+}
 
-.GridColumn--1              { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
-.GridColumn--2              { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
-.GridColumn--3              { max-width: 25%; flex-basis: 25%; }
-.GridColumn--4              { max-width: 33.3333333333%; flex-basis: 33.3333333333%; }
-.GridColumn--5              { max-width: 41.6666666666%; flex-basis: 41.6666666666%; }
-.GridColumn--6              { max-width: 50%; flex-basis: 50%; }
-.GridColumn--7              { max-width: 58.3333333333%; flex-basis: 58.3333333333%; }
-.GridColumn--8              { max-width: 66.6666666666%; flex-basis: 66.6666666666%; }
-.GridColumn--9              { max-width: 75%; flex-basis: 75%; }
-.GridColumn--10             { max-width: 83.3333333333%; flex-basis: 83.3333333333%; }
-.GridColumn--11             { max-width: 91.6666666666%; flex-basis: 91.6666666666%; }
-.GridColumn--12             { max-width: 100%; flex-basis: 100%; }
+/* Columns */
+
+.Grid.columns1 { grid-template-columns: repeat(1, 1fr); }
+.Grid.columns2 { grid-template-columns: repeat(2, 1fr); }
+.Grid.columns3 { grid-template-columns: repeat(3, 1fr); }
+.Grid.columns4 { grid-template-columns: repeat(4, 1fr); }
+.Grid.columns5 { grid-template-columns: repeat(5, 1fr); }
+.Grid.columns6 { grid-template-columns: repeat(6, 1fr); }
+.Grid.columns7 { grid-template-columns: repeat(7, 1fr); }
+.Grid.columns8 { grid-template-columns: repeat(8, 1fr); }
+.Grid.columns9 { grid-template-columns: repeat(9, 1fr); }
+.Grid.columns10 { grid-template-columns: repeat(10, 1fr); }
+.Grid.columns11 { grid-template-columns: repeat(11, 1fr); }
+.Grid.columns12 { grid-template-columns: repeat(12, 1fr); }
 
 @media (--breakpoint-1) {
-    .bp1-GridColumn--1      { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
-    .bp1-GridColumn--2      { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
-    .bp1-GridColumn--3      { max-width: 25%; flex-basis: 25%; }
-    .bp1-GridColumn--4      { max-width: 33.3333333333%; flex-basis: 33.3333333333%; }
-    .bp1-GridColumn--5      { max-width: 41.6666666666%; flex-basis: 41.6666666666%; }
-    .bp1-GridColumn--6      { max-width: 50%; flex-basis: 50%; }
-    .bp1-GridColumn--7      { max-width: 58.3333333333%; flex-basis: 58.3333333333%; }
-    .bp1-GridColumn--8      { max-width: 66.6666666666%; flex-basis: 66.6666666666%; }
-    .bp1-GridColumn--9      { max-width: 75%; flex-basis: 75%; }
-    .bp1-GridColumn--10     { max-width: 83.3333333333%; flex-basis: 83.3333333333%; }
-    .bp1-GridColumn--11     { max-width: 91.6666666666%; flex-basis: 91.6666666666%; }
-    .bp1-GridColumn--12     { max-width: 100%; flex-basis: 100%; }
+    .Grid.bp1-columns1 { grid-template-columns: repeat(1, 1fr); }
+    .Grid.bp1-columns2 { grid-template-columns: repeat(2, 1fr); }
+    .Grid.bp1-columns3 { grid-template-columns: repeat(3, 1fr); }
+    .Grid.bp1-columns4 { grid-template-columns: repeat(4, 1fr); }
+    .Grid.bp1-columns5 { grid-template-columns: repeat(5, 1fr); }
+    .Grid.bp1-columns6 { grid-template-columns: repeat(6, 1fr); }
+    .Grid.bp1-columns7 { grid-template-columns: repeat(7, 1fr); }
+    .Grid.bp1-columns8 { grid-template-columns: repeat(8, 1fr); }
+    .Grid.bp1-columns9 { grid-template-columns: repeat(9, 1fr); }
+    .Grid.bp1-columns10 { grid-template-columns: repeat(10, 1fr); }
+    .Grid.bp1-columns11 { grid-template-columns: repeat(11, 1fr); }
+    .Grid.bp1-columns12 { grid-template-columns: repeat(12, 1fr); }
 }
 
 @media (--breakpoint-2) {
-    .bp2-GridColumn--1      { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
-    .bp2-GridColumn--2      { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
-    .bp2-GridColumn--3      { max-width: 25%; flex-basis: 25%; }
-    .bp2-GridColumn--4      { max-width: 33.3333333333%; flex-basis: 33.3333333333%; }
-    .bp2-GridColumn--5      { max-width: 41.6666666666%; flex-basis: 41.6666666666%; }
-    .bp2-GridColumn--6      { max-width: 50%; flex-basis: 50%; }
-    .bp2-GridColumn--7      { max-width: 58.3333333333%; flex-basis: 58.3333333333%; }
-    .bp2-GridColumn--8      { max-width: 66.6666666666%; flex-basis: 66.6666666666%; }
-    .bp2-GridColumn--9      { max-width: 75%; flex-basis: 75%; }
-    .bp2-GridColumn--10     { max-width: 83.3333333333%; flex-basis: 83.3333333333%; }
-    .bp2-GridColumn--11     { max-width: 91.6666666666%; flex-basis: 91.6666666666%; }
-    .bp2-GridColumn--12     { max-width: 100%; flex-basis: 100%; }
+    .Grid.bp2-columns1 { grid-template-columns: repeat(1, 1fr); }
+    .Grid.bp2-columns2 { grid-template-columns: repeat(2, 1fr); }
+    .Grid.bp2-columns3 { grid-template-columns: repeat(3, 1fr); }
+    .Grid.bp2-columns4 { grid-template-columns: repeat(4, 1fr); }
+    .Grid.bp2-columns5 { grid-template-columns: repeat(5, 1fr); }
+    .Grid.bp2-columns6 { grid-template-columns: repeat(6, 1fr); }
+    .Grid.bp2-columns7 { grid-template-columns: repeat(7, 1fr); }
+    .Grid.bp2-columns8 { grid-template-columns: repeat(8, 1fr); }
+    .Grid.bp2-columns9 { grid-template-columns: repeat(9, 1fr); }
+    .Grid.bp2-columns10 { grid-template-columns: repeat(10, 1fr); }
+    .Grid.bp2-columns11 { grid-template-columns: repeat(11, 1fr); }
+    .Grid.bp2-columns12 { grid-template-columns: repeat(12, 1fr); }
 }
 
 @media (--breakpoint-3) {
-    .bp3-GridColumn--1      { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
-    .bp3-GridColumn--2      { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
-    .bp3-GridColumn--3      { max-width: 25%; flex-basis: 25%; }
-    .bp3-GridColumn--4      { max-width: 33.3333333333%; flex-basis: 33.3333333333%; }
-    .bp3-GridColumn--5      { max-width: 41.6666666666%; flex-basis: 41.6666666666%; }
-    .bp3-GridColumn--6      { max-width: 50%; flex-basis: 50%; }
-    .bp3-GridColumn--7      { max-width: 58.3333333333%; flex-basis: 58.3333333333%; }
-    .bp3-GridColumn--8      { max-width: 66.6666666666%; flex-basis: 66.6666666666%; }
-    .bp3-GridColumn--9      { max-width: 75%; flex-basis: 75%; }
-    .bp3-GridColumn--10     { max-width: 83.3333333333%; flex-basis: 83.3333333333%; }
-    .bp3-GridColumn--11     { max-width: 91.6666666666%; flex-basis: 91.6666666666%; }
-    .bp3-GridColumn--12     { max-width: 100%; flex-basis: 100%; }
+    .Grid.bp3-columns1 { grid-template-columns: repeat(1, 1fr); }
+    .Grid.bp3-columns2 { grid-template-columns: repeat(2, 1fr); }
+    .Grid.bp3-columns3 { grid-template-columns: repeat(3, 1fr); }
+    .Grid.bp3-columns4 { grid-template-columns: repeat(4, 1fr); }
+    .Grid.bp3-columns5 { grid-template-columns: repeat(5, 1fr); }
+    .Grid.bp3-columns6 { grid-template-columns: repeat(6, 1fr); }
+    .Grid.bp3-columns7 { grid-template-columns: repeat(7, 1fr); }
+    .Grid.bp3-columns8 { grid-template-columns: repeat(8, 1fr); }
+    .Grid.bp3-columns9 { grid-template-columns: repeat(9, 1fr); }
+    .Grid.bp3-columns10 { grid-template-columns: repeat(10, 1fr); }
+    .Grid.bp3-columns11 { grid-template-columns: repeat(11, 1fr); }
+    .Grid.bp3-columns12 { grid-template-columns: repeat(12, 1fr); }
 }
 
 @media (--breakpoint-4) {
-    .bp4-GridColumn--1     { max-width: 8.3333333333%; flex-basis: 8.3333333333%; }
-    .bp4-GridColumn--2     { max-width: 16.6666666666%; flex-basis: 16.6666666666%; }
-    .bp4-GridColumn--3     { max-width: 25%; flex-basis: 25%; }
-    .bp4-GridColumn--4     { max-width: 33.3333333333%; flex-basis: 33.3333333333%; }
-    .bp4-GridColumn--5     { max-width: 41.6666666666%; flex-basis: 41.6666666666%; }
-    .bp4-GridColumn--6     { max-width: 50%; flex-basis: 50%; }
-    .bp4-GridColumn--7     { max-width: 58.3333333333%; flex-basis: 58.3333333333%; }
-    .bp4-GridColumn--8     { max-width: 66.6666666666%; flex-basis: 66.6666666666%; }
-    .bp4-GridColumn--9     { max-width: 75%; flex-basis: 75%; }
-    .bp4-GridColumn--10    { max-width: 83.3333333333%; flex-basis: 83.3333333333%; }
-    .bp4-GridColumn--11    { max-width: 91.6666666666%; flex-basis: 91.6666666666%; }
-    .bp4-GridColumn--12    { max-width: 100%; flex-basis: 100%; }
+    .Grid.bp4-columns1 { grid-template-columns: repeat(1, 1fr); }
+    .Grid.bp4-columns2 { grid-template-columns: repeat(2, 1fr); }
+    .Grid.bp4-columns3 { grid-template-columns: repeat(3, 1fr); }
+    .Grid.bp4-columns4 { grid-template-columns: repeat(4, 1fr); }
+    .Grid.bp4-columns5 { grid-template-columns: repeat(5, 1fr); }
+    .Grid.bp4-columns6 { grid-template-columns: repeat(6, 1fr); }
+    .Grid.bp4-columns7 { grid-template-columns: repeat(7, 1fr); }
+    .Grid.bp4-columns8 { grid-template-columns: repeat(8, 1fr); }
+    .Grid.bp4-columns9 { grid-template-columns: repeat(9, 1fr); }
+    .Grid.bp4-columns10 { grid-template-columns: repeat(10, 1fr); }
+    .Grid.bp4-columns11 { grid-template-columns: repeat(11, 1fr); }
+    .Grid.bp4-columns12 { grid-template-columns: repeat(12, 1fr); }
 }

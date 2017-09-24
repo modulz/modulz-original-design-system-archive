@@ -4,7 +4,7 @@
     display: inline-flex;
     align-items: center;
     user-select: none;
-    font-size: var(--fontSize-3);
+    font-size: var(--fontSize-300);
 }
 
 .Radio > input {

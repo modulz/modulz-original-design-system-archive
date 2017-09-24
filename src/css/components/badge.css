@@ -1,7 +1,7 @@
 .Badge {
     display: inline-flex;
     align-items: center;
-    font-size: var(--fontSize-1);
+    font-size: var(--fontSize-100);
     text-transform: uppercase;
     height: var(--spacing-200);
     padding: 0 var(--spacing-100);
@@ -17,7 +17,7 @@
 }
 
 .Badge.size2 {
-    font-size: var(--fontSize-2);
+    font-size: var(--fontSize-200);
     height: var(--spacing-300);
     padding: 0 var(--spacing-200);
 }
@@ -25,7 +25,7 @@
 /* Sizes */
 
 .Badge.size2 {
-    font-size: var(--fontSize-2);
+    font-size: var(--fontSize-200);
     height: var(--spacing-300);
     padding: 0 var(--spacing-200);
 }

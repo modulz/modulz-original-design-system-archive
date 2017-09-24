@@ -27,7 +27,7 @@
     box-shadow: var(--Shadow-1);
     border-radius: 9999px;
     color: rgba(0,0,0,.8);
-    font-size: var(--fontSize-3);
+    font-size: var(--fontSize-300);
     height: var(--spacing-500);
     line-height: var(--spacing-500);
     min-width: var(--spacing-500);
@@ -46,7 +46,7 @@
 /* Size modifiers */
 
 .PillButton.size2 {
-    font-size: var(--fontSize-4);
+    font-size: var(--fontSize-400);
     height: var(--spacing-600);
     line-height: var(--spacing-600);
     min-width: var(--spacing-600);

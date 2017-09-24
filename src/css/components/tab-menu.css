@@ -8,7 +8,7 @@
     align-items: center;
     height: var(--spacing-500);
     justify-content: center;
-    font-size: var(--fontSize-2);
+    font-size: var(--fontSize-200);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .8px;

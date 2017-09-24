@@ -1,173 +1,173 @@
 .Text.size7 {
-    font-size: var(--fontSize-9);
+    font-size: var(--fontSize-900);
     letter-spacing: -.018em;
     margin-left: -1.5px;
 }
 
 .Text.size6 {
-    font-size: var(--fontSize-8);
+    font-size: var(--fontSize-800);
     letter-spacing: -.018em;
     margin-left: -1.5px;
 }
 
 .Text.size5 {
-    font-size: var(--fontSize-6);
+    font-size: var(--fontSize-600);
     letter-spacing: -.02em;
 }
 
 .Text.size4 {
-    font-size: var(--fontSize-5);
+    font-size: var(--fontSize-500);
 }
 
 .Text.size3 {
-    font-size: var(--fontSize-4);
+    font-size: var(--fontSize-400);
 }
 
 .Text.size2 {
-    font-size: var(--fontSize-3);
+    font-size: var(--fontSize-300);
 }
 
 .Text.size1 {
-    font-size: var(--fontSize-2);
+    font-size: var(--fontSize-200);
 }
 
 
 @media (--breakpoint-1) {
     .Text.bp1-size7 {
-        font-size: var(--fontSize-8);
+        font-size: var(--fontSize-800);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Text.bp1-size6 {
-        font-size: var(--fontSize-7);
+        font-size: var(--fontSize-700);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Text.bp1-size5 {
-        font-size: var(--fontSize-6);
+        font-size: var(--fontSize-600);
         letter-spacing: -.02em;
     }
 
     .Text.bp1-size4 {
-        font-size: var(--fontSize-5);
+        font-size: var(--fontSize-500);
     }
 
     .Text.bp1-size3 {
-        font-size: var(--fontSize-4);
+        font-size: var(--fontSize-400);
     }
 
     .Text.bp1-size2 {
-        font-size: var(--fontSize-3);
+        font-size: var(--fontSize-300);
     }
 
     .Text.bp1-size1 {
-        font-size: var(--fontSize-2);
+        font-size: var(--fontSize-200);
     }
 }
 
 @media (--breakpoint-2) {
     .Text.bp2-size7 {
-        font-size: var(--fontSize-8);
+        font-size: var(--fontSize-800);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Text.bp2-size6 {
-        font-size: var(--fontSize-7);
+        font-size: var(--fontSize-700);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Text.bp2-size5 {
-        font-size: var(--fontSize-6);
+        font-size: var(--fontSize-600);
         letter-spacing: -.02em;
     }
 
     .Text.bp2-size4 {
-        font-size: var(--fontSize-5);
+        font-size: var(--fontSize-500);
     }
 
     .Text.bp2-size3 {
-        font-size: var(--fontSize-4);
+        font-size: var(--fontSize-400);
     }
 
     .Text.bp2-size2 {
-        font-size: var(--fontSize-3);
+        font-size: var(--fontSize-300);
     }
 
     .Text.bp2-size1 {
-        font-size: var(--fontSize-2);
+        font-size: var(--fontSize-200);
     }
 }
 
 @media (--breakpoint-3) {
     .Text.bp3-size7 {
-        font-size: var(--fontSize-8);
+        font-size: var(--fontSize-800);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Text.bp3-size6 {
-        font-size: var(--fontSize-7);
+        font-size: var(--fontSize-700);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Text.bp3-size5 {
-        font-size: var(--fontSize-6);
+        font-size: var(--fontSize-600);
         letter-spacing: -.02em;
     }
 
     .Text.bp3-size4 {
-        font-size: var(--fontSize-5);
+        font-size: var(--fontSize-500);
     }
 
     .Text.bp3-size3 {
-        font-size: var(--fontSize-4);
+        font-size: var(--fontSize-400);
     }
 
     .Text.bp3-size2 {
-        font-size: var(--fontSize-3);
+        font-size: var(--fontSize-300);
     }
 
     .Text.bp3-size1 {
-        font-size: var(--fontSize-2);
+        font-size: var(--fontSize-200);
     }
 }
 
 @media (--breakpoint-4) {
     .Text.bp4-size7 {
-        font-size: var(--fontSize-8);
+        font-size: var(--fontSize-800);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Text.bp4-size6 {
-        font-size: var(--fontSize-7);
+        font-size: var(--fontSize-700);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
     .Text.bp4-size5 {
-        font-size: var(--fontSize-6);
+        font-size: var(--fontSize-600);
         letter-spacing: -.02em;
     }
 
     .Text.bp4-size4 {
-        font-size: var(--fontSize-5);
+        font-size: var(--fontSize-500);
     }
 
     .Text.bp4-size3 {
-        font-size: var(--fontSize-4);
+        font-size: var(--fontSize-400);
     }
 
     .Text.bp4-size2 {
-        font-size: var(--fontSize-3);
+        font-size: var(--fontSize-300);
     }
 
     .Text.bp4-size1 {
-        font-size: var(--fontSize-2);
+        font-size: var(--fontSize-200);
     }
 }

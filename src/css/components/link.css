@@ -15,15 +15,15 @@
 /* Sizes */
 
 .Link.size1 {
-    font-size: var(--fontSize-2);
+    font-size: var(--fontSize-200);
 }
 
 .Link.size2 {
-    font-size: var(--fontSize-3);
+    font-size: var(--fontSize-300);
 }
 
 .Link.size3 {
-    font-size: var(--fontSize-4);
+    font-size: var(--fontSize-400);
 }
 
 /* Styles */

@@ -52,7 +52,7 @@
 }
 
 .FormGroup-label {
-   font-size: var(--fontSize-3);
+   font-size: var(--fontSize-300);
    display: block;
    transition-property: color;
    transition-duration: 150ms;
@@ -60,7 +60,7 @@
 }
 
 .FormGroup-hint {
-   font-size: var(--fontSize-3);
+   font-size: var(--fontSize-300);
    color: var(--gray500);
    display: block;
    margin-top: var(--spacing-100);

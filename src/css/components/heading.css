@@ -1,21 +1,21 @@
 .Heading.size7 {
     letter-spacing: -0.058em;
     margin-left: -2.5px;
-    font-size: var(--fontSize-1002);
+    font-size: var(--fontSize-12);
     line-height: var(--leading-900);
 }
 
 .Heading.size6 {
     letter-spacing: -0.058em;
     margin-left: -2.5px;
-    font-size: var(--fontSize-1001);
+    font-size: var(--fontSize-11);
     line-height: var(--leading-800);
 }
 
 .Heading.size5 {
     letter-spacing: -0.058em;
     margin-left: -2.5px;
-    font-size: var(--fontSize-1000);
+    font-size: var(--fontSize-10);
     line-height: var(--leading-800);
 }
 
@@ -52,21 +52,21 @@
     .Heading.bp1-size7 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1002);
+        font-size: var(--fontSize-12);
         line-height: var(--leading-900);
     }
 
     .Heading.bp1-size6 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1001);
+        font-size: var(--fontSize-11);
         line-height: var(--leading-800);
     }
 
     .Heading.bp1-size5 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1000);
+        font-size: var(--fontSize-10);
         line-height: var(--leading-800);
     }
 
@@ -103,21 +103,21 @@
     .Heading.bp2-size7 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1002);
+        font-size: var(--fontSize-12);
         line-height: var(--leading-900);
     }
 
     .Heading.bp2-size6 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1001);
+        font-size: var(--fontSize-11);
         line-height: var(--leading-800);
     }
 
     .Heading.bp2-size5 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1000);
+        font-size: var(--fontSize-10);
         line-height: var(--leading-800);
     }
 
@@ -154,21 +154,21 @@
     .Heading.bp3-size7 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1002);
+        font-size: var(--fontSize-12);
         line-height: var(--leading-900);
     }
 
     .Heading.bp3-size6 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1001);
+        font-size: var(--fontSize-11);
         line-height: var(--leading-800);
     }
 
     .Heading.bp3-size5 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1000);
+        font-size: var(--fontSize-10);
         line-height: var(--leading-800);
     }
 
@@ -205,21 +205,21 @@
     .Heading.bp4-size7 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1002);
+        font-size: var(--fontSize-12);
         line-height: var(--leading-900);
     }
 
     .Heading.bp4-size6 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1001);
+        font-size: var(--fontSize-11);
         line-height: var(--leading-800);
     }
 
     .Heading.bp4-size5 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
-        font-size: var(--fontSize-1000);
+        font-size: var(--fontSize-10);
         line-height: var(--leading-800);
     }
 

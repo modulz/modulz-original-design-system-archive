@@ -49,13 +49,13 @@
 
 .Button {
     background-color: var(--gray100);
-    box-shadow: var(--Shadow-1), inset 0 0 0 1px var(--gray400);
+    box-shadow: var(--Shadow-100), inset 0 0 0 1px var(--gray400);
     color: var(--gray900);
     fill: var(--gray900);
     stroke: var(--gray900);
 }
 .Button:hover {
-    box-shadow: var(--Shadow-2), inset 0 0 0 1px var(--gray500);
+    box-shadow: var(--Shadow-200), inset 0 0 0 1px var(--gray500);
 }
 .Button:active {
     box-shadow: inset 0 0 0 1px var(--gray500);
@@ -68,10 +68,10 @@
     color: var(--blue700);
     fill: var(--blue700);
     stroke: var(--blue700);
-    box-shadow: var(--Shadow-1), inset 0 0 0 1px var(--blue400);
+    box-shadow: var(--Shadow-100), inset 0 0 0 1px var(--blue400);
 }
 .Button.primary:hover {
-    box-shadow: var(--Shadow-2), inset 0 0 0 1px var(--blue500);
+    box-shadow: var(--Shadow-200), inset 0 0 0 1px var(--blue500);
 }
 .Button.primary:active {
     box-shadow: inset 0 0 0 1px var(--blue500);
@@ -84,10 +84,10 @@
     color: var(--green700);
     fill: var(--green700);
     stroke: var(--green700);
-    box-shadow: var(--Shadow-1), inset 0 0 0 1px var(--green400);
+    box-shadow: var(--Shadow-100), inset 0 0 0 1px var(--green400);
 }
 .Button.positive:hover {
-    box-shadow: var(--Shadow-2), inset 0 0 0 1px var(--green500);
+    box-shadow: var(--Shadow-200), inset 0 0 0 1px var(--green500);
 }
 .Button.positive:active {
     box-shadow: inset 0 0 0 1px var(--green500);
@@ -100,10 +100,10 @@
     color: var(--red700);
     fill: var(--red700);
     stroke: var(--red700);
-    box-shadow: var(--Shadow-1), inset 0 0 0 1px var(--gray400);
+    box-shadow: var(--Shadow-100), inset 0 0 0 1px var(--gray400);
 }
 .Button.negative:hover {
-    box-shadow: var(--Shadow-2), inset 0 0 0 1px var(--gray500);
+    box-shadow: var(--Shadow-200), inset 0 0 0 1px var(--gray500);
 }
 .Button.negative:active {
     box-shadow: inset 0 0 0 1px var(--gray500);
@@ -162,7 +162,7 @@
 
 .ButtonGroup .Button {
     border-radius: 0;
-    box-shadow: var(--Shadow-1), inset 0 1px 0 0 var(--gray400), inset 0 -1px 0 0 var(--gray400), inset 1px 0 0 0 var(--gray400);
+    box-shadow: var(--Shadow-100), inset 0 1px 0 0 var(--gray400), inset 0 -1px 0 0 var(--gray400), inset 1px 0 0 0 var(--gray400);
 }
 
 .ButtonGroup .Button:first-child {
@@ -171,5 +171,5 @@
 
 .ButtonGroup .Button:last-child {
     border-radius: 0 var(--borderRadius-2) var(--borderRadius-2) 0;
-    box-shadow: var(--Shadow-1), inset 0 0 0 1px var(--gray400);
+    box-shadow: var(--Shadow-100), inset 0 0 0 1px var(--gray400);
 }

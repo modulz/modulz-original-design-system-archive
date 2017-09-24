@@ -34,7 +34,7 @@
     .Toast {
         bottom: 24px;
         left: 24px;
-        box-shadow: var(--Shadow-3);
+        box-shadow: var(--Shadow-300);
         margin-left: 0;
         width: 400px;
         border-radius: var(--borderRadius-2);

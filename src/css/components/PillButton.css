@@ -24,7 +24,7 @@
     white-space: nowrap;
 
     background-color: var(--gray200);
-    box-shadow: var(--Shadow-1);
+    box-shadow: var(--Shadow-100);
     border-radius: 9999px;
     color: rgba(0,0,0,.8);
     font-size: var(--fontSize-300);
@@ -35,7 +35,7 @@
     padding-right: var(--spacing-300);
 }
 .PillButton:hover {
-    box-shadow: var(--Shadow-2);
+    box-shadow: var(--Shadow-200);
     transform: translateY(-1px);
 }
 .PillButton:active {

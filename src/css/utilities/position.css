@@ -6,12 +6,14 @@
 .position-absolute  { position: absolute; }
 .position-relative  { position: relative; }
 .position-static    { position: static; }
+.position-sticky    { position: sticky; }
 
 @media (--breakpoint-1) {
     .bp1-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
     .bp1-position-absolute  { position: absolute; }
     .bp1-position-relative  { position: relative; }
     .bp1-position-static    { position: static; }
+    .bp1-position-sticky    { position: sticky; }
 }
 
 @media (--breakpoint-2) {
@@ -19,6 +21,7 @@
     .bp2-position-absolute  { position: absolute; }
     .bp2-position-relative  { position: relative; }
     .bp2-position-static    { position: static; }
+    .bp2-position-sticky    { position: sticky; }
 }
 
 @media (--breakpoint-3) {
@@ -26,6 +29,7 @@
     .bp3-position-absolute  { position: absolute; }
     .bp3-position-relative  { position: relative; }
     .bp3-position-static    { position: static; }
+    .bp3-position-sticky    { position: sticky; }
 }
 
 @media (--breakpoint-4) {
@@ -33,4 +37,5 @@
     .bp4-position-absolute  { position: absolute; }
     .bp4-position-relative  { position: relative; }
     .bp4-position-static    { position: static; }
+    .bp4-position-sticky    { position: sticky; }
 }

@@ -2,10 +2,10 @@
 
 :root {
 
-    --transitionDuration-1: 50ms;
-    --transitionDuration-2: 100ms;
-    --transitionDuration-3: 200ms;
-    --transitionDuration-4: 400ms;
-    --transitionDuration-5: 1000ms;
+    --transitionDuration-100: 50ms;
+    --transitionDuration-200: 100ms;
+    --transitionDuration-300: 200ms;
+    --transitionDuration-400: 400ms;
+    --transitionDuration-500: 1000ms;
 
 }

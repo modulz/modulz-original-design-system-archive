@@ -1,8 +1,8 @@
 /* Transition duration */
 
 .td-0   { transition-duration: 0; }
-.td-1   { transition-duration: var(--transitionDuration-1); }
-.td-2   { transition-duration: var(--transitionDuration-2); }
-.td-3   { transition-duration: var(--transitionDuration-3); }
-.td-4   { transition-duration: var(--transitionDuration-4); }
-.td-5   { transition-duration: var(--transitionDuration-5); }
+.td-1   { transition-duration: var(--transitionDuration-100); }
+.td-2   { transition-duration: var(--transitionDuration-200); }
+.td-3   { transition-duration: var(--transitionDuration-300); }
+.td-4   { transition-duration: var(--transitionDuration-400); }
+.td-5   { transition-duration: var(--transitionDuration-500); }

@@ -31,7 +31,7 @@
 
 
 .Input:focus {
-    box-shadow: var(--Shadow-200), inset 0 0 0 1px var(--blue500);
+    box-shadow: var(--shadow-200), inset 0 0 0 1px var(--blue500);
 }
 
 .Input:focus ~ .FormGroup-label {

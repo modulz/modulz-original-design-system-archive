@@ -9,16 +9,32 @@
 
 /* Sizes */
 
-.Grid.size1 {
-    grid-gap: var(--spacing-200);
+.Grid.size1 { grid-gap: var(--spacing-200); }
+.Grid.size2 { grid-gap: var(--spacing-400); }
+.Grid.size3 { grid-gap: var(--spacing-600); }
+
+@media (--breakpoint-1) {
+    .Grid.bp1-size1 { grid-gap: var(--spacing-200); }
+    .Grid.bp1-size2 { grid-gap: var(--spacing-400); }
+    .Grid.bp1-size3 { grid-gap: var(--spacing-600); }
 }
 
-.Grid.size2 {
-    grid-gap: var(--spacing-400);
+@media (--breakpoint-2) {
+    .Grid.bp2-size1 { grid-gap: var(--spacing-200); }
+    .Grid.bp2-size2 { grid-gap: var(--spacing-400); }
+    .Grid.bp2-size3 { grid-gap: var(--spacing-600); }
 }
 
-.Grid.size3 {
-    grid-gap: var(--spacing-600);
+@media (--breakpoint-3) {
+    .Grid.bp3-size1 { grid-gap: var(--spacing-200); }
+    .Grid.bp3-size2 { grid-gap: var(--spacing-400); }
+    .Grid.bp3-size3 { grid-gap: var(--spacing-600); }
+}
+
+@media (--breakpoint-4) {
+    .Grid.bp4-size1 { grid-gap: var(--spacing-200); }
+    .Grid.bp4-size2 { grid-gap: var(--spacing-400); }
+    .Grid.bp4-size3 { grid-gap: var(--spacing-600); }
 }
 
 /* Columns */

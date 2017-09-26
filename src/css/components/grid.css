@@ -111,7 +111,7 @@
     .Grid.bp4-columns12 { grid-template-columns: repeat(12, 1fr); }
 }
 
-/* Expand columns & rows */
+/* Cell expansion */
 
 .gr-1 { grid-row: span 1; }
 .gr-2 { grid-row: span 2; }

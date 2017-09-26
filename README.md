@@ -119,7 +119,7 @@ So, that translates to
 Property names consisting of two or more words are abbreviated to their initials:
 ```css
 .ta-center { text-align: center; }
-.br-m { border-radius: .4rem; }
+.br-2 { border-radius: .4rem; }
 .br-repeat { background-repeat: repeat; }
 .lst-disc  { list-style-type: disc; }
 .tr-optimizeLegibility  { text-rendering: optimizeLegibility; }

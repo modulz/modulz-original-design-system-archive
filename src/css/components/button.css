@@ -11,6 +11,7 @@
     font-weight: 600;
     height: var(--spacing-400);
     justify-content: center;
+    line-height: 1;
     letter-spacing: .6px;
     min-width: var(--spacing-400);
     outline: none;

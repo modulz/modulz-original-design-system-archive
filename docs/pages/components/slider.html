@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="" lang="en" style="font-size: 62.5%;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css">
+  <title>Modulz – An open-source design system</title>
+</head>
+    <body class="ff-whitney color-gray900 tr-optimizeLegibility">
+
+        <button class="Button js-SideDrawerTrigger" style="position: fixed; top: 32px; left: 32px;">Menu</button>
+        ${require('partials/navigation.html')}
+
+        <main class="Container pt-4 pb-4">
+
+            <header class="Section">
+                <div class="mb-1">
+                  <h1 class="Heading size6 fw-6 lh-9">Slider</h1>
+                </div>
+                <div>
+                    <p class="Heading size3 color-gray500 lh-7">A form control which lets the
+                      user specify a numeric value between a given range.</p>
+                </div>
+            </header>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size2 fw-6">Default slider</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Default slider</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="display-flex jc-center ml-fc">
+                        <input class="Slider" type="range" min="0" max="10" value="5">
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre class="padding-2"><code class="ff-monospace fs-2 height-100 ox-hidden" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;input class="Slider" type="range" min="0" max="10" value="5"&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+        </main>
+
+        ${require('partials/footer.html')}
+
+        <div class="Overlay js-Overlay"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>

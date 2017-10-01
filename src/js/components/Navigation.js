@@ -25,6 +25,11 @@ $(function() {
         toggleSideDrawer();
     });
 
+    $('.js-AccordionLink').click(function() {
+        $('.js-AccordionPane').hide();
+        $(this).next('.js-AccordionPane').show();
+    });
+
     // Prevent scroll bubbling
 
     $(document).on('DOMMouseScroll mousewheel', '.js-preventScrollBubbling', function(ev) {

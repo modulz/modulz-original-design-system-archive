@@ -42,3 +42,20 @@
     transform: translateX(var(--spacing-200));
     background-color: var(--blue500);
 }
+
+/* Disabled */
+
+.Switch.is-disabled {
+    pointer-events: none;
+}
+
+.Switch.is-disabled div,
+.Switch.is-disabled input:checked + div {
+    background-color: var(--gray300);
+}
+
+.Switch.is-disabled div:before,
+.Switch.is-disabled input:checked + div:before {
+    background-color: var(--gray400);
+    box-shadow: none;
+}

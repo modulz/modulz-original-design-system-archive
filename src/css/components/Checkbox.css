@@ -33,7 +33,7 @@
     border-color: var(--blue500);
 }
 
-/* Focus state */
+/* Disabled state */
 
 /*.Checkbox input:focus ~ .control-indicator,
 .Radio input:focus ~ .control-indicator {
@@ -50,8 +50,6 @@
     border-color: var(--blue500);
 }
 
-/* Checked state tick */
-
 .Checkbox > input:checked ~ div:after {
     border-bottom: 2px solid white;
     border-right: 2px solid white;
@@ -63,4 +61,19 @@
     top: 2px;
     transform: rotate(45deg);
     width: 5px;
+}
+
+/* Disabled state */
+
+.Checkbox input:disabled ~ div {
+    background-color: var(--gray100);
+    border-color: var(--gray300);
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Invalid state */
+
+.Checkbox.is-invalid > input ~ div {
+    border-color: var(--red500);
 }

@@ -3,3 +3,12 @@
     cursor: pointer;
     font-size: var(--fontSize-300);
 }
+
+.Label.is-disabled {
+    cursor: not-allowed;
+    color: var(--gray400);
+}
+
+.Label.is-invalid {
+    color: var(--red600);
+}

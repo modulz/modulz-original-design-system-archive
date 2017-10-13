@@ -61,7 +61,7 @@
                         the Checkbox component by specifying the relevant checkbox
                         <code class="Code">id</code> in the Label's
                         <code class="Code">for</code> attribute. Then
-                        build a layout by wrapping everything in a Flexbox component. Apply
+                        build a layout by wrapping everything in a Flexbox component&mdash;applying
                         spacing with an <code class="Code">mr-1</code> utility class.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke padding-3">
@@ -73,7 +73,7 @@
                             </label>
                         </div>
                         <div>
-                            <label class="Label" for="option2">Label for checkbox</label>
+                            <label class="Label" for="option2">Checkbox label</label>
                         </div>
                     </div>
                 </div>
@@ -87,73 +87,47 @@
         &lt;/label&gt;
     &lt;/div&gt;
     &lt;div&gt;
-        &lt;label class="Label" for="option1"&gt;Label for checkbox&lt;/label&gt;
+        &lt;label class="Label" for="option2"&gt;Checkbox label&lt;/label&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
                     </figure>
                 </div>
-            </section>
 
-            <section class="Section">
-                <div class="mb-1">
-                    <h2 class="Heading size2 fw-6">Checkbox group</h2>
-                </div>
-                <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">It's not currently possible to directly
-                      style a checkbox in modern browsers, so we use this simple hack. We use a
-                      <code class="Code">&lt;input type="checkbox"&gt;</code> element to
-                      provide the necessary functionality but hide it with CSS. Then we use a
-                      <code class="Code">&lt;div&gt;</code> to provide the styling. Finally, we
-                      wrap everything in a <code class="Code">&lt;label&gt;</code> to allow
-                      interaction.</p>
+                <div class="mt-3 mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">By handling the layout independently,
+                        you're free to build more complex layouts around your checkbox.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                    <div class="display-flex ai-center">
+                    <div class="display-flex">
                         <div class="mr-1">
                             <label class="Checkbox">
-                                <input id="option3" name="group1" type="checkbox">
+                                <input id="option3" type="checkbox">
                                 <div></div>
                             </label>
                         </div>
                         <div>
-                            <label class="Label" for="option3">Option 1</label>
-                        </div>
-                    </div>
-                    <div class="display-flex ai-center">
-                        <div class="mr-1">
-                            <label class="Checkbox">
-                                <input id="option4" name="group1" type="checkbox">
-                                <div></div>
-                            </label>
-                        </div>
-                        <div>
-                            <label class="Label" for="option4">Option 2</label>
+                            <div class="mb-1">
+                                <label class="Label" for="option3">Checkbox label</label>
+                            </div>
+                            <small class="Text size1 color-gray500 lh-2">This is a small snippet of text to support the
+                                label above.</small>
                         </div>
                     </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex ai-center"&gt;
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
     &lt;div class="mr-1"&gt;
         &lt;label class="Checkbox"&gt;
-            &lt;input id="option2" type="checkbox"&gt;
+            &lt;input id="option3" type="checkbox"&gt;
             &lt;div&gt;&lt;/div&gt;
         &lt;/label&gt;
     &lt;/div&gt;
     &lt;div&gt;
-        &lt;label class="Label" for="option1"&gt;Label for checkbox&lt;/label&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="display-flex ai-center"&gt;
-    &lt;div class="mr-1"&gt;
-        &lt;label class="Checkbox"&gt;
-            &lt;input id="option2" type="checkbox"&gt;
-            &lt;div&gt;&lt;/div&gt;
-        &lt;/label&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-        &lt;label class="Label" for="option1"&gt;Label for checkbox&lt;/label&gt;
+        &lt;div class="mb-1"&gt;
+            &lt;label class="Label" for="option3"&gt;Checkbox label&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;small class="Text size1 lh-2 color-gray500"&gt;...&lt;/small&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
                     </figure>
@@ -165,57 +139,236 @@
                     <h2 class="Heading size2 fw-6">Disabled state</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">It's not currently possible to directly
-                      style a checkbox in modern browsers, so we use this simple hack. We use a
-                      <code class="Code">&lt;input type="checkbox"&gt;</code> element to
-                      provide the necessary functionality but hide it with CSS. Then we use a
-                      <code class="Code">&lt;div&gt;</code> to provide the styling. Finally, we
-                      wrap everything in a <code class="Code">&lt;label&gt;</code> to allow
-                      interaction.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">If a checkbox is currently disallowed
+                        for any reason, you can apply a disabled state using the
+                        <code class="Code">disabled</code> attribute.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke padding-3">
                       <label class="Checkbox">
-                          <input type="checkbox">
+                          <input id="option4" type="checkbox" disabled>
                           <div></div>
-                          Hello
                       </label>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
                         <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;label class="Checkbox"&gt;
-    &lt;input type="checkbox"&gt;
+    &lt;input id="option4" type="checkbox" disabled&gt;
     &lt;div&gt;&lt;/div&gt;
 &lt;/label&gt;</code></pre>
+                    </figure>
+                </div>
+
+                <div class="mt-3 mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">You can also disable an accompanying
+                        Label, using the <code class="Code">is-disabled</code> class.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="display-flex ai-center">
+                        <div class="mr-1">
+                            <label class="Checkbox">
+                                <input id="option5" type="checkbox" disabled>
+                                <div></div>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="Label is-disabled" for="option5">Disabled checkbox</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex ai-center"&gt;
+    &lt;div class="mr-1"&gt;
+        &lt;label class="Checkbox"&gt;
+            &lt;input id="option5" type="checkbox"&gt;
+            &lt;div&gt;&lt;/div&gt;
+        &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;label class="Label is-disabled" for="option4"&gt;Disabled checkbox&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>
 
             <section class="Section">
                 <div class="mb-1">
-                    <h2 class="Heading size2 fw-6">Required validation</h2>
+                    <h2 class="Heading size2 fw-6">Error state</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">It's not currently possible to directly
-                      style a checkbox in modern browsers, so we use this simple hack. We use a
-                      <code class="Code">&lt;input type="checkbox"&gt;</code> element to
-                      provide the necessary functionality but hide it with CSS. Then we use a
-                      <code class="Code">&lt;div&gt;</code> to provide the styling. Finally, we
-                      wrap everything in a <code class="Code">&lt;label&gt;</code> to allow
-                      interaction.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">Required validation</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                      <label class="Checkbox">
-                          <input type="checkbox">
-                          <div></div>
-                          Hello
-                      </label>
+                    <div class="display-flex ai-center">
+                        <div class="mr-1">
+                            <label class="Checkbox is-invalid">
+                                <input id="option10" type="checkbox">
+                                <div></div>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="Label is-invalid" for="option10">Error state</label>
+                        </div>
+                    </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;label class="Checkbox"&gt;
-    &lt;input type="checkbox"&gt;
-    &lt;div&gt;&lt;/div&gt;
-&lt;/label&gt;</code></pre>
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex ai-center"&gt;
+    &lt;div class="mr-1"&gt;
+        &lt;label class="Checkbox is-invalid"&gt;
+            &lt;input id="option10" type="checkbox"&gt;
+            &lt;div&gt;&lt;/div&gt;
+        &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;label class="Label is-invalid" for="option10"&gt;Error state&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size2 fw-6">Checkbox group</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">You can group checkboxes together by
+                        wrapping them in an additional Flexbox component&mdash;again, using
+                        margin utility classes to provide spacing. Make sure to apply the same
+                        <code class="Code">name</code> attribute value to each checkbox in the
+                        same group.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="display-flex">
+                        <div class="mr-2">
+                            <div class="display-flex ai-center">
+                                <div class="mr-1">
+                                    <label class="Checkbox">
+                                        <input id="option6" name="group1" type="checkbox">
+                                        <div></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="Label" for="option6">Option 1</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mr-2">
+                            <div class="display-flex ai-center">
+                                <div class="mr-1">
+                                    <label class="Checkbox">
+                                        <input id="option7" name="group1" type="checkbox">
+                                        <div></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="Label" for="option7">Option 2</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
+    &lt;div class="mr-2"&gt;
+        &lt;div class="display-flex ai-center"&gt;
+            &lt;div class="mr-1"&gt;
+                &lt;label class="Checkbox"&gt;
+                    &lt;input id="option1" name="group1" type="checkbox"&gt;
+                    &lt;div&gt;&lt;/div&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                &lt;label class="Label" for="option1"&gt;Option 1&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="mr-2"&gt;
+        &lt;div class="display-flex ai-center"&gt;
+            &lt;div class="mr-1"&gt;
+                &lt;label class="Checkbox"&gt;
+                    &lt;input id="option2" name="group1" type="checkbox"&gt;
+                    &lt;div&gt;&lt;/div&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                &lt;label class="Label" for="option2"&gt;Option 2&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </figure>
+                </div>
+
+                <div class="mt-3 mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Alternatively, you can stack checkboxes
+                        by addding a <code class="Code">fd-column</code> utility class to the
+                        outer Flexbox component and adjusting the margin utility classes
+                        accordingly.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="display-flex fd-column">
+                        <div class="mb-2">
+                            <div class="display-flex ai-center">
+                                <div class="mr-1">
+                                    <label class="Checkbox">
+                                        <input id="option8" name="group1" type="checkbox">
+                                        <div></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="Label" for="option8">Option 1</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <div class="display-flex ai-center">
+                                <div class="mr-1">
+                                    <label class="Checkbox">
+                                        <input id="option9" name="group1" type="checkbox">
+                                        <div></div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="Label" for="option9">Option 2</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex fd-column"&gt;
+    &lt;div class="mb-2"&gt;
+        &lt;div class="display-flex ai-center"&gt;
+            &lt;div class="mr-1"&gt;
+                &lt;label class="Checkbox"&gt;
+                    &lt;input id="option1" name="group2" type="checkbox"&gt;
+                    &lt;div&gt;&lt;/div&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                &lt;label class="Label" for="option1"&gt;Option 1&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="mb-2"&gt;
+        &lt;div class="display-flex ai-center"&gt;
+            &lt;div class="mr-1"&gt;
+                &lt;label class="Checkbox"&gt;
+                    &lt;input id="option2" name="group2" type="checkbox"&gt;
+                    &lt;div&gt;&lt;/div&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                &lt;label class="Label" for="option2"&gt;Option 2&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>

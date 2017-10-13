@@ -1,0 +1,5 @@
+.Label {
+    user-select: none;
+    cursor: pointer;
+    font-size: var(--fontSize-300);
+}

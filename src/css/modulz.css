@@ -103,6 +103,7 @@
 @import "./components/divider.css";
 @import "./components/tab-menu.css";
 @import "./components/asset.css";
+@import "./components/Label.css";
 @import "./components/Loader.css";
 @import "./components/Tag.css";
 @import "./components/status-indicator.css";

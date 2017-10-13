@@ -1,4 +1,4 @@
-.Label {
+.Tag {
     align-items: center;
     display: inline-flex;
     color: var(--gray500);
@@ -13,90 +13,90 @@
     user-select: none;
 }
 
-.Label.interactive {
+.Tag.interactive {
     transition-property: background-color, color;
     transition-duration: 60ms;
     transition-timing-function: linear;
     cursor: pointer;
 }
 
-.Label.interactive:hover {
+.Tag.interactive:hover {
     background-color: var(--gray400);
     color: var(--gray900);
 }
 
 /* Colors */
 
-.Label.yellow {
+.Tag.yellow {
     background-color: var(--yellow500);
     color: white;
 }
 
-.Label.lime {
+.Tag.lime {
     background-color: var(--lime500);
     color: white;
 }
 
-.Label.green {
+.Tag.green {
     background-color: var(--green500);
     color: white;
 }
 
-.Label.teal {
+.Tag.teal {
     background-color: var(--teal500);
     color: white;
 }
 
-.Label.blue {
+.Tag.blue {
     background-color: var(--blue500);
     color: white;
 }
 
-.Label.indigo {
+.Tag.indigo {
     background-color: var(--indigo500);
     color: white;
 }
 
-.Label.violet {
+.Tag.violet {
     background-color: var(--violet500);
     color: white;
 }
 
-.Label.purple {
+.Tag.purple {
     background-color: var(--purple500);
     color: white;
 }
 
-.Label.pink {
+.Tag.pink {
     background-color: var(--pink500);
     color: white;
 }
 
-.Label.red {
+.Tag.red {
     background-color: var(--red500);
     color: white;
 }
 
-.Label.orange {
+.Tag.orange {
     background-color: var(--orange500);
     color: white;
 }
 
-.Label.amber {
+.Tag.amber {
     background-color: var(--amber500);
     color: white;
 }
 
 /* Label group */
 
-.LabelGroup {
+.TagGroup {
     display: flex;
     flex-wrap: wrap;
     margin-top: -4px;
     margin-left: -4px;
 }
 
-.LabelGroup .Label {
+.TagGroup .Label {
     margin-left: 4px;
     margin-top: 4px;
 }

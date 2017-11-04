@@ -1,29 +1,24 @@
 /* Font Style */
 
-.fontStyle-normal   { font-style: normal; }
-.fontStyle-italic   { font-style: italic; }
-.fontStyle-oblique  { font-style: oblique; }
+.fs-normal   { font-style: normal; }
+.fs-italic   { font-style: italic; }
 
 @media (--breakpoint-1) {
-    .bp1-fontStyle-normal   { font-style: normal; }
-    .bp1-fontStyle-italic   { font-style: italic; }
-    .bp1-fontStyle-oblique  { font-style: oblique; }
+    .bp1-fs-normal   { font-style: normal; }
+    .bp1-fs-italic   { font-style: italic; }
 }
 
 @media (--breakpoint-2) {
-    .bp2-fontStyle-normal   { font-style: normal; }
-    .bp2-fontStyle-italic   { font-style: italic; }
-    .bp2-fontStyle-oblique  { font-style: oblique; }
+    .bp2-fs-normal   { font-style: normal; }
+    .bp2-fs-italic   { font-style: italic; }
 }
 
 @media (--breakpoint-3) {
-    .bp3-fontStyle-normal   { font-style: normal; }
-    .bp3-fontStyle-italic   { font-style: italic; }
-    .bp3-fontStyle-oblique  { font-style: oblique; }
+    .bp3-fs-normal   { font-style: normal; }
+    .bp3-fs-italic   { font-style: italic; }
 }
 
 @media (--breakpoint-4) {
-    .bp4-fontStyle-normal   { font-style: normal; }
-    .bp4-fontStyle-italic   { font-style: italic; }
-    .bp4-fontStyle-oblique  { font-style: oblique; }
+    .bp4-fs-normal   { font-style: normal; }
+    .bp4-fs-italic   { font-style: italic; }
 }

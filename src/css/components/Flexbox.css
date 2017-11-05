@@ -1,0 +1,13 @@
+.Flexbox { display: flex; }
+
+.Flexbox.row { flex-direction: row; }
+.Flexbox.column { flex-direction: column; }
+
+.Flexbox.noWrap { flex-wrap: nowrap; }
+.Flexbox.wrap { flex-wrap: wrap; }
+
+.Flexbox.alignBaseline { align-items: baseline; }
+.Flexbox.alignCenter { align-items: center; }
+.Flexbox.alignEnd { align-items: flex-end; }
+.Flexbox.alignStart { align-items: flex-start; }
+.Flexbox.alignStretch { align-items: stretch; }

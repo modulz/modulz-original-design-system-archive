@@ -47,12 +47,6 @@
 }
 
 .Container.size8 {
-    width: 41.6666666666vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Container.size9 {
     width: 33.3333333333vw;
     margin-left: auto;
     margin-right: auto;
@@ -102,12 +96,6 @@
     }
 
     .Container.bp1-size8 {
-        width: 41.6666666666vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .Container.bp1-size9 {
         width: 33.3333333333vw;
         margin-left: auto;
         margin-right: auto;
@@ -158,12 +146,6 @@
     }
 
     .Container.bp2-size8 {
-        width: 41.6666666666vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .Container.bp2-size9 {
         width: 33.3333333333vw;
         margin-left: auto;
         margin-right: auto;
@@ -214,12 +196,6 @@
     }
 
     .Container.bp3-size8 {
-        width: 41.6666666666vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .Container.bp3-size9 {
         width: 33.3333333333vw;
         margin-left: auto;
         margin-right: auto;
@@ -270,12 +246,6 @@
     }
 
     .Container.bp4-size8 {
-        width: 41.6666666666vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .Container.bp4-size9 {
         width: 33.3333333333vw;
         margin-left: auto;
         margin-right: auto;

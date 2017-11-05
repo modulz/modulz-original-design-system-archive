@@ -84,26 +84,29 @@
 /* Components */
 
 @import "./components/Avatar.css";
+@import "./components/Badge.css";
 @import "./components/Radio.css";
 @import "./components/Checkbox.css";
 @import "./components/Slider.css";
 @import "./components/Switch.css";
 @import "./components/Icon.css";
-@import "./components/grid.css";
 @import "./components/Code.css";
+@import "./components/Container.css";
 @import "./components/Context.css";
-@import "./components/divider.css";
 @import "./components/Flexbox.css";
-@import "./components/tab-menu.css";
-@import "./components/asset.css";
 @import "./components/Label.css";
 @import "./components/Loader.css";
 @import "./components/Tag.css";
+@import "./components/SideDrawer.css";
+@import "./components/PillButton.css";
+
+@import "./components/grid.css";
+@import "./components/divider.css";
+@import "./components/tab-menu.css";
+@import "./components/asset.css";
 @import "./components/status-indicator.css";
-@import "./components/badge.css";
 @import "./components/list-item.css";
 @import "./components/button.css";
-@import "./components/PillButton.css";
 @import "./components/Table.css";
 @import "./components/Toast.css";
 @import "./components/Overlay.css";
@@ -113,7 +116,5 @@
 @import "./components/text.css";
 @import "./components/input.css";
 @import "./components/link.css";
-@import "./components/container.css";
 @import "./components/section.css";
 @import "./components/scrollbar.css";
-@import "./components/SideDrawer.css";

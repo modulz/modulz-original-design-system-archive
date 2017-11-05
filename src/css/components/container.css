@@ -59,55 +59,55 @@
 }
 
 @media (--breakpoint-1) {
-    .bp1-Container.size1 {
+    .Container.bp1-size1 {
         max-width: 100%;
         margin-left: var(--spacing-300);
         margin-right: var(--spacing-300);
     }
 
-    .bp1-Container.size2 {
+    .Container.bp1-size2 {
         width: 91.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp1-Container.size3 {
+    .Container.bp1-size3 {
         width: 83.3333333333vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp1-Container.size4 {
+    .Container.bp1-size4 {
         width: 75vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp1-Container.size5 {
+    .Container.bp1-size5 {
         width: 58.3333333333vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp1-Container.size6 {
+    .Container.bp1-size6 {
         width: 50vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp1-Container.size7 {
+    .Container.bp1-size7 {
         width: 41.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp1-Container.size8 {
+    .Container.bp1-size8 {
         width: 41.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp1-Container.size9 {
+    .Container.bp1-size9 {
         width: 33.3333333333vw;
         margin-left: auto;
         margin-right: auto;
@@ -115,55 +115,55 @@
 }
 
 @media (--breakpoint-2) {
-    .bp2-Container.size1 {
+    .Container.bp2-size1 {
         max-width: 100%;
         margin-left: var(--spacing-300);
         margin-right: var(--spacing-300);
     }
 
-    .bp2-Container.size2 {
+    .Container.bp2-size2 {
         width: 91.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp2-Container.size3 {
+    .Container.bp2-size3 {
         width: 83.3333333333vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp2-Container.size4 {
+    .Container.bp2-size4 {
         width: 75vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp2-Container.size5 {
+    .Container.bp2-size5 {
         width: 58.3333333333vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp2-Container.size6 {
+    .Container.bp2-size6 {
         width: 50vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp2-Container.size7 {
+    .Container.bp2-size7 {
         width: 41.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp2-Container.size8 {
+    .Container.bp2-size8 {
         width: 41.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp2-Container.size9 {
+    .Container.bp2-size9 {
         width: 33.3333333333vw;
         margin-left: auto;
         margin-right: auto;
@@ -171,55 +171,55 @@
 }
 
 @media (--breakpoint-3) {
-    .bp3-Container.size1 {
+    .Container.bp3-size1 {
         max-width: 100%;
         margin-left: var(--spacing-300);
         margin-right: var(--spacing-300);
     }
 
-    .bp3-Container.size2 {
+    .Container.bp3-size2 {
         width: 91.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp3-Container.size3 {
+    .Container.bp3-size3 {
         width: 83.3333333333vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp3-Container.size4 {
+    .Container.bp3-size4 {
         width: 75vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp3-Container.size5 {
+    .Container.bp3-size5 {
         width: 58.3333333333vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp3-Container.size6 {
+    .Container.bp3-size6 {
         width: 50vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp3-Container.size7 {
+    .Container.bp3-size7 {
         width: 41.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp3-Container.size8 {
+    .Container.bp3-size8 {
         width: 41.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp3-Container.size9 {
+    .Container.bp3-size9 {
         width: 33.3333333333vw;
         margin-left: auto;
         margin-right: auto;
@@ -227,55 +227,55 @@
 }
 
 @media (--breakpoint-4) {
-    .bp4-Container.size1 {
+    .Container.bp4-size1 {
         max-width: 100%;
         margin-left: var(--spacing-300);
         margin-right: var(--spacing-300);
     }
 
-    .bp4-Container.size2 {
+    .Container.bp4-size2 {
         width: 91.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp4-Container.size3 {
+    .Container.bp4-size3 {
         width: 83.3333333333vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp4-Container.size4 {
+    .Container.bp4-size4 {
         width: 75vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp4-Container.size5 {
+    .Container.bp4-size5 {
         width: 58.3333333333vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp4-Container.size6 {
+    .Container.bp4-size6 {
         width: 50vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp4-Container.size7 {
+    .Container.bp4-size7 {
         width: 41.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp4-Container.size8 {
+    .Container.bp4-size8 {
         width: 41.6666666666vw;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .bp4-Container.size9 {
+    .Container.bp4-size9 {
         width: 33.3333333333vw;
         margin-left: auto;
         margin-right: auto;

@@ -21,46 +21,46 @@
 .bc-redShade                    { background-color: var(--red900); }
 
 .bc-pink                { background-color: var(--pink500); }
-.bc-pinkTint            { background-color: var(--pinkTint); }
+.bc-pink200            { background-color: var(--pink200); }
 
 .bc-purple              { background-color: var(--purple500); }
-.bc-purpleTint          { background-color: var(--purpleTint); }
+.bc-purple200          { background-color: var(--purple200); }
 
 .bc-violet              { background-color: var(--violet500); }
-.bc-violetTint          { background-color: var(--violetTint); }
+.bc-violet200          { background-color: var(--violet200); }
 
 .bc-indigo              { background-color: var(--indigo500); }
-.bc-indigoTint          { background-color: var(--indigoTint); }
+.bc-indigo200          { background-color: var(--indigo200); }
 
 .bc-blue                { background-color: var(--blue500); }
-.bc-blueTint            { background-color: var(--blue100); }
+.bc-blue200            { background-color: var(--blue100); }
 
 .bc-lavender            { background-color: var(--lavender500); }
-.bc-lavenderTint        { background-color: var(--lavenderTint); }
+.bc-lavender200        { background-color: var(--lavender200); }
 
 .bc-teal                { background-color: var(--teal500); }
-.bc-tealTint            { background-color: var(--tealTint); }
+.bc-teal200            { background-color: var(--teal200); }
 
 .bc-green               { background-color: var(--green500); }
-.bc-greenTint           { background-color: var(--green100); }
+.bc-green200           { background-color: var(--green100); }
 
 .bc-lime                { background-color: var(--lime500); }
-.bc-limeTint            { background-color: var(--limeTint); }
+.bc-lime200            { background-color: var(--lime200); }
 
 .bc-yellow              { background-color: var(--yellow500); }
-.bc-yellowTint          { background-color: var(--yellowTint); }
+.bc-yellow200          { background-color: var(--yellow200); }
 
 .bc-amber               { background-color: var(--amber500); }
-.bc-amberTint           { background-color: var(--amberTint); }
+.bc-amber200           { background-color: var(--amber200); }
 
 .bc-orange              { background-color: var(--orange500); }
-.bc-orangeTint          { background-color: var(--orangeTint); }
+.bc-orange200          { background-color: var(--orange200); }
 
 .bc-crimson             { background-color: var(--crimson500); }
-.bc-crimsonTint         { background-color: var(--crimsonTint); }
+.bc-crimson200         { background-color: var(--crimson200); }
 
 .bc-brown             { background-color: var(--brown500); }
-.bc-brownTint         { background-color: var(--brownTint); }
+.bc-brown200         { background-color: var(--brown200); }
 
 /*.bc-gray100          { background-color: var(--gray100); }
 .bc-gray200           { background-color: var(--gray200); }

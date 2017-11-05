@@ -99,6 +99,7 @@
 @import "./components/Tag.css";
 @import "./components/SideDrawer.css";
 @import "./components/PillButton.css";
+@import "./components/Section.css";
 
 @import "./components/grid.css";
 @import "./components/divider.css";
@@ -116,5 +117,4 @@
 @import "./components/text.css";
 @import "./components/input.css";
 @import "./components/link.css";
-@import "./components/section.css";
 @import "./components/scrollbar.css";

@@ -11,3 +11,9 @@
 .Flexbox.alignEnd { align-items: flex-end; }
 .Flexbox.alignStart { align-items: flex-start; }
 .Flexbox.alignStretch { align-items: stretch; }
+
+.Flexbox.justifyCenter { justify-content: center; }
+.Flexbox.justifyEnd { justify-content: flex-end; }
+.Flexbox.justifyStart { justify-content: flex-start; }
+.Flexbox.justifyAround { justify-content: space-around; }
+.Flexbox.justifyBetween { justify-content: space-between; }

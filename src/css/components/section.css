@@ -1,6 +1,6 @@
 .Section {
-    padding-top: var(--spacing-400);
-    padding-bottom: var(--spacing-400);
+    padding-top: var(--spacing-500);
+    padding-bottom: var(--spacing-500);
 }
 
 /* Sizes */
@@ -11,8 +11,8 @@
 }
 
 .Section.size2 {
-    padding-top: var(--spacing-400);
-    padding-bottom: var(--spacing-400);
+    padding-top: var(--spacing-500);
+    padding-bottom: var(--spacing-500);
 }
 
 .Section.size3 {
@@ -35,8 +35,8 @@
     }
 
     .Section.bp1-size2 {
-        padding-top: var(--spacing-400);
-        padding-bottom: var(--spacing-400);
+        padding-top: var(--spacing-500);
+        padding-bottom: var(--spacing-500);
     }
 
     .Section.bp1-size3 {
@@ -52,8 +52,8 @@
     }
 
     .Section.bp2-size2 {
-        padding-top: var(--spacing-400);
-        padding-bottom: var(--spacing-400);
+        padding-top: var(--spacing-500);
+        padding-bottom: var(--spacing-500);
     }
 
     .Section.bp2-size3 {
@@ -69,8 +69,8 @@
     }
 
     .Section.bp3-size2 {
-        padding-top: var(--spacing-400);
-        padding-bottom: var(--spacing-400);
+        padding-top: var(--spacing-500);
+        padding-bottom: var(--spacing-500);
     }
 
     .Section.bp3-size3 {
@@ -86,8 +86,8 @@
     }
 
     .Section.bp4-size2 {
-        padding-top: var(--spacing-400);
-        padding-bottom: var(--spacing-400);
+        padding-top: var(--spacing-500);
+        padding-bottom: var(--spacing-500);
     }
 
     .Section.bp4-size3 {

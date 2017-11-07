@@ -27,8 +27,9 @@
                     <h2 class="Heading size2 fw-6">Default section</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">A Section component usually contains
-                      a main Heading.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">A Section component can contain almost
+                        content but usually contains a main Heading. Sections have no background
+                        color by default.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke">
                     <section class="Section">
@@ -46,12 +47,11 @@
 
             <section class="Section">
                 <div class="mb-1">
-                    <h2 class="Heading size2 fw-6">Background colors</h2>
+                    <h2 class="Heading size2 fw-6">Colors</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Use
-                      <code class="Code">background-color</code> utilities to add color to
-                      Section components.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">You can use utility classes to add color
+                      to Section components.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke">
                     <section class="Section bc-violet">
@@ -72,7 +72,9 @@
                     <h2 class="Heading size2 fw-6">Sizes</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">There a 3 size variations.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">There are three size variations. Smaller
+                        sizes work well with more compact content with a tighter focus. Larger
+                        sizes work well with sparse content and looser content layouts.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke">
                     <section class="Section size1 bc-violet">
@@ -104,6 +106,31 @@
 
             <section class="Section">
                 <div class="mb-1">
+                    <h2 class="Heading size2 fw-6">Responsive sizes</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">A Section can switch sizes as the
+                        viewport width changes by specifying responsive size classes prefixed with
+                        <code class="Code">bp1-</code>, <code class="Code">bp2-</code>,
+                        <code class="Code">bp3-</code> or <code class="Code">bp4-</code>.
+                        Resize your browser window to see the Section below adapt.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke">
+                    <section class="Section size1 bp1-size2 bp2-size3 bc-red">
+                        <h2 class="Heading size5 ta-center color-white">This is a main heading</h2>
+                    </section>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;section class="Section size1 bp1-size2 bp2-size3 bc-red"&gt;
+  &lt;h2 class="Heading size5 ta-center color-white"&gt;This is a main heading&lt;/h2&gt;
+&lt;/section&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
                     <h2 class="Heading size2 fw-6">Expanded section</h2>
                 </div>
                 <div class="mb-3">
@@ -121,6 +148,48 @@
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
                         <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;section class="Section expanded bc-violet"&gt;
   &lt;h2 class="Heading size5 ta-center color-white"&gt;This is a main heading&lt;/h2&gt;
+&lt;/section&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size2 fw-6">Full example with content</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">You can expand a Section to stretch to
+                      the full height of the viewport.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke">
+                    <section class="Section bp1-size3 bc-pink">
+                        <div class="Container size3">
+                            <div class="mb-1">
+                                <h2 class="Heading size6 ta-center lh-8 color-white">This is a main heading</h2>
+                            </div>
+                            <div class="mb-5">
+                                <h3 class="Heading size3 ta-center lh-6 color-white opacity-70">This is a sub heading</h3>
+                            </div>
+                            <div class="ta-center">
+                                <button class="PillButton white" type="button">Button</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;section class="Section bp1-size3 bc-pink"&gt;
+  &lt;div class="Container size3"&gt;
+    &lt;div class="mb-1"&gt;
+        &lt;h2 class="Heading size6 ta-center lh-8 color-white"&gt;This is a main heading&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div class="mb-5"&gt;
+        &lt;h3 class="Heading size3 ta-center lh-6 color-white opacity-70"&gt;This is a sub heading&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class="ta-center"&gt;
+        &lt;button class="PillButton white" type="button"&gt;Button&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/section&gt;</code></pre>
                     </figure>
                 </div>

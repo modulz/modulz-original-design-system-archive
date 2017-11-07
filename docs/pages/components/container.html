@@ -28,19 +28,20 @@
                     <h2 class="Heading size2 fw-6">Default container</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Default container</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">The default container spans the full
+                        width of the viewport with padding on both sides.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke">
-                    <div class="Container">
-                        <div class="bc-pink" style="height: 32px;">
-
+                <div style="position: absolute; left: 0; width: 100%;">
+                    <div class="bw-1 bs-solid borderColor-smoke">
+                        <div class="Container">
+                            <div class="bc-blue" style="height: 32px;"></div>
                         </div>
                     </div>
                 </div>
-                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%; margin-top: 58px;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
                         <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Container"&gt;
-  &lt;h2 class="Heading size5 ta-center"&gt;This is a main heading&lt;/h2&gt;
+  // Content goes here
 &lt;/div&gt;</code></pre>
                     </figure>
                 </div>
@@ -51,38 +52,72 @@
                     <h2 class="Heading size2 fw-6">Sizes</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Default container</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">There are four size options ranging
+                        from widest to narrowest. Choose whichever size suits best for each
+                        situation. Multiple different sizes can be used per screen. One factor
+                        which helps decide the most appropriate size is the line length of the
+                        content it contains.
+                        </thead></p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke">
-                    <div class="Container">
-                        <div class="bc-pink" style="height: 32px;"></div>
-                    </div>
-                    <div class="Container size2">
-                        <div class="bc-pink" style="height: 32px;"></div>
-                    </div>
-                    <div class="Container size3">
-                        <div class="bc-pink" style="height: 32px;"></div>
-                    </div>
-                    <div class="Container size4">
-                        <div class="bc-pink" style="height: 32px;"></div>
-                    </div>
-                    <div class="Container size5">
-                        <div class="bc-pink" style="height: 32px;"></div>
-                    </div>
-                    <div class="Container size6">
-                        <div class="bc-pink" style="height: 32px;"></div>
-                    </div>
-                    <div class="Container size7">
-                        <div class="bc-pink" style="height: 32px;"></div>
-                    </div>
-                    <div class="Container size8">
-                        <div class="bc-pink" style="height: 32px;"></div>
+                <div style="position: absolute; left: 0; width: 100%;">
+                    <div class="bw-1 bs-solid borderColor-smoke">
+                        <div class="Container size1 mb-3">
+                            <div class="bc-blue" style="height: 32px;"></div>
+                        </div>
+                        <div class="Container size2 mb-3">
+                            <div class="bc-blue" style="height: 32px;"></div>
+                        </div>
+                        <div class="Container size3 mb-3">
+                            <div class="bc-blue" style="height: 32px;"></div>
+                        </div>
+                        <div class="Container size4">
+                            <div class="bc-blue" style="height: 32px;"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%; margin-top: 226px;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Container"&gt;
-  &lt;h2 class="Heading size5 ta-center"&gt;This is a main heading&lt;/h2&gt;
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Container size1"&gt;
+  // Content goes here
+&lt;/div&gt;
+
+&lt;div class="Container size2"&gt;
+  // Content goes here
+&lt;/div&gt;
+
+&lt;div class="Container size3"&gt;
+  // Content goes here
+&lt;/div&gt;
+
+&lt;div class="Container size4"&gt;
+  // Content goes here
+&lt;/div&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size2 fw-6">Responsive sizes</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">A container can adapt to the width of
+                        the viewport by specifying responsive size classes prefixed with
+                        <code class="Code">bp1-</code>, <code class="Code">bp2-</code>,
+                        <code class="Code">bp3-</code> or <code class="Code">bp4-</code>.
+                        Resize your browser window to see the Container below adapt.</p>
+                </div>
+                <div style="position: absolute; left: 0; width: 100%;">
+                    <div class="bw-1 bs-solid borderColor-smoke">
+                        <div class="Container bp1-size4 bp2-size3 bp3-size2">
+                            <div class="bc-blue" style="height: 32px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%; margin-top: 58px;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Container bp1-size4 bp2-size3 bp3-size2"&gt;
+  // Content goes here
 &lt;/div&gt;</code></pre>
                     </figure>
                 </div>

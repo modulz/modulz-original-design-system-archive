@@ -1,218 +1,290 @@
-.Heading.size1 {
+.Heading {
     font-size: var(--fontSize-600);
+    letter-spacing: -.018em;
+    margin-left: -1.5px;
+    font-weight: 600;
+}
+
+/* Weights */
+
+.Heading.thin { font-weight: 400; }
+
+/* Sizes */
+
+.Heading.size1 {
+    font-size: var(--fontSize-400);
     letter-spacing: -.018em;
     margin-left: -1.5px;
 }
 
 .Heading.size2 {
-    font-size: var(--fontSize-700);
+    font-size: var(--fontSize-500);
     letter-spacing: -.018em;
     margin-left: -1.5px;
 }
 
 .Heading.size3 {
+    font-size: var(--fontSize-600);
+    letter-spacing: -.018em;
+    margin-left: -1.5px;
+}
+
+.Heading.size4 {
+    font-size: var(--fontSize-700);
+    letter-spacing: -.018em;
+    margin-left: -1.5px;
+}
+
+.Heading.size5 {
     letter-spacing: -.038em;
     margin-left: -1.5px;
     font-size: var(--fontSize-800);
 }
 
-.Heading.size4 {
+.Heading.size6 {
     letter-spacing: -0.058em;
     font-size: var(--fontSize-900);
     margin-left: -3.2px;
 }
 
-.Heading.size5 {
+.Heading.size7 {
     letter-spacing: -0.058em;
     margin-left: -2.5px;
     font-size: var(--fontSize-10);
 }
 
-.Heading.size6 {
+.Heading.size8 {
     letter-spacing: -0.058em;
     margin-left: -2.5px;
     font-size: var(--fontSize-11);
 }
 
-.Heading.size7 {
+.Heading.size9 {
     letter-spacing: -0.058em;
     margin-left: -2.5px;
     font-size: var(--fontSize-12);
 }
 
-
 @media (--breakpoint-1) {
-    .Heading.bp1-size7 {
-        letter-spacing: -0.058em;
-        margin-left: -2.5px;
-        font-size: var(--fontSize-12);
+    .Heading.bp1-size1 {
+        font-size: var(--fontSize-400);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp1-size2 {
+        font-size: var(--fontSize-500);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp1-size3 {
+        font-size: var(--fontSize-600);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp1-size4 {
+        font-size: var(--fontSize-700);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp1-size5 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: var(--fontSize-800);
     }
 
     .Heading.bp1-size6 {
         letter-spacing: -0.058em;
-        margin-left: -2.5px;
-        font-size: var(--fontSize-11);
+        font-size: var(--fontSize-900);
+        margin-left: -3.2px;
     }
 
-    .Heading.bp1-size5 {
+    .Heading.bp1-size7 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
         font-size: var(--fontSize-10);
     }
 
-    .Heading.bp1-size4 {
+    .Heading.bp1-size8 {
         letter-spacing: -0.058em;
-        font-size: var(--fontSize-900);
-        margin-left: -3.2px;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-11);
     }
 
-    .Heading.bp1-size3 {
-        letter-spacing: -.038em;
-        margin-left: -1.5px;
-        font-size: var(--fontSize-800);
-    }
-
-    .Heading.bp1-size2 {
-        font-size: var(--fontSize-700);
-        letter-spacing: -.018em;
-        margin-left: -1.5px;
-    }
-
-    .Heading.bp1-size1 {
-        font-size: var(--fontSize-600);
-        letter-spacing: -.018em;
-        margin-left: -1.5px;
+    .Heading.bp1-size9 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-12);
     }
 }
 
 @media (--breakpoint-2) {
-    .Heading.bp2-size7 {
-        letter-spacing: -0.058em;
-        margin-left: -2.5px;
-        font-size: var(--fontSize-12);
+    .Heading.bp2-size1 {
+        font-size: var(--fontSize-400);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp2-size2 {
+        font-size: var(--fontSize-500);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp2-size3 {
+        font-size: var(--fontSize-600);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp2-size4 {
+        font-size: var(--fontSize-700);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp2-size5 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: var(--fontSize-800);
     }
 
     .Heading.bp2-size6 {
         letter-spacing: -0.058em;
-        margin-left: -2.5px;
-        font-size: var(--fontSize-11);
+        font-size: var(--fontSize-900);
+        margin-left: -3.2px;
     }
 
-    .Heading.bp2-size5 {
+    .Heading.bp2-size7 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
         font-size: var(--fontSize-10);
     }
 
-    .Heading.bp2-size4 {
+    .Heading.bp2-size8 {
         letter-spacing: -0.058em;
-        font-size: var(--fontSize-900);
-        margin-left: -3.2px;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-11);
     }
 
-    .Heading.bp2-size3 {
-        letter-spacing: -.038em;
-        margin-left: -1.5px;
-        font-size: var(--fontSize-800);
-    }
-
-    .Heading.bp2-size2 {
-        font-size: var(--fontSize-700);
-        letter-spacing: -.018em;
-        margin-left: -1.5px;
-    }
-
-    .Heading.bp2-size1 {
-        font-size: var(--fontSize-600);
-        letter-spacing: -.018em;
-        margin-left: -1.5px;
+    .Heading.bp2-size9 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-12);
     }
 }
 
 @media (--breakpoint-3) {
-    .Heading.bp3-size7 {
-        letter-spacing: -0.058em;
-        margin-left: -2.5px;
-        font-size: var(--fontSize-12);
+    .Heading.bp3-size1 {
+        font-size: var(--fontSize-400);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp3-size2 {
+        font-size: var(--fontSize-500);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp3-size3 {
+        font-size: var(--fontSize-600);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp3-size4 {
+        font-size: var(--fontSize-700);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp3-size5 {
+        letter-spacing: -.038em;
+        margin-left: -1.5px;
+        font-size: var(--fontSize-800);
     }
 
     .Heading.bp3-size6 {
         letter-spacing: -0.058em;
-        margin-left: -2.5px;
-        font-size: var(--fontSize-11);
+        font-size: var(--fontSize-900);
+        margin-left: -3.2px;
     }
 
-    .Heading.bp3-size5 {
+    .Heading.bp3-size7 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
         font-size: var(--fontSize-10);
     }
 
-    .Heading.bp3-size4 {
+    .Heading.bp3-size8 {
         letter-spacing: -0.058em;
-        font-size: var(--fontSize-900);
-        margin-left: -3.2px;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-11);
     }
 
-    .Heading.bp3-size3 {
-        letter-spacing: -.038em;
-        margin-left: -1.5px;
-        font-size: var(--fontSize-800);
-    }
-
-    .Heading.bp3-size2 {
-        font-size: var(--fontSize-700);
-        letter-spacing: -.018em;
-        margin-left: -1.5px;
-    }
-
-    .Heading.bp3-size1 {
-        font-size: var(--fontSize-600);
-        letter-spacing: -.018em;
-        margin-left: -1.5px;
-    }
-}
-
-@media (--breakpoint-4) {
-    .Heading.bp4-size7 {
+    .Heading.bp3-size9 {
         letter-spacing: -0.058em;
         margin-left: -2.5px;
         font-size: var(--fontSize-12);
     }
+}
 
-    .Heading.bp4-size6 {
-        letter-spacing: -0.058em;
-        margin-left: -2.5px;
-        font-size: var(--fontSize-11);
-    }
-
-    .Heading.bp4-size5 {
-        letter-spacing: -0.058em;
-        margin-left: -2.5px;
-        font-size: var(--fontSize-10);
-    }
-
-    .Heading.bp4-size4 {
-        letter-spacing: -0.058em;
-        font-size: var(--fontSize-900);
-        margin-left: -3.2px;
-    }
-
-    .Heading.bp4-size3 {
-        letter-spacing: -.038em;
+@media (--breakpoint-4) {
+    .Heading.bp4-size1 {
+        font-size: var(--fontSize-400);
+        letter-spacing: -.018em;
         margin-left: -1.5px;
-        font-size: var(--fontSize-800);
     }
 
     .Heading.bp4-size2 {
+        font-size: var(--fontSize-500);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp4-size3 {
+        font-size: var(--fontSize-600);
+        letter-spacing: -.018em;
+        margin-left: -1.5px;
+    }
+
+    .Heading.bp4-size4 {
         font-size: var(--fontSize-700);
         letter-spacing: -.018em;
         margin-left: -1.5px;
     }
 
-    .Heading.bp4-size1 {
-        font-size: var(--fontSize-600);
-        letter-spacing: -.018em;
+    .Heading.bp4-size5 {
+        letter-spacing: -.038em;
         margin-left: -1.5px;
+        font-size: var(--fontSize-800);
+    }
+
+    .Heading.bp4-size6 {
+        letter-spacing: -0.058em;
+        font-size: var(--fontSize-900);
+        margin-left: -3.2px;
+    }
+
+    .Heading.bp4-size7 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-10);
+    }
+
+    .Heading.bp4-size8 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-11);
+    }
+
+    .Heading.bp4-size9 {
+        letter-spacing: -0.058em;
+        margin-left: -2.5px;
+        font-size: var(--fontSize-12);
     }
 }

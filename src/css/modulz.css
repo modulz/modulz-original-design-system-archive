@@ -100,6 +100,7 @@
 @import "./components/SideDrawer.css";
 @import "./components/PillButton.css";
 @import "./components/Section.css";
+@import "./components/Heading.css";
 
 @import "./components/grid.css";
 @import "./components/divider.css";
@@ -113,7 +114,6 @@
 @import "./components/Overlay.css";
 @import "./components/Card.css";
 @import "./components/Progress.css";
-@import "./components/Heading.css";
 @import "./components/text.css";
 @import "./components/input.css";
 @import "./components/link.css";

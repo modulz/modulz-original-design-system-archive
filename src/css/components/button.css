@@ -29,13 +29,13 @@
     white-space: nowrap;
 }
 
-.Button:hover {
+/*.Button:hover {
     transform: translateY(-1px);
 }
 
 .Button:active {
     transform: translateY(0px);
-}
+}*/
 
 /* Sizes */
 
@@ -156,21 +156,25 @@
 
 /* Button group */
 
-.ButtonGroup {
-    display: flex;
-    align-items: center;
-}
-
-.ButtonGroup .Button {
-    border-radius: 0;
-    box-shadow: var(--shadow-100), inset 0 1px 0 0 var(--gray400), inset 0 -1px 0 0 var(--gray400), inset 1px 0 0 0 var(--gray400);
-}
-
-.ButtonGroup .Button:first-child {
+.Button.left {
     border-radius: var(--borderRadius-200) 0 0 var(--borderRadius-200);
+    z-index: 2;
 }
 
-.ButtonGroup .Button:last-child {
+.Button.middle {
+    border-radius: 0;
+    margin-left: -1px;
+    z-index: 1;
+}
+
+.Button.right {
     border-radius: 0 var(--borderRadius-200) var(--borderRadius-200) 0;
-    box-shadow: var(--shadow-100), inset 0 0 0 1px var(--gray400);
+    margin-left: -1px;
+    z-index: 0;
+}
+
+.Button.left:hover,
+.Button.middle:hover,
+.Button.right:hover {
+    z-index: 3;
 }

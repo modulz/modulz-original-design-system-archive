@@ -11,7 +11,7 @@ Paste this line of code into the &lt;head&gt; of your html files.
 
 or install with npm
 ```shell
-npm install modulz
+npm install modulz-css
 ```
 
 ## Documentation

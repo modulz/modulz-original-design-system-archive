@@ -1,30 +1,32 @@
 $(function() {
 
-    // Toggle overlay
+    // // Toggle overlay
+    //
+    // function toggleOverlay() {
+    //     $('.js-Overlay').toggleClass('active');
+    // }
+    //
+    // // Toggle SideDrawer
+    //
+    // function toggleSideDrawer() {
+    //     $('.js-SideDrawer').toggleClass('active');
+    //     toggleOverlay();
+    // }
+    //
+    // // Open SideDrawer
+    //
+    // $('.js-SideDrawerTrigger').click(function() {
+    //     toggleSideDrawer();
+    // });
+    //
+    // // Deactivate components when click overlay
+    //
+    // $('.js-Overlay').click(function() {
+    //     toggleSideDrawer();
+    // });
 
-    function toggleOverlay() {
-        $('.js-Overlay').toggleClass('active');
-    }
-
-    // Toggle SideDrawer
-
-    function toggleSideDrawer() {
-        $('.js-SideDrawer').toggleClass('active');
-        toggleOverlay();
-    }
-
-    // Open SideDrawer
-
-    $('.js-SideDrawerTrigger').click(function() {
-        toggleSideDrawer();
-    });
-
-    // Deactivate components when click overlay
-
-    $('.js-Overlay').click(function() {
-        toggleSideDrawer();
-    });
-
+    // Rough accordion script
+    
     $('.js-AccordionLink').click(function() {
         $('.js-AccordionPane').hide();
         $(this).next('.js-AccordionPane').show();

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="" lang="en" style="font-size: 62.5%;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css">
+  <title>Modulz – An open-source design system</title>
+</head>
+    <body class="ff-whitney color-gray900 tr-optimizeLegibility">
+
+        <button class="Button js-SideDrawerTrigger" style="position: fixed; top: 32px; left: 32px;">Menu</button>
+        ${require('partials/navigation.html')}
+
+        <main class="Container size3">
+            <header class="Section size3">
+                <div class="mb-1">
+                  <h1 class="Heading size6 bp2-size8 lh-7 bp2-lh-9">Components</h1>
+                </div>
+                <div>
+                    <p class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500">Guidelines for how to code Modulz components.</p>
+                </div>
+            </header>
+
+            <section class="Section" style="padding-top: 0;">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Naming</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Components use PascalCase. Use a single word where possible.</p>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 bw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">// Bad
+.componentName { }
+.component-name { }
+
+// Good
+.ComponentName { }</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Default styles</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Define your component's default styles inside the root declaration. Default styles include functional styles, default size styles, default prop styles and any styles necessary to render the component in its default state. All CSS properties should be declared in alphabetical order.</p>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 bw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">.Component {
+  // Default styles
+}</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Size</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Components often require a variety of sizes for various situations within a product. To define size variations, add a set of modifier classes based on a numeric scale&mdash;<code class="Code">size1</code>, <code class="Code">size2</code>, <code class="Code">size3</code> etc. Most components work best with less than 3 sizes. Make sure to only declare size specific CSS properties inside a size modifier. Default size styles can be coded into the root component declaration.</p>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 bw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">.Component.size1 {
+  // Styles specific to size 1
+}
+
+.Component.size2 {
+  // Styles specific to size 2
+}</code></pre>
+                    </figure>
+                </div>
+
+                <div class="mt-4 mb-4">
+                    <p class="Text size4 lh-5 bp1-lh-6">Responsive sizes can be added by using the four responsive prefix classes: <code class="Code">bp1-</code>, <code class="Code">bp2-</code>, <code class="Code">bp3-</code> and <code class="Code">bp4-</code> and wrapping each declaration in a media query block. All component sizes should be immutable, which means, a component should never change size unless a responsive class is added.</p>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 bw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">.Component.size1 { }
+.Component.size2 { }
+
+@media (--breakpoint-1) {
+  .Component.bp1-size1 { }
+  .Component.bp1-size2 { }
+}
+
+@media (--breakpoint-2) {
+  .Component.bp2-size1 { }
+  .Component.bp2-size2 { }
+}
+
+@media (--breakpoint-3) {
+  .Component.bp3-size1 { }
+  .Component.bp3-size2 { }
+}
+
+@media (--breakpoint-4) {
+  .Component.bp4-size1 { }
+  .Component.bp4-size2 { }
+}</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Props</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Most components demand slight functional, semantic or aesthetic variations in order to adapt to particular situations in a product. Where possible, stick the these 4 common prop types before defining a custom prop.</p>
+                </div>
+                <div class="mb-3">
+                  <ul class="pl-2">
+                      <li class="mb-3 pl-2">
+                          <p class="Text size4 lh-5 bp1-lh-6"><span class="fw-6">Color</span> props apply an aesthetic/semantic theme&mdash;e.g. highlighting a "primary" button, an "owner's" Avatar or a "negative" Badge.</p>
+                      </li>
+                      <li class="mb-3 pl-2">
+                          <p class="Text size4 lh-5 bp1-lh-6"><span class="fw-6">Alignment</span> props alter the alignment of components&mdash;e.g. a left-aligned Context or a Button at the end of a group.</p>
+                      </li>
+                      <li class="mb-3 pl-2">
+                          <p class="Text size4 lh-5 bp1-lh-6"><span class="fw-6">Expanded</span> prop stretches a component horizontally or vertically to fill its container&mdash;e.g. expanding a Section to the height of the viewport.</p>
+                      </li>
+                      <li class="mb-3 pl-2">
+                          <p class="Text size4 lh-5 bp1-lh-6"><span class="fw-6">Interactive</span> prop applies hover effects to components where interactivity is optional&mdash;e.g. a clickable Card, Avatar or Label.</p>
+                      </li>
+                      <li class="pl-2">
+                          <p class="Text size4 lh-5 bp1-lh-6"><span class="fw-6">Custom</span> props apply uncommon styles to components&mdash;e.g. a nested Avatar.</p>
+                      </li>
+                  </ul>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 bw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">.Component.blue {
+  // Primary prop styles
+}
+
+.Component.left {
+  // Left-aligned prop styles
+}
+
+.Component.expanded {
+  // Expanded prop styles
+}
+
+.Component.interactive {
+  // Interactive prop styles
+}
+
+.Component.custom {
+  // Custom prop styles
+}</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">State</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Components can change state based on an interaction elsewhere in a product or a specific set of criteria failing or passing. State classes are defined with an <code class="Code">is-</code> prefix. Where possible, stick to the 4 states listed below.</p>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 bw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">.Component.is-disabled {
+  // Disabled state styles
+}
+
+.Component.is-active {
+  // Active state styles
+}
+
+.Component.is-invalid {
+  // Invalid state styles
+}
+
+.Component.is-valid {
+  // Valid state styles
+}</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+        </main>
+
+        ${require('partials/footer.html')}
+
+        <div class="Overlay js-Overlay"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>

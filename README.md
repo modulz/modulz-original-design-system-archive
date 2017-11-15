@@ -28,10 +28,10 @@ folder, create an index.html file inside, then paste in the code below and open 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Modulz Test</title>
+        <title>Modulz Starter</title>
         <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/modulz/modulz.min.css">
     </head>
-    <body class="ff-sansSerif color-lead tr-optimizeLegibility">
+    <body class="ff-sansSerif color-gray900">
         <!-- Add your content here -->
     </body>
 </html>

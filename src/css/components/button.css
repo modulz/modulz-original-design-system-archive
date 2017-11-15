@@ -116,17 +116,21 @@
     background-color: transparent;
     box-shadow: none;
     padding: 0;
-    color: inherit;
-    fill: inherit;
-    stroke: inherit;
+    color: var(--gray500);
+    fill: var(--gray500);
+    stroke: var(--gray500);
     height: unset;
     min-width: unset;
 }
 .Button.hollow:hover {
-    transform: translateY(0px);
+    color: var(--gray900);
+    fill: var(--gray900);
+    stroke: var(--gray900);
 }
 .Button.hollow:active {
-    transform: translateY(0px);
+    color: var(--gray300);
+    fill: var(--gray300);
+    stroke: var(--gray300);
 }
 
 /* Active state */

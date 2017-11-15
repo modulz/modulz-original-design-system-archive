@@ -56,6 +56,16 @@
 .color-gray800 { color: var(--gray800); }
 .color-gray900 { color: var(--gray900); }
 
+.color-gray100--hover:hover { color: var(--gray100); }
+.color-gray200--hover:hover { color: var(--gray200); }
+.color-gray300--hover:hover { color: var(--gray300); }
+.color-gray400--hover:hover { color: var(--gray400); }
+.color-gray500--hover:hover { color: var(--gray500); }
+.color-gray600--hover:hover { color: var(--gray600); }
+.color-gray700--hover:hover { color: var(--gray700); }
+.color-gray800--hover:hover { color: var(--gray800); }
+.color-gray900--hover:hover { color: var(--gray900); }
+
 .color-pink300                 { color: var(--pink300); }
 .color-pink600                 { color: var(--pink600); }
 

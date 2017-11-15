@@ -6,14 +6,18 @@
     position: fixed;
     top: 0;
     width: 90vw;
-    max-width: 300px;
+    max-width: 320px;
     z-index: 7;
-    transform: translateX(-300px);
-    transition-property: transform;
-    transition-duration: 150ms;
-    transition-timing-function: ease-in-out;
+    transform: translate3d(-50%, 0, 0);
+    visibility: hidden;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0, 1, 0, 1);
 }
 
-.SideDrawer.active {
-    transform: translateX(0);
+.SideDrawer.is-active {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    visibility: visible;
 }

@@ -13,7 +13,7 @@
     z-index: 5;
 }
 
-.Overlay.active {
+.Overlay.is-active {
     opacity: 1;
     pointer-events: auto;
 }

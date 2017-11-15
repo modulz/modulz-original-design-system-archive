@@ -1,5 +1,5 @@
 const Classes = {
-  ACTIVE: 'active',
+  ACTIVE: 'is-active',
   OVERLAY: 'js-Overlay'
 }
 

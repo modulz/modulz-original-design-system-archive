@@ -86,6 +86,7 @@
 
 @import "./components/Avatar.css";
 @import "./components/Badge.css";
+@import "./components/Button.css";
 @import "./components/Radio.css";
 @import "./components/Checkbox.css";
 @import "./components/Slider.css";
@@ -102,14 +103,13 @@
 @import "./components/PillButton.css";
 @import "./components/Section.css";
 @import "./components/Heading.css";
+@import "./components/Divider.css";
 
 @import "./components/grid.css";
-@import "./components/divider.css";
 @import "./components/tab-menu.css";
 @import "./components/asset.css";
 @import "./components/status-indicator.css";
 @import "./components/list-item.css";
-@import "./components/button.css";
 @import "./components/Table.css";
 @import "./components/Toast.css";
 @import "./components/Overlay.css";

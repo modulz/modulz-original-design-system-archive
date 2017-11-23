@@ -1,6 +1,46 @@
 .Divider {
     height: 1px;
-    border: 0;
+    width: 40px;
     background-color: var(--gray300);
-    margin: 0;
+}
+
+/* Sizes */
+
+.Divider.size1 {
+    width: 16px;
+}
+
+.Divider.size2 {
+    width: 40px;
+}
+
+.Divider.size3 {
+    width: 80px;
+}
+
+.Divider.expanded {
+    width: 100%;
+}
+
+/* Vertical orientation */
+
+.Divider.vertical {
+    width: 1px;
+    height: 40px;
+}
+
+.Divider.size1.vertical {
+    height: 16px;
+}
+
+.Divider.size2.vertical {
+    height: 40px;
+}
+
+.Divider.size3.vertical {
+    height: 80px;
+}
+
+.Divider.expanded.vertical {
+    height: 100%;
 }

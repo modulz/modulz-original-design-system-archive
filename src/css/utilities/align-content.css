@@ -15,28 +15,28 @@
 }
 
 @media (--breakpoint-2) {
-    .bp1-ac-flexStart           { align-content: flex-start; }
-    .bp1-ac-flexEnd             { align-content: flex-end; }
-    .bp1-ac-center              { align-content: center; }
-    .bp1-ac-spaceBetween             { align-content: space-between; }
-    .bp1-ac-spaceAround              { align-content: space-around; }
-    .bp1-ac-stretch             { align-content: stretch; }
+    .bp2-ac-flexStart           { align-content: flex-start; }
+    .bp2-ac-flexEnd             { align-content: flex-end; }
+    .bp2-ac-center              { align-content: center; }
+    .bp2-ac-spaceBetween             { align-content: space-between; }
+    .bp2-ac-spaceAround              { align-content: space-around; }
+    .bp2-ac-stretch             { align-content: stretch; }
 }
 
 @media (--breakpoint-3) {
-    .bp1-ac-flexStart           { align-content: flex-start; }
-    .bp1-ac-flexEnd             { align-content: flex-end; }
-    .bp1-ac-center              { align-content: center; }
-    .bp1-ac-spaceBetween             { align-content: space-between; }
-    .bp1-ac-spaceAround              { align-content: space-around; }
-    .bp1-ac-stretch             { align-content: stretch; }
+    .bp3-ac-flexStart           { align-content: flex-start; }
+    .bp3-ac-flexEnd             { align-content: flex-end; }
+    .bp3-ac-center              { align-content: center; }
+    .bp3-ac-spaceBetween             { align-content: space-between; }
+    .bp3-ac-spaceAround              { align-content: space-around; }
+    .bp3-ac-stretch             { align-content: stretch; }
 }
 
 @media (--breakpoint-4) {
-    .bp1-ac-flexStart           { align-content: flex-start; }
-    .bp1-ac-flexEnd             { align-content: flex-end; }
-    .bp1-ac-center              { align-content: center; }
-    .bp1-ac-spaceBetween             { align-content: space-between; }
-    .bp1-ac-spaceAround              { align-content: space-around; }
-    .bp1-ac-stretch             { align-content: stretch; }
+    .bp4-ac-flexStart           { align-content: flex-start; }
+    .bp4-ac-flexEnd             { align-content: flex-end; }
+    .bp4-ac-center              { align-content: center; }
+    .bp4-ac-spaceBetween             { align-content: space-between; }
+    .bp4-ac-spaceAround              { align-content: space-around; }
+    .bp4-ac-stretch             { align-content: stretch; }
 }

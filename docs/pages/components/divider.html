@@ -34,7 +34,7 @@
                     <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Default divider</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Default slider</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">Define a Divider using an empty <code class="Code">div</code>. Don't use a <code class="Code">hr</code> because it's inappropriate for many use cases.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke padding-3">
                     <div class="Divider"></div>
@@ -45,13 +45,13 @@
                     </figure>
                 </div>
             </section>
-            
-            <section class="Section" style="padding-top: 0;">
+
+            <section class="Section">
                 <div class="mb-1">
                     <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Sizes</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Default slider</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">There are 3 sizes available plus an expanded variation, which spans the full width of its container. The default size is <code class="Code">size2</code>.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke padding-3">
                     <div class="mb-4">
@@ -69,69 +69,106 @@
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Divider"&gt;&lt;/div&gt;</code></pre>
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Divider size1"&gt;&lt;/div&gt;
+&lt;div class="Divider size2"&gt;&lt;/div&gt;
+&lt;div class="Divider size3"&gt;&lt;/div&gt;
+&lt;div class="Divider expanded"&gt;&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>
-            
-            <section class="Section" style="padding-top: 0;">
+
+            <section class="Section">
                 <div class="mb-1">
                     <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Colors</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Default slider</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">Colors are handled with
+                        <code class="Code">background-color</code> utility classes. Check out
+                        the color docs for more detailed guidelines on color usage.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke padding-3">
                     <div class="mb-4">
-                        <div class="Divider size1"></div>
+                        <div class="Divider bc-red"></div>
                     </div>
                     <div class="mb-4">
-                        <div class="Divider size2"></div>
+                        <div class="Divider bc-pink"></div>
                     </div>
                     <div class="mb-4">
-                        <div class="Divider size3"></div>
+                        <div class="Divider bc-purple"></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="Divider bc-violet"></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="Divider bc-indigo"></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="Divider bc-blue"></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="Divider bc-teal"></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="Divider bc-green"></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="Divider bc-lime"></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="Divider bc-yellow"></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="Divider bc-amber"></div>
                     </div>
                     <div>
-                        <div class="Divider expanded"></div>
+                        <div class="Divider bc-orange"></div>
                     </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Divider"&gt;&lt;/div&gt;</code></pre>
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Divider bc-red"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-pink"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-purple"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-violet"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-indigo"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-blue"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-teal"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-green"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-lime"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-yellow"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-amber"&gt;&lt;/div&gt;
+&lt;div class="Divider bc-orange"&gt;&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>
-            
-            <section class="Section" style="padding-top: 0;">
+
+            <section class="Section">
                 <div class="mb-1">
                     <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Vertical divider</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Default slider</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">Each of the sizes is also available in a
+                        vertical orientation by adding the <code class="Code">vertical</code>
+                        modifier class.</p>
                 </div>
                 <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                    <div class="Divider vertical"></div>
+                    <div class="display-flex ai-center">
+                        <div class="mr-3">
+                            <div class="Divider size1 vertical"></div>
+                        </div>
+                        <div class="mr-3">
+                            <div class="Divider size2 vertical"></div>
+                        </div>
+                        <div>
+                            <div class="Divider size3 vertical"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Divider"&gt;&lt;/div&gt;</code></pre>
-                    </figure>
-                </div>
-            </section>
-            
-            <section class="Section" style="padding-top: 0;">
-                <div class="mb-1">
-                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Examples</h2>
-                </div>
-                <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Default slider</p>
-                </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                    <div class="Divider vertical"></div>
-                </div>
-                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Divider"&gt;&lt;/div&gt;</code></pre>
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Divider size1 vertical"&gt;&lt;/div&gt;
+&lt;div class="Divider size2 vertical"&gt;&lt;/div&gt;
+&lt;div class="Divider size3 vertical"&gt;&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>

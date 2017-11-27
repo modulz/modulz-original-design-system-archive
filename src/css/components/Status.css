@@ -1,4 +1,4 @@
-.StatusIndicator {
+.Status {
     display: block;
     width: var(--spacing-100);
     height: var(--spacing-100);
@@ -8,25 +8,25 @@
 
 /* Sizes */
 
-.StatusIndicator.size2 {
+.Status.size2 {
     width: var(--spacing-200);
     height: var(--spacing-200);
 }
 
 /* Colors */
 
-.StatusIndicator.primary {
+.Status.primary {
     background-color: var(--blue500);
 }
 
-.StatusIndicator.positive {
+.Status.positive {
     background-color: var(--green500);
 }
 
-.StatusIndicator.intermediary {
+.Status.intermediary {
     background-color: var(--amber500);
 }
 
-.StatusIndicator.negative {
+.Status.negative {
     background-color: var(--red500);
 }

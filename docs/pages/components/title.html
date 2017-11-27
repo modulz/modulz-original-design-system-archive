@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class="" lang="en" style="font-size: 62.5%;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css">
+  <title>Modulz – An open-source design system</title>
+</head>
+    <body class="ff-whitney color-gray900 tr-optimizeLegibility">
+
+        <button class="Button hollow" data-toggle="sidedrawer" data-target="sideDrawer" style="position: fixed; top: 32px; left: 32px; z-index: 6;">
+            <svg class="Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+        ${require('partials/navigation.html')}
+
+        <main class="Container size3">
+
+            <header class="Section size3">
+                <div class="mb-1">
+                  <h1 class="Heading size6 bp2-size8 lh-7 bp2-lh-9">Title</h1>
+                </div>
+                <div>
+                    <p class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500">A small heading set in all caps for emphasis. A Title summarises a section and can be used either on its own or in conjunction with another Heading.</p>
+                </div>
+            </header>
+
+            <section class="Section" style="padding-top: 0;">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Default title</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Titles do not wrap unto a new line, so use only very short strings of text.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <h1 class="Title">Title</h1>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;h1 class="Title"&gt;Title&lt;/h1&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Sizes</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">There are 3 size variations available.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <div class="mb-4">
+                        <h1 class="Title size1">Title size 1</h1>
+                    </div>
+                    <div class="mb-4">
+                        <h1 class="Title size2">Title size 2</h1>
+                    </div>
+                    <div>
+                        <h1 class="Title size3">Title size 3</h1>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;h1 class="Title size1"&gt;Title size 1&lt;/h1&gt;
+&lt;h1 class="Title size2"&gt;Title size 2&lt;/h1&gt;
+&lt;h1 class="Title size3"&gt;Title size 3&lt;/h1&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Responsive sizes</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Each size can be toggled as the viewport width changes, using the 4 responsive prefixes. Resize your browser window the see the title adapt.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                    <h1 class="Title size1 bp1-size2 bp3-size3">Responsive title</h1>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;h1 class="Title size1 bp1-size2 bp3-size3"&gt;Responsive title&lt;/h1&gt;</code></pre>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="Section">
+                <div class="mb-1">
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Colors</h2>
+                </div>
+                <div class="mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Colors are handled with utility classes.
+                    The recommended color values are <code class="Code">600</code> for light
+                    backgrounds and <code class="Code">300</code> for dark backgrounds.
+                    Check out the color docs for more detailed guidelines on color usage.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke">
+                    <div class="display-flex fw-wrap padding-3" style="margin-top: -16px;">
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-red600">Red</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-pink600">Pink</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-indigo600">Indigo</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-violet600">Violet</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-blue600">Blue</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-teal600">Teal</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-lime600">Lime</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-green600">Green</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-yellow600">Yellow</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-amber600">Amber</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-orange600">Orange</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-purple600">Purple</h3>
+                        </div>
+                        <div class="mr-2 mt-2">
+                            <h3 class="Title color-gray600">Gray</h3>
+                        </div>
+                    </div>
+                    <div class="padding-3 bc-gray900">
+                        <div class="display-flex fw-wrap" style="margin-top: -16px;">
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-red300">Red</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-pink300">Pink</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-indigo300">Indigo</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-violet300">Violet</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-blue300">Blue</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-teal300">Teal</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-lime300">Lime</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-green300">Green</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-yellow300">Yellow</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-amber300">Amber</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-orange300">Orange</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-purple300">Purple</h3>
+                            </div>
+                            <div class="mr-2 mt-2">
+                                <h3 class="Title color-gray300">Gray</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;!-- Light background --&gt;
+
+&lt;h1 class="Title color-red600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-pink600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-indigo600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-violet600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-blue600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-teal600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-lime600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-green600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-yellow600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-amber600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-orange600"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-purple600"&gt;...&lt;/h1&gt;
+
+&lt;!-- Dark background --&gt;
+
+&lt;h1 class="Title color-red300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-pink300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-indigo300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-violet300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-blue300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-teal300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-lime300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-green300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-yellow300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-amber300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-orange300"&gt;...&lt;/h1&gt;
+&lt;h1 class="Title color-purple300"&gt;...&lt;/h3&gt;</code><pre>
+                    </figure>
+                </div>
+            </section>
+
+        </main>
+
+        ${require('partials/footer.html')}
+        ${require('partials/ga.html')}
+        <div class="Overlay js-Overlay"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>

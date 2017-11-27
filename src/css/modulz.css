@@ -104,6 +104,7 @@
 @import "./components/Section.css";
 @import "./components/Heading.css";
 @import "./components/Divider.css";
+@import "./components/Title.css";
 
 @import "./components/grid.css";
 @import "./components/tab-menu.css";

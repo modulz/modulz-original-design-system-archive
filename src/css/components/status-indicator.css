@@ -1,16 +1,16 @@
 .StatusIndicator {
     display: block;
-    width: 12px;
-    height: 12px;
+    width: var(--spacing-100);
+    height: var(--spacing-100);
     background-color: var(--gray300);
     border-radius: 50%;
 }
 
 /* Sizes */
 
-.StatusIndicator.size1 {
-    width: 6px;
-    height: 6px;
+.StatusIndicator.size2 {
+    width: var(--spacing-200);
+    height: var(--spacing-200);
 }
 
 /* Colors */

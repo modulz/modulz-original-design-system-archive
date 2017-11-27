@@ -16,6 +16,45 @@
 @import "./variables/TypeScale.css";
 @import "./variables/Typefaces.css";
 
+/* Components */
+
+@import "./components/Avatar.css";
+@import "./components/Badge.css";
+@import "./components/Button.css";
+@import "./components/Radio.css";
+@import "./components/Checkbox.css";
+@import "./components/Slider.css";
+@import "./components/Switch.css";
+@import "./components/Icon.css";
+@import "./components/Code.css";
+@import "./components/Container.css";
+@import "./components/Context.css";
+@import "./components/Flexbox.css";
+@import "./components/Label.css";
+@import "./components/Loader.css";
+@import "./components/Tag.css";
+@import "./components/SideDrawer.css";
+@import "./components/PillButton.css";
+@import "./components/Section.css";
+@import "./components/Heading.css";
+@import "./components/Divider.css";
+@import "./components/Title.css";
+
+@import "./components/grid.css";
+@import "./components/tab-menu.css";
+@import "./components/asset.css";
+@import "./components/status-indicator.css";
+@import "./components/list-item.css";
+@import "./components/Table.css";
+@import "./components/Toast.css";
+@import "./components/Overlay.css";
+@import "./components/Card.css";
+@import "./components/Progress.css";
+@import "./components/text.css";
+@import "./components/input.css";
+@import "./components/link.css";
+@import "./components/scrollbar.css";
+
 /* Utilities */
 
 @import "./utilities/align-content.css";
@@ -81,42 +120,3 @@
 @import "./utilities/transition-duration.css";
 @import "./utilities/transition-timing-function.css";
 @import "./utilities/width.css";
-
-/* Components */
-
-@import "./components/Avatar.css";
-@import "./components/Badge.css";
-@import "./components/Button.css";
-@import "./components/Radio.css";
-@import "./components/Checkbox.css";
-@import "./components/Slider.css";
-@import "./components/Switch.css";
-@import "./components/Icon.css";
-@import "./components/Code.css";
-@import "./components/Container.css";
-@import "./components/Context.css";
-@import "./components/Flexbox.css";
-@import "./components/Label.css";
-@import "./components/Loader.css";
-@import "./components/Tag.css";
-@import "./components/SideDrawer.css";
-@import "./components/PillButton.css";
-@import "./components/Section.css";
-@import "./components/Heading.css";
-@import "./components/Divider.css";
-@import "./components/Title.css";
-
-@import "./components/grid.css";
-@import "./components/tab-menu.css";
-@import "./components/asset.css";
-@import "./components/status-indicator.css";
-@import "./components/list-item.css";
-@import "./components/Table.css";
-@import "./components/Toast.css";
-@import "./components/Overlay.css";
-@import "./components/Card.css";
-@import "./components/Progress.css";
-@import "./components/text.css";
-@import "./components/input.css";
-@import "./components/link.css";
-@import "./components/scrollbar.css";

@@ -39,9 +39,9 @@
 @import "./components/Heading.css";
 @import "./components/Divider.css";
 @import "./components/Title.css";
+@import "./components/Tab.css";
 
 @import "./components/grid.css";
-@import "./components/tab-menu.css";
 @import "./components/asset.css";
 @import "./components/Status.css";
 @import "./components/list-item.css";

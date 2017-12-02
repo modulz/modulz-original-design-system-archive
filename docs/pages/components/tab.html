@@ -38,19 +38,23 @@
                 <div class="mb-3">
                     <p class="Text size4 lh-5 bp1-lh-6">Use a Flexbox component to place tabs
                       in a single row above their associated content. Each tab's label should
-                      succinctly describe its corresponding content.</p>
+                      succinctly describe its corresponding content. You can apply an active
+                      state using the <code class="Code">is-active</code> modifier class.
+                      Exactly one tab must be active at any time.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                    <div class="display-flex" style="border-bottom: 1px solid #dae1e6;">
+                <div class="bw-1 bs-solid borderColor-smoke pt-3 pl-3 pr-3">
+                    <div class="display-flex">
                         <a class="Tab is-active" href="#">Tab one</a>
                         <a class="Tab" href="#">Tab two</a>
+                        <a class="Tab" href="#">Tab three</a>
                     </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
                         <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
-  &lt;div class="Tab is-active"&gt;Tab one&lt;/div&gt;
-  &lt;div class="Tab"&gt;Tab two&lt;/div&gt;
+  &lt;a class="Tab is-active" href="#"&gt;Tab one&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab two&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab three&lt;/a&gt;
 &lt;/div&gt;</code></pre>
                     </figure>
                 </div>
@@ -58,22 +62,46 @@
 
             <section class="Section">
                 <div class="mb-1">
-                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Active state</h2>
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Alignment</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Titles do not wrap unto a new line, so use only very short strings of text.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">Tabs can be center-aligned by adding
+                        <code class="Code">jc-center</code> to the Flexbox container.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                    <div class="display-flex">
-                        <div class="Tab is-active">Tab one</div>
-                        <div class="Tab">Tab two</div>
+                <div class="bw-1 bs-solid borderColor-smoke pt-3 pl-3 pr-3">
+                    <div class="display-flex jc-center">
+                        <a class="Tab is-active" href="#">Tab one</a>
+                        <a class="Tab" href="#">Tab two</a>
+                        <a class="Tab" href="#">Tab three</a>
                     </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
-  &lt;div class="Tab is-active"&gt;Tab one&lt;/div&gt;
-  &lt;div class="Tab"&gt;Tab two&lt;/div&gt;
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex jc-center"&gt;
+  &lt;a class="Tab is-active" href="#"&gt;Tab one&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab two&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab three&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+                    </figure>
+                </div>
+
+                <div class="mt-3 mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Tabs can be right-aligned by adding
+                        <code class="Code">jc-flexEnd</code> to the Flexbox container.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke pt-3 pl-3 pr-3">
+                    <div class="display-flex jc-flexEnd">
+                        <a class="Tab is-active" href="#">Tab one</a>
+                        <a class="Tab" href="#">Tab two</a>
+                        <a class="Tab" href="#">Tab three</a>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex jc-flexEnd"&gt;
+  &lt;a class="Tab is-active" href="#"&gt;Tab one&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab two&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab three&lt;/a&gt;
 &lt;/div&gt;</code></pre>
                     </figure>
                 </div>
@@ -84,25 +112,31 @@
                     <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Expanded tabs</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Expanded tabs.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">You can expand your tabs to fill the
+                        full width of their Flexbox container by adding an
+                        <code class="Code">expanded</code> class to each Tab. Each Tab will
+                        have an equal width.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                <div class="bw-1 bs-solid borderColor-smoke pt-3 pl-3 pr-3">
                     <div class="display-flex">
-                        <div class="Tab expanded">
+                        <a class="Tab expanded is-active" href="#">
                             Tab one
-                        </div>
-                        <div class="Tab expanded">
+                        </a>
+                        <a class="Tab expanded" href="#">
                             Tab two
-                        </div>
-                        <div class="Tab expanded">
+                        </a>
+                        <a class="Tab expanded" href="#">
                             Tab three
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Tab"&gt;Tab one&lt;/div&gt;
-&lt;div class="Tab"&gt;Tab two&lt;/div&gt;</code></pre>
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
+    &lt;a class="Tab expanded is-active" href="#"&gt;Tab one&lt;/a&gt;
+    &lt;a class="Tab expanded" href="#"&gt;Tab two&lt;/a&gt;
+    &lt;a class="Tab expanded" href="#"&gt;Tab three&lt;/a&gt;
+&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>
@@ -112,11 +146,13 @@
                     <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Tab with Icon</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Titles do not wrap unto a new line, so use only very short strings of text.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">You can add an icon to support the
+                        Tab's label and provide visual reinforcement. The icon is wrapped in a
+                        div to provide the necessary margin.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                <div class="bw-1 bs-solid borderColor-smoke pt-3 pl-3 pr-3">
                     <div class="display-flex">
-                        <div class="Tab">
+                        <a class="Tab is-active" href="#">
                             <div class="mr-1">
                                 <svg class="Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -124,14 +160,61 @@
                                 </svg>
                             </div>
                             Tab one
-                        </div>
-                        <div class="Tab">Tab two</div>
+                        </a>
+                        <a class="Tab" href="#">Tab two</a>
+                        <a class="Tab" href="#">Tab three</a>
                     </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Tab"&gt;Tab one&lt;/div&gt;
-&lt;div class="Tab"&gt;Tab two&lt;/div&gt;</code></pre>
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
+  &lt;a class="Tab is-active" href="#"&gt;
+      &lt;div class="mr-1"&gt;
+          &lt;svg class="Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"&gt;
+              &lt;line x1="12" y1="5" x2="12" y2="19"&gt;&lt;/line&gt;
+              &lt;line x1="5" y1="12" x2="19" y2="12"&gt;&lt;/line&gt;
+          &lt;/svg&gt;
+      &lt;/div&gt;
+      Tab one
+  &lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab two&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab three&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+                    </figure>
+                </div>
+
+                <div class="mt-3 mb-3">
+                    <p class="Text size4 lh-5 bp1-lh-6">Or you can place the icon on the
+                        right-hand side.</p>
+                </div>
+                <div class="bw-1 bs-solid borderColor-smoke pt-3 pl-3 pr-3">
+                    <div class="display-flex">
+                        <a class="Tab is-active" href="#">
+                            Tab one
+                            <div class="ml-1">
+                                <svg class="Icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                        </a>
+                        <a class="Tab" href="#">Tab two</a>
+                        <a class="Tab" href="#">Tab three</a>
+                    </div>
+                </div>
+                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
+                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
+  &lt;a class="Tab is-active" href="#"&gt;
+      Tab one
+      &lt;div class="ml-1"&gt;
+          &lt;svg class="Icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"&gt;
+              &lt;polyline points="6 9 12 15 18 9"&gt;&lt;/polyline&gt;
+          &lt;/svg&gt;
+      &lt;/div&gt;
+  &lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab two&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab three&lt;/a&gt;
+&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>
@@ -141,23 +224,33 @@
                     <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Tab with Badge</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Titles do not wrap unto a new line, so use only very short strings of text.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">You can add a Badge component to the
+                        right of a Tab's label, to highlight a particular Tab.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                <div class="bw-1 bs-solid borderColor-smoke pt-3 pl-3 pr-3">
                     <div class="display-flex">
-                        <div class="Tab">
+                        <a class="Tab is-active" href="#">
                             Tab one
                             <div class="ml-1">
                                 <span class="Badge primary">New</span>
                             </div>
-                        </div>
-                        <div class="Tab">Tab two</div>
+                        </a>
+                        <a class="Tab" href="#">Tab two</a>
+                        <a class="Tab" href="#">Tab three</a>
                     </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Tab"&gt;Tab one&lt;/div&gt;
-&lt;div class="Tab"&gt;Tab two&lt;/div&gt;</code></pre>
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
+  &lt;a class="Tab is-active" href="#"&gt;
+      Tab one
+      &lt;div class="ml-1"&gt;
+          &lt;span class="Badge primary"&gt;New&lt;/span&gt;
+      &lt;/div&gt;
+  &lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab two&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab three&lt;/a&gt;
+&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>
@@ -167,23 +260,32 @@
                     <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Tab with Status</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Titles do not wrap unto a new line, so use only very short strings of text.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">You can add a Status component to the left of a Tab's label, to highlight a particular Tab.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                <div class="bw-1 bs-solid borderColor-smoke pt-3 pl-3 pr-3">
                     <div class="display-flex">
-                        <div class="Tab">
+                        <a class="Tab is-active" href="#">
                             <div class="mr-1">
                                 <span class="Status primary"></span>
                             </div>
                             Tab one
-                        </div>
-                        <div class="Tab">Tab two</div>
+                        </a>
+                        <a class="Tab" href="#">Tab two</a>
+                        <a class="Tab" href="#">Tab three</a>
                     </div>
                 </div>
                 <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
                     <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="Tab"&gt;Tab one&lt;/div&gt;
-&lt;div class="Tab"&gt;Tab two&lt;/div&gt;</code></pre>
+                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;div class="display-flex"&gt;
+  &lt;a class="Tab is-active" href="#"&gt;
+      &lt;div class="mr-1"&gt;
+          &lt;span class="Status primary"&gt;&lt;/span&gt;
+      &lt;/div&gt;
+      Tab one
+  &lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab two&lt;/a&gt;
+  &lt;a class="Tab" href="#"&gt;Tab three&lt;/a&gt;
+&lt;/div&gt;</code></pre>
                     </figure>
                 </div>
             </section>

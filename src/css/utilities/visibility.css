@@ -2,28 +2,23 @@
 
 .visibility-hidden    { visibility: hidden; }
 .visibility-visible   { visibility: visible; }
-.visibility-collapse  { visibility: collapse; }
 
 @media (--breakpoint-1) {
   .bp1-visibility-hidden    { visibility: hidden; }
   .bp1-visibility-visible   { visibility: visible; }
-  .bp1-visibility-collapse  { visibility: collapse; }
 }
 
 @media (--breakpoint-2) {
   .bp2-visibility-hidden    { visibility: hidden; }
   .bp2-visibility-visible   { visibility: visible; }
-  .bp2-visibility-collapse  { visibility: collapse; }
 }
 
 @media (--breakpoint-3) {
   .bp3-visibility-hidden    { visibility: hidden; }
   .bp3-visibility-visible   { visibility: visible; }
-  .bp3-visibility-collapse  { visibility: collapse; }
 }
 
 @media (--breakpoint-4) {
   .bp4-visibility-hidden    { visibility: hidden; }
   .bp4-visibility-visible   { visibility: visible; }
-  .bp4-visibility-collapse  { visibility: collapse; }
 }

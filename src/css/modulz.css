@@ -68,6 +68,7 @@
 @import "./utilities/cursor.css";
 @import "./utilities/direction.css";
 @import "./utilities/display.css";
+@import "./utilities/flex.css";
 @import "./utilities/flex-basis.css";
 @import "./utilities/flex-direction.css";
 @import "./utilities/flex-grow.css";

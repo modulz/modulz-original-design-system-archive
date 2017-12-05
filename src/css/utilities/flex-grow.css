@@ -1,0 +1,22 @@
+.fg-0 { flex-grow: 0; }
+.fg-1 { flex-grow: 1; }
+
+@media (--breakpoint-1) {
+  .bp1-fg-0 { flex-grow: 0; }
+  .bp1-fg-1 { flex-grow: 1; }
+}
+
+@media (--breakpoint-2) {
+  .bp2-fg-0 { flex-grow: 0; }
+  .bp2-fg-1 { flex-grow: 1; }
+}
+
+@media (--breakpoint-3) {
+  .bp3-fg-0 { flex-grow: 0; }
+  .bp3-fg-1 { flex-grow: 1; }
+}
+
+@media (--breakpoint-4) {
+  .bp4-fg-0 { flex-grow: 0; }
+  .bp4-fg-1 { flex-grow: 1; }
+}

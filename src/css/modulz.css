@@ -69,6 +69,8 @@
 @import "./utilities/direction.css";
 @import "./utilities/display.css";
 @import "./utilities/flex-direction.css";
+@import "./utilities/flex-grow.css";
+@import "./utilities/flex-shrink.css";
 @import "./utilities/flex-wrap.css";
 @import "./utilities/font-size.css";
 @import "./utilities/font-style.css";

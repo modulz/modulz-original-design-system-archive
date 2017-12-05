@@ -1,0 +1,22 @@
+.fs-0 { flex-shrink: 0; }
+.fs-1 { flex-shrink: 1; }
+
+@media (--breakpoint-1) {
+  .bp1-fs-0 { flex-shrink: 0; }
+  .bp1-fs-1 { flex-shrink: 1; }
+}
+
+@media (--breakpoint-2) {
+  .bp2-fs-0 { flex-shrink: 0; }
+  .bp2-fs-1 { flex-shrink: 1; }
+}
+
+@media (--breakpoint-3) {
+  .bp3-fs-0 { flex-shrink: 0; }
+  .bp3-fs-1 { flex-shrink: 1; }
+}
+
+@media (--breakpoint-4) {
+  .bp4-fs-0 { flex-shrink: 0; }
+  .bp4-fs-1 { flex-shrink: 1; }
+}

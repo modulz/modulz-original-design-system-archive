@@ -5,11 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css">
-  <title>Flexbox Utilities &mdash; Modulz</title>
+  <title>Modulz – An open-source design system</title>
 </head>
     <body class="ff-whitney color-gray900 tr-optimizeLegibility">
 
-        <button class="Button js-SideDrawerTrigger" style="position: fixed; top: 32px; left: 32px;">Menu</button>
+        <button class="Button hollow" data-toggle="sidedrawer" data-target="sideDrawer" style="position: fixed; top: 32px; left: 32px; z-index: 6;">
+            <svg class="Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
         ${require('partials/navigation.html')}
 
         <main class="Container size3">
@@ -24,10 +30,10 @@
 
             <section class="Section">
                 <div class="mb-1">
-                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Display</h2>
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Flex container</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Utilities for controlling text alignment.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">Utilities for flex containers.</p>
                 </div>
                 <table class="Table zebra">
                     <thead>
@@ -39,93 +45,107 @@
                     <tbody>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.display-flex</code></td>
-                            <td><p class="Text size2 lh-4">Align text to the left</td>
+                            <td><p class="Text size2 lh-4">A block-level flexbox container.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.display-inlineFlex</code></td>
-                            <td><p class="Text size2 lh-4">Align text to the center</td>
+                            <td><p class="Text size2 lh-4">An inline flexbox container.</p></td>
                         </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section class="Section">
-                <div class="mb-1">
-                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Align items</h2>
-                </div>
-                <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Utilities for controlling line-height.</p>
-                </div>
-                <table class="Table zebra">
-                    <thead>
                         <tr class="va-top">
-                            <th class="width-30">Class</th>
-                            <th class="width-70">Description</th>
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.fd-row</code></td>
+                            <td><p class="Text size2 lh-4">Default. The flexible items are displayed horizontally, as a row.</p></td>
                         </tr>
-                    </thead>
-                    <tbody>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.fd-rowReverse</code></td>
+                            <td><p class="Text size2 lh-4">Same as row, but in reverse order.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.fd-column</code></td>
+                            <td><p class="Text size2 lh-4">The flexible items are displayed vertically, as a column.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.fd-columnReverse</code></td>
+                            <td><p class="Text size2 lh-4">	Same as column, but in reverse order</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.fw-nowrap</code></td>
+                            <td><p class="Text size2 lh-4">Default. Specifies that the flexible items will not wrap.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.fw-wrap</code></td>
+                            <td><p class="Text size2 lh-4">Specifies that the flexible items will wrap if necessary.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.fw-wrapReverse</code></td>
+                            <td><p class="Text size2 lh-4">Specifies that the flexible items will wrap, if necessary, in reverse order.</p></td>
+                        </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ai-flexStart</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 1st value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Default. Items are stretched to fit the container.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ai-flexStart</code></td>
+                            <td><p class="Text size2 lh-4">Items are positioned at the beginning of the container.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ai-flexEnd</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 2nd value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Items are positioned at the end of the container.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ai-center</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 3rd value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Items are positioned at the center of the container.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ai-baseline</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 4th value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Items are positioned at the baseline of the container.</p></td>
                         </tr>
                         <tr class="va-top">
-                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ai-stretch</code></td>
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-flexStart</code></td>
+                            <td><p class="Text size2 lh-4">Default. Items are positioned at the beginning of the container.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-flexEnd</code></td>
+                            <td><p class="Text size2 lh-4">Items are positioned at the end of the container.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-center</code></td>
+                            <td><p class="Text size2 lh-4">Items are positioned at the center of the container.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-spaceBetween</code></td>
+                            <td><p class="Text size2 lh-4">Items are positioned with space between the lines.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-spaceAround</code></td>
+                            <td><p class="Text size2 lh-4">Distribute items evenly. Items have equal space around them.</p></td>
+                        </tr>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-spaceEvenly</code></td>
                             <td><p class="Text size2 lh-4">Apply the 5th value in the leading scale</p></td>
                         </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section class="Section">
-                <div class="mb-1">
-                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Align content</h2>
-                </div>
-                <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Utilities for controlling line-height.</p>
-                </div>
-                <table class="Table zebra">
-                    <thead>
-                        <tr class="va-top">
-                            <th class="width-30">Class</th>
-                            <th class="width-70">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ac-flexStart</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 1st value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Lines are packed toward the start of the flex container.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ac-flexEnd</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 2nd value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Lines are packed toward the end of the flex container.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ac-center</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 3rd value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Lines are packed toward the center of the flex container.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ac-spaceBetween</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 4th value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Lines are evenly distributed in the flex container.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ac-spaceAround</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 4th value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Lines are evenly distributed in the flex container, with half-size spaces on either end.</p></td>
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ac-stretch</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 5th value in the leading scale</p></td>
+                            <td><p class="Text size2 lh-4">Default. Lines stretch to take up the remaining space.</p></td>
                         </tr>
                     </tbody>
                 </table>
@@ -133,10 +153,10 @@
 
             <section class="Section">
                 <div class="mb-1">
-                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Align self</h2>
+                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Flex item</h2>
                 </div>
                 <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Utilities for controlling line-height.</p>
+                    <p class="Text size4 lh-5 bp1-lh-6">Utilities for flex items.</p>
                 </div>
                 <table class="Table zebra">
                     <thead>
@@ -164,49 +184,6 @@
                         </tr>
                         <tr class="va-top">
                             <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.as-stretch</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 5th value in the leading scale</p></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section class="Section">
-                <div class="mb-1">
-                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Justify content</h2>
-                </div>
-                <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Utilities for controlling line-height.</p>
-                </div>
-                <table class="Table zebra">
-                    <thead>
-                        <tr class="va-top">
-                            <th class="width-30">Class</th>
-                            <th class="width-70">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="va-top">
-                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-flexStart</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 1st value in the leading scale</p></td>
-                        </tr>
-                        <tr class="va-top">
-                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-flexEnd</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 2nd value in the leading scale</p></td>
-                        </tr>
-                        <tr class="va-top">
-                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-center</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 3rd value in the leading scale</p></td>
-                        </tr>
-                        <tr class="va-top">
-                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-spaceBetween</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 4th value in the leading scale</p></td>
-                        </tr>
-                        <tr class="va-top">
-                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-spaceAround</code></td>
-                            <td><p class="Text size2 lh-4">Apply the 4th value in the leading scale</p></td>
-                        </tr>
-                        <tr class="va-top">
-                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.jc-spaceEvenly</code></td>
                             <td><p class="Text size2 lh-4">Apply the 5th value in the leading scale</p></td>
                         </tr>
                     </tbody>

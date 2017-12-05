@@ -1,0 +1,22 @@
+.fb-0 { flex-basis: 0; }
+.fb-auto { flex-basis: auto; }
+
+@media (--breakpoint-1) {
+  .bp1-fb-0 { flex-basis: 0; }
+  .bp1-fb-auto { flex-basis: auto; }
+}
+
+@media (--breakpoint-2) {
+  .bp2-fb-0 { flex-basis: 0; }
+  .bp2-fb-auto { flex-basis: auto; }
+}
+
+@media (--breakpoint-3) {
+  .bp3-fb-0 { flex-basis: 0; }
+  .bp3-fb-auto { flex-basis: auto; }
+}
+
+@media (--breakpoint-4) {
+  .bp4-fb-0 { flex-basis: 0; }
+  .bp4-fb-auto { flex-basis: auto; }
+}

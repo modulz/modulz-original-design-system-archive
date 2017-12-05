@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="" lang="en" style="font-size: 62.5%;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css">
+  <title>Modulz – An open-source design system</title>
+</head>
+    <body class="ff-whitney color-gray900 tr-optimizeLegibility">
+
+        <button class="Button hollow" data-toggle="sidedrawer" data-target="sideDrawer" style="position: fixed; top: 32px; left: 32px; z-index: 6;">
+            <svg class="Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+        ${require('partials/navigation.html')}
+
+        <main class="Container size3">
+            <header class="Section size3">
+                <div class="mb-1">
+                  <h1 class="Heading size6 bp2-size8 lh-7 bp2-lh-9">Visibility</h1>
+                </div>
+                <div>
+                    <p class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500">Control the visibility of elements without modifying their display value. Useful for temporarily hiding content while still keeping it available to screen readers.</p>
+                </div>
+            </header>
+
+            <section class="Section" style="padding-top: 0;">
+                <table class="Table zebra">
+                  <thead>
+                      <tr class="va-top">
+                          <th class="width-30">Class</th>
+                          <th class="width-70">Description</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                        <tr class="va-top">
+                            <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.visibility-visible</code></td>
+                            <td><p class="Text size2 lh-4">Set an element box to be visible.</td>
+                        </tr>
+                        <tr class="va-top">
+                          <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.visibility-hidden</code></td>
+                          <td><p class="Text size2 lh-4">Set an element to be invisible. Layout will not be affected. The element cannot receive focus (such as when navigating through tab indexes).</td>
+                        </tr>
+                        <tr class="va-top">
+                          <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.visibility-collapse</code></td>
+                          <td><p class="Text size2 lh-4">Table elements are hidden and the space they would have occupied is removed. However, the size of other rows and columns is still calculated as though the cells in the collapsed row(s) or column(s) are present.</td>
+                        </tr>
+                  </tbody>
+                </table>
+            </section>
+
+        </main>
+
+        ${require('partials/footer.html')}
+        ${require('partials/ga.html')}
+        <div class="Overlay js-Overlay"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>

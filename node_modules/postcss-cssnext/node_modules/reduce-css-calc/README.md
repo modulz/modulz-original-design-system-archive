@@ -54,7 +54,7 @@ reduceCSSCalc("-moz-calc(50% - 2em)")
 // -moz-calc(50% - 2em)
 ```
 
-See [unit tests](test/index.js) for others examples.
+See [unit tests](src/__tests__/index.js) for others examples.
 
 ## Contributing
 

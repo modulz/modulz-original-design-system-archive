@@ -11,6 +11,7 @@ import highlightXML from 'highlight.js/lib/languages/xml';
 import highlightJavascript from 'highlight.js/lib/languages/javascript';
 import highlightBash from 'highlight.js/lib/languages/bash';
 import 'assets/vendor/highlight.css';
+// import 'assets/vendor/font.css';
 
 highlight.registerLanguage('css', highlightCSS);
 highlight.registerLanguage('xml', highlightXML);

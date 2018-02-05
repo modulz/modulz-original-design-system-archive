@@ -1,3 +1,8 @@
+# 4.1.0 - 2017-12-19
+
+- Changed: relicense ([MIT](https://opensource.org/licenses/MIT) → [ISC](https://opensource.org/licenses/ISC))
+- Updated dependencies
+
 # 4.0.0 - 2017-05-15
 
  - Added: compatibility with postcss v6.x
@@ -11,12 +16,12 @@
 # 3.0.0 - 2015-09-08
 
 - Added: compatibility with postcss v5.x
-- Removed: compatiblity with postcss v4.x
+- Removed: compatibility with postcss v4.x
 
 # 2.0.0 - 2015-01-26
 
 - Added: compatibility with postcss v4.x
-- Removed: compatiblity with postcss v3.x
+- Removed: compatibility with postcss v3.x
 
 # 1.1.0 - 2014-11-25
 

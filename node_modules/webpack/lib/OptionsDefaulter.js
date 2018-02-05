@@ -6,7 +6,7 @@
 
 function getProperty(obj, name) {
 	name = name.split(".");
-	for(var i = 0; i < name.length - 1; i++) {
+	for(let i = 0; i < name.length - 1; i++) {
 		obj = obj[name[i]];
 		if(typeof obj !== "object" || !obj) return;
 	}
@@ -15,7 +15,7 @@ function getProperty(obj, name) {
 
 function setProperty(obj, name, value) {
 	name = name.split(".");
-	for(var i = 0; i < name.length - 1; i++) {
+	for(let i = 0; i < name.length - 1; i++) {
 		if(typeof obj[name[i]] !== "object" && typeof obj[name[i]] !== "undefined") return;
 		if(!obj[name[i]]) obj[name[i]] = {};
 		obj = obj[name[i]];
@@ -30,6 +30,7 @@ class OptionsDefaulter {
 	}
 
 	process(options) {
+		// TODO: change this for webpack 4: options = Object.assign({}, options);
 		for(let name in this.defaults) {
 			switch(this.config[name]) {
 				case undefined:
@@ -55,6 +56,7 @@ class OptionsDefaulter {
 					throw new Error("OptionsDefaulter cannot process " + this.config[name]);
 			}
 		}
+		// TODO: change this for webpack 4: return options;
 	}
 
 	set(name, config, def) {

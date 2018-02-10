@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "UntitledSans";
   src:  url("../../docs/assets/fonts/UntitledSansWeb-Regular.woff2") format("woff2"),
           url("../../docs/assets/fonts/UntitledSansWeb-Regular.woff") format("woff");
@@ -8,6 +8,20 @@
   font-family: 'UntitledSans-Medium';
   src:  url("../../docs/assets/fonts/UntitledSansWeb-Medium.woff2") format("woff2"),
           url("../../docs/assets/fonts/UntitledSansWeb-Medium.woff") format("woff");
+} */
+
+@font-face {
+    font-family: "UntitledSans";
+    src: local("../../docs/assets/fonts/UntitledSansWeb-Regular.woff2") format("woff2"),
+            url('https://s3.amazonaws.com/modulz/fonts/UntitledSansWeb-Regular.woff2') format('woff2'),
+            url('https://s3.amazonaws.com/modulz/fonts/UntitledSansWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "UntitledSans-Medium";
+    src: local("../../docs/assets/fonts/UntitledSansWeb-Medium.woff2") format("woff2"),
+            url('https://s3.amazonaws.com/modulz/fonts/UntitledSansWeb-Medium.woff2') format('woff2'),
+            url('https://s3.amazonaws.com/modulz/fonts/UntitledSansWeb-Medium.woff') format('woff');
 }
 
 .ff-usm {

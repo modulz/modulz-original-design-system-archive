@@ -69,7 +69,7 @@ const config = {
                     mimetype: "application/font-woff",
 
                     // Output below fonts directory
-                    name: "./fonts/[name].[ext]",
+                    name: "./docs/assets/fonts/[name].[ext]",
                     publicPath: "../", // Take the directory into account
                 },
             },

@@ -1,14 +1,14 @@
-/* @font-face {
+@font-face {
   font-family: "UntitledSans";
-  src:  url("../../../docs/assets/fonts/UntitledSansWeb-Regular.woff2") format("woff2"),
-          url("../../../docs/assets/fonts/UntitledSansWeb-Regular.woff") format("woff");
+  src:  url("../../../public/fonts/UntitledSansWeb-Regular.woff2") format("woff2"),
+          url("../../../public/fonts/UntitledSansWeb-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'UntitledSans-Medium';
-  src:  url("../../../docs/assets/fonts/UntitledSansWeb-Medium.woff2") format("woff2"),
-          url("../../../docs/assets/fonts/UntitledSansWeb-Medium.woff") format("woff");
-} */
+  src:  url("../../../public/fonts/UntitledSansWeb-Medium.woff2") format("woff2"),
+          url("../../../public/fonts/UntitledSansWeb-Medium.woff") format("woff");
+}
 
 .ff-usm {
     font-family: "UntitledSans-Medium", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;

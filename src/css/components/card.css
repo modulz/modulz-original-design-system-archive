@@ -4,7 +4,6 @@
     border-radius: var(--borderRadius-200);
     transition-property: color,background-color,box-shadow,transform;
     transition-duration: 150ms;
-    overflow: hidden;
 }
 
 .Card.interactive {

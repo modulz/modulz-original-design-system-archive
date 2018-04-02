@@ -23,6 +23,7 @@
 @import "./components/Badge.css";
 @import "./components/Button.css";
 @import "./components/Radio.css";
+@import "./components/Card.css";
 @import "./components/Checkbox.css";
 @import "./components/Slider.css";
 @import "./components/Switch.css";
@@ -49,7 +50,6 @@
 @import "./components/Table.css";
 @import "./components/Toast.css";
 @import "./components/Overlay.css";
-@import "./components/Card.css";
 @import "./components/Progress.css";
 @import "./components/text.css";
 @import "./components/input.css";

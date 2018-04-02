@@ -1,6 +1,6 @@
 {
   "name": "modulz-css",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "A CSS library of components for building responsive websites and applications.",
   "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
   "style": "src/css/modulz.css",

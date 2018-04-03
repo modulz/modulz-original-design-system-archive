@@ -1,11 +1,11 @@
 /* Min Width */
 
-.mw-UIxxxs      { min-width: var(--spacing-xxxs); }
-.mw-UIxxs       { min-width: var(--spacing-100); }
-.mw-UIxs        { min-width: var(--spacing-xs); }
-.mw-UIs         { min-width: var(--spacing-s); }
-.mw-UIm         { min-width: var(--spacing-m); }
-.mw-UIl         { min-width: var(--spacing-l); }
-.mw-UIxl        { min-width: var(--spacing-xl); }
-.mw-UIxxl       { min-width: var(--spacing-xxl); }
-.mw-UIxxxl      { min-width: var(--spacing-xxxl); }
+.mw-1   { min-width: var(--spacing-100); }
+.mw-2   { min-width: var(--spacing-200); }
+.mw-3   { min-width: var(--spacing-300); }
+.mw-4   { min-width: var(--spacing-400); }
+.mw-5   { min-width: var(--spacing-500); }
+.mw-6   { min-width: var(--spacing-600); }
+.mw-7   { min-width: var(--spacing-700); }
+.mw-8   { min-width: var(--spacing-800); }
+.mw-9   { min-width: var(--spacing-900); }

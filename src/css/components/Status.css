@@ -30,3 +30,9 @@
 .Status.negative {
     background-color: var(--red500);
 }
+
+/* Props */
+
+.Status.nested {
+  box-shadow: 0 0 0 2px white;
+}

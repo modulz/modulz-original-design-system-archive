@@ -59,8 +59,7 @@
   box-shadow: inset 0 0 0 1px rgba(0,0,0,.05), 0 0 0 2px white;
 }
 
-.Avatar.nested,
-.StatusIndicator.nested {
+.Avatar.nested {
   position: absolute;
   bottom: 0;
   right: 0;

@@ -1,34 +1,34 @@
 .Status {
-    display: block;
-    width: var(--spacing-100);
-    height: var(--spacing-100);
-    background-color: var(--gray300);
-    border-radius: 50%;
+  display: block;
+  width: var(--spacing-100);
+  height: var(--spacing-100);
+  background-color: var(--gray300);
+  border-radius: 50%;
 }
 
 /* Sizes */
 
 .Status.size2 {
-    width: var(--spacing-200);
-    height: var(--spacing-200);
+  width: var(--spacing-200);
+  height: var(--spacing-200);
 }
 
 /* Colors */
 
 .Status.primary {
-    background-color: var(--blue500);
+  background-color: var(--blue500);
 }
 
 .Status.positive {
-    background-color: var(--green500);
+  background-color: var(--green500);
 }
 
 .Status.intermediary {
-    background-color: var(--amber500);
+  background-color: var(--amber500);
 }
 
 .Status.negative {
-    background-color: var(--red500);
+  background-color: var(--red500);
 }
 
 /* Props */

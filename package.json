@@ -16,11 +16,11 @@
     "front-end"
   ],
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --config './build/webpack.dev.config.js'",
-    "build:dev": "./node_modules/.bin/webpack --config './build/webpack.dev.config.js'",
-    "build": "rimraf ./public/* && ./node_modules/.bin/webpack -p --config './build/webpack.build.config.js'",
-    "build:dist:js": "./node_modules/.bin/webpack -p --config './build/webpack.dist.js.config.js'",
-    "build:dist:main": "./node_modules/.bin/webpack -p --config './build/webpack.dist.config.js'",
+    "start": "webpack-dev-server --config './build/webpack.dev.config.js'",
+    "build:dev": "webpack --config './build/webpack.dev.config.js'",
+    "build": "rimraf ./public/* && webpack -p --config './build/webpack.build.config.js'",
+    "build:dist:js": "webpack -p --config './build/webpack.dist.js.config.js'",
+    "build:dist:main": "webpack -p --config './build/webpack.dist.config.js'",
     "build:dist": "rimraf ./dist/* clean && npm run build:dist:js && npm run build:dist:main"
   },
   "repository": {

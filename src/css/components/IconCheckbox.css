@@ -1,0 +1,34 @@
+.IconCheckbox {
+  align-items: center;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: var(--gray500);
+  cursor: pointer;
+  display: inline-flex;
+  height: var(--spacing-200);
+  justify-content: center;
+  line-height: 1;
+  width: var(--spacing-200);
+  outline: none;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.IconCheckbox > input {
+  display: none;
+}
+
+/* Active state */
+
+.IconCheckbox > input:checked ~ svg {
+  color: var(--teal500);
+}
+
+/* Disabled state */
+
+.IconCheckbox.is-disabled {
+  opacity: .25;
+  cursor: not-allowed;
+}

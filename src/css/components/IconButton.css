@@ -3,7 +3,7 @@
   appearance: none;
   background-color: transparent;
   border: none;
-  color: inherit;
+  color: var(--gray500);
   cursor: pointer;
   display: inline-flex;
   height: var(--spacing-400);
@@ -46,20 +46,9 @@
 .IconButton.white {
   color: var(--white);
 }
-.IconButton.gray {
-  color: var(--gray500);
-}
-.IconButton.blue {
-  color: var(--blue500);
-}
-.IconButton.green {
-  color: var(--teal500);
-}
-.IconButton.yellow {
-  color: var(--amber500);
-}
-.IconButton.red {
-  color: var(--red500);
+
+.IconButton.black {
+  color: var(--black);
 }
 
 /* Disabled state */

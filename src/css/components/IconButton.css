@@ -1,0 +1,70 @@
+.IconButton {
+  align-items: center;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  height: var(--spacing-400);
+  justify-content: center;
+  line-height: 1;
+  width: var(--spacing-400);
+  outline: none;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: var(--transitionDuration-200);
+  transition-timing-function: ease;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.IconButton:hover {
+  opacity: .5;
+}
+.IconButton.is-active {
+  opacity: .4;
+}
+.IconButton:active {
+  opacity: .25;
+}
+
+/* Sizes */
+
+.IconButton.size1 {
+  height: var(--spacing-200);
+  width: var(--spacing-200);
+}
+
+.IconButton.size2 {
+  height: var(--spacing-300);
+  width: var(--spacing-300);
+}
+
+/* Colors */
+
+.IconButton.white {
+  color: var(--white);
+}
+.IconButton.gray {
+  color: var(--gray500);
+}
+.IconButton.blue {
+  color: var(--blue500);
+}
+.IconButton.green {
+  color: var(--teal500);
+}
+.IconButton.yellow {
+  color: var(--amber500);
+}
+.IconButton.red {
+  color: var(--red500);
+}
+
+/* Disabled state */
+
+.IconButton.is-disabled {
+  opacity: .25;
+  cursor: not-allowed;
+}

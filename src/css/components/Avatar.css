@@ -58,7 +58,9 @@
 .Avatar.green::after,
 .Avatar.blue::after,
 .Avatar.yellow::after,
-.Avatar.red::after {
+.Avatar.red::after,
+.Avatar.gold::after,
+.Avatar.bronze::after {
   position: absolute;
   border-radius: 50%;
   top: -2px;
@@ -68,10 +70,12 @@
   height: calc(100% + 4px);
   box-shadow: 0 0 0 2px var(--gray400);
 }
-.Avatar.green::after { box-shadow: 0 0 0 2px var(--teal500); }
-.Avatar.blue::after { box-shadow: 0 0 0 2px var(--blue500); }
+.Avatar.green::after  { box-shadow: 0 0 0 2px var(--teal500); }
+.Avatar.blue::after   { box-shadow: 0 0 0 2px var(--blue500); }
 .Avatar.yellow::after { box-shadow: 0 0 0 2px var(--amber500); }
-.Avatar.red::after { box-shadow: 0 0 0 2px var(--red500); }
+.Avatar.red::after    { box-shadow: 0 0 0 2px var(--red500); }
+.Avatar.gold::after   { box-shadow: 0 0 0 2px var(--gold500); }
+.Avatar.bronze::after { box-shadow: 0 0 0 2px var(--bronze500); }
 
 /* Props */
 

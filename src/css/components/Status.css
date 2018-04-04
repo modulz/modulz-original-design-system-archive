@@ -20,7 +20,7 @@
 }
 
 .Status.positive {
-  background-color: var(--green500);
+  background-color: var(--teal500);
 }
 
 .Status.intermediary {

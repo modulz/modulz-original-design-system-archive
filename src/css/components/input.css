@@ -1,91 +1,95 @@
 .Input {
-    height: var(--spacing-400);
-    line-height: var(--spacing-400);
-    padding-left: var(--spacing-100);
-    padding-right: var(--spacing-100);
-    font-size: var(--fontSize-300);
-    border-radius: var(--borderRadius-200);
-    border: none;
-    outline: none;
-    box-shadow: inset 0 0 0 1px var(--gray400), 0 0 0 1px rgba(0,0,0,0);
-    width: 100%;
-    transition-property: box-shadow;
-    transition-duration: 150ms;
-    transition-timing-function: linear;
+  height: var(--spacing-400);
+  line-height: var(--spacing-400);
+  padding-left: var(--spacing-100);
+  padding-right: var(--spacing-100);
+  font-size: var(--fontSize-300);
+  border-radius: var(--borderRadius-200);
+  border: none;
+  outline: none;
+  box-shadow: inset 0 0 0 1px var(--gray400);
+  width: 100%;
+  transition-property: box-shadow;
+  transition-duration: var(--transitionDuration-100);
+  transition-timing-function: linear;
 }
+
+/* Placeholder */
+
 .Input::-webkit-input-placeholder {
-   color: var(--gray400);
-   opacity:  1;
+  color: var(--gray400);
+  opacity:  1;
 }
 .Input::-moz-placeholder {
-   color: var(--gray400);
-   opacity:  1;
+  color: var(--gray400);
+  opacity:  1;
 }
 .Input:-ms-input-placeholder {
-   color: var(--gray400);
-   opacity:  1;
-}
-.Input:hover {
-    box-shadow: inset 0 0 0 1px var(--gray500), 0 0 0 1px rgba(0,0,0,0);
+  color: var(--gray400);
+  opacity:  1;
 }
 
+/* Pseudo states */
+
+.Input:hover {
+  box-shadow: inset 0 0 0 1px var(--gray500);
+}
 
 .Input:focus {
-    box-shadow: var(--shadow-200), inset 0 0 0 1px var(--blue500);
+  box-shadow: inset 0 0 0 1px var(--blue500);
 }
 
 .Input:focus ~ .FormGroup-label {
-    color: var(--blue500);
+  color: var(--blue500);
 }
 
 /* Sizes */
 
-.Input.large {
-    height: var(--spacing-600);
-    padding-left: var(--spacing-200);
+.Input.size1 {
+  height: var(--spacing-300);
+  padding-left: var(--spacing-100);
 }
 
-/* Input group */
-
-.FormGroup {
-   position: relative;
+.Input.size3 {
+  font-size: var(--fontSize-400);
+  height: var(--spacing-600);
+  padding-left: var(--spacing-200);
 }
 
-.FormGroup-label {
-   font-size: var(--fontSize-300);
-   display: block;
-   transition-property: color;
-   transition-duration: 150ms;
-   transition-timing-function: linear;
+/* Alignment */
+
+.Input.left {
+  border-radius: var(--borderRadius-200) 0 0 var(--borderRadius-200);
 }
 
-.FormGroup-hint {
-   font-size: var(--fontSize-300);
-   color: var(--gray500);
-   display: block;
-   margin-top: var(--spacing-100);
+.Input.middle {
+  border-radius: 0;
+}
+
+.Input.right {
+  border-radius: 0 var(--borderRadius-200) var(--borderRadius-200) 0;
 }
 
 /* Valid */
 
 .FormGroup.valid .FormGroup-label {
-   color: var(--green700);
+  color: var(--green700);
 }
 
 .FormGroup.valid .Input {
-   box-shadow: inset 0 0 0 1px var(--green700);
+  box-shadow: inset 0 0 0 1px var(--green700);
 }
 
 /* Invalid */
 
 .FormGroup.invalid .FormGroup-label {
-   color: var(--red700);
+  color: var(--red700);
 }
 
 .FormGroup.invalid .Input {
-   box-shadow: inset 0 0 0 1px var(--red700);
+  box-shadow: inset 0 0 0 1px var(--red700);
 }
 
 .FormGroup.invalid .FormGroup-hint {
-   color: var(--red700);
+  color: var(--red700);
 }

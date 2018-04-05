@@ -1,8 +1,8 @@
 .Switch {
     position: relative;
     display: inline-block;
-    width: var(--spacing-500);
-    height: var(--spacing-200);
+    width: var(--spacing-400);
+    height: var(--spacing-100);
 }
 
 .Switch input {
@@ -16,7 +16,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--gray400);
+    background-color: var(--gray300);
     transition: all 100ms;
     border-radius: 9999px;
 }
@@ -24,14 +24,14 @@
 .Switch div:before {
     position: absolute;
     content: "";
-    height: var(--spacing-300);
-    width: var(--spacing-300);
+    height: var(--spacing-200);
+    width: var(--spacing-200);
     left: 0;
     bottom: -4px;
-    background-color: var(--gray500);
+    background-color: var(--gray400);
     transition: all 100ms ease;
     border-radius: 50%;
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+    box-shadow: var(--shadow-100);
 }
 
 .Switch input:checked + div {
@@ -43,19 +43,16 @@
     background-color: var(--blue500);
 }
 
-/* Disabled */
-
-.Switch.is-disabled {
-    pointer-events: none;
-}
+/* Disabled state */
 
 .Switch.is-disabled div,
 .Switch.is-disabled input:checked + div {
-    background-color: var(--gray300);
+    cursor: not-allowed;
+    background-color: var(--gray200);
 }
 
 .Switch.is-disabled div:before,
 .Switch.is-disabled input:checked + div:before {
-    background-color: var(--gray400);
+    background-color: var(--gray300);
     box-shadow: none;
 }

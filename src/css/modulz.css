@@ -30,6 +30,7 @@
 @import "./components/Icon.css";
 @import "./components/IconButton.css";
 @import "./components/IconCheckbox.css";
+@import "./components/Input.css";
 @import "./components/Code.css";
 @import "./components/Container.css";
 @import "./components/Context.css";
@@ -54,7 +55,6 @@
 @import "./components/Overlay.css";
 @import "./components/Progress.css";
 @import "./components/text.css";
-@import "./components/input.css";
 @import "./components/link.css";
 @import "./components/scrollbar.css";
 

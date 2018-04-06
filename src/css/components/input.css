@@ -47,6 +47,7 @@
 
 .Input.size1 {
   height: var(--spacing-300);
+  line-height: var(--spacing-300);
   padding-left: var(--spacing-100);
 }
 
@@ -54,6 +55,98 @@
   font-size: var(--fontSize-400);
   height: var(--spacing-600);
   padding-left: var(--spacing-200);
+}
+
+@media (--breakpoint-1) {
+  .Input.bp1-size1 {
+    height: var(--spacing-300);
+    line-height: var(--spacing-300);
+    padding-left: var(--spacing-100);
+    font-size: var(--fontSize-300);
+  }
+
+  .Input.bp1-size2 {
+    height: var(--spacing-400);
+    line-height: var(--spacing-400);
+    padding-left: var(--spacing-100);
+    font-size: var(--fontSize-300);
+  }
+
+  .Input.bp1-size3 {
+    font-size: var(--fontSize-400);
+    height: var(--spacing-600);
+    line-height: var(--spacing-600);
+    padding-left: var(--spacing-200);
+  }
+}
+
+@media (--breakpoint-2) {
+  .Input.bp2-size1 {
+    height: var(--spacing-300);
+    line-height: var(--spacing-300);
+    padding-left: var(--spacing-100);
+    font-size: var(--fontSize-300);
+  }
+
+  .Input.bp2-size2 {
+    height: var(--spacing-400);
+    line-height: var(--spacing-400);
+    padding-left: var(--spacing-100);
+    font-size: var(--fontSize-300);
+  }
+
+  .Input.bp2-size3 {
+    font-size: var(--fontSize-400);
+    height: var(--spacing-600);
+    line-height: var(--spacing-600);
+    padding-left: var(--spacing-200);
+  }
+}
+
+@media (--breakpoint-3) {
+  .Input.bp3-size1 {
+    height: var(--spacing-300);
+    line-height: var(--spacing-300);
+    padding-left: var(--spacing-100);
+    font-size: var(--fontSize-300);
+  }
+
+  .Input.bp3-size2 {
+    height: var(--spacing-400);
+    line-height: var(--spacing-400);
+    padding-left: var(--spacing-100);
+    font-size: var(--fontSize-300);
+  }
+
+  .Input.bp3-size3 {
+    font-size: var(--fontSize-400);
+    height: var(--spacing-600);
+    line-height: var(--spacing-600);
+    padding-left: var(--spacing-200);
+  }
+}
+
+@media (--breakpoint-4) {
+  .Input.bp4-size1 {
+    height: var(--spacing-300);
+    line-height: var(--spacing-300);
+    padding-left: var(--spacing-100);
+    font-size: var(--fontSize-300);
+  }
+
+  .Input.bp4-size2 {
+    height: var(--spacing-400);
+    line-height: var(--spacing-400);
+    padding-left: var(--spacing-100);
+    font-size: var(--fontSize-300);
+  }
+
+  .Input.bp4-size3 {
+    font-size: var(--fontSize-400);
+    height: var(--spacing-600);
+    line-height: var(--spacing-600);
+    padding-left: var(--spacing-200);
+  }
 }
 
 /* Alignment */

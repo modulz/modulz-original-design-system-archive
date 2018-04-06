@@ -20,10 +20,10 @@
 }
 
 .IconButton:hover {
-  opacity: .5;
+  color: var(--gray900);
 }
 .IconButton.is-active {
-  opacity: .4;
+  opacity: .5;
 }
 .IconButton:active {
   opacity: .25;
@@ -45,10 +45,34 @@
 
 .IconButton.white {
   color: var(--white);
+  opacity: .8;
+}
+.IconButton.white:hover {
+  opacity: 1;
 }
 
 .IconButton.black {
   color: var(--black);
+  opacity: .8;
+}
+.IconButton.black:hover {
+  opacity: 1;
+}
+
+.IconButton.blue:hover {
+  color: var(--blue500);
+}
+
+.IconButton.green:hover {
+  color: var(--teal600);
+}
+
+.IconButton.yellow:hover {
+  color: var(--amber600);
+}
+
+.IconButton.red:hover {
+  color: var(--red500);
 }
 
 /* Disabled state */

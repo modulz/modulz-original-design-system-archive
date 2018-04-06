@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html class="oy-scroll" lang="en" style="font-size: 62.5%;">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css">
+    <title>Modulz &mdash; Showcase</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css">
-  <title>Modulz &mdash; Showcase</title>
+    <style media="screen">
+      .ColorWheelHero {
+        position: relative;
+      }
 
-  <style media="screen">
-    .ColorWheelHero {
-      position: relative;
-    }
+      .ColorWheelHero:before {
+        display: block;
+        position: absolute;
+        content: "";
+        transform: rotate(45deg);
+        background: linear-gradient(hsla(210,100%, 20%,.08), transparent);
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        left: 0;
+        transform-origin: top center;
+      }
+    </style>
+  </head>
+  <body class="ff-whitney color-gray900">
 
-    .ColorWheelHero:before {
-      display: block;
-      position: absolute;
-      content: "";
-      transform: rotate(45deg);
-      background: linear-gradient(hsla(210,100%, 20%,.08), transparent);
-      width: 100%;
-      height: 100%;
-      top: 50%;
-      left: 0;
-      transform-origin: top center;
-    }
-  </style>
-</head>
-<body class="ff-whitney color-gray900">
-
-<main>
-    <button class="IconButton" data-toggle="sidedrawer" data-target="sideDrawer" style="position: fixed; top: 32px; left: 32px; z-index: 6;">
+    <main>
+      <button class="IconButton" data-toggle="sidedrawer" data-target="sideDrawer" style="position: fixed; top: 32px; left: 32px; z-index: 6;">
         <svg class="Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
         </svg>
-    </button>
-    ${require('partials/navigation.html')}
+      </button>
+      ${require('partials/navigation.html')}
 
-  <header class="Section size3 ta-center">
-    <div class="Container">
+  <header class="Section size3 ta-center bc-gray200">
+    <div class="Container size3">
       <div class="mb-6 ta-center">
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 96 96">
           <g fill="none" fill-rule="evenodd">
@@ -60,15 +59,27 @@
         </svg>
       </div>
       <div class="mb-2">
-        <h1 class="Heading size6 bp2-size8 lh-7 bp2-lh-9">The kitchen sink</h1>
+        <h1 class="Heading size6 bp2-size8 lh-7 bp2-lh-9">Modulz Design System</h1>
       </div>
-      <div>
-        <h2 class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500">A showcase of Modulz open&ndash;source design system.</h2>
+      <div class="mb-4">
+        <h2 class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500">An open&ndash;source collection of styles, components, patterns, resources &amp; more.</h2>
+      </div>
+      <div class="display-flex jc-center">
+        <div class="pr-1">
+          <a class="IconButton" href="https://github.com/modulz/modulz" target="_blank" title="Star on Github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+        </div>
+        <div class="pl-1">
+          <a class="IconButton" href="https://twitter.com/Modulz" target="_blank" title="Follow on Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+          </a>
+        </div>
       </div>
     </div>
   </header>
 
-  <section class="Section size3" style="padding-top: 0;">
+  <section class="Section size3">
     <div class="Container size2">
       <div class="Grid size3 bp2-columns2">
         <div class="">
@@ -1718,52 +1729,16 @@
     </div>
   </section>
 
-  <div class="bc-gray300" style="height: 1px;"></div>
-
-  <section class="Section size3">
-    <div class="Container size2">
-      <div class="mb-7">
-        <h3 class="Heading size6 bp2-size8 lh-7 bp2-lh-9 ta-center">Frequently asked questions</h3>
-      </div>
-      <div class="Grid size3 columns2">
-        <div class="GridColumn--12 bp1-GridColumn--6">
-          <h4 class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500 mb-1">Why?</h4>
-          <p class="Text size4 lh-5 bp1-lh-6 mb-2">This design system has evolved over the past few years through my work. As it reached a certain stage of maturity, I figured it wouldn't be too much extra work to package it up so other people could use it.</p>
-          <p class="Text size4 lh-5 bp1-lh-6">I was wrong. Very wrong. But it's too late to turn back now.</p>
-        </div>
-        <div class="GridColumn--12 bp1-GridColumn--6">
-          <h4 class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500 mb-1">How is Modulz different?</h4>
-          <p class="Text size4 lh-5 bp1-lh-6 mb-2">Modulz tries to focus on a few differentiating factors:</p>
-          <ul class="pl-2">
-            <li class="Text size4 lh-5 bp1-lh-6 mb-2">A high standard of visual design in keeping with modern trends.</li>
-            <li class="Text size4 lh-5 bp1-lh-6 mb-2">Comprehensive docs which illustrate not just how to implement each component, but how to use them in a variety of practical situations.</li>
-            <li class="Text size4 lh-5 bp1-lh-6 mb-2">Consistent, rhythmic scales dictate every style used throughout Modulz.</li>
-            <li class="Text size4 lh-5 bp1-lh-6">A modular component library. Install only what you need.</li>
-          </ul>
-        </div>
-        <div class="GridColumn--12 bp1-GridColumn--6">
-          <h4 class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500 mb-1">When will Modulz be released?</h4>
-          <p class="Text size4 lh-5 bp1-lh-6 mb-2">You can play around with Modulz right now but it's in very early beta and not yet ready for production use.</p>
-          <p class="Text size4 lh-5 bp1-lh-6">The plan is to release an official in December with v1 shipping in early 2018.</p>
-        </div>
-        <div class="GridColumn--12 bp1-GridColumn--6">
-          <h4 class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500 mb-1">Can I contribute?</h4>
-          <p class="Text size4 lh-5 bp1-lh-6 mb-2">Please do! Modulz is on <a class="color-blue500" href="https://github.com/modulz/modulz">Github</a>, so feel free to play around and open a PR or issue.</p>
-          <p class="Text size4 lh-5 bp1-lh-6">Soon, I'll compile a list of issues, tasks and ideas to help provide some direction.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="Section" style="padding-top: 0;">
-    <div class="Container">
-      <div class="display-flex ai-center jc-center fd-column bp1-fd-row">
-        <div class="mb-5 bp1-mb-0">
-          <p class="Text size4">Want to follow progress?</p>
-        </div>
-        <div class="pl-3">
-          <a href="https://twitter.com/Modulz" class="twitter-follow-button" data-size="large" data-dnt="true" data-show-count="false" style="height: 40px;">
-            Follow @Modulz
+  <section class="Section size2 bp1-size3">
+    <div class="Container size3 bp2-size2">
+      <div class="display-flex fd-column bp1-ai-center">
+        <div class="">
+          <a class="display-flex ai-center cursor-pointer color-blue500 color-gray900--hover" href="overview/installation.html">
+            <span class="Text size6 mr-1">Check out the documentation</span>
+            <svg class="Icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
           </a>
         </div>
       </div>

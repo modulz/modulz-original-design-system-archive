@@ -68,6 +68,7 @@
 @import "./utilities/background-size.css";
 @import "./utilities/border-style.css";
 @import "./utilities/border-width.css";
+@import "./utilities/bottom.css";
 @import "./utilities/cursor.css";
 @import "./utilities/direction.css";
 @import "./utilities/display.css";
@@ -81,6 +82,7 @@
 @import "./utilities/font-style.css";
 @import "./utilities/font-weight.css";
 @import "./utilities/justify-content.css";
+@import "./utilities/left.css";
 @import "./utilities/list-style-type.css";
 @import "./utilities/opacity.css";
 /*@import "./utilities/outline-style.css";*/
@@ -88,7 +90,9 @@
 @import "./utilities/overflow.css";
 @import "./utilities/pointer-events.css";
 @import "./utilities/position.css";
+@import "./utilities/right.css";
 /*@import "./utilities/resize.css";*/
+@import "./utilities/top.css";
 /*@import "./utilities/table-layout.css";*/
 @import "./utilities/text-align.css";
 /*@import "./utilities/text-decoration.css";*/

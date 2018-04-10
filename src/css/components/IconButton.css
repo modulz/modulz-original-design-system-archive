@@ -9,7 +9,6 @@
   height: var(--spacing-400);
   justify-content: center;
   line-height: 1;
-  width: var(--spacing-400);
   outline: none;
   text-decoration: none;
   transition-property: all;
@@ -17,6 +16,7 @@
   transition-timing-function: ease;
   user-select: none;
   vertical-align: middle;
+  width: var(--spacing-400);
 }
 
 .IconButton:hover {
@@ -44,23 +44,23 @@
 /* Colors */
 
 .IconButton.white {
-  color: var(--white);
   opacity: .8;
+  color: var(--white);
 }
 .IconButton.white:hover {
   opacity: 1;
 }
 
 .IconButton.black {
-  color: var(--black);
   opacity: .8;
+  color: var(--black);
 }
 .IconButton.black:hover {
   opacity: 1;
 }
 
 .IconButton.blue:hover {
-  color: var(--blue500);
+  color: var(--blue600);
 }
 
 .IconButton.green:hover {
@@ -72,7 +72,7 @@
 }
 
 .IconButton.red:hover {
-  color: var(--red500);
+  color: var(--red600);
 }
 
 /* Disabled state */

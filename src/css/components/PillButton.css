@@ -53,7 +53,16 @@
 
 /* Size modifiers */
 
-.PillButton.size2 {
+.PillButton.size1 {
+    font-size: var(--fontSize-300);
+    height: var(--spacing-400);
+    line-height: var(--spacing-400);
+    min-width: var(--spacing-400);
+    padding-left: var(--spacing-200);
+    padding-right: var(--spacing-200);
+}
+
+.PillButton.size3 {
     font-size: var(--fontSize-400);
     height: var(--spacing-600);
     line-height: var(--spacing-600);

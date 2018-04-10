@@ -39,10 +39,15 @@
 @import "./components/List.css";
 @import "./components/ListItem.css";
 @import "./components/Loader.css";
+@import "./components/Overlay.css";
+@import "./components/Progress.css";
 @import "./components/Tag.css";
 @import "./components/SideDrawer.css";
 @import "./components/PillButton.css";
 @import "./components/Section.css";
+@import "./components/Status.css";
+@import "./components/Table.css";
+@import "./components/Text.css";
 @import "./components/Heading.css";
 @import "./components/Divider.css";
 @import "./components/Title.css";
@@ -50,12 +55,7 @@
 
 @import "./components/grid.css";
 @import "./components/asset.css";
-@import "./components/Status.css";
-@import "./components/Table.css";
 @import "./components/Toast.css";
-@import "./components/Overlay.css";
-@import "./components/Progress.css";
-@import "./components/text.css";
 @import "./components/link.css";
 @import "./components/scrollbar.css";
 

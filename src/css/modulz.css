@@ -19,6 +19,7 @@
 
 /* Components */
 
+@import "./components/AppBar.css";
 @import "./components/Avatar.css";
 @import "./components/Badge.css";
 @import "./components/Button.css";

@@ -37,6 +37,7 @@
 @import "./components/Flexbox.css";
 @import "./components/Label.css";
 @import "./components/List.css";
+@import "./components/ListItem.css";
 @import "./components/Loader.css";
 @import "./components/Tag.css";
 @import "./components/SideDrawer.css";
@@ -50,7 +51,6 @@
 @import "./components/grid.css";
 @import "./components/asset.css";
 @import "./components/Status.css";
-@import "./components/list-item.css";
 @import "./components/Table.css";
 @import "./components/Toast.css";
 @import "./components/Overlay.css";

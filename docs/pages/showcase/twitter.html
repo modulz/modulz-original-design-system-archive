@@ -8,50 +8,72 @@
     <title>Twitter</title>
   </head>
   <body class="ff-whitney bc-gray200 color-gray900">
-    <header class="AppBar bc-white">
+    <header class="AppBar bc-white padding-0">
       <div class="Container">
         <div class="display-flex">
-          <a class="Tab is-active" href="#">
-            <div class="mr-1">
-              <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
+          <div class="">
+            <div class="display-flex">
+              <a class="Tab is-active" href="#">
+                <div class="mr-1">
+                  <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9 22 9 12 15 12 15 22"/>
+                  </svg>
+                </div>
+                Home
+              </a>
+              <a class="Tab" href="#">
+                <div class="mr-1">
+                  <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                  </svg>
+                </div>
+                Moments
+              </a>
+              <a class="Tab" href="#">
+                <div class="mr-1">
+                  <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"/>
+                  </svg>
+                </div>
+                Notifications
+              </a>
+              <a class="Tab" href="#">
+                <div class="mr-1">
+                  <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                Messages
+              </a>
             </div>
-            Home
-          </a>
-          <a class="Tab" href="#">
-            <div class="mr-1">
-              <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
+          </div>
+          <div class="display-flex">
+            <div class="">
+              <input class="Input" type="search" placeholder="Search">
             </div>
-            Moments
-          </a>
-          <a class="Tab" href="#">
-            <div class="mr-1">
-              <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
+            <div class="pl-2">
+              <div class="ContextContainer">
+                <div class="Avatar">
+                  <img class="Image va-middle" src="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg" style="max-width: 100%; border-radius: 50%; width: 100%;" />
+                </div>
+                <div class="Context">
+                  few
+                </div>
+              </div>
             </div>
-            Notifications
-          </a>
-          <a class="Tab" href="#">
-            <div class="mr-1">
-              <svg class="va-middle" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
+            <div class="pl-2">
+              <button class="PillButton blue size1" type="button">
+                Tweet
+              </button>
             </div>
-            Messages
-          </a>
+          </div>
         </div>
       </div>
     </header>
 
-    <div class="pt-8">
+    <div class="pt-7">
       <div class="Container">
         <div class="display-flex">
           <aside class="width-25">
@@ -68,7 +90,7 @@
                       <img class="Image va-middle" src="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg" style="max-width: 100%; border-radius: 50%; width: 100%;" />
                     </div>
                   </div>
-                  <div class="pt-2 pb-2">
+                  <div class="pt-2">
                     <div class="mb-1">
                       <span class="Text size4 fw-6 display-block">Colm Tuite</span>
                     </div>
@@ -76,23 +98,29 @@
                   </div>
                 </div>
                 <div class="display-flex padding-2">
-                  <div class="pr-4">
-                    <div class="mb-1">
-                      <span class="Text size1 color-gray500 fw-6 display-block">Tweets</span>
-                    </div>
-                    <span class="Text size4 tt-uppercase color-blue600 fw-6 display-block">3504</span>
+                  <div class="fg-1">
+                    <a href="#">
+                      <div class="mb-1">
+                        <span class="Text size1 color-gray500 fw-6 display-block">Tweets</span>
+                      </div>
+                      <span class="Text size4 tt-uppercase color-blue600 fw-6 display-block">3504</span>
+                    </a>
                   </div>
-                  <div class="pr-4">
-                    <div class="mb-1">
-                      <span class="Text size1 color-gray500 fw-6 display-block">Following</span>
-                    </div>
-                    <span class="Text size4 tt-uppercase color-blue600 fw-6 display-block">429</span>
+                  <div class="fg-1">
+                    <a href="#">
+                      <div class="mb-1">
+                        <span class="Text size1 color-gray500 fw-6 display-block">Following</span>
+                      </div>
+                      <span class="Text size4 tt-uppercase color-blue600 fw-6 display-block">429</span>
+                    </a>
                   </div>
-                  <div class="pr-4">
-                    <div class="mb-1">
-                      <span class="Text size1 color-gray500 fw-6 display-block">Followers</span>
-                    </div>
-                    <span class="Text size4 tt-uppercase color-blue600 fw-6 display-block">1600</span>
+                  <div class="fg-1">
+                    <a href="#">
+                      <div class="mb-1">
+                        <span class="Text size1 color-gray500 fw-6 display-block">Followers</span>
+                      </div>
+                      <span class="Text size4 tt-uppercase color-blue600 fw-6 display-block">1600</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -130,6 +158,9 @@
                   </div>
                 </div>
               </div>
+              <div class="">
+                <button class="Button" type="button">Show 10 new Tweets</button>
+              </div>
             </div>
           </main>
           <aside class="width-25">
@@ -161,7 +192,7 @@
                       <div class="display-flex ai-center">
                         <div class="">
                           <div class="Avatar size4">
-                            <img class="va-middle" src="${require('assets/img/michael-dick.jpg')}" style="max-width: 100%;" alt="Michael Dick" />
+                            <img class="Image va-middle" src="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg" style="max-width: 100%; border-radius: 50%; width: 100%;" />
                           </div>
                         </div>
                         <div class="ml-1">
@@ -169,7 +200,7 @@
                             <span class="Text size2 fw-6">Michael Dick</span>
                             <span class="Text size1 color-gray500">@michaeldick</span>
                           </div>
-                          <button class="Button size1" type="button">Follow</button>
+                          <button class="Button size1 primary" type="button">Follow</button>
                         </div>
                       </div>
                     </li>
@@ -177,7 +208,7 @@
                       <div class="display-flex ai-center">
                         <div class="">
                           <div class="Avatar size4">
-                            <img class="va-middle" src="${require('assets/img/michael-dick.jpg')}" style="max-width: 100%;" alt="Michael Dick" />
+                            <img class="Image va-middle" src="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg" style="max-width: 100%; border-radius: 50%; width: 100%;" />
                           </div>
                         </div>
                         <div class="ml-1">
@@ -185,7 +216,7 @@
                             <span class="Text size2 fw-6">Michael Dick</span>
                             <span class="Text size1 color-gray500">@michaeldick</span>
                           </div>
-                          <button class="Button size1" type="button">Follow</button>
+                          <button class="Button size1 primary" type="button">Follow</button>
                         </div>
                       </div>
                     </li>

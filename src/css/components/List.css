@@ -1,6 +1,6 @@
 .List {
   list-style: none;
-  padding-top: var(--spacing-100);
-  padding-bottom: var(--spacing-100);
+  padding: 0;
+  margin: 0;
   width: 100%;
 }

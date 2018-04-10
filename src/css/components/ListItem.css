@@ -1,33 +1,66 @@
 .ListItem {
-  display: flex;
+  background-color: transparent;
+  border: none;
+  display: block;
+  outline: none;
   padding-left: var(--spacing-200);
   padding-right: var(--spacing-200);
   padding-top: var(--spacing-100);
   padding-bottom: var(--spacing-100);
   min-height: var(--spacing-400);
-  align-items: center;
-  transition: all 100ms linear;
+  width: 100%;
 }
 
-.ListItem.large {
-  padding-left: var(--spacing-300);
-  padding-right: var(--spacing-300);
+/* Sizes */
+
+.ListItem.size2 {
+  padding: var(--spacing-200);
   min-height: var(--spacing-500);
 }
 
-.ListItem.interactive:hover {
+/* Props */
+
+.ListItem.rounded {
+  border-radius: var(--borderRadius-200);
+}
+
+/* Interactive */
+
+.ListItem.interactive {
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: var(--transitionDuration-200);
+  transition-timing-function: linear;
+}
+
+.ListItem.interactive:hover,
+.ListItem.interactive:focus {
+  background-color: var(--gray200);
+}
+
+.ListItem.interactive:active {
+  background-color: var(--gray300);
+}
+
+/* States */
+
+.ListItem.is-highlighted {
   background-color: var(--blue200);
 }
 
-.ListItem.highlighted {
-  background-color: var(--blue200);
-}
-
-.ListItem.highlighted:hover {
+.ListItem.is-highlighted:hover {
   background-color: var(--blue300);
 }
 
-.ListItem.active {
+.ListItem.is-selected,
+.ListItem.is-selected:hover {
+  background-color: var(--yellow300);
+  cursor: default;
+}
+
+.ListItem.is-active,
+.ListItem.is-active:hover {
   background-color: var(--blue500);
   color: var(--white);
+  cursor: default;
 }

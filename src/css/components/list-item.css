@@ -1,10 +1,3 @@
-.ListItemGroup {
-    list-style: none;
-    padding-top: var(--spacing-100);
-    padding-bottom: var(--spacing-100);
-    width: 100%;
-}
-
 .ListItem {
     display: flex;
     padding-left: var(--spacing-200);

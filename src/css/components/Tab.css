@@ -18,6 +18,14 @@
     color: inherit;
 }
 
+/* Sizes */
+
+.Tab.size2 {
+  height: var(--spacing-600);
+  font-size: var(--fontSize-200);
+  padding: 0 var(--spacing-200);
+}
+
 /* Expanded */
 
 .Tab.expanded {

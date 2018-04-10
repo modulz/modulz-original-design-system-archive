@@ -55,5 +55,8 @@
       "name": "Colm Tuite",
       "email": "colmtuite@gmail.com"
     }
-  ]
+  ],
+  "dependencies": {
+    "npm": "^5.8.0"
+  }
 }

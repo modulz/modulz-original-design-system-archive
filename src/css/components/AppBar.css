@@ -1,7 +1,7 @@
 .AppBar {
   position: absolute;
-  padding-top: var(--spacing-100);
-  padding-bottom: var(--spacing-100);
+  /* padding-top: var(--spacing-100);
+  padding-bottom: var(--spacing-100); */
   min-height: var(--spacing-600);
   top: 0;
   left: 0;

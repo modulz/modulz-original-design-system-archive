@@ -38,6 +38,7 @@
 @import "./components/Flexbox.css";
 @import "./components/Image.css";
 @import "./components/Label.css";
+@import "./components/Link.css";
 @import "./components/List.css";
 @import "./components/ListItem.css";
 @import "./components/Loader.css";
@@ -58,7 +59,6 @@
 @import "./components/grid.css";
 @import "./components/asset.css";
 @import "./components/Toast.css";
-@import "./components/link.css";
 @import "./components/scrollbar.css";
 
 /* Utilities */

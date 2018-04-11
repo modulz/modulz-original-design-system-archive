@@ -1,0 +1,9 @@
+.Image {
+  border: none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.Image.rounded {
+  border-radius: 50%;
+}

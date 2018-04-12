@@ -1,91 +1,42 @@
 .Link {
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer;
-    /*background-repeat: repeat-x;
-    background-size: 100% 1px;
-    background-position: 0 100%;*/
-    transition: all 60ms linear;
-    /*background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);*/
-}
-/*.Link:hover {
-    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
-}*/
-
-/* Sizes */
-
-.Link.size1 {
-    font-size: var(--fontSize-200);
+  color: inherit;
+  cursor: pointer;
 }
 
-.Link.size2 {
-    font-size: var(--fontSize-300);
+.Link.noUnderline {
+  text-decoration: none;
 }
 
-.Link.size3 {
-    font-size: var(--fontSize-400);
+.Link.underlineHover {
+  text-decoration: none;
+}
+
+.Link.underlineHover:hover {
+  text-decoration: underline;
 }
 
 /* Styles */
 
-.Link.primary {
-    color: var(--blue500);
-}
-.Link.primary:hover {
-    color: var(--blue700);
+.Link.gray:hover {
+  color: var(--gray900);
 }
 
-.LightLink {
-    color: var(--gray500);
-    background-image: none;
-}
-.LightLink:hover {
-    color: var(--gray800);
+.Link.white:hover {
+  color: var(--white);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Link.has-darkBg {
-    color: var(--white);
+.Link.blue {
+  color: var(--blue500);
 }
 
-.Link--inherit {
-    color: inherit;
-    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+.Link.red:hover {
+  color: var(--red600);
 }
 
-.Link--light {
-    color: var(--gray500);
-}
-.Link--light:hover {
-    color: var(--blue500);
+.Link.yellow:hover {
+  color: var(--amber600);
 }
 
-.Link--light.has-darkBg {
-    color: rgba(255,255,255,.5);
-}
-.Link--light:hover {
-    color: var(--white);
-}
-
-.Link--dark {
-    color: var(--gray800);
-}
-.Link--dark:hover {
-    color: var(--blue500);
+.Link.green:hover {
+  color: var(--green600);
 }

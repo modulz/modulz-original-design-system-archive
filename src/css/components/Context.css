@@ -49,7 +49,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, .12), 0 15px 30px hsla(200, 50%, 10%, .08);
     border-radius: var(--borderRadius-200);
     left: 0;
-    right: intial;
+    right: auto;
     margin-top: var(--spacing-100);
     /*max-height: calc(100vh - 80px);*/
     min-height: var(--spacing-500);

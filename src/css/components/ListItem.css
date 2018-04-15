@@ -1,13 +1,16 @@
 .ListItem {
   background-color: transparent;
   border: none;
+  color: inherit;
   display: block;
   outline: none;
+  line-height: 1;
   padding-left: var(--spacing-200);
   padding-right: var(--spacing-200);
   padding-top: var(--spacing-100);
   padding-bottom: var(--spacing-100);
   min-height: var(--spacing-400);
+  text-decoration: none;
   width: 100%;
 }
 

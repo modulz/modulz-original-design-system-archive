@@ -70,7 +70,7 @@
   height: calc(100% + 4px);
   box-shadow: 0 0 0 2px var(--gray400);
 }
-.Avatar.green::after  { box-shadow: 0 0 0 2px var(--teal500); }
+.Avatar.green::after  { box-shadow: 0 0 0 2px var(--green500); }
 .Avatar.blue::after   { box-shadow: 0 0 0 2px var(--blue500); }
 .Avatar.yellow::after { box-shadow: 0 0 0 2px var(--amber500); }
 .Avatar.red::after    { box-shadow: 0 0 0 2px var(--red500); }

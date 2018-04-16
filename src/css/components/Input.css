@@ -156,10 +156,21 @@
 
 .Input.middle {
   border-radius: 0;
+  margin-left: -1px;
+  z-index: 0;
 }
 
 .Input.right {
   border-radius: 0 var(--borderRadius-200) var(--borderRadius-200) 0;
+}
+
+.Input.left:hover,
+.Input.middle:hover,
+.Input.right:hover,
+.Input.left:focus,
+.Input.middle:focus,
+.Input.right:focus {
+  z-index: 3;
 }
 
 /* Valid */

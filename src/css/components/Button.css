@@ -150,6 +150,9 @@
 
 .Button.left:hover,
 .Button.middle:hover,
-.Button.right:hover {
+.Button.right:hover,
+.Button.left:active,
+.Button.middle:active,
+.Button.right:active {
   z-index: 3;
 }

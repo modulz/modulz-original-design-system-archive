@@ -1,4 +1,4 @@
-.IconButton {
+.InvisibleButton {
   align-items: center;
   appearance: none;
   background-color: transparent;
@@ -6,7 +6,9 @@
   color: var(--gray500);
   cursor: pointer;
   display: inline-flex;
-  height: var(--spacing-400);
+  font-size: var(--fontSize-300);
+  /* font-weight: 600; */
+  min-height: var(--spacing-400);
   justify-content: center;
   line-height: 1;
   outline: none;
@@ -16,68 +18,70 @@
   transition-timing-function: ease;
   user-select: none;
   vertical-align: middle;
-  width: var(--spacing-400);
+  min-width: var(--spacing-400);
 }
 
-.IconButton:hover {
+.InvisibleButton:hover {
   color: var(--gray900);
 }
-.IconButton.is-active {
+.InvisibleButton.is-active {
   opacity: .5;
 }
-.IconButton:active {
+.InvisibleButton:active {
   opacity: .25;
 }
 
 /* Sizes */
 
-.IconButton.size1 {
-  height: var(--spacing-200);
-  width: var(--spacing-200);
+.InvisibleButton.size1 {
+  min-height: var(--spacing-200);
+  min-width: var(--spacing-200);
+  font-size: var(--fontSize-200);
 }
 
-.IconButton.size2 {
-  height: var(--spacing-300);
-  width: var(--spacing-300);
+.InvisibleButton.size2 {
+  min-height: var(--spacing-300);
+  min-width: var(--spacing-300);
+  font-size: var(--fontSize-200);
 }
 
 /* Colors */
 
-.IconButton.white {
+.InvisibleButton.white {
   opacity: .8;
   color: var(--white);
 }
-.IconButton.white:hover {
+.InvisibleButton.white:hover {
   opacity: 1;
 }
 
-.IconButton.black {
+.InvisibleButton.black {
   opacity: .8;
   color: var(--black);
 }
-.IconButton.black:hover {
+.InvisibleButton.black:hover {
   opacity: 1;
 }
 
-.IconButton.blue:hover {
+.InvisibleButton.blue:hover {
   color: var(--blue600);
 }
 
-.IconButton.green:hover {
+.InvisibleButton.green:hover {
   color: var(--green600);
 }
 
-.IconButton.yellow:hover {
+.InvisibleButton.yellow:hover {
   color: var(--amber600);
 }
 
-.IconButton.red:hover {
+.InvisibleButton.red:hover {
   color: var(--red600);
 }
 
 /* Disabled state */
 
-.IconButton.is-disabled {
+.InvisibleButton.is-disabled {
   opacity: .25;
   cursor: not-allowed;
 }

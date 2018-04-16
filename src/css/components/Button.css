@@ -23,7 +23,7 @@
   text-decoration: none;
   text-transform: uppercase;
   transition-property: all;
-  transition-duration: var(--transitionDuration-200);
+  transition-duration: var(--transitionDuration-300);
   transition-timing-function: ease;
   user-select: none;
   vertical-align: middle;
@@ -52,7 +52,7 @@
 
 .Button {
   background-color: var(--gray100);
-  box-shadow: var(--shadow-100), inset 0 0 0 1px var(--gray400);
+  box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--gray400);
   color: var(--gray900);
   fill: var(--gray900);
   stroke: var(--gray900);
@@ -71,7 +71,7 @@
   color: var(--blue700);
   fill: var(--blue700);
   stroke: var(--blue700);
-  box-shadow: var(--shadow-100), inset 0 0 0 1px var(--blue400);
+  box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--blue400);
 }
 .Button.primary:hover {
   box-shadow: var(--shadow-200), inset 0 0 0 1px var(--blue500);
@@ -87,7 +87,7 @@
   color: var(--green700);
   fill: var(--green700);
   stroke: var(--green700);
-  box-shadow: var(--shadow-100), inset 0 0 0 1px var(--green400);
+  box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--green400);
 }
 .Button.positive:hover {
   box-shadow: var(--shadow-200), inset 0 0 0 1px var(--green500);
@@ -103,7 +103,7 @@
   color: var(--red700);
   fill: var(--red700);
   stroke: var(--red700);
-  box-shadow: var(--shadow-100), inset 0 0 0 1px var(--gray400);
+  box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--gray400);
 }
 .Button.negative:hover {
   box-shadow: var(--shadow-200), inset 0 0 0 1px var(--gray500);

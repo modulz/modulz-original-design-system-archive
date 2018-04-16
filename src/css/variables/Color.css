@@ -114,9 +114,9 @@
     --gray200: hsl(205, 35%, 97%); /* Background */
     --gray300: hsl(205, 29%, 88%); /* Stroke */
     --gray400: hsl(205, 22%, 78%); /* Stroke */
-    --gray500: hsl(205, 14%, 46%); /* Background */
-    --gray600: hsl(205, 34%, 25%); /* Background */
-    --gray700: hsl(205, 25%, 33%); /* Text */
+    --gray500: hsl(205, 18%, 68%); /* Stroke */
+    --gray600: hsl(205, 14%, 46%); /* Text */
+    --gray700: hsl(205, 25%, 33%); /* Background */
     --gray800: hsl(205, 30%, 12%); /* Background */
     --gray900: hsl(205, 30%, 7%); /* Background & text */
 

@@ -23,7 +23,7 @@
 /* Active state */
 
 .IconCheckbox > input:checked ~ svg {
-  color: var(--teal500);
+  color: var(--green500);
 }
 
 /* Disabled state */

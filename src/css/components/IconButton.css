@@ -64,7 +64,7 @@
 }
 
 .IconButton.green:hover {
-  color: var(--teal600);
+  color: var(--green600);
 }
 
 .IconButton.yellow:hover {

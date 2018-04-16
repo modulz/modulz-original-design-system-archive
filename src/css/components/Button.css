@@ -54,8 +54,6 @@
   background-color: var(--gray100);
   box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--gray300);
   color: var(--gray800);
-  fill: var(--gray900);
-  stroke: var(--gray900);
 }
 .Button:hover {
   box-shadow: var(--shadow-200), inset 0 0 0 1px var(--gray400);
@@ -69,8 +67,6 @@
 .Button.primary {
   background-color: var(--blue100);
   color: var(--blue700);
-  fill: var(--blue700);
-  stroke: var(--blue700);
   box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--blue300);
 }
 .Button.primary:hover {
@@ -85,8 +81,6 @@
 .Button.positive {
   background-color: var(--green100);
   color: var(--green700);
-  fill: var(--green700);
-  stroke: var(--green700);
   box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--green300);
 }
 .Button.positive:hover {
@@ -101,8 +95,6 @@
 .Button.negative {
   background-color: var(--gray100);
   color: var(--red700);
-  fill: var(--red700);
-  stroke: var(--red700);
   box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--gray300);
 }
 .Button.negative:hover {

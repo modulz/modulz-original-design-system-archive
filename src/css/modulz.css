@@ -126,7 +126,7 @@
 @import "./utilities/margin.css";
 @import "./utilities/max-width.css";
 @import "./utilities/min-width.css";
-/*@import "./utilities/negative-margin.css";*/
+@import "./utilities/negative-margin.css";
 /*@import "./utilities/outline-color.css";*/
 @import "./utilities/padding.css";
 /*@import "./utilities/text-shadow.css";*/

@@ -10,6 +10,7 @@
   font-size: var(--fontSize-200);
   font-weight: 600;
   padding: 0 4px;
+  user-select: none;
 }
 
 /* Sizes */

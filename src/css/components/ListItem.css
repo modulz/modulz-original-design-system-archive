@@ -1,8 +1,10 @@
 .ListItem {
   background-color: transparent;
   border: none;
+  box-sizing: border-box;
   color: inherit;
-  display: block;
+  display: flex;
+  align-items: center;
   outline: none;
   line-height: 1;
   padding-left: var(--spacing-200);
@@ -17,7 +19,6 @@
 /* Sizes */
 
 .ListItem.size2 {
-  padding: var(--spacing-200);
   min-height: var(--spacing-500);
 }
 

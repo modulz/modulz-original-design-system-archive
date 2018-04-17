@@ -117,6 +117,7 @@ button,
 ul,
 ol,
 li,
+span,
 nav:before,
 main:before,
 section:before,
@@ -134,6 +135,7 @@ pre:before,
 code:before,
 a:before,
 button:before,
+span:before,
 nav:after,
 main:after,
 section:after,
@@ -150,7 +152,8 @@ textarea:after,
 pre:after,
 code:after,
 a:after,
-button:after {
+button:after,
+span:after, {
     box-sizing: border-box;
 }
 

@@ -3,7 +3,7 @@
   appearance: none;
   background-color: transparent;
   border: none;
-  color: var(--gray500);
+  color: var(--gray600);
   cursor: pointer;
   display: inline-flex;
   font-size: var(--fontSize-300);

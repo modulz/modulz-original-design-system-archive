@@ -1,7 +1,7 @@
 .Tag {
   align-items: center;
   display: inline-flex;
-  color: var(--gray900);
+  color: var(--gray600);
   font-size: var(--fontSize-200);
   height: var(--spacing-300);
   padding: 0 var(--spacing-100);

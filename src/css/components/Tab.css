@@ -9,7 +9,7 @@
   letter-spacing: .8px;
   padding: 0 var(--spacing-200);
   cursor: pointer;
-  color: var(--gray500);
+  color: var(--gray600);
   text-align: center;
   text-decoration: none;
   transition: all 100ms ease;

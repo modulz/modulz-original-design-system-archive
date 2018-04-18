@@ -102,13 +102,16 @@
 /*@import "./utilities/text-decoration-skip.css";*/
 @import "./utilities/text-overflow.css";
 /*@import "./utilities/text-rendering.css";*/
-@import "./utilities/text-transform.css";
+/* @import "./utilities/text-transform.css"; */
 @import "./utilities/transition-property.css";
+@import "./utilities/transition-duration.css";
+@import "./utilities/transition-timing-function.css";
 @import "./utilities/transform-style.css";
 @import "./utilities/user-select.css";
 @import "./utilities/vertical-align.css";
 @import "./utilities/visibility.css";
 @import "./utilities/white-space.css";
+@import "./utilities/negative-margin.css";
 @import "./utilities/will-change.css";
 /*@import "./utilities/word-break.css";*/
 /*@import "./utilities/word-wrap.css";*/
@@ -117,19 +120,16 @@
 @import "./utilities/background-color.css";
 @import "./utilities/border-color.css";
 @import "./utilities/border-radius.css";
-@import "./utilities/box-shadow.css";
+/* @import "./utilities/box-shadow.css"; */
 @import "./utilities/color.css";
-@import "./utilities/fill.css";
+/* @import "./utilities/fill.css"; */
 @import "./utilities/font-family.css";
 @import "./utilities/height.css";
 @import "./utilities/line-height.css";
 @import "./utilities/margin.css";
 @import "./utilities/max-width.css";
 @import "./utilities/min-width.css";
-@import "./utilities/negative-margin.css";
 /*@import "./utilities/outline-color.css";*/
 @import "./utilities/padding.css";
 /*@import "./utilities/text-shadow.css";*/
-@import "./utilities/transition-duration.css";
-@import "./utilities/transition-timing-function.css";
 @import "./utilities/width.css";

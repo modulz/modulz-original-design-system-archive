@@ -53,3 +53,13 @@
 
 .bc-brown           { background-color: var(--brown500); }
 .bc-brown200        { background-color: var(--brown200); }
+
+.bc-gray100 { background-color: var(--gray100); }
+.bc-gray200 { background-color: var(--gray200); }
+.bc-gray300 { background-color: var(--gray300); }
+.bc-gray400 { background-color: var(--gray400); }
+.bc-gray500 { background-color: var(--gray500); }
+.bc-gray600 { background-color: var(--gray600); }
+.bc-gray700 { background-color: var(--gray700); }
+.bc-gray800 { background-color: var(--gray800); }
+.bc-gray900 { background-color: var(--gray900); }

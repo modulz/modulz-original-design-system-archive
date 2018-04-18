@@ -6,32 +6,32 @@
   border-radius: var(--borderRadius-200);
   border: none;
   outline: none;
-  box-shadow: inset 0 0 0 1px var(--gray300);
+  box-shadow: inset 0 0 0 1px var(--gray400);
   width: 100%;
   transition-property: box-shadow;
-  transition-duration: var(--transitionDuration-100);
+  transition-duration: var(--transitionDuration-200);
   transition-timing-function: linear;
 }
 
 /* Placeholder */
 
 .Input::-webkit-input-placeholder {
-  color: var(--gray400);
+  color: var(--gray500);
   opacity:  1;
 }
 .Input::-moz-placeholder {
-  color: var(--gray400);
+  color: var(--gray500);
   opacity:  1;
 }
 .Input:-ms-input-placeholder {
-  color: var(--gray400);
+  color: var(--gray500);
   opacity:  1;
 }
 
 /* Pseudo states */
 
 .Input:hover {
-  box-shadow: inset 0 0 0 1px var(--gray400);
+  box-shadow: inset 0 0 0 1px var(--gray500);
 }
 
 .Input:focus {

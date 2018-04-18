@@ -11,6 +11,9 @@
   font-size: var(--fontSize-200);
   font-weight: 600;
   height: var(--spacing-400);
+  background-color: var(--gray100);
+  box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--gray400);
+  color: var(--gray700);
   justify-content: center;
   line-height: 1;
   letter-spacing: .6px;
@@ -30,13 +33,15 @@
   white-space: nowrap;
 }
 
-/*.Button:hover {
-  transform: translateY(-1px);
+.Button:hover {
+  box-shadow: var(--shadow-200), inset 0 0 0 1px var(--gray500);
 }
 
 .Button:active {
-  transform: translateY(0px);
-}*/
+  background-color: var(--gray200);
+  box-shadow: inset 0 0 0 1px var(--gray500);
+}
+
 
 /* Sizes */
 
@@ -46,20 +51,6 @@
   min-width: var(--spacing-300);
   padding-left: var(--spacing-100);
   padding-right: var(--spacing-100);
-}
-
-/* Neutral button */
-
-.Button {
-  background-color: var(--gray100);
-  box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 3px rgba(0,0,0,0), inset 0 0 0 1px var(--gray300);
-  color: var(--gray800);
-}
-.Button:hover {
-  box-shadow: var(--shadow-200), inset 0 0 0 1px var(--gray400);
-}
-.Button:active {
-  box-shadow: inset 0 0 0 1px var(--gray400);
 }
 
 /* Primary button */

@@ -1,0 +1,42 @@
+.Link {
+  color: inherit;
+  cursor: pointer;
+}
+
+.Link.noUnderline {
+  text-decoration: none;
+}
+
+.Link.underlineHover {
+  text-decoration: none;
+}
+
+.Link.underlineHover:hover {
+  text-decoration: underline;
+}
+
+/* Styles */
+
+.Link.gray:hover {
+  color: var(--gray900);
+}
+
+.Link.white:hover {
+  color: var(--white);
+}
+
+.Link.blue {
+  color: var(--blue500);
+}
+
+.Link.red:hover {
+  color: var(--red600);
+}
+
+.Link.yellow:hover {
+  color: var(--amber600);
+}
+
+.Link.green:hover {
+  color: var(--green600);
+}

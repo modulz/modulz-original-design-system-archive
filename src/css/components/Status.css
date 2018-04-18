@@ -1,34 +1,52 @@
 .Status {
-  display: block;
-  width: var(--spacing-100);
-  height: var(--spacing-100);
+  box-sizing: border-box;
+  color: var(--gray700);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--spacing-100);
+  min-height: var(--spacing-100);
   background-color: var(--gray300);
-  border-radius: 50%;
+  border-radius: 9999px;
+  font-size: var(--fontSize-200);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 0 4px;
+  user-select: none;
 }
 
 /* Sizes */
 
 .Status.size2 {
-  width: var(--spacing-200);
-  height: var(--spacing-200);
+  min-width: var(--spacing-200);
+  min-height: var(--spacing-200);
 }
 
 /* Colors */
 
 .Status.primary {
   background-color: var(--blue500);
+  color: white;
 }
 
 .Status.positive {
-  background-color: var(--teal500);
+  background-color: var(--green500);
+  color: white;
 }
 
 .Status.intermediary {
   background-color: var(--amber500);
+  color: white;
 }
 
 .Status.negative {
   background-color: var(--red500);
+  color: white;
+}
+
+.Status.outline {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px var(--gray400);
 }
 
 /* Props */

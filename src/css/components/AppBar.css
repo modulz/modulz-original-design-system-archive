@@ -8,3 +8,7 @@
   width: 100%;
   z-index: 700;
 }
+
+.AppBar.fixed {
+  position: fixed;
+}

@@ -3,7 +3,7 @@
   appearance: none;
   background-color: transparent;
   border: none;
-  color: var(--gray500);
+  color: var(--gray600);
   cursor: pointer;
   display: inline-flex;
   height: var(--spacing-200);
@@ -23,7 +23,7 @@
 /* Active state */
 
 .IconCheckbox > input:checked ~ svg {
-  color: var(--teal500);
+  color: var(--green500);
 }
 
 /* Disabled state */

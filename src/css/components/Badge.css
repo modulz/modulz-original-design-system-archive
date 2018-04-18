@@ -7,14 +7,13 @@
     padding: 0 var(--spacing-100);
     background-color: transparent;
     box-shadow: inset 0 0 0 1px var(--gray400);
-    color: var(--gray500);
+    color: var(--gray600);
     font-weight: 600;
     border-radius: 9999px;
     letter-spacing: 1px;
     white-space: nowrap;
     user-select: none;
     vertical-align: middle;
-    cursor: default;
 }
 
 .Badge.size2 {

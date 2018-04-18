@@ -1,21 +1,22 @@
 .Tab {
-    display: inline-flex;
-    align-items: center;
-    height: var(--spacing-500);
-    justify-content: center;
-    font-size: var(--fontSize-200);
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: .8px;
-    padding: 0 var(--spacing-200);
-    cursor: pointer;
-    color: var(--gray500);
-    text-align: center;
-    transition: all 100ms ease;
-    white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  height: var(--spacing-500);
+  justify-content: center;
+  font-size: var(--fontSize-200);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .8px;
+  padding: 0 var(--spacing-200);
+  cursor: pointer;
+  color: var(--gray600);
+  text-align: center;
+  text-decoration: none;
+  transition: all 100ms ease;
+  white-space: nowrap;
 }
 .Tab:hover {
-    color: inherit;
+  color: inherit;
 }
 
 /* Sizes */
@@ -29,14 +30,14 @@
 /* Expanded */
 
 .Tab.expanded {
-    flex-grow: 1;
-    flex-basis: 0;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 /* Active state*/
 
 .Tab.is-active {
-    box-shadow: inset 0 -2px 0 0 var(--blue500);
-    color: inherit;
-    cursor: default;
+  box-shadow: inset 0 -2px 0 0 var(--blue500);
+  color: inherit;
+  cursor: default;
 }

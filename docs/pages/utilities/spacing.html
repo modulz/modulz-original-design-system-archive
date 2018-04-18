@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="" lang="en" style="font-size: 62.5%;">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6135554/7605572/css/fonts.css">
+    <title>Modulz – An open-source design system</title>
+  </head>
+  <body class="ff-whitney color-gray900">
+    <button class="InvisibleButton" data-toggle="sidedrawer" data-target="sideDrawer" style="position: fixed; top: 32px; left: 32px; z-index: 6;">
+      <svg class="Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+    ${require('partials/navigation.html')}
+
+    <main class="Container size3">
+      <header class="Section size3">
+        <div class="mb-1">
+          <h1 class="Heading size6 bp2-size8 lh-7 bp2-lh-9">Spacing</h1>
+        </div>
+        <div>
+          <p class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray600">A set of utilities for adding space to layouts.</p>
+        </div>
+      </header>
+
+      <section class="Section" style="padding-top: 0;">
+        <div class="mb-1">
+          <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Margin</h2>
+        </div>
+        <div class="mb-3">
+          <p class="Text size4 lh-5 bp1-lh-6">Add space around elements.</p>
+        </div>
+        <table class="Table zebra">
+          <thead>
+            <tr class="va-top">
+              <th class="width-30">Class</th>
+              <th class="width-70">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.margin-0</code></td>
+              <td><p class="Text size2 lh-4">Set the margin to 0 on all sides of an element.</td>
+            </tr>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.margin-3</code></td>
+              <td><p class="Text size2 lh-4">Set the margin to a specific value on all sides of an element. Use any value from 0 through 9.</td>
+            </tr>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.mt-3</code></td>
+              <td><p class="Text size2 lh-4">Add a margin to a specific side using <code class="Code">mt-3</code>, <code class="Code">mr-3</code>, <code class="Code">mb-3</code> or <code class="Code">ml-3</code>. Use any value from 0 through 9.</td>
+            </tr>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.ml-auto</code></td>
+              <td><p class="Text size2 lh-4">Set the margin to <code class="Code">auto</code> on a specific side of an element.</td>
+            </tr>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.bp2-mr-3</code></td>
+              <td><p class="Text size2 lh-4">Responsive classes for setting margins only at specific breakpoints. There are 4 breakpoint prefixes <code class="Code">bp1-</code>, <code class="Code">bp2-</code>, <code class="Code">bp3-</code> and <code class="Code">bp4-</code>.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="Section">
+        <div class="mb-1">
+          <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Padding</h2>
+        </div>
+        <div class="mb-3">
+          <p class="Text size4 lh-5 bp1-lh-6">Add space inside elements.</p>
+        </div>
+        <table class="Table zebra">
+          <thead>
+            <tr class="va-top">
+              <th class="width-30">Class</th>
+              <th class="width-70">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.padding-0</code></td>
+              <td><p class="Text size2 lh-4">Set the padding to 0 on all sides of an element.</td>
+            </tr>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.padding-3</code></td>
+              <td><p class="Text size2 lh-4">Set the padding to a specific value on all sides of an element. Use any value from 0 through 9.</td>
+            </tr>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.pt-3</code></td>
+              <td><p class="Text size2 lh-4">Add a padding to a specific side using <code class="Code">pt-3</code>, <code class="Code">pr-3</code>, <code class="Code">pb-3</code> or <code class="Code">pl-3</code>. Use any value from 0 through 9.</td>
+            </tr>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.bp2-pr-3</code></td>
+              <td><p class="Text size2 lh-4">Responsive classes for setting padding only at specific breakpoints. There are 4 breakpoint prefixes <code class="Code">bp1-</code>, <code class="Code">bp2-</code>, <code class="Code">bp3-</code> and <code class="Code">bp4-</code>.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="Section">
+        <div class="mb-1">
+          <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Negative margin</h2>
+        </div>
+        <div class="mb-3">
+          <p class="Text size4 lh-5 bp1-lh-6">Add negative space around elements to pull elements in a specific direction.</p>
+        </div>
+        <table class="Table zebra">
+          <thead>
+            <tr class="va-top">
+              <th class="width-30">Class</th>
+              <th class="width-70">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.nmt-3</code></td>
+              <td><p class="Text size2 lh-4">Add a negative margin to a specific side using <code class="Code">nmt-3</code>, <code class="Code">nmr-3</code>, <code class="Code">nmb-3</code> or <code class="Code">nml-3</code>. Use any value from 1 through 9.</td>
+            </tr>
+            <tr class="va-top">
+              <td><code class="ff-monospace fs-3 lh-4 color-violet" style="font-family: 'Operator SSm A', 'Operator SSm B';">.bp2-nmr-3</code></td>
+              <td><p class="Text size2 lh-4">Responsive classes for setting negative margins only at specific breakpoints. There are 4 breakpoint prefixes <code class="Code">bp1-</code>, <code class="Code">bp2-</code>, <code class="Code">bp3-</code> and <code class="Code">bp4-</code>.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    ${require('partials/footer.html')}
+    <div class="Overlay js-Overlay"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>

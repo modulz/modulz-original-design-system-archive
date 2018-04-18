@@ -1,79 +1,79 @@
 .Checkbox {
-    position: relative;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    user-select: none;
+  position: relative;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
 }
 
 .Checkbox > input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
 }
 
 .Checkbox > input ~ div {
-    display: flex;
-    align-items: center;
-    color: var(--white);
-    justify-content: center;
-    width:  var(--spacing-200);
-    height: var(--spacing-200);
-    line-height: var(--spacing-200);
-    background-color: var(--white);
-    border: 1px solid var(--gray400);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-    border-radius: var(--borderRadius-100);
-    transition: all 100ms ease;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  justify-content: center;
+  width:  var(--spacing-200);
+  height: var(--spacing-200);
+  line-height: var(--spacing-200);
+  background-color: var(--white);
+  border: 1px solid var(--gray400);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  border-radius: var(--borderRadius-100);
+  transition: all 100ms ease;
 }
 
 /* Hover state*/
 
 .Checkbox:hover > input ~ div {
-    border-color: var(--blue500);
+  border-color: var(--blue500);
 }
 
 /* Disabled state */
 
 /*.Checkbox input:focus ~ .control-indicator,
 .Radio input:focus ~ .control-indicator {
-    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
-    border-color: var(--gray500);
-    outline: 1px dashed var(--blue500);
-    outline-offset: 1px;
+  box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+  border-color: var(--gray500);
+  outline: 1px dashed var(--blue500);
+  outline-offset: 1px;
 }*/
 
 /* Checked state */
 
 .Checkbox > input:checked ~ div {
-    background-color: var(--blue500);
-    border-color: var(--blue500);
+  background-color: var(--blue500);
+  border-color: var(--blue500);
 }
 
 .Checkbox > input:checked ~ div:after {
-    border-bottom: 2px solid white;
-    border-right: 2px solid white;
-    box-sizing: border-box;
-    content: '';
-    height: 10px;
-    left: 6px;
-    position: absolute;
-    top: 2px;
-    transform: rotate(45deg);
-    width: 5px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  box-sizing: border-box;
+  content: '';
+  height: 10px;
+  left: 6px;
+  position: absolute;
+  top: 2px;
+  transform: rotate(45deg);
+  width: 5px;
 }
 
 /* Disabled state */
 
 .Checkbox input:disabled ~ div {
-    background-color: var(--gray100);
-    border-color: var(--gray300);
-    cursor: not-allowed;
-    box-shadow: none;
+  background-color: var(--gray100);
+  border-color: var(--gray300);
+  cursor: not-allowed;
+  box-shadow: none;
 }
 
 /* Invalid state */
 
 .Checkbox.is-invalid > input ~ div {
-    border-color: var(--red500);
+  border-color: var(--red500);
 }

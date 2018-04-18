@@ -1,102 +1,102 @@
 .Tag {
-    align-items: center;
-    display: inline-flex;
-    color: var(--gray500);
-    font-size: var(--fontSize-200);
-    height: var(--spacing-300);
-    padding: 0 var(--spacing-100);
-    background-color: var(--gray300);
-    font-weight: 600;
-    border-radius: 9999px;
-    white-space: nowrap;
-    cursor: default;
-    user-select: none;
+  align-items: center;
+  display: inline-flex;
+  color: var(--gray600);
+  font-size: var(--fontSize-200);
+  height: var(--spacing-300);
+  padding: 0 var(--spacing-100);
+  background-color: var(--gray300);
+  font-weight: 600;
+  border-radius: 9999px;
+  white-space: nowrap;
+  cursor: default;
+  user-select: none;
 }
 
 .Tag.interactive {
-    transition-property: background-color, color;
-    transition-duration: 60ms;
-    transition-timing-function: linear;
-    cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: 60ms;
+  transition-timing-function: linear;
+  cursor: pointer;
 }
 
 .Tag.interactive:hover {
-    background-color: var(--gray400);
-    color: var(--gray900);
+  background-color: var(--gray400);
+  color: var(--gray900);
 }
 
 /* Colors */
 
 .Tag.yellow {
-    background-color: var(--yellow500);
-    color: white;
+  background-color: var(--yellow500);
+  color: white;
 }
 
 .Tag.lime {
-    background-color: var(--lime500);
-    color: white;
+  background-color: var(--lime500);
+  color: white;
 }
 
 .Tag.green {
-    background-color: var(--green500);
-    color: white;
+  background-color: var(--green500);
+  color: white;
 }
 
 .Tag.teal {
-    background-color: var(--teal500);
-    color: white;
+  background-color: var(--teal500);
+  color: white;
 }
 
 .Tag.blue {
-    background-color: var(--blue500);
-    color: white;
+  background-color: var(--blue500);
+  color: white;
 }
 
 .Tag.indigo {
-    background-color: var(--indigo500);
-    color: white;
+  background-color: var(--indigo500);
+  color: white;
 }
 
 .Tag.violet {
-    background-color: var(--violet500);
-    color: white;
+  background-color: var(--violet500);
+  color: white;
 }
 
 .Tag.purple {
-    background-color: var(--purple500);
-    color: white;
+  background-color: var(--purple500);
+  color: white;
 }
 
 .Tag.pink {
-    background-color: var(--pink500);
-    color: white;
+  background-color: var(--pink500);
+  color: white;
 }
 
 .Tag.red {
-    background-color: var(--red500);
-    color: white;
+  background-color: var(--red500);
+  color: white;
 }
 
 .Tag.orange {
-    background-color: var(--orange500);
-    color: white;
+  background-color: var(--orange500);
+  color: white;
 }
 
 .Tag.amber {
-    background-color: var(--amber500);
-    color: white;
+  background-color: var(--amber500);
+  color: white;
 }
 
 /* Label group */
 
 .TagGroup {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -4px;
-    margin-left: -4px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -4px;
+  margin-left: -4px;
 }
 
 .TagGroup .Label {
-    margin-left: 4px;
-    margin-top: 4px;
+  margin-left: 4px;
+  margin-top: 4px;
 }

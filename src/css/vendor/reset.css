@@ -83,8 +83,8 @@ audio,
 video,
 input,
 button {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav,
@@ -117,6 +117,7 @@ button,
 ul,
 ol,
 li,
+span,
 nav:before,
 main:before,
 section:before,
@@ -134,6 +135,7 @@ pre:before,
 code:before,
 a:before,
 button:before,
+span:before,
 nav:after,
 main:after,
 section:after,
@@ -151,17 +153,17 @@ pre:after,
 code:after,
 a:after,
 button:after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 100%;
-    line-height: 1;
+  font-size: 100%;
+  line-height: 1;
 }
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 h1,
@@ -178,21 +180,15 @@ input,
 button,
 select,
 textarea {
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    color: inherit;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: inherit;
 }
 
 mark {
-    background: none;
-}
-
-
-a {
-    text-decoration: none;
-    color: inherit;
+  background: none;
 }

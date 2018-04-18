@@ -1,0 +1,87 @@
+.InvisibleButton {
+  align-items: center;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: var(--gray600);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: var(--fontSize-300);
+  /* font-weight: 600; */
+  min-height: var(--spacing-400);
+  justify-content: center;
+  line-height: 1;
+  outline: none;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: var(--transitionDuration-200);
+  transition-timing-function: ease;
+  user-select: none;
+  vertical-align: middle;
+  min-width: var(--spacing-400);
+}
+
+.InvisibleButton:hover {
+  color: var(--gray900);
+}
+.InvisibleButton.is-active {
+  opacity: .5;
+}
+.InvisibleButton:active {
+  opacity: .25;
+}
+
+/* Sizes */
+
+.InvisibleButton.size1 {
+  min-height: var(--spacing-200);
+  min-width: var(--spacing-200);
+  font-size: var(--fontSize-200);
+}
+
+.InvisibleButton.size2 {
+  min-height: var(--spacing-300);
+  min-width: var(--spacing-300);
+  font-size: var(--fontSize-200);
+}
+
+/* Colors */
+
+.InvisibleButton.white {
+  opacity: .8;
+  color: var(--white);
+}
+.InvisibleButton.white:hover {
+  opacity: 1;
+}
+
+.InvisibleButton.black {
+  opacity: .8;
+  color: var(--black);
+}
+.InvisibleButton.black:hover {
+  opacity: 1;
+}
+
+.InvisibleButton.blue:hover {
+  color: var(--blue600);
+}
+
+.InvisibleButton.green:hover {
+  color: var(--green600);
+}
+
+.InvisibleButton.yellow:hover {
+  color: var(--amber600);
+}
+
+.InvisibleButton.red:hover {
+  color: var(--red600);
+}
+
+/* Disabled state */
+
+.InvisibleButton.is-disabled {
+  opacity: .25;
+  cursor: not-allowed;
+}

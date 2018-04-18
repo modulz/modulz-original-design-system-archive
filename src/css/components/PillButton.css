@@ -6,6 +6,7 @@
     border: none;
     cursor: pointer;
     display: inline-flex;
+    flex-shrink: 0;
     font-weight: 600;
     justify-content: center;
     letter-spacing: .6px;
@@ -20,7 +21,6 @@
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-
     background-color: var(--gray300);
     border-radius: 9999px;
     color: rgba(0,0,0,.8);

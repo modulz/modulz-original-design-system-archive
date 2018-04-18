@@ -1,6 +1,4 @@
 :root {
-  /* Color palette */
-
   --black: hsl(0, 0%, 0%);
   --black900: hsla(0, 0%, 0%, .9);
   --black700: hsla(0, 0%, 0%, .7);
@@ -15,10 +13,8 @@
   --white300: hsla(0, 0%, 100%, .3);
   --white100: hsla(0, 0%, 100%, .1);
 
-
   --facebook: #4267b2;
   --twitter: #1da1f2;
-
 
   --pink100: hsl(332, 94%, 97%);
   --pink300: hsl(332, 94%, 72%);
@@ -98,16 +94,10 @@
   --orange500: hsl(30, 100%, 50%);
   --orange600: hsl(30, 100%, 50%);
 
-  --crimson100: hsl(18, 100%, 60%);
-  --crimson300: hsl(18, 100%, 72%);
-  --crimson500: hsl(18, 100%, 60%);
-  --crimson600: hsl(18, 100%, 60%);
-
   --violet100: hsl(264, 52%, 45%);
   --violet300: hsl(264, 52%, 72%);
   --violet500: hsl(246, 60%, 52%);
   --violet600: hsl(246, 60%, 52%);
-
 
   --gray100: hsl(208, 40%, 99%); /* Backgrounds */
   --gray200: hsl(208, 32%, 97%); /* Backgrounds & strokes */
@@ -118,7 +108,6 @@
   --gray700: hsl(208, 18%, 18%); /* Backgrounds */
   --gray800: hsl(208, 22%, 13%); /* Backgrounds */
   --gray900: hsl(208, 30%, 10%); /* Backgrounds & primary text */
-
 
   --brown500: #795548;
 

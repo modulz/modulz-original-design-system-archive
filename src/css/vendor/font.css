@@ -10,18 +10,6 @@
           url("../../docs/assets/fonts/UntitledSansWeb-Medium.woff") format("woff");
 }
 
-/* @font-face {
-    font-family: "UntitledSans";
-    src: url('https://s3.amazonaws.com/modulz/fonts/UntitledSansWeb-Regular.woff2') format('woff2'),
-            url('https://s3.amazonaws.com/modulz/fonts/UntitledSansWeb-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: "UntitledSans-Medium";
-    src: url('https://s3.amazonaws.com/modulz/fonts/UntitledSansWeb-Medium.woff2') format('woff2'),
-            url('https://s3.amazonaws.com/modulz/fonts/UntitledSansWeb-Medium.woff') format('woff');
-} */
-
 .ff-usm {
     font-family: "UntitledSans-Medium", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
     font-weight: 500;
@@ -29,4 +17,31 @@
 
 .ff-us {
   font-family: "UntitledSans", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+}
+
+/* Riforma */
+
+@font-face {
+  font-family: "LL Riforma Regular Web";
+  src: url("../../docs/assets/fonts/RiformaLLWeb-Regular.woff2") format("woff2"),
+       url("../../docs/assets/fonts/RiformaLLWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LL Riforma Bold Web";
+  src: url("../../docs/assets/fonts/RiformaLLWeb-Bold.woff2") format("woff2"),
+       url("../../docs/assets/fonts/RiformaLLWeb-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ff-riforma {
+  font-family: "LL Riforma Regular Web", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+}
+
+.ff-riformabold {
+  font-family: "LL Riforma Bold Web", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+  font-weight: 700;
 }

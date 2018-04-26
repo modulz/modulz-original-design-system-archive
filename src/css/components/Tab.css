@@ -7,7 +7,7 @@
   font-size: var(--fontSize-200);
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: .8px;
+  letter-spacing: .074em;
   padding: 0 var(--spacing-200);
   cursor: pointer;
   color: var(--gray600);

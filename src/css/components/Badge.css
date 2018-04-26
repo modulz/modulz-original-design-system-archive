@@ -1,64 +1,64 @@
 .Badge {
-    display: inline-flex;
-    align-items: center;
-    font-family: var(--caeciliaBold);
-    font-size: var(--fontSize-100);
-    text-transform: uppercase;
-    height: var(--spacing-200);
-    padding: 0 var(--spacing-100);
-    background-color: transparent;
-    box-shadow: inset 0 0 0 1px var(--gray400);
-    color: var(--gray600);
-    font-weight: 700;
-    border-radius: 9999px;
-    letter-spacing: 1px;
-    white-space: nowrap;
-    user-select: none;
-    vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--caeciliaBold);
+  font-size: var(--fontSize-100);
+  text-transform: uppercase;
+  height: var(--spacing-200);
+  padding: 0 var(--spacing-100);
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px var(--gray400);
+  color: var(--gray600);
+  font-weight: 700;
+  border-radius: 9999px;
+  letter-spacing: .134em;
+  white-space: nowrap;
+  user-select: none;
+  vertical-align: middle;
 }
 
 .Badge.size2 {
-    font-size: var(--fontSize-200);
-    height: var(--spacing-300);
-    padding: 0 var(--spacing-200);
+  font-size: var(--fontSize-200);
+  height: var(--spacing-300);
+  padding: 0 var(--spacing-200);
 }
 
 /* Sizes */
 
 .Badge.size2 {
-    font-size: var(--fontSize-200);
-    height: var(--spacing-300);
-    padding: 0 var(--spacing-200);
+  font-size: var(--fontSize-200);
+  height: var(--spacing-300);
+  padding: 0 var(--spacing-200);
 }
 
 /* Styles */
 
 .Badge.primary {
-    box-shadow: inset 0 0 0 1px var(--blue500);
-    color: var(--blue600);
+  box-shadow: inset 0 0 0 1px var(--blue500);
+  color: var(--blue600);
 }
 
 .Badge.intermediary {
-    box-shadow: inset 0 0 0 1px var(--amber500);
-    color: var(--amber600);
+  box-shadow: inset 0 0 0 1px var(--amber500);
+  color: var(--amber600);
 }
 
 .Badge.positive {
-    box-shadow: inset 0 0 0 1px var(--teal500);
-    color: var(--teal600);
+  box-shadow: inset 0 0 0 1px var(--teal500);
+  color: var(--teal600);
 }
 
 .Badge.negative {
-    box-shadow: inset 0 0 0 1px var(--red500);
-    color: var(--red600);
+  box-shadow: inset 0 0 0 1px var(--red500);
+  color: var(--red600);
 }
 
 .Badge.bronze {
-    box-shadow: inset 0 0 0 1px var(--bronze500);
-    color: var(--bronze600);
+  box-shadow: inset 0 0 0 1px var(--bronze500);
+  color: var(--bronze600);
 }
 
 .Badge.gold {
-    box-shadow: inset 0 0 0 1px var(--gold500);
-    color: var(--gold600);
+  box-shadow: inset 0 0 0 1px var(--gold500);
+  color: var(--gold600);
 }

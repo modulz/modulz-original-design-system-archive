@@ -17,7 +17,7 @@
   color: var(--gray700);
   justify-content: center;
   line-height: 1;
-  letter-spacing: .6px;
+  letter-spacing: .074em;
   min-width: var(--spacing-400);
   outline: none;
   padding-left: var(--spacing-200);

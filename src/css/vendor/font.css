@@ -7,15 +7,13 @@
 }
 
 @font-face {
-  font-family:"PMNCaeciliaSans Head W04 Bd";
-  src: url("../../docs/assets/fonts/a2ea429b-ff91-4f34-a654-34be51458a49.woff2") format("woff2"),
-       url("../../docs/assets/fonts/d6167edc-d211-41bb-adfc-0835edff339f.woff") format("woff");
+  font-family:"PMNCaeciliaSans Text W04 Hv";
+  src: url("../../docs/assets/fonts/95fa91de-084c-4562-a04a-854f04f547cc.woff2") format("woff2"),
+       url("../../docs/assets/fonts/6d8e0ea3-7f56-42f6-a836-49d190c7214e.woff") format("woff");
 }
 
-.ff-caecilia {
-  font-family: var(--caecilia);
-}
-
-.ff-caeciliabold {
-  font-family: var(--caeciliaBold);
+@font-face {
+  font-family:"PMNCaeciliaSans Head W04 Blk";
+  src: url("../../docs/assets/fonts/af14f6c0-0898-4874-9ca8-b1a0331c27ee.woff2") format("woff2"),
+       url("../../docs/assets/fonts/c346ac3d-a7da-4ab0-9228-73508c468197.woff") format("woff");
 }

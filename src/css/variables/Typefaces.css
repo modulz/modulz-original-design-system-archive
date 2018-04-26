@@ -1,5 +1,6 @@
 :root {
   --monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   --caecilia: "PMNCaeciliaSans Text W04 Rg", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
-  --caeciliaBold: "PMNCaeciliaSans Head W04 Bd", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+  --caeciliaBold: "PMNCaeciliaSans Text W04 Hv", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+  --caeciliaHead: "PMNCaeciliaSans Head W04 Blk", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
 }

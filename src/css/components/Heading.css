@@ -1,9 +1,9 @@
 .Heading {
-  font-family: var(--caeciliaBold);
+  font-family: var(--caeciliaHead);
   font-size: var(--fontSize-600);
   letter-spacing: -.018em;
   margin-left: -1.5px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 /* Weights */

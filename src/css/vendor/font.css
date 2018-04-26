@@ -13,9 +13,9 @@
 }
 
 .ff-caecilia {
-  font-family: "PMNCaeciliaSans Text W04 Rg", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+  font-family: var(--caecilia);
 }
 
 .ff-caeciliabold {
-  font-family: "PMNCaeciliaSans Head W04 Bd", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+  font-family: var(--caeciliaBold);
 }

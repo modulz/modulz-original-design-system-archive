@@ -1,47 +1,21 @@
-@font-face {
-  font-family: "UntitledSans";
-  src:  url("../../docs/assets/fonts/UntitledSansWeb-Regular.woff2") format("woff2"),
-          url("../../docs/assets/fonts/UntitledSansWeb-Regular.woff") format("woff");
-}
+/* Caecilia */
 
 @font-face {
-  font-family: 'UntitledSans-Medium';
-  src:  url("../../docs/assets/fonts/UntitledSansWeb-Medium.woff2") format("woff2"),
-          url("../../docs/assets/fonts/UntitledSansWeb-Medium.woff") format("woff");
-}
-
-.ff-usm {
-    font-family: "UntitledSans-Medium", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
-    font-weight: 500;
-}
-
-.ff-us {
-  font-family: "UntitledSans", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
-}
-
-/* Riforma */
-
-@font-face {
-  font-family: "LL Riforma Regular Web";
-  src: url("../../docs/assets/fonts/RiformaLLWeb-Regular.woff2") format("woff2"),
-       url("../../docs/assets/fonts/RiformaLLWeb-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "PMNCaeciliaSans Text W04 Rg";
+  src: url("../../docs/assets/fonts/e032bf6e-d286-41eb-968b-9a0baf4e3b8a.woff2") format("woff2"),
+       url("../../docs/assets/fonts/f72abd7e-2c34-4df3-9393-43a86bdec49f.woff") format("woff");
 }
 
 @font-face {
-  font-family: "LL Riforma Bold Web";
-  src: url("../../docs/assets/fonts/RiformaLLWeb-Bold.woff2") format("woff2"),
-       url("../../docs/assets/fonts/RiformaLLWeb-Bold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-family:"PMNCaeciliaSans Head W04 Bd";
+  src: url("../../docs/assets/fonts/a2ea429b-ff91-4f34-a654-34be51458a49.woff2") format("woff2"),
+       url("../../docs/assets/fonts/d6167edc-d211-41bb-adfc-0835edff339f.woff") format("woff");
 }
 
-.ff-riforma {
-  font-family: "LL Riforma Regular Web", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
+.ff-caecilia {
+  font-family: "PMNCaeciliaSans Text W04 Rg", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
 }
 
-.ff-riformabold {
-  font-family: "LL Riforma Bold Web", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
-  font-weight: 700;
+.ff-caeciliabold {
+  font-family: "PMNCaeciliaSans Head W04 Bd", apple-system, BlinkMacSystemFont, Helvetica, arial, sans-serif;
 }

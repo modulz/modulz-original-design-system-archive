@@ -1,62 +1,66 @@
 .Heading {
-    font-size: var(--fontSize-600);
-    letter-spacing: -.018em;
-    margin-left: -1.5px;
-    font-weight: 600;
+  font-family: var(--caeciliaBold);
+  font-size: var(--fontSize-600);
+  letter-spacing: -.018em;
+  margin-left: -1.5px;
+  font-weight: 700;
 }
 
 /* Weights */
 
-.Heading.thin { font-weight: 400; }
+.Heading.thin {
+  font-family: var(--caecilia);
+  font-weight: 400;
+}
 
 /* Sizes */
 
 .Heading.size1 {
-    font-size: var(--fontSize-400);
-    letter-spacing: -.018em;
-    margin-left: -1.5px;
+  font-size: var(--fontSize-400);
+  letter-spacing: -.018em;
+  margin-left: -1.5px;
 }
 
 .Heading.size2 {
-    font-size: var(--fontSize-500);
-    letter-spacing: -.018em;
-    margin-left: -1.5px;
+  font-size: var(--fontSize-500);
+  letter-spacing: -.018em;
+  margin-left: -1.5px;
 }
 
 .Heading.size3 {
-    font-size: var(--fontSize-600);
-    letter-spacing: -.018em;
-    margin-left: -1.5px;
+  font-size: var(--fontSize-600);
+  letter-spacing: -.018em;
+  margin-left: -1.5px;
 }
 
 .Heading.size4 {
-    font-size: var(--fontSize-700);
-    letter-spacing: -.018em;
-    margin-left: -1.5px;
+  font-size: var(--fontSize-700);
+  letter-spacing: -.018em;
+  margin-left: -1.5px;
 }
 
 .Heading.size5 {
-    letter-spacing: -.038em;
-    margin-left: -1.5px;
-    font-size: var(--fontSize-800);
+  letter-spacing: -.038em;
+  margin-left: -1.5px;
+  font-size: var(--fontSize-800);
 }
 
 .Heading.size6 {
-    letter-spacing: -0.058em;
-    font-size: var(--fontSize-900);
-    margin-left: -3.2px;
+  letter-spacing: -0.058em;
+  font-size: var(--fontSize-900);
+  margin-left: -3.2px;
 }
 
 .Heading.size7 {
-    letter-spacing: -0.058em;
-    margin-left: -2.5px;
-    font-size: var(--fontSize-10);
+  letter-spacing: -0.058em;
+  margin-left: -2.5px;
+  font-size: var(--fontSize-10);
 }
 
 .Heading.size8 {
-    letter-spacing: -0.058em;
-    margin-left: -2.5px;
-    font-size: var(--fontSize-11);
+  letter-spacing: -0.058em;
+  margin-left: -2.5px;
+  font-size: var(--fontSize-11);
 }
 
 .Heading.size9 {

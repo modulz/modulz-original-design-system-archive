@@ -1,72 +1,73 @@
 /* Base component */
 
 .PillButton {
-    align-items: center;
-    appearance: none;
-    border: none;
-    cursor: pointer;
-    display: inline-flex;
-    flex-shrink: 0;
-    font-weight: 600;
-    justify-content: center;
-    letter-spacing: .6px;
-    outline: none;
-    pointer-events: auto;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition-property: all;
-    transition-duration: var(--transitionDuration-200);
-    transition-timing-function: ease;
-    user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    background-color: var(--gray300);
-    border-radius: 9999px;
-    color: rgba(0,0,0,.8);
-    font-size: var(--fontSize-300);
-    height: var(--spacing-500);
-    line-height: 1;
-    min-width: var(--spacing-500);
-    padding-left: var(--spacing-300);
-    padding-right: var(--spacing-300);
+  align-items: center;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: var(--caeciliaBold);
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .6px;
+  outline: none;
+  pointer-events: auto;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-property: all;
+  transition-duration: var(--transitionDuration-200);
+  transition-timing-function: ease;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: var(--gray300);
+  border-radius: 9999px;
+  color: rgba(0,0,0,.8);
+  font-size: var(--fontSize-300);
+  height: var(--spacing-500);
+  line-height: 1;
+  min-width: var(--spacing-500);
+  padding-left: var(--spacing-300);
+  padding-right: var(--spacing-300);
 }
 .PillButton:hover,
 .PillButton:focus {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, .1)
-    );
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, .1)
+  );
 }
 
 .PillButton:focus {
-    box-shadow: 0 0 0 3px white, 0 0 0 4px var(--blue500);
+  box-shadow: 0 0 0 3px white, 0 0 0 4px var(--blue500);
 }
 
 .PillButton:active {
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.25);
-    background-image: linear-gradient(
-        rgba(0, 0, 0, .1),
-        rgba(0, 0, 0, .1)
-    );
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.25);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, .1),
+    rgba(0, 0, 0, .1)
+  );
 }
 
 /* Size modifiers */
 
 .PillButton.size1 {
-    font-size: var(--fontSize-300);
-    height: var(--spacing-400);
-    line-height: var(--spacing-400);
-    min-width: var(--spacing-400);
-    padding-left: var(--spacing-200);
-    padding-right: var(--spacing-200);
+  font-size: var(--fontSize-300);
+  height: var(--spacing-400);
+  line-height: var(--spacing-400);
+  min-width: var(--spacing-400);
+  padding-left: var(--spacing-200);
+  padding-right: var(--spacing-200);
 }
 
 .PillButton.size3 {
-    font-size: var(--fontSize-400);
-    height: var(--spacing-600);
-    line-height: var(--spacing-600);
-    min-width: var(--spacing-600);
+  font-size: var(--fontSize-400);
+  height: var(--spacing-600);
+  line-height: var(--spacing-600);
+  min-width: var(--spacing-600);
 }
 
 /* Color modifiers */
@@ -96,25 +97,25 @@
 /* Active state */
 
 .PillButton.is-active {
-    background-color: var(--gray300);
-    color: var(--gray500);
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray400);
+  background-color: var(--gray300);
+  color: var(--gray500);
+  box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray400);
 }
 .PillButton.is-active:focus {
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray500), 0 0 0 3px white, 0 0 0 4px var(--blue500);
-    background-image: none;
+  box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray500), 0 0 0 3px white, 0 0 0 4px var(--blue500);
+  background-image: none;
 }
 .PillButton.is-active:hover,
 .PillButton.is-active:active {
-    background-image: none;
-    box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray500);
+  background-image: none;
+  box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px var(--gray500);
 }
 
 /* Disabled state */
 
 .PillButton.is-disabled {
-    background-color: var(--gray200);
-    box-shadow: inset 0 0 0 1px var(--gray300);
-    color: var(--gray400);
-    pointer-events: none;
+  background-color: var(--gray200);
+  box-shadow: inset 0 0 0 1px var(--gray300);
+  color: var(--gray400);
+  pointer-events: none;
 }

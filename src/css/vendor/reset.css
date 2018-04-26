@@ -157,38 +157,10 @@ button:after {
 }
 
 html {
-  font-size: 100%;
   line-height: 1;
 }
 
 html,
 body {
   height: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-small,
-strong,
-input,
-button,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  color: inherit;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: inherit;
-}
-
-mark {
-  background: none;
 }

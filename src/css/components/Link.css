@@ -1,6 +1,7 @@
 .Link {
   color: inherit;
   cursor: pointer;
+  font-family: var(--caecilia);
 }
 
 .Link.noUnderline {

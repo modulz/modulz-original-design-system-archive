@@ -1,34 +1,38 @@
+.Text {
+  font-family: var(--caecilia);
+}
+
 .Text.size7 {
-    font-size: var(--fontSize-900);
-    letter-spacing: -.018em;
-    margin-left: -1.5px;
+  font-size: var(--fontSize-900);
+  letter-spacing: -.018em;
+  margin-left: -1.5px;
 }
 
 .Text.size6 {
-    font-size: var(--fontSize-800);
-    letter-spacing: -.018em;
-    margin-left: -1.5px;
+  font-size: var(--fontSize-800);
+  letter-spacing: -.018em;
+  margin-left: -1.5px;
 }
 
 .Text.size5 {
-    font-size: var(--fontSize-600);
-    letter-spacing: -.02em;
+  font-size: var(--fontSize-600);
+  letter-spacing: -.02em;
 }
 
 .Text.size4 {
-    font-size: var(--fontSize-500);
+  font-size: var(--fontSize-500);
 }
 
 .Text.size3 {
-    font-size: var(--fontSize-400);
+  font-size: var(--fontSize-400);
 }
 
 .Text.size2 {
-    font-size: var(--fontSize-300);
+  font-size: var(--fontSize-300);
 }
 
 .Text.size1 {
-    font-size: var(--fontSize-200);
+  font-size: var(--fontSize-200);
 }
 
 

@@ -6,8 +6,8 @@
   color: var(--gray600);
   cursor: pointer;
   display: inline-flex;
+  font-family: var(--caecilia);
   font-size: var(--fontSize-300);
-  /* font-weight: 600; */
   min-height: var(--spacing-400);
   justify-content: center;
   line-height: 1;

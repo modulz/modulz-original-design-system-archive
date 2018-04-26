@@ -7,8 +7,9 @@
   border-radius: 50%;
   color: var(--white);
   display: inline-flex;
+  font-family: var(--caeciliaBold);
   justify-content: center;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   position: relative;

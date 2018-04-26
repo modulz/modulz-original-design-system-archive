@@ -1,6 +1,7 @@
 .Badge {
     display: inline-flex;
     align-items: center;
+    font-family: var(--caeciliaBold);
     font-size: var(--fontSize-100);
     text-transform: uppercase;
     height: var(--spacing-200);
@@ -8,7 +9,7 @@
     background-color: transparent;
     box-shadow: inset 0 0 0 1px var(--gray400);
     color: var(--gray600);
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 9999px;
     letter-spacing: 1px;
     white-space: nowrap;

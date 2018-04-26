@@ -3,9 +3,10 @@
   align-items: center;
   height: var(--spacing-500);
   justify-content: center;
+  font-family: var(--caeciliaBold);
   font-size: var(--fontSize-200);
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: .8px;
   padding: 0 var(--spacing-200);
   cursor: pointer;

@@ -35,7 +35,7 @@
 
 .Heading.size4 {
   font-size: var(--fontSize-700);
-  letter-spacing: -.01em;
+  letter-spacing: 0;
   margin-left: -1.5px;
 }
 
@@ -52,19 +52,19 @@
 }
 
 .Heading.size7 {
-  letter-spacing: -0.028em;
+  letter-spacing: -0.02em;
   margin-left: -2.5px;
   font-size: var(--fontSize-10);
 }
 
 .Heading.size8 {
-  letter-spacing: -0.028em;
+  letter-spacing: -0.02em;
   margin-left: -2.5px;
   font-size: var(--fontSize-11);
 }
 
 .Heading.size9 {
-    letter-spacing: -0.028em;
+    letter-spacing: -0.02em;
     margin-left: -2.5px;
     font-size: var(--fontSize-12);
 }
@@ -90,7 +90,7 @@
 
     .Heading.bp1-size4 {
         font-size: var(--fontSize-700);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
@@ -107,19 +107,19 @@
     }
 
     .Heading.bp1-size7 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-10);
     }
 
     .Heading.bp1-size8 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-11);
     }
 
     .Heading.bp1-size9 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-12);
     }
@@ -146,7 +146,7 @@
 
     .Heading.bp2-size4 {
         font-size: var(--fontSize-700);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
@@ -163,19 +163,19 @@
     }
 
     .Heading.bp2-size7 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-10);
     }
 
     .Heading.bp2-size8 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-11);
     }
 
     .Heading.bp2-size9 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-12);
     }
@@ -202,7 +202,7 @@
 
     .Heading.bp3-size4 {
         font-size: var(--fontSize-700);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
@@ -219,19 +219,19 @@
     }
 
     .Heading.bp3-size7 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-10);
     }
 
     .Heading.bp3-size8 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-11);
     }
 
     .Heading.bp3-size9 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-12);
     }
@@ -258,7 +258,7 @@
 
     .Heading.bp4-size4 {
         font-size: var(--fontSize-700);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
@@ -275,19 +275,19 @@
     }
 
     .Heading.bp4-size7 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-10);
     }
 
     .Heading.bp4-size8 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-11);
     }
 
     .Heading.bp4-size9 {
-        letter-spacing: -0.028em;
+        letter-spacing: -0.02em;
         margin-left: -2.5px;
         font-size: var(--fontSize-12);
     }

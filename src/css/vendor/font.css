@@ -7,13 +7,13 @@
 }
 
 @font-face {
-  font-family:"PMNCaeciliaSans Text W04 Hv";
+  font-family: "PMNCaeciliaSans Text W04 Hv";
   src: url("../../docs/assets/fonts/95fa91de-084c-4562-a04a-854f04f547cc.woff2") format("woff2"),
        url("../../docs/assets/fonts/6d8e0ea3-7f56-42f6-a836-49d190c7214e.woff") format("woff");
 }
 
 @font-face {
-  font-family:"PMNCaeciliaSans Head W04 Blk";
-  src: url("../../docs/assets/fonts/af14f6c0-0898-4874-9ca8-b1a0331c27ee.woff2") format("woff2"),
-       url("../../docs/assets/fonts/c346ac3d-a7da-4ab0-9228-73508c468197.woff") format("woff");
+  font-family: "PMNCaeciliaSans Head W04 Hv";
+  src: url("../../docs/assets/fonts/f606c770-b08d-4978-a863-3d31de225ce7.woff2") format("woff2"),
+       url("../../docs/assets/fonts/18f2e172-e11c-4baa-8ec3-1713d6a47604.woff") format("woff");
 }

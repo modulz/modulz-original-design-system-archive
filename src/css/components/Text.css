@@ -16,7 +16,7 @@
 
 .Text.size5 {
   font-size: var(--fontSize-600);
-  letter-spacing: -.02em;
+  letter-spacing: -.004em;
 }
 
 .Text.size4 {
@@ -51,7 +51,7 @@
 
     .Text.bp1-size5 {
         font-size: var(--fontSize-600);
-        letter-spacing: -.02em;
+        letter-spacing: -.004em;
     }
 
     .Text.bp1-size4 {
@@ -86,7 +86,7 @@
 
     .Text.bp2-size5 {
         font-size: var(--fontSize-600);
-        letter-spacing: -.02em;
+        letter-spacing: -.004em;
     }
 
     .Text.bp2-size4 {
@@ -121,7 +121,7 @@
 
     .Text.bp3-size5 {
         font-size: var(--fontSize-600);
-        letter-spacing: -.02em;
+        letter-spacing: -.004em;
     }
 
     .Text.bp3-size4 {
@@ -156,7 +156,7 @@
 
     .Text.bp4-size5 {
         font-size: var(--fontSize-600);
-        letter-spacing: -.02em;
+        letter-spacing: -.004em;
     }
 
     .Text.bp4-size4 {

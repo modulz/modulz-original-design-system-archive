@@ -1,7 +1,7 @@
 .Heading {
   font-family: var(--caeciliaHead);
   font-size: var(--fontSize-600);
-  letter-spacing: -.018em;
+  letter-spacing: 0;
   margin-left: -1.5px;
   font-weight: 800;
 }
@@ -17,19 +17,19 @@
 
 .Heading.size1 {
   font-size: var(--fontSize-400);
-  letter-spacing: -.018em;
+  letter-spacing: 0;
   margin-left: -1.5px;
 }
 
 .Heading.size2 {
   font-size: var(--fontSize-500);
-  letter-spacing: -.018em;
+  letter-spacing: 0;
   margin-left: -1.5px;
 }
 
 .Heading.size3 {
   font-size: var(--fontSize-600);
-  letter-spacing: -.018em;
+  letter-spacing: 0;
   margin-left: -1.5px;
 }
 
@@ -72,19 +72,19 @@
 @media (--breakpoint-1) {
     .Heading.bp1-size1 {
         font-size: var(--fontSize-400);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
     .Heading.bp1-size2 {
         font-size: var(--fontSize-500);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
     .Heading.bp1-size3 {
         font-size: var(--fontSize-600);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
@@ -128,19 +128,19 @@
 @media (--breakpoint-2) {
     .Heading.bp2-size1 {
         font-size: var(--fontSize-400);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
     .Heading.bp2-size2 {
         font-size: var(--fontSize-500);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
     .Heading.bp2-size3 {
         font-size: var(--fontSize-600);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
@@ -184,19 +184,19 @@
 @media (--breakpoint-3) {
     .Heading.bp3-size1 {
         font-size: var(--fontSize-400);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
     .Heading.bp3-size2 {
         font-size: var(--fontSize-500);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
     .Heading.bp3-size3 {
         font-size: var(--fontSize-600);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
@@ -240,19 +240,19 @@
 @media (--breakpoint-4) {
     .Heading.bp4-size1 {
         font-size: var(--fontSize-400);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
     .Heading.bp4-size2 {
         font-size: var(--fontSize-500);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 
     .Heading.bp4-size3 {
         font-size: var(--fontSize-600);
-        letter-spacing: -.018em;
+        letter-spacing: 0;
         margin-left: -1.5px;
     }
 

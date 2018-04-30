@@ -1,0 +1,12 @@
+.CodeBlock {
+  background-color: var(--gray100);
+  margin: 0;
+  font-size: var(--fontSize-300);
+  color: var(--gray600);
+  font-family: var(--monospace);
+  display: block;
+  white-space: pre;
+  line-height: var(--leading-400);
+  overflow-x: auto;
+  padding: var(--spacing-200);
+}

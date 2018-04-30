@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Modulz – An open-source design system</title>
 </head>
-    <body class="ff-caecilia color-gray900 tr-optimizeLegibility">
+    <body>
 
         <button class="Button hollow" data-toggle="sidedrawer" data-target="sideDrawer" style="position: fixed; top: 32px; left: 32px; z-index: 6;">
             <svg class="Icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -23,30 +23,32 @@
                   <h1 class="Heading size6 bp2-size8 lh-7 bp2-lh-9">Badge</h1>
                 </div>
                 <div>
-                    <p class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray500">A small marker for providing
+                    <p class="Heading size3 bp2-size5 lh-5 bp2-lh-7 thin color-gray600">A small marker for providing
                       context and semantic meaning to parts of a UI&mdash;a pending application,
                       a new feature, a warning message etc.</p>
                 </div>
             </header>
 
             <section class="Section" style="padding-top: 0;">
-                <div class="mb-1">
-                    <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Default badge</h2>
+              <div class="mb-1">
+                  <h2 class="Heading size3 bp2-size4 lh-4 bp2-lh-5">Default badge</h2>
+              </div>
+              <div class="mb-3">
+                  <p class="Text size4 lh-5 bp1-lh-6">Use a default badge to mark content
+                    which is notable but not particularly significant.</p>
+              </div>
+              <div class="Card">
+                <div class="padding-3 bw-0 bbw-1 bs-solid borderColor-gray300">
+                  <div class="display-flex jc-center ml-fc">
+                    <span class="Badge">Default</span>
+                  </div>
                 </div>
-                <div class="mb-3">
-                    <p class="Text size4 lh-5 bp1-lh-6">Use a default badge to mark content
-                      which is notable but not particularly significant.</p>
-                </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
-                    <div class="display-flex jc-center ml-fc">
-                        <span class="Badge">Default</span>
-                    </div>
-                </div>
-                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;span class="Badge"&gt;Default&lt;/span&gt;</code></pre>
-                    </figure>
-                </div>
+                <figure>
+                  <pre class="CodeBlock">
+&lt;span class="Badge"&gt;Default&lt;/span&gt;
+</pre>
+                </figure>
+              </div>
             </section>
 
             <section class="Section">
@@ -57,31 +59,31 @@
                     <p class="Text size4 lh-5 bp1-lh-6">When content is more significant, you
                       can apply a stronger semantic.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                <div class="Card">
+                  <div class="padding-3 bw-0 bbw-1 bs-solid borderColor-gray300">
                     <div class="display-flex jc-center ml-fc">
-                        <div class="mr-4">
-                            <span class="Badge primary">Primary</span>
-                        </div>
-                        <div class="mr-4">
-                            <span class="Badge positive">Positive</span>
-                        </div>
-                        <div class="mr-4">
-                            <span class="Badge intermediary">Intermediary</span>
-                        </div>
-                        <div class="mr-4">
-                            <span class="Badge negative">Negative</span>
-                        </div>
-                        <div class="mr-4">
-                            <span class="Badge gold">Gold</span>
-                        </div>
-                        <div class="mr-4">
-                            <span class="Badge bronze">Bronze</span>
-                        </div>
+                      <div class="mr-4">
+                        <span class="Badge primary">Primary</span>
+                      </div>
+                      <div class="mr-4">
+                        <span class="Badge positive">Positive</span>
+                      </div>
+                      <div class="mr-4">
+                        <span class="Badge intermediary">Intermediary</span>
+                      </div>
+                      <div class="mr-4">
+                        <span class="Badge negative">Negative</span>
+                      </div>
+                      <div class="mr-4">
+                        <span class="Badge gold">Gold</span>
+                      </div>
+                      <div class="mr-4">
+                        <span class="Badge bronze">Bronze</span>
+                      </div>
                     </div>
-                </div>
-                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;!-- Signifies new, important or active content. --&gt;
+                  </div>
+                  <figure>
+                    <pre class="CodeBlock">&lt;!-- Signifies new, important or active content. --&gt;
 &lt;span class="Badge primary"&gt;Primary&lt;/span&gt;
 
 &lt;!-- Signifies secure, successful or completed content. --&gt;
@@ -97,9 +99,10 @@
 &lt;span class="Badge gold"&gt;Gold&lt;/span&gt;
 
 &lt;!-- Signifies subpremium content. --&gt;
-&lt;span class="Badge bronze"&gt;Bronze&lt;/span&gt;</code></pre>
-                    </figure>
+&lt;span class="Badge bronze"&gt;Bronze&lt;/span&gt;</pre>
+                  </figure>
                 </div>
+              </div>
             </section>
 
             <section class="Section">
@@ -110,7 +113,8 @@
                     <p class="Text size4 lh-5 bp1-lh-6">There are two sizes to choose from,
                       applied using an additional class. Size 1 is the default.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                <div class="Card">
+                  <div class="padding-3 bw-0 bbw-1 bs-solid borderColor-gray300">
                     <div class="display-flex ai-center jc-center ml-fc">
                       <div class="mr-2">
                         <span class="Badge">Size 1</span>
@@ -119,13 +123,13 @@
                         <span class="Badge size2">Size 2</span>
                       </div>
                     </div>
+                  </div>
+                  <figure>
+                    <pre class="CodeBlock">&lt;span class="Badge size1"&gt;Size 1&lt;/span&gt;
+&lt;span class="Badge size2"&gt;Size 2&lt;/span&gt;</pre>
+                  </figure>
                 </div>
-                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;span class="Badge size1"&gt;Size 1&lt;/span&gt;
-&lt;span class="Badge size2"&gt;Size 2&lt;/span&gt;</code></pre>
-                    </figure>
-                </div>
+              </div>
             </section>
 
             <section class="Section">
@@ -138,7 +142,8 @@
                       badges and a 16dp icon with larger badges. The icon is wrapped in a
                       <code class="Code">div</code> to provide the necessary margin.</p>
                 </div>
-                <div class="bw-1 bs-solid borderColor-smoke padding-3">
+                <div class="Card">
+                  <div class="padding-3 bw-0 bbw-1 bs-solid borderColor-gray300">
                     <div class="display-flex ai-center jc-center ml-fc">
                       <div class="mr-2">
                         <span class="Badge">
@@ -165,10 +170,9 @@
                         </span>
                       </div>
                     </div>
-                </div>
-                <div class="oy-hidden ox-auto" style="flex-basis: 50%;">
-                    <figure class="bc-gray100 btw-0 brw-1 bbw-1 blw-1 bs-solid borderColor-smoke oy-hidden ox-hidden height-100">
-                        <pre><code class="ff-monospace fs-2 height-100 ox-hidden padding-2 Scrollbar" style="line-height: 24px; font-family: 'Operator SSm A', 'Operator SSm B';">&lt;span class="Badge"&gt;
+                  </div>
+                  <figure>
+                    <pre class="CodeBlock">&lt;span class="Badge"&gt;
   &lt;div class="mr-1"&gt;
     &lt;svg class="Icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"&gt;
       &lt;circle cx="12" cy="12" r="10"&gt;&lt;/circle&gt;
@@ -188,9 +192,10 @@
     &lt;/svg&gt;
   &lt;/div&gt;
   Default
-&lt;/span&gt;</code></pre>
-                    </figure>
+&lt;/span&gt;</pre>
+                  </figure>
                 </div>
+              </div>
             </section>
         </main>
 
